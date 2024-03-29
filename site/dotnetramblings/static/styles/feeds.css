@@ -1,0 +1,54 @@
+.feed-container {  
+    width: 100%;  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    margin-top: 20px;
+}  
+  
+.feed-card {    
+    width: 30%;    
+    margin-bottom: 20px;    
+    border: 1px solid #ddd;    
+    border-radius: 5px;    
+    overflow: hidden;    
+    display: flex;    
+    flex-direction: column;  
+    min-height: 200px;
+}    
+
+  
+.feed-image {  
+    width: 100%;  
+    height: auto;  
+}  
+  
+.feed-content {  
+    padding: 15px;
+    flex-grow: 1;  
+}  
+  
+.feed-title {  
+    margin: 0;  
+    font-size: 20px;  
+    color: #333;  
+    font-weight: bold;
+}  
+  
+.feed-description {  
+    font-size: 16px;  
+    color: #666;  
+}  
+  
+.feed-author, .feed-language {  
+    font-size: 14px;  
+    color: #999;  
+}  
+  
+.feed-website {  
+    display: inline-block;  
+    margin-top: 10px;  
+    color: #337ab7;  
+    text-decoration: none;  
+}  
+

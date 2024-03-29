@@ -1,0 +1,30 @@
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = -110
+
+[[main]]
+  name = "Feeds"
+  url = "feeds/"
+  weight = -109
+
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -108
+
+[[main]]
+  name = "Contribute"
+  url = "contribute/"
+  weight = -107
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/karlospn"
+[[social]]
+  name = "linkedin"
+  weight = 3
+  url = "https://www.linkedin.com/carlosponsn"
+

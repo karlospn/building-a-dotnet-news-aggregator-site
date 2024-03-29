@@ -1,0 +1,28 @@
+{{- define "main" }} 
+<link rel="stylesheet" href="/styles/feeds.css"/>  
+<div class="grid-inverse wrap content">
+    <div class="feed-container">
+        {{ range .Params.feeds }}    
+            <div class="feed-card">    
+                <div class="feed-content">    
+                    {{ if .title }}  
+                    <h2 class="feed-title">{{ .title }}</h2>    
+                    {{ end }}  
+                    {{ if .description }}  
+                    <p class="feed-description">{{ .description }}</p>    
+                    {{ end }}  
+                    {{ if .author }}  
+                    <p class="feed-author">Author: {{ .author }}</p>    
+                    {{ end }}  
+                    {{ if .language }}  
+                    <p class="feed-language">Language: {{ .language }}</p>    
+                    {{ end }}  
+                    {{ if .website }}  
+                    <a class="feed-website" href="{{ .website }}">Visit Website</a>    
+                    {{ end }}   
+                </div>    
+            </div>    
+        {{ end }}    
+    </div> 
+</div>  
+{{ end }}
