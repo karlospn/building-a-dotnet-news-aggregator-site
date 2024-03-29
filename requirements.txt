@@ -1,0 +1,4 @@
+feedparser
+pyyaml
+python-dateutil
+beautifulsoup4
