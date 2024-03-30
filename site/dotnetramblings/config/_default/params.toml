@@ -4,7 +4,7 @@ enableSearch = true
 # socials
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 # introURL = "false"
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+description = "A site where you can find the latest news about .NET related content and also about Azure, AWS, Docker, Devops and GenAI." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 keywords = ["dotnet", "azure", "aws", ".net", "containers", "devops", "microsoft", "tech", "news"]
 
 showShare = false
@@ -47,7 +47,7 @@ fontsDir = "fonts/" # without a leading forward slash
 fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/site_logo_3.png"
+logo = "logos/site_logo.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.

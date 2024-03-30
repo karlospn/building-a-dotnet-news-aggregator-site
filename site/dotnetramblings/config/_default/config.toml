@@ -2,9 +2,9 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://example.com/"  # Include trailing slash
 title = "My .NET Ramblings" 
-copyright = ""
+copyright = "My .NET Ramblings"
 # canonifyurls = true
-paginate = 10
+paginate = 20
 theme = "hugo-clarity"
 disqusShortname = ""
 
