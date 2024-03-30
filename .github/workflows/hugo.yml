@@ -1,0 +1,39 @@
+name: Hugo CI site publish
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore: 
+      - '.github/**'
+      - 'data/**'
+      - '.gitignore'
+      - 'clean.py'
+      - 'feeds.py'
+      - 'news.py'
+      - 'README.md'
+      - 'requirements.txt'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true 
+          fetch-depth: 1   
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build  
+        run: hugo --source /site/dotnetramblings  
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: karlospn/mydotnetramblings-news-site
+          publish_branch: master
+          publish_dir: ./site/dotnetramblings/public
