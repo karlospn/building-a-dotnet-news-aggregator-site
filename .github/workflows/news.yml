@@ -1,0 +1,43 @@
+name: Get and commit latest news 
+  
+on:  
+  schedule:  
+    - cron:  '0 */6 * * *'
+  
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+  
+    steps:  
+    - uses: actions/checkout@v2 
+  
+    - name: Set up Python  
+      uses: actions/setup-python@v2  
+      with:  
+        python-version: '3.x'
+  
+    - name: Install dependencies  
+      run: |  
+        python -m pip install --upgrade pip  
+        pip install -r requirements.txt   
+  
+    - name: Clean old news 
+      run: |  
+        python clean.py  
+
+    - name: Refresh feed list
+      run: |  
+        python feeds.py  
+
+    - name: Get latest news
+      run: |  
+        python news.py  
+
+    - name: Commit changes
+      run: | 
+        git config --local user.email "action@github.com"  
+        git config --local user.name "GitHub Action"  
+        git status
+        # git add .  
+        # git commit -m "Automated script execution" 
+        # git push  
