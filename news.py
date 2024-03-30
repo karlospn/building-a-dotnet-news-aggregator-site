@@ -5,6 +5,27 @@ import glob
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from dateutil import parser as dateparser
+from urllib.parse import urlparse  
+
+def calculate_thumbail_image(title):
+    s = title.lower()  
+    if 'dotnet' in s or '.net' in s or 'c#' in s:  
+        return 'images/dotnet.png'  
+    elif 'azure' in s:  
+        return 'images/azure.png'  
+    elif 'amazon' in s or 'aws' in s:  
+        return 'images/aws.png'  
+    elif 'container' in s or 'docker' in s:  
+        return 'images/docker.png'  
+    elif 'devops' in s or 'ci/cd' in s:  
+        return 'images/devops.png'  
+    else:  
+        return 'images/dotnet.png'
+
+def get_website_name(url):  
+    parsed_uri = urlparse(url)  
+    domain = '{uri.netloc}'.format(uri=parsed_uri)  
+    return domain.split('.')[0]  
 
 def parse_yml_files(file_paths):
     rss_urls = []
@@ -56,6 +77,9 @@ def convert_rss_data_to_md(rss_entry):
     summary = rss_entry["summary"]
     soup = BeautifulSoup(summary, 'html.parser')
     summary = soup.get_text()
+    image = calculate_thumbail_image(title)
+
+    site_name = get_website_name(link)
 
     print(f"{title}")
     template = f"""---
@@ -64,10 +88,12 @@ date: {published}
 link: {link}
 showShare: false
 showReadTime: false
+thumbnail: {image}
+tags: ["{site_name}"]
 ---
-- Link to article: {link}
+{summary}
 
-{summary}"""
+- Link to article: {link}"""
     return template
 
 
