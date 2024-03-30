@@ -7,20 +7,24 @@ from datetime import datetime, timedelta
 from dateutil import parser as dateparser
 from urllib.parse import urlparse  
 
-def calculate_thumbail_image(title):
-    s = title.lower()  
-    if 'dotnet' in s or '.net' in s or 'c#' in s:  
+def calculate_thumbail_image(title, description):
+    s1 = title.lower()  
+    s2 = description.tolower()
+
+    if 'dotnet' in s1 or '.net' in s1 or 'c#' in s1 or 'dotnet' in s2 or '.net' in s2 or 'c#' in s2:  
         return 'images/dotnet.png'  
-    elif 'azure' in s:  
+    elif 'azure' in s1 or 'azure' in s2:  
         return 'images/azure.png'  
-    elif 'amazon' in s or 'aws' in s:  
-        return 'images/aws.png'  
-    elif 'container' in s or 'docker' in s:  
-        return 'images/docker.png'  
-    elif 'devops' in s or 'ci/cd' in s:  
-        return 'images/devops.png'  
+    elif 'amazon' in s1 or 'aws' in s1 or 'amazon' in s2 or 'aws' in s2:  
+        return 'images/aws.png'
+    elif 'iac' in s1 or 'terraform' in s1 or 'iac' in s2 or 'terraform' in s2:  
+        return 'images/iac.png'  
+    elif 'container' in s1 or 'docker' in s1 or 'container' in s2 or 'docker' in s2:  
+        return 'images/container.png'  
+    elif 'devops' in s1 or 'ci/cd' in s1 or 'devops' in s2 or 'ci/cd' in s2:  
+        return 'images/devops.png' 
     else:  
-        return 'images/dotnet.png'
+        return 'images/dotnet.png'  
 
 def get_website_name(url):  
     parsed_uri = urlparse(url)  
@@ -41,7 +45,8 @@ def fetch_rss_feeds(rss_urls):
         try:
             feed = feedparser.parse(url)
 
-            today = datetime.now()  
+            today = datetime.now()
+            # today = datetime.now - timedelta(4) 
             today = today.replace(hour=0, minute=0, second=0, microsecond=0)  
 
             for entry in feed.entries:
@@ -77,7 +82,7 @@ def convert_rss_data_to_md(rss_entry):
     summary = rss_entry["summary"]
     soup = BeautifulSoup(summary, 'html.parser')
     summary = soup.get_text()
-    image = calculate_thumbail_image(title)
+    image = calculate_thumbail_image(title, summary)
 
     site_name = get_website_name(link)
 
@@ -102,6 +107,8 @@ def generate_hugo_content(news_items):
     for item in news_items:
         md = convert_rss_data_to_md(item)
         today = datetime.today().strftime("%d_%m_%Y")
+        # today = datetime.today() - timedelta(4)
+        # today = today.strftime("%d_%m_%Y")
         directory = f"site/dotnetramblings/content/post/{today}"
 
         if not os.path.exists(directory):
