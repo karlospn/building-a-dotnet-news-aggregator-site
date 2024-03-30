@@ -9,3 +9,5 @@ for dir_name in os.listdir(base_path):
         dir_time = datetime.strptime(dir_name, "%d_%m_%Y")  
         if dir_time < datetime.now() - timedelta(days=7):  
             shutil.rmtree(dir_path)  
+        if dir_time == datetime.now().replace(hour=0, minute=0, second=0, microsecond=0):  
+            shutil.rmtree(dir_path)  
