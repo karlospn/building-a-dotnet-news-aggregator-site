@@ -12,7 +12,6 @@ If you wish to contribute by adding an RSS feed from your own site or a site you
 
 Should you encounter any issues or have any questions, feel free to reach out to me on GitHub or LinkedIn.
 
-
 ## Contact me
 
 <blockquote>
