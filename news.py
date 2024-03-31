@@ -26,16 +26,24 @@ def calculate_thumbail_image(title, description):
     else:  
         return 'images/dotnet.png'  
 
-def get_website_name(url):  
-    parsed_uri = urlparse(url)  
-    domain_parts = '{uri.netloc}'.format(uri=parsed_uri).split('.')  
-    if domain_parts[0] == 'www':  
-        domain_parts = domain_parts[1:]  
-    domain = '.'.join(domain_parts)  
+def get_website_name(url):    
+    parsed_uri = urlparse(url)    
+    domain_parts = '{uri.netloc}'.format(uri=parsed_uri).split('.')    
+   
+    if domain_parts[0] == 'www':    
+        domain_parts = domain_parts[1:]    
+    
+    domain = '.'.join(domain_parts)    
     path = '{uri.path}'.format(uri=parsed_uri)  
-    if path != '/':  
-        domain += path
-    return domain
+      
+    if path.endswith('/'):  
+        path = path[:-1]  
+  
+    if path != '/':    
+        domain += path 
+ 
+    return domain  
+
 
 def parse_yml_files(file_paths):
     rss_data = []
