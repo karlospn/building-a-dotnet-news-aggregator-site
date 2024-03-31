@@ -22,7 +22,7 @@ Even if your content isn't strictly about .NET, but focuses on software developm
 3 - Create a new ``yml`` file with the following attributes:
  - ``Feed (required)``: The URL of the RSS feed.
  - ``Title (required)``: The name of your site.
- - ``Website (optional)``: The URL of your site.
+ - ``Website (required)``: The URL of your site.
  - ``Description (optional)``:  A brief description of your site's content.
  - ``Author (optional)``: The name of the site's author.
  - ``Language (optional)``: The language of the site.

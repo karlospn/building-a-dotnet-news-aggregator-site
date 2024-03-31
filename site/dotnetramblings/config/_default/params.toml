@@ -4,8 +4,8 @@ enableSearch = true
 # socials
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 # introURL = "false"
-description = "A site where you can find the latest news about .NET related content and also about Azure, AWS, Docker, Devops and GenAI." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-keywords = ["dotnet", "azure", "aws", ".net", "containers", "devops", "microsoft", "tech", "news"]
+description = "Stay updated with the latest news and insights on .NET, Azure, AWS, Docker, DevOps, and GenAI. Our website is your one-stop destination for all things tech, offering comprehensive and up-to-date information to help you stay ahead in the technology world." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+keywords = ["dotnet", "azure", "aws", ".net", "containers", "devops", "microsoft", "tech", "news", "genai", "ai", "ml", "gpt", "chatgpt"]
 
 showShare = false
 
@@ -47,7 +47,7 @@ fontsDir = "fonts/" # without a leading forward slash
 fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/site_logo.png"
+logo = "logos/logo.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.

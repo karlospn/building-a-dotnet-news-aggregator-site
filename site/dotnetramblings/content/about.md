@@ -4,11 +4,13 @@ date = "2024-02-28"
 aliases = ["about-us", "contact"]
 +++
 
-This site is a .NET news aggregator site.
+This site is an automated news aggregator. It fetches news from multiple RSS feeds, presenting them all on a single page for your convenience. The news primarily focuses on .NET content, but also includes topics such as cloud computing, containers, DevOps, and Generative AI, among others.
 
-The site gets automatically updated every 6 hours with the latest .NET news from various RSS feeds.
+The site is automatically updated every 3 hours with the latest news from various RSS feeds.
 
-Should you encounter any issues or have any questions, don't hesitate to reach out to me on GitHub or LinkedIn.
+If you wish to contribute by adding an RSS feed from your own site or a site you favor, please visit the "Contribute" section.
+
+Should you encounter any issues or have any questions, feel free to reach out to me on GitHub or LinkedIn.
 
 
 ## Contact me
