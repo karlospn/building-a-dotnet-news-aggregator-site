@@ -68,9 +68,9 @@ def fetch_rss_feeds(rss_data):
         try:
             feed = feedparser.parse(data['feed'])
 
-            # today = datetime.now()
-            today = datetime.now() - timedelta(7) 
-            today = today.replace(hour=0, minute=0, second=0, microsecond=0)  
+            today = datetime.now()
+            # today = datetime.now() - timedelta(7) 
+            # today = today.replace(hour=0, minute=0, second=0, microsecond=0)  
 
             for entry in feed.entries:
                 post_date = dateparser.parse(entry.published)
@@ -129,9 +129,9 @@ def generate_hugo_content(news_items):
     count = 0
     for item in news_items:
         md = convert_rss_data_to_md(item)
-        # today = datetime.today().strftime("%d_%m_%Y")
-        today = datetime.today() - timedelta(7)
-        today = today.strftime("%d_%m_%Y")
+        today = datetime.today().strftime("%d_%m_%Y")
+        # today = datetime.today() - timedelta(7)
+        # today = today.strftime("%d_%m_%Y")
         directory = f"site/dotnetramblings/content/post/{today}"
 
         if not os.path.exists(directory):
