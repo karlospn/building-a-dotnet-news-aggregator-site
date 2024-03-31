@@ -41,4 +41,6 @@ jobs:
         git status
         git add .  
         git diff --quiet && git diff --staged --quiet || git commit -m "Automated script execution"  
-        git push  
+        git push
+      env:  
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }} 
