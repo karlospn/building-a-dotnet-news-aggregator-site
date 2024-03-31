@@ -12,6 +12,7 @@ on:
       - 'news.py'
       - 'README.md'
       - 'requirements.txt'
+  workflow_dispatch:
 
 jobs:
   build:
