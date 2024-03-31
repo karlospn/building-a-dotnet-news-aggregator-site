@@ -7,12 +7,24 @@ feeds:
   - feed: https://blogs.msdn.microsoft.com/webdev/feed/
     title: .NET WebDev Blog
     website: https://devblogs.microsoft.com/webdev/
+  - feed: https://aws.amazon.com/blogs/dotnet/feed/
+    title: .NET on AWS Blog
+    website: https://aws.amazon.com/blogs/dotnet
+  - feed: https://azure.microsoft.com/en-us/blog/feed/
+    title: Microsoft Azure Blog
+    website: https://azure.microsoft.com/en-us/blog/
+  - feed: https://build5nines.com/feed/
+    title: Build5Nines
+    website: https://build5nines.com
   - feed: https://code-maze.com/feed/
     title: Code Maze
     website: https://code-maze.com
   - feed: http://codeopinion.com/feed/
     title: Code Opinion
     website: https://codeopinion.com/
+  - feed: https://www.docker.com/feed/
+    title: Docker
+    website: https://www.docker.com
   - feed: https://blogs.msdn.microsoft.com/dotnet/feed/
     title: .NET Blog
     website: https://devblogs.microsoft.com/webdev/
