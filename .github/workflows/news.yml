@@ -39,6 +39,6 @@ jobs:
         git config --local user.email "action@github.com"  
         git config --local user.name "GitHub Action"  
         git status
-        # git add .  
-        # git commit -m "Automated script execution" 
-        # git push  
+        git add .  
+        git commit -m "Automated script execution" 
+        git push  

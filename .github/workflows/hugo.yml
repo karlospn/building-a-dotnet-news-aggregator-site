@@ -2,7 +2,7 @@ name: Hugo CI site publish
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore: 
       - '.github/**'
       - 'data/**'
