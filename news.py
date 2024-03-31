@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 
 def calculate_thumbail_image(title, description):
     s1 = title.lower()  
-    s2 = description.tolower()
+    s2 = description.lower()
 
     if 'dotnet' in s1 or '.net' in s1 or 'c#' in s1 or 'dotnet' in s2 or '.net' in s2 or 'c#' in s2:  
         return 'images/dotnet.png'  
@@ -32,18 +32,27 @@ def get_website_name(url):
     return domain.split('.')[0]  
 
 def parse_yml_files(file_paths):
-    rss_urls = []
+    rss_data = []
     for file_path in file_paths:
         with open(file_path, 'r') as f:
             data = yaml.safe_load(f)
-            rss_urls.append(data['Feed'])
-    return rss_urls
+            
+            if 'Feed' not in data or 'Title' not in data or 'Website' not in data: 
+                print(f"Missing basic data. Skipped Feed.") 
+                continue
 
-def fetch_rss_feeds(rss_urls):
+            rss_data.append({
+                'feed': data['Feed'],
+                'website': data['Website']
+            })
+
+    return rss_data
+
+def fetch_rss_feeds(rss_data):
     news_items = []
-    for url in rss_urls:
+    for data in rss_data:
         try:
-            feed = feedparser.parse(url)
+            feed = feedparser.parse(data['feed'])
 
             today = datetime.now()
             # today = datetime.now - timedelta(4) 
@@ -62,10 +71,11 @@ def fetch_rss_feeds(rss_urls):
                     'title': entry.title,
                     'url': entry.link,
                     'date': post_date.isoformat(),
-                    'summary': entry.summary
+                    'summary': entry.summary,
+                    'website': data['website']
                 })
         except Exception as e:
-            print(f"Failed to parse feed {url}: {e}")
+            print(f"Failed to parse feed {data}: {e}")
             
     news_items = sorted(news_items, key=lambda x: x['date'], reverse=True)  
     return news_items
@@ -83,8 +93,7 @@ def convert_rss_data_to_md(rss_entry):
     soup = BeautifulSoup(summary, 'html.parser')
     summary = soup.get_text()
     image = calculate_thumbail_image(title, summary)
-
-    site_name = get_website_name(link)
+    site_name = get_website_name(rss_entry['website'])
 
     print(f"{title}")
     template = f"""---
@@ -121,8 +130,8 @@ def generate_hugo_content(news_items):
 def main():
     folder_path = './data/'
     file_paths = glob.glob(os.path.join(folder_path, '*.yml'))
-    rss_urls = parse_yml_files(file_paths)
-    news_items = fetch_rss_feeds(rss_urls)
+    rss_data = parse_yml_files(file_paths)
+    news_items = fetch_rss_feeds(rss_data)
     generate_hugo_content(news_items)
 
 if __name__ == "__main__":
