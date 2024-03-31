@@ -1,54 +1,59 @@
-.feed-container {  
-    width: 100%;  
-    display: flex;  
-    flex-wrap: wrap;  
-    justify-content: space-between;  
-    margin-top: 20px;
-}  
-  
-.feed-card {    
-    width: 30%;    
-    margin-bottom: 20px;    
-    border: 1px solid #ddd;    
-    border-radius: 5px;    
-    overflow: hidden;    
+.feed-container {    
+    width: 100%;    
     display: flex;    
-    flex-direction: column;  
-    min-height: 200px;
+    flex-wrap: wrap;    
+    justify-content: space-between;    
+    margin-top: 20px;  
 }    
-
+    
+.feed-card {      
+    width: 45%;      
+    margin-bottom: 20px;      
+    border: 1px solid #ddd;      
+    border-radius: 10px;      
+    overflow: hidden;      
+    display: flex;      
+    flex-direction: column;    
+    min-height: 200px;  
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);  
+    background-color: #F5F5F5;  /* Light gray background */  
+}      
   
-.feed-image {  
-    width: 100%;  
-    height: auto;  
-}  
+.feed-image {    
+    width: 100%;    
+    height: auto;    
+}    
+    
+.feed-content {    
+    padding: 20px;  
+    flex-grow: 1;    
+}    
+    
+.feed-title {    
+    margin: 0;    
+    font-size: 20px;    
+    color: #111;    
+    font-weight: bold;  
+}    
+    
+.feed-description {    
+    font-size: 16px;    
+    color: #666;    
+}    
+    
+.feed-author, .feed-language {    
+    font-size: 14px;    
+    color: #999;    
+}    
+    
+.feed-website {    
+    display: inline-block;    
+    margin-top: 10px;    
+    color: #337ab7;    
+    text-decoration: none;    
+    transition: color 0.3s ease;  
+}    
   
-.feed-content {  
-    padding: 15px;
-    flex-grow: 1;  
+.feed-website:hover {  
+    color: #23527c;  
 }  
-  
-.feed-title {  
-    margin: 0;  
-    font-size: 20px;  
-    color: #333;  
-    font-weight: bold;
-}  
-  
-.feed-description {  
-    font-size: 16px;  
-    color: #666;  
-}  
-  
-.feed-author, .feed-language {  
-    font-size: 14px;  
-    color: #999;  
-}  
-  
-.feed-website {  
-    display: inline-block;  
-    margin-top: 10px;  
-    color: #337ab7;  
-    text-decoration: none;  
-}  
-
