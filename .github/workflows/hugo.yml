@@ -35,5 +35,5 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: karlospn/mydotnetramblings-news-site
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./site/dotnetramblings/public
