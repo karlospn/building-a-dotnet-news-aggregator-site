@@ -28,8 +28,9 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build  
-        run: hugo --source /site/dotnetramblings  
+      - name: Build
+        working-directory: ./site/dotnetramblings
+        run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
