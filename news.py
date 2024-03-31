@@ -125,6 +125,7 @@ def generate_hugo_content(news_items):
 
         with open(f"{directory}/{today}_{count}.md", "w", encoding='utf-8') as file:
              file.write(md)
+             print(file)
         count += 1
 
 def main():
