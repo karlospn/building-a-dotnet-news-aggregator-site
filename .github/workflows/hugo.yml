@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: karlospn/mydotnetramblings-news-site
           publish_branch: master
           publish_dir: ./site/dotnetramblings/public
