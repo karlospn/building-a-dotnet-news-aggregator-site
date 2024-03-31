@@ -13,6 +13,8 @@ def calculate_thumbail_image(title, description):
 
     if 'dotnet' in s1 or '.net' in s1 or 'c#' in s1 or 'dotnet' in s2 or '.net' in s2 or 'c#' in s2:  
         return 'images/dotnet.png'  
+    elif 'blazor' in s1 or 'blazor' in s2:  
+        return 'images/blazor.png' 
     elif 'azure' in s1 or 'azure' in s2:  
         return 'images/azure.png'  
     elif 'amazon' in s1 or 'aws' in s1 or 'amazon' in s2 or 'aws' in s2:  
@@ -23,6 +25,8 @@ def calculate_thumbail_image(title, description):
         return 'images/docker.png'  
     elif 'devops' in s1 or 'ci/cd' in s1 or 'devops' in s2 or 'ci/cd' in s2:  
         return 'images/devops.png' 
+    elif 'genai' in s1 or 'gpt' in s1 or 'chatgpt' in s1 or 'ai' in s1 or 'genai' in s2 or 'gpt' in s2 or 'chatgpt' in s2 or 'ai' in s2:  
+        return 'images/ai.png' 
     else:  
         return 'images/dotnet.png'  
 
