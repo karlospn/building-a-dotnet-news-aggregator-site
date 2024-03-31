@@ -20,7 +20,7 @@ def calculate_thumbail_image(title, description):
     elif 'iac' in s1 or 'terraform' in s1 or 'iac' in s2 or 'terraform' in s2:  
         return 'images/iac.png'  
     elif 'container' in s1 or 'docker' in s1 or 'container' in s2 or 'docker' in s2:  
-        return 'images/container.png'  
+        return 'images/docker.png'  
     elif 'devops' in s1 or 'ci/cd' in s1 or 'devops' in s2 or 'ci/cd' in s2:  
         return 'images/devops.png' 
     else:  
@@ -28,8 +28,14 @@ def calculate_thumbail_image(title, description):
 
 def get_website_name(url):  
     parsed_uri = urlparse(url)  
-    domain = '{uri.netloc}'.format(uri=parsed_uri)  
-    return domain.split('.')[0]  
+    domain_parts = '{uri.netloc}'.format(uri=parsed_uri).split('.')  
+    if domain_parts[0] == 'www':  
+        domain_parts = domain_parts[1:]  
+    domain = '.'.join(domain_parts)  
+    path = '{uri.path}'.format(uri=parsed_uri)  
+    if path != '/':  
+        domain += path
+    return domain
 
 def parse_yml_files(file_paths):
     rss_data = []
@@ -55,8 +61,8 @@ def fetch_rss_feeds(rss_data):
             feed = feedparser.parse(data['feed'])
 
             today = datetime.now()
-            # today = datetime.now - timedelta(4) 
-            today = today.replace(hour=0, minute=0, second=0, microsecond=0)  
+            # today = datetime.now() - timedelta(8) 
+            # today = today.replace(hour=0, minute=0, second=0, microsecond=0)  
 
             for entry in feed.entries:
                 post_date = dateparser.parse(entry.published)
@@ -116,7 +122,7 @@ def generate_hugo_content(news_items):
     for item in news_items:
         md = convert_rss_data_to_md(item)
         today = datetime.today().strftime("%d_%m_%Y")
-        # today = datetime.today() - timedelta(4)
+        # today = datetime.today() - timedelta(8)
         # today = today.strftime("%d_%m_%Y")
         directory = f"site/dotnetramblings/content/post/{today}"
 
@@ -125,7 +131,7 @@ def generate_hugo_content(news_items):
 
         with open(f"{directory}/{today}_{count}.md", "w", encoding='utf-8') as file:
              file.write(md)
-             print(file)
+
         count += 1
 
 def main():
