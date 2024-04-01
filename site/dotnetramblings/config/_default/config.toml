@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://news.mytechramblings.com/"  # Include trailing slash
+baseurl = "https://www.dotnetramblings.com/"  # Include trailing slash
 title = ".NET Ramblings" 
 copyright = ".NET Ramblings"
 # canonifyurls = true
