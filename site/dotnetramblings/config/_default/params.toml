@@ -10,7 +10,7 @@ keywords = ["dotnet", "azure", "aws", ".net", "containers", "devops", "microsoft
 showShare = false
 
 # Google analytics Id
-ga_analytics = ""
+ga_analytics = "G-FLNJKRG5D1"
 
 # Google tag manager
 google_tag_manager_id = ""
