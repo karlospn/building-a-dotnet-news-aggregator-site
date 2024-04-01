@@ -4,6 +4,9 @@ feeds:
   - feed: https://damienbod.com/feed/
     title: Software Engineering (Damien Bowden blog)
     website: https://damienbod.com
+  - feed: https://dailydotnettips.com/feed/
+    title: Daily .NET tips
+    website: https://dailydotnettips.com
   - feed: https://code-maze.com/feed/
     title: Code Maze
     website: https://code-maze.com
