@@ -7,9 +7,11 @@ folder_path = './data/'
 file_paths = glob.glob(os.path.join(folder_path, '*.yml'))  
 
 for file_path in file_paths:
-        with open(file_path, 'r') as f:
-            data = yaml.safe_load(f)
-            feeds.append(data)
+    with open(file_path, 'r') as f:
+        data = yaml.safe_load(f)
+        feeds.append(data)
+
+feeds = sorted(feeds, key=lambda x: x['Title'])  
   
 with open('site/dotnetramblings/content/feeds.md', 'w') as file:  
     file.write('---\n')  
