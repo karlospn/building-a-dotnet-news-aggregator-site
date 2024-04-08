@@ -2,33 +2,25 @@ import yaml
 import feedparser
 import os
 import glob
+import yaml
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from dateutil import parser as dateparser
 from urllib.parse import urlparse  
 
-def calculate_thumbail_image(title, description):
-    s1 = title.lower()  
-    s2 = description.lower()
+def calculate_thumbail_image(title, description):  
+    s1 = title.lower()    
+    s2 = description.lower()  
+  
+    with open('config/thumbnail_config.yml', 'r') as file:  
+        config = yaml.safe_load(file)  
+  
+    for item in config['keywords']:  
+        if any(keyword in s1 or keyword in s2 for keyword in item['keywords']):  
+            return item['image']  
+  
+    return config['default_image']  
 
-    if 'dotnet' in s1 or '.net' in s1 or 'c#' in s1 or 'dotnet' in s2 or '.net' in s2 or 'c#' in s2:  
-        return 'images/dotnet.png'  
-    elif 'blazor' in s1 or 'blazor' in s2:  
-        return 'images/blazor.png' 
-    elif 'azure' in s1 or 'azure' in s2:  
-        return 'images/azure.png'  
-    elif 'amazon' in s1 or 'aws' in s1 or 'amazon' in s2 or 'aws' in s2:  
-        return 'images/aws.png'
-    elif 'iac' in s1 or 'terraform' in s1 or 'iac' in s2 or 'terraform' in s2:  
-        return 'images/iac.png'  
-    elif 'container' in s1 or 'docker' in s1 or 'container' in s2 or 'docker' in s2:  
-        return 'images/docker.png'  
-    elif 'devops' in s1 or 'ci/cd' in s1 or 'devops' in s2 or 'ci/cd' in s2:  
-        return 'images/devops.png' 
-    elif 'genai' in s1 or 'gpt' in s1 or 'chatgpt' in s1 or 'ai' in s1 or 'genai' in s2 or 'gpt' in s2 or 'chatgpt' in s2 or 'ai' in s2:  
-        return 'images/ai.png' 
-    else:  
-        return 'images/dotnet.png'  
 
 def get_website_name(url):    
     parsed_uri = urlparse(url)    

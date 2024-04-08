@@ -1,0 +1,20 @@
+keywords:  
+  - keywords: ['visual studio']  
+    image: 'images/vs.png'  
+  - keywords: ['dotnet', '.net', 'c#']  
+    image: 'images/dotnet.png'  
+  - keywords: ['blazor']  
+    image: 'images/blazor.png'  
+  - keywords: ['azure']  
+    image: 'images/azure.png'  
+  - keywords: ['amazon', 'aws']  
+    image: 'images/aws.png'  
+  - keywords: ['iac', 'terraform']  
+    image: 'images/iac.png'  
+  - keywords: ['container', 'docker']  
+    image: 'images/docker.png'  
+  - keywords: ['devops', 'ci/cd']  
+    image: 'images/devops.png'  
+  - keywords: ['genai', 'gpt', 'chatgpt', ' ai ']  
+    image: 'images/ai.png'  
+default_image: 'images/dotnet.png'
