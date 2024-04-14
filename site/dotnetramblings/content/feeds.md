@@ -31,9 +31,15 @@ feeds:
   - feed: https://dailydotnettips.com/feed/
     title: Daily .NET tips
     website: https://dailydotnettips.com
+  - feed: https://www.devleader.ca/feed/
+    title: Dev Leader
+    website: https://www.devleader.ca
   - feed: https://www.docker.com/feed/
     title: Docker
     website: https://www.docker.com
+  - feed: https://goatreview.com/rss/
+    title: Goat Review
+    website: https://goatreview.com
   - feed: https://montemagno.com/rss/
     title: James Montemagno - Live, Love, Bike and Code
     website: https://motnemagno.com
@@ -46,6 +52,9 @@ feeds:
   - feed: https://devblogs.microsoft.com/landingpage/
     title: Microsoft Developer Blog
     website: https://devblogs.microsoft.com/
+  - feed: https://www.milanjovanovic.tech/rss/feed.xml
+    title: Milan's .NET Weekly
+    website: https://www.milanjovanovic.tech
   - feed: https://www.mytechramblings.com/index.xml
     title: My technical ramblings
     website: https://www.mytechramblings.com
@@ -64,7 +73,13 @@ feeds:
   - feed: https://openai.com/blog/rss.xml
     title: The OpenAI Blog
     website: https://openai.com/blog
+  - feed: https://dotnettips.wordpress.com/feed/
+    title: dotNetTips.com
+    website: https://dotnettips.wordpress.com
   - feed: https://blog.elmah.io/rss/
     title: elmah.io Blog
     website: https://blog.elmah.io/
+  - feed: https://jonhilton.net/index.xml
+    title: jonhilton.net - Making sense of .NET
+    website: https://jonhilton.net
 ---
