@@ -43,6 +43,9 @@ feeds:
   - feed: https://montemagno.com/rss/
     title: James Montemagno - Live, Love, Bike and Code
     website: https://motnemagno.com
+  - feed: https://www.jimmybogard.com/rss/
+    title: Jimmy Bogard
+    website: https://www.jimmybogard.com/
   - feed: https://www.meziantou.net/categories/discoverdotnet.rss
     title: Meziantou's blog
     website: https://www.meziantou.net/
