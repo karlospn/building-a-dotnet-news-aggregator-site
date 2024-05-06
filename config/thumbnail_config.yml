@@ -17,4 +17,4 @@ keywords:
     image: 'images/devops.png'  
   - keywords: ['genai', 'gpt', 'chatgpt', ' ai ']  
     image: 'images/ai.png'  
-default_image: 'images/dotnet.png'
+default_image: 'images/misc.png'
