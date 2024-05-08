@@ -76,6 +76,9 @@ feeds:
   - feed: https://openai.com/blog/rss.xml
     title: The OpenAI Blog
     website: https://openai.com/blog
+  - feed: https://jeremydmiller.com/feed/
+    title: The Shade Tree Developer
+    website: https://jeremydmiller.com
   - feed: https://dotnettips.wordpress.com/feed/
     title: dotNetTips.com
     website: https://dotnettips.wordpress.com
