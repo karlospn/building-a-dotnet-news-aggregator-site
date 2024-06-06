@@ -164,7 +164,7 @@ feeds:
   - feed: https://www.youtube.com/@MicrosoftReactor
     title: Microsoft Reactor
     source: Youtube channel
-    website: https://developer.microsoft.com/es-es/reactor/
+    website: https://developer.microsoft.com/en-us/reactor/
   - feed: https://www.youtube.com/@visualstudio
     title: Microsoft Visual Studio Youtube Channel
     source: Youtube channel
