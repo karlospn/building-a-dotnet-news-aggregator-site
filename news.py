@@ -44,8 +44,9 @@ def fetch_rss_feeds(rss_data):
 
         except Exception as e:
             print(f"Failed to parse feed {data}: {e}")
-            
-    news_items = sorted(news_items, key=lambda x: x['date'], reverse=True)  
+
+    news_items = [element for element in news_items if element != []]
+    news_items = sorted([item for sublist in news_items for item in sublist], key=lambda x: x['date'], reverse=True)           
     return news_items
 
 
