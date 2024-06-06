@@ -1,6 +1,7 @@
 import yaml  
 import os  
 import glob
+from youtube import is_youtube_channel
   
 feeds = []
 folder_path = './data/'
@@ -23,15 +24,18 @@ with open('site/dotnetramblings/content/feeds.md', 'w') as file:
             continue
 
         file.write(f'  - feed: {feed["Feed"]}\n') 
-        file.write(f'    title: {feed["Title"]}\n')   
-            
+        file.write(f'    title: {feed["Title"]}\n')
+
+        if is_youtube_channel(feed["Feed"]):
+            file.write(f'    source: Youtube channel\n')
+        else:
+            file.write(f'    source: RSS Feed\n')
+                     
         if 'Website' in feed:  
             file.write(f'    website: {feed["Website"]}\n')             
         if 'Description' in feed:  
             file.write(f'    description: {feed["Description"]}\n')  
         if 'Author' in feed:  
             file.write(f'    author: {feed["Author"]}\n')  
-        if 'Language' in feed:  
-            file.write(f'    language: {feed["Language"]}\n')  
     
     file.write('---\n')

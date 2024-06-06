@@ -2,7 +2,7 @@ name: Get and commit latest news
   
 on:  
   schedule:  
-    - cron:  '0 */1 * * *'
+    - cron:  '15 7 * * *'
   workflow_dispatch:
   
 jobs:  
@@ -26,15 +26,13 @@ jobs:
   
     - name: Clean old news 
       run: |  
-        python clean-news.py  
-
-    - name: Refresh feed list
-      run: |  
-        python feeds.py  
+        python clean-videos.py  
 
     - name: Get latest news
+      env:  
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  
       run: |  
-        python news.py  
+        python youtube.py  
 
     - name: Commit changes
       run: | 

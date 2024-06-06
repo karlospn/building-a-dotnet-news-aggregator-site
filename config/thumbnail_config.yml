@@ -1,7 +1,7 @@
-keywords:  
+keywords:   
   - keywords: ['visual studio']  
     image: 'images/vs.png'  
-  - keywords: ['dotnet', '.net', 'c#']  
+  - keywords: ['dotnet', '.net', 'c#', 'asp']  
     image: 'images/dotnet.png'  
   - keywords: ['blazor']  
     image: 'images/blazor.png'  
@@ -9,12 +9,14 @@ keywords:
     image: 'images/azure.png'  
   - keywords: ['amazon', 'aws']  
     image: 'images/aws.png'  
-  - keywords: ['iac', 'terraform']  
+  - keywords: ['iac', 'terraform', 'pulumi', 'opentofu']  
     image: 'images/iac.png'  
   - keywords: ['container', 'docker']  
     image: 'images/docker.png'  
-  - keywords: ['devops', 'ci/cd']  
+  - keywords: ['devops', 'ci/cd', 'github']  
     image: 'images/devops.png'  
-  - keywords: ['genai', 'gpt', 'chatgpt', ' ai ']  
+  - keywords: ['genai', 'gpt', 'openai', 'rag', 'copilot', 'semantic kernel', 'chatgpt', ' ai ']  
     image: 'images/ai.png'  
+  - keywords: ['python']  
+    image: 'images/python.png'  
 default_image: 'images/misc.png'

@@ -3,20 +3,25 @@
   url = "/"
   weight = -110
 
+[[main]]  
+  name = "Videos"  
+  url = "videos/"  
+  weight = -109  
+
 [[main]]
   name = "Feeds"
   url = "feeds/"
-  weight = -109
+  weight = -108
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -108
+  weight = -107
 
 [[main]]
   name = "Contribute"
   url = "contribute/"
-  weight = -107
+  weight = -106
 
 [[social]]
   name = "github"

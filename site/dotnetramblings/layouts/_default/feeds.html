@@ -6,17 +6,14 @@
             <div class="feed-card">    
                 <div class="feed-content">    
                     {{ if .title }}  
-                    <h2 class="feed-title">{{ .title }}</h2>    
+                    <h2 class="feed-title">{{ .title }} ({{.source}})</h2>    
                     {{ end }}  
                     {{ if .description }}  
                     <p class="feed-description">{{ .description }}</p>    
-                    {{ end }}  
+                    {{ end }}
                     {{ if .author }}  
                     <p class="feed-author">Author: {{ .author }}</p>    
-                    {{ end }}  
-                    {{ if .language }}  
-                    <p class="feed-language">Language: {{ .language }}</p>    
-                    {{ end }}  
+                    {{ end }} 
                     {{ if .website }}  
                     <a class="feed-website" href="{{ .website }}">Visit Website</a>    
                     {{ end }}   

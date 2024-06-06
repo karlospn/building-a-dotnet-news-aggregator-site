@@ -2,3 +2,4 @@ feedparser
 pyyaml
 python-dateutil
 beautifulsoup4
+google-api-python-client
