@@ -1,4 +1,4 @@
-name: Get and commit latest news 
+name: Get and commit latest videos 
   
 on:  
   schedule:  
@@ -24,11 +24,11 @@ jobs:
         python -m pip install --upgrade pip  
         pip install -r requirements.txt   
   
-    - name: Clean old news 
+    - name: Clean old videos 
       run: |  
         python clean-videos.py  
 
-    - name: Get latest news
+    - name: Get latest videos
       env:  
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  
       run: |  
