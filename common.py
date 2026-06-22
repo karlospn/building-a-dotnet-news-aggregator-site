@@ -1,3 +1,4 @@
+import re
 import yaml
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse  
@@ -20,13 +21,13 @@ def parse_yml_files(file_paths):
     return rss_data
 
 def convert_rss_data_to_md(rss_entry):
-    title = _escape_field(rss_entry["title"])
+    title = _escape_field(_sanitize_text(rss_entry["title"]))
     link = rss_entry["url"]
     published = rss_entry.get("date", "")
 
     summary = rss_entry["summary"]
     soup = BeautifulSoup(summary, 'html.parser')
-    summary = soup.get_text()
+    summary = _sanitize_text(soup.get_text())
     image = _calculate_thumbail_image(title, summary)
     site_name = _get_website_name(rss_entry['website'])
 
@@ -49,6 +50,10 @@ tags: ["{site_name}"]
 def _escape_field(text):
     text = text.replace('"', '\\"')
     return text
+
+def _sanitize_text(text):
+    # Remove control characters disallowed by YAML (C0 except tab/LF/CR, DEL, and C1 controls)
+    return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]', '', text)
 
 def _calculate_thumbail_image(title, description):  
     s1 = title.lower()    
