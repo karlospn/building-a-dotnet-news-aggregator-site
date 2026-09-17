@@ -1,0 +1,2 @@
+{{- $newsScript := resources.Get "js/news.js" | minify | fingerprint "sha512" }}
+<script src="{{ $newsScript.RelPermalink }}" integrity="{{ $newsScript.Data.Integrity }}" crossorigin="anonymous"></script>

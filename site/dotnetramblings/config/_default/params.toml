@@ -1,7 +1,5 @@
 # enable search
 enableSearch = true
-customCSS = ["styles/news.css"]
-customJS = ["js/news.js"]
 
 # socials
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image

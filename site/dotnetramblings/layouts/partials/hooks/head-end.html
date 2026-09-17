@@ -1,0 +1,2 @@
+{{- $newsStyles := resources.Get "css/news.css" | minify | fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $newsStyles.RelPermalink }}" integrity="{{ $newsStyles.Data.Integrity }}" crossorigin="anonymous">

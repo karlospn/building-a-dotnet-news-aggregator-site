@@ -39,6 +39,56 @@
     return `/${String(value).replace(/^\/+/, "")}`;
   };
 
+  const setButtonFeedback = function (button, message) {
+    const originalText = button.textContent;
+    button.textContent = message;
+    window.setTimeout(function () {
+      button.textContent = originalText;
+    }, 1500);
+  };
+
+  const copyLink = async function (value) {
+    if (navigator.clipboard && window.isSecureContext) {
+      try {
+        await navigator.clipboard.writeText(value);
+        return true;
+      } catch {
+        // Fall through for browsers that deny the asynchronous clipboard API.
+      }
+    }
+
+    const input = document.createElement("textarea");
+    input.value = value;
+    input.setAttribute("readonly", "");
+    input.style.position = "fixed";
+    input.style.opacity = "0";
+    document.body.appendChild(input);
+    input.select();
+    let copied = false;
+    try {
+      copied = document.execCommand("copy");
+    } catch {
+      copied = false;
+    }
+    input.remove();
+    return copied;
+  };
+
+  const shareStory = async function (button, title, url) {
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: title, url: url });
+        setButtonFeedback(button, "Shared");
+        return;
+      } catch (error) {
+        if (error && error.name === "AbortError") return;
+      }
+    }
+
+    const copied = await copyLink(url);
+    setButtonFeedback(button, copied ? "Copied" : "Copy failed");
+  };
+
   const relativeTime = function (date) {
     const timestamp = new Date(date).getTime();
     if (Number.isNaN(timestamp)) return "";
@@ -346,15 +396,7 @@
       if (shareButton) {
         const card = shareButton.closest("[data-news-card]");
         const title = card.querySelector("h3").textContent.trim();
-        if (navigator.share) {
-          navigator.share({ title: title, url: card.dataset.url }).catch(function () {});
-        } else if (navigator.clipboard) {
-          navigator.clipboard.writeText(card.dataset.url);
-          shareButton.textContent = "Copied";
-          window.setTimeout(function () {
-            shareButton.textContent = "Share";
-          }, 1500);
-        }
+        shareStory(shareButton, title, card.dataset.url);
       }
 
       const outbound = event.target.closest("[data-outbound]");
