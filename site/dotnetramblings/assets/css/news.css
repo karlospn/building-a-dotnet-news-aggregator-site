@@ -276,12 +276,28 @@ span.topic-badge {
   z-index: 3;
 }
 
-.share-menu strong {
+.share-menu__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.share-menu__header strong {
   color: var(--news-muted);
   font-size: 0.68rem;
   letter-spacing: 0.08em;
   padding: 0.35rem 0.55rem;
   text-transform: uppercase;
+}
+
+.share-menu__header button {
+  align-items: center;
+  display: flex;
+  font-size: 1.1rem;
+  height: 2rem;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0;
 }
 
 .share-menu a,

@@ -50,7 +50,10 @@
         <details class="share-control">
           <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
-            <strong>Share</strong>
+            <div class="share-menu__header">
+              <strong>Share</strong>
+              <button type="button" data-close-share aria-label="Close share menu">×</button>
+            </div>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $shareURL }}" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url={{ $shareURL }}&text={{ $shareTitle }}" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject={{ $shareTitle }}&body={{ $shareURL }}">Email</a>

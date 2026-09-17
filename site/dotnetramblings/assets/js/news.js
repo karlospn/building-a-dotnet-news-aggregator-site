@@ -144,7 +144,10 @@
               <details class="share-control">
                 <summary aria-label="More actions">•••</summary>
                 <div class="share-menu">
-                  <strong>Share</strong>
+                  <div class="share-menu__header">
+                    <strong>Share</strong>
+                    <button type="button" data-close-share aria-label="Close share menu">×</button>
+                  </div>
                   <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedLink}" target="_blank" rel="noopener">LinkedIn</a>
                   <a href="https://twitter.com/intent/tweet?url=${encodedLink}&text=${encodedTitle}" target="_blank" rel="noopener">X</a>
                   <a href="mailto:?subject=${encodedTitle}&body=${encodedLink}">Email</a>
@@ -374,6 +377,15 @@
     };
 
     document.addEventListener("click", function (event) {
+      const closeShareButton = event.target.closest("[data-close-share]");
+      if (closeShareButton) {
+        closeShareButton.closest("details").open = false;
+      } else if (!event.target.closest(".share-control")) {
+        document.querySelectorAll(".share-control[open]").forEach(function (menu) {
+          menu.open = false;
+        });
+      }
+
       const typeButton = event.target.closest("[data-type-filter]");
       if (typeButton) {
         activeType =
@@ -388,6 +400,7 @@
             String(button.dataset.typeFilter === activeType)
           );
         });
+
         typeButton.classList.toggle("is-active", activeType === typeButton.dataset.typeFilter);
         if (typeSelect && activeType !== "bookmarks") typeSelect.value = activeType;
         if (activeType === "bookmarks") history.replaceState(null, "", "#bookmarks");
@@ -468,6 +481,14 @@
         currentPage += 1;
         renderArchive();
         scrollToGrid(grid);
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        document.querySelectorAll(".share-control[open]").forEach(function (menu) {
+          menu.open = false;
+        });
       }
     });
 
