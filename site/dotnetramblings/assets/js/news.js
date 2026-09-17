@@ -349,11 +349,19 @@
     document.addEventListener("click", function (event) {
       const typeButton = event.target.closest("[data-type-filter]");
       if (typeButton) {
-        activeType = typeButton.dataset.typeFilter;
+        activeType =
+          typeButton.dataset.typeFilter === "bookmarks" && activeType === "bookmarks"
+            ? "all"
+            : typeButton.dataset.typeFilter;
         currentPage = 1;
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button === typeButton);
+          button.setAttribute(
+            "aria-pressed",
+            String(button.dataset.typeFilter === activeType)
+          );
         });
+        typeButton.classList.toggle("is-active", activeType === typeButton.dataset.typeFilter);
         if (typeSelect && activeType !== "bookmarks") typeSelect.value = activeType;
         if (activeType === "bookmarks") history.replaceState(null, "", "#bookmarks");
         else if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
@@ -452,6 +460,7 @@
         currentPage = 1;
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.remove("is-active");
+          button.setAttribute("aria-pressed", "false");
         });
         if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
         updateCards();
@@ -491,6 +500,10 @@
 
     document.querySelectorAll("[data-type-filter]").forEach(function (button) {
       button.classList.toggle("is-active", button.dataset.typeFilter === activeType);
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.typeFilter === activeType)
+      );
     });
     document.querySelectorAll("[data-topic-filter]").forEach(function (button) {
       button.classList.toggle("is-active", button.dataset.topicFilter === activeTopic);
