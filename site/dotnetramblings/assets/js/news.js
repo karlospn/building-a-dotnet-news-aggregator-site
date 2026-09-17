@@ -18,6 +18,22 @@
     }
   };
 
+  const visitBaseline = function () {
+    const now = Date.now();
+    const fallback = now - 24 * 60 * 60 * 1000;
+    try {
+      const sessionBaseline = sessionStorage.getItem("newsVisitBaseline");
+      if (sessionBaseline) return Number(sessionBaseline);
+      const previousVisit = Number(storage.get("newsLastVisit", fallback));
+      const baseline = Number.isFinite(previousVisit) ? previousVisit : fallback;
+      sessionStorage.setItem("newsVisitBaseline", String(baseline));
+      storage.set("newsLastVisit", now);
+      return baseline;
+    } catch {
+      return fallback;
+    }
+  }();
+
   const escapeHtml = function (value) {
     const element = document.createElement("div");
     element.textContent = value == null ? "" : String(value);
@@ -212,6 +228,7 @@
     let hiddenSources = new Set(storedArray("newsHiddenSources"));
     let activeType = location.hash === "#bookmarks" ? "bookmarks" : "all";
     let activeTopic = "all";
+    let showNew = false;
     let query = "";
     let archiveItems = null;
     let currentPage = 1;
@@ -222,6 +239,7 @@
     const typeSelect = document.querySelector("[data-type-select]");
     const topicSelect = document.querySelector("[data-topic-select]");
     let selectedWeek = null;
+    const newFilterButton = document.querySelector("[data-new-filter]");
 
     if (!["all", "article", "video", "bookmarks"].includes(activeType)) activeType = "all";
     if (contentScope && activeType !== "bookmarks") activeType = "all";
@@ -290,6 +308,7 @@
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
         (!selectedWeek || weekKey(item.date) === selectedWeek) &&
+        (!showNew || new Date(item.date).getTime() > visitBaseline) &&
         (!query || text.includes(query)) &&
         !hiddenSources.has(item.sourceId)
       );
@@ -298,6 +317,10 @@
     const updateCardState = function (card) {
       const url = card.dataset.url;
       card.classList.toggle("is-read", readStories.has(url));
+      card.classList.toggle(
+        "is-new",
+        new Date(card.dataset.date).getTime() > visitBaseline
+      );
       const bookmarkButton = card.querySelector("[data-bookmark]");
       if (bookmarkButton) {
         bookmarkButton.classList.toggle("is-bookmarked", bookmarks.has(url));
@@ -342,6 +365,22 @@
         pagination.querySelector("[data-page-status]").textContent =
           `Page ${currentPage} of ${pageCount}`;
       }
+      updateNewCount(archiveItems);
+    };
+
+    const updateNewCount = function (items) {
+      if (!newFilterButton) return;
+      const count = items.filter(function (item) {
+        return (
+          (!contentScope || item.contentType === contentScope) &&
+          (!selectedWeek || weekKey(item.date) === selectedWeek) &&
+          new Date(item.date).getTime() > visitBaseline
+        );
+      }).length;
+      const countElement = newFilterButton.querySelector("[data-new-count]");
+      if (countElement) countElement.textContent = count ? String(count) : "";
+      newFilterButton.hidden = count === 0 && !showNew;
+      newFilterButton.disabled = count === 0;
     };
 
     const updateCards = function () {
@@ -359,7 +398,8 @@
           sourceId: card.dataset.source,
           contentType: card.dataset.contentType,
           topics: card.dataset.topics,
-          link: card.dataset.url
+          link: card.dataset.url,
+          date: card.dataset.date
         };
         const isVisible = matchesFilters(item);
         card.hidden = !isVisible;
@@ -405,6 +445,15 @@
         if (typeSelect && activeType !== "bookmarks") typeSelect.value = activeType;
         if (activeType === "bookmarks") history.replaceState(null, "", "#bookmarks");
         else if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
+        updateCards();
+      }
+
+      const newButton = event.target.closest("[data-new-filter]");
+      if (newButton) {
+        showNew = !showNew;
+        currentPage = 1;
+        newButton.classList.toggle("is-active", showNew);
+        newButton.setAttribute("aria-pressed", String(showNew));
         updateCards();
       }
 
@@ -556,6 +605,14 @@
     document.querySelectorAll("[data-topic-filter]").forEach(function (button) {
       button.classList.toggle("is-active", button.dataset.topicFilter === activeTopic);
     });
+    updateNewCount(
+      cards.map(function (card) {
+        return {
+          contentType: card.dataset.contentType,
+          date: card.dataset.date
+        };
+      })
+    );
     updateCards();
 
     if (grid.dataset.archiveUrl && typeof window.fetch === "function") {

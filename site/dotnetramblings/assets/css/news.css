@@ -403,7 +403,8 @@ span.topic-badge {
   padding: 0.5rem 0.7rem;
 }
 
-.saved-filter {
+.saved-filter,
+.new-filter {
   background: transparent;
   border: 1px solid var(--news-border);
   border-radius: 0.55rem;
@@ -413,7 +414,8 @@ span.topic-badge {
   padding: 0.5rem 0.75rem;
 }
 
-.saved-filter.is-active {
+.saved-filter.is-active,
+.new-filter.is-active {
   background: var(--news-accent-soft);
   border-color: var(--news-accent);
   color: var(--news-accent);
@@ -733,6 +735,7 @@ span.topic-badge {
   .search-control input,
   .select-control select,
   .saved-filter,
+  .new-filter,
   .browser-settings > summary,
   .client-pagination button,
   .card-actions > button,
