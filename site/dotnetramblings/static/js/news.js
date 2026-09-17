@@ -52,6 +52,7 @@
           !hiddenSources.has(card.dataset.source) && (!isFilterable || matchesFilters);
 
         card.hidden = !isVisible;
+        card.classList.toggle("is-filtered-out", !isVisible);
         card.classList.toggle("is-read", readStories.has(url));
         const bookmarkButton = card.querySelector("[data-bookmark]");
         bookmarkButton.classList.toggle("is-bookmarked", bookmarks.has(url));
@@ -213,6 +214,7 @@
           (feedType === "all" || card.dataset.feedType === feedType) &&
           (!feedQuery || card.textContent.toLowerCase().includes(feedQuery));
         card.hidden = !show;
+        card.classList.toggle("is-filtered-out", !show);
         if (show) visible += 1;
       });
       const empty = document.querySelector("[data-feed-empty]");

@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{- $pages := sort .Pages "Date" "desc" }}
+  <div class="news-shell wrap">
+    <header class="directory-header taxonomy-header">
+      <div>
+        <p class="eyebrow">Topic briefing</p>
+        <h1>{{ .Title }}</h1>
+        <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} about {{ .Title }}.</p>
+      </div>
+      <a class="button" href="{{ .RelPermalink }}index.xml">Follow this topic via RSS</a>
+    </header>
+    <div class="discovery-panel">
+      <div class="filter-row" role="group" aria-label="Content type">
+        <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
+        <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
+        <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
+        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
+      </div>
+      <div class="preference-row">
+        <label>
+          Search this topic
+          <input type="search" data-news-search placeholder="Title or source">
+        </label>
+        <label>
+          Card density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
+      </div>
+    </div>
+    <div class="news-grid" id="news-grid">
+      {{ range (.Paginate $pages).Pages }}
+        {{ partial "news-card" (dict "page" .) }}
+      {{ end }}
+    </div>
+    <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
+    <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+  </div>
+{{ end }}

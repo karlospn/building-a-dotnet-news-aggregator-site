@@ -6,15 +6,22 @@
   {{- $ranked := sort $recent "Params.rank" "desc" }}
   {{- $featured := slice }}
   {{- $featuredSources := slice }}
+  {{- $featuredURLs := slice }}
   {{- range $ranked }}
     {{- $source := default (.Params.source | urlize) .Params.sourceId }}
     {{- if and (lt (len $featured) 6) (not (in $featuredSources $source)) }}
       {{- $featured = $featured | append . }}
       {{- $featuredSources = $featuredSources | append $source }}
+      {{- $featuredURLs = $featuredURLs | append .Params.link }}
     {{- end }}
   {{- end }}
   {{- if lt (len $featured) 6 }}
-    {{- $featured = first 6 $all }}
+    {{- range $all }}
+      {{- if and (lt (len $featured) 6) (not (in $featuredURLs .Params.link)) }}
+        {{- $featured = $featured | append . }}
+        {{- $featuredURLs = $featuredURLs | append .Params.link }}
+      {{- end }}
+    {{- end }}
   {{- end }}
 
   <div class="news-shell wrap">
