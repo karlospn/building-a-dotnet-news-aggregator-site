@@ -231,7 +231,7 @@ def record_feed_health(source, status, item_count=0, message=""):
     HEALTH_FILE.write_text(json.dumps(health, indent=2, sort_keys=True), encoding="utf-8")
 
 
-def clean_content(content_root, retention_days=180, now=None):
+def clean_content(content_root, retention_days=8, now=None):
     now = now or datetime.now()
     cutoff = now - timedelta(days=retention_days)
     root = Path(content_root)

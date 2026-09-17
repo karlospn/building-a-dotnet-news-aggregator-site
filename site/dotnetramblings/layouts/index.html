@@ -60,13 +60,17 @@
 
       {{ partial "discovery-controls" . }}
 
-      <div class="news-grid" id="news-grid">
-        {{ range (.Paginate $all).Pages }}
+      <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24">
+        {{ range first 24 $all }}
           {{ partial "news-card" (dict "page" .) }}
         {{ end }}
       </div>
       <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
-      <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+      <nav class="client-pagination" data-client-pagination aria-label="Filtered results pages" hidden>
+        <button type="button" data-page-previous>← Previous</button>
+        <span data-page-status aria-live="polite"></span>
+        <button type="button" data-page-next>Next →</button>
+      </nav>
     </section>
   </div>
 {{ end }}

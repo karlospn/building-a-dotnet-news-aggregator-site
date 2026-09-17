@@ -1,4 +1,5 @@
 import glob
+import json
 import unittest
 from pathlib import Path
 
@@ -54,6 +55,26 @@ class GeneratedContentTests(unittest.TestCase):
                         metadata["thumbnail"],
                         r"^https://i\.ytimg\.com/vi/[^/]+/hqdefault\.jpg$",
                     )
+
+    def test_archive_contains_every_current_content_item(self):
+        archive_items = json.loads(
+            Path("site/dotnetramblings/static/archive.json").read_text(encoding="utf-8")
+        )
+        archive_urls = {
+            canonicalize_url(item["link"])
+            for item in archive_items
+        }
+        content_urls = set()
+        roots = (
+            Path("site/dotnetramblings/content/post"),
+            Path("site/dotnetramblings/content/videos"),
+        )
+        for root in roots:
+            for path in root.rglob("*.md"):
+                _, front_matter, _ = path.read_text(encoding="utf-8").split("---", 2)
+                metadata = yaml.safe_load(front_matter)
+                content_urls.add(canonicalize_url(metadata["canonicalUrl"]))
+        self.assertTrue(content_urls.issubset(archive_urls))
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ The site is published in the following uri:
 
 This site is an automated news aggregator. It fetches news from multiple RSS feeds and YouTube channels, classifies each item by topic, and presents a ranked briefing alongside the complete chronological stream.
 
-The site is automatically updated every 3 hours with the latest news from various RSS feeds. Content metadata is retained for 180 days so readers can search, filter, and browse weekly digests.
+The site is automatically updated every 3 hours with the latest news from various RSS feeds. Hugo pages are retained for eight days, while a compact metadata index is retained for 180 days so readers can search and filter the full archive without slowing down the site.
 
 There is also a lot of interesting .NET content in Youtube, that's why this site also contains a videos section. This section is automatically updated once every day at 07:15 AM (UTC) with the videos posted the day before.
 

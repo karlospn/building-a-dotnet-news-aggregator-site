@@ -154,7 +154,6 @@ class CommonTests(unittest.TestCase):
 
             removed = clean_content(
                 root,
-                retention_days=180,
                 now=datetime(2026, 9, 17),
             )
 

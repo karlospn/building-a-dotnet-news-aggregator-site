@@ -10,6 +10,7 @@ on:
       - 'clean-news.py'
       - 'clean-videos.py'
       - 'common.py'
+      - 'archive.py'
       - 'feeds.py'
       - 'migrate-content.py'
       - 'news.py'

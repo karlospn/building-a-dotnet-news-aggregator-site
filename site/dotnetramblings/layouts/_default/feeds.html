@@ -29,7 +29,7 @@
         <div class="topic-list">
           {{ range .topics }}<span class="topic-badge">{{ . }}</span>{{ end }}
         </div>
-        <p class="feed-stats">{{ len $items }} retained items{{ with .author }} · By {{ . }}{{ end }}</p>
+        <p class="feed-stats">{{ len $items }} recent items{{ with .author }} · By {{ . }}{{ end }}</p>
         <div class="feed-card__actions">
           <a href="{{ .website }}">Visit website →</a>
           {{ if eq .source "RSS feed" }}<a href="{{ .feed }}">Raw feed</a>{{ end }}

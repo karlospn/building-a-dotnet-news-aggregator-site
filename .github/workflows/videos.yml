@@ -31,6 +31,9 @@ jobs:
       run: |  
         python -m pip install --upgrade pip  
         pip install -r requirements.txt   
+
+    - name: Archive existing videos
+      run: python archive.py
   
     - name: Clean old videos 
       run: |  
@@ -41,6 +44,9 @@ jobs:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  
       run: |  
         python youtube.py  
+
+    - name: Refresh metadata archive
+      run: python archive.py
 
     - name: Commit changes
       run: | 
