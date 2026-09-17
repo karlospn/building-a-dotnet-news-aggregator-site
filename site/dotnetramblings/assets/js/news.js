@@ -107,11 +107,15 @@
       relativeTime(item.date),
       item.readingMinutes ? `${item.readingMinutes} min read` : ""
     ].filter(Boolean).join(" · ");
-    const topicMarkup = topics.map(function (topic, index) {
+    const topicMarkup = topics.slice(0, 2).map(function (topic, index) {
       return `<button type="button" class="topic-badge" data-topic-filter="${escapeHtml(topicIds[index])}">${escapeHtml(topic)}</button>`;
     }).join("");
     const encodedLink = encodeURIComponent(link);
     const encodedTitle = encodeURIComponent(item.title || "");
+    const summary = String(item.summary || "");
+    const summaryText = summary.length > 180
+      ? `${summary.slice(0, 177).trimEnd()}…`
+      : summary;
 
     return `
       <article class="news-card" data-news-card data-url="${escapeHtml(link)}"
@@ -120,34 +124,34 @@
         <a class="news-card__image" href="${escapeHtml(link)}" data-outbound>
           <img src="${escapeHtml(thumbnail)}" alt="" loading="lazy" referrerpolicy="no-referrer"
             data-fallback-image="/images/misc.png">
-          <span class="content-badge">${type === "video" ? "▶ Video" : "Article"}</span>
+          ${type === "video" ? '<span class="content-badge">▶</span>' : ""}
           ${item.duration ? `<span class="duration-badge">${escapeHtml(item.duration)}</span>` : ""}
         </a>
         <div class="news-card__body">
           <div class="source-line">
-            <span>${escapeHtml(source)}${item.author ? ` · ${escapeHtml(item.author)}` : ""}</span>
+            <span>${escapeHtml(source)}</span>
             <span>${escapeHtml(metadata)}</span>
           </div>
           <h3><a href="${escapeHtml(link)}" data-outbound>${escapeHtml(item.title)}</a></h3>
           <div class="topic-list">${topicMarkup}</div>
-          <p class="news-card__summary">${escapeHtml(item.summary || "")}</p>
-          ${item.whyItMatters ? `<p class="why-it-matters"><strong>Why it matters:</strong> ${escapeHtml(item.whyItMatters)}</p>` : ""}
+          <p class="news-card__summary">${escapeHtml(summaryText)}</p>
           <div class="news-card__footer">
             <a href="${escapeHtml(link)}" class="story-link" data-outbound>
-              ${type === "video" ? "Watch" : "Read"} on ${escapeHtml(source)} →
+              ${type === "video" ? "Watch video" : "Read article"} →
             </a>
             <div class="card-actions">
               <button type="button" data-bookmark aria-label="Bookmark ${escapeHtml(item.title)}">☆</button>
               <details class="share-control">
-                <summary>Share</summary>
+                <summary aria-label="More actions">•••</summary>
                 <div class="share-menu">
+                  <strong>Share</strong>
                   <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedLink}" target="_blank" rel="noopener">LinkedIn</a>
                   <a href="https://twitter.com/intent/tweet?url=${encodedLink}&text=${encodedTitle}" target="_blank" rel="noopener">X</a>
                   <a href="mailto:?subject=${encodedTitle}&body=${encodedLink}">Email</a>
                   <button type="button" data-copy-link>Copy link</button>
+                  <button type="button" data-hide-source>Hide ${escapeHtml(source)}</button>
                 </div>
               </details>
-              <button type="button" data-hide-source aria-label="Hide stories from ${escapeHtml(source)}">Hide</button>
             </div>
           </div>
         </div>
@@ -186,19 +190,18 @@
     const contentScope = grid.dataset.contentScope || "";
     const pagination = document.querySelector("[data-client-pagination]");
     const weekSelect = document.querySelector("[data-week-select]");
+    const typeSelect = document.querySelector("[data-type-select]");
+    const topicSelect = document.querySelector("[data-topic-select]");
     let selectedWeek = null;
 
     if (!["all", "article", "video", "bookmarks"].includes(activeType)) activeType = "all";
-    const topicControls = Array.from(
-      document.querySelectorAll(".discovery-panel [data-topic-filter]")
-    );
-    if (
-      activeTopic !== "all" &&
-      topicControls.length &&
-      !topicControls.some(function (button) {
-        return button.dataset.topicFilter === activeTopic;
-      })
-    ) {
+    if (contentScope && activeType !== "bookmarks") activeType = "all";
+    const availableTopics = topicSelect
+      ? Array.from(topicSelect.options).map(function (option) {
+          return option.value;
+        })
+      : [];
+    if (activeTopic !== "all" && availableTopics.length && !availableTopics.includes(activeTopic)) {
       activeTopic = "all";
     }
 
@@ -353,6 +356,7 @@
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button === typeButton);
         });
+        if (typeSelect && activeType !== "bookmarks") typeSelect.value = activeType;
         if (activeType === "bookmarks") history.replaceState(null, "", "#bookmarks");
         else if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
         updateCards();
@@ -366,6 +370,7 @@
         document.querySelectorAll("[data-topic-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button.dataset.topicFilter === activeTopic);
         });
+        if (topicSelect) topicSelect.value = activeTopic;
         updateCards();
       }
 
@@ -439,6 +444,30 @@
       search.addEventListener("input", function () {
         query = search.value.trim().toLowerCase();
         currentPage = 1;
+        updateCards();
+      });
+    }
+
+    if (typeSelect) {
+      typeSelect.value = activeType === "bookmarks" ? "all" : activeType;
+      typeSelect.addEventListener("change", function () {
+        activeType = typeSelect.value;
+        currentPage = 1;
+        storage.set("newsActiveType", activeType);
+        document.querySelectorAll("[data-type-filter]").forEach(function (button) {
+          button.classList.remove("is-active");
+        });
+        if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
+        updateCards();
+      });
+    }
+
+    if (topicSelect) {
+      topicSelect.value = activeTopic;
+      topicSelect.addEventListener("change", function () {
+        activeTopic = topicSelect.value;
+        currentPage = 1;
+        storage.set("newsActiveTopic", activeTopic);
         updateCards();
       });
     }

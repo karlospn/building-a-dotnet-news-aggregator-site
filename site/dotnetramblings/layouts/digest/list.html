@@ -16,7 +16,7 @@
         <option>Loading available weeks…</option>
       </select>
     </div>
-    {{ partial "discovery-controls" . }}
+    {{ partial "discovery-controls" (dict "placeholder" "Search this week") }}
     <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-week-mode="true">
       {{ range first 24 $recent }}
         {{ partial "news-card" (dict "page" .) }}

@@ -6,6 +6,7 @@
 {{- $sourceID := default ($source | urlize) $page.Params.sourceId }}
 {{- $topics := $page.Params.topics | default (slice "General") }}
 {{- $image := default "images/misc.png" $page.Params.thumbnail }}
+{{- $summary := index (split $page.RawContent "\n\n- ") 0 | plainify | truncate 180 }}
 {{- $shareURL := $page.Params.link | urlquery }}
 {{- $shareTitle := $page.Title | urlquery }}
 <article
@@ -22,12 +23,12 @@
     {{ else }}
       <img src="{{ $image | relURL }}" alt="" loading="lazy">
     {{ end }}
-    <span class="content-badge">{{ if eq $type "video" }}▶ Video{{ else }}Article{{ end }}</span>
+    {{ if eq $type "video" }}<span class="content-badge">▶</span>{{ end }}
     {{ with $page.Params.duration }}<span class="duration-badge">{{ . }}</span>{{ end }}
   </a>
   <div class="news-card__body">
     <div class="source-line">
-      <span>{{ $source }}{{ with $page.Params.author }} · {{ . }}{{ end }}</span>
+      <span>{{ $source }}</span>
       <span>
         <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}" data-relative-time>{{ $page.Date.Format "Jan 2" }}</time>
         {{ with $page.Params.readingMinutes }} · {{ . }} min read{{ end }}
@@ -35,28 +36,28 @@
     </div>
     <h3><a href="{{ $page.Params.link }}" data-outbound>{{ $page.Title }}</a></h3>
     <div class="topic-list">
-      {{ range $topics }}
+      {{ range first 2 $topics }}
         <button type="button" class="topic-badge" data-topic-filter="{{ . | urlize }}">{{ . }}</button>
       {{ end }}
     </div>
-    <p class="news-card__summary">{{ $page.Summary | plainify | truncate 220 }}</p>
-    {{ with $page.Params.whyItMatters }}<p class="why-it-matters"><strong>Why it matters:</strong> {{ . }}</p>{{ end }}
+    <p class="news-card__summary">{{ $summary }}</p>
     <div class="news-card__footer">
       <a href="{{ $page.Params.link }}" class="story-link" data-outbound>
-        {{ if eq $type "video" }}Watch{{ else }}Read{{ end }} on {{ $source }} →
+        {{ if eq $type "video" }}Watch video{{ else }}Read article{{ end }} →
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark {{ $page.Title }}">☆</button>
         <details class="share-control">
-          <summary>Share</summary>
+          <summary aria-label="More actions">•••</summary>
           <div class="share-menu">
+            <strong>Share</strong>
             <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $shareURL }}" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://twitter.com/intent/tweet?url={{ $shareURL }}&text={{ $shareTitle }}" target="_blank" rel="noopener">X</a>
             <a href="mailto:?subject={{ $shareTitle }}&body={{ $shareURL }}">Email</a>
             <button type="button" data-copy-link>Copy link</button>
+            <button type="button" data-hide-source>Hide {{ $source }}</button>
           </div>
         </details>
-        <button type="button" data-hide-source aria-label="Hide stories from {{ $source }}">Hide</button>
       </div>
     </div>
   </div>

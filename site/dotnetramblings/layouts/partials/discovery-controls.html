@@ -1,28 +1,44 @@
+{{- $videoOnly := default false .videoOnly }}
+{{- $topicLocked := default false .topicLocked }}
+{{- $placeholder := default "Search title, source, or topic" .placeholder }}
 <div class="discovery-panel" data-discovery-controls>
-  <div class="filter-row" role="group" aria-label="Content type">
-    <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
-    <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
-    <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
-    <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
-  </div>
-  <div class="filter-row" role="group" aria-label="Topic">
-    <button type="button" class="filter-chip is-active" data-topic-filter="all">All topics</button>
-    {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
-      <button type="button" class="filter-chip" data-topic-filter="{{ . | urlize }}">{{ . }}</button>
-    {{ end }}
-  </div>
-  <div class="preference-row">
-    <label>
-      Search this page
-      <input type="search" data-news-search placeholder="Title, source, or topic">
-    </label>
-    <label>
-      Card density
-      <select data-density>
-        <option value="comfortable">Comfortable</option>
-        <option value="compact">Compact</option>
+  <label class="search-control">
+    <span class="sr-only">Search</span>
+    <input type="search" data-news-search placeholder="{{ $placeholder }}">
+  </label>
+  {{ if not $videoOnly }}
+    <label class="select-control">
+      <span>Type</span>
+      <select data-type-select>
+        <option value="all">All content</option>
+        <option value="article">Articles</option>
+        <option value="video">Videos</option>
       </select>
     </label>
-    <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
-  </div>
+  {{ end }}
+  {{ if not $topicLocked }}
+    <label class="select-control">
+      <span>Topic</span>
+      <select data-topic-select>
+        <option value="all">All topics</option>
+        {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
+          <option value="{{ . | urlize }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </label>
+  {{ end }}
+  <button type="button" class="saved-filter" data-type-filter="bookmarks">☆ Saved</button>
+  <details class="browser-settings">
+    <summary aria-label="Display settings">Settings</summary>
+    <div>
+      <label>
+        Density
+        <select data-density>
+          <option value="comfortable">Comfortable</option>
+          <option value="compact">Compact</option>
+        </select>
+      </label>
+      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
+    </div>
+  </details>
 </div>
