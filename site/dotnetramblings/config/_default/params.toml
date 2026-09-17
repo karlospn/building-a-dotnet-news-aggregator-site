@@ -1,5 +1,7 @@
 # enable search
 enableSearch = true
+customCSS = ["styles/news.css"]
+customJS = ["js/news.js"]
 
 # socials
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
@@ -62,7 +64,7 @@ codeLineNumbers = false
 enableMathNotation = false
 
 # directory(s) where your articles are located
-mainSections = ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
+mainSections = ["post", "videos"] # see config details here https://gohugo.io/functions/where/#mainsections
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally

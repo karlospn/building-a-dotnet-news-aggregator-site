@@ -1,25 +1,42 @@
-{{- define "main" }} 
-<link rel="stylesheet" href="/styles/feeds.css"/>  
-<div class="grid-inverse wrap content">
-    <div class="feed-container">
-        {{ range .Params.feeds }}    
-            <div class="feed-card">    
-                <div class="feed-content">    
-                    {{ if .title }}  
-                    <h2 class="feed-title">{{ .title }} ({{.source}})</h2>    
-                    {{ end }}  
-                    {{ if .description }}  
-                    <p class="feed-description">{{ .description }}</p>    
-                    {{ end }}
-                    {{ if .author }}  
-                    <p class="feed-author">Author: {{ .author }}</p>    
-                    {{ end }} 
-                    {{ if .website }}  
-                    <a class="feed-website" href="{{ .website }}">Visit Website</a>    
-                    {{ end }}   
-                </div>    
-            </div>    
-        {{ end }}    
-    </div> 
-</div>  
+{{ define "main" }}
+<div class="news-shell wrap">
+  <header class="directory-header">
+    <p class="eyebrow">Transparent by design</p>
+    <h1>Sources</h1>
+    <p>Explore the publishers and creators behind the briefing. Health reflects the latest automated check.</p>
+    <div class="directory-filters">
+      <input type="search" placeholder="Search sources" aria-label="Search sources" data-feed-search>
+      <button type="button" class="filter-chip is-active" data-feed-type="all">All</button>
+      <button type="button" class="filter-chip" data-feed-type="rss-feed">RSS</button>
+      <button type="button" class="filter-chip" data-feed-type="youtube-channel">YouTube</button>
+    </div>
+  </header>
+  <div class="feed-container">
+    {{ range .Params.feeds }}
+      {{- $feed := . }}
+      {{- $items := where site.RegularPages "Params.sourceId" .id }}
+      {{- $health := false }}
+      {{- with site.Data.feed_health }}{{ $health = index . $feed.id }}{{ end }}
+      <article class="feed-card" data-feed-card data-feed-type="{{ .source | urlize }}">
+        <div class="feed-card__top">
+          <span class="content-badge">{{ .source }}</span>
+          {{ with $health }}
+            <span class="health health--{{ .status }}">{{ if eq .status "healthy" }}Healthy{{ else }}Needs attention{{ end }}</span>
+          {{ end }}
+        </div>
+        <h2>{{ .title }}</h2>
+        {{ with .description }}<p>{{ . }}</p>{{ end }}
+        <div class="topic-list">
+          {{ range .topics }}<span class="topic-badge">{{ . }}</span>{{ end }}
+        </div>
+        <p class="feed-stats">{{ len $items }} retained items{{ with .author }} · By {{ . }}{{ end }}</p>
+        <div class="feed-card__actions">
+          <a href="{{ .website }}">Visit website →</a>
+          {{ if eq .source "RSS feed" }}<a href="{{ .feed }}">Raw feed</a>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+  <p class="empty-state" data-feed-empty hidden>No sources match your search.</p>
+</div>
 {{ end }}

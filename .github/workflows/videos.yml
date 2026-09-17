@@ -4,20 +4,28 @@ on:
   schedule:  
     - cron:  '15 7 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-updates
+  cancel-in-progress: false
   
 jobs:  
   build:  
     runs-on: ubuntu-latest  
   
     steps:  
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
-        persist-credentials: false
+        fetch-depth: 0
   
     - name: Set up Python  
-      uses: actions/setup-python@v2  
+      uses: actions/setup-python@v5
       with:  
         python-version: '3.x'
+        cache: pip
   
     - name: Install dependencies  
       run: |  
@@ -38,12 +46,8 @@ jobs:
       run: | 
         git config --local user.email "action@github.com"  
         git config --local user.name "GitHub Action"  
-        git status
         git add .  
         git diff --quiet && git diff --staged --quiet || git commit -m "Automated script execution"  
       
     - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.PERSONAL_TOKEN }}
-        branch: main
+      run: git push origin HEAD:main

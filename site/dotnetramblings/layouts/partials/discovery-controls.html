@@ -1,0 +1,28 @@
+<div class="discovery-panel" data-discovery-controls>
+  <div class="filter-row" role="group" aria-label="Content type">
+    <button type="button" class="filter-chip is-active" data-type-filter="all">Everything</button>
+    <button type="button" class="filter-chip" data-type-filter="article">Articles</button>
+    <button type="button" class="filter-chip" data-type-filter="video">Videos</button>
+    <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
+  </div>
+  <div class="filter-row" role="group" aria-label="Topic">
+    <button type="button" class="filter-chip is-active" data-topic-filter="all">All topics</button>
+    {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
+      <button type="button" class="filter-chip" data-topic-filter="{{ . | urlize }}">{{ . }}</button>
+    {{ end }}
+  </div>
+  <div class="preference-row">
+    <label>
+      Search this page
+      <input type="search" data-news-search placeholder="Title, source, or topic">
+    </label>
+    <label>
+      Card density
+      <select data-density>
+        <option value="comfortable">Comfortable</option>
+        <option value="compact">Compact</option>
+      </select>
+    </label>
+    <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
+  </div>
+</div>

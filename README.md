@@ -10,11 +10,13 @@ This repository contains the site source code. The published code can be found i
 The site is published in the following uri:
 - https://www.dotnetramblings.com
 
-This site is an automated news aggregator. It fetches news from multiple RSS feeds, presenting them all on a single page for your convenience. 
+This site is an automated news aggregator. It fetches news from multiple RSS feeds and YouTube channels, classifies each item by topic, and presents a ranked briefing alongside the complete chronological stream.
 
-The site is automatically updated every 3 hours with the latest news from various RSS feeds.
+The site is automatically updated every 3 hours with the latest news from various RSS feeds. Content metadata is retained for 180 days so readers can search, filter, and browse weekly digests.
 
 There is also a lot of interesting .NET content in Youtube, that's why this site also contains a videos section. This section is automatically updated once every day at 07:15 AM (UTC) with the videos posted the day before.
+
+Readers can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences stay in the browser and require no account. The complete site and every topic page expose free RSS feeds.
 
 # **Contribute**
 
@@ -62,5 +64,3 @@ Author: ChilliCream
 4 - Open a Pull Request and await our approval.
 
 5 - Your posts will then begin to appear on our site.
-
-

@@ -1,3 +1,17 @@
-{{ define "main" }}  
-  {{- partial "archive" . }}  
+{{ define "main" }}
+  <div class="news-shell wrap">
+    <header class="directory-header">
+      <p class="eyebrow">Watch and learn</p>
+      <h1>Latest videos</h1>
+      <p>Fresh talks, tutorials, demos, and explainers from the developer community.</p>
+    </header>
+    {{ partial "discovery-controls" . }}
+    <div class="news-grid" id="news-grid">
+      {{ range (.Paginate (sort .Pages "Date" "desc")).Pages }}
+        {{ partial "news-card" (dict "page" .) }}
+      {{ end }}
+    </div>
+    <p class="empty-state" id="empty-state" hidden>No videos match these filters.</p>
+    <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+  </div>
 {{ end }}

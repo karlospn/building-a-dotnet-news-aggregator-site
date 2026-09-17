@@ -1,41 +1,44 @@
-import yaml  
-import os  
 import glob
+import os
+from pathlib import Path
+
+import yaml
+
+from common import classify_topics, parse_yml_files
 from youtube import is_youtube_channel
-  
-feeds = []
-folder_path = './data/'
-file_paths = glob.glob(os.path.join(folder_path, '*.yml'))  
 
-for file_path in file_paths:
-    with open(file_path, 'r') as f:
-        data = yaml.safe_load(f)
-        feeds.append(data)
 
-feeds = sorted(feeds, key=lambda x: x['Title'])  
-  
-with open('site/dotnetramblings/content/feeds.md', 'w') as file:  
-    file.write('---\n')  
-    file.write('layout: feeds\n')  
-    file.write('feeds:\n')  
-    for feed in feeds:          
-        if 'Feed' not in feed or 'Title' not in feed: 
-            print(f"Missing basic data. Skipped {feed['Feed']}") 
-            continue
+def main():
+    file_paths = glob.glob(os.path.join("./data", "*.yml"))
+    feeds = []
+    for source in parse_yml_files(file_paths):
+        feeds.append(
+            {
+                "id": source["id"],
+                "feed": source["feed"],
+                "title": source["title"],
+                "website": source["website"],
+                "description": source["description"],
+                "author": source["author"],
+                "source": "YouTube channel"
+                if is_youtube_channel(source["feed"])
+                else "RSS feed",
+                "topics": classify_topics(
+                    f"{source['title']} {source['description']} {source['website']}"
+                ),
+            }
+        )
 
-        file.write(f'  - feed: {feed["Feed"]}\n') 
-        file.write(f'    title: {feed["Title"]}\n')
+    front_matter = {
+        "title": "Sources",
+        "layout": "feeds",
+        "feeds": sorted(feeds, key=lambda value: value["title"].lower()),
+    }
+    output = "---\n" + yaml.safe_dump(
+        front_matter, allow_unicode=True, sort_keys=False, width=1000
+    ) + "---\n"
+    Path("site/dotnetramblings/content/feeds.md").write_text(output, encoding="utf-8")
 
-        if is_youtube_channel(feed["Feed"]):
-            file.write(f'    source: Youtube channel\n')
-        else:
-            file.write(f'    source: RSS Feed\n')
-                     
-        if 'Website' in feed:  
-            file.write(f'    website: {feed["Website"]}\n')             
-        if 'Description' in feed:  
-            file.write(f'    description: {feed["Description"]}\n')  
-        if 'Author' in feed:  
-            file.write(f'    author: {feed["Author"]}\n')  
-    
-    file.write('---\n')
+
+if __name__ == "__main__":
+    main()

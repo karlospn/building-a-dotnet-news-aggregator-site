@@ -4,7 +4,7 @@ baseurl = "https://www.dotnetramblings.com/"  # Include trailing slash
 title = ".NET Ramblings" 
 copyright = ".NET Ramblings"
 # canonifyurls = true
-paginate = 20
+paginate = 24
 theme = "hugo-clarity"
 disqusShortname = ""
 
@@ -18,6 +18,8 @@ DefaultContentLanguage = "en"
 [taxonomies]
 category = "categories"
 tag = "tags"
+topic = "topics"
+source = "sources"
 series = "series"
 
 [outputs]

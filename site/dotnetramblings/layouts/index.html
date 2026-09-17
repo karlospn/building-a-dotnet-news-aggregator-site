@@ -1,0 +1,65 @@
+{{ define "main" }}
+  {{- $sections := slice "post" "videos" }}
+  {{- $all := where site.RegularPages "Section" "in" $sections }}
+  {{- $all = sort $all "Date" "desc" }}
+  {{- $recent := where $all "Date" "ge" (now.AddDate 0 0 -2) }}
+  {{- $ranked := sort $recent "Params.rank" "desc" }}
+  {{- $featured := slice }}
+  {{- $featuredSources := slice }}
+  {{- range $ranked }}
+    {{- $source := default (.Params.source | urlize) .Params.sourceId }}
+    {{- if and (lt (len $featured) 6) (not (in $featuredSources $source)) }}
+      {{- $featured = $featured | append . }}
+      {{- $featuredSources = $featuredSources | append $source }}
+    {{- end }}
+  {{- end }}
+  {{- if lt (len $featured) 6 }}
+    {{- $featured = first 6 $all }}
+  {{- end }}
+
+  <div class="news-shell wrap">
+    <section class="news-hero">
+      <div>
+        <p class="eyebrow">Fresh from the .NET ecosystem</p>
+        <h1>Your daily developer briefing</h1>
+        <p>Articles and videos from trusted creators, organized around the technologies you follow.</p>
+      </div>
+      {{ partial "subscription" . }}
+    </section>
+
+    <section aria-labelledby="top-stories-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Curated automatically</p>
+          <h2 id="top-stories-heading">Top stories</h2>
+        </div>
+        <a href="/digest/">Open the weekly digest →</a>
+      </div>
+      <div class="featured-grid">
+        {{ range $featured }}
+          {{ partial "news-card" (dict "page" . "featured" true) }}
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="news-feed" aria-labelledby="latest-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Personalize your stream</p>
+          <h2 id="latest-heading">Latest updates</h2>
+        </div>
+        <span id="visible-count" aria-live="polite"></span>
+      </div>
+
+      {{ partial "discovery-controls" . }}
+
+      <div class="news-grid" id="news-grid">
+        {{ range (.Paginate $all).Pages }}
+          {{ partial "news-card" (dict "page" .) }}
+        {{ end }}
+      </div>
+      <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
+      <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+    </section>
+  </div>
+{{ end }}

@@ -1,0 +1,53 @@
+{{- $page := .page }}
+{{- $isFeatured := .featured }}
+{{- $type := default (cond (eq $page.Section "videos") "video" "article") $page.Params.contentType }}
+{{- $source := default "Unknown source" $page.Params.source }}
+{{- with $page.Params.tags }}{{ if not $page.Params.source }}{{ $source = index . 0 }}{{ end }}{{ end }}
+{{- $sourceID := default ($source | urlize) $page.Params.sourceId }}
+{{- $topics := $page.Params.topics | default (slice "General") }}
+{{- $image := default "images/misc.png" $page.Params.thumbnail }}
+<article
+  class="news-card{{ if $isFeatured }} news-card--featured{{ end }}"
+  data-news-card
+  data-url="{{ $page.Params.link }}"
+  data-source="{{ $sourceID }}"
+  data-topics="{{ delimit (apply $topics "urlize" ".") "," }}"
+  data-content-type="{{ $type }}"
+  data-date="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <a class="news-card__image" href="{{ $page.Params.link }}" data-outbound>
+    {{ if or (hasPrefix $image "http://") (hasPrefix $image "https://") }}
+      <img src="{{ $image }}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="{{ "images/misc.png" | relURL }}">
+    {{ else }}
+      <img src="{{ $image | relURL }}" alt="" loading="lazy">
+    {{ end }}
+    <span class="content-badge">{{ if eq $type "video" }}▶ Video{{ else }}Article{{ end }}</span>
+    {{ with $page.Params.duration }}<span class="duration-badge">{{ . }}</span>{{ end }}
+  </a>
+  <div class="news-card__body">
+    <div class="source-line">
+      <span>{{ $source }}{{ with $page.Params.author }} · {{ . }}{{ end }}</span>
+      <span>
+        <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}" data-relative-time>{{ $page.Date.Format "Jan 2" }}</time>
+        {{ with $page.Params.readingMinutes }} · {{ . }} min read{{ end }}
+      </span>
+    </div>
+    <h3><a href="{{ $page.Params.link }}" data-outbound>{{ $page.Title }}</a></h3>
+    <div class="topic-list">
+      {{ range $topics }}
+        <button type="button" class="topic-badge" data-topic-filter="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    <p class="news-card__summary">{{ $page.Summary | plainify | truncate 220 }}</p>
+    {{ with $page.Params.whyItMatters }}<p class="why-it-matters"><strong>Why it matters:</strong> {{ . }}</p>{{ end }}
+    <div class="news-card__footer">
+      <a href="{{ $page.Params.link }}" class="story-link" data-outbound>
+        {{ if eq $type "video" }}Watch{{ else }}Read{{ end }} on {{ $source }} →
+      </a>
+      <div class="card-actions">
+        <button type="button" data-bookmark aria-label="Bookmark {{ $page.Title }}">☆</button>
+        <button type="button" data-share aria-label="Share {{ $page.Title }}">Share</button>
+        <button type="button" data-hide-source aria-label="Hide stories from {{ $source }}">Hide</button>
+      </div>
+    </div>
+  </div>
+</article>

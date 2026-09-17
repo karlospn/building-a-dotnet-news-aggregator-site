@@ -9,19 +9,24 @@
   weight = -109  
 
 [[main]]
+  name = "Weekly digest"
+  url = "digest/"
+  weight = -108
+
+[[main]]
   name = "Feeds"
   url = "feeds/"
-  weight = -108
+  weight = -107
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -106
 
 [[main]]
   name = "Contribute"
   url = "contribute/"
-  weight = -106
+  weight = -105
 
 [[social]]
   name = "github"
@@ -32,4 +37,3 @@
   name = "linkedin"
   weight = 3
   url = "https://www.linkedin.com/in/carlosponsn/"
-

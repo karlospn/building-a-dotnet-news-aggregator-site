@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{- $sections := slice "post" "videos" }}
+  {{- $cutoff := now.AddDate 0 0 -7 }}
+  {{- $all := where site.RegularPages "Section" "in" $sections }}
+  {{- $recent := where $all "Date" "ge" $cutoff }}
+  {{- $recent = sort $recent "Date" "desc" }}
+  <div class="news-shell wrap">
+    <section class="digest-header">
+      <div>
+        <p class="eyebrow">The last seven days</p>
+        <h1>Weekly digest</h1>
+        <p>{{ len $recent }} useful articles and videos, collected into one briefing.</p>
+      </div>
+      {{ partial "subscription" . }}
+    </section>
+    {{ partial "discovery-controls" . }}
+    <div class="news-grid" id="news-grid">
+      {{ range $recent }}
+        {{ partial "news-card" (dict "page" .) }}
+      {{ end }}
+    </div>
+    <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
+  </div>
+{{ end }}
