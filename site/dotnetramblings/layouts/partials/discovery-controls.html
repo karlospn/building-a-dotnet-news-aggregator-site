@@ -1,7 +1,9 @@
 {{- $videoOnly := default false .videoOnly }}
 {{- $topicLocked := default false .topicLocked }}
 {{- $placeholder := default "Search title, source, or topic" .placeholder }}
+{{- $label := default "Filters" .label }}
 <div class="discovery-panel" data-discovery-controls>
+  <span class="toolbar-label">{{ $label }}</span>
   <label class="search-control">
     <span class="sr-only">Search</span>
     <input type="search" data-news-search placeholder="{{ $placeholder }}">

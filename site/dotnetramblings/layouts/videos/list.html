@@ -5,7 +5,7 @@
       <h1>Latest videos</h1>
       <p>Fresh talks, tutorials, demos, and explainers from the developer community.</p>
     </header>
-    {{ partial "discovery-controls" (dict "videoOnly" true "placeholder" "Search all videos") }}
+    {{ partial "discovery-controls" (dict "videoOnly" true "label" "Filter videos" "placeholder" "Search all videos") }}
     <p class="results-summary" aria-live="polite">
       Showing <span id="rendered-count">{{ math.Min 24 (len .Pages) }}</span>
       of <span id="visible-count">{{ len .Pages }}</span> videos

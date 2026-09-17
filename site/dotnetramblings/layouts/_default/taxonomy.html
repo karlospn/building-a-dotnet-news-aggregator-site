@@ -6,7 +6,7 @@
       <h1>{{ .Title }}</h1>
       <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} about {{ .Title }}.</p>
     </header>
-    {{ partial "discovery-controls" (dict "topicLocked" true "placeholder" "Search this topic") }}
+    {{ partial "discovery-controls" (dict "topicLocked" true "label" "Filter stories" "placeholder" "Search this topic") }}
     <div class="news-grid" id="news-grid">
       {{ range (.Paginate $pages).Pages }}
         {{ partial "news-card" (dict "page" .) }}

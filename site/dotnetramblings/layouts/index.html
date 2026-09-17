@@ -11,7 +11,7 @@
         <a class="button" href="/digest/">Browse by week</a>
       </div>
 
-      {{ partial "discovery-controls" (dict "placeholder" "Search all stories") }}
+      {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search all stories") }}
       <p class="results-summary" aria-live="polite">
         Showing <span id="rendered-count">{{ math.Min 24 (len $all) }}</span>
         of <span id="visible-count">{{ len $all }}</span> stories

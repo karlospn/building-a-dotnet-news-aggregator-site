@@ -180,9 +180,8 @@
     let bookmarks = new Set(storedArray("newsBookmarks"));
     let readStories = new Set(storedArray("newsReadStories"));
     let hiddenSources = new Set(storedArray("newsHiddenSources"));
-    let activeType =
-      location.hash === "#bookmarks" ? "bookmarks" : storage.get("newsActiveType", "all");
-    let activeTopic = storage.get("newsActiveTopic", "all");
+    let activeType = location.hash === "#bookmarks" ? "bookmarks" : "all";
+    let activeTopic = "all";
     let query = "";
     let archiveItems = null;
     let currentPage = 1;
@@ -352,7 +351,6 @@
       if (typeButton) {
         activeType = typeButton.dataset.typeFilter;
         currentPage = 1;
-        storage.set("newsActiveType", activeType);
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button === typeButton);
         });
@@ -366,7 +364,6 @@
       if (topicButton) {
         activeTopic = topicButton.dataset.topicFilter;
         currentPage = 1;
-        storage.set("newsActiveTopic", activeTopic);
         document.querySelectorAll("[data-topic-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button.dataset.topicFilter === activeTopic);
         });
@@ -453,7 +450,6 @@
       typeSelect.addEventListener("change", function () {
         activeType = typeSelect.value;
         currentPage = 1;
-        storage.set("newsActiveType", activeType);
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.remove("is-active");
         });
@@ -467,7 +463,6 @@
       topicSelect.addEventListener("change", function () {
         activeTopic = topicSelect.value;
         currentPage = 1;
-        storage.set("newsActiveTopic", activeTopic);
         updateCards();
       });
     }

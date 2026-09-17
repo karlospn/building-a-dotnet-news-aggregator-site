@@ -287,6 +287,16 @@ span.topic-badge {
   padding: 0.85rem 0;
 }
 
+.toolbar-label {
+  color: var(--news-muted);
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
 .directory-filters {
   align-items: center;
   display: flex;
