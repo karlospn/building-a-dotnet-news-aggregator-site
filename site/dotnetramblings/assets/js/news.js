@@ -166,6 +166,33 @@
     }
   }, true);
 
+  const mediaQuery = function (query) {
+    return typeof window.matchMedia === "function"
+      ? window.matchMedia(query)
+      : { matches: false };
+  };
+  const reducedMotion = mediaQuery("(prefers-reduced-motion: reduce)");
+  const mobileViewport = mediaQuery("(max-width: 620px)");
+  const filterDisclosures = Array.from(
+    document.querySelectorAll(".filter-disclosure")
+  );
+  const syncFilterDisclosures = function () {
+    filterDisclosures.forEach(function (disclosure) {
+      disclosure.open = !mobileViewport.matches;
+    });
+  };
+  syncFilterDisclosures();
+  if (mobileViewport.addEventListener) {
+    mobileViewport.addEventListener("change", syncFilterDisclosures);
+  }
+
+  const scrollToGrid = function (grid) {
+    grid.scrollIntoView({
+      behavior: reducedMotion.matches ? "auto" : "smooth",
+      block: "start"
+    });
+  };
+
   const grid = document.querySelector("#news-grid");
   let cards = grid ? Array.from(grid.querySelectorAll("[data-news-card]")) : [];
   const featuredCards = Array.from(
@@ -435,12 +462,12 @@
       if (event.target.closest("[data-page-previous]") && currentPage > 1) {
         currentPage -= 1;
         renderArchive();
-        grid.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToGrid(grid);
       }
       if (event.target.closest("[data-page-next]")) {
         currentPage += 1;
         renderArchive();
-        grid.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToGrid(grid);
       }
     });
 

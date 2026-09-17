@@ -2,8 +2,13 @@
 {{- $topicLocked := default false .topicLocked }}
 {{- $placeholder := default "Search title, source, or topic" .placeholder }}
 {{- $label := default "Filters" .label }}
-<div class="discovery-panel" data-discovery-controls>
-  <span class="toolbar-label">{{ $label }}</span>
+<details class="filter-disclosure" open>
+  <summary>
+    <span>{{ $label }}</span>
+    <span class="filter-disclosure__hint">Search and refine</span>
+  </summary>
+  <div class="discovery-panel" data-discovery-controls>
+    <span class="toolbar-label">{{ $label }}</span>
   <label class="search-control">
     <span class="sr-only">Search</span>
     <input type="search" data-news-search placeholder="{{ $placeholder }}">
@@ -30,17 +35,18 @@
     </label>
   {{ end }}
   <button type="button" class="saved-filter" data-type-filter="bookmarks" aria-pressed="false">☆ Saved</button>
-  <details class="browser-settings">
-    <summary aria-label="Display settings">Settings</summary>
-    <div>
-      <label>
-        Density
-        <select data-density>
-          <option value="comfortable">Comfortable</option>
-          <option value="compact">Compact</option>
-        </select>
-      </label>
-      <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
-    </div>
-  </details>
-</div>
+    <details class="browser-settings">
+      <summary aria-label="Display settings">Settings</summary>
+      <div>
+        <label>
+          Density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
+      </div>
+    </details>
+  </div>
+</details>
