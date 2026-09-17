@@ -5,13 +5,46 @@
       <h1>Latest videos</h1>
       <p>Fresh talks, tutorials, demos, and explainers from the developer community.</p>
     </header>
-    {{ partial "discovery-controls" . }}
-    <div class="news-grid" id="news-grid">
-      {{ range (.Paginate (sort .Pages "Date" "desc")).Pages }}
+    <div class="discovery-panel" data-discovery-controls>
+      <div class="filter-row" role="group" aria-label="Videos">
+        <button type="button" class="filter-chip is-active" data-type-filter="all">All videos</button>
+        <button type="button" class="filter-chip" data-type-filter="bookmarks">Bookmarks</button>
+      </div>
+      <div class="filter-row" role="group" aria-label="Topic">
+        <button type="button" class="filter-chip is-active" data-topic-filter="all">All topics</button>
+        {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
+          <button type="button" class="filter-chip" data-topic-filter="{{ . | urlize }}">{{ . }}</button>
+        {{ end }}
+      </div>
+      <div class="preference-row">
+        <label>
+          Search videos
+          <input type="search" data-news-search placeholder="Title, source, or topic">
+        </label>
+        <label>
+          Card density
+          <select data-density>
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+          </select>
+        </label>
+        <button type="button" class="text-button" data-reset-preferences>Reset hidden sources</button>
+      </div>
+    </div>
+    <p class="results-summary" aria-live="polite">
+      Showing <span id="rendered-count">{{ math.Min 24 (len .Pages) }}</span>
+      of <span id="visible-count">{{ len .Pages }}</span> videos
+    </p>
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-content-scope="video">
+      {{ range first 24 (sort .Pages "Date" "desc") }}
         {{ partial "news-card" (dict "page" .) }}
       {{ end }}
     </div>
     <p class="empty-state" id="empty-state" hidden>No videos match these filters.</p>
-    <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+    <nav class="client-pagination" data-client-pagination aria-label="Filtered video pages" hidden>
+      <button type="button" data-page-previous>← Previous</button>
+      <span data-page-status aria-live="polite"></span>
+      <button type="button" data-page-next>Next →</button>
+    </nav>
   </div>
 {{ end }}

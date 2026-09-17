@@ -1,3 +1,5 @@
-Feed: https://devblogs.microsoft.com/landingpage/
-Title: Microsoft Developer Blog
-Website: https://devblogs.microsoft.com/
+Feed: https://devblogs.microsoft.com/dotnet/feed/
+Title: Microsoft .NET Blog
+Website: https://devblogs.microsoft.com/dotnet/
+Description: Official .NET, C#, ASP.NET Core, runtime, performance, and tooling news.
+Author: Microsoft

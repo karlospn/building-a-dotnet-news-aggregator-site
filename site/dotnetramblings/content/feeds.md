@@ -11,15 +11,6 @@ feeds:
   source: RSS feed
   topics:
   - .NET
-- id: dotnetfoundation
-  feed: http://dotnetfoundation.org/api/rss
-  title: .NET Foundation
-  website: https://dotnetfoundation.org/
-  description: ''
-  author: ''
-  source: RSS feed
-  topics:
-  - .NET
 - id: aws-dotnet-blog
   feed: https://aws.amazon.com/blogs/dotnet/feed/
   title: .NET on AWS Blog
@@ -266,6 +257,16 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: infoq-dotnet
+  feed: https://feed.infoq.com/dotnet
+  title: InfoQ .NET
+  website: https://www.infoq.com/dotnet/
+  description: .NET releases, architecture, performance, and engineering practices.
+  author: InfoQ
+  source: RSS feed
+  topics:
+  - .NET
+  - Architecture
 - id: infoq
   feed: https://www.youtube.com/@infoq
   title: InfoQ Youtube Channel
@@ -293,6 +294,15 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: jetbrains-blog
+  feed: https://blog.jetbrains.com/dotnet/feed/
+  title: JetBrains .NET Tools Blog
+  website: https://blog.jetbrains.com/dotnet/
+  description: Rider, ReSharper, dotTrace, C#, and .NET development insights.
+  author: JetBrains
+  source: RSS feed
+  topics:
+  - .NET
 - id: jetbrains-tv
   feed: https://www.youtube.com/@JetBrainsTV
   title: Jetbrains TV
@@ -356,6 +366,15 @@ feeds:
   source: RSS feed
   topics:
   - .NET
+- id: microsoft-devblogs
+  feed: https://devblogs.microsoft.com/dotnet/feed/
+  title: Microsoft .NET Blog
+  website: https://devblogs.microsoft.com/dotnet/
+  description: Official .NET, C#, ASP.NET Core, runtime, performance, and tooling news.
+  author: Microsoft
+  source: RSS feed
+  topics:
+  - .NET
 - id: azure-blog
   feed: https://azure.microsoft.com/en-us/blog/feed/
   title: Microsoft Azure Blog
@@ -374,15 +393,6 @@ feeds:
   source: YouTube channel
   topics:
   - Azure
-- id: microsoft-devblogs
-  feed: https://devblogs.microsoft.com/landingpage/
-  title: Microsoft Developer Blog
-  website: https://devblogs.microsoft.com/
-  description: ''
-  author: ''
-  source: RSS feed
-  topics:
-  - General
 - id: microsoft-developer
   feed: https://www.youtube.com/@MicrosoftDeveloper
   title: Microsoft Developer Youtube Channel
@@ -446,6 +456,16 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: ndepend-blog
+  feed: https://blog.ndepend.com/feed/
+  title: NDepend Blog
+  website: https://blog.ndepend.com/
+  description: .NET architecture, code quality, technical debt, and static analysis.
+  author: NDepend
+  source: RSS feed
+  topics:
+  - .NET
+  - Architecture
 - id: ned-in-the-cloud
   feed: https://www.youtube.com/@NedintheCloud
   title: Ned in the Cloud
@@ -518,6 +538,26 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: steve-gordon
+  feed: https://www.stevejgordon.co.uk/feed
+  title: Steve Gordon's Code Blog
+  website: https://www.stevejgordon.co.uk/
+  description: ASP.NET Core, HTTP, .NET internals, performance, and testing.
+  author: Steve Gordon
+  source: RSS feed
+  topics:
+  - .NET
+  - Testing
+- id: tabs-over-spaces
+  feed: https://www.tabsoverspaces.com/feed.xml
+  title: Tabs Over Spaces
+  website: https://www.tabsoverspaces.com/
+  description: Technical articles about C#, .NET, databases, and software development.
+  author: Jiří Činčura
+  source: RSS feed
+  topics:
+  - .NET
+  - Data
 - id: techworld-with-nana
   feed: https://www.youtube.com/@TechWorldwithNana
   title: TechWorld with Nana
@@ -525,15 +565,6 @@ feeds:
   description: ''
   author: ''
   source: YouTube channel
-  topics:
-  - General
-- id: jetbrains-blog
-  feed: https://blog.jetbrains.com/feed/
-  title: The Jetbrains Blog
-  website: https://blog.jetbrains.com
-  description: ''
-  author: ''
-  source: RSS feed
   topics:
   - General
 - id: openai

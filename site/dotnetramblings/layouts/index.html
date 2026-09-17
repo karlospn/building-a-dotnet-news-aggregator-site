@@ -5,18 +5,17 @@
 
   <div class="news-shell wrap">
     <section class="news-feed" aria-labelledby="latest-heading">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Browse the full archive</p>
-          <h2 id="latest-heading">Latest updates</h2>
-        </div>
-        <div class="section-heading__aside">
-          <span id="visible-count" aria-live="polite"></span>
-          <a href="/digest/">Browse by week →</a>
-        </div>
+      <h1 class="sr-only" id="latest-heading">.NET news and videos</h1>
+      <div class="browser-header">
+        <p>Browse articles and videos from across the .NET community.</p>
+        <a class="button" href="/digest/">Browse by week</a>
       </div>
 
       {{ partial "discovery-controls" . }}
+      <p class="results-summary" aria-live="polite">
+        Showing <span id="rendered-count">{{ math.Min 24 (len $all) }}</span>
+        of <span id="visible-count">{{ len $all }}</span> stories
+      </p>
 
       <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24">
         {{ range first 24 $all }}

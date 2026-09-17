@@ -138,6 +138,7 @@
     let archiveItems = null;
     let currentPage = 1;
     const pageSize = Number(grid.dataset.pageSize) || cards.length;
+    const contentScope = grid.dataset.contentScope || "";
     const pagination = document.querySelector("[data-client-pagination]");
     const weekSelect = document.querySelector("[data-week-select]");
     let selectedWeek = null;
@@ -208,6 +209,7 @@
         item.contentType === activeType ||
         (activeType === "bookmarks" && bookmarks.has(item.link));
       return (
+        (!contentScope || item.contentType === contentScope) &&
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
         (!selectedWeek || weekKey(item.date) === selectedWeek) &&
@@ -247,7 +249,11 @@
       updateFeaturedCards();
 
       const count = document.querySelector("#visible-count");
-      if (count) count.textContent = `${matches.length} matching stories`;
+      if (count) count.textContent = String(matches.length);
+      const renderedCount = document.querySelector("#rendered-count");
+      if (renderedCount) {
+        renderedCount.textContent = String(Math.min(pageSize, matches.length - start));
+      }
       const digestCount = document.querySelector("[data-digest-count]");
       if (digestCount) digestCount.textContent = String(matches.length);
       const empty = document.querySelector("#empty-state");
@@ -286,7 +292,9 @@
       });
 
       const count = document.querySelector("#visible-count");
-      if (count) count.textContent = `${visible} stories on this page`;
+      if (count) count.textContent = String(visible);
+      const renderedCount = document.querySelector("#rendered-count");
+      if (renderedCount) renderedCount.textContent = String(visible);
       const empty = document.querySelector("#empty-state");
       if (empty) empty.hidden = visible !== 0;
     };

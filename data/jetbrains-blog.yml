@@ -1,3 +1,5 @@
-Feed: https://blog.jetbrains.com/feed/
-Title: The Jetbrains Blog
-Website: https://blog.jetbrains.com
+Feed: https://blog.jetbrains.com/dotnet/feed/
+Title: JetBrains .NET Tools Blog
+Website: https://blog.jetbrains.com/dotnet/
+Description: Rider, ReSharper, dotTrace, C#, and .NET development insights.
+Author: JetBrains

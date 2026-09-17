@@ -43,6 +43,27 @@
   gap: 0.25rem;
 }
 
+.browser-header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 2rem 0 1rem;
+}
+
+.browser-header p {
+  color: var(--news-muted);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.results-summary {
+  color: var(--news-muted);
+  font-size: 0.82rem;
+  margin: -0.65rem 0 1rem;
+  text-align: right;
+}
+
 .featured-grid,
 .news-grid {
   display: grid;
@@ -492,6 +513,11 @@ span.topic-badge {
 
   .section-heading__aside {
     align-items: start;
+  }
+
+  .browser-header {
+    align-items: start;
+    flex-direction: column;
   }
 
   .taxonomy-header {
