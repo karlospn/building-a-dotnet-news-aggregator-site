@@ -2,60 +2,18 @@
   {{- $sections := slice "post" "videos" }}
   {{- $all := where site.RegularPages "Section" "in" $sections }}
   {{- $all = sort $all "Date" "desc" }}
-  {{- $recent := where $all "Date" "ge" (now.AddDate 0 0 -2) }}
-  {{- $ranked := sort $recent "Params.rank" "desc" }}
-  {{- $featured := slice }}
-  {{- $featuredSources := slice }}
-  {{- $featuredURLs := slice }}
-  {{- range $ranked }}
-    {{- $source := default (.Params.source | urlize) .Params.sourceId }}
-    {{- if and (lt (len $featured) 6) (not (in $featuredSources $source)) }}
-      {{- $featured = $featured | append . }}
-      {{- $featuredSources = $featuredSources | append $source }}
-      {{- $featuredURLs = $featuredURLs | append .Params.link }}
-    {{- end }}
-  {{- end }}
-  {{- if lt (len $featured) 6 }}
-    {{- range $all }}
-      {{- if and (lt (len $featured) 6) (not (in $featuredURLs .Params.link)) }}
-        {{- $featured = $featured | append . }}
-        {{- $featuredURLs = $featuredURLs | append .Params.link }}
-      {{- end }}
-    {{- end }}
-  {{- end }}
 
   <div class="news-shell wrap">
-    <section class="news-hero">
-      <div>
-        <p class="eyebrow">Fresh from the .NET ecosystem</p>
-        <h1>Your daily developer briefing</h1>
-        <p>Articles and videos from trusted creators, organized around the technologies you follow.</p>
-      </div>
-      {{ partial "subscription" . }}
-    </section>
-
-    <section aria-labelledby="top-stories-heading">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Curated automatically</p>
-          <h2 id="top-stories-heading">Top stories</h2>
-        </div>
-        <a href="/digest/">Open the weekly digest →</a>
-      </div>
-      <div class="featured-grid">
-        {{ range $featured }}
-          {{ partial "news-card" (dict "page" . "featured" true) }}
-        {{ end }}
-      </div>
-    </section>
-
     <section class="news-feed" aria-labelledby="latest-heading">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Personalize your stream</p>
+          <p class="eyebrow">Browse the full archive</p>
           <h2 id="latest-heading">Latest updates</h2>
         </div>
-        <span id="visible-count" aria-live="polite"></span>
+        <div class="section-heading__aside">
+          <span id="visible-count" aria-live="polite"></span>
+          <a href="/digest/">Browse by week →</a>
+        </div>
       </div>
 
       {{ partial "discovery-controls" . }}

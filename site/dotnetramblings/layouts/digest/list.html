@@ -5,20 +5,28 @@
   {{- $recent := where $all "Date" "ge" $cutoff }}
   {{- $recent = sort $recent "Date" "desc" }}
   <div class="news-shell wrap">
-    <section class="digest-header">
-      <div>
-        <p class="eyebrow">The last seven days</p>
-        <h1>Weekly digest</h1>
-        <p>{{ len $recent }} useful articles and videos, collected into one briefing.</p>
-      </div>
-      {{ partial "subscription" . }}
-    </section>
+    <header class="directory-header">
+      <p class="eyebrow">Up to 180 days of history</p>
+      <h1>Browse by week</h1>
+      <p><span data-digest-count>{{ len $recent }}</span> articles and videos in the selected week.</p>
+    </header>
+    <div class="week-picker">
+      <label for="week-select">Choose a week</label>
+      <select id="week-select" data-week-select>
+        <option>Loading available weeks…</option>
+      </select>
+    </div>
     {{ partial "discovery-controls" . }}
-    <div class="news-grid" id="news-grid">
-      {{ range $recent }}
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-week-mode="true">
+      {{ range first 24 $recent }}
         {{ partial "news-card" (dict "page" .) }}
       {{ end }}
     </div>
     <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
+    <nav class="client-pagination" data-client-pagination aria-label="Weekly results pages" hidden>
+      <button type="button" data-page-previous>← Previous</button>
+      <span data-page-status aria-live="polite"></span>
+      <button type="button" data-page-next>Next →</button>
+    </nav>
   </div>
 {{ end }}

@@ -10,23 +10,6 @@
   padding-bottom: 4rem;
 }
 
-.news-hero,
-.digest-header {
-  align-items: center;
-  background:
-    radial-gradient(circle at top right, rgba(109, 93, 252, 0.2), transparent 42%),
-    var(--news-surface);
-  border: 1px solid var(--news-border);
-  border-radius: 1.25rem;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: minmax(0, 1.5fr) minmax(18rem, 0.7fr);
-  margin: 2rem 0 3rem;
-  padding: clamp(1.5rem, 4vw, 3.5rem);
-}
-
-.news-hero h1,
-.digest-header h1,
 .directory-header h1 {
   font-size: clamp(2rem, 5vw, 3.6rem);
   line-height: 1.05;
@@ -42,30 +25,6 @@
   text-transform: uppercase;
 }
 
-.subscription-card {
-  background: var(--post-bg);
-  border: 1px solid var(--news-border);
-  border-radius: 1rem;
-  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
-  padding: 1.35rem;
-}
-
-.subscription-card p {
-  color: var(--news-muted);
-  margin: 0.5rem 0 1rem;
-}
-
-.subscription-card form,
-.subscription-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-}
-
-.subscription-card input {
-  flex: 1 1 12rem;
-}
-
 .section-heading {
   align-items: end;
   display: flex;
@@ -75,6 +34,13 @@
 
 .section-heading h2 {
   margin: 0.15rem 0 0;
+}
+
+.section-heading__aside {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .featured-grid,
@@ -311,8 +277,7 @@ span.topic-badge {
 
 .preference-row input,
 .preference-row select,
-.directory-filters input,
-.subscription-card input {
+.directory-filters input {
   background: var(--choice-bg);
   border: 1px solid var(--news-border);
   border-radius: 0.55rem;
@@ -361,6 +326,30 @@ span.topic-badge {
 .client-pagination button:disabled {
   cursor: not-allowed;
   opacity: 0.45;
+}
+
+.week-picker {
+  align-items: center;
+  background: var(--news-surface);
+  border: 1px solid var(--news-border);
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.week-picker label {
+  font-weight: 700;
+}
+
+.week-picker select {
+  background: var(--choice-bg);
+  border: 1px solid var(--news-border);
+  border-radius: 0.55rem;
+  color: inherit;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.7rem;
 }
 
 .directory-header {
@@ -484,10 +473,6 @@ span.topic-badge {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .news-hero,
-  .digest-header {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 620px) {
@@ -503,6 +488,10 @@ span.topic-badge {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .section-heading__aside {
+    align-items: start;
   }
 
   .taxonomy-header {

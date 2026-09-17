@@ -24,3 +24,5 @@ series = "series"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+taxonomy = ["HTML"]
+term = ["HTML"]

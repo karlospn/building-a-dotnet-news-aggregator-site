@@ -3,7 +3,7 @@
     <header class="directory-header">
       <p class="eyebrow">Browse by subject</p>
       <h1>{{ .Title }}</h1>
-      <p>Choose a topic to see its latest articles and videos, or follow its dedicated RSS feed.</p>
+      <p>Choose a topic to see its latest articles and videos.</p>
     </header>
     <div class="topic-directory">
       {{ range .Data.Terms.ByCount }}
@@ -14,7 +14,6 @@
           </div>
           <div class="topic-card__actions">
             <a class="button" href="{{ .Page.RelPermalink }}">Browse topic</a>
-            <a href="{{ .Page.RelPermalink }}index.xml">RSS</a>
           </div>
         </article>
       {{ end }}

@@ -37,3 +37,8 @@
   name = "linkedin"
   weight = 3
   url = "https://www.linkedin.com/in/carlosponsn/"
+
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "/index.xml"

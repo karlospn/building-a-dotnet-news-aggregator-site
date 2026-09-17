@@ -16,7 +16,7 @@ The site is automatically updated every 3 hours with the latest news from variou
 
 There is also a lot of interesting .NET content in Youtube, that's why this site also contains a videos section. This section is automatically updated once every day at 07:15 AM (UTC) with the videos posted the day before.
 
-Readers can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences stay in the browser and require no account. The complete site and every topic page expose free RSS feeds.
+Readers can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences stay in the browser and require no account. The complete site exposes a free RSS feed from the navigation bar.
 
 # **Contribute**
 

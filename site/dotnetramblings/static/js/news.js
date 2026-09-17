@@ -139,6 +139,8 @@
     let currentPage = 1;
     const pageSize = Number(grid.dataset.pageSize) || cards.length;
     const pagination = document.querySelector("[data-client-pagination]");
+    const weekSelect = document.querySelector("[data-week-select]");
+    let selectedWeek = null;
 
     if (!["all", "article", "video", "bookmarks"].includes(activeType)) activeType = "all";
     const topicControls = Array.from(
@@ -153,6 +155,40 @@
     ) {
       activeTopic = "all";
     }
+
+    const weekKey = function (value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "";
+      const dayFromMonday = (date.getUTCDay() + 6) % 7;
+      date.setUTCDate(date.getUTCDate() - dayFromMonday);
+      date.setUTCHours(0, 0, 0, 0);
+      return date.toISOString().slice(0, 10);
+    };
+
+    const populateWeeks = function (items) {
+      if (!weekSelect) return;
+      const weeks = Array.from(
+        new Set(items.map(function (item) {
+          return weekKey(item.date);
+        }).filter(Boolean))
+      ).sort().reverse();
+      const requestedWeek = new URLSearchParams(location.search).get("week");
+      selectedWeek = weeks.includes(requestedWeek) ? requestedWeek : weeks[0] || null;
+      const formatter = new Intl.DateTimeFormat(undefined, {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC"
+      });
+      weekSelect.innerHTML = weeks.map(function (week) {
+        const start = new Date(`${week}T00:00:00Z`);
+        const end = new Date(start);
+        end.setUTCDate(end.getUTCDate() + 6);
+        const label = `${formatter.format(start)} – ${formatter.format(end)}`;
+        return `<option value="${week}">${escapeHtml(label)}</option>`;
+      }).join("");
+      if (selectedWeek) weekSelect.value = selectedWeek;
+    };
 
     const matchesFilters = function (item) {
       const topics = Array.isArray(item.topics)
@@ -174,6 +210,7 @@
       return (
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
+        (!selectedWeek || weekKey(item.date) === selectedWeek) &&
         (!query || text.includes(query)) &&
         !hiddenSources.has(item.sourceId)
       );
@@ -211,6 +248,8 @@
 
       const count = document.querySelector("#visible-count");
       if (count) count.textContent = `${matches.length} matching stories`;
+      const digestCount = document.querySelector("[data-digest-count]");
+      if (digestCount) digestCount.textContent = String(matches.length);
       const empty = document.querySelector("#empty-state");
       if (empty) empty.hidden = matches.length !== 0;
       if (pagination) {
@@ -353,6 +392,17 @@
       });
     }
 
+    if (weekSelect) {
+      weekSelect.addEventListener("change", function () {
+        selectedWeek = weekSelect.value;
+        currentPage = 1;
+        const url = new URL(location.href);
+        url.searchParams.set("week", selectedWeek);
+        history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+        updateCards();
+      });
+    }
+
     const density = document.querySelector("[data-density]");
     if (density) {
       const savedDensity = storage.get("newsDensity", "comfortable");
@@ -381,6 +431,7 @@
         .then(function (items) {
           if (!Array.isArray(items)) throw new Error("Archive response is not an array");
           archiveItems = items;
+          populateWeeks(items);
           currentPage = 1;
           updateCards();
         })

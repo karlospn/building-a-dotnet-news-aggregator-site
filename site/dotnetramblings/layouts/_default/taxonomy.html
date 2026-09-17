@@ -1,13 +1,10 @@
 {{ define "main" }}
   {{- $pages := sort .Pages "Date" "desc" }}
   <div class="news-shell wrap">
-    <header class="directory-header taxonomy-header">
-      <div>
-        <p class="eyebrow">Topic briefing</p>
-        <h1>{{ .Title }}</h1>
-        <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} about {{ .Title }}.</p>
-      </div>
-      <a class="button" href="{{ .RelPermalink }}index.xml">Follow this topic via RSS</a>
+    <header class="directory-header">
+      <p class="eyebrow">Topic briefing</p>
+      <h1>{{ .Title }}</h1>
+      <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} about {{ .Title }}.</p>
     </header>
     <div class="discovery-panel">
       <div class="filter-row" role="group" aria-label="Content type">
