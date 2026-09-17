@@ -1,186 +1,186 @@
 {
   "andrewlock": {
-    "checkedAt": "2026-09-17T20:46:22.162772+00:00",
+    "checkedAt": "2026-09-17T23:16:48.033067+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "ardalis": {
-    "checkedAt": "2026-09-17T20:46:43.131025+00:00",
+    "checkedAt": "2026-09-17T23:17:04.858719+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-09-17T20:46:43.656868+00:00",
+    "checkedAt": "2026-09-17T23:17:05.657746+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-17T20:46:40.607406+00:00",
+    "checkedAt": "2026-09-17T23:17:00.234870+00:00",
     "itemCount": 11,
     "message": "",
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-17T20:46:41.787725+00:00",
+    "checkedAt": "2026-09-17T23:17:03.720386+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "build5nines": {
-    "checkedAt": "2026-09-17T20:46:22.492326+00:00",
+    "checkedAt": "2026-09-17T23:16:48.712053+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "code-maze": {
-    "checkedAt": "2026-09-17T20:46:17.742661+00:00",
+    "checkedAt": "2026-09-17T23:16:43.856877+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "code4it": {
-    "checkedAt": "2026-09-17T20:46:24.385933+00:00",
+    "checkedAt": "2026-09-17T23:16:51.074620+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-09-17T20:46:36.514795+00:00",
+    "checkedAt": "2026-09-17T23:16:55.035899+00:00",
     "itemCount": 0,
-    "message": "text/html is not an XML media type",
-    "status": "error"
+    "message": "",
+    "status": "healthy"
   },
   "dailydotnettips": {
-    "checkedAt": "2026-09-17T20:46:41.374363+00:00",
+    "checkedAt": "2026-09-17T23:17:03.060951+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "damienbod": {
-    "checkedAt": "2026-09-17T20:46:22.619465+00:00",
+    "checkedAt": "2026-09-17T23:16:49.075040+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-17T20:46:37.882087+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-17T23:16:56.132759+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-09-17T20:46:41.496918+00:00",
+    "checkedAt": "2026-09-17T23:17:03.304861+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-09-17T20:46:22.768115+00:00",
+    "checkedAt": "2026-09-17T23:16:49.459913+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-09-17T20:46:18.040613+00:00",
+    "checkedAt": "2026-09-17T23:16:44.118447+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "goatreview": {
-    "checkedAt": "2026-09-17T20:46:23.960314+00:00",
+    "checkedAt": "2026-09-17T23:16:50.640178+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-09-17T20:46:22.402849+00:00",
+    "checkedAt": "2026-09-17T23:16:48.453020+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-09-17T20:46:41.672366+00:00",
+    "checkedAt": "2026-09-17T23:17:03.521936+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-09-17T20:46:40.803060+00:00",
+    "checkedAt": "2026-09-17T23:17:02.230659+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "jimmybogard": {
-    "checkedAt": "2026-09-17T20:46:26.175469+00:00",
+    "checkedAt": "2026-09-17T23:16:53.171802+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "johnhilton": {
-    "checkedAt": "2026-09-17T20:46:42.941115+00:00",
+    "checkedAt": "2026-09-17T23:17:04.547054+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "markheath": {
-    "checkedAt": "2026-09-17T20:46:25.940015+00:00",
+    "checkedAt": "2026-09-17T23:16:52.827506+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-09-17T20:46:26.269823+00:00",
+    "checkedAt": "2026-09-17T23:16:53.638350+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-09-17T20:46:21.084466+00:00",
+    "checkedAt": "2026-09-17T23:16:46.685175+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-09-17T20:46:25.636963+00:00",
+    "checkedAt": "2026-09-17T23:16:52.476315+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-09-17T20:46:18.176066+00:00",
+    "checkedAt": "2026-09-17T23:16:44.453711+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "mytechramblings": {
-    "checkedAt": "2026-09-17T20:46:43.213934+00:00",
+    "checkedAt": "2026-09-17T23:17:05.094784+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "ndepend-blog": {
-    "checkedAt": "2026-09-17T20:46:41.248313+00:00",
+    "checkedAt": "2026-09-17T23:17:02.778741+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-17T20:46:38.860115+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-17T23:16:57.883350+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
   "steve-gordon": {
-    "checkedAt": "2026-09-17T20:46:20.635416+00:00",
+    "checkedAt": "2026-09-17T23:16:46.061314+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-09-17T20:46:37.986239+00:00",
+    "checkedAt": "2026-09-17T23:16:56.865417+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
