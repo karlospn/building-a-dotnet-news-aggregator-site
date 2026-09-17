@@ -6,6 +6,8 @@
 {{- $sourceID := default ($source | urlize) $page.Params.sourceId }}
 {{- $topics := $page.Params.topics | default (slice "General") }}
 {{- $image := default "images/misc.png" $page.Params.thumbnail }}
+{{- $shareURL := $page.Params.link | urlquery }}
+{{- $shareTitle := $page.Title | urlquery }}
 <article
   class="news-card{{ if $isFeatured }} news-card--featured{{ end }}"
   data-news-card
@@ -45,7 +47,15 @@
       </a>
       <div class="card-actions">
         <button type="button" data-bookmark aria-label="Bookmark {{ $page.Title }}">☆</button>
-        <button type="button" data-share aria-label="Share {{ $page.Title }}">Share</button>
+        <details class="share-control">
+          <summary>Share</summary>
+          <div class="share-menu">
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $shareURL }}" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com/intent/tweet?url={{ $shareURL }}&text={{ $shareTitle }}" target="_blank" rel="noopener">X</a>
+            <a href="mailto:?subject={{ $shareTitle }}&body={{ $shareURL }}">Email</a>
+            <button type="button" data-copy-link>Copy link</button>
+          </div>
+        </details>
         <button type="button" data-hide-source aria-label="Hide stories from {{ $source }}">Hide</button>
       </div>
     </div>

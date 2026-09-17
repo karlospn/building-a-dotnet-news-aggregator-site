@@ -74,21 +74,6 @@
     return copied;
   };
 
-  const shareStory = async function (button, title, url) {
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: title, url: url });
-        setButtonFeedback(button, "Shared");
-        return;
-      } catch (error) {
-        if (error && error.name === "AbortError") return;
-      }
-    }
-
-    const copied = await copyLink(url);
-    setButtonFeedback(button, copied ? "Copied" : "Copy failed");
-  };
-
   const relativeTime = function (date) {
     const timestamp = new Date(date).getTime();
     if (Number.isNaN(timestamp)) return "";
@@ -125,6 +110,8 @@
     const topicMarkup = topics.map(function (topic, index) {
       return `<button type="button" class="topic-badge" data-topic-filter="${escapeHtml(topicIds[index])}">${escapeHtml(topic)}</button>`;
     }).join("");
+    const encodedLink = encodeURIComponent(link);
+    const encodedTitle = encodeURIComponent(item.title || "");
 
     return `
       <article class="news-card" data-news-card data-url="${escapeHtml(link)}"
@@ -151,7 +138,15 @@
             </a>
             <div class="card-actions">
               <button type="button" data-bookmark aria-label="Bookmark ${escapeHtml(item.title)}">☆</button>
-              <button type="button" data-share aria-label="Share ${escapeHtml(item.title)}">Share</button>
+              <details class="share-control">
+                <summary>Share</summary>
+                <div class="share-menu">
+                  <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedLink}" target="_blank" rel="noopener">LinkedIn</a>
+                  <a href="https://twitter.com/intent/tweet?url=${encodedLink}&text=${encodedTitle}" target="_blank" rel="noopener">X</a>
+                  <a href="mailto:?subject=${encodedTitle}&body=${encodedLink}">Email</a>
+                  <button type="button" data-copy-link>Copy link</button>
+                </div>
+              </details>
               <button type="button" data-hide-source aria-label="Hide stories from ${escapeHtml(source)}">Hide</button>
             </div>
           </div>
@@ -392,11 +387,17 @@
         updateCards();
       }
 
-      const shareButton = event.target.closest("[data-share]");
-      if (shareButton) {
-        const card = shareButton.closest("[data-news-card]");
-        const title = card.querySelector("h3").textContent.trim();
-        shareStory(shareButton, title, card.dataset.url);
+      const copyButton = event.target.closest("[data-copy-link]");
+      if (copyButton) {
+        const card = copyButton.closest("[data-news-card]");
+        copyLink(card.dataset.url).then(function (copied) {
+          setButtonFeedback(copyButton, copied ? "Copied" : "Copy failed");
+          if (copied) {
+            window.setTimeout(function () {
+              copyButton.closest("details").open = false;
+            }, 800);
+          }
+        });
       }
 
       const outbound = event.target.closest("[data-outbound]");
