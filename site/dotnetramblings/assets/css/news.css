@@ -463,6 +463,30 @@ span.topic-badge {
   z-index: 4;
 }
 
+.settings-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-header strong {
+  font-size: 0.8rem;
+}
+
+.settings-header button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  height: 2rem;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0;
+}
+
 .browser-settings label {
   display: grid;
   font-size: 0.75rem;

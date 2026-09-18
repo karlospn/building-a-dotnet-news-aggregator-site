@@ -454,6 +454,15 @@
         });
       }
 
+      const closeSettingsButton = event.target.closest("[data-close-settings]");
+      if (closeSettingsButton) {
+        closeSettingsButton.closest("details").open = false;
+      } else if (!event.target.closest(".browser-settings")) {
+        document.querySelectorAll(".browser-settings[open]").forEach(function (settings) {
+          settings.open = false;
+        });
+      }
+
       const typeButton = event.target.closest("[data-type-filter]");
       if (typeButton) {
         if (typeButton.dataset.typeFilter === "bookmarks") {
@@ -572,6 +581,9 @@
       if (event.key === "Escape") {
         document.querySelectorAll(".share-control[open]").forEach(function (menu) {
           menu.open = false;
+        });
+        document.querySelectorAll(".browser-settings[open]").forEach(function (settings) {
+          settings.open = false;
         });
       }
     });
