@@ -1,0 +1,188 @@
+{
+  "andrewlock": {
+    "checkedAt": "2026-09-18T02:17:09.547950+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "ardalis": {
+    "checkedAt": "2026-09-18T02:17:21.350992+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "aws-dotnet-blog": {
+    "checkedAt": "2026-09-18T02:17:21.905187+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
+  },
+  "aws-ml-blog": {
+    "checkedAt": "2026-09-18T02:17:19.096219+00:00",
+    "itemCount": 11,
+    "message": "",
+    "status": "healthy"
+  },
+  "azure-blog": {
+    "checkedAt": "2026-09-18T02:17:20.317661+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "build5nines": {
+    "checkedAt": "2026-09-18T02:17:10.197490+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "code-maze": {
+    "checkedAt": "2026-09-18T02:17:05.454493+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "code4it": {
+    "checkedAt": "2026-09-18T02:17:11.737563+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "codeopinion": {
+    "checkedAt": "2026-09-18T02:17:15.378693+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "dailydotnettips": {
+    "checkedAt": "2026-09-18T02:17:19.859616+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "damienbod": {
+    "checkedAt": "2026-09-18T02:17:10.358246+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "devleader": {
+    "checkedAt": "2026-09-18T02:17:16.706232+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
+  },
+  "docker": {
+    "checkedAt": "2026-09-18T02:17:20.043931+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "dotnettips": {
+    "checkedAt": "2026-09-18T02:17:10.487385+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "elmahio": {
+    "checkedAt": "2026-09-18T02:17:05.737812+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "goatreview": {
+    "checkedAt": "2026-09-18T02:17:11.362970+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "infoq-dotnet": {
+    "checkedAt": "2026-09-18T02:17:10.072759+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "jeremydmiller": {
+    "checkedAt": "2026-09-18T02:17:20.202506+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
+  },
+  "jetbrains-blog": {
+    "checkedAt": "2026-09-18T02:17:19.244533+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "jimmybogard": {
+    "checkedAt": "2026-09-18T02:17:13.536145+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "johnhilton": {
+    "checkedAt": "2026-09-18T02:17:21.044126+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "markheath": {
+    "checkedAt": "2026-09-18T02:17:13.295338+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "meziantou": {
+    "checkedAt": "2026-09-18T02:17:13.746199+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "microsoft-devblogs": {
+    "checkedAt": "2026-09-18T02:17:08.441543+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
+  },
+  "milanjovanovic": {
+    "checkedAt": "2026-09-18T02:17:13.012878+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "montemagno": {
+    "checkedAt": "2026-09-18T02:17:05.985255+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "mytechramblings": {
+    "checkedAt": "2026-09-18T02:17:21.479774+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "ndepend-blog": {
+    "checkedAt": "2026-09-18T02:17:19.789847+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "openai": {
+    "checkedAt": "2026-09-18T02:17:17.704360+00:00",
+    "itemCount": 4,
+    "message": "",
+    "status": "healthy"
+  },
+  "steve-gordon": {
+    "checkedAt": "2026-09-18T02:17:07.995304+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
+  "tabs-over-spaces": {
+    "checkedAt": "2026-09-18T02:17:16.863091+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  }
+}
