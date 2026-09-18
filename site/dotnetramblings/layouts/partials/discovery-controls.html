@@ -2,6 +2,7 @@
 {{- $topicLocked := default false .topicLocked }}
 {{- $placeholder := default "Search title, source, or topic" .placeholder }}
 {{- $label := default "Filters" .label }}
+{{- $defaultType := default "all" .defaultType }}
 <details class="filter-disclosure" open>
   <summary>
     <span>{{ $label }}</span>
@@ -17,8 +18,8 @@
     <label class="select-control">
       <span>Type</span>
       <select data-type-select>
-        <option value="all">All content</option>
-        <option value="article">Articles</option>
+        <option value="article"{{ if eq $defaultType "article" }} selected{{ end }}>Articles</option>
+        <option value="all"{{ if eq $defaultType "all" }} selected{{ end }}>All content</option>
         <option value="video">Videos</option>
       </select>
     </label>

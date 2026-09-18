@@ -226,7 +226,12 @@
     let bookmarks = new Set(storedArray("newsBookmarks"));
     let readStories = new Set(storedArray("newsReadStories"));
     let hiddenSources = new Set(storedArray("newsHiddenSources"));
-    let activeType = location.hash === "#bookmarks" ? "bookmarks" : "all";
+    const defaultType = grid.dataset.defaultType || "all";
+    let activeType =
+      location.hash === "#bookmarks"
+        ? "bookmarks"
+        : defaultType;
+    let previousType = activeType === "bookmarks" ? defaultType : activeType;
     let activeTopic = "all";
     let showNew = false;
     let query = "";
@@ -350,6 +355,15 @@
 
       const count = document.querySelector("#visible-count");
       if (count) count.textContent = String(matches.length);
+      const resultLabel = document.querySelector("#result-label");
+      if (resultLabel) {
+        resultLabel.textContent =
+          contentScope === "video" || activeType === "video"
+            ? "videos"
+            : activeType === "article"
+              ? "articles"
+              : "stories";
+      }
       const renderedCount = document.querySelector("#rendered-count");
       if (renderedCount) {
         renderedCount.textContent = String(Math.min(pageSize, matches.length - start));
@@ -410,6 +424,15 @@
 
       const count = document.querySelector("#visible-count");
       if (count) count.textContent = String(visible);
+      const resultLabel = document.querySelector("#result-label");
+      if (resultLabel) {
+        resultLabel.textContent =
+          contentScope === "video" || activeType === "video"
+            ? "videos"
+            : activeType === "article"
+              ? "articles"
+              : "stories";
+      }
       const renderedCount = document.querySelector("#rendered-count");
       if (renderedCount) renderedCount.textContent = String(visible);
       const empty = document.querySelector("#empty-state");
@@ -428,10 +451,17 @@
 
       const typeButton = event.target.closest("[data-type-filter]");
       if (typeButton) {
-        activeType =
-          typeButton.dataset.typeFilter === "bookmarks" && activeType === "bookmarks"
-            ? "all"
-            : typeButton.dataset.typeFilter;
+        if (typeButton.dataset.typeFilter === "bookmarks") {
+          if (activeType === "bookmarks") {
+            activeType = previousType;
+          } else {
+            previousType = activeType;
+            activeType = "bookmarks";
+          }
+        } else {
+          activeType = typeButton.dataset.typeFilter;
+          previousType = activeType;
+        }
         currentPage = 1;
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.toggle("is-active", button === typeButton);
@@ -554,6 +584,7 @@
       typeSelect.value = activeType === "bookmarks" ? "all" : activeType;
       typeSelect.addEventListener("change", function () {
         activeType = typeSelect.value;
+        previousType = activeType;
         currentPage = 1;
         document.querySelectorAll("[data-type-filter]").forEach(function (button) {
           button.classList.remove("is-active");

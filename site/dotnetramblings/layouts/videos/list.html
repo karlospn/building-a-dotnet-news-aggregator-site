@@ -8,7 +8,7 @@
     {{ partial "discovery-controls" (dict "videoOnly" true "label" "Filter videos" "placeholder" "Search all videos") }}
     <p class="results-summary" aria-live="polite">
       Showing <span id="rendered-count">{{ math.Min 24 (len .Pages) }}</span>
-      of <span id="visible-count">{{ len .Pages }}</span> videos
+      of <span id="visible-count">{{ len .Pages }}</span> <span id="result-label">videos</span>
     </p>
     <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-content-scope="video">
       {{ range first 24 (sort .Pages "Date" "desc") }}

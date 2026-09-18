@@ -2,23 +2,24 @@
   {{- $sections := slice "post" "videos" }}
   {{- $all := where site.RegularPages "Section" "in" $sections }}
   {{- $all = sort $all "Date" "desc" }}
+  {{- $articles := where $all "Section" "post" }}
 
   <div class="news-shell wrap">
     <section class="news-feed" aria-labelledby="latest-heading">
       <h1 class="sr-only" id="latest-heading">.NET news and videos</h1>
       <div class="browser-header">
-        <p>Browse articles and videos from across the .NET community.</p>
+        <p>Read the latest articles from across the .NET community.</p>
         <a class="button" href="/digest/">Browse by week</a>
       </div>
 
-      {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search all stories") }}
+      {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article") }}
       <p class="results-summary" aria-live="polite">
-        Showing <span id="rendered-count">{{ math.Min 24 (len $all) }}</span>
-        of <span id="visible-count">{{ len $all }}</span> stories
+        Showing <span id="rendered-count">{{ math.Min 24 (len $articles) }}</span>
+        of <span id="visible-count">{{ len $articles }}</span> <span id="result-label">articles</span>
       </p>
 
-      <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24">
-        {{ range first 24 $all }}
+      <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-default-type="article">
+        {{ range first 24 $articles }}
           {{ partial "news-card" (dict "page" .) }}
         {{ end }}
       </div>
