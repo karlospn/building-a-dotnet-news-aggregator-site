@@ -6,8 +6,18 @@
   --news-surface: rgba(127, 127, 127, 0.06);
 }
 
+body {
+  max-width: none;
+}
+
 .news-shell {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2160px;
+  padding-left: clamp(1rem, 2vw, 2rem);
+  padding-right: clamp(1rem, 2vw, 2rem);
   padding-bottom: 4rem;
+  width: 100%;
 }
 
 .skip-link {
@@ -658,6 +668,15 @@ span.topic-badge {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+}
+
+@media (min-width: 1800px) {
+  .news-grid,
+  .news-grid.is-compact,
+  .feed-container,
+  .topic-directory {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 620px) {
