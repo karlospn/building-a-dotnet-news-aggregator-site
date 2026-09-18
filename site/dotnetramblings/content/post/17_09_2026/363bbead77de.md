@@ -12,8 +12,9 @@ topics:
 tags:
 - AI
 thumbnail: images/ai.png
+fallbackThumbnail: images/ai.png
 rank: 62
-featured: true
+featured: false
 whyItMatters: Worth a read for developers following AI.
 showShare: false
 showReadTime: false

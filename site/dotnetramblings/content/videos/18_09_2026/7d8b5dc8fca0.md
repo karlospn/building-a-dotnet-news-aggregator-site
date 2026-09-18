@@ -12,9 +12,9 @@ topics:
 tags:
 - AI
 thumbnail: https://i.ytimg.com/vi/mj7w5cv0epM/hqdefault.jpg
-duration: 0:55
+fallbackThumbnail: images/youtube.png
 rank: 63
-featured: true
+featured: false
 whyItMatters: Worth a watch for developers following AI.
 showShare: false
 showReadTime: false

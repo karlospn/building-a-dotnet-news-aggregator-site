@@ -119,6 +119,7 @@
     });
     const link = externalUrl(item.link);
     const thumbnail = imageUrl(item.thumbnail);
+    const fallbackThumbnail = imageUrl(item.fallbackThumbnail || "images/topics/general.svg");
     const metadata = [
       relativeTime(item.date),
       item.readingMinutes ? `${item.readingMinutes} min read` : ""
@@ -138,8 +139,9 @@
         data-source="${escapeHtml(sourceId)}" data-topics="${escapeHtml(topicIds.join(","))}"
         data-content-type="${type}" data-date="${escapeHtml(item.date)}">
         <a class="news-card__image" href="${escapeHtml(link)}" data-outbound>
-          <img src="${escapeHtml(thumbnail)}" alt="" loading="lazy" referrerpolicy="no-referrer"
-            data-fallback-image="/images/misc.png">
+          <img src="${escapeHtml(thumbnail)}" alt="" width="640" height="360" loading="lazy"
+            decoding="async" referrerpolicy="no-referrer"
+            data-fallback-image="${escapeHtml(fallbackThumbnail)}">
           ${type === "video" ? '<span class="content-badge">▶</span>' : ""}
           ${item.duration ? `<span class="duration-badge">${escapeHtml(item.duration)}</span>` : ""}
         </a>

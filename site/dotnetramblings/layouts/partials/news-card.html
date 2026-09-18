@@ -6,6 +6,7 @@
 {{- $sourceID := default ($source | urlize) $page.Params.sourceId }}
 {{- $topics := $page.Params.topics | default (slice "General") }}
 {{- $image := default "images/misc.png" $page.Params.thumbnail }}
+{{- $fallbackImage := default "images/topics/general.svg" $page.Params.fallbackThumbnail }}
 {{- $summary := index (split $page.RawContent "\n\n- ") 0 | plainify | truncate 180 }}
 {{- $shareURL := $page.Params.link | urlquery }}
 {{- $shareTitle := $page.Title | urlquery }}
@@ -19,9 +20,9 @@
   data-date="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
   <a class="news-card__image" href="{{ $page.Params.link }}" data-outbound>
     {{ if or (hasPrefix $image "http://") (hasPrefix $image "https://") }}
-      <img src="{{ $image }}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback-image="{{ "images/misc.png" | relURL }}">
+      <img src="{{ $image }}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-image="{{ $fallbackImage | relURL }}">
     {{ else }}
-      <img src="{{ $image | relURL }}" alt="" loading="lazy">
+      <img src="{{ $image | relURL }}" alt="" width="640" height="360" loading="lazy" decoding="async">
     {{ end }}
     {{ if eq $type "video" }}<span class="content-badge">▶</span>{{ end }}
     {{ with $page.Params.duration }}<span class="duration-badge">{{ . }}</span>{{ end }}

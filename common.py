@@ -87,18 +87,33 @@ def summarize(value, limit=420):
 def extract_entry_image(entry, article_url):
     for attribute in ("media_content", "media_thumbnail"):
         for image in entry.get(attribute, []):
-            if image.get("url"):
-                return image["url"]
+            candidate = _valid_image_url(
+                image.get("url", ""),
+                article_url,
+                image.get("width"),
+                image.get("height"),
+            )
+            if candidate:
+                return candidate
 
     for link in entry.get("links", []):
         if str(link.get("type", "")).startswith("image/") and link.get("href"):
-            return link["href"]
+            candidate = _valid_image_url(link["href"], article_url)
+            if candidate:
+                return candidate
 
     summary_image = BeautifulSoup(
         entry.get("summary") or entry.get("description") or "", "html.parser"
     ).find("img")
     if summary_image and summary_image.get("src"):
-        return urljoin(article_url, summary_image["src"])
+        candidate = _valid_image_url(
+            summary_image["src"],
+            article_url,
+            summary_image.get("width"),
+            summary_image.get("height"),
+        )
+        if candidate:
+            return candidate
 
     return _extract_open_graph_image(article_url)
 
@@ -106,10 +121,13 @@ def extract_entry_image(entry, article_url):
 def enrich_item(item):
     title = _sanitize_text(item["title"])
     summary = summarize(item.get("summary", ""))
-    topics = classify_topics(
-        " ".join((title, summary, item.get("source_title", ""), item.get("source_description", "")))
+    title_topics = classify_topics(title, include_general=False)
+    contextual_topics = classify_topics(
+        " ".join((summary, item.get("source_title", ""), item.get("source_description", ""))),
+        include_general=False,
     )
-    fallback_image = _calculate_thumbnail_image(topics)
+    topics = list(dict.fromkeys(title_topics + contextual_topics))[:3] or ["General"]
+    fallback_image = fallback_thumbnail(topics, item.get("content_type", "article"))
     image = item.get("image") or fallback_image
     full_content = sanitize_html(item.get("content", ""))
     reading_minutes = (
@@ -130,6 +148,7 @@ def enrich_item(item):
             "summary": summary,
             "topics": topics,
             "thumbnail": image,
+            "fallback_thumbnail": fallback_image,
             "reading_minutes": reading_minutes,
             "rank": rank,
             "why_it_matters": _why_it_matters(topics, item.get("content_type", "article")),
@@ -167,6 +186,7 @@ def convert_rss_data_to_md(item):
         "topics": list(item["topics"]),
         "tags": list(item["topics"]),
         "thumbnail": item["thumbnail"],
+        "fallbackThumbnail": item["fallback_thumbnail"],
         "readingMinutes": item.get("reading_minutes") or None,
         "duration": item.get("duration") or None,
         "rank": item["rank"],
@@ -190,7 +210,7 @@ def convert_rss_data_to_md(item):
     )
 
 
-def classify_topics(text):
+def classify_topics(text, include_general=True):
     normalized = text.lower()
     with open("config/thumbnail_config.yml", "r", encoding="utf-8") as file:
         config = yaml.safe_load(file)
@@ -201,7 +221,7 @@ def classify_topics(text):
             topic = item.get("topic", "General")
             if topic not in topics:
                 topics.append(topic)
-    return topics[:3] or ["General"]
+    return topics[:3] or (["General"] if include_general else [])
 
 
 def existing_urls(content_root):
@@ -263,18 +283,41 @@ def _extract_open_graph_image(url):
             html = response.read(300_000)
         soup = BeautifulSoup(html, "html.parser")
         image = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
-        return urljoin(url, image.get("content", "")) if image else ""
+        return _valid_image_url(image.get("content", ""), url) if image else ""
     except Exception:
         return ""
 
 
-def _calculate_thumbnail_image(topics):
+def fallback_thumbnail(topics, content_type="article"):
+    if content_type == "video":
+        return "images/youtube.png"
     with open("config/thumbnail_config.yml", "r", encoding="utf-8") as file:
         config = yaml.safe_load(file)
     for item in config["keywords"]:
         if item.get("topic") in topics:
             return item["image"]
     return config["default_image"]
+
+
+def _valid_image_url(value, base_url="", width=None, height=None):
+    if not value:
+        return ""
+    try:
+        if width and int(width) <= 16:
+            return ""
+        if height and int(height) <= 16:
+            return ""
+    except (TypeError, ValueError):
+        pass
+
+    candidate = urljoin(base_url, str(value).strip())
+    parsed = urlparse(candidate)
+    if parsed.scheme.lower() not in {"http", "https"} or not parsed.netloc:
+        return ""
+    path = parsed.path.lower()
+    if any(marker in path for marker in ("/pixel", "tracking", "spacer", "1x1")):
+        return ""
+    return candidate
 
 
 def _why_it_matters(topics, content_type):

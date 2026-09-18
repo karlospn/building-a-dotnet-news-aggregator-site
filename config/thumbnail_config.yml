@@ -31,11 +31,11 @@ keywords:
     image: 'images/building.png'
   - topic: 'Data'
     keywords: ['database', 'sql', 'postgres', 'mongodb', 'redis', 'data engineering']
-    image: 'images/misc.png'
+    image: 'images/topics/data.svg'
   - topic: 'Security'
     keywords: ['security', 'authentication', 'authorization', 'oauth', 'identity', 'vulnerability']
-    image: 'images/misc.png'
+    image: 'images/topics/security.svg'
   - topic: 'Testing'
     keywords: ['testing', 'unit test', 'integration test', 'playwright']
-    image: 'images/misc.png'
-default_image: 'images/misc.png'
+    image: 'images/topics/testing.svg'
+default_image: 'images/topics/general.svg'

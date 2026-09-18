@@ -8,20 +8,20 @@ sourceId: visualstudio
 sourceUrl: https://www.youtube.com/@visualstudio
 contentType: video
 topics:
-- Visual Studio
 - AI
+- Visual Studio
 tags:
-- Visual Studio
 - AI
+- Visual Studio
 thumbnail: https://i.ytimg.com/vi/eaDvjSgYRrw/hqdefault.jpg
-duration: 0:55
-rank: 64
-featured: true
-whyItMatters: Worth a watch for developers following Visual Studio and AI.
+fallbackThumbnail: images/youtube.png
+rank: 65
+featured: false
+whyItMatters: Worth a watch for developers following AI and Visual Studio.
 showShare: false
 showReadTime: false
 ---
+- Worth a watch for developers following Visual Studio and AI. - Link to video: https://www.youtube.com/watch?v=eaDvjSgYRrw
 
-
-- Worth a watch for developers following Visual Studio and AI.
+- Worth a watch for developers following AI and Visual Studio.
 - Link to video: https://www.youtube.com/watch?v=eaDvjSgYRrw

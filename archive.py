@@ -5,7 +5,7 @@ from pathlib import Path
 import yaml
 from dateutil import parser as dateparser
 
-from common import canonicalize_url
+from common import canonicalize_url, fallback_thumbnail
 
 
 ARCHIVE_PATH = Path("site/dotnetramblings/static/archive.json")
@@ -31,6 +31,8 @@ def read_content_item(path):
         "contentType": metadata["contentType"],
         "topics": metadata["topics"],
         "thumbnail": metadata["thumbnail"],
+        "fallbackThumbnail": metadata.get("fallbackThumbnail")
+        or fallback_thumbnail(metadata["topics"], metadata["contentType"]),
         "readingMinutes": metadata.get("readingMinutes"),
         "duration": metadata.get("duration", ""),
         "rank": metadata.get("rank", 0),
@@ -46,6 +48,10 @@ def build_archive(now=None, retention_days=180):
 
     if ARCHIVE_PATH.exists():
         for item in json.loads(ARCHIVE_PATH.read_text(encoding="utf-8")):
+            item["fallbackThumbnail"] = item.get("fallbackThumbnail") or fallback_thumbnail(
+                item.get("topics") or ["General"],
+                item.get("contentType", "article"),
+            )
             entries[canonicalize_url(item["link"])] = item
 
     for root in CONTENT_ROOTS:

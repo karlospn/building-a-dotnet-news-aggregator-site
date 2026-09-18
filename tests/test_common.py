@@ -8,6 +8,7 @@ import yaml
 from feedparser import FeedParserDict
 
 from common import (
+    _valid_image_url,
     canonicalize_url,
     clean_content,
     convert_rss_data_to_md,
@@ -43,6 +44,7 @@ class CommonTests(unittest.TestCase):
         self.assertIn(".NET", item["topics"])
         self.assertIn("Azure", item["topics"])
         self.assertIn("DevOps", item["topics"])
+        self.assertEqual(item["fallback_thumbnail"], "images/dotnet.png")
 
     def test_markdown_has_independent_topic_and_tag_lists(self):
         item = enrich_item(
@@ -66,6 +68,26 @@ class CommonTests(unittest.TestCase):
     def test_youtube_duration_is_human_readable(self):
         self.assertEqual(_format_duration("PT1H2M3S"), "1:02:03")
         self.assertEqual(_format_duration("PT8M4S"), "8:04")
+
+    def test_image_url_validation_rejects_tracking_pixels(self):
+        self.assertEqual(
+            _valid_image_url(
+                "/images/article.jpg",
+                "https://example.com/posts/one",
+                width="640",
+                height="360",
+            ),
+            "https://example.com/images/article.jpg",
+        )
+        self.assertEqual(
+            _valid_image_url(
+                "https://example.com/tracking/pixel.gif",
+                width="1",
+                height="1",
+            ),
+            "",
+        )
+        self.assertEqual(_valid_image_url("data:image/png;base64,abc"), "")
 
     def test_source_urls_without_a_scheme_are_normalized(self):
         with TemporaryDirectory() as directory:

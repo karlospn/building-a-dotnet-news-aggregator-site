@@ -89,7 +89,7 @@ def main():
             if hasattr(date, "isoformat"):
                 date = date.isoformat()
             image = metadata.get("thumbnail", "")
-            if content_type == "video":
+            if content_type == "video" and "i.ytimg.com" not in image:
                 video_id = urlparse(metadata["link"]).query.removeprefix("v=")
                 if video_id:
                     image = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"

@@ -41,11 +41,14 @@ class GeneratedContentTests(unittest.TestCase):
                     "contentType",
                     "topics",
                     "thumbnail",
+                    "fallbackThumbnail",
                 ):
                     self.assertIn(field, metadata)
                 self.assertIn(metadata["sourceId"], self.source_ids)
                 self.assertIn(metadata["contentType"], {"article", "video"})
                 self.assertTrue(metadata["topics"])
+                fallback = Path("site/dotnetramblings/static") / metadata["fallbackThumbnail"]
+                self.assertTrue(fallback.is_file(), fallback)
                 canonical_url = canonicalize_url(metadata["canonicalUrl"])
                 self.assertNotIn(canonical_url, urls)
                 urls.add(canonical_url)
