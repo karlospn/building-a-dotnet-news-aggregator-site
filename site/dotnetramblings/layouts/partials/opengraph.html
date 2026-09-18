@@ -1,0 +1,36 @@
+{{- $params := site.Params }}
+{{- $description := $params.description }}
+{{- with .Description }}{{ $description = . }}{{ end }}
+{{- with .Params.description }}{{ $description = . }}{{ end }}
+{{- if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
+  {{- with index site.Data.topic_descriptions .Title }}{{ $description = . }}{{ end }}
+{{- else if and (not .IsHome) .Summary }}
+  {{- $description = .Summary | plainify | truncate 160 }}
+{{- end }}
+{{- $title := .Title }}
+{{- if .IsHome }}{{ $title = default site.Title $params.homeTitle }}{{ end }}
+{{- if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
+  {{- $title = printf "%s News, Articles and Videos" .Title }}
+{{- end }}
+{{- $image := absURL $params.fallBackOgImage }}
+{{- with .Params.thumbnail }}
+  {{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+    {{- $image = . }}
+  {{- else }}
+    {{- $image = absURL . }}
+  {{- end }}
+{{- end }}
+<meta property="og:locale" content="{{ .Lang }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta name="description" content="{{ $description | plainify }}">
+<meta name="twitter:card" content="{{ if $params.largeTwitterCard }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description | plainify }}">
+<meta name="twitter:image" content="{{ $image }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description | plainify }}">
+<meta property="og:image" content="{{ $image }}">
+{{- with $params.keywords }}
+<meta name="keywords" content="{{ delimit . "," }}">
+{{- end }}

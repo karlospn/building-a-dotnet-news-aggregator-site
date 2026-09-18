@@ -239,6 +239,7 @@
     let currentPage = 1;
     const pageSize = Number(grid.dataset.pageSize) || cards.length;
     const contentScope = grid.dataset.contentScope || "";
+    const topicScope = grid.dataset.topicScope || "";
     const pagination = document.querySelector("[data-client-pagination]");
     const weekSelect = document.querySelector("[data-week-select]");
     const typeSelect = document.querySelector("[data-type-select]");
@@ -310,6 +311,7 @@
         (activeType === "bookmarks" && bookmarks.has(item.link));
       return (
         (!contentScope || item.contentType === contentScope) &&
+        (!topicScope || topics.includes(topicScope)) &&
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
         (!selectedWeek || weekKey(item.date) === selectedWeek) &&
@@ -387,6 +389,9 @@
       const count = items.filter(function (item) {
         return (
           (!contentScope || item.contentType === contentScope) &&
+          (!topicScope || (item.topics || []).map(function (topic) {
+            return String(topic).toLowerCase().replace(/\s+/g, "-");
+          }).includes(topicScope)) &&
           (!selectedWeek || weekKey(item.date) === selectedWeek) &&
           new Date(item.date).getTime() > visitBaseline
         );

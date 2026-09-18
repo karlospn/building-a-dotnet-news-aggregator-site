@@ -1,0 +1,15 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range .Site.AllPages }}
+    {{- $isProxy := and .IsPage (in (slice "post" "videos") .Section) }}
+    {{- $isPostIndex := and .IsSection (eq .Section "post") }}
+    {{- if and (not $isProxy) (not $isPostIndex) (not .Params.searchPage) }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+    {{- end }}
+  </url>
+    {{- end }}
+  {{- end }}
+</urlset>

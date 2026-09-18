@@ -1,0 +1,58 @@
+{{- $pages := slice }}
+{{- if .IsHome }}
+  {{- $pages = where site.RegularPages "Section" "post" }}
+{{- else if and (eq .Section "videos") (not .IsPage) }}
+  {{- $pages = .Pages }}
+{{- else if eq .Section "digest" }}
+  {{- $all := where site.RegularPages "Section" "in" (slice "post" "videos") }}
+  {{- $pages = where $all "Date" "ge" (now.AddDate 0 0 -7) }}
+{{- else if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
+  {{- $pages = .Pages }}
+{{- end }}
+{{- if gt (len $pages) 0 }}
+  {{- $pages = first 24 (sort $pages "Date" "desc") }}
+  {{- $elements := slice }}
+  {{- range $index, $page := $pages }}
+    {{- $elements = $elements | append (dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $page.Title
+      "url" $page.Params.link
+    ) }}
+  {{- end }}
+  {{- $graph := slice (dict
+    "@type" "ItemList"
+    "name" (printf "%s latest content" .Title)
+    "numberOfItems" (len $elements)
+    "itemListElement" $elements
+  ) }}
+  {{- if .IsHome }}
+    {{- $graph = $graph | append (dict
+      "@type" "WebSite"
+      "name" site.Title
+      "url" site.BaseURL
+      "description" site.Params.description
+    ) }}
+  {{- end }}
+  {{- range where $pages "Params.contentType" "video" }}
+    {{- $thumbnail := .Params.thumbnail }}
+    {{- if not (or (hasPrefix $thumbnail "http://") (hasPrefix $thumbnail "https://")) }}
+      {{- $thumbnail = absURL $thumbnail }}
+    {{- end }}
+    {{- $description := index (split .RawContent "\n\n- ") 0 | plainify | truncate 300 }}
+    {{- $graph = $graph | append (dict
+      "@type" "VideoObject"
+      "name" .Title
+      "description" $description
+      "thumbnailUrl" (slice $thumbnail)
+      "uploadDate" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "contentUrl" .Params.link
+      "publisher" (dict
+        "@type" "Organization"
+        "name" .Params.source
+        "url" .Params.sourceUrl
+      )
+    ) }}
+  {{- end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>
+{{- end }}

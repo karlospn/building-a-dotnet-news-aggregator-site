@@ -1,18 +1,30 @@
 {{ define "main" }}
   {{- $pages := sort .Pages "Date" "desc" }}
+  {{- $description := index site.Data.topic_descriptions .Title }}
+  {{- if not $description }}
+    {{- $description = printf "Browse the latest %s articles and videos from trusted developer sources." .Title }}
+  {{- end }}
   <div class="news-shell wrap">
     <header class="directory-header">
-      <p class="eyebrow">Topic briefing</p>
+      <p class="eyebrow">.NET community topic</p>
       <h1>{{ .Title }}</h1>
-      <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} about {{ .Title }}.</p>
+      <p>{{ $description }}</p>
     </header>
     {{ partial "discovery-controls" (dict "topicLocked" true "label" "Filter stories" "placeholder" "Search this topic") }}
-    <div class="news-grid" id="news-grid">
-      {{ range (.Paginate $pages).Pages }}
+    <p class="results-summary" aria-live="polite">
+      Showing <span id="rendered-count">{{ math.Min 24 (len $pages) }}</span>
+      of <span id="visible-count">{{ len $pages }}</span> <span id="result-label">stories</span>
+    </p>
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-topic-scope="{{ .Title | urlize }}">
+      {{ range first 24 $pages }}
         {{ partial "news-card" (dict "page" .) }}
       {{ end }}
     </div>
     <p class="empty-state" id="empty-state" hidden>No stories match these filters.</p>
-    <div class="news-pagination">{{ template "_internal/pagination.html" . }}</div>
+    <nav class="client-pagination" data-client-pagination aria-label="{{ .Title }} result pages" hidden>
+      <button type="button" data-page-previous>← Previous</button>
+      <span data-page-status aria-live="polite"></span>
+      <button type="button" data-page-next>Next →</button>
+    </nav>
   </div>
 {{ end }}

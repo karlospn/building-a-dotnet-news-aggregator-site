@@ -1,14 +1,18 @@
 {{- $params := site.Params }}
 {{- $separator := default "|" $params.titleSeparator }}
 {{- $title := "" }}
-{{- if and .Title (ne (trim (lower .Site.Title) "") (trim (lower .Title) "")) }}
+{{- if .IsHome }}
+  {{- $title = default .Site.Title $params.homeTitle }}
+{{- else if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
+  {{- $title = printf "%s News, Articles and Videos" .Title }}
+{{- else if and .Title (ne (trim (lower .Site.Title) "") (trim (lower .Title) "")) }}
   {{- if eq .Kind "taxonomy" }}
     {{- $title = default .Title ( T (lower .Title) ) }}
   {{- else }}
     {{- $title = .Title }}
   {{- end }}
 {{- end }}
-<title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}</title>
+<title>{{ if .IsHome }}{{ $title }}{{ else }}{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}{{ end }}</title>
 <meta charset="utf-8">
 {{- with $params.ga_verify }}
   <meta name="google-site-verification" content="{{ . }}">
@@ -20,7 +24,15 @@
 {{- end }}
 {{- partial "opengraph" . }}
 {{- partialCached "favicon" . }}
+{{- $isProxy := and .IsPage (in (slice "post" "videos") .Section) }}
+{{- $isPostIndex := and .IsSection (eq .Section "post") }}
+{{- if or $isProxy $isPostIndex }}
+<meta name="robots" content="noindex, follow, noarchive">
+<link rel="canonical" href="{{ if $isProxy }}{{ .Params.link }}{{ else }}{{ site.BaseURL }}{{ end }}">
+{{- else }}
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- end }}
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
@@ -39,3 +51,4 @@
 {{- end }}
 
 {{- partial "scripts/google/tag-manager" (dict "noscript" false) }}
+{{- partial "seo-structured-data" . }}

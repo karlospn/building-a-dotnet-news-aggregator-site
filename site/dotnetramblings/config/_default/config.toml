@@ -17,7 +17,6 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
 category = "categories"
-tag = "tags"
 topic = "topics"
 source = "sources"
 series = "series"

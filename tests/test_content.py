@@ -53,7 +53,7 @@ class GeneratedContentTests(unittest.TestCase):
                 if metadata["contentType"] == "video":
                     self.assertRegex(
                         metadata["thumbnail"],
-                        r"^https://i\.ytimg\.com/vi/[^/]+/hqdefault\.jpg$",
+                        r"^https://i\.ytimg\.com/vi/[^/]+/hqdefault(?:_live)?\.jpg$",
                     )
 
     def test_archive_contains_every_current_content_item(self):
