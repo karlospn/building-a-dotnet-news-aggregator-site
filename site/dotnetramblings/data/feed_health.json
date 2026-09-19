@@ -6,13 +6,13 @@
     "status": "healthy"
   },
   "andrewlock": {
-    "checkedAt": "2026-09-19T12:46:56.901964+00:00",
+    "checkedAt": "2026-09-19T17:36:29.694530+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "ardalis": {
-    "checkedAt": "2026-09-19T12:47:08.566960+00:00",
+    "checkedAt": "2026-09-19T17:36:48.799301+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -24,13 +24,13 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-09-19T12:47:09.197663+00:00",
+    "checkedAt": "2026-09-19T17:36:49.635876+00:00",
     "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-19T12:47:06.563760+00:00",
+    "checkedAt": "2026-09-19T17:36:46.374960+00:00",
     "itemCount": 6,
     "message": "",
     "status": "healthy"
@@ -48,7 +48,7 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-19T12:47:07.720559+00:00",
+    "checkedAt": "2026-09-19T17:36:47.808009+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -60,7 +60,7 @@
     "status": "healthy"
   },
   "build5nines": {
-    "checkedAt": "2026-09-19T12:46:57.670564+00:00",
+    "checkedAt": "2026-09-19T17:36:30.403153+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -72,19 +72,19 @@
     "status": "healthy"
   },
   "code-maze": {
-    "checkedAt": "2026-09-19T12:46:53.410767+00:00",
+    "checkedAt": "2026-09-19T17:36:26.011372+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "code4it": {
-    "checkedAt": "2026-09-19T12:46:59.033515+00:00",
+    "checkedAt": "2026-09-19T17:36:32.023761+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-09-19T12:47:02.798040+00:00",
+    "checkedAt": "2026-09-19T17:36:42.151552+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -96,25 +96,25 @@
     "status": "healthy"
   },
   "dailydotnettips": {
-    "checkedAt": "2026-09-19T12:47:07.282125+00:00",
+    "checkedAt": "2026-09-19T17:36:47.280142+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "damienbod": {
-    "checkedAt": "2026-09-19T12:46:57.784811+00:00",
+    "checkedAt": "2026-09-19T17:36:30.559282+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-19T12:47:04.301107+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-19T17:36:43.691803+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-09-19T12:47:07.468171+00:00",
+    "checkedAt": "2026-09-19T17:36:47.457559+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -132,13 +132,13 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-09-19T12:46:57.933984+00:00",
+    "checkedAt": "2026-09-19T17:36:30.749749+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-09-19T12:46:53.737603+00:00",
+    "checkedAt": "2026-09-19T17:36:26.265310+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -150,7 +150,7 @@
     "status": "healthy"
   },
   "goatreview": {
-    "checkedAt": "2026-09-19T12:46:58.743758+00:00",
+    "checkedAt": "2026-09-19T17:36:31.645385+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -180,7 +180,7 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-09-19T12:46:57.596752+00:00",
+    "checkedAt": "2026-09-19T17:36:30.311991+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -192,13 +192,13 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-09-19T12:47:07.593374+00:00",
+    "checkedAt": "2026-09-19T17:36:47.681581+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-09-19T12:47:06.762426+00:00",
+    "checkedAt": "2026-09-19T17:36:46.593342+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -210,7 +210,7 @@
     "status": "healthy"
   },
   "jimmybogard": {
-    "checkedAt": "2026-09-19T12:47:00.881436+00:00",
+    "checkedAt": "2026-09-19T17:36:33.918846+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -222,7 +222,7 @@
     "status": "healthy"
   },
   "johnhilton": {
-    "checkedAt": "2026-09-19T12:47:08.331871+00:00",
+    "checkedAt": "2026-09-19T17:36:48.485451+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -240,7 +240,7 @@
     "status": "healthy"
   },
   "markheath": {
-    "checkedAt": "2026-09-19T12:47:00.646817+00:00",
+    "checkedAt": "2026-09-19T17:36:33.709323+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -252,7 +252,7 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-09-19T12:47:00.976947+00:00",
+    "checkedAt": "2026-09-19T17:36:34.243202+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -264,7 +264,7 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-09-19T12:46:55.812654+00:00",
+    "checkedAt": "2026-09-19T17:36:28.555892+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -282,7 +282,7 @@
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-09-19T12:47:00.307347+00:00",
+    "checkedAt": "2026-09-19T17:36:33.393574+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
@@ -294,13 +294,13 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-09-19T12:46:53.933085+00:00",
+    "checkedAt": "2026-09-19T17:36:26.489895+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "mytechramblings": {
-    "checkedAt": "2026-09-19T12:47:08.690971+00:00",
+    "checkedAt": "2026-09-19T17:36:48.982894+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -312,7 +312,7 @@
     "status": "healthy"
   },
   "ndepend-blog": {
-    "checkedAt": "2026-09-19T12:47:07.195660+00:00",
+    "checkedAt": "2026-09-19T17:36:47.118273+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -336,7 +336,7 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-19T12:47:05.620105+00:00",
+    "checkedAt": "2026-09-19T17:36:45.042931+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
@@ -360,13 +360,13 @@
     "status": "healthy"
   },
   "steve-gordon": {
-    "checkedAt": "2026-09-19T12:46:55.381971+00:00",
+    "checkedAt": "2026-09-19T17:36:28.155543+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-09-19T12:47:04.882340+00:00",
+    "checkedAt": "2026-09-19T17:36:44.334225+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
