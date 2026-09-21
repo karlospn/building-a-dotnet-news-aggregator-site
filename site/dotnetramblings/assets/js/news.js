@@ -634,14 +634,25 @@
       });
     }
 
-    const density = document.querySelector("[data-density]");
-    if (density) {
-      const savedDensity = storage.get("newsDensity", "comfortable");
-      density.value = savedDensity;
-      grid.classList.toggle("is-compact", savedDensity === "compact");
-      density.addEventListener("change", function () {
-        storage.set("newsDensity", density.value);
-        grid.classList.toggle("is-compact", density.value === "compact");
+    const densityButtons = Array.from(
+      document.querySelectorAll("[data-density-option]")
+    );
+    const setDensity = function (density) {
+      const selected = density === "compact" ? "compact" : "comfortable";
+      storage.set("newsDensity", selected);
+      grid.classList.toggle("is-compact", selected === "compact");
+      densityButtons.forEach(function (button) {
+        const active = button.dataset.densityOption === selected;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+    };
+    if (densityButtons.length) {
+      setDensity(storage.get("newsDensity", "comfortable"));
+      densityButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          setDensity(button.dataset.densityOption);
+        });
       });
     }
 

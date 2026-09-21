@@ -6,6 +6,35 @@
   --news-surface: rgba(127, 127, 127, 0.06);
 }
 
+.density-toggle {
+  align-items: center;
+  border: 1px solid var(--news-border);
+  border-radius: 0.55rem;
+  display: flex;
+  min-height: 2.5rem;
+  overflow: hidden;
+}
+
+.density-toggle button {
+  align-self: stretch;
+  background: transparent;
+  border: 0;
+  color: var(--news-muted);
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 0.45rem 0.65rem;
+}
+
+.density-toggle button + button {
+  border-left: 1px solid var(--news-border);
+}
+
+.density-toggle button.is-active {
+  background: var(--news-accent-soft);
+  color: var(--news-accent);
+  font-weight: 700;
+}
+
 body {
   max-width: none;
 }
@@ -340,6 +369,7 @@ span.topic-badge {
   border-bottom: 1px solid var(--news-border);
   border-top: 1px solid var(--news-border);
   display: flex;
+  flex-wrap: wrap;
   gap: 0.65rem;
   margin-bottom: 1.25rem;
   padding: 0.85rem 0;
@@ -403,7 +433,6 @@ span.topic-badge {
 
 .search-control input,
 .select-control select,
-.browser-settings select,
 .directory-filters input {
   background: var(--choice-bg);
   border: 1px solid var(--news-border);
@@ -833,6 +862,7 @@ span.topic-badge {
   .select-control select,
   .saved-filter,
   .new-filter,
+  .density-toggle button,
   .browser-settings > summary,
   .client-pagination button,
   .card-actions > button,

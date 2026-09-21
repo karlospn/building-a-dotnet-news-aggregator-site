@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{- $pages := sort .Pages "Date" "desc" }}
+  <div class="news-shell wrap">
+    <header class="directory-header">
+      <h1>Articles</h1>
+      <p>Browse the latest articles from across the .NET community.</p>
+    </header>
+    <div class="news-grid">
+      {{ range first 24 $pages }}
+        {{ partial "news-card" (dict "page" .) }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

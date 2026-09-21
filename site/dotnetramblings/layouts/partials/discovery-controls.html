@@ -39,20 +39,17 @@
     New <span data-new-count></span>
   </button>
   <button type="button" class="saved-filter" data-type-filter="bookmarks" aria-pressed="false">☆ Saved</button>
+  <div class="density-toggle" role="group" aria-label="Story layout">
+    <button type="button" data-density-option="comfortable" aria-pressed="true">Comfortable</button>
+    <button type="button" data-density-option="compact" aria-pressed="false">Compact</button>
+  </div>
     <details class="browser-settings">
-      <summary aria-label="Display settings">Settings</summary>
+      <summary aria-label="Source settings">Sources</summary>
       <div>
         <div class="settings-header">
-          <strong>Display settings</strong>
+          <strong>Source settings</strong>
           <button type="button" data-close-settings aria-label="Close settings">×</button>
         </div>
-        <label>
-          Density
-          <select data-density>
-            <option value="comfortable">Comfortable</option>
-            <option value="compact">Compact</option>
-          </select>
-        </label>
         <button type="button" class="text-button" data-reset-preferences>Restore hidden sources</button>
       </div>
     </details>
