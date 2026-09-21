@@ -19,6 +19,13 @@
     </header>
     {{ if $isAI }}
       {{ partial "ai-release-radar" . }}
+      <details class="hub-section hub-section--content" data-hub-section="ai-archive">
+        <summary>
+          <span>AI Content Archive</span>
+          <span><span data-hub-item-count>{{ len $pages }}</span> items</span>
+        </summary>
+        <div class="hub-section__body">
+          <p class="hub-section__description">Search and filter the complete 180-day archive of AI articles and videos.</p>
     {{ end }}
     {{ partial "discovery-controls" (dict
       "topicLocked" true
@@ -42,39 +49,47 @@
       <button type="button" data-page-next>Next →</button>
     </nav>
     {{ if $isAI }}
-      <section class="learning-paths" id="ai-learning-paths" aria-labelledby="learning-paths-title">
-        <div class="section-intro">
-          <p class="eyebrow">Official and practical resources</p>
-          <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
-          <p>Start with the platform fundamentals, then choose the area that matches what you want to build.</p>
         </div>
-        <div class="learning-path-grid">
-          <article>
-            <span>01</span>
-            <h3>Build AI apps with .NET</h3>
-            <p>Learn the .NET AI ecosystem, abstractions, SDKs, and application patterns.</p>
-            <a href="https://learn.microsoft.com/dotnet/ai/" rel="noopener">Microsoft .NET AI documentation →</a>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Build agents with Semantic Kernel</h3>
-            <p>Explore plugins, orchestration, memory, and agent-based application design.</p>
-            <a href="https://learn.microsoft.com/semantic-kernel/overview/" rel="noopener">Semantic Kernel documentation →</a>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Connect tools with MCP</h3>
-            <p>Build Model Context Protocol clients and servers using the official C# SDK.</p>
-            <a href="https://github.com/modelcontextprotocol/csharp-sdk" rel="noopener">MCP C# SDK →</a>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Run models locally</h3>
-            <p>Connect .NET applications to local models through Ollama without a hosted API.</p>
-            <a href="https://github.com/awaescher/OllamaSharp" rel="noopener">OllamaSharp →</a>
-          </article>
-        </div>
-      </section>
+      </details>
+      <details class="hub-section hub-section--learning" id="ai-learning-paths" data-hub-section="learning-paths">
+        <summary>
+          <span>Learning paths</span>
+          <span>4 guides</span>
+        </summary>
+        <section class="learning-paths" aria-labelledby="learning-paths-title">
+          <div class="section-intro">
+            <p class="eyebrow">Official and practical resources</p>
+            <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
+            <p>Start with the platform fundamentals, then choose the area that matches what you want to build.</p>
+          </div>
+          <div class="learning-path-grid">
+            <article>
+              <span>01</span>
+              <h3>Build AI apps with .NET</h3>
+              <p>Learn the .NET AI ecosystem, abstractions, SDKs, and application patterns.</p>
+              <a href="https://learn.microsoft.com/dotnet/ai/" rel="noopener">Microsoft .NET AI documentation →</a>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Build agents with Semantic Kernel</h3>
+              <p>Explore plugins, orchestration, memory, and agent-based application design.</p>
+              <a href="https://learn.microsoft.com/semantic-kernel/overview/" rel="noopener">Semantic Kernel documentation →</a>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Connect tools with MCP</h3>
+              <p>Build Model Context Protocol clients and servers using the official C# SDK.</p>
+              <a href="https://github.com/modelcontextprotocol/csharp-sdk" rel="noopener">MCP C# SDK →</a>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Run models locally</h3>
+              <p>Connect .NET applications to local models through Ollama without a hosted API.</p>
+              <a href="https://github.com/awaescher/OllamaSharp" rel="noopener">OllamaSharp →</a>
+            </article>
+          </div>
+        </section>
+      </details>
     {{ end }}
   </div>
 {{ end }}

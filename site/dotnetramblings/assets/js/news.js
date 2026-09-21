@@ -201,6 +201,21 @@
   const filterDisclosures = Array.from(
     document.querySelectorAll(".filter-disclosure")
   );
+  const hubSections = Array.from(
+    document.querySelectorAll("[data-hub-section]")
+  );
+  hubSections.forEach(function (section) {
+    const key = `aiHubSection:${section.dataset.hubSection}`;
+    try {
+      const stored = sessionStorage.getItem(key);
+      if (stored !== null) section.open = stored === "open";
+      section.addEventListener("toggle", function () {
+        sessionStorage.setItem(key, section.open ? "open" : "closed");
+      });
+    } catch {
+      // Native details behavior remains available when storage is blocked.
+    }
+  });
   const syncFilterDisclosures = function () {
     filterDisclosures.forEach(function (disclosure) {
       disclosure.open = !mobileViewport.matches;
@@ -311,6 +326,8 @@
           return String(topic).toLowerCase().replace(/\s+/g, "-");
         }).includes(topicScope || "ai");
       });
+      const hubItemCount = document.querySelector("[data-hub-item-count]");
+      if (hubItemCount) hubItemCount.textContent = String(scopedItems.length);
       Array.from(aiSubtopicSelect.options).forEach(function (option) {
         if (option.value === "all") {
           option.textContent = `All AI (${scopedItems.length})`;

@@ -103,10 +103,65 @@ body {
   margin-top: 1.25rem;
 }
 
-.release-radar {
+.hub-section {
+  border: 1px solid var(--news-border);
+  border-radius: 0.9rem;
+  margin: 1.25rem 0;
+}
+
+.hub-section > summary {
+  align-items: center;
+  background: var(--news-surface);
+  cursor: pointer;
+  display: flex;
+  font-weight: 750;
+  gap: 1rem;
+  justify-content: space-between;
+  list-style: none;
+  min-height: 3.25rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.9rem;
+}
+
+.hub-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.hub-section > summary::after {
+  content: "⌄";
+  font-size: 1.1rem;
+  margin-left: 0.35rem;
+  transition: transform 150ms ease;
+}
+
+.hub-section[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.hub-section[open] > summary {
   border-bottom: 1px solid var(--news-border);
-  margin: 2.5rem 0;
-  padding-bottom: 2.5rem;
+  border-radius: 0.9rem 0.9rem 0 0;
+}
+
+.hub-section > summary > span:last-child {
+  color: var(--news-muted);
+  font-size: 0.76rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.hub-section__body {
+  padding: 1rem;
+}
+
+.hub-section__description {
+  color: var(--news-muted);
+  font-size: 0.88rem;
+  margin: 0 0 0.85rem;
+}
+
+.release-radar {
+  padding: 1rem;
 }
 
 .release-radar__heading {
@@ -802,9 +857,7 @@ span.topic-badge {
 }
 
 .learning-paths {
-  border-top: 1px solid var(--news-border);
-  margin-top: 4rem;
-  padding-top: 2.5rem;
+  padding: 1rem;
 }
 
 .section-intro {
