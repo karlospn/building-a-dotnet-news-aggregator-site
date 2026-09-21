@@ -13,7 +13,6 @@ tags:
 - Azure
 thumbnail: https://i.ytimg.com/vi/sMLpszK94xU/hqdefault.jpg
 fallbackThumbnail: images/youtube.png
-duration: '2:07'
 rank: 63
 featured: false
 whyItMatters: Worth a watch for developers following Azure.

@@ -13,7 +13,9 @@ from common import (
     content_id,
     convert_rss_data_to_md,
     enrich_item,
+    existing_title_dates,
     existing_urls,
+    is_recent_title_duplicate,
     parse_yml_files,
     record_feed_health,
     select_featured,
@@ -125,6 +127,7 @@ def get_youtube_data(source, youtube=None, now=None):
 def fetch_youtube_channels(sources):
     items = []
     seen_urls = existing_urls(CONTENT_ROOT)
+    existing_titles = existing_title_dates(CONTENT_ROOT)
     youtube = get_youtube_client()
     attempted = 0
     succeeded = 0
@@ -146,7 +149,20 @@ def fetch_youtube_channels(sources):
     if attempted and not succeeded:
         raise RuntimeError("All YouTube channels failed; no content was generated")
     items.sort(key=lambda value: value["date"], reverse=True)
-    return select_featured(items)
+    deduplicated = []
+    for item in items:
+        if is_recent_title_duplicate(
+            item["title"],
+            item["date"],
+            existing_titles,
+        ):
+            print(
+                f"Skipped duplicate video title from {item['source_title']}: "
+                f"{item['title']}"
+            )
+            continue
+        deduplicated.append(item)
+    return select_featured(deduplicated)
 
 
 def generate_hugo_content(items):

@@ -12,11 +12,14 @@ from common import (
     canonicalize_url,
     clean_content,
     convert_rss_data_to_md,
+    deduplicate_video_items,
     enrich_item,
+    normalize_title,
+    normalize_title_key,
     parse_yml_files,
 )
 from news import fetch_rss_feeds, get_rss_data
-from youtube import _format_duration, get_channel_id
+from youtube import _format_duration, fetch_youtube_channels, get_channel_id
 
 
 class CommonTests(unittest.TestCase):
@@ -45,6 +48,45 @@ class CommonTests(unittest.TestCase):
         self.assertIn("Azure", item["topics"])
         self.assertIn("DevOps", item["topics"])
         self.assertEqual(item["fallback_thumbnail"], "images/dotnet.png")
+
+    def test_title_normalization_decodes_entities_and_markup(self):
+        self.assertEqual(
+            normalize_title(
+                "The &amp;quot;Free Lunch&amp;quot; &lt;b&gt;That Cost Millions&lt;/b&gt;"
+            ),
+            'The "Free Lunch" That Cost Millions',
+        )
+        self.assertEqual(
+            normalize_title_key("What&#39;s New: .NET 10?"),
+            normalize_title_key("What's New — .NET 10!"),
+        )
+
+    def test_video_title_deduplication_keeps_newest_within_window(self):
+        items = [
+            {
+                "title": "Building AI Apps &amp; Faster",
+                "date": "2026-09-18T10:00:00Z",
+                "url": "https://youtube.com/watch?v=new",
+            },
+            {
+                "title": "Building AI Apps & Faster",
+                "date": "2026-09-17T10:00:00Z",
+                "url": "https://youtube.com/watch?v=old",
+            },
+            {
+                "title": "Building AI Apps & Faster",
+                "date": "2026-08-01T10:00:00Z",
+                "url": "https://youtube.com/watch?v=episode",
+            },
+        ]
+        deduplicated = deduplicate_video_items(items)
+        self.assertEqual(
+            [item["url"] for item in deduplicated],
+            [
+                "https://youtube.com/watch?v=new",
+                "https://youtube.com/watch?v=episode",
+            ],
+        )
 
     def test_markdown_has_independent_topic_and_tag_lists(self):
         item = enrich_item(
@@ -162,6 +204,53 @@ class CommonTests(unittest.TestCase):
         )
         youtube.channels.return_value.list.assert_called_once_with(
             part="id", forHandle="dotnet"
+        )
+
+    @patch("youtube.time.sleep")
+    @patch("youtube.record_feed_health")
+    @patch("youtube.existing_title_dates", return_value={})
+    @patch("youtube.existing_urls", return_value=set())
+    @patch("youtube.get_youtube_client")
+    @patch("youtube.get_youtube_data")
+    def test_cross_channel_video_duplicates_keep_newest(
+        self,
+        get_data,
+        _client,
+        _urls,
+        _titles,
+        _health,
+        _sleep,
+    ):
+        get_data.side_effect = [
+            [
+                {
+                    "title": "What&#39;s New in .NET",
+                    "date": "2026-09-17T10:00:00Z",
+                    "canonical_url": "https://youtube.com/watch?v=old",
+                    "source_id": "one",
+                    "source_title": "One",
+                    "rank": 50,
+                }
+            ],
+            [
+                {
+                    "title": "What's New in .NET",
+                    "date": "2026-09-18T10:00:00Z",
+                    "canonical_url": "https://youtube.com/watch?v=new",
+                    "source_id": "two",
+                    "source_title": "Two",
+                    "rank": 50,
+                }
+            ],
+        ]
+        sources = [
+            {"feed": "https://youtube.com/@one", "title": "One"},
+            {"feed": "https://youtube.com/@two", "title": "Two"},
+        ]
+        items = fetch_youtube_channels(sources)
+        self.assertEqual(
+            [item["canonical_url"] for item in items],
+            ["https://youtube.com/watch?v=new"],
         )
 
     def test_cleanup_only_removes_expired_date_directories(self):

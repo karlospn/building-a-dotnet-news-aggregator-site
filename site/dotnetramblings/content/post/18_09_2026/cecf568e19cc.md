@@ -6,7 +6,6 @@ canonicalUrl: https://aws.amazon.com/blogs/dotnet/modernize-net-repos-at-scale-w
 source: .NET on AWS Blog
 sourceId: aws-dotnet-blog
 sourceUrl: https://aws.amazon.com/blogs/dotnet
-author: David Pallmann
 contentType: article
 topics:
 - .NET
@@ -16,9 +15,8 @@ tags:
 - AWS
 thumbnail: https://d2908q01vomqb2.cloudfront.net/b4c96d80854dd27e76d8cc9e21960eebda52e962/2026/09/18/modernize-dotnet-repos-at-scale-with-atx-web-experience-1258x630.png
 fallbackThumbnail: images/dotnet.png
-readingMinutes: 12
 rank: 66
-featured: true
+featured: false
 whyItMatters: Worth a read for developers following .NET and AWS.
 showShare: false
 showReadTime: false

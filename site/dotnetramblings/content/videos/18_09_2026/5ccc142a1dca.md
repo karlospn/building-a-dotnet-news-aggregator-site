@@ -1,5 +1,5 @@
 ---
-title: AI Is Getting Smarter Fast. Can Anyone Control the Pace? | Ulysses Maclaren &amp; Josh Berman
+title: AI Is Getting Smarter Fast. Can Anyone Control the Pace? | Ulysses Maclaren & Josh Berman
 date: '2026-09-18T08:00:40Z'
 link: https://www.youtube.com/watch?v=BJ8qq-KiF3k
 canonicalUrl: https://www.youtube.com/watch?v=BJ8qq-KiF3k
@@ -13,7 +13,6 @@ tags:
 - AI
 thumbnail: https://i.ytimg.com/vi/BJ8qq-KiF3k/hqdefault.jpg
 fallbackThumbnail: images/youtube.png
-duration: '2:50'
 rank: 63
 featured: false
 whyItMatters: Worth a watch for developers following AI.

@@ -5,7 +5,12 @@ from pathlib import Path
 import yaml
 from dateutil import parser as dateparser
 
-from common import canonicalize_url, fallback_thumbnail
+from common import (
+    canonicalize_url,
+    deduplicate_video_items,
+    fallback_thumbnail,
+    normalize_title,
+)
 
 
 ARCHIVE_PATH = Path("site/dotnetramblings/static/archive.json")
@@ -21,7 +26,7 @@ def read_content_item(path):
     metadata = yaml.safe_load(front_matter)
     summary = body.strip().split("\n\n- ", 1)[0].strip()
     return {
-        "title": metadata["title"],
+        "title": normalize_title(metadata["title"]),
         "date": _date_string(metadata["date"]),
         "link": canonicalize_url(metadata["canonicalUrl"]),
         "source": metadata["source"],
@@ -48,6 +53,7 @@ def build_archive(now=None, retention_days=180):
 
     if ARCHIVE_PATH.exists():
         for item in json.loads(ARCHIVE_PATH.read_text(encoding="utf-8")):
+            item["title"] = normalize_title(item.get("title", ""))
             item["fallbackThumbnail"] = item.get("fallbackThumbnail") or fallback_thumbnail(
                 item.get("topics") or ["General"],
                 item.get("contentType", "article"),
@@ -70,6 +76,11 @@ def build_archive(now=None, retention_days=180):
             retained.append(item)
 
     retained.sort(key=lambda item: item["date"], reverse=True)
+    articles = [item for item in retained if item.get("contentType") != "video"]
+    videos = deduplicate_video_items(
+        [item for item in retained if item.get("contentType") == "video"]
+    )
+    retained = sorted(articles + videos, key=lambda item: item["date"], reverse=True)
     ARCHIVE_PATH.parent.mkdir(parents=True, exist_ok=True)
     temporary_path = ARCHIVE_PATH.with_suffix(".json.tmp")
     temporary_path.write_text(

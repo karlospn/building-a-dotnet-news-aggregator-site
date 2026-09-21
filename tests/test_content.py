@@ -1,11 +1,12 @@
 import glob
 import json
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 import yaml
 
-from common import canonicalize_url, parse_yml_files
+from common import canonicalize_url, normalize_title, normalize_title_key, parse_yml_files
 
 
 class GeneratedContentTests(unittest.TestCase):
@@ -46,6 +47,7 @@ class GeneratedContentTests(unittest.TestCase):
                     self.assertIn(field, metadata)
                 self.assertIn(metadata["sourceId"], self.source_ids)
                 self.assertIn(metadata["contentType"], {"article", "video"})
+                self.assertEqual(metadata["title"], normalize_title(metadata["title"]))
                 self.assertTrue(metadata["topics"])
                 fallback = Path("site/dotnetramblings/static") / metadata["fallbackThumbnail"]
                 self.assertTrue(fallback.is_file(), fallback)
@@ -78,6 +80,27 @@ class GeneratedContentTests(unittest.TestCase):
                 metadata = yaml.safe_load(front_matter)
                 content_urls.add(canonicalize_url(metadata["canonicalUrl"]))
         self.assertTrue(content_urls.issubset(archive_urls))
+
+    def test_archive_video_titles_are_unique_within_seven_days(self):
+        archive_items = json.loads(
+            Path("site/dotnetramblings/static/archive.json").read_text(encoding="utf-8")
+        )
+        videos = sorted(
+            (item for item in archive_items if item["contentType"] == "video"),
+            key=lambda item: item["date"],
+            reverse=True,
+        )
+        seen = {}
+        for video in videos:
+            key = normalize_title_key(video["title"])
+            published = datetime.fromisoformat(video["date"].replace("Z", "+00:00"))
+            with self.subTest(title=video["title"]):
+                for existing in seen.get(key, []):
+                    self.assertGreater(
+                        abs(published - existing).total_seconds(),
+                        7 * 24 * 60 * 60,
+                    )
+            seen.setdefault(key, []).append(published)
 
 
 if __name__ == "__main__":

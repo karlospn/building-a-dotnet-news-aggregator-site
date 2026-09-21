@@ -1,6 +1,8 @@
 import hashlib
+import html
 import json
 import re
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
@@ -119,7 +121,7 @@ def extract_entry_image(entry, article_url):
 
 
 def enrich_item(item):
-    title = _sanitize_text(item["title"])
+    title = normalize_title(item["title"])
     summary = summarize(item.get("summary", ""))
     title_topics = classify_topics(title, include_general=False)
     contextual_topics = classify_topics(
@@ -237,6 +239,75 @@ def existing_urls(content_root):
     return urls
 
 
+def existing_title_dates(content_root):
+    titles = {}
+    root = Path(content_root)
+    if not root.exists():
+        return titles
+    for markdown_file in root.rglob("*.md"):
+        try:
+            text = markdown_file.read_text(encoding="utf-8")
+            _, front_matter, _ = text.split("---", 2)
+            metadata = yaml.safe_load(front_matter)
+            key = normalize_title_key(metadata.get("title", ""))
+            date = _parse_datetime(metadata.get("date"))
+            if key and date:
+                titles.setdefault(key, []).append(date)
+        except (OSError, ValueError, yaml.YAMLError):
+            continue
+    return titles
+
+
+def is_recent_title_duplicate(title, published, known_titles, within_days=7):
+    key = normalize_title_key(title)
+    published_at = _parse_datetime(published)
+    if not key or not published_at:
+        return False
+    threshold = timedelta(days=within_days)
+    if any(abs(published_at - existing) <= threshold for existing in known_titles.get(key, [])):
+        return True
+    known_titles.setdefault(key, []).append(published_at)
+    return False
+
+
+def deduplicate_video_items(items, within_days=7):
+    known_titles = {}
+    deduplicated = []
+    ordered = sorted(
+        items,
+        key=lambda item: _parse_datetime(item.get("date"))
+        or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    for item in ordered:
+        if is_recent_title_duplicate(
+            item.get("title", ""),
+            item.get("date"),
+            known_titles,
+            within_days,
+        ):
+            continue
+        deduplicated.append(item)
+    return deduplicated
+
+
+def normalize_title(value):
+    text = str(value or "")
+    for _ in range(2):
+        decoded = html.unescape(text)
+        if decoded == text:
+            break
+        text = decoded
+    text = BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+    text = unicodedata.normalize("NFKC", text)
+    return _sanitize_text(" ".join(text.split()))
+
+
+def normalize_title_key(value):
+    title = normalize_title(value).casefold()
+    return re.sub(r"[\W_]+", "", title, flags=re.UNICODE)
+
+
 def record_feed_health(source, status, item_count=0, message=""):
     HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)
     health = {}
@@ -328,6 +399,21 @@ def _why_it_matters(topics, content_type):
 
 def _sanitize_text(text):
     return re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]", "", str(text)).strip()
+
+
+def _parse_datetime(value):
+    if isinstance(value, datetime):
+        parsed = value
+    elif value:
+        try:
+            parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    else:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def _ensure_url_scheme(url):
