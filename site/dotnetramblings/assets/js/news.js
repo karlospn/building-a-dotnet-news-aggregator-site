@@ -114,6 +114,7 @@
     const source = item.source || "Unknown source";
     const sourceId = item.sourceId || source.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     const topics = Array.isArray(item.topics) && item.topics.length ? item.topics : ["General"];
+    const aiSubtopics = Array.isArray(item.aiSubtopics) ? item.aiSubtopics : [];
     const topicIds = topics.map(function (topic) {
       return String(topic).toLowerCase().replace(/\s+/g, "-");
     });
@@ -137,6 +138,9 @@
     return `
       <article class="news-card" data-news-card data-url="${escapeHtml(link)}"
         data-source="${escapeHtml(sourceId)}" data-topics="${escapeHtml(topicIds.join(","))}"
+        data-ai-subtopics="${escapeHtml(aiSubtopics.map(function (value) {
+          return String(value).toLowerCase().replace(/\s+/g, "-");
+        }).join(","))}"
         data-content-type="${type}" data-date="${escapeHtml(item.date)}">
         <a class="news-card__image" href="${escapeHtml(link)}" data-outbound>
           <img src="${escapeHtml(thumbnail)}" alt="" width="640" height="360" loading="lazy"
@@ -220,7 +224,7 @@
     document.querySelectorAll(".featured-grid [data-news-card]")
   );
 
-  if (cards.length && grid) {
+  if (grid) {
     const storedArray = function (key) {
       const value = storage.get(key, []);
       return Array.isArray(value) ? value : [];
@@ -235,6 +239,7 @@
         : defaultType;
     let previousType = activeType === "bookmarks" ? defaultType : activeType;
     let activeTopic = "all";
+    let activeAISubtopic = "all";
     let showNew = false;
     let query = "";
     let archiveItems = null;
@@ -246,6 +251,7 @@
     const weekSelect = document.querySelector("[data-week-select]");
     const typeSelect = document.querySelector("[data-type-select]");
     const topicSelect = document.querySelector("[data-topic-select]");
+    const aiSubtopicSelect = document.querySelector("[data-ai-subtopic-select]");
     let selectedWeek = null;
     const newFilterButton = document.querySelector("[data-new-filter]");
 
@@ -258,6 +264,10 @@
       : [];
     if (activeTopic !== "all" && availableTopics.length && !availableTopics.includes(activeTopic)) {
       activeTopic = "all";
+    }
+    const requestedTopic = new URLSearchParams(location.search).get("topic");
+    if (requestedTopic && availableTopics.includes(requestedTopic)) {
+      activeTopic = requestedTopic;
     }
 
     const weekKey = function (value) {
@@ -294,12 +304,41 @@
       if (selectedWeek) weekSelect.value = selectedWeek;
     };
 
+    const populateAISubtopics = function (items) {
+      if (!aiSubtopicSelect) return;
+      const scopedItems = items.filter(function (item) {
+        return (item.topics || []).map(function (topic) {
+          return String(topic).toLowerCase().replace(/\s+/g, "-");
+        }).includes(topicScope || "ai");
+      });
+      Array.from(aiSubtopicSelect.options).forEach(function (option) {
+        if (option.value === "all") {
+          option.textContent = `All AI (${scopedItems.length})`;
+          return;
+        }
+        const count = scopedItems.filter(function (item) {
+          return (item.aiSubtopics || []).map(function (value) {
+            return String(value).toLowerCase().replace(/\s+/g, "-");
+          }).includes(option.value);
+        }).length;
+        const label = option.dataset.label || option.textContent;
+        option.dataset.label = label;
+        option.textContent = `${label} (${count})`;
+        option.disabled = count === 0;
+      });
+    };
+
     const matchesFilters = function (item) {
       const topics = Array.isArray(item.topics)
         ? item.topics.map(function (topic) {
             return String(topic).toLowerCase().replace(/\s+/g, "-");
           })
         : String(item.topics || "").split(",");
+      const aiSubtopics = Array.isArray(item.aiSubtopics)
+        ? item.aiSubtopics.map(function (value) {
+            return String(value).toLowerCase().replace(/\s+/g, "-");
+          })
+        : String(item.aiSubtopics || "").split(",").filter(Boolean);
       const text = [
         item.title,
         item.source,
@@ -316,6 +355,7 @@
         (!topicScope || topics.includes(topicScope)) &&
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
+        (activeAISubtopic === "all" || aiSubtopics.includes(activeAISubtopic)) &&
         (!selectedWeek || weekKey(item.date) === selectedWeek) &&
         (!showNew || new Date(item.date).getTime() > visitBaseline) &&
         (!query || text.includes(query)) &&
@@ -394,6 +434,12 @@
           (!topicScope || (item.topics || []).map(function (topic) {
             return String(topic).toLowerCase().replace(/\s+/g, "-");
           }).includes(topicScope)) &&
+          (
+            activeAISubtopic === "all"
+            || (item.aiSubtopics || []).map(function (value) {
+              return String(value).toLowerCase().replace(/\s+/g, "-");
+            }).includes(activeAISubtopic)
+          ) &&
           (!selectedWeek || weekKey(item.date) === selectedWeek) &&
           new Date(item.date).getTime() > visitBaseline
         );
@@ -419,6 +465,7 @@
           sourceId: card.dataset.source,
           contentType: card.dataset.contentType,
           topics: card.dataset.topics,
+          aiSubtopics: card.dataset.aiSubtopics,
           link: card.dataset.url,
           date: card.dataset.date
         };
@@ -623,6 +670,15 @@
       });
     }
 
+    if (aiSubtopicSelect) {
+      aiSubtopicSelect.value = activeAISubtopic;
+      aiSubtopicSelect.addEventListener("change", function () {
+        activeAISubtopic = aiSubtopicSelect.value;
+        currentPage = 1;
+        updateCards();
+      });
+    }
+
     if (weekSelect) {
       weekSelect.addEventListener("change", function () {
         selectedWeek = weekSelect.value;
@@ -686,6 +742,7 @@
           if (!Array.isArray(items)) throw new Error("Archive response is not an array");
           archiveItems = items;
           populateWeeks(items);
+          populateAISubtopics(items);
           currentPage = 1;
           updateCards();
         })
@@ -733,5 +790,49 @@
         updateFeeds();
       });
     });
+  }
+
+  const releaseRadar = document.querySelector("[data-release-radar]");
+  if (releaseRadar) {
+    const releaseItems = Array.from(
+      releaseRadar.querySelectorAll("[data-release-item]")
+    );
+    const releaseMore = releaseRadar.querySelector("[data-release-more]");
+    let releaseFilter = "all";
+    let releaseLimit = 8;
+
+    const updateReleases = function () {
+      const matching = releaseItems.filter(function (item) {
+        return releaseFilter === "all" || item.dataset.releaseType === releaseFilter;
+      });
+      releaseItems.forEach(function (item) {
+        const index = matching.indexOf(item);
+        item.hidden = index === -1 || index >= releaseLimit;
+      });
+      if (releaseMore) {
+        const remaining = Math.max(0, matching.length - releaseLimit);
+        releaseMore.hidden = matching.length <= releaseLimit;
+        releaseMore.textContent = `Show ${Math.min(8, remaining)} more releases`;
+      }
+    };
+
+    releaseRadar.addEventListener("click", function (event) {
+      const filter = event.target.closest("[data-release-filter]");
+      if (filter) {
+        releaseFilter = filter.dataset.releaseFilter;
+        releaseLimit = 8;
+        releaseRadar.querySelectorAll("[data-release-filter]").forEach(function (button) {
+          const active = button === filter;
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+        updateReleases();
+      }
+      if (event.target.closest("[data-release-more]")) {
+        releaseLimit += 8;
+        updateReleases();
+      }
+    });
+    updateReleases();
   }
 })();

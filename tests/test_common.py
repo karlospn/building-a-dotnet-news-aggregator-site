@@ -10,6 +10,7 @@ from feedparser import FeedParserDict
 from common import (
     _valid_image_url,
     canonicalize_url,
+    classify_ai_subtopics,
     clean_content,
     convert_rss_data_to_md,
     deduplicate_video_items,
@@ -17,6 +18,8 @@ from common import (
     normalize_title,
     normalize_title_key,
     parse_yml_files,
+    record_feed_health,
+    remove_duplicate_title_files,
 )
 from news import fetch_rss_feeds, get_rss_data
 from youtube import _format_duration, fetch_youtube_channels, get_channel_id
@@ -59,6 +62,22 @@ class CommonTests(unittest.TestCase):
         self.assertEqual(
             normalize_title_key("What&#39;s New: .NET 10?"),
             normalize_title_key("What's New — .NET 10!"),
+        )
+
+    def test_ai_subtopic_classification(self):
+        self.assertEqual(
+            classify_ai_subtopics(
+                "Secure a RAG agent with MCP",
+                "Evaluate retrieval quality and trace prompt injection attempts.",
+            ),
+            ["Agents", "RAG", "MCP", "Security", "Evaluation"],
+        )
+        self.assertEqual(
+            classify_ai_subtopics(
+                "Run Phi locally with Ollama",
+                "Use the .NET SDK to build a local application.",
+            ),
+            ["Local Models", "SDKs"],
         )
 
     def test_video_title_deduplication_keeps_newest_within_window(self):
@@ -208,7 +227,6 @@ class CommonTests(unittest.TestCase):
 
     @patch("youtube.time.sleep")
     @patch("youtube.record_feed_health")
-    @patch("youtube.existing_title_dates", return_value={})
     @patch("youtube.existing_urls", return_value=set())
     @patch("youtube.get_youtube_client")
     @patch("youtube.get_youtube_data")
@@ -217,7 +235,6 @@ class CommonTests(unittest.TestCase):
         get_data,
         _client,
         _urls,
-        _titles,
         _health,
         _sleep,
     ):
@@ -272,6 +289,41 @@ class CommonTests(unittest.TestCase):
             self.assertFalse(expired.exists())
             self.assertTrue(current.exists())
             self.assertTrue(unrelated.exists())
+
+    def test_duplicate_file_cleanup_keeps_newest_video(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            old = root / "old.md"
+            new = root / "new.md"
+            for path, date in (
+                (old, "2026-09-17T10:00:00+00:00"),
+                (new, "2026-09-18T10:00:00+00:00"),
+            ):
+                path.write_text(
+                    "---\n"
+                    + yaml.safe_dump(
+                        {
+                            "title": "The &quot;Same&quot; Video",
+                            "date": date,
+                        }
+                    )
+                    + "---\n",
+                    encoding="utf-8",
+                )
+            removed = remove_duplicate_title_files(root)
+            self.assertEqual(removed, 1)
+            self.assertFalse(old.exists())
+            self.assertTrue(new.exists())
+
+    def test_unchanged_feed_health_is_not_rewritten(self):
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "health.json"
+            source = {"id": "example"}
+            with patch("common.HEALTH_FILE", path):
+                self.assertTrue(record_feed_health(source, "healthy", 1))
+                original = path.read_text(encoding="utf-8")
+                self.assertFalse(record_feed_health(source, "healthy", 1))
+                self.assertEqual(path.read_text(encoding="utf-8"), original)
 
 
 if __name__ == "__main__":

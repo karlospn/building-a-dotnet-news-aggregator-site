@@ -12,12 +12,12 @@ from common import (
     canonicalize_url,
     content_id,
     convert_rss_data_to_md,
+    deduplicate_video_items,
     enrich_item,
-    existing_title_dates,
     existing_urls,
-    is_recent_title_duplicate,
     parse_yml_files,
     record_feed_health,
+    remove_duplicate_title_files,
     select_featured,
 )
 
@@ -127,7 +127,6 @@ def get_youtube_data(source, youtube=None, now=None):
 def fetch_youtube_channels(sources):
     items = []
     seen_urls = existing_urls(CONTENT_ROOT)
-    existing_titles = existing_title_dates(CONTENT_ROOT)
     youtube = get_youtube_client()
     attempted = 0
     succeeded = 0
@@ -149,20 +148,7 @@ def fetch_youtube_channels(sources):
     if attempted and not succeeded:
         raise RuntimeError("All YouTube channels failed; no content was generated")
     items.sort(key=lambda value: value["date"], reverse=True)
-    deduplicated = []
-    for item in items:
-        if is_recent_title_duplicate(
-            item["title"],
-            item["date"],
-            existing_titles,
-        ):
-            print(
-                f"Skipped duplicate video title from {item['source_title']}: "
-                f"{item['title']}"
-            )
-            continue
-        deduplicated.append(item)
-    return select_featured(deduplicated)
+    return select_featured(deduplicate_video_items(items))
 
 
 def generate_hugo_content(items):
@@ -177,6 +163,9 @@ def generate_hugo_content(items):
 def main():
     file_paths = glob.glob(os.path.join("./data", "*.yml"))
     generate_hugo_content(fetch_youtube_channels(parse_yml_files(file_paths)))
+    removed = remove_duplicate_title_files(CONTENT_ROOT)
+    if removed:
+        print(f"Removed {removed} older duplicate video files")
 
 
 if __name__ == "__main__":

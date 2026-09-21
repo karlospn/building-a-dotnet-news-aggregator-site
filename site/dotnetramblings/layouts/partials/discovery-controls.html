@@ -3,6 +3,7 @@
 {{- $placeholder := default "Search title, source, or topic" .placeholder }}
 {{- $label := default "Filters" .label }}
 {{- $defaultType := default "all" .defaultType }}
+{{- $showAISubtopics := default false .showAISubtopics }}
 <details class="filter-disclosure" open>
   <summary>
     <span>{{ $label }}</span>
@@ -21,6 +22,17 @@
         <option value="article"{{ if eq $defaultType "article" }} selected{{ end }}>Articles</option>
         <option value="all"{{ if eq $defaultType "all" }} selected{{ end }}>All content</option>
         <option value="video">Videos</option>
+      </select>
+    </label>
+  {{ end }}
+  {{ if $showAISubtopics }}
+    <label class="select-control ai-subtopic-control">
+      <span>AI focus</span>
+      <select data-ai-subtopic-select>
+        <option value="all">All AI</option>
+        {{ range slice "Agents" "RAG" "MCP" "Local Models" "Copilot" "SDKs" "Security" "Evaluation" }}
+          <option value="{{ . | urlize }}">{{ . }}</option>
+        {{ end }}
       </select>
     </label>
   {{ end }}

@@ -1,0 +1,56 @@
+retention_days: 365
+max_releases_per_source: 24
+sources:
+  - repository: openai/openai-dotnet
+    product: OpenAI .NET SDK
+    tag_regex: '^OpenAI_\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'OpenAI', 'SDKs']
+    official: true
+
+  - repository: microsoft/semantic-kernel
+    product: Semantic Kernel for .NET
+    tag_regex: '^dotnet-\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Agents', 'SDKs']
+    official: true
+
+  - repository: microsoft/agent-framework
+    product: Microsoft Agent Framework for .NET
+    tag_regex: '^dotnet-\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Agents', 'SDKs']
+    official: true
+
+  - repository: dotnet/extensions
+    product: Microsoft.Extensions.AI
+    tag_regex: '^v\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'SDKs']
+    official: true
+
+  - repository: modelcontextprotocol/csharp-sdk
+    product: MCP C# SDK
+    tag_regex: '^v\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'MCP', 'SDKs']
+    official: true
+
+  - repository: anthropics/anthropic-sdk-csharp
+    product: Anthropic C# SDK
+    tag_regex: '^Anthropic-v\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Anthropic', 'SDKs']
+    official: true
+
+  - repository: awaescher/OllamaSharp
+    product: OllamaSharp
+    tag_regex: '^\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Local Models', 'SDKs']
+    official: false
+
+  - repository: SciSharp/LLamaSharp
+    product: LLamaSharp
+    tag_regex: '^v\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Local Models', 'SDKs']
+    official: false
+
+  - repository: microsoft/onnxruntime
+    product: ONNX Runtime
+    tag_regex: '^v\d+\.\d+\.\d+$'
+    technologies: ['.NET', 'Local Models', 'SDKs']
+    official: true

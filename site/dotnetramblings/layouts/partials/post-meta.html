@@ -1,0 +1,20 @@
+{{- $showDate := ne (.Param "showdate") false }}
+{{- $showReadTime := ne (.Param "showreadtime") false }}
+{{- if or $showDate $showReadTime .Params.topics }}
+  <div class="post_meta">
+    {{- if $showDate }}
+      <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
+      <span class="post_date">{{ .Date.Format (default "Jan 2, 2006" site.Params.dateFormat) }}</span>
+    {{- end }}
+    {{- if $showReadTime }}
+      <span class="post_time"> · {{ T "reading_time" . }}</span>
+    {{- end }}
+    {{- with .Params.topics }}
+      <span>
+        {{- range . }}
+          <a href="{{ printf "topics/%s/" (. | urlize) | absLangURL }}" title="{{ . }}" class="post_tag button button_translucent">{{ . }}</a>
+        {{- end }}
+      </span>
+    {{- end }}
+  </div>
+{{- end }}

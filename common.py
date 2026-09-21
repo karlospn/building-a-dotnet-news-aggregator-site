@@ -22,6 +22,62 @@ TRACKING_QUERY_KEYS = {
     "ref",
     "source",
 }
+AI_SUBTOPIC_KEYWORDS = {
+    "Agents": (
+        "agent",
+        "agentic",
+        "multi-agent",
+        "multi agent",
+        "deep agent",
+        "super agent",
+    ),
+    "RAG": (
+        "rag",
+        "retrieval augmented",
+        "retrieval-augmented",
+        "vector search",
+        "vector store",
+        "embedding",
+        "knowledge base",
+    ),
+    "MCP": ("mcp", "model context protocol"),
+    "Local Models": (
+        "local model",
+        "local llm",
+        "ollama",
+        "onnx",
+        "llama.cpp",
+        "quantization",
+    ),
+    "Copilot": ("copilot", "github models", "coding agent"),
+    "SDKs": (
+        "sdk",
+        "api",
+        "semantic kernel",
+        "agent framework",
+        "microsoft.extensions.ai",
+    ),
+    "Security": (
+        "prompt injection",
+        "jailbreak",
+        "guardrail",
+        "poisoning",
+        "pii",
+        "red team",
+        "security",
+        "secure ai",
+    ),
+    "Evaluation": (
+        "evaluate",
+        "evaluating",
+        "evaluation",
+        "evals",
+        "benchmark",
+        "observability",
+        "monitoring",
+        "tracing",
+    ),
+}
 
 
 def parse_yml_files(file_paths):
@@ -129,6 +185,7 @@ def enrich_item(item):
         include_general=False,
     )
     topics = list(dict.fromkeys(title_topics + contextual_topics))[:3] or ["General"]
+    ai_subtopics = classify_ai_subtopics(title, summary) if "AI" in topics else []
     fallback_image = fallback_thumbnail(topics, item.get("content_type", "article"))
     image = item.get("image") or fallback_image
     full_content = sanitize_html(item.get("content", ""))
@@ -149,6 +206,7 @@ def enrich_item(item):
             "title": title,
             "summary": summary,
             "topics": topics,
+            "ai_subtopics": ai_subtopics,
             "thumbnail": image,
             "fallback_thumbnail": fallback_image,
             "reading_minutes": reading_minutes,
@@ -187,6 +245,7 @@ def convert_rss_data_to_md(item):
         "contentType": item.get("content_type", "article"),
         "topics": list(item["topics"]),
         "tags": list(item["topics"]),
+        "aiSubtopics": list(item.get("ai_subtopics", [])) or None,
         "thumbnail": item["thumbnail"],
         "fallbackThumbnail": item["fallback_thumbnail"],
         "readingMinutes": item.get("reading_minutes") or None,
@@ -224,6 +283,20 @@ def classify_topics(text, include_general=True):
             if topic not in topics:
                 topics.append(topic)
     return topics[:3] or (["General"] if include_general else [])
+
+
+def classify_ai_subtopics(title, summary=""):
+    title_text = normalize_title(title).casefold()
+    summary_text = sanitize_html(summary).casefold()
+    matches = []
+    for subtopic, keywords in AI_SUBTOPIC_KEYWORDS.items():
+        if any(
+            _keyword_matches(keyword, title_text)
+            or _keyword_matches(keyword, summary_text)
+            for keyword in keywords
+        ):
+            matches.append(subtopic)
+    return matches
 
 
 def existing_urls(content_root):
@@ -291,6 +364,37 @@ def deduplicate_video_items(items, within_days=7):
     return deduplicated
 
 
+def remove_duplicate_title_files(content_root, within_days=7):
+    records = []
+    root = Path(content_root)
+    if not root.exists():
+        return 0
+    for path in root.rglob("*.md"):
+        try:
+            text = path.read_text(encoding="utf-8")
+            _, front_matter, _ = text.split("---", 2)
+            metadata = yaml.safe_load(front_matter)
+            published = _parse_datetime(metadata.get("date"))
+            if published:
+                records.append((published, path, metadata.get("title", "")))
+        except (OSError, ValueError, yaml.YAMLError):
+            continue
+    records.sort(key=lambda record: record[0], reverse=True)
+
+    known_titles = {}
+    removed = 0
+    for published, path, title in records:
+        if is_recent_title_duplicate(
+            title,
+            published,
+            known_titles,
+            within_days,
+        ):
+            path.unlink()
+            removed += 1
+    return removed
+
+
 def normalize_title(value):
     text = str(value or "")
     for _ in range(2):
@@ -313,13 +417,20 @@ def record_feed_health(source, status, item_count=0, message=""):
     health = {}
     if HEALTH_FILE.exists():
         health = json.loads(HEALTH_FILE.read_text(encoding="utf-8"))
-    health[source["id"]] = {
+    current = health.get(source["id"], {})
+    new_state = {
         "status": status,
         "itemCount": item_count,
         "message": message[:160],
+    }
+    if all(current.get(key) == value for key, value in new_state.items()):
+        return False
+    health[source["id"]] = {
+        **new_state,
         "checkedAt": datetime.now(timezone.utc).isoformat(),
     }
     HEALTH_FILE.write_text(json.dumps(health, indent=2, sort_keys=True), encoding="utf-8")
+    return True
 
 
 def clean_content(content_root, retention_days=8, now=None):

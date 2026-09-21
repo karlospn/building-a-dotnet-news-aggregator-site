@@ -1,0 +1,2796 @@
+[
+  {
+    "id": "microsoft/agent-framework:391683629",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.22.0",
+    "tagName": "dotnet-1.22.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-18T18:12:17+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.22.0",
+    "summary": ".NET: fix: race concdition in workflow formula state by @baywet in https://github.com/microsoft/agent-framework/pull/8252 .NET: update remaining dependencies by @baywet in https://github.com/microsoft/agent-framework/pull/8307 .NET: fix: inspect for delemiter value before adding…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.22.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:391600384",
+    "product": "Anthropic C# SDK",
+    "version": "12.49.0",
+    "tagName": "Anthropic-v12.49.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-18T15:54:19+00:00",
+    "title": "Anthropic C# SDK 12.49.0",
+    "summary": "api: add group with displayname to rate limits, deprecate grouptype (05fd63c) tools: add CompactBeforeNextTurn() to the tool runner (#239) (61cbe8b) client: don't replay a stream upload on the 401 token-refresh retry (#240) (2617360) client: join multiple anthropic-beta values…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.49.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:389358598",
+    "product": "OpenAI .NET SDK",
+    "version": "2.14.0",
+    "tagName": "OpenAI_2.14.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-15T17:55:00+00:00",
+    "title": "OpenAI .NET SDK 2.14.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.14.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:389252499",
+    "product": "Anthropic C# SDK",
+    "version": "12.48.0",
+    "tagName": "Anthropic-v12.48.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-15T15:15:38+00:00",
+    "title": "Anthropic C# SDK 12.48.0",
+    "summary": "api: add auto mode tool permissions for Managed Agents (0271c76) api: add compaction parameter and signed compaction blocks (beta) (8de3a4e) api: add enum types for workspace data-residency geo fields (59cd52e) api: add thinkingmismatchallowed entries to inputtransformations…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.48.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:388311792",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.10.0",
+    "tagName": "v10.10.0",
+    "changeType": "deprecation",
+    "publishedAt": "2026-09-14T10:30:51+00:00",
+    "title": "Microsoft.Extensions.AI 10.10.0",
+    "summary": "This month's release focuses on AI package reliability: closing gaps in evaluation scoring, hardening OpenAI image-option handling, and removing the deprecated OpenAI Assistants API support. OpenAI Assistants experimental APIs removed (was experimental under OPENAI001) #7724…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.10.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:387221929",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.21.0",
+    "tagName": "dotnet-1.21.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-11T17:31:35+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.21.0",
+    "summary": ".NET: Replace deprecated AWSSDK.Extensions.Bedrock.MEAI with AWS.Bedrock.MEAI by @BenGearset in https://github.com/microsoft/agent-framework/pull/7983 .NET: Remove Azure.AI.OpenAI dependency by @rogerbarreto in https://github.com/microsoft/agent-framework/pull/7986 .NET: Track…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.21.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:386530114",
+    "product": "Anthropic C# SDK",
+    "version": "12.47.0",
+    "tagName": "Anthropic-v12.47.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-10T18:32:40+00:00",
+    "title": "Anthropic C# SDK 12.47.0",
+    "summary": "api: add auto mode tool permissions for Managed Agents (3b432a1) api: add contenttoolarge webfetch tool error code (e6b2b4f) api: add the user-profiles-2026-09-04 beta value and externaluserdetails to user profiles (04d3216) api: support mounting public GitHub repositories…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.47.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:386455636",
+    "product": "ONNX Runtime",
+    "version": "1.30.0",
+    "tagName": "v1.30.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-10T16:55:55+00:00",
+    "title": "ONNX Runtime 1.30.0",
+    "summary": "ONNX Runtime 1.30.0 expands generative AI inference, improves CPU and GPU performance, adds Go bindings, and strengthens runtime reliability. These notes cover changes since ONNX Runtime 1.29.1. - Expanded CUDA inference support with variable-length causal convolution for…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.30.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:386021979",
+    "product": "ONNX Runtime",
+    "version": "1.29.1",
+    "tagName": "v1.29.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-10T05:26:07+00:00",
+    "title": "ONNX Runtime 1.29.1",
+    "summary": "This is a patch release on top of v1.29.0, containing GroupQueryAttention capability and KV-cache layout improvements, plugin Execution Provider performance tooling updates, and targeted graph and optimizer fixes. - Added bidirectional GroupQueryAttention support on CPU and CUDA…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.29.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:383043350",
+    "product": "Anthropic C# SDK",
+    "version": "12.46.0",
+    "tagName": "Anthropic-v12.46.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-04T22:20:26+00:00",
+    "title": "Anthropic C# SDK 12.46.0",
+    "summary": "api: add named types for organization compliance settings state (34af6e4) api: add workspaceid request option for multi-workspace credentials (db8a192) api: raise Managed Agents vault refresh token limit to 8192 chars (62290cd) client: percent-encode path parameters and reject…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.46.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:382249493",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.80.1",
+    "tagName": "dotnet-1.80.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-03T18:39:43+00:00",
+    "title": "Semantic Kernel for .NET 1.80.1",
+    "summary": "d8ec44919265b3641b7898a02038cbfe14590ee5 .NET: Bump package version to 1.80.1 (#14370) 3438d882147b6e3e19a161a5f0dcb64e23e181db .NET: update SDK to 10.0.303 (#14353) 437336175b8ef841a8ccace6c6cf909f34f0cad6 .NET: Remove retired OpenAI Assistants integration tests (#14354)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.80.1",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:381661169",
+    "product": "ONNX Runtime",
+    "version": "1.28.2",
+    "tagName": "v1.28.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-03T01:17:16+00:00",
+    "title": "ONNX Runtime 1.28.2",
+    "summary": "This is a patch release on top of v1.28.1, containing a targeted fix for Compile API model serialization. - Fixed Compile API callback serialization to prevent duplicate graph nodes, inputs, outputs, and value information in emitted optimized models, including models with…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.2",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:380721257",
+    "product": "Anthropic C# SDK",
+    "version": "12.45.0",
+    "tagName": "Anthropic-v12.45.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-01T18:09:28+00:00",
+    "title": "Anthropic C# SDK 12.45.0",
+    "summary": "api: add externaluseronboardedat to user profiles (41cc8b1) api: add support for claude-fable-5-1 and claude-mythos-5-1 (80e4311) api: add support for organization compliance settings in the Admin API (7b89777) api: support pagination on organization rate limit list endpoints…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.45.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:379980026",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.20.0",
+    "tagName": "dotnet-1.20.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-31T18:53:19+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.20.0",
+    "summary": ".NET: Bump AWSSDK.Extensions.Bedrock.MEAI from 4.0.6.10 to 4.0.101.8 by @dependabot[bot] in https://github.com/microsoft/agent-framework/pull/7829 .NET: Stabilize Foundry recovery tests by @rogerbarreto in https://github.com/microsoft/agent-framework/pull/7817 .NET: fix: preserve…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.20.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:378107251",
+    "product": "Anthropic C# SDK",
+    "version": "12.44.0",
+    "tagName": "Anthropic-v12.44.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-27T20:31:23+00:00",
+    "title": "Anthropic C# SDK 12.44.0",
+    "summary": "api: beta files/skills namespaces use GA shapes; drop dated beta header pins (6e61d8f) client: page backward via beforeid and stop on hasmore=false (cc8ef57) webhooks: require headers to be passed to unwrap() (ccd76b9) api: clarify pagination on the organization rate-limit list…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.44.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:377284861",
+    "product": "Anthropic C# SDK",
+    "version": "12.43.0",
+    "tagName": "Anthropic-v12.43.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-26T17:03:34+00:00",
+    "title": "Anthropic C# SDK 12.43.0",
+    "summary": "api: add updates thinking display mode (beta) (ae0cead) api: add missing anthropic-beta values (957f693) api: add support for Organization API endpoints (b255cba) tools: keep the tool runner going on pauseturn (#154) (44412b1) api: clarify session thread agent and…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.43.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:376577566",
+    "product": "Anthropic C# SDK",
+    "version": "12.42.1",
+    "tagName": "Anthropic-v12.42.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-25T17:15:30+00:00",
+    "title": "Anthropic C# SDK 12.42.1",
+    "summary": "streaming: keep accumulated text blocks wire-faithful when no citations stream (#156) (f9e1512) docs: clarify skill version latest support and memory version retention (131b16c)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.42.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "SciSharp/LLamaSharp:375722421",
+    "product": "LLamaSharp",
+    "version": "0.29.0",
+    "tagName": "v0.29.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-24T13:34:22+00:00",
+    "title": "LLamaSharp 0.29.0",
+    "summary": "Updated to llama.cpp 815a2a5915f22ce6a760c676389c5dfe8535c08f (b10221) by @martindevans in https://github.com/SciSharp/LLamaSharp/pull/1414 Implement Sequence ID pooling in BatchedExecutor to prevent native SeqMax overflow and crashes by @zsogitbe in…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/SciSharp/LLamaSharp/releases/tag/v0.29.0",
+    "repository": "SciSharp/LLamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/agent-framework:374929086",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.19.0",
+    "tagName": "dotnet-1.19.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-22T12:48:00+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.19.0",
+    "summary": ".NET: Add session-persisted chat client routing by @westey-m in https://github.com/microsoft/agent-framework/pull/7641 .NET: Fix snakecase argument names in Harness file tool descriptions by @westey-m with @Copilot in https://github.com/microsoft/agent-framework/pull/7731 .NET:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:373374618",
+    "product": "Anthropic C# SDK",
+    "version": "12.42.0",
+    "tagName": "Anthropic-v12.42.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-19T22:00:26+00:00",
+    "title": "Anthropic C# SDK 12.42.0",
+    "summary": "api: managed agents web search config and self hosted sandbox memory (c293479)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.42.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:373212978",
+    "product": "Anthropic C# SDK",
+    "version": "12.41.0",
+    "tagName": "Anthropic-v12.41.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-19T16:57:38+00:00",
+    "title": "Anthropic C# SDK 12.41.0",
+    "summary": "api: add outputbehavior to dream creation (create a new memory store or update the input store in place) (4b31214) api: additions to files and memory stores (9c9b7a6) api: Files and Skills APIs are now GA; add computer use and browser use toolsets (42206f3) api: updates to skill,…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.41.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:372667994",
+    "product": "ONNX Runtime",
+    "version": "1.28.1",
+    "tagName": "v1.28.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-18T23:19:52+00:00",
+    "title": "ONNX Runtime 1.28.1",
+    "summary": "This is a patch release on top of v1.28.0, containing support for device-free WebGPU compilation, improved compatibility with sandboxed Windows processes, and targeted graph-validation fixes. - Added support for device-free compile-only sessions, enabling offline graph…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:372437064",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.80.0",
+    "tagName": "dotnet-1.80.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-18T15:00:38+00:00",
+    "title": "Semantic Kernel for .NET 1.80.0",
+    "summary": "5e1f1fb87d9a38ed44683228dda2434a9b2f0ef9 .NET: Bump package version to 1.80.0 (#14301) 1b7b020cd0a4e57d8d5d1cf2d515d352520ff424 Update OpenAPI HTTP client defaults (#14293) c1afc8639944e0e49c42aa796308ba2d0440f0d3 .NET: Bump Testcontainers packages (#14294)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.80.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:372414679",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.18.0",
+    "tagName": "dotnet-1.18.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-18T14:30:58+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.18.0",
+    "summary": ".NET: [Experimental] Extend A2A task store with isolation key scoping by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/7504 .NET: Add CodeQL suppression for DevUI proxy validation by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/7505…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.18.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:369775588",
+    "product": "MCP C# SDK",
+    "version": "2.2.0",
+    "tagName": "v2.2.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-13T08:45:54+00:00",
+    "title": "MCP C# SDK 2.2.0",
+    "summary": "This release adds hybrid stateful/stateless HTTP serving so clients using the 2025-11-25 and 2026-07-28 protocol revisions can share an endpoint, and fixes a malformed header-decoding edge case. Add HttpServerSessionMode for hybrid stateful/stateless HTTP serving #1796 by…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.2.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:368911532",
+    "product": "ONNX Runtime",
+    "version": "1.29.0",
+    "tagName": "v1.29.0",
+    "changeType": "deprecation",
+    "publishedAt": "2026-08-12T06:15:37+00:00",
+    "title": "ONNX Runtime 1.29.0",
+    "summary": "- onnxruntime-web has announced the deprecation of WebGL and JSEP. The native WebGPU EP is the recommended path going forward. See the deprecation and migration plans for details (#29716, #31683). - POSIX telemetry is now available on Linux, macOS, Android, and iOS when ONNX…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.29.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:368971406",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.9.0",
+    "tagName": "v10.9.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-12T03:10:16+00:00",
+    "title": "Microsoft.Extensions.AI 10.9.0",
+    "summary": "Version 10.9.0 is headlined by changes in these areas: AI: New experimental routing APIs center on the abstract RoutingChatClient base class, with SemanticRoutingChatClient as a concrete semantic-routing implementation. Separately, the abstract FailoverChatClient specialization…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.9.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:368232020",
+    "product": "OpenAI .NET SDK",
+    "version": "2.13.0",
+    "tagName": "OpenAI_2.13.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-10T22:26:32+00:00",
+    "title": "OpenAI .NET SDK 2.13.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.13.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:366903149",
+    "product": "Anthropic C# SDK",
+    "version": "12.40.0",
+    "tagName": "Anthropic-v12.40.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-07T17:18:48+00:00",
+    "title": "Anthropic C# SDK 12.40.0",
+    "summary": "api: add mid-conversation-tool-changes-2026-07-01 beta (1fcee67) api: add support for session budgets, advisor tool, pinned inference location and skills auto-loading from GitHub (1dc6838) client: preserve cache token counts when messagedelta omits them (#215) (75fbb01) api:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.40.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:366117225",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.79.0",
+    "tagName": "dotnet-1.79.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-06T09:46:13+00:00",
+    "title": "Semantic Kernel for .NET 1.79.0",
+    "summary": "fb137812c741b8d673ef331b2b517d028056b4bb .NET: Bump package version to 1.79.0 (#14275) 383d102346b7b29c929e0257ef672a48898b5f66 Bump .NET SDK from 10.0.301 to 10.0.302 (#14235) 362cc2bad7daec24d82562030358af755d581179 Bump form-data from 4.0.5 to 4.0.6 in…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.79.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:365273404",
+    "product": "MCP C# SDK",
+    "version": "2.1.0",
+    "tagName": "v2.1.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-05T03:49:08+00:00",
+    "title": "MCP C# SDK 2.1.0",
+    "summary": "This release adds an opt-in subscriptions/listen handler for custom server-side notification streams, improves HTTP transport fallback reliability, and expands guidance and samples for telemetry and binary resources. Keep AutoDetect channel open after provisional SSE failure…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.1.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:365207390",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.17.0",
+    "tagName": "dotnet-1.17.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-08-04T23:27:18+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.17.0",
+    "summary": ".NET and Python: Extract Durable Task and Azure Functions integrations by @cgillum in https://github.com/microsoft/agent-framework/pull/7465 .NET: Fix Handoff orchestration sample not responding to user input by @peibekwe in https://github.com/microsoft/agent-framework/pull/7442…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.17.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:362625688",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.16.0",
+    "tagName": "dotnet-1.16.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-30T18:13:10+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.16.0",
+    "summary": ".NET: fix InMemoryChatHistoryProvider persisting when service stores history by @westey-m in https://github.com/microsoft/agent-framework/pull/7284 .NET: Add TodoProvider and AgentModeProvider samples by @westey-m in https://github.com/microsoft/agent-framework/pull/7262 .NET:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.16.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:362185384",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.8.4",
+    "tagName": "v10.8.4",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-30T04:15:35+00:00",
+    "title": "Microsoft.Extensions.AI 10.8.4",
+    "summary": "This servicing update refreshes the .NET AI project templates ahead of the July 30, 2026 retirement of GitHub Models — removing the GitHub Models provider option and updating template dependencies. As a result, both the AI Chat Web (aichatweb) and AI Agent Web API…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.8.4",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:361387199",
+    "product": "MCP C# SDK",
+    "version": "2.0.0",
+    "tagName": "v2.0.0",
+    "changeType": "breaking-change",
+    "publishedAt": "2026-07-28T21:27:41+00:00",
+    "title": "MCP C# SDK 2.0.0",
+    "summary": "Version 2.0.0 brings the C# SDK into stable alignment with the MCP 2026-07-28 specification. This major release introduces discovery-first negotiation, multi-round-trip requests, stateless-by-default HTTP, caching hints, standardized headers, stronger OAuth and token-cache…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.0.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:360741964",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.8.3",
+    "tagName": "v10.8.3",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-27T22:47:09+00:00",
+    "title": "Microsoft.Extensions.AI 10.8.3",
+    "summary": "| Package | Version | |---|---| | Microsoft.Extensions.AI | 10.8.3 | | Microsoft.Extensions.AI.Abstractions | 10.8.3 | | Microsoft.Extensions.AI.OpenAI | 10.8.3 | - Updated serialization behavior for experimental ToolApprovalRequestContent.RequiresConfirmation so it no longer…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.8.3",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:359547054",
+    "product": "ONNX Runtime",
+    "version": "1.28.0",
+    "tagName": "v1.28.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-25T05:27:07+00:00",
+    "title": "ONNX Runtime 1.28.0",
+    "summary": "- Upgraded to ONNX 1.22.0 and protobuf 6.33.5 (#28754, #29606, #28967). Graph optimizer opset version checks were updated accordingly (#28966). - cuDNN and cuFFT are now optional at runtime for the CUDA EP, and nvrtc is no longer linked, which significantly reduces the required…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:359422920",
+    "product": "Anthropic C# SDK",
+    "version": "12.39.0",
+    "tagName": "Anthropic-v12.39.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-24T16:37:08+00:00",
+    "title": "Anthropic C# SDK 12.39.0",
+    "summary": "api: add claude-opus-5 model (bbee155) api: add tool addition/removal blocks and toolchange events (bbee155) api: expand client-side fallback credit token types and add server-side fallbacks default option (bbee155) client: streaming parallel tool-use emit logic (issue #197)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.39.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:359218981",
+    "product": "OllamaSharp",
+    "version": "5.4.30",
+    "tagName": "5.4.30",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-24T10:06:59+00:00",
+    "title": "OllamaSharp 5.4.30",
+    "summary": "Preserve message identity in MEAI chat streams (#359) by @awaescher in https://github.com/awaescher/OllamaSharp/pull/393 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.29...5.4.30",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.30",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:359218475",
+    "product": "OllamaSharp",
+    "version": "5.4.29",
+    "tagName": "5.4.29",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-24T10:05:49+00:00",
+    "title": "OllamaSharp 5.4.29",
+    "summary": "Map embedding context size from MEAI options (#377) by @awaescher in https://github.com/awaescher/OllamaSharp/pull/392 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.28...5.4.29",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.29",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:359202858",
+    "product": "OllamaSharp",
+    "version": "5.4.28",
+    "tagName": "5.4.28",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-24T09:31:50+00:00",
+    "title": "OllamaSharp 5.4.28",
+    "summary": "Fix model selection when unloading a model (#386) by @awaescher in https://github.com/awaescher/OllamaSharp/pull/391 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.27...5.4.28",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.28",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:358851610",
+    "product": "Anthropic C# SDK",
+    "version": "12.38.0",
+    "tagName": "Anthropic-v12.38.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-23T17:37:43+00:00",
+    "title": "Anthropic C# SDK 12.38.0",
+    "summary": "api: add new stop reason 'modelcontextwindowexceeded' (c7ee988)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.38.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:358829403",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.8.2",
+    "tagName": "v10.8.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-23T16:54:53+00:00",
+    "title": "Microsoft.Extensions.AI 10.8.2",
+    "summary": "This servicing release updates Microsoft.Extensions.VectorData.ConformanceTests to 10.8.2 and includes targeted test framework migration fixes. | Package | Version | Note | |---------|---------|---------| | Microsoft.Extensions.VectorData.Abstractions | 10.8.2 | Published August…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.8.2",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:358385200",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.15.0",
+    "tagName": "dotnet-1.15.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-22T23:58:13+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.15.0",
+    "summary": "Python: Add MCPStreamableHTTPTool security guidance for custom http client by @TaoChenOSU in https://github.com/microsoft/agent-framework/pull/7245 Harden workflow credential selection by @moonbox3 in https://github.com/microsoft/agent-framework/pull/7249 Python: preserve Gemini…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.15.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:358174931",
+    "product": "Anthropic C# SDK",
+    "version": "12.37.0",
+    "tagName": "Anthropic-v12.37.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-22T16:49:52+00:00",
+    "title": "Anthropic C# SDK 12.37.0",
+    "summary": "api: add support for Managed Agents model effort, initial session events, and threads delta streaming (fdca188) helpers: restructure client-side refusal-fallback helpers (#106) (5fdc922)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.37.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:357675751",
+    "product": "Anthropic C# SDK",
+    "version": "12.36.1",
+    "tagName": "Anthropic-v12.36.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-21T22:27:57+00:00",
+    "title": "Anthropic C# SDK 12.36.1",
+    "summary": "api: add support for new refusal category (d9b672c) client: docs updates (19a59f0) docs: small updates (580c2cb) docs: small updates (86985e7)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.36.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:357479480",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.14.0",
+    "tagName": "dotnet-1.14.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-21T16:21:50+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.14.0",
+    "summary": ".NET: Fix CosmosChatHistoryProvider: omit ttl when MessageTtlSeconds is nul… by @TheovanKraay in https://github.com/microsoft/agent-framework/pull/7030 .NET: Fix CompactionMessageIndex.IsSummaryMessage by @pwoosam in https://github.com/microsoft/agent-framework/pull/7042 .NET:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.14.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:357079957",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.8.1",
+    "tagName": "v10.8.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-21T02:20:53+00:00",
+    "title": "Microsoft.Extensions.AI 10.8.1",
+    "summary": "This servicing release updates the Microsoft.Extensions.AI, Microsoft.Extensions.AI.Abstractions, and Microsoft.Extensions.AI.OpenAI packages to 10.8.1 with two targeted fixes: correct tool-call/tool-result ordering when resuming approval-gated functions with service-managed chat…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.8.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:355319190",
+    "product": "Anthropic C# SDK",
+    "version": "12.36.0",
+    "tagName": "Anthropic-v12.36.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-16T19:37:50+00:00",
+    "title": "Anthropic C# SDK 12.36.0",
+    "summary": "api: add support for dreaming (1228406) api: add support for MCP Tunnels (adea206) helpers: add session delta accumulator for agent.message previews (#78) (4b1f9d6) docs: updates to descriptions and examples (4696922)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.36.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:354304583",
+    "product": "OllamaSharp",
+    "version": "5.4.27",
+    "tagName": "5.4.27",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-15T08:54:41+00:00",
+    "title": "OllamaSharp 5.4.27",
+    "summary": "Update package dependencies and align Microsoft.Extensions.AI by @awaescher in https://github.com/awaescher/OllamaSharp/pull/390 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.26...5.4.27",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.27",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:354243645",
+    "product": "OllamaSharp",
+    "version": "5.4.26",
+    "tagName": "5.4.26",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-15T06:36:03+00:00",
+    "title": "OllamaSharp 5.4.26",
+    "summary": "Check .Message for null #387 by @awaescher in https://github.com/awaescher/OllamaSharp/pull/389 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.25...5.4.26",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.26",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "dotnet/extensions:354154896",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.8.0",
+    "tagName": "v10.8.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-15T01:25:29+00:00",
+    "title": "Microsoft.Extensions.AI 10.8.0",
+    "summary": "This release adds new experimental APIs to Microsoft.Extensions.AI.Abstractions and updates the OpenAI dependency to 2.12.0, alongside documentation, test, and repository maintenance. New experimental API: AIFunctionNameAttribute and AIParameterNameAttribute #7610 by @jozkee…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.8.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:352357426",
+    "product": "ONNX Runtime",
+    "version": "1.27.1",
+    "tagName": "v1.27.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-11T01:11:02+00:00",
+    "title": "ONNX Runtime 1.27.1",
+    "summary": "This is a patch release on top of v1.27.0, containing targeted bug fixes, a CUDA QMoE decode-path optimization, and CI/build infrastructure fixes. - [MLAS] Fixed an igemm regression in the KleidiAI path (#28571) - Fixed a QMoE CPU livelock by eliminating nested intra-op…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.27.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:351239474",
+    "product": "MCP C# SDK",
+    "version": "1.4.1",
+    "tagName": "v1.4.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-09T00:36:58+00:00",
+    "title": "MCP C# SDK 1.4.1",
+    "summary": "This release backports a memory-leak fix for HTTP/SSE-based MCP servers. StreamableHttpServerTransport now releases its Server-Sent Events response stream reference as soon as a GET request ends, instead of holding it until the session is disposed via explicit DELETE or idle…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.4.1",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:350413419",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.78.0",
+    "tagName": "dotnet-1.78.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-07T15:25:33+00:00",
+    "title": "Semantic Kernel for .NET 1.78.0",
+    "summary": "35ba23e1b3092271c778ca057afe1a796e16e70e .Net: Update package version to 1.78.0 (#14142) e6c9673684ca03621885083faff1644e1f42695e .Net: Disable automatic HTTP redirects in HttpPlugin and WebFileDownloadPlugin default clients (#14132) f25753be0a126138d2eea39b0ca2985252dde25a Bump…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.78.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:348737774",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.13.0",
+    "tagName": "dotnet-1.13.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-03T17:42:32+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.13.0",
+    "summary": ".NET: Harden dotnet-format workflow shell handling by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/6796 .NET: Add AgentSkillsSourceContext to AgentSkillsSource.GetSkillsAsync by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/6797…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.13.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:348338490",
+    "product": "Anthropic C# SDK",
+    "version": "12.35.1",
+    "tagName": "Anthropic-v12.35.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-02T23:35:46+00:00",
+    "title": "Anthropic C# SDK 12.35.1",
+    "summary": "docs: small updates to field descriptions (8cc7e4b)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:348239240",
+    "product": "Anthropic C# SDK",
+    "version": "12.35.0",
+    "tagName": "Anthropic-v12.35.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-02T19:05:33+00:00",
+    "title": "Anthropic C# SDK 12.35.0",
+    "summary": "api: add agent-memory-2026-07-22 beta header (6e712be)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:348189673",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.12.0",
+    "tagName": "dotnet-1.12.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-02T17:18:25+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.12.0",
+    "summary": ".NET: Fix typo in XML doc comment for workflow outputs param by @marcominerva in https://github.com/microsoft/agent-framework/pull/6326 .NET: Add BackgroundTaskCompletionLoopEvaluator for harness background agents by @westey-m in…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.12.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:347734839",
+    "product": "Anthropic C# SDK",
+    "version": "12.34.1",
+    "tagName": "Anthropic-v12.34.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-01T21:54:49+00:00",
+    "title": "Anthropic C# SDK 12.34.1",
+    "summary": "api: remove some nonfunctional types from the SDKs (7a70377)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.34.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:347622895",
+    "product": "OpenAI .NET SDK",
+    "version": "2.12.0",
+    "tagName": "OpenAI_2.12.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-07-01T17:35:59+00:00",
+    "title": "OpenAI .NET SDK 2.12.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.12.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:347065224",
+    "product": "Anthropic C# SDK",
+    "version": "12.34.0",
+    "tagName": "Anthropic-v12.34.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-30T19:47:01+00:00",
+    "title": "Anthropic C# SDK 12.34.0",
+    "summary": "api: add support for Managed Agents event delta streaming, agent overrides, reverse pagination, vault credential injection scoping, and agent and deployment webhook events (78ef01b)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.34.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:347005476",
+    "product": "Anthropic C# SDK",
+    "version": "12.33.0",
+    "tagName": "Anthropic-v12.33.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-30T17:52:35+00:00",
+    "title": "Anthropic C# SDK 12.33.0",
+    "summary": "api: add support for claude-sonnet-5 (8dcc5b0)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.33.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:346334646",
+    "product": "Anthropic C# SDK",
+    "version": "12.32.0",
+    "tagName": "Anthropic-v12.32.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-29T14:59:09+00:00",
+    "title": "Anthropic C# SDK 12.32.0",
+    "summary": "api: add support for 20260318 web fetch and support tools (77cb54a) api: accept user profile ID's when counting tokens (4ffbe1e)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.32.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:345032313",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.11.1",
+    "tagName": "dotnet-1.11.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-25T23:09:09+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.11.1",
+    "summary": "d9ec5eaab4918612ae0f7ddf11499576bdb510bf update package version (#6752) e3b64fdc4749256fa2d559be18a41f1a008dd7f6 .NET: [BREAKING] Make all AgentSkillsProvider tools require approval by default (#6729) [ #6727 ] 3a5bbb5f8e3991d06fc3fe67fe3b01f2441cab0a .NET: Add…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.1",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:344304468",
+    "product": "Anthropic C# SDK",
+    "version": "12.31.0",
+    "tagName": "Anthropic-v12.31.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-24T18:46:35+00:00",
+    "title": "Anthropic C# SDK 12.31.0",
+    "summary": "client: add support for system.message streaming events (9bfe2fc) api: add support for new refusal category (052f687) api: add support for sending User Profile ID in request headers (02d6377) internal: add lock file (#63) (6a75efb)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.31.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:343769160",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.11.0",
+    "tagName": "dotnet-1.11.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-23T21:18:26+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.11.0",
+    "summary": "1109d0bf64f3d1dd1e1f2bcaf3b38912ec7e833b Get date suffix up to date with release date (#6690) e030fb53ded912d0ce71bd80fe4c0455bc9d5478 .NET: Replace the symlink index entries with regular file entries (#6687) e6ebba1884238134628ad081249b451c0eb15df9 Add ADR 0029: Skills over MCP…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:343004749",
+    "product": "Anthropic C# SDK",
+    "version": "12.30.0",
+    "tagName": "Anthropic-v12.30.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-22T15:35:08+00:00",
+    "title": "Anthropic C# SDK 12.30.0",
+    "summary": "api: add support for new codeexecution20260120 tool (7943727) helpers: single source for x-stainless-helper + tag the refusal-fallback handler (#56) (d25bd32) client: bad model definitions (050cd3c) compilation errors (#55) (ecd75dd)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.30.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:339846187",
+    "product": "ONNX Runtime",
+    "version": "1.27.0",
+    "tagName": "v1.27.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-19T21:11:07+00:00",
+    "title": "ONNX Runtime 1.27.0",
+    "summary": "n.b. This release is targeting ONNX 1.21. ONNX 1.22 will be supported in ORT 1.28. n.b. This changelog was generated via LLM. Only the contributor list has been verified. As always, only trust the commit history. CUDA 12 package files are now explicitly named as such. CUDA 12…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.27.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:337409763",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.10.0",
+    "tagName": "dotnet-1.10.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-10T17:50:17+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.10.0",
+    "summary": "dd29f9aa654257ad807ef7fdcd25fcc7ded109f6 .NET: Hosted Agent Sample - Toolbox with various Auth (#5777) (#6018) a5f4e0078e1c0d1d8fcd580a1bcccc8836093b98 .NET: Fix .NET Copilot integration tests for SDK v1.0.0 (#6424) 3c0c12cd463601c451130884b5442dc42b12cf1e .NET: Update release…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.10.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:336929788",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.7.0",
+    "tagName": "v10.7.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-09T23:25:16+00:00",
+    "title": "Microsoft.Extensions.AI 10.7.0",
+    "summary": "v10.7.0 graduates the Microsoft.Extensions.Diagnostics.ResourceMonitoring.Kubernetes package to stable. The package registers a Kubernetes-aware ResourceQuotaProvider that reads the pod's CPU and memory requests and limits and exposes them to…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.7.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:335229309",
+    "product": "OpenAI .NET SDK",
+    "version": "2.11.0",
+    "tagName": "OpenAI_2.11.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-05T22:41:59+00:00",
+    "title": "OpenAI .NET SDK 2.11.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.11.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:334507413",
+    "product": "MCP C# SDK",
+    "version": "1.4.0",
+    "tagName": "v1.4.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-04T17:52:44+00:00",
+    "title": "MCP C# SDK 1.4.0",
+    "summary": "v1.4.0 introduces support for the Identity Assertion Authorization Grant (ID-JAG) flow via the new IdentityAssertionGrantProvider, enabling enterprise SSO scenarios where users authenticate once via their enterprise Identity Provider and access MCP servers without per-server…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.4.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:334026292",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.9.0",
+    "tagName": "dotnet-1.9.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-03T22:01:45+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.9.0",
+    "summary": "afa7834e2ec8a93b2224fe7ab184b97fbcaa8c9a Updating dotnet package versions for 1.9 release (#6314) c6951c21f69af4c9a5d5cbe107b36fca9f648907 Python: Add MCP-based skills discovery (McpSkillsSource) (#6169) a9824289168c5af4acc5bfc7bd227206eb942fdc .NET: Bug fixes for AGUI hosting…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.9.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:332873782",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.8.0",
+    "tagName": "dotnet-1.8.0",
+    "changeType": "deprecation",
+    "publishedAt": "2026-06-02T02:59:17+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.8.0",
+    "summary": ".NET: Persist ForeachExecutor iteration state across checkpoints by @peibekwe in https://github.com/microsoft/agent-framework/pull/6051 .NET: Remove responses experimental flag from FoundryAgent et.al. by @westey-m in https://github.com/microsoft/agent-framework/pull/6121 .NET:…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.8.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:332873482",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.7.0",
+    "tagName": "dotnet-1.7.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-02T02:57:42+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.7.0",
+    "summary": ".NET: fix: populate MessageId from TaskStatusUpdateEvent in A2AAgent by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/6043 .NET: Add Magentic Orchestration Sample by @Copilot in https://github.com/microsoft/agent-framework/pull/5823 .NET: Add MCP…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.7.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:332873292",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.6.2",
+    "tagName": "dotnet-1.6.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-06-02T02:56:50+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.6.2",
+    "summary": ".NET: Add Executor RouteBuilder Unit Tests by @Copilot in https://github.com/microsoft/agent-framework/pull/5824 .NET: Harness console refactoring by @westey-m in https://github.com/microsoft/agent-framework/pull/5811 .NET: Add sample for invoking Foundry Toolbox tools from…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.6.2",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:330761957",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.77.0",
+    "tagName": "dotnet-1.77.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-28T09:54:36+00:00",
+    "title": "Semantic Kernel for .NET 1.77.0",
+    "summary": "32e904c017c33eb35f7abb5a9e6e61e2e7aea81c .Net: Bump .NET package version to 1.77.0 (#14040) 3e180c16b3004f8b10720ea5f82c3ad136e59153 .Net: Enable default-on server URL validation for OpenAPI plugins (#14029) fdc6e68f5892c3f76519d22a770d7e0a12a261f6 .Net: Semantic Kernel -> Agent…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.77.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:322566102",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.6.1",
+    "tagName": "dotnet-1.6.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-14T13:47:44+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.6.1",
+    "summary": ".NET: Add hyperlight to release slnf by @westey-m in https://github.com/microsoft/agent-framework/pull/5695 .NET: Update FoundryAgent to address HostedAgents strict URL routing by @rogerbarreto in https://github.com/microsoft/agent-framework/pull/5677 .NET: Add…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.6.1",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:321430186",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.6.0",
+    "tagName": "v10.6.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-12T21:00:49+00:00",
+    "title": "Microsoft.Extensions.AI 10.6.0",
+    "summary": "Version 10.6.0 stabilizes the response continuation token and background-response APIs in Microsoft.Extensions.AI.Abstractions. Most other AI work for May shipped in 10.5.1; this monthly release rolls those changes up alongside dependency updates and a small Resource Monitoring…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.6.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:320368141",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.76.0",
+    "tagName": "dotnet-1.76.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-11T09:37:20+00:00",
+    "title": "Semantic Kernel for .NET 1.76.0",
+    "summary": "f2b3c931d1bc43b5630eb16aea24a4fe93d56699 .Net: Version bump 1.76.0 (#13972) 3dd139b2bd4000dd8efc19edd6d3127e17916550 .Net: Harden CloudDrivePlugin defaults and add path validation (#13958) 446c2eff94bcf4539e1528db692352bbbb3628a5 .Net: Improve input validation in OpenAPI plugin…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.76.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:319693412",
+    "product": "ONNX Runtime",
+    "version": "1.26.0",
+    "tagName": "v1.26.0",
+    "changeType": "deprecation",
+    "publishedAt": "2026-05-08T19:24:39+00:00",
+    "title": "ONNX Runtime 1.26.0",
+    "summary": "n.b. The following was generated via LLM from Git history. Only the contributor list has been verified. - Support for CUDA 12 will be removed in 1.27.0. - CUDA 13 will continue to be published as onnxruntime- - -gpucuda13- . - CUDA runtime will be moving soon to a dedicated…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.26.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:319292320",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.5.0",
+    "tagName": "dotnet-1.5.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-08T02:54:23+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.5.0",
+    "summary": ".NET: feat: Implement message filtering to exclude non-portable content typ… by @tarockey in https://github.com/microsoft/agent-framework/pull/5410 .NET: Add allow listing for WebBrowsingTool by @westey-m in https://github.com/microsoft/agent-framework/pull/5605 .NET: fix: JSON…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.5.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:319275959",
+    "product": "MCP C# SDK",
+    "version": "1.3.0",
+    "tagName": "v1.3.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-08T01:38:02+00:00",
+    "title": "MCP C# SDK 1.3.0",
+    "summary": "v1.3.0 focuses on improved transport diagnostics and security-focused documentation. The new public ClientTransportClosedException gives stdio and HTTP clients structured access to transport closure details (exit codes, process IDs, stderr tails, HTTP status codes) without…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.3.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:318016715",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.5.2",
+    "tagName": "v10.5.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-05T19:25:03+00:00",
+    "title": "Microsoft.Extensions.AI 10.5.2",
+    "summary": "This patch release ships a single fix to Microsoft.Extensions.VectorData.Abstractions, correcting StorageName resolution when external serialization is enabled. Microsoft.Extensions.VectorData.ConformanceTests, Microsoft.Extensions.AI.Abstractions, Microsoft.Extensions.AI, and…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.5.2",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:317845958",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.4.0",
+    "tagName": "dotnet-1.4.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-05T14:07:35+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.4.0",
+    "summary": ".NET: Bump OpenTelemetry packages to 1.15.3 by @SergeyMenshykh in https://github.com/microsoft/agent-framework/pull/5478 .NET: Support returning durable workflow results from HTTP trigger endpoint by @kshyju in https://github.com/microsoft/agent-framework/pull/5321 .NET:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.4.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:316592425",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.5.1",
+    "tagName": "v10.5.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-05-02T02:15:45+00:00",
+    "title": "Microsoft.Extensions.AI 10.5.1",
+    "summary": "Version 10.5.1 of the Microsoft.Extensions.AI packages stabilizes CodeInterpreter, WebSearch, and ImageGeneration tool content types. The release adds new experimental tool search and OpenAI request policy hooks. And the OpenTelemetry gen-ai semantic conventions are updated to…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.5.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:315228898",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.75.0",
+    "tagName": "dotnet-1.75.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-29T14:05:03+00:00",
+    "title": "Semantic Kernel for .NET 1.75.0",
+    "summary": "27971e118b344a5bedea6bbd5c514d3409890b54 .Net: Sk release version 2026 04 27 (#13929) c8e3cd0d74924d27f4bb2d347bbc1212e2714358 .Net: Upgrade dependencies (#13927) 9c62d9d19aae68427977f4596234426eeb1a5385 Python: Bump package version to 1.41.3 for a release (#13926)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.75.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:315122375",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.74.1",
+    "tagName": "dotnet-1.74.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-29T10:40:08+00:00",
+    "title": "Semantic Kernel for .NET 1.74.1",
+    "summary": "9cf7f0149ecac55ce13fb7bf3e9647f20da140f9 .Net: VectorData connector bugfix release (#13928) This list of changes was auto generated.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.74.1",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:314178822",
+    "product": "ONNX Runtime",
+    "version": "1.25.1",
+    "tagName": "v1.25.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-27T21:46:20+00:00",
+    "title": "ONNX Runtime 1.25.1",
+    "summary": "n.b. This changelog is LLM generated. Only the contributor listing has been verified. Enhanced ONNX operator support with new opset versions: Reshape (opset 25), Transpose (opset 24) (#27752) --- LinearAttention and CausalConvState operators for Qwen3.5 model support (#27907)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "SciSharp/LLamaSharp:313783109",
+    "product": "LLamaSharp",
+    "version": "0.27.0",
+    "tagName": "v0.27.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-26T17:00:30+00:00",
+    "title": "LLamaSharp 0.27.0",
+    "summary": "Windows arm64 cpu support by @jihadkhawaja in https://github.com/SciSharp/LLamaSharp/pull/1226 Update For Qwen3.5/Gemma4 Support by @martindevans in https://github.com/SciSharp/LLamaSharp/pull/1356 Context Overflow Fix by @zsogitbe in…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/SciSharp/LLamaSharp/releases/tag/v0.27.0",
+    "repository": "SciSharp/LLamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/agent-framework:313127058",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.3.0",
+    "tagName": "dotnet-1.3.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-24T09:18:11+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.3.0",
+    "summary": ".NET: Add dynamic tool expansion sample by @westey-m in https://github.com/microsoft/agent-framework/pull/5425 .NET: Update Aspire package to be preview by @westey-m in https://github.com/microsoft/agent-framework/pull/5444 .NET: Fix off-thread RunStatus race where GetStatusAsync…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.3.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:311948879",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.2.0",
+    "tagName": "dotnet-1.2.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-21T21:23:14+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.2.0",
+    "summary": "f2b215a2f6d4767fd37b17dd33195100ea2e498f .NET [WIP] Foundry Hosted Agents Support (#5312) [ #5091, #5287, #5278, #5281, #5316, #5336, #5341, #5367, #5368, #5371, #5374, #5406, #5408 ] 57fa8ea9022ac9ec39fb5ececb020aa042599c8f Python: Fix OpenAIEmbeddingClient to use AsyncOpenAI…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.2.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:306795215",
+    "product": "ONNX Runtime",
+    "version": "1.25.0",
+    "tagName": "v1.25.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-20T18:25:24+00:00",
+    "title": "ONNX Runtime 1.25.0",
+    "summary": "C++20 is now required to build ONNX Runtime from source. Minimum toolchains: MSVC 19.29+, GCC 10+, Clang 10+. Users of prebuilt packages are unaffected. (#27178) CUDA minimum version raised to 12.0 — CUDA 11.x is no longer supported. Users pinned to CUDA 11.x should stay on ORT…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.25.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:309148227",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.5.0",
+    "tagName": "v10.5.0",
+    "changeType": "breaking-change",
+    "publishedAt": "2026-04-15T06:45:22+00:00",
+    "title": "Microsoft.Extensions.AI 10.5.0",
+    "summary": "HTTP Logging Middleware APIs in Microsoft.AspNetCore.Diagnostics.Middleware are now stable. This release also transfers Microsoft.Extensions.VectorData.Abstractions and Microsoft.Extensions.VectorData.ConformanceTests from the Semantic Kernel repository into dotnet/extensions,…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.5.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:307654642",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.1.0",
+    "tagName": "dotnet-1.1.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-10T17:17:24+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.1.0",
+    "summary": "3e864cdb4c6031cf93096fa6af4d927b31126d8a .NET: Update version to 1.1.0 (#5204) 14d2ab3262580a383472b406d97b36cfd86b2787 Standardize file skills terminology on 'directory' (#5205) e5f7b9c260961916e108ca10780988aeefd51662 .NET: Support reflection for discovery of resources and…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.1.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:305184794",
+    "product": "OpenAI .NET SDK",
+    "version": "2.10.0",
+    "tagName": "OpenAI_2.10.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-04-04T00:04:49+00:00",
+    "title": "OpenAI .NET SDK 2.10.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.10.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:302595487",
+    "product": "MCP C# SDK",
+    "version": "1.2.0",
+    "tagName": "v1.2.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-27T23:50:12+00:00",
+    "title": "MCP C# SDK 1.2.0",
+    "summary": "This release improves stateless HTTP transport defaults and documentation with a breaking behavioral change that we are considering as a server reliability fix and therefore not bumping the major version with this release. Legacy SSE endpoints are now disabled by default with a…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.2.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:300561184",
+    "product": "OllamaSharp",
+    "version": "5.4.25",
+    "tagName": "5.4.25",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-24T08:31:41+00:00",
+    "title": "OllamaSharp 5.4.25",
+    "summary": "Update packages by @awaescher in https://github.com/awaescher/OllamaSharp/pull/380 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.24...5.4.25",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.25",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/semantic-kernel:299457481",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.74.0",
+    "tagName": "dotnet-1.74.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-20T14:54:19+00:00",
+    "title": "Semantic Kernel for .NET 1.74.0",
+    "summary": "14ea2fcabb02910e6fccfc939d217567caa4a0be SK .NET Release version bump (#13685) 8b32b3ba6f62e94ea2533d818b89a17eb11bb681 DF PR Review workflow (#13687) 30aec16700618b9912e08b0a5f919839e058ca11 Update OpenAI to 2.9.1, Azure.AI.OpenAI to 2.9.0-beta.1, Azure.AI.Projects to…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.74.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:298677543",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.4.1",
+    "tagName": "v10.4.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-18T21:03:33+00:00",
+    "title": "Microsoft.Extensions.AI 10.4.1",
+    "summary": "This release of the Microsoft.Extensions.AI packages adds new experimental APIs for Realtime client sessions and Text-to-Speech, along with OpenTelemetry and middleware improvements. | Package | Version | |---------|---------| | Microsoft.Extensions.AI.Abstractions | 10.4.1 | |…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.4.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:298129818",
+    "product": "ONNX Runtime",
+    "version": "1.24.4",
+    "tagName": "v1.24.4",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-17T23:08:09+00:00",
+    "title": "ONNX Runtime 1.24.4",
+    "summary": "This is a patch release for ONNX Runtime 1.24, containing bug fixes and execution provider updates. - Core: Added PCI bus fallback for Linux GPU device discovery in containerized environments (e.g., AKS/Kubernetes) where nvidia-drm is not loaded but GPU PCI devices are still…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.24.4",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:297948368",
+    "product": "OllamaSharp",
+    "version": "5.4.24",
+    "tagName": "5.4.24",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-17T13:23:31+00:00",
+    "title": "OllamaSharp 5.4.24",
+    "summary": "Update Microsoft.Extensions.AI to 10.4.0 by @stephentoub in https://github.com/awaescher/OllamaSharp/pull/376 Add demo for structured outputs by @awaescher in https://github.com/awaescher/OllamaSharp/pull/375 Full Changelog:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.24",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "dotnet/extensions:295973747",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.4.0",
+    "tagName": "v10.4.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-12T06:03:24+00:00",
+    "title": "Microsoft.Extensions.AI 10.4.0",
+    "summary": "This release advances the AI abstractions with new hosted file, web search, and reasoning content types, stabilizes MCP and tool approval APIs, adds streaming latency metrics to OpenTelemetry instrumentation, and delivers bug fixes across caching, data ingestion, and resource…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.4.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:294117765",
+    "product": "MCP C# SDK",
+    "version": "1.1.0",
+    "tagName": "v1.1.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-06T22:12:29+00:00",
+    "title": "MCP C# SDK 1.1.0",
+    "summary": "Highlights of v1.1.0 include client completion details for understanding when and why a client connection ended, auto-populated completion handlers from AllowedValuesAttribute, and bug fixes for server-initiated ping handling, server capabilities initialization, and in-flight…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.1.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:293607319",
+    "product": "ONNX Runtime",
+    "version": "1.24.3",
+    "tagName": "v1.24.3",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-05T19:00:05+00:00",
+    "title": "ONNX Runtime 1.24.3",
+    "summary": "This is a patch release for ONNX Runtime 1.24, containing bug fixes, security improvements, performance enhancements, and execution provider updates. - Core: Fixed GatherCopyData integer truncation leading to heap out-of-bounds read/write. (#27444) - Core: Fixed RoiAlign heap…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.24.3",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:293059100",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.73.0",
+    "tagName": "dotnet-1.73.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T16:16:44+00:00",
+    "title": "Semantic Kernel for .NET 1.73.0",
+    "summary": "e90102079382d3fb0ffeac29ab7c6d2994a2948f .Net: Bump SK and MEVD versions for release (#13630) b36a327d76f398346ca6267a1e25ed193cc95bea .Net: Fix input checking in Cosmos NoSQL, Redis and Weaviate providers (#13629) e9641a9106ba6b67909d65b882f5cf8c292106c7 .Net: Fix column…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.73.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:292864949",
+    "product": "OllamaSharp",
+    "version": "5.4.23",
+    "tagName": "5.4.23",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T07:56:27+00:00",
+    "title": "OllamaSharp 5.4.23",
+    "summary": "Automatically generate release notes by @awaescher in https://github.com/awaescher/OllamaSharp/pull/374 Fix: ChatResponseUpdate missing LoadDuration and TotalDuration metrics by @JerryJian in https://github.com/awaescher/OllamaSharp/pull/369 @JerryJian made their first…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.23",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:292853570",
+    "product": "OllamaSharp",
+    "version": "5.4.22",
+    "tagName": "5.4.22",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T07:13:39+00:00",
+    "title": "OllamaSharp 5.4.22",
+    "summary": "- Update packages (#372)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.22",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:292851585",
+    "product": "OllamaSharp",
+    "version": "5.4.21",
+    "tagName": "5.4.21",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T07:04:37+00:00",
+    "title": "OllamaSharp 5.4.21",
+    "summary": "- Updates package (#371)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.21",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:292848547",
+    "product": "OllamaSharp",
+    "version": "5.4.20",
+    "tagName": "5.4.20",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T06:50:58+00:00",
+    "title": "OllamaSharp 5.4.20",
+    "summary": "- Drop custom MCP implementation (#370) MCP is growing quickly. Frameworks like Semantic Kernel or Microsoft Agent Framework cover not only MCP but many different things like tracing, memory, and much more. It makes no sense to implement these parts in this project. Instead, use…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.20",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:292836128",
+    "product": "OllamaSharp",
+    "version": "5.4.19",
+    "tagName": "5.4.19",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-04T06:10:02+00:00",
+    "title": "OllamaSharp 5.4.19",
+    "summary": "- Improve ToValidIdentifier (#364) Thanks @Joy-less",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.19",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "openai/openai-dotnet:292313974",
+    "product": "OpenAI .NET SDK",
+    "version": "2.9.1",
+    "tagName": "OpenAI_2.9.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-03-02T23:43:24+00:00",
+    "title": "OpenAI .NET SDK 2.9.1",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.9.1",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:291551712",
+    "product": "OpenAI .NET SDK",
+    "version": "2.9.0",
+    "tagName": "OpenAI_2.9.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-27T23:51:28+00:00",
+    "title": "OpenAI .NET SDK 2.9.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.9.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:291396161",
+    "product": "OllamaSharp",
+    "version": "5.4.18",
+    "tagName": "5.4.18",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-27T15:11:30+00:00",
+    "title": "OllamaSharp 5.4.18",
+    "summary": "Add support for the experimental image generation api.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.18",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:291360550",
+    "product": "OllamaSharp",
+    "version": "5.4.17",
+    "tagName": "5.4.17",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-27T13:38:16+00:00",
+    "title": "OllamaSharp 5.4.17",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.17",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:290120246",
+    "product": "MCP C# SDK",
+    "version": "1.0.0",
+    "tagName": "v1.0.0",
+    "changeType": "breaking-change",
+    "publishedAt": "2026-02-25T01:21:19+00:00",
+    "title": "MCP C# SDK 1.0.0",
+    "summary": "This is the first stable release of the ModelContextProtocol C# SDK. Thank you to all of the contributors who helped us achieve this milestone! Refer to the C# SDK Versioning documentation for details on versioning and breaking change policies. 1. Mark RunSessionHandler…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.0.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:288056667",
+    "product": "ONNX Runtime",
+    "version": "1.24.2",
+    "tagName": "v1.24.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-19T21:28:03+00:00",
+    "title": "ONNX Runtime 1.24.2",
+    "summary": "This is a patch release for ONNX Runtime 1.24, containing several bug fixes, security improvements, and execution provider updates. - NuGet: Fixed native library loading issues in the ONNX Runtime NuGet package on Linux and macOS. (#27266) - macOS: Fixed Java support and Jar…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.24.2",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:288370571",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.72.0",
+    "tagName": "dotnet-1.72.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-19T18:40:10+00:00",
+    "title": "Semantic Kernel for .NET 1.72.0",
+    "summary": "cec0cba23cc0ce6754d9c95efc4f29c2653a0e37 .Net: Bump SK to 1.7.2 and MEVD to 10.0.0 (#13567) c86a59ae04d0ca1ec74e784388f4a0c2edafcf50 .Net: Update Microsoft.SemanticKernel packages to 1.71.0 (#13571) [ #13570 ] 8513c2ac00fbbd61af714e15a3ca4803db570d5b .Net: [MEVD] Cosmos NoSQL…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.72.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:286939427",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.71.0",
+    "tagName": "dotnet-1.71.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-16T17:33:37+00:00",
+    "title": "Semantic Kernel for .NET 1.71.0",
+    "summary": "- 91f795605e42f0dd03ed9cdfaf4ffd8bdb1ae553 .Net: Bumping - Version 1.71.0 (#13552) - 1b8b08b0ee72e6a26494009e2724c38010bd0ea3 Remove unused workflow (#13545) - c6f07d65f498dca5bb74fcc72f2f96d96e0c2fa4 .Net: Implement SQL Server hybrid search (#13512) [ #11080 ] -…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.71.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "SciSharp/LLamaSharp:286553308",
+    "product": "LLamaSharp",
+    "version": "0.26.0",
+    "tagName": "v0.26.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-15T16:25:50+00:00",
+    "title": "LLamaSharp 0.26.0",
+    "summary": "Add support for gemma 3n by @krisbiradar in https://github.com/SciSharp/LLamaSharp/pull/1248 Mtmd implementation by @SignalRT in https://github.com/SciSharp/LLamaSharp/pull/1261 Respect ChatOptions.Instructions in LlamaExecutorChatClient by @stephentoub in…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/SciSharp/LLamaSharp/releases/tag/v0.26.0",
+    "repository": "SciSharp/LLamaSharp",
+    "official": false
+  },
+  {
+    "id": "dotnet/extensions:285061054",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.3.0",
+    "tagName": "v10.3.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-11T01:18:20+00:00",
+    "title": "Microsoft.Extensions.AI 10.3.0",
+    "summary": "IChatReducer interface — graduated from experimental to stable. The interface is now stable; concrete implementations (MessageCountingChatReducer, SummarizingChatReducer, ReducingChatClient) remain experimental. #7235 by @jeffhandley FunctionCallContent and FunctionResultContent…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.3.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:279644668",
+    "product": "ONNX Runtime",
+    "version": "1.24.1",
+    "tagName": "v1.24.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-02-06T00:00:13+00:00",
+    "title": "ONNX Runtime 1.24.1",
+    "summary": "- Python 3.10 wheels are no longer published — Please upgrade to Python 3.11+ - Python 3.14 support added - Free-threaded Python (PEP 703) — Added support for Python 3.13t and 3.14t in Linux (#26786) - x8664 binaries for macOS/iOS are no longer provided and minimum macOS is…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.24.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:280738538",
+    "product": "OllamaSharp",
+    "version": "5.4.16",
+    "tagName": "5.4.16",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-01-28T14:55:04+00:00",
+    "title": "OllamaSharp 5.4.16",
+    "summary": "- Add summaries for public members #352 - Fix typos #354 Made locally with my old llmaid and gpt-oss:120b.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.16",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:279934234",
+    "product": "OllamaSharp",
+    "version": "5.4.13",
+    "tagName": "5.4.13",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-01-26T13:57:38+00:00",
+    "title": "OllamaSharp 5.4.13",
+    "summary": "- Fix ToolSourceGenerator generated code throwing KeyNotFoundException #349 Thanks @Tommy-Hu",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.13",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/semantic-kernel:279432128",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.70.0",
+    "tagName": "dotnet-1.70.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-01-23T16:24:42+00:00",
+    "title": "Semantic Kernel for .NET 1.70.0",
+    "summary": "1fe41e17a90e002aa7f4f834f7ebd9475d80803c .Net: Version 1.70.0 (#13468) 9118743eac7600c629858d25ad2ce668f3ac3b5d .Net: Add ThoughtSignature support for Gemini function calling (#13418) [ #13417 ] e696dc7d525b5d7dc664318bbdee6d3e008a3db5 Python: Add directory allowlist…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.70.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:278014493",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.69.0",
+    "tagName": "dotnet-1.69.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-01-19T17:48:27+00:00",
+    "title": "Semantic Kernel for .NET 1.69.0",
+    "summary": "3b61c786c9b4f9a8224f39f647859fd51af4c902 .Net: Version 1.69.0 (#13460) c97c3e6aa7b805c4e0d8d07db479e82eb6102f7e .Net: Bump .Net packages, minor versions only (#13452) dc0eefd8a3eba67481f6026f4d5bfa2a4bc4df46 .Net: Skip and AzureAIInference chat completion tests (#13451)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.69.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:276498356",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.2.0",
+    "tagName": "v10.2.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-01-13T19:43:13+00:00",
+    "title": "Microsoft.Extensions.AI 10.2.0",
+    "summary": "Bump version to 10.2.0 for next development cycle by @Copilot in https://github.com/dotnet/extensions/pull/7105 Add unit parameter to metric source generator by @mariamgerges in https://github.com/dotnet/extensions/pull/7099 [main] Update dependencies from dotnet/arcade by…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.2.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:269681831",
+    "product": "OpenAI .NET SDK",
+    "version": "2.8.0",
+    "tagName": "OpenAI_2.8.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-12-11T21:20:46+00:00",
+    "title": "OpenAI .NET SDK 2.8.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.8.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:267741075",
+    "product": "OllamaSharp",
+    "version": "5.4.12",
+    "tagName": "5.4.12",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-12-05T12:15:33+00:00",
+    "title": "OllamaSharp 5.4.12",
+    "summary": "- Add support for Logprobs #345 → see Ollama blog Thanks @mili-tan",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.12",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/semantic-kernel:267157524",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.68.0",
+    "tagName": "dotnet-1.68.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-12-03T16:45:39+00:00",
+    "title": "Semantic Kernel for .NET 1.68.0",
+    "summary": "9ee675aa66e899ca936d31328c06c1f7043527af .NET: Added solution filter file for release (#13402) 7c9c469d516fad1490d9f5e401b84e8791e0aa03 .Net: Fix #13262: GeminiRequest to handle single turn requests correctly (#13288) 7d84d6b1319f04bc983e1ab61de4f9e113d1340e Version 1.68.0…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.68.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:262539143",
+    "product": "OllamaSharp",
+    "version": "5.4.11",
+    "tagName": "5.4.11",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-14T19:43:35+00:00",
+    "title": "OllamaSharp 5.4.11",
+    "summary": "- Fix null reference exception in AbstractionMapper.ToChatResponseUpdate #341 Thanks @koadna",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.11",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "openai/openai-dotnet:262269407",
+    "product": "OpenAI .NET SDK",
+    "version": "2.7.0",
+    "tagName": "OpenAI_2.7.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-13T22:37:39+00:00",
+    "title": "OpenAI .NET SDK 2.7.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.7.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:261576946",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.0.0",
+    "tagName": "v10.0.0",
+    "changeType": "major-release",
+    "publishedAt": "2025-11-11T23:01:50+00:00",
+    "title": "Microsoft.Extensions.AI 10.0.0",
+    "summary": "Give FunctionInvokingChatClient span a more OTELy name by @verdie-g in https://github.com/dotnet/extensions/pull/6911 Update repository branding from 9.10 to 10.0 by @Copilot in https://github.com/dotnet/extensions/pull/6907 Clean up local function names in AIFunctionFactory by…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.0.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:261563992",
+    "product": "OllamaSharp",
+    "version": "5.4.10",
+    "tagName": "5.4.10",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-11T21:50:36+00:00",
+    "title": "OllamaSharp 5.4.10",
+    "summary": "Add .NET 10 support #339",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.10",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:261011554",
+    "product": "OllamaSharp",
+    "version": "5.4.9",
+    "tagName": "5.4.9",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-10T06:35:49+00:00",
+    "title": "OllamaSharp 5.4.9",
+    "summary": "- Fix invalid working with dimensions #334 - Include toolcall ids #337 Thank @Maximys and @mili-tan",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.9",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "microsoft/semantic-kernel:260726911",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.67.1",
+    "tagName": "dotnet-1.67.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-07T18:23:54+00:00",
+    "title": "Semantic Kernel for .NET 1.67.1",
+    "summary": "1ccdd1e649dd69bea6f797a3ad74e65f5228e7c0 .Net: Updated package version (#13342) eab8c889835be19f8467cc6351c026902b30ad79 .Net: [MEVD] Fix Guid (and other) keys for dynamic collections (#13341) [ #13340 ] a5810db1df32401fcd727d09aa91844c2c3bcdca .Net: Final test cleanup (#13328)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.67.1",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:259379904",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.67.0",
+    "tagName": "dotnet-1.67.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-11-03T21:16:03+00:00",
+    "title": "Semantic Kernel for .NET 1.67.0",
+    "summary": "2464458c47b4d668e025227fef4f9096646b3678 .Net: Update SK Version for release (#13327) 13e7582856d84a604211f46cdca7613714906012 .Net: Fix #13232: Add empty parameters schema for NonInvocableTool placeholder (#13278) 70b7bdb62bc310162e9243d32216881f17b8fc73 .Net:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.67.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "openai/openai-dotnet:258939984",
+    "product": "OpenAI .NET SDK",
+    "version": "2.6.0",
+    "tagName": "OpenAI_2.6.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-31T22:16:14+00:00",
+    "title": "OpenAI .NET SDK 2.6.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.6.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:257196913",
+    "product": "ONNX Runtime",
+    "version": "1.23.2",
+    "tagName": "v1.23.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-25T04:15:21+00:00",
+    "title": "ONNX Runtime 1.23.2",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.2",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:255235139",
+    "product": "OllamaSharp",
+    "version": "5.4.8",
+    "tagName": "5.4.8",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-17T07:40:59+00:00",
+    "title": "OllamaSharp 5.4.8",
+    "summary": "- Update to Microsoft.Extensions.AI 9.10 Thanks @rogerbarreto",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.8",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "dotnet/extensions:254521481",
+    "product": "Microsoft.Extensions.AI",
+    "version": "9.10.0",
+    "tagName": "v9.10.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-14T22:07:57+00:00",
+    "title": "Microsoft.Extensions.AI 9.10.0",
+    "summary": "Branding updates for 9.10 by @Copilot in https://github.com/dotnet/extensions/pull/6769 Doc improvements by @gewarren in https://github.com/dotnet/extensions/pull/6794 Bump vite from 6.3.5 to 6.3.6 in /src/Libraries/Microsoft.Extensions.AI.Evaluation.Reporting/TypeScript by…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v9.10.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:253124897",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.66.0",
+    "tagName": "dotnet-1.66.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-08T18:27:24+00:00",
+    "title": "Semantic Kernel for .NET 1.66.0",
+    "summary": "5948dbc32326ddd2471c13627e62a5c8f1b30ec2 .Net: Fix OllamaPromptExecutionSettings Clone() method to preserve Ollama-specific settings (#13218) [ #13217 ] a105e14284334f006cd9cdb496a624cbde471a94 Bump version numbers of the .Net dependencies (#13230)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.66.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:252902201",
+    "product": "ONNX Runtime",
+    "version": "1.23.1",
+    "tagName": "v1.23.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-10-08T04:12:55+00:00",
+    "title": "ONNX Runtime 1.23.1",
+    "summary": "- Fix Attention GQA implementation on CPU (#25966) - Address edge GetMemInfo edge cases (#26021) - Implement new Python APIs (#25999) - MemcpyFromHost and MemcpyToHost support for plugin EPs (#26088) - [TRT RTX EP] Fix bug for generating the correct subgraph in GetCapability…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "microsoft/onnxruntime:250190179",
+    "product": "ONNX Runtime",
+    "version": "1.23.0",
+    "tagName": "v1.23.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-09-26T04:33:48+00:00",
+    "title": "ONNX Runtime 1.23.0",
+    "summary": "- This release introduces Execution Provider (EP) Plugin API, which is a new infrastructure for building plugin-based EPs. (#24887 , #25137, #25124, #25147, #25127, #25159, #25191, #2524) - This release introduces the ability to dynamically download and install execution…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:249958952",
+    "product": "OllamaSharp",
+    "version": "5.4.7",
+    "tagName": "5.4.7",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-09-25T10:52:26+00:00",
+    "title": "OllamaSharp 5.4.7",
+    "summary": "Add Dimensions for embeddings #324 Thanks @mili-tan",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.7",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "openai/openai-dotnet:249528397",
+    "product": "OpenAI .NET SDK",
+    "version": "2.5.0",
+    "tagName": "OpenAI_2.5.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-09-24T01:42:47+00:00",
+    "title": "OpenAI .NET SDK 2.5.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.5.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:249029403",
+    "product": "OllamaSharp",
+    "version": "5.4.6",
+    "tagName": "5.4.6",
+    "changeType": "sdk-release",
+    "publishedAt": "2025-09-22T13:02:00+00:00",
+    "title": "OllamaSharp 5.4.6",
+    "summary": "- Allow the model to do multiple tool calls sequentially when using the Chat class like first querying users and then getting details for a single user, for example.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.6",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  }
+]

@@ -4,13 +4,28 @@
   {{- if not $description }}
     {{- $description = printf "Browse the latest %s articles and videos from trusted developer sources." .Title }}
   {{- end }}
+  {{- $isAI := eq .Title "AI" }}
   <div class="news-shell wrap">
-    <header class="directory-header">
-      <p class="eyebrow">.NET community topic</p>
-      <h1>{{ .Title }}</h1>
+    <header class="directory-header{{ if $isAI }} ai-hub-header{{ end }}">
+      <p class="eyebrow">{{ if $isAI }}Practical AI engineering{{ else }}.NET community topic{{ end }}</p>
+      <h1>{{ if $isAI }}AI for .NET Developers{{ else }}{{ .Title }}{{ end }}</h1>
       <p>{{ $description }}</p>
+      {{ if $isAI }}
+        <div class="hub-actions">
+          <a class="button" href="/digest/?topic=ai">This week in AI</a>
+          <a href="#ai-learning-paths">Explore learning paths ↓</a>
+        </div>
+      {{ end }}
     </header>
-    {{ partial "discovery-controls" (dict "topicLocked" true "label" "Filter stories" "placeholder" "Search this topic") }}
+    {{ if $isAI }}
+      {{ partial "ai-release-radar" . }}
+    {{ end }}
+    {{ partial "discovery-controls" (dict
+      "topicLocked" true
+      "showAISubtopics" $isAI
+      "label" (cond $isAI "Filter AI content" "Filter stories")
+      "placeholder" (cond $isAI "Search AI articles and videos" "Search this topic")
+    ) }}
     <p class="results-summary" aria-live="polite">
       Showing <span id="rendered-count">{{ math.Min 24 (len $pages) }}</span>
       of <span id="visible-count">{{ len $pages }}</span> <span id="result-label">stories</span>
@@ -26,5 +41,40 @@
       <span data-page-status aria-live="polite"></span>
       <button type="button" data-page-next>Next →</button>
     </nav>
+    {{ if $isAI }}
+      <section class="learning-paths" id="ai-learning-paths" aria-labelledby="learning-paths-title">
+        <div class="section-intro">
+          <p class="eyebrow">Official and practical resources</p>
+          <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
+          <p>Start with the platform fundamentals, then choose the area that matches what you want to build.</p>
+        </div>
+        <div class="learning-path-grid">
+          <article>
+            <span>01</span>
+            <h3>Build AI apps with .NET</h3>
+            <p>Learn the .NET AI ecosystem, abstractions, SDKs, and application patterns.</p>
+            <a href="https://learn.microsoft.com/dotnet/ai/" rel="noopener">Microsoft .NET AI documentation →</a>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Build agents with Semantic Kernel</h3>
+            <p>Explore plugins, orchestration, memory, and agent-based application design.</p>
+            <a href="https://learn.microsoft.com/semantic-kernel/overview/" rel="noopener">Semantic Kernel documentation →</a>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Connect tools with MCP</h3>
+            <p>Build Model Context Protocol clients and servers using the official C# SDK.</p>
+            <a href="https://github.com/modelcontextprotocol/csharp-sdk" rel="noopener">MCP C# SDK →</a>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Run models locally</h3>
+            <p>Connect .NET applications to local models through Ollama without a hosted API.</p>
+            <a href="https://github.com/awaescher/OllamaSharp" rel="noopener">OllamaSharp →</a>
+          </article>
+        </div>
+      </section>
+    {{ end }}
   </div>
 {{ end }}

@@ -16,6 +16,7 @@
   data-url="{{ $page.Params.link }}"
   data-source="{{ $sourceID }}"
   data-topics="{{ delimit (apply $topics "urlize" ".") "," }}"
+  data-ai-subtopics="{{ with $page.Params.aiSubtopics }}{{ delimit (apply . "urlize" ".") "," }}{{ end }}"
   data-content-type="{{ $type }}"
   data-date="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
   <a class="news-card__image" href="{{ $page.Params.link }}" data-outbound>

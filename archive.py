@@ -7,6 +7,7 @@ from dateutil import parser as dateparser
 
 from common import (
     canonicalize_url,
+    classify_ai_subtopics,
     deduplicate_video_items,
     fallback_thumbnail,
     normalize_title,
@@ -35,6 +36,12 @@ def read_content_item(path):
         "author": metadata.get("author", ""),
         "contentType": metadata["contentType"],
         "topics": metadata["topics"],
+        "aiSubtopics": metadata.get("aiSubtopics")
+        or (
+            classify_ai_subtopics(metadata["title"], summary)
+            if "AI" in metadata["topics"]
+            else []
+        ),
         "thumbnail": metadata["thumbnail"],
         "fallbackThumbnail": metadata.get("fallbackThumbnail")
         or fallback_thumbnail(metadata["topics"], metadata["contentType"]),
@@ -54,6 +61,11 @@ def build_archive(now=None, retention_days=180):
     if ARCHIVE_PATH.exists():
         for item in json.loads(ARCHIVE_PATH.read_text(encoding="utf-8")):
             item["title"] = normalize_title(item.get("title", ""))
+            item["aiSubtopics"] = item.get("aiSubtopics") or (
+                classify_ai_subtopics(item["title"], item.get("summary", ""))
+                if "AI" in item.get("topics", [])
+                else []
+            )
             item["fallbackThumbnail"] = item.get("fallbackThumbnail") or fallback_thumbnail(
                 item.get("topics") or ["General"],
                 item.get("contentType", "article"),

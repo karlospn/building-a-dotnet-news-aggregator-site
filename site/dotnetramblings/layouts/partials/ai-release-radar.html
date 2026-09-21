@@ -1,0 +1,52 @@
+{{- $allReleases := site.Data.ai_releases | default slice }}
+{{- $releases := first 60 $allReleases }}
+<section class="release-radar" aria-labelledby="release-radar-title" data-release-radar>
+  <div class="release-radar__heading">
+    <div>
+      <p class="eyebrow">Tracked .NET AI projects</p>
+      <h2 id="release-radar-title">.NET AI Release Radar</h2>
+      <p>Stable SDK and framework releases from selected .NET AI projects.</p>
+    </div>
+    {{ with index $releases 0 }}
+      <span>Updated {{ time.Format "Jan 2, 2006" .publishedAt }}</span>
+    {{ end }}
+  </div>
+  {{ if $releases }}
+    <div class="release-filters" role="group" aria-label="Release type">
+      <button type="button" class="is-active" data-release-filter="all" aria-pressed="true">All</button>
+      {{- range slice
+        (dict "id" "sdk-release" "label" "SDK releases")
+        (dict "id" "major-release" "label" "Major")
+        (dict "id" "breaking-change" "label" "Breaking")
+        (dict "id" "deprecation" "label" "Deprecations")
+        (dict "id" "security" "label" "Security")
+      }}
+        {{- $count := len (where $releases "changeType" .id) }}
+        {{- if gt $count 0 }}
+          <button type="button" data-release-filter="{{ .id }}" aria-pressed="false">{{ .label }} ({{ $count }})</button>
+        {{- end }}
+      {{- end }}
+    </div>
+    <div class="release-list">
+      {{ range $releases }}
+        <article class="release-item release-item--{{ .changeType }}" data-release-item data-release-type="{{ .changeType }}">
+          <div class="release-item__meta">
+            <span>{{ .product }}</span>
+            <time datetime="{{ .publishedAt }}">{{ time.Format "Jan 2, 2006" .publishedAt }}</time>
+          </div>
+          <div class="release-item__content">
+            <h3><a href="{{ .sourceUrl }}" rel="noopener">{{ .title }}</a></h3>
+            <p>{{ .summary }}</p>
+          </div>
+          <div class="release-item__labels">
+            <span class="release-type">{{ replace .changeType "-" " " | title }}</span>
+            {{ if .official }}<span>Official</span>{{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+    <button type="button" class="release-more" data-release-more hidden>Show more releases</button>
+  {{ else }}
+    <p class="empty-state">Release data is not available yet.</p>
+  {{ end }}
+</section>

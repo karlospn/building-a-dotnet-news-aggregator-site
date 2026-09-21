@@ -11,6 +11,9 @@ topics:
 - AI
 tags:
 - AI
+aiSubtopics:
+- Agents
+- Evaluation
 thumbnail: https://i.ytimg.com/vi/mj7w5cv0epM/hqdefault.jpg
 fallbackThumbnail: images/youtube.png
 rank: 63

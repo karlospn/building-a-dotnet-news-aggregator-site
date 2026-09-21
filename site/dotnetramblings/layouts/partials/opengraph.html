@@ -12,6 +12,9 @@
 {{- if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
   {{- $title = printf "%s News, Articles and Videos" .Title }}
 {{- end }}
+{{- if and (eq .Data.Plural "topics") (eq .Title "AI") }}
+  {{- $title = "AI for .NET Developers — Articles, Videos and Tools" }}
+{{- end }}
 {{- $image := absURL $params.fallBackOgImage }}
 {{- with .Params.thumbnail }}
   {{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}

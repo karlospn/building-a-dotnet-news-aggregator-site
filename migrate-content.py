@@ -10,8 +10,8 @@ from common import (
     canonicalize_url,
     convert_rss_data_to_md,
     enrich_item,
-    is_recent_title_duplicate,
     parse_yml_files,
+    remove_duplicate_title_files,
 )
 from youtube import is_youtube_channel
 
@@ -116,35 +116,10 @@ def main():
             )
             path.write_text(convert_rss_data_to_md(item), encoding="utf-8")
             migrated += 1
-    removed = remove_duplicate_video_files(
+    removed = remove_duplicate_title_files(
         Path("site/dotnetramblings/content/videos")
     )
     print(f"Migrated {migrated} content files")
     print(f"Removed {removed} duplicate video files")
-
-
-def remove_duplicate_video_files(root):
-    records = []
-    for path in root.rglob("*.md"):
-        metadata, _ = load_markdown(path)
-        records.append((path, metadata))
-    records.sort(
-        key=lambda record: str(record[1].get("date", "")),
-        reverse=True,
-    )
-
-    known_titles = {}
-    removed = 0
-    for path, metadata in records:
-        if is_recent_title_duplicate(
-            metadata.get("title", ""),
-            metadata.get("date"),
-            known_titles,
-        ):
-            path.unlink()
-            removed += 1
-    return removed
-
-
 if __name__ == "__main__":
     main()

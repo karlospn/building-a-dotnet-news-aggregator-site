@@ -3,6 +3,8 @@
 {{- $title := "" }}
 {{- if .IsHome }}
   {{- $title = default .Site.Title $params.homeTitle }}
+{{- else if and (eq .Data.Plural "topics") (eq .Title "AI") }}
+  {{- $title = "AI for .NET Developers — Articles, Videos and Tools" }}
 {{- else if and (eq .Data.Plural "topics") (ne .Title "Topics") }}
   {{- $title = printf "%s News, Articles and Videos" .Title }}
 {{- else if and .Title (ne (trim (lower .Site.Title) "") (trim (lower .Title) "")) }}

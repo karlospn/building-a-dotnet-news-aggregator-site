@@ -102,6 +102,46 @@ class GeneratedContentTests(unittest.TestCase):
                     )
             seen.setdefault(key, []).append(published)
 
+    def test_ai_archive_items_have_subtopic_metadata(self):
+        archive_items = json.loads(
+            Path("site/dotnetramblings/static/archive.json").read_text(encoding="utf-8")
+        )
+        ai_items = [item for item in archive_items if "AI" in item["topics"]]
+        self.assertGreater(len(ai_items), 0)
+        for item in ai_items:
+            with self.subTest(title=item["title"]):
+                self.assertIn("aiSubtopics", item)
+                self.assertIsInstance(item["aiSubtopics"], list)
+
+    def test_ai_release_data_is_valid_and_bounded(self):
+        releases = json.loads(
+            Path("site/dotnetramblings/data/ai_releases.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertGreater(len(releases), 0)
+        product_counts = {}
+        identifiers = set()
+        for release in releases:
+            with self.subTest(release=release["id"]):
+                self.assertNotIn(release["id"], identifiers)
+                identifiers.add(release["id"])
+                self.assertRegex(release["sourceUrl"], r"^https://github\.com/")
+                self.assertIn(
+                    release["changeType"],
+                    {
+                        "sdk-release",
+                        "major-release",
+                        "breaking-change",
+                        "deprecation",
+                        "security",
+                    },
+                )
+                product_counts[release["product"]] = (
+                    product_counts.get(release["product"], 0) + 1
+                )
+        self.assertTrue(all(count <= 24 for count in product_counts.values()))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -55,8 +55,11 @@ jobs:
       run: | 
         git config --local user.email "action@github.com"  
         git config --local user.name "GitHub Action"  
-        git add .  
-        git diff --quiet && git diff --staged --quiet || git commit -m "Automated script execution"  
+        git add site/dotnetramblings/content/post site/dotnetramblings/content/feeds.md site/dotnetramblings/static/archive.json
+        if ! git diff --staged --quiet; then
+          git add site/dotnetramblings/data/feed_health.json
+          git commit -m "Automated script execution"
+        fi
       
     - name: Push changes
       run: git push origin HEAD:main
