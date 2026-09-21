@@ -9,24 +9,29 @@
   weight = -109  
 
 [[main]]
+  name = "AI Hub"
+  url = "topics/ai/"
+  weight = -108
+
+[[main]]
   name = "Weekly digest"
   url = "digest/"
-  weight = -108
+  weight = -107
 
 [[main]]
   name = "Feeds"
   url = "feeds/"
-  weight = -107
+  weight = -106
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -106
+  weight = -105
 
 [[main]]
   name = "Contribute"
   url = "contribute/"
-  weight = -105
+  weight = -104
 
 [[social]]
   name = "github"
