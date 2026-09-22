@@ -1,14 +1,29 @@
 [
   {
-    "id": "e310c05b3af5482f",
+    "id": "7732d27e12621133",
     "identityId": "dotnet",
     "author": ".NET",
-    "handle": ".NET",
-    "platform": "mastodon",
-    "publishedAt": "2026-09-22T17:10:06+00:00",
-    "excerpt": "📰 Creating a memory dump in C# Learn how to create a memory dump in C# to capture the state of your application for debugging purposes. https:// devblogs.microsoft.com/dotnet/ creating-a-memory-dump-in-csharp/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117315797400048396",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-22T18:00:01.730000+00:00",
+    "excerpt": "〰️ SAVE THE DATE: Tuesday, September 29 〰️ Microsoft Reactor series: Modernize faster with the GitHub Copilot modernization agent 〰️ From Tribal Knowledge to Production Code: Custom Skills for #GitHubCopilot Modernization. Join us LIVE: msft.it/63327abbsW #AgenticModernization…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw4slfof232l",
+    "externalUrl": "https://msft.it/63327abbsW",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "06bab3f5d0a97d82",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-22T17:30:05+00:00",
+    "excerpt": "EF internals are like IKEA instructions: confusing until someone explains them properly. That someone is this course. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw4qwmfd4l2j",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
     "topics": [
       ".NET"
     ]
@@ -116,20 +131,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "77921ea717a194dc",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-17T18:30:58+00:00",
-    "excerpt": "If EF has ever made you whisper \"bro... why?\" under your breath, this course is for you. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mvqbyuqtwc2u",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
     ]
   },
   {
