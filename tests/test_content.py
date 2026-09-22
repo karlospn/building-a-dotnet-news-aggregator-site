@@ -142,6 +142,32 @@ class GeneratedContentTests(unittest.TestCase):
                 )
         self.assertTrue(all(count <= 24 for count in product_counts.values()))
 
+    def test_community_pulse_data_is_valid_deduplicated_and_capped(self):
+        items = json.loads(
+            Path("site/dotnetramblings/data/community_pulse.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertGreater(len(items), 0)
+        identifiers = set()
+        external_urls = set()
+        daily_counts = {}
+        for item in items:
+            with self.subTest(item=item["id"]):
+                self.assertNotIn(item["id"], identifiers)
+                self.assertNotIn(item["externalUrl"], external_urls)
+                identifiers.add(item["id"])
+                external_urls.add(item["externalUrl"])
+                self.assertIn(item["platform"], {"bluesky", "mastodon"})
+                self.assertRegex(item["postUrl"], r"^https://")
+                self.assertRegex(item["externalUrl"], r"^https?://")
+                self.assertTrue(item["excerpt"])
+                self.assertTrue(item["topics"])
+                day = item["publishedAt"][:10]
+                key = (item["identityId"], day)
+                daily_counts[key] = daily_counts.get(key, 0) + 1
+        self.assertTrue(all(count <= 2 for count in daily_counts.values()))
+
 
 if __name__ == "__main__":
     unittest.main()

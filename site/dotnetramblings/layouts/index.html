@@ -12,6 +12,8 @@
         <a class="button" href="/digest/">Browse by week</a>
       </div>
 
+      {{ partial "community-pulse" . }}
+
       {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article") }}
       <p class="results-summary" aria-live="polite">
         Showing <span id="rendered-count">{{ math.Min 24 (len $articles) }}</span>

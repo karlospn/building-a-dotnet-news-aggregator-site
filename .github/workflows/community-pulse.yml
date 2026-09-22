@@ -1,0 +1,44 @@
+name: Refresh Community Pulse
+
+on:
+  schedule:
+    - cron: '40 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-updates
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect Community Pulse posts
+        run: python community_pulse.py
+
+      - name: Commit pulse data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add site/dotnetramblings/data/community_pulse.json
+          git diff --staged --quiet || git commit -m "Refresh Community Pulse"
+
+      - name: Push changes
+        run: git push origin HEAD:main

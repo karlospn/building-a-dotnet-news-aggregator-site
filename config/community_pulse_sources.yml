@@ -1,0 +1,116 @@
+retention_days: 7
+max_posts_per_identity_per_day: 2
+exclude_existing_article_links: true
+include_keywords:
+  - .net
+  - dotnet
+  - c#
+  - asp.net
+  - blazor
+  - azure
+  - visual studio
+  - github
+  - code
+  - coding
+  - software
+  - developer
+  - programming
+  - ef core
+  - entity framework
+  - nuget
+  - roslyn
+  - msbuild
+  - avalonia
+  - xunit
+  - testing
+  - ai
+  - agent
+  - llm
+  - mcp
+  - cloud
+  - devops
+  - database
+  - api
+  - sdk
+identities:
+  - id: dotnet
+    name: .NET
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: dot.net
+      - platform: mastodon
+        feed: https://dotnet.social/@dotnet.rss
+
+  - id: andrew-lock
+    name: Andrew Lock
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: andrewlock.bsky.social
+      - platform: mastodon
+        feed: https://hachyderm.io/@andrewlock.rss
+
+  - id: mark-downie
+    name: Mark Downie
+    default_topics: ['.NET', 'Visual Studio']
+    accounts:
+      - platform: bluesky
+        handle: poppastring.com
+      - platform: mastodon
+        feed: https://dotnet.social/@poppastring.rss
+
+  - id: shawn-wildermuth
+    name: Shawn Wildermuth
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: wildermuth.com
+      - platform: mastodon
+        feed: https://fosstodon.org/@shawnwildermuth.rss
+
+  - id: tanner-gooding
+    name: Tanner Gooding
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: tannergooding.bsky.social
+      - platform: mastodon
+        feed: https://dotnet.social/@tannergooding.rss
+
+  - id: avalonia
+    name: Avalonia UI
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: avaloniaui.net
+      - platform: mastodon
+        feed: https://dotnet.social/@avaloniaui.rss
+
+  - id: khalid-abuhakmeh
+    name: Khalid Abuhakmeh
+    default_topics: ['.NET']
+    accounts:
+      - platform: mastodon
+        feed: https://mastodon.social/@khalidabuhakmeh.rss
+
+  - id: brad-wilson
+    name: Brad Wilson
+    default_topics: ['.NET', 'Testing']
+    accounts:
+      - platform: mastodon
+        feed: https://mastodon.social/@bradwilson.rss
+
+  - id: scott-hanselman
+    name: Scott Hanselman
+    default_topics: ['.NET']
+    accounts:
+      - platform: bluesky
+        handle: scott.hanselman.com
+
+  - id: david-fowler
+    name: David Fowler
+    default_topics: ['.NET', 'Architecture']
+    accounts:
+      - platform: bluesky
+        handle: davidfowl.com

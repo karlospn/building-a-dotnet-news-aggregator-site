@@ -18,6 +18,8 @@ There is also a lot of interesting .NET content on YouTube, so the site contains
 
 Readers can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences stay in the browser and require no account. The complete site exposes a free RSS feed from the navigation bar.
 
+The collapsed **Community Pulse** on Home collects technical links from a small allowlist of trusted .NET accounts on Bluesky and Mastodon. Posts are deduplicated across platforms, capped at two per identity per day, and retained for seven days.
+
 The AI topic is a dedicated **AI for .NET Developers** hub. It includes practical subtopics, curated learning paths, and a release radar built from stable GitHub releases for selected .NET AI SDKs and frameworks. Release data is refreshed daily at 08:30 UTC.
 
 # **Contribute**

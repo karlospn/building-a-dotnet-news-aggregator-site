@@ -1,0 +1,194 @@
+[
+  {
+    "id": "07a72fee3586d25a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-21T23:00:01.962000+00:00",
+    "excerpt": "An Aspire-ified app gives your coding agent far more context and control. In this One Dev Question, Maddy Montaquila shows how one command starts every container, process, and debugger, and how the agent can stop and start individual resources in one place. 🎥 msft.it/63327abuRR",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw2suwgnw526",
+    "externalUrl": "https://msft.it/63327abuRR",
+    "topics": [
+      ".NET",
+      "Containers",
+      "AI"
+    ]
+  },
+  {
+    "id": "a63b5bd491e99cc0",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-21T19:00:02.261000+00:00",
+    "excerpt": "🤔 Still running #dotNET Framework? That doesn't mean you're behind. Legacy dependencies, compliance requirements, and massive codebases make modernization a lot more nuanced than a version upgrade. 🏗️ 🎧 msft.it/63320abuEu",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw2fhrxgzv2v",
+    "externalUrl": "https://msft.it/63320abuEu",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "e55198a1c84f95d6",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-18T16:30:13+00:00",
+    "excerpt": "Stories I like: Middleware vs Filter in ASP.NET Core: What’s the Difference? dev.to/omeiza_ahmed/...",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mvslp6et2c2e",
+    "externalUrl": "https://dev.to/omeiza_ahmed/middleware-vs-filter-in-aspnet-core-whats-the-difference-flp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "72dc2b897b7c9832",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-18T16:00:02.306000+00:00",
+    "excerpt": ".NET 10.0.12 ✅ .NET 9.0.20 ✅ .NET 8.0.31 Security fixes, runtime updates, msft.it/63326aZcZp Core + EF Core refreshes, and updated containers/installers. 🚀 📖 Read the blog: msft.it/63322aZcZw #dotNET #DevOps",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvsjz5wtqz2v",
+    "externalUrl": "https://msft.it/63326aZcZp",
+    "topics": [
+      ".NET",
+      "Containers",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "b540ae1fa8bfa787",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-18T12:00:01.049000+00:00",
+    "excerpt": "🤖➡️ Useful agents need more than chat. This #MSBuild session adds 📂 file access, ✅ human approvals, and 🧠 memory so agents can safely work with your data and take real actions. 🎥 Watch the replay: msft.it/63328aZiAp #AI #Agents #GenAI",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvs4lxu3lh25",
+    "externalUrl": "https://msft.it/63328aZiAp",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "3ba668c0bbd30de1",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-17T20:00:02.973000+00:00",
+    "excerpt": "🤖 Skills + 🖥️ Shell + ⚙️ CodeAct + 🚀 Background Agents That's the recipe for agents that move beyond chat and into action. Package expertise as Skills, execute tasks, reason through workflows, and run work autonomously. 🎥 Watch: msft.it/63322akVs0",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvqgxfzc562l",
+    "externalUrl": "https://msft.it/63322akVs0",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "77921ea717a194dc",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-17T18:30:58+00:00",
+    "excerpt": "If EF has ever made you whisper \"bro... why?\" under your breath, this course is for you. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mvqbyuqtwc2u",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "d84f286fd8a10116",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-17T16:00:01.424000+00:00",
+    "excerpt": "As traditional app logic moves into agents, One Dev Question has one answer: learn observability, evaluations, and evaluators. Agents are non-deterministic, so keeping them healthy takes a different kind of science... msft.it/63327akViR",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvpzk7mtyx24",
+    "externalUrl": "https://msft.it/63327akViR",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "f67a448f8a68b0b6",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-16T17:00:02.587000+00:00",
+    "excerpt": "How can constraints make software development assistants more efficient? #dotNETRocks and Don Demcsak discuss getting LLMs to build higher-quality software with fewer resources. 🎧 msft.it/63328aVU1C",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvnmgmied526",
+    "externalUrl": "https://msft.it/63328aVU1C",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "08f482090ec3d78e",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-16T12:00:01.318000+00:00",
+    "excerpt": "🤖 One AsHarnessAgent call unlocks the agentic loop. Add: 📈 get_stock_price 🌐 Web search 📝 Todo planning ⚙️ Plan + execute modes ☁️ Microsoft Foundry chat client Turn a vague watchlist prompt into a tracked workflow. ▶️ Watch the learning episode replay, msft.it/63328aVo3j",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvn3o55p3t2n",
+    "externalUrl": "https://msft.it/63328aVo3j",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "68b2dd118abdd1d6",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "avaloniaui.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-16T09:09:33.523709+00:00",
+    "excerpt": "A PDF Viewer just landed in Avalonia Pro. Render, search, fill forms, annotate, bookmark, redact and print. Works on Windows, macOS, Linux, iOS, Android and the browser, all from a single package. avaloniaui.net/pdf-viewer",
+    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mvms5d2iaq2q",
+    "externalUrl": "https://avaloniaui.net/pdf-viewer",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "1b70a8127e9827d9",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-15T15:43:21.974000+00:00",
+    "excerpt": "🎸 .NET 11 goes to 11. 🔥 Smarter JIT deabstraction, fewer allocations, fewer bounds checks, tighter loops, SIMD boosts, and hundreds of runtime/library optimizations. ⚡ Your code may get faster without changing a line. 📖 Read: msft.it/63320abvXk",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvkxolkfms2w",
+    "externalUrl": "https://msft.it/63320abvXk",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9f248bd2d59efc18",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-15T13:00:01.487000+00:00",
+    "excerpt": "🚀 Azure App Service news drop! ✅ Managed Instance is GA for app modernization 🤖 Markdown for Agents helps AI agents consume web content more effectively Less rewriting. More AI-readiness. ⚡ 🎥 Watch the standup: msft.it/63326apIy2",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mvkokj2rhv2s",
+    "externalUrl": "https://msft.it/63326apIy2",
+    "topics": [
+      ".NET",
+      "Azure",
+      "AI"
+    ]
+  }
+]
