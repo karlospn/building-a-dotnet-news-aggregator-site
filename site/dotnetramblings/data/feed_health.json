@@ -6,8 +6,8 @@
     "status": "healthy"
   },
   "andrewlock": {
-    "checkedAt": "2026-09-21T08:22:55.406681+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-22T13:47:22.754614+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-22T02:29:56.861757+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-22T13:47:27.718974+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -150,8 +150,8 @@
     "status": "healthy"
   },
   "goatreview": {
-    "checkedAt": "2026-09-21T08:22:58.798091+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-22T13:47:17.324910+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -336,8 +336,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-21T21:26:13.613303+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-09-22T13:47:12.507098+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
