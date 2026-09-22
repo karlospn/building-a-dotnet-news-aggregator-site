@@ -1,0 +1,61 @@
+{{ define "main" }}
+  {{- $items := site.Data.community_pulse | default slice }}
+  {{- $blueskyItems := where $items "platform" "bluesky" }}
+  {{- $mastodonItems := where $items "platform" "mastodon" }}
+  <div class="news-shell wrap">
+    <header class="directory-header community-header">
+      <p class="eyebrow">Trusted .NET voices</p>
+      <h1>Community Pulse</h1>
+      <p>Technical links, short insights, and useful discussions shared by selected .NET accounts during the last seven days.</p>
+    </header>
+
+    <div class="community-controls">
+      <label class="search-control">
+        <span class="sr-only">Search Community Pulse</span>
+        <input type="search" data-pulse-search placeholder="Search posts, authors, or topics">
+      </label>
+      <div class="community-platforms" role="group" aria-label="Social platform">
+        <button type="button" class="is-active" data-pulse-platform="all" aria-pressed="true">All</button>
+        {{ if $blueskyItems }}<button type="button" data-pulse-platform="bluesky" aria-pressed="false">Bluesky</button>{{ end }}
+        {{ if $mastodonItems }}<button type="button" data-pulse-platform="mastodon" aria-pressed="false">Mastodon</button>{{ end }}
+      </div>
+      <span data-pulse-count aria-live="polite">{{ len $items }} posts</span>
+    </div>
+
+    {{ if $items }}
+      {{ range slice "bluesky" "mastodon" }}
+        {{- $platform := . }}
+        {{- $platformItems := where $items "platform" $platform }}
+        {{- if $platformItems }}
+          <section class="pulse-group" data-pulse-group="{{ $platform }}" aria-labelledby="pulse-{{ $platform }}">
+            <div class="pulse-group__heading">
+              <h2 id="pulse-{{ $platform }}">{{ $platform | title }}</h2>
+              <span>{{ len $platformItems }} posts</span>
+            </div>
+            <div class="pulse-grid">
+              {{ range $platformItems }}
+                <article class="pulse-item" data-pulse-item data-pulse-platform="{{ .platform }}">
+                  <div class="pulse-item__meta">
+                    <strong>{{ .author }}</strong>
+                    <time datetime="{{ .publishedAt }}">{{ time.Format "Jan 2 · 15:04" .publishedAt }}</time>
+                  </div>
+                  <p>{{ .excerpt }}</p>
+                  <div class="pulse-item__topics">
+                    {{ range first 2 .topics }}<span>{{ . }}</span>{{ end }}
+                  </div>
+                  <div class="pulse-item__actions">
+                    <a href="{{ .externalUrl }}" rel="noopener">Open shared link →</a>
+                    <a href="{{ .postUrl }}" rel="noopener">View on {{ .platform | title }}</a>
+                  </div>
+                </article>
+              {{ end }}
+            </div>
+          </section>
+        {{- end }}
+      {{ end }}
+      <p class="empty-state" data-pulse-empty hidden>No community posts match these filters.</p>
+    {{ else }}
+      <p class="empty-state">No Community Pulse posts are available right now.</p>
+    {{ end }}
+  </div>
+{{ end }}

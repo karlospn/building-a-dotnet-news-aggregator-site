@@ -3,7 +3,7 @@
   {{- range .Site.AllPages }}
     {{- $isProxy := and .IsPage (in (slice "post" "videos") .Section) }}
     {{- $isPostIndex := and .IsSection (eq .Section "post") }}
-    {{- if and (not $isProxy) (not $isPostIndex) (not .Params.searchPage) }}
+    {{- if and (not $isProxy) (not $isPostIndex) (not .Params.searchPage) (not .Params.noindex) }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- if not .Lastmod.IsZero }}

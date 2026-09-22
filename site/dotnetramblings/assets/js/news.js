@@ -852,4 +852,47 @@
     });
     updateReleases();
   }
+
+  const pulseItems = Array.from(document.querySelectorAll("[data-pulse-item]"));
+  if (pulseItems.length) {
+    let pulsePlatform = "all";
+    let pulseQuery = "";
+    const updatePulse = function () {
+      let visible = 0;
+      pulseItems.forEach(function (item) {
+        const show =
+          (pulsePlatform === "all" || item.dataset.pulsePlatform === pulsePlatform)
+          && (!pulseQuery || item.textContent.toLowerCase().includes(pulseQuery));
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+      document.querySelectorAll("[data-pulse-group]").forEach(function (group) {
+        group.hidden = !Array.from(group.querySelectorAll("[data-pulse-item]"))
+          .some(function (item) { return !item.hidden; });
+      });
+      const count = document.querySelector("[data-pulse-count]");
+      if (count) count.textContent = `${visible} ${visible === 1 ? "post" : "posts"}`;
+      const empty = document.querySelector("[data-pulse-empty]");
+      if (empty) empty.hidden = visible !== 0;
+    };
+
+    const search = document.querySelector("[data-pulse-search]");
+    if (search) {
+      search.addEventListener("input", function () {
+        pulseQuery = search.value.trim().toLowerCase();
+        updatePulse();
+      });
+    }
+    document.querySelectorAll("[data-pulse-platform]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        pulsePlatform = button.dataset.pulsePlatform;
+        document.querySelectorAll("[data-pulse-platform]").forEach(function (candidate) {
+          const active = candidate === button;
+          candidate.classList.toggle("is-active", active);
+          candidate.setAttribute("aria-pressed", String(active));
+        });
+        updatePulse();
+      });
+    });
+  }
 })();

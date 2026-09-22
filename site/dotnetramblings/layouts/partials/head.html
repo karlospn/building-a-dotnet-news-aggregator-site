@@ -28,9 +28,9 @@
 {{- partialCached "favicon" . }}
 {{- $isProxy := and .IsPage (in (slice "post" "videos") .Section) }}
 {{- $isPostIndex := and .IsSection (eq .Section "post") }}
-{{- if or $isProxy $isPostIndex }}
+{{- if or $isProxy $isPostIndex .Params.noindex }}
 <meta name="robots" content="noindex, follow, noarchive">
-<link rel="canonical" href="{{ if $isProxy }}{{ .Params.link }}{{ else }}{{ site.BaseURL }}{{ end }}">
+<link rel="canonical" href="{{ if $isProxy }}{{ .Params.link }}{{ else if $isPostIndex }}{{ site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
 {{- else }}
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ .Permalink }}">

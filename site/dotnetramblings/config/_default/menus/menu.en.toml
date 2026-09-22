@@ -14,24 +14,29 @@
   weight = -108
 
 [[main]]
-  name = "Weekly digest"
-  url = "digest/"
+  name = "Community"
+  url = "community/"
   weight = -107
+
+[[main]]
+  name = "Weekly"
+  url = "digest/"
+  weight = -106
 
 [[main]]
   name = "Feeds"
   url = "feeds/"
-  weight = -106
+  weight = -105
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -105
+  weight = -104
 
 [[main]]
   name = "Contribute"
   url = "contribute/"
-  weight = -104
+  weight = -103
 
 [[social]]
   name = "github"
