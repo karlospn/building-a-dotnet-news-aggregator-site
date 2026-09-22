@@ -9,15 +9,10 @@
       <h1 class="sr-only" id="latest-heading">.NET news and videos</h1>
 
       {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article") }}
-      <div class="results-bar">
-        <p class="results-summary" aria-live="polite">
-          Showing <span id="rendered-count">{{ math.Min 24 (len $articles) }}</span>
-          of <span id="visible-count">{{ len $articles }}</span> <span id="result-label">articles</span>
-        </p>
-        {{ with site.Data.community_pulse }}
-          <a class="community-link" href="/community/">Community Pulse · {{ len . }} posts →</a>
-        {{ end }}
-      </div>
+      <p class="results-summary" aria-live="polite">
+        Showing <span id="rendered-count">{{ math.Min 24 (len $articles) }}</span>
+        of <span id="visible-count">{{ len $articles }}</span> <span id="result-label">articles</span>
+      </p>
 
       <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-default-type="article">
         {{ range first 24 $articles }}
