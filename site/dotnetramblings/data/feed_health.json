@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-09-20T12:21:22.815869+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-21T14:07:35.026224+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -30,14 +30,14 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-21T08:23:07.775062+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-21T21:26:14.449254+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-09-20T12:21:24.398553+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-21T14:07:37.925419+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-09-20T12:21:21.743876+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-21T14:07:33.716888+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -78,7 +78,7 @@
     "status": "healthy"
   },
   "code4it": {
-    "checkedAt": "2026-09-21T08:22:59.639374+00:00",
+    "checkedAt": "2026-09-21T21:26:07.413154+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-21T08:23:05.424239+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-22T02:29:56.861757+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -132,14 +132,14 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-09-21T08:22:57.535670+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-21T21:26:06.232432+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-09-21T08:22:51.048940+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-22T08:04:49.283062+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-09-20T12:21:14.106217+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-21T14:07:23.232362+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-09-20T12:21:11.838591+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-21T14:07:19.682198+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -252,7 +252,7 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-09-21T08:23:02.879949+00:00",
+    "checkedAt": "2026-09-22T02:29:54.546189+00:00",
     "itemCount": 1,
     "message": "",
     "status": "healthy"
@@ -270,14 +270,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-09-20T12:21:27.278062+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-21T14:07:42.439198+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-09-20T12:21:10.722451+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-21T14:07:18.460308+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -336,8 +336,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-21T08:23:07.036922+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-21T21:26:13.613303+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -378,8 +378,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-09-20T12:21:17.860309+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-21T14:07:27.914975+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   }
