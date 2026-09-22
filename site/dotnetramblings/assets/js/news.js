@@ -262,6 +262,7 @@
     const pageSize = Number(grid.dataset.pageSize) || cards.length;
     const contentScope = grid.dataset.contentScope || "";
     const topicScope = grid.dataset.topicScope || "";
+    const homeRelevance = grid.dataset.homeRelevance === "true";
     const pagination = document.querySelector("[data-client-pagination]");
     const weekSelect = document.querySelector("[data-week-select]");
     const typeSelect = document.querySelector("[data-type-select]");
@@ -370,6 +371,7 @@
       return (
         (!contentScope || item.contentType === contentScope) &&
         (!topicScope || topics.includes(topicScope)) &&
+        (!homeRelevance || !topics.includes("ai") || topics.includes(".net")) &&
         matchesType &&
         (activeTopic === "all" || topics.includes(activeTopic)) &&
         (activeAISubtopic === "all" || aiSubtopics.includes(activeAISubtopic)) &&
@@ -451,6 +453,11 @@
           (!topicScope || (item.topics || []).map(function (topic) {
             return String(topic).toLowerCase().replace(/\s+/g, "-");
           }).includes(topicScope)) &&
+          (
+            !homeRelevance
+            || !(item.topics || []).includes("AI")
+            || (item.topics || []).includes(".NET")
+          ) &&
           (
             activeAISubtopic === "all"
             || (item.aiSubtopics || []).map(function (value) {

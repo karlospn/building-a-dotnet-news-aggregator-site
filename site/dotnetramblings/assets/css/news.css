@@ -431,6 +431,39 @@ body {
   text-align: right;
 }
 
+.ai-hub-notice {
+  align-items: center;
+  background: var(--news-accent-soft);
+  border-left: 3px solid var(--news-accent);
+  border-radius: 0.35rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: -0.35rem 0 1rem;
+  padding: 0.7rem 0.85rem;
+}
+
+.ai-hub-notice > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+}
+
+.ai-hub-notice strong {
+  font-size: 0.82rem;
+}
+
+.ai-hub-notice span {
+  color: var(--news-muted);
+  font-size: 0.8rem;
+}
+
+.ai-hub-notice a {
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 .news-grid {
   display: grid;
   gap: 1.5rem;
@@ -1248,6 +1281,17 @@ span.topic-badge {
   .community-controls {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .ai-hub-notice {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ai-hub-notice a {
+    align-items: center;
+    display: flex;
+    min-height: 44px;
   }
 
   .community-controls > span {

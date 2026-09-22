@@ -4,6 +4,7 @@
 {{- $label := default "Filters" .label }}
 {{- $defaultType := default "all" .defaultType }}
 {{- $showAISubtopics := default false .showAISubtopics }}
+{{- $homeContext := default false .homeContext }}
 <details class="filter-disclosure" open>
   <summary>
     <span>{{ $label }}</span>
@@ -42,7 +43,7 @@
       <select data-topic-select>
         <option value="all">All topics</option>
         {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
-          <option value="{{ . | urlize }}">{{ . }}</option>
+          <option value="{{ . | urlize }}">{{ if and $homeContext (eq . "AI") }}.NET + AI{{ else }}{{ . }}{{ end }}</option>
         {{ end }}
       </select>
     </label>

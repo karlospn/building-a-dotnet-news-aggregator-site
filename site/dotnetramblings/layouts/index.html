@@ -3,19 +3,33 @@
   {{- $all := where site.RegularPages "Section" "in" $sections }}
   {{- $all = sort $all "Date" "desc" }}
   {{- $articles := where $all "Section" "post" }}
+  {{- $homeArticles := slice }}
+  {{- range $articles }}
+    {{- $topics := .Params.topics | default slice }}
+    {{- if or (not (in $topics "AI")) (in $topics ".NET") }}
+      {{- $homeArticles = $homeArticles | append . }}
+    {{- end }}
+  {{- end }}
 
   <div class="news-shell wrap">
     <section class="news-feed" aria-labelledby="latest-heading">
       <h1 class="sr-only" id="latest-heading">.NET news and videos</h1>
 
-      {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article") }}
+      {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article" "homeContext" true) }}
+      <aside class="ai-hub-notice">
+        <div>
+          <strong>Looking for AI news?</strong>
+          <span>Agents, RAG, MCP, SDK releases, and learning paths are collected in the dedicated AI Hub.</span>
+        </div>
+        <a href="/topics/ai/">Visit AI Hub →</a>
+      </aside>
       <p class="results-summary" aria-live="polite">
-        Showing <span id="rendered-count">{{ math.Min 24 (len $articles) }}</span>
-        of <span id="visible-count">{{ len $articles }}</span> <span id="result-label">articles</span>
+        Showing <span id="rendered-count">{{ math.Min 24 (len $homeArticles) }}</span>
+        of <span id="visible-count">{{ len $homeArticles }}</span> <span id="result-label">articles</span>
       </p>
 
-      <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-default-type="article">
-        {{ range first 24 $articles }}
+      <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-default-type="article" data-home-relevance="true">
+        {{ range first 24 $homeArticles }}
           {{ partial "news-card" (dict "page" .) }}
         {{ end }}
       </div>
