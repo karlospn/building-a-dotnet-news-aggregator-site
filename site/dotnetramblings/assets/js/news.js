@@ -216,6 +216,12 @@
       // Native details behavior remains available when storage is blocked.
     }
   });
+  document.querySelectorAll('.hub-actions a[href^="#"]').forEach(function (link) {
+    link.addEventListener("click", function () {
+      const target = document.querySelector(link.getAttribute("href"));
+      if (target instanceof HTMLDetailsElement) target.open = true;
+    });
+  });
   const syncFilterDisclosures = function () {
     filterDisclosures.forEach(function (disclosure) {
       disclosure.open = !mobileViewport.matches;

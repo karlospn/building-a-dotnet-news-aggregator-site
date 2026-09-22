@@ -12,13 +12,12 @@
       <p>{{ $description }}</p>
       {{ if $isAI }}
         <div class="hub-actions">
-          <a class="button" href="/digest/?topic=ai">This week in AI</a>
+          <a class="button" href="#ai-release-radar">.NET AI Release Radar ↓</a>
           <a href="#ai-learning-paths">Explore learning paths ↓</a>
         </div>
       {{ end }}
     </header>
     {{ if $isAI }}
-      {{ partial "ai-release-radar" . }}
       <details class="hub-section hub-section--content" data-hub-section="ai-archive">
         <summary>
           <span>AI Content Archive</span>
@@ -51,6 +50,7 @@
     {{ if $isAI }}
         </div>
       </details>
+      {{ partial "ai-release-radar" . }}
       <details class="hub-section hub-section--learning" id="ai-learning-paths" data-hub-section="learning-paths">
         <summary>
           <span>Learning paths</span>

@@ -1,6 +1,6 @@
 {{- $allReleases := site.Data.ai_releases | default slice }}
 {{- $releases := first 60 $allReleases }}
-<details class="hub-section hub-section--radar" data-hub-section="release-radar" open>
+<details class="hub-section hub-section--radar" id="ai-release-radar" data-hub-section="release-radar" open>
   <summary>
     <span>.NET AI Release Radar</span>
     <span>{{ len $allReleases }} releases</span>
