@@ -1,5 +1,35 @@
 [
   {
+    "id": "3475221a6509dc0b",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-23T17:00:02.257000+00:00",
+    "excerpt": "🤖🔀 The future of AI isn't one model... it's MANY. James & Frank explore HydraFusion, multi-model orchestration, model routing, and why the biggest model isn't always the best choice for every task. ⚡🧠 🎧 Listen now: msft.it/63320ab09k",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw77p2ghaj2v",
+    "externalUrl": "https://msft.it/63320ab09k",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "f973fdc8b16b6586",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-23T15:31:34+00:00",
+    "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw72qvipv42g",
+    "externalUrl": "https://www.codemag.com/Article/2610071/Building-Multi-Agent-Workflows-in-C",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "1e3ed08b21a15d85",
     "identityId": "dotnet",
     "author": ".NET",
@@ -161,20 +191,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "f67a448f8a68b0b6",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-16T17:00:02.587000+00:00",
-    "excerpt": "How can constraints make software development assistants more efficient? #dotNETRocks and Don Demcsak discuss getting LLMs to build higher-quality software with fewer resources. 🎧 msft.it/63328aVU1C",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvnmgmied526",
-    "externalUrl": "https://msft.it/63328aVU1C",
-    "topics": [
-      ".NET"
     ]
   }
 ]
