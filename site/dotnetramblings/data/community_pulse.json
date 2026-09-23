@@ -1,5 +1,20 @@
 [
   {
+    "id": "1e3ed08b21a15d85",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-23T12:00:01.935000+00:00",
+    "excerpt": "🎙️ Calling all .NET devs! Built something awesome? Solved a gnarly problem? Exploring .NET 11, AI, cloud, mobile, gaming, or OSS? The .NET Conf 2026 Community Days Call for Presenters is OPEN! Read more: msft.it/63327ab0MF",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw6owlt7ld2e",
+    "externalUrl": "https://msft.it/63327ab0MF",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "465103bebd0afa9f",
     "identityId": "dotnet",
     "author": ".NET",
@@ -158,35 +173,6 @@
     "excerpt": "How can constraints make software development assistants more efficient? #dotNETRocks and Don Demcsak discuss getting LLMs to build higher-quality software with fewer resources. 🎧 msft.it/63328aVU1C",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mvnmgmied526",
     "externalUrl": "https://msft.it/63328aVU1C",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "08f482090ec3d78e",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-16T12:00:01.318000+00:00",
-    "excerpt": "🤖 One AsHarnessAgent call unlocks the agentic loop. Add: 📈 get_stock_price 🌐 Web search 📝 Todo planning ⚙️ Plan + execute modes ☁️ Microsoft Foundry chat client Turn a vague watchlist prompt into a tracked workflow. ▶️ Watch the learning episode replay, msft.it/63328aVo3j",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvn3o55p3t2n",
-    "externalUrl": "https://msft.it/63328aVo3j",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "68b2dd118abdd1d6",
-    "identityId": "avalonia",
-    "author": "Avalonia UI",
-    "handle": "avaloniaui.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-16T09:09:33.523709+00:00",
-    "excerpt": "A PDF Viewer just landed in Avalonia Pro. Render, search, fill forms, annotate, bookmark, redact and print. Works on Windows, macOS, Linux, iOS, Android and the browser, all from a single package. avaloniaui.net/pdf-viewer",
-    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mvms5d2iaq2q",
-    "externalUrl": "https://avaloniaui.net/pdf-viewer",
     "topics": [
       ".NET"
     ]
