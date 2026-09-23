@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:393933756",
+    "product": "Anthropic C# SDK",
+    "version": "12.50.0",
+    "tagName": "Anthropic-v12.50.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-22T16:32:16+00:00",
+    "title": "Anthropic C# SDK 12.50.0",
+    "summary": "api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) (f9c7c55) api: share one evaluatedpermission enum across Managed Agents events (783d859) tools: AddTools takes effect straight away (#250) (ec16fde) tools: leave reply-only params off…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.50.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "microsoft/agent-framework:391683629",
     "product": "Microsoft Agent Framework for .NET",
     "version": "1.22.0",
@@ -1263,25 +1282,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:343004749",
-    "product": "Anthropic C# SDK",
-    "version": "12.30.0",
-    "tagName": "Anthropic-v12.30.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-06-22T15:35:08+00:00",
-    "title": "Anthropic C# SDK 12.30.0",
-    "summary": "api: add support for new codeexecution20260120 tool (7943727) helpers: single source for x-stainless-helper + tag the refusal-fallback handler (#56) (d25bd32) client: bad model definitions (050cd3c) compilation errors (#55) (ecd75dd)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.30.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
