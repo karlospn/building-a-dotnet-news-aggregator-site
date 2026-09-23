@@ -6,8 +6,8 @@
     "status": "healthy"
   },
   "andrewlock": {
-    "checkedAt": "2026-09-22T13:47:22.754614+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T23:21:29.460163+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-23T08:07:29.771110+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T23:21:38.051595+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -150,8 +150,8 @@
     "status": "healthy"
   },
   "goatreview": {
-    "checkedAt": "2026-09-22T13:47:17.324910+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T23:21:23.200172+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-09-23T02:30:02.587094+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T23:21:19.408773+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -336,8 +336,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-23T18:44:47.011228+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-23T23:21:17.191384+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
