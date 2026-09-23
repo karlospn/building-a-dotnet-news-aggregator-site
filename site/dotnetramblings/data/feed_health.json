@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-21T08:23:10.002504+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T02:30:24.328354+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -252,8 +252,8 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-09-22T02:29:54.546189+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T02:29:58.467791+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -264,10 +264,10 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-09-22T23:23:13.229779+00:00",
-    "itemCount": 0,
-    "message": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>",
-    "status": "error"
+    "checkedAt": "2026-09-23T02:30:02.587094+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
   },
   "microsoft-developer": {
     "checkedAt": "2026-09-22T12:36:24.242033+00:00",
@@ -336,8 +336,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-22T23:23:10.754814+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-23T02:29:59.869635+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
