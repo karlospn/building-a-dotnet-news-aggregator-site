@@ -1,5 +1,20 @@
 [
   {
+    "id": "465103bebd0afa9f",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-22T22:00:01.673000+00:00",
+    "excerpt": "In this episode, we listen in on a near‑disastrous data loss when local recordings died seven minutes in, forcing them to rely on Zencastr's cloud-recovery button and a hopeful rescue email to underscore lessons about testing restores and trusting backups. Check it out:…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw57ykfcee2e",
+    "externalUrl": "https://msft.it/63321abbtB",
+    "topics": [
+      ".NET",
+      "Testing"
+    ]
+  },
+  {
     "id": "7732d27e12621133",
     "identityId": "dotnet",
     "author": ".NET",
@@ -26,21 +41,6 @@
     "externalUrl": "https://shawnl.ink/ps-efinternals",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "7a9029b3beaf675a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-22T10:00:01.446000+00:00",
-    "excerpt": "〰️ SAVE THE DATE, October 1st at 9AM PT 〰️ Drop in on this beginner-friendly livestream and learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. Set your reminder: msft.it/63325abw0c",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw3xr3lsgj26",
-    "externalUrl": "https://msft.it/63325abw0c",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   },
   {
