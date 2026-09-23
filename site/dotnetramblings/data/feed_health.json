@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-09-21T14:07:35.026224+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T12:44:47.357980+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-09-22T12:36:21.364909+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-09-23T12:44:45.632921+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-09-20T12:21:26.175029+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T12:44:48.982657+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-09-21T14:07:33.716888+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T12:44:35.795494+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -168,14 +168,14 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-09-20T12:21:20.078440+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-23T12:44:50.051759+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-09-21T14:07:23.232362+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-09-23T12:44:46.209419+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-09-20T12:21:12.948171+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T12:44:44.421369+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-09-20T12:21:28.373690+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T12:44:46.721308+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-09-22T12:36:09.594822+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-23T12:44:42.023911+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -276,8 +276,8 @@
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-09-22T12:36:08.594966+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-09-23T12:44:42.706048+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
@@ -306,8 +306,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-09-22T12:36:13.176331+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T12:44:48.385011+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -348,14 +348,14 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-09-20T12:21:17.301498+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T12:44:53.517419+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-09-22T12:36:21.919557+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-23T12:44:44.983962+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -372,14 +372,14 @@
     "status": "healthy"
   },
   "techworld-with-nana": {
-    "checkedAt": "2026-09-20T12:21:15.180468+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-23T12:44:50.693623+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-09-22T12:36:15.143831+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-09-23T12:44:43.759583+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   }

@@ -1,8 +1,8 @@
 ---
 title: If you had a superpower to make a single change to JavaScript – what would it be?
-date: '2026-09-17T10:37:46Z'
-link: https://www.youtube.com/watch?v=Dv9zv5JZxpg
-canonicalUrl: https://www.youtube.com/watch?v=Dv9zv5JZxpg
+date: '2026-09-22T13:19:03Z'
+link: https://www.youtube.com/watch?v=RHesVP6Seuo
+canonicalUrl: https://www.youtube.com/watch?v=RHesVP6Seuo
 source: Jetbrains TV
 sourceId: jetbrains-tv
 sourceUrl: https://www.youtube.com/@JetBrainsTV
@@ -11,15 +11,16 @@ topics:
 - General
 tags:
 - General
-thumbnail: https://i.ytimg.com/vi/Dv9zv5JZxpg/hqdefault.jpg
+thumbnail: https://i.ytimg.com/vi/RHesVP6Seuo/hqdefault.jpg
 fallbackThumbnail: images/youtube.png
+duration: '1:59'
 rank: 63
 featured: false
 whyItMatters: Worth a watch for developers following General.
 showShare: false
 showReadTime: false
 ---
-What one change what would Eemeli Aro (Mozilla) make to JavaScript, and what's his take on types coming to the language?
+If he could change just one thing about JavaScript, anything, what would Justin Ridgewell pick? Find out in this exclusive ...
 
 - Worth a watch for developers following General.
-- Link to video: https://www.youtube.com/watch?v=Dv9zv5JZxpg
+- Link to video: https://www.youtube.com/watch?v=RHesVP6Seuo
