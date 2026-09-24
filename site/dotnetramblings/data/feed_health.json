@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-24T02:19:16.419690+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T23:41:58.704061+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -78,10 +78,10 @@
     "status": "healthy"
   },
   "code4it": {
-    "checkedAt": "2026-09-24T18:45:48.692529+00:00",
+    "checkedAt": "2026-09-24T23:41:42.998506+00:00",
     "itemCount": 0,
-    "message": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
-    "status": "error"
+    "message": "",
+    "status": "healthy"
   },
   "codeopinion": {
     "checkedAt": "2026-09-24T18:45:33.044825+00:00",
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-09-21T08:23:09.856371+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T23:41:44.351744+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-24T18:45:20.611238+00:00",
-    "itemCount": 7,
+    "checkedAt": "2026-09-24T23:41:31.314368+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
