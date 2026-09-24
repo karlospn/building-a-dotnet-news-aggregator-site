@@ -1,5 +1,19 @@
 [
   {
+    "id": "53de9457a411a4ee",
+    "identityId": "reddit:/u/KallDrexx",
+    "author": "/u/KallDrexx",
+    "handle": "/u/KallDrexx",
+    "platform": "reddit",
+    "publishedAt": "2026-09-24T13:56:02+00:00",
+    "excerpt": "Polly license change means I can't use Microsoft Resilience extensions?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wp2bkh/polly_license_change_means_i_cant_use_microsoft/",
+    "externalUrl": "https://www.nuget.org/packages/Microsoft.Extensions.Http.Resilience",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "8240816dc3ab6bb7",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",

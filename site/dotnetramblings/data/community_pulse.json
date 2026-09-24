@@ -1,5 +1,21 @@
 [
   {
+    "id": "e67854a0371dbcf6",
+    "identityId": "brad-wilson",
+    "author": "Brad Wilson",
+    "handle": "Brad Wilson",
+    "platform": "mastodon",
+    "publishedAt": "2026-09-24T16:08:59+00:00",
+    "excerpt": "https:// no-sloptober.com/ \"This October we challenge you to abstain from LLM based tools entirely. Think of this as a fast for your mind! This is not a judgement of others, but a personal challenge to you.\"",
+    "postUrl": "https://mastodon.social/@bradwilson/117326881741468513",
+    "externalUrl": "https://no-sloptober.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Testing"
+    ]
+  },
+  {
     "id": "8881121a35d2d791",
     "identityId": "dotnet",
     "author": ".NET",
@@ -209,21 +225,6 @@
     "excerpt": "🤖 Skills + 🖥️ Shell + ⚙️ CodeAct + 🚀 Background Agents That's the recipe for agents that move beyond chat and into action. Package expertise as Skills, execute tasks, reason through workflows, and run work autonomously. 🎥 Watch: msft.it/63322akVs0",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mvqgxfzc562l",
     "externalUrl": "https://msft.it/63322akVs0",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "d84f286fd8a10116",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-17T16:00:01.424000+00:00",
-    "excerpt": "As traditional app logic moves into agents, One Dev Question has one answer: learn observability, evaluations, and evaluators. Agents are non-deterministic, so keeping them healthy takes a different kind of science... msft.it/63327akViR",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvpzk7mtyx24",
-    "externalUrl": "https://msft.it/63327akViR",
     "topics": [
       ".NET",
       "AI"
