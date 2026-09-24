@@ -66,14 +66,29 @@
       </div>
     </section>
   {{ end }}
-  <section class="source-community" aria-labelledby="discussion-sources-heading">
-    <h2 id="discussion-sources-heading">Community Discussions</h2>
-    <p>Separate from trusted accounts: a small pilot of linked posts from <a href="https://www.reddit.com/r/dotnet/new/">r/dotnet</a>. Links already in the news or Community Pulse are excluded.</p>
-    {{ range site.Data.community_source_health }}
-      {{ if eq .platform "reddit" }}
-        <p>{{ if eq .status "error" }}Reddit source needs attention; showing retained posts.{{ else }}{{ .published }} linked discussions this week.{{ end }}</p>
-      {{ end }}
-    {{ end }}
+  {{- $redditHealth := false }}
+  {{- range site.Data.community_source_health }}
+    {{- if eq .platform "reddit" }}{{ $redditHealth = . }}{{ end }}
+  {{- end }}
+  <section class="source-community" aria-label="Reddit community source">
+    <div class="feed-container">
+      <article class="feed-card">
+        <div class="feed-card__top">
+          <span class="content-badge">Community source</span>
+          {{ with $redditHealth }}
+            <span class="health health--{{ if eq .status "ok" }}healthy{{ else }}error{{ end }}">{{ if eq .status "ok" }}Healthy{{ else }}Needs attention{{ end }}</span>
+          {{ end }}
+        </div>
+        <h2>r/dotnet · Reddit</h2>
+        <p>Developer-shared .NET links and discussions.</p>
+        <p class="feed-stats">{{ len (site.Data.community_discussions | default slice) }} linked discussions this week{{ with $redditHealth }}{{ if eq .status "error" }} · Last refresh failed{{ end }}{{ end }}</p>
+        <div class="feed-card__actions">
+          <a href="https://www.reddit.com/r/dotnet/new/" rel="noopener">Visit r/dotnet →</a>
+          <a href="/community/">View posts in Community Pulse</a>
+        </div>
+      </article>
+    </div>
+    <p><strong>How Community Pulse is curated:</strong> Reddit links already in the news or shared by selected accounts are excluded. Only recent, relevant external links appear; Reddit authors are not selected Community Pulse accounts.</p>
   </section>
 </div>
 {{ end }}
