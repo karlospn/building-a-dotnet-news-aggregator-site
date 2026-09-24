@@ -2754,24 +2754,5 @@
     "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.7",
     "repository": "awaescher/OllamaSharp",
     "official": false
-  },
-  {
-    "id": "openai/openai-dotnet:249528397",
-    "product": "OpenAI .NET SDK",
-    "version": "2.5.0",
-    "tagName": "OpenAI_2.5.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-09-24T01:42:47+00:00",
-    "title": "OpenAI .NET SDK 2.5.0",
-    "summary": "See the official release notes for details.",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "OpenAI",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.5.0",
-    "repository": "openai/openai-dotnet",
-    "official": true
   }
 ]
