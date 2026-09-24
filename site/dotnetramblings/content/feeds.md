@@ -357,6 +357,15 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: mark-seemann
+  feed: https://blog.ploeh.dk/rss.xml
+  title: Mark Seemann's blog
+  website: https://blog.ploeh.dk/
+  description: ''
+  author: ''
+  source: RSS feed
+  topics:
+  - General
 - id: meziantou
   feed: https://www.meziantou.net/categories/discoverdotnet.rss
   title: Meziantou's blog
@@ -502,6 +511,15 @@ feeds:
   source: YouTube channel
   topics:
   - General
+- id: west-wind-web-log
+  feed: https://feeds.feedburner.com/RickStrahl
+  title: Rick Strahl's West Wind Web Log
+  website: https://weblog.west-wind.com/
+  description: ''
+  author: ''
+  source: RSS feed
+  topics:
+  - General
 - id: scott-hanselman
   feed: https://www.youtube.com/@shanselman
   title: Scott Hanselman Youtube Channel
@@ -585,4 +603,13 @@ feeds:
   source: RSS feed
   topics:
   - General
+- id: visual-studio-blog
+  feed: https://devblogs.microsoft.com/visualstudio/feed/
+  title: Visual Studio Blog
+  website: https://devblogs.microsoft.com/visualstudio/
+  description: ''
+  author: ''
+  source: RSS feed
+  topics:
+  - Visual Studio
 ---

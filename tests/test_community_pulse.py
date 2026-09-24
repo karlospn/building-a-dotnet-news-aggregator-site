@@ -1,14 +1,20 @@
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from feedparser import FeedParserDict
 
 from community_pulse import (
     collect,
+    collect_discussions,
     deduplicate_and_cap,
+    fetch_mastodon,
+    fetch_reddit,
     parse_bluesky,
     parse_mastodon,
+    parse_reddit,
 )
 
 
@@ -20,6 +26,15 @@ IDENTITY = {
 
 
 class CommunityPulseTests(unittest.TestCase):
+    @patch("community_pulse.feedparser.parse", return_value=FeedParserDict({
+        "bozo": False, "entries": [], "status": 502, "feed": {},
+    }))
+    def test_http_failure_is_not_reported_as_reachable(self, _parse):
+        with self.assertRaisesRegex(ValueError, "HTTP 502"):
+            fetch_mastodon("https://social.example/@developer.rss")
+        with self.assertRaisesRegex(ValueError, "HTTP 502"):
+            fetch_reddit()
+
     def test_bluesky_ignores_reposts_and_prefers_real_article_link(self):
         payload = {
             "feed": [
@@ -100,6 +115,84 @@ class CommunityPulseTests(unittest.TestCase):
         ]
         result = deduplicate_and_cap(items, max_per_day=2)
         self.assertEqual([item["id"] for item in result], ["new", "second"])
+        self.assertEqual(result[0]["alsoOn"], [{
+            "platform": "mastodon",
+            "postUrl": "https://social.example/duplicate",
+        }])
+
+    def test_reddit_only_accepts_external_links(self):
+        parsed = FeedParserDict({
+            "entries": [
+                {
+                    "link": "https://www.reddit.com/r/dotnet/comments/abc/post/",
+                    "published": "2026-09-22T10:00:00Z",
+                    "author": "/u/developer",
+                    "title": "A .NET performance article",
+                    "summary": (
+                        '<a href="https://www.reddit.com/r/dotnet/">Community</a>'
+                        '<a href="https://example.com/dotnet">Read the article</a>'
+                    ),
+                },
+                {
+                    "link": "https://www.reddit.com/r/dotnet/comments/def/question/",
+                    "published": "2026-09-22T11:00:00Z",
+                    "title": "Question about .NET",
+                    "summary": '<a href="https://www.reddit.com/r/dotnet/">Community</a>',
+                },
+            ],
+        })
+        items = parse_reddit(parsed)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["externalUrl"], "https://example.com/dotnet")
+        self.assertEqual(items[0]["platform"], "reddit")
+
+    @patch("community_pulse._archive_links", return_value={"https://example.com/archived"})
+    def test_discussions_exclude_pulse_and_archive_links(self, _archive):
+        now = datetime(2026, 9, 24, tzinfo=timezone.utc)
+        entries = []
+        for key in ("shared", "archived", "fresh", "old"):
+            entries.append({
+                "link": f"https://www.reddit.com/r/dotnet/comments/{key}/post/",
+                "published": "2026-09-10T10:00:00Z" if key == "old" else "2026-09-23T10:00:00Z",
+                "title": f".NET {key} discussion",
+                "summary": f'<a href="https://example.com/{key}">Link</a>',
+            })
+        with TemporaryDirectory() as directory:
+            result = collect_discussions(
+                [self.item("shared", "bluesky", "2026-09-23T09:00:00Z",
+                           "https://example.com/shared", ".NET shared discussion")],
+                now=now,
+                reddit_fetcher=lambda: FeedParserDict({"entries": entries}),
+                existing_path=Path(directory) / "discussions.json",
+            )
+        self.assertEqual([item["externalUrl"] for item in result], ["https://example.com/fresh"])
+
+    @patch("community_pulse._archive_links", return_value=set())
+    @patch("community_pulse._existing_items", return_value=[])
+    def test_collection_reports_platform_without_unique_posts(self, _existing, _archive):
+        config = {
+            "include_keywords": [".net"],
+            "identities": [{
+                **IDENTITY,
+                "accounts": [{"platform": "mastodon", "feed": "https://social.example/feed"}],
+            }],
+        }
+        parsed = FeedParserDict({
+            "feed": {"title": "Developer"},
+            "entries": [{
+                "link": "https://social.example/@dev/1",
+                "published": "2026-09-23T10:00:00Z",
+                "summary": '.NET article <a href="https://example.com/story">link</a>',
+            }],
+        })
+        health = []
+        items = collect(
+            config, now=datetime(2026, 9, 24, tzinfo=timezone.utc),
+            mastodon_fetcher=lambda _: parsed, health=health,
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(health[0]["candidates"], 1)
+        self.assertEqual(health[0]["published"], 1)
 
     @patch("community_pulse._archive_links", return_value=set())
     @patch("community_pulse._existing_items", return_value=[])

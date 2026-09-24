@@ -879,10 +879,6 @@
         item.hidden = !show;
         if (show) visible += 1;
       });
-      document.querySelectorAll("[data-pulse-group]").forEach(function (group) {
-        group.hidden = !Array.from(group.querySelectorAll("[data-pulse-item]"))
-          .some(function (item) { return !item.hidden; });
-      });
       const count = document.querySelector("[data-pulse-count]");
       if (count) count.textContent = `${visible} ${visible === 1 ? "post" : "posts"}`;
       const empty = document.querySelector("[data-pulse-empty]");

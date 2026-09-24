@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8240816dc3ab6bb7",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-09-23T21:05:33+00:00",
+    "excerpt": "Implementing a Jev-compatible decision API in .NET, with image input",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1woi8pq/implementing_a_jevcompatible_decision_api_in_net/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/models/jev.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "8b01f48235c096c4",
+    "identityId": "reddit:/u/swdevtest",
+    "author": "/u/swdevtest",
+    "handle": "/u/swdevtest",
+    "platform": "reddit",
+    "publishedAt": "2026-09-23T13:36:04+00:00",
+    "excerpt": "Building a Faster C# Driver for ScyllaDB…on our Self-Baked C#-Rust FFI Framework",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wo67qc/building_a_faster_c_driver_for_scylladbon_our/",
+    "externalUrl": "https://www.scylladb.com/2026/09/22/building-a-faster-c-sharp-driver",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "ed471d47f7956d37",
+    "identityId": "reddit:/u/No_Editor9595",
+    "author": "/u/No_Editor9595",
+    "handle": "/u/No_Editor9595",
+    "platform": "reddit",
+    "publishedAt": "2026-09-23T13:34:48+00:00",
+    "excerpt": "NativeCollections — pure C# collections on unmanaged memory, Span-first, GC-free",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wo66mo/nativecollections_pure_c_collections_on_unmanaged/",
+    "externalUrl": "https://www.nuget.org/packages/NativeCollections",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "85fe6ba98da89f48",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-09-22T05:43:07+00:00",
+    "excerpt": "A .NET local AI agent bought A4 paper for me on Amazon",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wn0w1o/a_net_local_ai_agent_bought_a4_paper_for_me_on/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET",
+      "AWS",
+      "AI"
+    ]
+  }
+]

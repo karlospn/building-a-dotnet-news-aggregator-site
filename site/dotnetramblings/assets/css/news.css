@@ -67,27 +67,6 @@
   font-weight: 700;
 }
 
-.pulse-group {
-  margin: 2rem 0;
-}
-
-.pulse-group__heading {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.75rem;
-}
-
-.pulse-group__heading h2 {
-  font-size: 1.15rem;
-  margin: 0;
-}
-
-.pulse-group__heading span {
-  color: var(--news-muted);
-  font-size: 0.75rem;
-}
-
 .density-toggle button {
   align-self: stretch;
   background: transparent;
@@ -263,7 +242,21 @@ body {
   font-size: 0.78rem;
 }
 
-.pulse-item__meta span {
+.pulse-item__avatar {
+  align-items: center;
+  background: var(--news-accent-soft);
+  border-radius: 50%;
+  color: var(--news-accent);
+  display: inline-flex;
+  flex: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  height: 1.8rem;
+  justify-content: center;
+  width: 1.8rem;
+}
+
+.pulse-item__meta .pulse-item__platform {
   background: var(--news-accent-soft);
   border-radius: 999px;
   color: var(--news-accent);
@@ -652,6 +645,14 @@ span.topic-badge {
   font-size: 0.74rem;
   list-style: none;
   padding: 0.35rem 0.5rem;
+}
+
+.card-actions > button,
+.share-control > summary {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1;
 }
 
 .share-control summary::-webkit-details-marker {
@@ -1095,6 +1096,22 @@ span.topic-badge {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.source-community {
+  border-top: 1px solid var(--news-border);
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.source-community > p,
+.community-notice {
+  color: var(--news-muted);
+}
+
+.source-community .feed-card__actions {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .feed-card {
   background: var(--post-bg);
   border: 1px solid var(--news-border);
@@ -1355,13 +1372,15 @@ span.topic-badge {
   }
 
   .news-card__footer {
-    align-items: stretch;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .story-link {
     align-items: center;
     display: flex;
+    flex: 1 1 auto;
     min-height: 44px;
   }
 

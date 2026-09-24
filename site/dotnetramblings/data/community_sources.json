@@ -1,0 +1,126 @@
+[
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/dot.net"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://dotnet.social/@dotnet"
+      }
+    ]
+  },
+  {
+    "id": "andrew-lock",
+    "name": "Andrew Lock",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/andrewlock.bsky.social"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://hachyderm.io/@andrewlock"
+      }
+    ]
+  },
+  {
+    "id": "mark-downie",
+    "name": "Mark Downie",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/poppastring.com"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://dotnet.social/@poppastring"
+      }
+    ]
+  },
+  {
+    "id": "shawn-wildermuth",
+    "name": "Shawn Wildermuth",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/wildermuth.com"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://fosstodon.org/@shawnwildermuth"
+      }
+    ]
+  },
+  {
+    "id": "tanner-gooding",
+    "name": "Tanner Gooding",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/tannergooding.bsky.social"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://dotnet.social/@tannergooding"
+      }
+    ]
+  },
+  {
+    "id": "avalonia",
+    "name": "Avalonia UI",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/avaloniaui.net"
+      },
+      {
+        "platform": "mastodon",
+        "url": "https://dotnet.social/@avaloniaui"
+      }
+    ]
+  },
+  {
+    "id": "khalid-abuhakmeh",
+    "name": "Khalid Abuhakmeh",
+    "accounts": [
+      {
+        "platform": "mastodon",
+        "url": "https://mastodon.social/@khalidabuhakmeh"
+      }
+    ]
+  },
+  {
+    "id": "brad-wilson",
+    "name": "Brad Wilson",
+    "accounts": [
+      {
+        "platform": "mastodon",
+        "url": "https://mastodon.social/@bradwilson"
+      }
+    ]
+  },
+  {
+    "id": "scott-hanselman",
+    "name": "Scott Hanselman",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/scott.hanselman.com"
+      }
+    ]
+  },
+  {
+    "id": "david-fowler",
+    "name": "David Fowler",
+    "accounts": [
+      {
+        "platform": "bluesky",
+        "url": "https://bsky.app/profile/davidfowl.com"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "identityId": "dotnet",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 30,
+    "published": 11
+  },
+  {
+    "identityId": "dotnet",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 20,
+    "published": 0
+  },
+  {
+    "identityId": "andrew-lock",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 12,
+    "published": 0
+  },
+  {
+    "identityId": "andrew-lock",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 20,
+    "published": 0
+  },
+  {
+    "identityId": "mark-downie",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 5,
+    "published": 0
+  },
+  {
+    "identityId": "mark-downie",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 19,
+    "published": 0
+  },
+  {
+    "identityId": "shawn-wildermuth",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 13,
+    "published": 3
+  },
+  {
+    "identityId": "shawn-wildermuth",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 16,
+    "published": 3
+  },
+  {
+    "identityId": "tanner-gooding",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 5,
+    "published": 0
+  },
+  {
+    "identityId": "tanner-gooding",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 9,
+    "published": 0
+  },
+  {
+    "identityId": "avalonia",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 22,
+    "published": 0
+  },
+  {
+    "identityId": "avalonia",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 18,
+    "published": 0
+  },
+  {
+    "identityId": "khalid-abuhakmeh",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 2,
+    "published": 0
+  },
+  {
+    "identityId": "brad-wilson",
+    "platform": "mastodon",
+    "status": "ok",
+    "candidates": 2,
+    "published": 0
+  },
+  {
+    "identityId": "scott-hanselman",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 11,
+    "published": 0
+  },
+  {
+    "identityId": "david-fowler",
+    "platform": "bluesky",
+    "status": "ok",
+    "candidates": 2,
+    "published": 0
+  },
+  {
+    "identityId": "reddit-dotnet",
+    "platform": "reddit",
+    "status": "ok",
+    "published": 4
+  }
+]

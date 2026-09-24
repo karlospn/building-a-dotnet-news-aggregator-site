@@ -17,8 +17,12 @@ from common import canonicalize_url, classify_topics, sanitize_html
 
 CONFIG_PATH = Path("config/community_pulse_sources.yml")
 OUTPUT_PATH = Path("site/dotnetramblings/data/community_pulse.json")
+DISCUSSIONS_PATH = Path("site/dotnetramblings/data/community_discussions.json")
+SOURCES_PATH = Path("site/dotnetramblings/data/community_sources.json")
+HEALTH_PATH = Path("site/dotnetramblings/data/community_source_health.json")
 ARCHIVE_PATH = Path("site/dotnetramblings/static/archive.json")
 BLUESKY_API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
+REDDIT_FEED = "https://www.reddit.com/r/dotnet/new/.rss"
 SOCIAL_HOSTS = {
     "bsky.app",
     "public.api.bsky.app",
@@ -26,6 +30,8 @@ SOCIAL_HOSTS = {
     "hachyderm.io",
     "mastodon.social",
     "fosstodon.org",
+    "reddit.com",
+    "www.reddit.com",
 }
 
 
@@ -52,9 +58,56 @@ def fetch_mastodon(feed_url):
         feed_url,
         request_headers={"User-Agent": "DotNetRamblings/1.0"},
     )
+    if parsed.get("status", 200) >= 400:
+        raise ValueError(f"HTTP {parsed.status}")
     if parsed.bozo and not parsed.entries:
         raise ValueError(str(parsed.bozo_exception))
+    if not parsed.entries and not parsed.feed.get("title"):
+        raise ValueError("Mastodon feed returned no RSS entries or channel metadata")
     return parsed
+
+
+def fetch_reddit(feed_url=REDDIT_FEED):
+    parsed = feedparser.parse(
+        feed_url,
+        request_headers={"User-Agent": "DotNetRamblings/1.0 (community links; GitHub: karlospn)"},
+    )
+    if parsed.get("status", 200) >= 400:
+        raise ValueError(f"HTTP {parsed.status}")
+    if parsed.bozo and not parsed.entries:
+        raise ValueError(str(parsed.bozo_exception))
+    if not parsed.entries:
+        raise ValueError("Reddit feed returned no entries")
+    return parsed
+
+
+def parse_reddit(parsed):
+    items = []
+    for entry in parsed.entries:
+        post_url = entry.get("link", "")
+        if urlparse(post_url).netloc.lower() not in SOCIAL_HOSTS:
+            continue
+        content = entry.get("summary", "")
+        soup = BeautifulSoup(content, "html.parser")
+        urls = _external_urls(
+            [anchor.get("href", "") for anchor in soup.find_all("a")],
+            excluded_host=urlparse(post_url).netloc.lower(),
+        )
+        if not urls:
+            continue
+        author = entry.get("author", "Reddit member")
+        items.append(
+            _item(
+                {"id": f"reddit:{author}", "name": author, "default_topics": [".NET"]},
+                platform="reddit",
+                handle=author,
+                published=entry.get("published"),
+                text=sanitize_html(entry.get("title", "")),
+                post_url=post_url,
+                external_url=_best_external_url(urls),
+            )
+        )
+    return [item for item in items if item]
 
 
 def parse_bluesky(payload, identity, account):
@@ -128,7 +181,10 @@ def parse_mastodon(parsed, identity, account):
     return [item for item in items if item]
 
 
-def collect(config, now=None, bluesky_fetcher=fetch_bluesky, mastodon_fetcher=fetch_mastodon):
+def collect(
+    config, now=None, bluesky_fetcher=fetch_bluesky,
+    mastodon_fetcher=fetch_mastodon, health=None,
+):
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=int(config.get("retention_days", 7)))
     candidates = []
@@ -138,17 +194,30 @@ def collect(config, now=None, bluesky_fetcher=fetch_bluesky, mastodon_fetcher=fe
     for identity in config["identities"]:
         for account in identity.get("accounts", []):
             attempted_accounts += 1
+            source = {
+                "identityId": identity["id"],
+                "platform": account["platform"],
+                "status": "ok",
+                "candidates": 0,
+                "published": 0,
+            }
+            if health is not None:
+                health.append(source)
             try:
                 if account["platform"] == "bluesky":
                     payload = bluesky_fetcher(account["handle"])
-                    candidates.extend(parse_bluesky(payload, identity, account))
+                    posts = parse_bluesky(payload, identity, account)
                 elif account["platform"] == "mastodon":
                     parsed = mastodon_fetcher(account["feed"])
-                    candidates.extend(parse_mastodon(parsed, identity, account))
+                    posts = parse_mastodon(parsed, identity, account)
                 else:
                     raise ValueError(f"Unsupported social platform: {account['platform']}")
+                source["candidates"] = len(posts)
+                candidates.extend(posts)
                 successful_accounts += 1
             except Exception as error:
+                source["status"] = "error"
+                source["error"] = str(error)
                 print(
                     f"Failed to fetch {identity['name']} "
                     f"from {account.get('platform')}: {error}"
@@ -166,10 +235,64 @@ def collect(config, now=None, bluesky_fetcher=fetch_bluesky, mastodon_fetcher=fe
         and _is_relevant(item, config.get("include_keywords", []))
         and canonicalize_url(item["externalUrl"]) not in excluded_links
     ]
-    return deduplicate_and_cap(
+    result = deduplicate_and_cap(
         retained,
         int(config.get("max_posts_per_identity_per_day", 2)),
     )
+    if health is not None:
+        for source in health:
+            source["published"] = sum(
+                item["identityId"] == source["identityId"]
+                and (
+                    item["platform"] == source["platform"]
+                    or any(
+                        reference["platform"] == source["platform"]
+                        for reference in item.get("alsoOn", [])
+                    )
+                )
+                for item in result
+            )
+        for platform in ("bluesky", "mastodon"):
+            platform_sources = [source for source in health if source["platform"] == platform]
+            print(
+                f"{platform}: {sum(source['published'] for source in platform_sources)} "
+                f"posts from {sum(source['status'] == 'ok' for source in platform_sources)}"
+                f"/{len(platform_sources)} reachable accounts"
+            )
+    return result
+
+
+def collect_discussions(
+    pulse_items, now=None, reddit_fetcher=fetch_reddit,
+    existing_path=DISCUSSIONS_PATH,
+):
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=7)
+    parsed = reddit_fetcher()
+    candidates = parse_reddit(parsed) + _existing_items(cutoff, existing_path)
+    excluded_urls = _archive_links() | {
+        canonicalize_url(item["externalUrl"]) for item in pulse_items
+    }
+    excluded_text = {_text_key(item["excerpt"]) for item in pulse_items}
+    retained = [
+        item for item in candidates
+        if _published_at(item) >= cutoff
+        and _is_relevant(item, [".net", "dotnet", "c#", "asp.net", "blazor",
+                                "azure", "nuget", "roslyn", "ef core", "aspire"])
+        and canonicalize_url(item["externalUrl"]) not in excluded_urls
+        and _text_key(item["excerpt"]) not in excluded_text
+    ]
+    unique = deduplicate_and_cap(retained, max_per_day=100000)
+    daily_counts = defaultdict(int)
+    result = []
+    for item in unique:
+        day = _published_at(item).date().isoformat()
+        if daily_counts[day] >= 4:
+            continue
+        daily_counts[day] += 1
+        result.append(item)
+    print(f"Reddit: {len(result)} distinct linked discussions from r/dotnet")
+    return result
 
 
 def deduplicate_and_cap(items, max_per_day=2):
@@ -177,12 +300,20 @@ def deduplicate_and_cap(items, max_per_day=2):
     seen_ids = set()
     seen_urls = set()
     seen_text = set()
+    by_url = {}
+    by_text = {}
     daily_counts = defaultdict(int)
     result = []
     for item in ordered:
         external_url = canonicalize_url(item["externalUrl"])
         text_key = _text_key(item["excerpt"])
         day_key = (item["identityId"], _published_at(item).date().isoformat())
+        duplicate = by_url.get(external_url) or (by_text.get(text_key) if text_key else None)
+        if duplicate and duplicate["identityId"] == item["identityId"] and duplicate["platform"] != item["platform"]:
+            also_on = duplicate.setdefault("alsoOn", [])
+            reference = {"platform": item["platform"], "postUrl": item["postUrl"]}
+            if reference not in also_on:
+                also_on.append(reference)
         if (
             item["id"] in seen_ids
             or external_url in seen_urls
@@ -194,6 +325,8 @@ def deduplicate_and_cap(items, max_per_day=2):
         seen_urls.add(external_url)
         if text_key:
             seen_text.add(text_key)
+            by_text[text_key] = item
+        by_url[external_url] = item
         daily_counts[day_key] += 1
         item["externalUrl"] = external_url
         result.append(item)
@@ -256,12 +389,12 @@ def _external_urls(urls, excluded_host=""):
     return result
 
 
-def _existing_items(cutoff):
-    if not OUTPUT_PATH.exists():
+def _existing_items(cutoff, path=OUTPUT_PATH):
+    if not path.exists():
         return []
     return [
         item
-        for item in json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        for item in json.loads(path.read_text(encoding="utf-8"))
         if _published_at(item) >= cutoff
     ]
 
@@ -316,8 +449,51 @@ def _best_external_url(urls):
 
 def main():
     config = load_config()
-    items = collect(config)
+    health = []
+    items = collect(config, health=health)
     write_items(items)
+    sources = [
+        {
+            "id": identity["id"],
+            "name": identity["name"],
+            "accounts": [
+                {
+                    "platform": account["platform"],
+                    "url": (
+                        f"https://bsky.app/profile/{account['handle']}"
+                        if account["platform"] == "bluesky"
+                        else account["feed"].removesuffix(".rss")
+                    ),
+                }
+                for account in identity.get("accounts", [])
+            ],
+        }
+        for identity in config["identities"]
+    ]
+    write_items(sources, SOURCES_PATH)
+    try:
+        discussions = collect_discussions(items)
+    except Exception as error:
+        print(f"Failed to refresh Reddit discussions: {error}")
+        if not DISCUSSIONS_PATH.exists():
+            raise
+        discussions = _existing_items(datetime.now(timezone.utc) - timedelta(days=7), DISCUSSIONS_PATH)
+        health.append({
+            "identityId": "reddit-dotnet",
+            "platform": "reddit",
+            "status": "error",
+            "error": str(error),
+            "published": len(discussions),
+        })
+    else:
+        health.append({
+            "identityId": "reddit-dotnet",
+            "platform": "reddit",
+            "status": "ok",
+            "published": len(discussions),
+        })
+    write_items(health, HEALTH_PATH)
+    write_items(discussions, DISCUSSIONS_PATH)
     print(f"Collected {len(items)} Community Pulse posts")
 
 

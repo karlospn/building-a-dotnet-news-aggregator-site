@@ -1,5 +1,19 @@
 [
   {
+    "id": "8881121a35d2d791",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-24T13:00:02.088000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY... .NET Data Community Standup: You won't believe what Chris is doing with EF interceptors. 🤯 Join us LIVE as Chris Klug shows us all the things he uses interceptors for! See you at 10AM PT: msft.it/63323abCLT",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwbcqssbut2b",
+    "externalUrl": "https://msft.it/63323abCLT",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ebfcbbe9bbeef499",
     "identityId": "dotnet",
     "author": ".NET",
@@ -42,6 +56,12 @@
     "topics": [
       ".NET",
       "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117321072256059155"
+      }
     ]
   },
   {
@@ -86,6 +106,16 @@
     "externalUrl": "https://shawnl.ink/ps-efinternals",
     "topics": [
       ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117315875976699077"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117287803824145002"
+      }
     ]
   },
   {
@@ -130,6 +160,12 @@
     "externalUrl": "https://dev.to/omeiza_ahmed/middleware-vs-filter-in-aspnet-core-whats-the-difference-flp",
     "topics": [
       ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117292991368533988"
+      }
     ]
   },
   {

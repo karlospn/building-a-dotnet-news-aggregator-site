@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add site/dotnetramblings/data/community_pulse.json
+          git add site/dotnetramblings/data/community_pulse.json site/dotnetramblings/data/community_discussions.json site/dotnetramblings/data/community_sources.json site/dotnetramblings/data/community_source_health.json
           git diff --staged --quiet || git commit -m "Refresh Community Pulse"
 
       - name: Push changes

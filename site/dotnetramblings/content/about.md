@@ -4,15 +4,15 @@ date = "2024-02-28"
 aliases = ["about-us", "contact"]
 +++
 
-This site is an automated news aggregator. It fetches news from multiple RSS feeds, presenting them all on a single page for your convenience. The news primarily focuses on .NET content, but also includes topics such as cloud computing, containers, DevOps, and Generative AI, among others.
+This site is an automated .NET news aggregator. It gathers articles from RSS feeds and videos from YouTube channels, with related coverage of cloud computing, containers, DevOps, and AI. Browse the latest stories or search and filter the 180-day archive.
 
-The site is automatically updated every 1 hour with the latest news from various RSS feeds.
+News feeds are refreshed every 3 hours. The videos section is scheduled to update daily at 07:15 UTC with recent videos; scheduled runs can start later than the configured time.
 
-There is also a lot of interesting .NET content in Youtube, that's why this site also contains a videos section. This section is automatically updated once every day at 07:15 AM (UTC) with the videos posted the day before.
+The [AI for .NET Developers hub](/topics/ai/) brings together practical AI topics, learning paths, and selected .NET AI SDK and framework releases. [Community Pulse](/community/) combines technical links and insights from selected .NET accounts on Bluesky and Mastodon with linked discussions from r/dotnet over the last seven days. You can search all posts or filter by platform. The Reddit pilot adds up to four links per day; its authors are not selected Community Pulse accounts.
 
-If you wish to contribute by adding a Youtube channel or a RSS feed from your own site or a site you favor, please visit the "Contribute" section.
+You can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences are stored locally in your browser; no account is required.
 
-Should you encounter any issues or have any questions, feel free to reach out to me on **GitHub** or **LinkedIn**.
+To suggest an RSS feed, YouTube channel, or community account, see [Contribute](/contribute/). For issues or questions, reach out on **GitHub** or **LinkedIn**.
 
 ## Contact me
 
@@ -28,4 +28,3 @@ Should you encounter any issues or have any questions, feel free to reach out to
         </a>
     </p>
 </blockquote>
-

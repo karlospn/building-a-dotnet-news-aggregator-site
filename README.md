@@ -18,53 +18,12 @@ There is also a lot of interesting .NET content on YouTube, so the site contains
 
 Readers can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences stay in the browser and require no account. The complete site exposes a free RSS feed from the navigation bar.
 
-The collapsed **Community Pulse** on Home collects technical links from a small allowlist of trusted .NET accounts on Bluesky and Mastodon. Posts are deduplicated across platforms, capped at two per identity per day, and retained for seven days.
+The dedicated **Community Pulse** page combines technical links and insights from selected .NET accounts on Bluesky and Mastodon with a small pilot of external links shared in r/dotnet over the last seven days. Search and platform filters cover all posts. Reddit contributes up to four links per day, but Reddit authors are not part of the selected Community Pulse accounts; the Sources page lists the pilot separately for transparency.
 
 The AI topic is a dedicated **AI for .NET Developers** hub. It includes practical subtopics, curated learning paths, and a release radar built from stable GitHub releases for selected .NET AI SDKs and frameworks. Release data is refreshed daily at 08:30 UTC.
 
 # **Contribute**
 
-Do you create content related to .NET? We're thrilled to welcome you!
+Suggest a public RSS feed or YouTube channel that regularly publishes content relevant to .NET developers. Related cloud, DevOps, and AI content is welcome when useful to that audience. Check the [existing sources](https://www.dotnetramblings.com/feeds/), then add a `.yml` file to [`data/`](data) with `Feed`, `Title`, and `Website` fields (`Description` and `Author` are optional). Open a pull request explaining the source's .NET relevance. Submission does not guarantee inclusion or publication of every post.
 
-Even if your content isn't strictly about .NET, but focuses on software development, cloud computing, AI, or any other tech-related subject, we're excited to feature your posts here!
-
-## How to add your site
-
-### Prerequisite
-
-- A functioning RSS feed or a Youtube Channel that can be accessed via the Internet.
-
-### Enrollment Process
-
-1 - Visit my Github repository: https://github.com/karlospn/building-a-dotnet-news-aggregator-site
-
-2 - The ``/data`` folder contain the current feeds utilized by this site.
-
-3 - Create a new ``yml`` file with the following attributes:
- - ``Feed (required)``: The URL of the RSS feed.
- - ``Title (required)``: The name of your site.
- - ``Website (required)``: The URL of your site.
- - ``Description (optional)``:  A brief description of your site's content.
- - ``Author (optional)``: The name of the site's author.
-
-Here's an example of adding an RSS feed:
-```yml
-Feed: https://www.mytechramblings.com/index.xml
-Title: My technical ramblings
-Website: https://www.mytechramblings.com
-Description: Technical ramblings from a software engineer
-Author: Carlos Pons
-```
-
-And here's an example of adding a Youtube channel:
-```yml
-Feed: https://www.youtube.com/@ChilliCream
-Title: ChilliCream
-Website: https://chillicream.com/
-Description: The Ultimate GraphQL Platform
-Author: ChilliCream
-```
-
-4 - Open a Pull Request and await our approval.
-
-5 - Your posts will then begin to appear on our site.
+To suggest a Bluesky or Mastodon account for Community Pulse, [open an issue](https://github.com/karlospn/building-a-dotnet-news-aggregator-site/issues) with the profile and reason for the suggestion. Community accounts are curated separately; do not add them to `data/`. See the site's [Contribute page](https://www.dotnetramblings.com/contribute/) for the example YAML and full instructions.

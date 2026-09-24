@@ -38,5 +38,42 @@
     {{ end }}
   </div>
   <p class="empty-state" data-feed-empty hidden>No sources match your search.</p>
+  {{- $communitySources := site.Data.community_sources | default slice }}
+  {{- with $communitySources }}
+    <section class="source-community" aria-labelledby="community-sources-heading">
+      <h2 id="community-sources-heading">Community Pulse accounts</h2>
+      <p>Selected people and projects on Bluesky and Mastodon. These are social accounts, not article or video feeds.</p>
+      <div class="feed-container">
+        {{ range . }}
+          {{- $identity := . }}
+          <article class="feed-card">
+            <h3>{{ .name }}</h3>
+            <div class="feed-card__actions">
+              {{ range .accounts }}
+                <a href="{{ .url }}" rel="noopener">{{ .platform | title }} →</a>
+              {{ end }}
+            </div>
+            {{- range site.Data.community_source_health }}
+              {{- if eq .identityId $identity.id }}
+                <p class="feed-stats">
+                  {{ .platform | title }}:
+                  {{ if eq .status "error" }}Needs attention{{ else }}{{ .published }} represented links this week{{ end }}
+                </p>
+              {{- end }}
+            {{- end }}
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+  <section class="source-community" aria-labelledby="discussion-sources-heading">
+    <h2 id="discussion-sources-heading">Community Discussions</h2>
+    <p>Separate from trusted accounts: a small pilot of linked posts from <a href="https://www.reddit.com/r/dotnet/new/">r/dotnet</a>. Links already in the news or Community Pulse are excluded.</p>
+    {{ range site.Data.community_source_health }}
+      {{ if eq .platform "reddit" }}
+        <p>{{ if eq .status "error" }}Reddit source needs attention; showing retained posts.{{ else }}{{ .published }} linked discussions this week.{{ end }}</p>
+      {{ end }}
+    {{ end }}
+  </section>
 </div>
 {{ end }}
