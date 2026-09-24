@@ -1,5 +1,20 @@
 [
   {
+    "id": "ebfcbbe9bbeef499",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-23T22:00:02.735000+00:00",
+    "excerpt": "Agent workflows change constantly, so what's actually worth learning? Kent Dodds argues the durable skill is product engineering — knowing what the user needs, dev'ing problem clarity, and owning a feature end to end instead of turning tickets into implementations. 🎥…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mw7qhiuc3c2b",
+    "externalUrl": "https://msft.it/63328ab0tj",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "3475221a6509dc0b",
     "identityId": "dotnet",
     "author": ".NET",
@@ -24,21 +39,6 @@
     "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework",
     "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw72qvipv42g",
     "externalUrl": "https://www.codemag.com/Article/2610071/Building-Multi-Agent-Workflows-in-C",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "1e3ed08b21a15d85",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-23T12:00:01.935000+00:00",
-    "excerpt": "🎙️ Calling all .NET devs! Built something awesome? Solved a gnarly problem? Exploring .NET 11, AI, cloud, mobile, gaming, or OSS? The .NET Conf 2026 Community Days Call for Presenters is OPEN! Read more: msft.it/63327ab0MF",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw6owlt7ld2e",
-    "externalUrl": "https://msft.it/63327ab0MF",
     "topics": [
       ".NET",
       "AI"
