@@ -1,5 +1,19 @@
 [
   {
+    "id": "f2a8ba9fcb7e9a96",
+    "identityId": "reddit:/u/delfuria",
+    "author": "/u/delfuria",
+    "handle": "/u/delfuria",
+    "platform": "reddit",
+    "publishedAt": "2026-09-24T19:30:54+00:00",
+    "excerpt": "RadioE45 — a .NET MAUI client for AzuraCast with Android Auto, CarPlay, podcasts and song requests",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpb78r/radioe45_a_net_maui_client_for_azuracast_with/",
+    "externalUrl": "https://github.com/delfuria/RadioE45",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "53de9457a411a4ee",
     "identityId": "reddit:/u/KallDrexx",
     "author": "/u/KallDrexx",
