@@ -4,14 +4,14 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 30,
-    "published": 9
+    "published": 10
   },
   {
     "identityId": "dotnet",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 20,
-    "published": 1
+    "published": 0
   },
   {
     "identityId": "andrew-lock",
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
+    "candidates": 13,
     "published": 2
   },
   {
@@ -94,8 +94,8 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 3,
-    "published": 1
+    "candidates": 4,
+    "published": 2
   },
   {
     "identityId": "scott-hanselman",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 9
+    "published": 10
   }
 ]

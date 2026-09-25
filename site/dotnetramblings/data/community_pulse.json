@@ -1,17 +1,33 @@
 [
   {
-    "id": "b8d06892f55a10a2",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": ".NET",
+    "id": "975cff9a965a656c",
+    "identityId": "brad-wilson",
+    "author": "Brad Wilson",
+    "handle": "Brad Wilson",
     "platform": "mastodon",
-    "publishedAt": "2026-09-25T17:10:07+00:00",
-    "excerpt": "📰 AG-UI Protocol now has a first-class .NET SDK The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI. https:// devblogs.microsoft.com/dotnet/ ag-ui-dotnet-sdk/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117332784401705000",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk",
+    "publishedAt": "2026-09-25T21:05:46+00:00",
+    "excerpt": "\"Copilot is the Nickelback of AI\" - @ thurrott 🤣 https:// youtu.be/HVll0jd2g84?t=834",
+    "postUrl": "https://mastodon.social/@bradwilson/117333710999588212",
+    "externalUrl": "https://youtu.be/HVll0jd2g84?t=834",
     "topics": [
       ".NET",
-      "AI"
+      "AI",
+      "Testing"
+    ]
+  },
+  {
+    "id": "152eb76e4d3e6356",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-25T20:00:02.013000+00:00",
+    "excerpt": "In this MCP Live session replay, we see how Client ID Metadata Documents flip the model giving you one durable identity that works everywhere, with a live demo of the flow end to end. 🎥msft.it/63329ajcF9",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwekoqrozx2w",
+    "externalUrl": "https://msft.it/63329ajcF9",
+    "topics": [
+      ".NET",
+      "Security"
     ]
   },
   {

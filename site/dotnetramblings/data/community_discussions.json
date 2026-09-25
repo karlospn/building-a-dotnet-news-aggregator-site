@@ -1,5 +1,19 @@
 [
   {
+    "id": "d3aaf34e85a63611",
+    "identityId": "reddit:/u/sashakrsmanovic",
+    "author": "/u/sashakrsmanovic",
+    "handle": "/u/sashakrsmanovic",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T19:06:34+00:00",
+    "excerpt": "Xplat .NET Apps on TVs, Cars, Watches with AndroidX",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq4xoj/xplat_net_apps_on_tvs_cars_watches_with_androidx/",
+    "externalUrl": "https://platform.uno/blog/uno-platform-6-7",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "a5969e4b36b627ec",
     "identityId": "reddit:/u/Userware",
     "author": "/u/Userware",
