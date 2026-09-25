@@ -807,12 +807,16 @@
       releaseRadar.querySelectorAll("[data-release-item]")
     );
     const releaseMore = releaseRadar.querySelector("[data-release-more]");
+    const releaseSearch = releaseRadar.querySelector("[data-release-search]");
+    const releaseEmpty = releaseRadar.querySelector("[data-release-empty]");
     let releaseFilter = "all";
+    let releaseQuery = "";
     let releaseLimit = 8;
 
     const updateReleases = function () {
       const matching = releaseItems.filter(function (item) {
-        return releaseFilter === "all" || item.dataset.releaseType === releaseFilter;
+        return (releaseFilter === "all" || item.dataset.releaseType === releaseFilter)
+          && (!releaseQuery || item.textContent.toLowerCase().includes(releaseQuery));
       });
       releaseItems.forEach(function (item) {
         const index = matching.indexOf(item);
@@ -823,7 +827,16 @@
         releaseMore.hidden = matching.length <= releaseLimit;
         releaseMore.textContent = `Show ${Math.min(8, remaining)} more releases`;
       }
+      if (releaseEmpty) releaseEmpty.hidden = matching.length !== 0;
     };
+
+    if (releaseSearch) {
+      releaseSearch.addEventListener("input", function () {
+        releaseQuery = releaseSearch.value.trim().toLowerCase();
+        releaseLimit = 8;
+        updateReleases();
+      });
+    }
 
     releaseRadar.addEventListener("click", function (event) {
       const filter = event.target.closest("[data-release-filter]");

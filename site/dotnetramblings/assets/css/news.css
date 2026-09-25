@@ -323,6 +323,11 @@ body {
   margin: 1.25rem 0 0.8rem;
 }
 
+.release-search {
+  display: block;
+  margin-top: 1rem;
+}
+
 .release-filters button,
 .release-more {
   background: transparent;

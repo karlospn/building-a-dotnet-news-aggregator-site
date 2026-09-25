@@ -1,18 +1,21 @@
 {{- $allReleases := site.Data.ai_releases | default slice }}
-{{- $releases := first 60 $allReleases }}
 <section class="hub-section hub-section--radar" id="ai-release-radar" aria-labelledby="release-radar-title">
   <section class="release-radar" aria-labelledby="release-radar-title" data-release-radar>
     <div class="release-radar__heading">
       <div>
         <p class="eyebrow">Tracked .NET AI projects</p>
         <h2 id="release-radar-title">.NET AI Release Radar</h2>
-        <p>Stable SDK and framework releases from selected .NET AI projects.</p>
+        <p>Stable releases from selected .NET AI projects over the past year; not an exhaustive list of AI tools.</p>
       </div>
-      {{ with index $releases 0 }}
-        <span>Updated {{ time.Format "Jan 2, 2006" .publishedAt }}</span>
+      {{ with index $allReleases 0 }}
+        <span>Latest release {{ time.Format "Jan 2, 2006" .publishedAt }}</span>
       {{ end }}
     </div>
-    {{ if $releases }}
+    {{ if $allReleases }}
+      <label class="search-control release-search">
+        <span class="sr-only">Search AI releases</span>
+        <input type="search" data-release-search placeholder="Search projects, versions, or release notes">
+      </label>
       <div class="release-filters" role="group" aria-label="Release type">
         <button type="button" class="is-active" data-release-filter="all" aria-pressed="true">All</button>
         {{- range slice
@@ -22,14 +25,14 @@
           (dict "id" "deprecation" "label" "Deprecations")
           (dict "id" "security" "label" "Security")
         }}
-          {{- $count := len (where $releases "changeType" .id) }}
+          {{- $count := len (where $allReleases "changeType" .id) }}
           {{- if gt $count 0 }}
             <button type="button" data-release-filter="{{ .id }}" aria-pressed="false">{{ .label }} ({{ $count }})</button>
           {{- end }}
         {{- end }}
       </div>
       <div class="release-list">
-        {{ range $releases }}
+        {{ range $allReleases }}
           <article class="release-item release-item--{{ .changeType }}" data-release-item data-release-type="{{ .changeType }}">
             <div class="release-item__meta">
               <span>{{ .product }}</span>
@@ -46,6 +49,7 @@
           </article>
         {{ end }}
       </div>
+      <p class="empty-state" data-release-empty hidden>No releases match your search and filter.</p>
       <button type="button" class="release-more" data-release-more hidden>Show more releases</button>
     {{ else }}
       <p class="empty-state">Release data is not available yet.</p>
