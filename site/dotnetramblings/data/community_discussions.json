@@ -1,5 +1,19 @@
 [
   {
+    "id": "01348fe375193071",
+    "identityId": "reddit:/u/Think-Caterpillar36",
+    "author": "/u/Think-Caterpillar36",
+    "handle": "/u/Think-Caterpillar36",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T01:16:59+00:00",
+    "excerpt": "RemoteLAN: A LAN-only remote desktop built with .NET 8/WPF — direct TCP, DXGI capture, no relay",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpj787/remotelan_a_lanonly_remote_desktop_built_with_net/",
+    "externalUrl": "https://github.com/salmanasmat/RemoteLAN",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "f2a8ba9fcb7e9a96",
     "identityId": "reddit:/u/delfuria",
     "author": "/u/delfuria",
