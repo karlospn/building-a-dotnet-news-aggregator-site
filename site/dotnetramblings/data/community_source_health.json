@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 30,
-    "published": 10
+    "published": 9
   },
   {
     "identityId": "dotnet",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 7
+    "published": 8
   }
 ]

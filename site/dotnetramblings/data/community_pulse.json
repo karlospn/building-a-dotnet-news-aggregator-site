@@ -214,20 +214,5 @@
       "Containers",
       "DevOps"
     ]
-  },
-  {
-    "id": "b540ae1fa8bfa787",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-18T12:00:01.049000+00:00",
-    "excerpt": "🤖➡️ Useful agents need more than chat. This #MSBuild session adds 📂 file access, ✅ human approvals, and 🧠 memory so agents can safely work with your data and take real actions. 🎥 Watch the replay: msft.it/63328aZiAp #AI #Agents #GenAI",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvs4lxu3lh25",
-    "externalUrl": "https://msft.it/63328aZiAp",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
   }
 ]

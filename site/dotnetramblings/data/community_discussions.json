@@ -1,5 +1,20 @@
 [
   {
+    "id": "ed48346f4a26bf9a",
+    "identityId": "reddit:/u/nifanfa",
+    "author": "/u/nifanfa",
+    "handle": "/u/nifanfa",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T08:46:23+00:00",
+    "excerpt": "I made LVGL working on C# XAML running on ESP32-S3(Xtensa architecture)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpr4hk/i_made_lvgl_working_on_c_xaml_running_on/",
+    "externalUrl": "https://github.com/nifanfa/IL2LLVM",
+    "topics": [
+      ".NET",
+      "Architecture"
+    ]
+  },
+  {
     "id": "01348fe375193071",
     "identityId": "reddit:/u/Think-Caterpillar36",
     "author": "/u/Think-Caterpillar36",
