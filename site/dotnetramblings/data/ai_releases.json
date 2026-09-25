@@ -2735,24 +2735,5 @@
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.0",
     "repository": "microsoft/onnxruntime",
     "official": true
-  },
-  {
-    "id": "awaescher/OllamaSharp:249958952",
-    "product": "OllamaSharp",
-    "version": "5.4.7",
-    "tagName": "5.4.7",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-09-25T10:52:26+00:00",
-    "title": "OllamaSharp 5.4.7",
-    "summary": "Add Dimensions for embeddings #324 Thanks @mili-tan",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Local Models",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.7",
-    "repository": "awaescher/OllamaSharp",
-    "official": false
   }
 ]
