@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-24T18:45:22.636007+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-25T19:02:36.555755+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-24T23:41:58.704061+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-25T19:02:57.014594+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
