@@ -201,27 +201,6 @@
   const filterDisclosures = Array.from(
     document.querySelectorAll(".filter-disclosure")
   );
-  const hubSections = Array.from(
-    document.querySelectorAll("[data-hub-section]")
-  );
-  hubSections.forEach(function (section) {
-    const key = `aiHubSection:${section.dataset.hubSection}`;
-    try {
-      const stored = sessionStorage.getItem(key);
-      if (stored !== null) section.open = stored === "open";
-      section.addEventListener("toggle", function () {
-        sessionStorage.setItem(key, section.open ? "open" : "closed");
-      });
-    } catch {
-      // Native details behavior remains available when storage is blocked.
-    }
-  });
-  document.querySelectorAll('.hub-actions a[href^="#"]').forEach(function (link) {
-    link.addEventListener("click", function () {
-      const target = document.querySelector(link.getAttribute("href"));
-      if (target instanceof HTMLDetailsElement) target.open = true;
-    });
-  });
   const syncFilterDisclosures = function () {
     filterDisclosures.forEach(function (disclosure) {
       disclosure.open = !mobileViewport.matches;

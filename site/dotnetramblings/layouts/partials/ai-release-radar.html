@@ -1,15 +1,11 @@
 {{- $allReleases := site.Data.ai_releases | default slice }}
 {{- $releases := first 60 $allReleases }}
-<details class="hub-section hub-section--radar" id="ai-release-radar" data-hub-section="release-radar" open>
-  <summary>
-    <span>.NET AI Release Radar</span>
-    <span>{{ len $allReleases }} releases</span>
-  </summary>
+<section class="hub-section hub-section--radar" id="ai-release-radar" aria-labelledby="release-radar-title">
   <section class="release-radar" aria-labelledby="release-radar-title" data-release-radar>
     <div class="release-radar__heading">
       <div>
         <p class="eyebrow">Tracked .NET AI projects</p>
-        <h2 id="release-radar-title">Latest stable releases</h2>
+        <h2 id="release-radar-title">.NET AI Release Radar</h2>
         <p>Stable SDK and framework releases from selected .NET AI projects.</p>
       </div>
       {{ with index $releases 0 }}
@@ -55,4 +51,4 @@
       <p class="empty-state">Release data is not available yet.</p>
     {{ end }}
   </section>
-</details>
+</section>

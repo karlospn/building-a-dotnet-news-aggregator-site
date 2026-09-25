@@ -11,18 +11,20 @@
       <h1>{{ if $isAI }}AI for .NET Developers{{ else }}{{ .Title }}{{ end }}</h1>
       <p>{{ $description }}</p>
       {{ if $isAI }}
-        <div class="hub-actions">
-          <a class="button" href="#ai-release-radar">.NET AI Release Radar ↓</a>
-          <a href="#ai-learning-paths">Explore learning paths ↓</a>
-        </div>
+        <nav class="hub-actions" aria-label="AI Hub sections">
+          <span>Jump to:</span>
+          <a href="#ai-articles">Articles &amp; videos</a>
+          <a href="#ai-release-radar">Releases</a>
+          <a href="#ai-learning-paths">Learning paths</a>
+        </nav>
       {{ end }}
     </header>
     {{ if $isAI }}
-      <details class="hub-section hub-section--content" data-hub-section="ai-archive">
-        <summary>
-          <span>AI Content Archive</span>
+      <section class="hub-section hub-section--content" id="ai-articles" aria-labelledby="ai-articles-title">
+        <div class="hub-section__heading">
+          <h2 id="ai-articles-title">Latest AI articles and videos</h2>
           <span><span data-hub-item-count>{{ len $pages }}</span> items</span>
-        </summary>
+        </div>
         <div class="hub-section__body">
           <p class="hub-section__description">Search and filter the complete 180-day archive of AI articles and videos.</p>
     {{ end }}
@@ -49,14 +51,10 @@
     </nav>
     {{ if $isAI }}
         </div>
-      </details>
+      </section>
       {{ partial "ai-release-radar" . }}
-      <details class="hub-section hub-section--learning" id="ai-learning-paths" data-hub-section="learning-paths">
-        <summary>
-          <span>Learning paths</span>
-          <span>4 guides</span>
-        </summary>
-        <section class="learning-paths" aria-labelledby="learning-paths-title">
+      <section class="hub-section hub-section--learning" id="ai-learning-paths" aria-labelledby="learning-paths-title">
+        <div class="learning-paths">
           <div class="section-intro">
             <p class="eyebrow">Official and practical resources</p>
             <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
@@ -88,8 +86,8 @@
               <a href="https://github.com/awaescher/OllamaSharp" rel="noopener">OllamaSharp →</a>
             </article>
           </div>
-        </section>
-      </details>
+        </div>
+      </section>
     {{ end }}
   </div>
 {{ end }}
