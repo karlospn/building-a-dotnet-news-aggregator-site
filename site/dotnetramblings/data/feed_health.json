@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-24T02:19:14.182719+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-25T02:35:48.429162+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-24T23:41:31.314368+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-25T02:35:34.286808+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
