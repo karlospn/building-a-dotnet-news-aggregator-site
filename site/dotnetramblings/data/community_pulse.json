@@ -1,5 +1,34 @@
 [
   {
+    "id": "b8d06892f55a10a2",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-09-25T17:10:07+00:00",
+    "excerpt": "📰 AG-UI Protocol now has a first-class .NET SDK The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI. https:// devblogs.microsoft.com/dotnet/ ag-ui-dotnet-sdk/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117332784401705000",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "e4dfed7c6e0a631a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-25T16:00:02.871000+00:00",
+    "excerpt": "⚡ .NET 11 turns the performance dial up to... 11. Fewer allocations ✅ Smarter JIT ✅ More SIMD ✅ Less locking ✅ Faster runtime & libraries ✅ Hundreds of optimizations compound into measurable gains across the stack. 🚀 Read the deep dive: msft.it/63328ajcYG",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwe5bmopt62k",
+    "externalUrl": "https://msft.it/63328ajcYG",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "f6319a8ad8bb7745",
     "identityId": "dotnet",
     "author": ".NET",
@@ -177,42 +206,6 @@
     "externalUrl": "https://msft.it/63320abuEu",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "e55198a1c84f95d6",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-18T16:30:13+00:00",
-    "excerpt": "Stories I like: Middleware vs Filter in ASP.NET Core: What’s the Difference? dev.to/omeiza_ahmed/...",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mvslp6et2c2e",
-    "externalUrl": "https://dev.to/omeiza_ahmed/middleware-vs-filter-in-aspnet-core-whats-the-difference-flp",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117292991368533988"
-      }
-    ]
-  },
-  {
-    "id": "72dc2b897b7c9832",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-18T16:00:02.306000+00:00",
-    "excerpt": ".NET 10.0.12 ✅ .NET 9.0.20 ✅ .NET 8.0.31 Security fixes, runtime updates, msft.it/63326aZcZp Core + EF Core refreshes, and updated containers/installers. 🚀 📖 Read the blog: msft.it/63322aZcZw #dotNET #DevOps",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvsjz5wtqz2v",
-    "externalUrl": "https://msft.it/63326aZcZp",
-    "topics": [
-      ".NET",
-      "Containers",
-      "DevOps"
     ]
   }
 ]

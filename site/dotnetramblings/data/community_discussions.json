@@ -1,5 +1,20 @@
 [
   {
+    "id": "a5969e4b36b627ec",
+    "identityId": "reddit:/u/Userware",
+    "author": "/u/Userware",
+    "handle": "/u/Userware",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T16:20:06+00:00",
+    "excerpt": "XAML.io now has one-click web publish, version history, better WPF migration, optional free Claude Code-like agent, and more",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq0o6x/xamlio_now_has_oneclick_web_publish_version/",
+    "externalUrl": "https://blog.xaml.io/post/build-dotnet-apps-from-a-prompt",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "ed48346f4a26bf9a",
     "identityId": "reddit:/u/nifanfa",
     "author": "/u/nifanfa",
