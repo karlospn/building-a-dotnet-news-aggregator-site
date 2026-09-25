@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-24T07:58:54.752706+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-09-24T18:45:22.636007+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-24T02:19:16.419690+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T23:41:58.704061+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -78,14 +78,14 @@
     "status": "healthy"
   },
   "code4it": {
-    "checkedAt": "2026-09-21T21:26:07.413154+00:00",
+    "checkedAt": "2026-09-24T23:41:42.998506+00:00",
     "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-09-21T08:23:04.270193+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T18:45:33.044825+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-24T02:19:14.182719+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-25T02:35:48.429162+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-09-24T07:58:55.693401+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T18:45:29.029288+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-09-23T08:07:17.893388+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-24T18:45:27.085493+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-09-21T08:23:09.856371+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-24T23:41:44.351744+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -236,6 +236,12 @@
   "langchain": {
     "checkedAt": "2026-09-23T12:44:42.023911+00:00",
     "itemCount": 6,
+    "message": "",
+    "status": "healthy"
+  },
+  "mark-seemann": {
+    "checkedAt": "2026-09-24T18:45:33.354843+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -336,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-24T02:19:00.620924+00:00",
-    "itemCount": 11,
+    "checkedAt": "2026-09-25T02:35:34.286808+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -377,9 +383,21 @@
     "message": "",
     "status": "healthy"
   },
+  "visual-studio-blog": {
+    "checkedAt": "2026-09-24T18:45:31.129257+00:00",
+    "itemCount": 0,
+    "message": "",
+    "status": "healthy"
+  },
   "visualstudio": {
     "checkedAt": "2026-09-23T12:44:43.759583+00:00",
     "itemCount": 6,
+    "message": "",
+    "status": "healthy"
+  },
+  "west-wind-web-log": {
+    "checkedAt": "2026-09-24T18:45:18.818601+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   }

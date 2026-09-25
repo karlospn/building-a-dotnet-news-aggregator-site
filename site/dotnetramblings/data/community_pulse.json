@@ -1,5 +1,60 @@
 [
   {
+    "id": "f6319a8ad8bb7745",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-24T21:00:01.970000+00:00",
+    "excerpt": "Foundry IQ, Fabric IQ, Work IQ, Web IQ. In this One Dev Question, Marco Casalaina explains that each one is a grounding capability, a way to give your agents context. 🎥 msft.it/63323aj6Tt",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwc5l4j7fz2i",
+    "externalUrl": "https://msft.it/63323aj6Tt",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "d3466aa804f3bec5",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-24T18:30:28+00:00",
+    "excerpt": "EF Core: \"I tracked that entity.\" Me: \"I didnt ask you to.\" EF: \"I sensed your vibe.\" Learn how EF thinks: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwbvagje442e",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117327438034205799"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117315875976699077"
+      }
+    ]
+  },
+  {
+    "id": "e67854a0371dbcf6",
+    "identityId": "brad-wilson",
+    "author": "Brad Wilson",
+    "handle": "Brad Wilson",
+    "platform": "mastodon",
+    "publishedAt": "2026-09-24T16:08:59+00:00",
+    "excerpt": "https:// no-sloptober.com/ \"This October we challenge you to abstain from LLM based tools entirely. Think of this as a fast for your mind! This is not a judgement of others, but a personal challenge to you.\"",
+    "postUrl": "https://mastodon.social/@bradwilson/117326881741468513",
+    "externalUrl": "https://no-sloptober.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Testing"
+    ]
+  },
+  {
     "id": "8881121a35d2d791",
     "identityId": "dotnet",
     "author": ".NET",
@@ -95,30 +150,6 @@
     ]
   },
   {
-    "id": "06bab3f5d0a97d82",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-22T17:30:05+00:00",
-    "excerpt": "EF internals are like IKEA instructions: confusing until someone explains them properly. That someone is this course. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw4qwmfd4l2j",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117315875976699077"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117287803824145002"
-      }
-    ]
-  },
-  {
     "id": "07a72fee3586d25a",
     "identityId": "dotnet",
     "author": ".NET",
@@ -194,36 +225,6 @@
     "excerpt": "🤖➡️ Useful agents need more than chat. This #MSBuild session adds 📂 file access, ✅ human approvals, and 🧠 memory so agents can safely work with your data and take real actions. 🎥 Watch the replay: msft.it/63328aZiAp #AI #Agents #GenAI",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mvs4lxu3lh25",
     "externalUrl": "https://msft.it/63328aZiAp",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "3ba668c0bbd30de1",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-17T20:00:02.973000+00:00",
-    "excerpt": "🤖 Skills + 🖥️ Shell + ⚙️ CodeAct + 🚀 Background Agents That's the recipe for agents that move beyond chat and into action. Package expertise as Skills, execute tasks, reason through workflows, and run work autonomously. 🎥 Watch: msft.it/63322akVs0",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvqgxfzc562l",
-    "externalUrl": "https://msft.it/63322akVs0",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "d84f286fd8a10116",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-17T16:00:01.424000+00:00",
-    "excerpt": "As traditional app logic moves into agents, One Dev Question has one answer: learn observability, evaluations, and evaluators. Agents are non-deterministic, so keeping them healthy takes a different kind of science... msft.it/63327akViR",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mvpzk7mtyx24",
-    "externalUrl": "https://msft.it/63327akViR",
     "topics": [
       ".NET",
       "AI"

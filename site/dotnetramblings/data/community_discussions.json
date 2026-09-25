@@ -1,5 +1,47 @@
 [
   {
+    "id": "01348fe375193071",
+    "identityId": "reddit:/u/Think-Caterpillar36",
+    "author": "/u/Think-Caterpillar36",
+    "handle": "/u/Think-Caterpillar36",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T01:16:59+00:00",
+    "excerpt": "RemoteLAN: A LAN-only remote desktop built with .NET 8/WPF — direct TCP, DXGI capture, no relay",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpj787/remotelan_a_lanonly_remote_desktop_built_with_net/",
+    "externalUrl": "https://github.com/salmanasmat/RemoteLAN",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "f2a8ba9fcb7e9a96",
+    "identityId": "reddit:/u/delfuria",
+    "author": "/u/delfuria",
+    "handle": "/u/delfuria",
+    "platform": "reddit",
+    "publishedAt": "2026-09-24T19:30:54+00:00",
+    "excerpt": "RadioE45 — a .NET MAUI client for AzuraCast with Android Auto, CarPlay, podcasts and song requests",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpb78r/radioe45_a_net_maui_client_for_azuracast_with/",
+    "externalUrl": "https://github.com/delfuria/RadioE45",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "53de9457a411a4ee",
+    "identityId": "reddit:/u/KallDrexx",
+    "author": "/u/KallDrexx",
+    "handle": "/u/KallDrexx",
+    "platform": "reddit",
+    "publishedAt": "2026-09-24T13:56:02+00:00",
+    "excerpt": "Polly license change means I can't use Microsoft Resilience extensions?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wp2bkh/polly_license_change_means_i_cant_use_microsoft/",
+    "externalUrl": "https://www.nuget.org/packages/Microsoft.Extensions.Http.Resilience",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "8240816dc3ab6bb7",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
