@@ -1,5 +1,23 @@
 [
   {
+    "id": "dotnet/extensions:396752693",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.10.1",
+    "tagName": "v10.10.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-25T16:16:19+00:00",
+    "title": "Microsoft.Extensions.AI 10.10.1",
+    "summary": "This release fixes two OpenAI integration issues: a TypeLoadException on tool-carrying Responses API calls and a streaming crash against third-party OpenAI-compatible endpoints, by upgrading the OpenAI SDK to 2.14.0. | Package | Version | |---------|---------| |…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.10.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:393933756",
     "product": "Anthropic C# SDK",
     "version": "12.50.0",
@@ -2714,25 +2732,6 @@
       "SDKs"
     ],
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.1",
-    "repository": "microsoft/onnxruntime",
-    "official": true
-  },
-  {
-    "id": "microsoft/onnxruntime:250190179",
-    "product": "ONNX Runtime",
-    "version": "1.23.0",
-    "tagName": "v1.23.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-09-26T04:33:48+00:00",
-    "title": "ONNX Runtime 1.23.0",
-    "summary": "- This release introduces Execution Provider (EP) Plugin API, which is a new infrastructure for building plugin-based EPs. (#24887 , #25137, #25124, #25147, #25127, #25159, #25191, #2524) - This release introduces the ability to dynamically download and install execution…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Local Models",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.0",
     "repository": "microsoft/onnxruntime",
     "official": true
   }
