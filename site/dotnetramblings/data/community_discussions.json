@@ -1,5 +1,20 @@
 [
   {
+    "id": "7f8940d1fd5c2e49",
+    "identityId": "reddit:/u/nmariusp",
+    "author": "/u/nmariusp",
+    "handle": "/u/nmariusp",
+    "platform": "reddit",
+    "publishedAt": "2026-09-26T16:43:40+00:00",
+    "excerpt": "Visual Studio 2026 C# complete tutorial",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wqv659/visual_studio_2026_c_complete_tutorial/",
+    "externalUrl": "https://www.youtube.com/watch?v=keYkQYAdSBI",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ]
+  },
+  {
     "id": "ccbd15eea3df2ac4",
     "identityId": "reddit:/u/mdaiWorks",
     "author": "/u/mdaiWorks",
