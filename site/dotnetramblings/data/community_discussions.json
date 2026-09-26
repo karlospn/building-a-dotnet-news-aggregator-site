@@ -1,5 +1,34 @@
 [
   {
+    "id": "ccbd15eea3df2ac4",
+    "identityId": "reddit:/u/mdaiWorks",
+    "author": "/u/mdaiWorks",
+    "handle": "/u/mdaiWorks",
+    "platform": "reddit",
+    "publishedAt": "2026-09-26T01:01:45+00:00",
+    "excerpt": "From teacher to AI IDE builder: Yengi (open-source, .NET 8)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wqd6z6/from_teacher_to_ai_ide_builder_yengi_opensource/",
+    "externalUrl": "https://i.redd.it/0gmp9xm5jrrh1.gif",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "088bf36e36ca1fb5",
+    "identityId": "reddit:/u/mrpmorris",
+    "author": "/u/mrpmorris",
+    "handle": "/u/mrpmorris",
+    "platform": "reddit",
+    "publishedAt": "2026-09-25T22:14:05+00:00",
+    "excerpt": "Roslynk v2.0 released",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq9jhc/roslynk_v20_released/",
+    "externalUrl": "https://github.com/mrpmorris/Roslynk/releases/tag/2.0.0",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "d3aaf34e85a63611",
     "identityId": "reddit:/u/sashakrsmanovic",
     "author": "/u/sashakrsmanovic",
@@ -41,20 +70,6 @@
     "topics": [
       ".NET",
       "Architecture"
-    ]
-  },
-  {
-    "id": "01348fe375193071",
-    "identityId": "reddit:/u/Think-Caterpillar36",
-    "author": "/u/Think-Caterpillar36",
-    "handle": "/u/Think-Caterpillar36",
-    "platform": "reddit",
-    "publishedAt": "2026-09-25T01:16:59+00:00",
-    "excerpt": "RemoteLAN: A LAN-only remote desktop built with .NET 8/WPF — direct TCP, DXGI capture, no relay",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpj787/remotelan_a_lanonly_remote_desktop_built_with_net/",
-    "externalUrl": "https://github.com/salmanasmat/RemoteLAN",
-    "topics": [
-      ".NET"
     ]
   },
   {
