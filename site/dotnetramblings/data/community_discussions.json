@@ -1,5 +1,19 @@
 [
   {
+    "id": "6ae5a63e4890a124",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-09-26T20:41:47+00:00",
+    "excerpt": "Running Qwen-Image 2.1 + LoRAs locally in C#/.NET with TensorSharp",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wr11zk/running_qwenimage_21_loras_locally_in_cnet_with/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "7f8940d1fd5c2e49",
     "identityId": "reddit:/u/nmariusp",
     "author": "/u/nmariusp",
@@ -155,22 +169,6 @@
     "externalUrl": "https://www.nuget.org/packages/NativeCollections",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "85fe6ba98da89f48",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-09-22T05:43:07+00:00",
-    "excerpt": "A .NET local AI agent bought A4 paper for me on Amazon",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wn0w1o/a_net_local_ai_agent_bought_a4_paper_for_me_on/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET",
-      "AWS",
-      "AI"
     ]
   }
 ]
