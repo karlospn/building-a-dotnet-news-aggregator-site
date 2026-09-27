@@ -1,5 +1,33 @@
 [
   {
+    "id": "f19f88a3132c28b1",
+    "identityId": "reddit:/u/shmellyorcgames",
+    "author": "/u/shmellyorcgames",
+    "handle": "/u/shmellyorcgames",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T21:10:01+00:00",
+    "excerpt": "Stride abstracts graphics APIs. VOID abstracts the renderer itself.",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrvrpm/stride_abstracts_graphics_apis_void_abstracts_the/",
+    "externalUrl": "https://voidengine.net/articles/design-for-vulkan-ship-opengl",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "00c8ae53dd2387b1",
+    "identityId": "reddit:/u/Alert-Neck7679",
+    "author": "/u/Alert-Neck7679",
+    "handle": "/u/Alert-Neck7679",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T19:55:35+00:00",
+    "excerpt": "Got my first contributors for my .NET project 🙂",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrtvot/got_my_first_contributors_for_my_net_project/",
+    "externalUrl": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "2d5de8c44ed37404",
     "identityId": "reddit:/u/ReallySuperName",
     "author": "/u/ReallySuperName",
@@ -28,34 +56,6 @@
       ".NET",
       "DevOps",
       "AI"
-    ]
-  },
-  {
-    "id": "f90cb4b67b9af378",
-    "identityId": "reddit:/u/DonKarolus",
-    "author": "/u/DonKarolus",
-    "handle": "/u/DonKarolus",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T13:30:09+00:00",
-    "excerpt": "I’ve been building a .NET news aggregator site — would love some feedback",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrkaa4/ive_been_building_a_net_news_aggregator_site/",
-    "externalUrl": "https://www.dotnetramblings.com/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "276e957e27354377",
-    "identityId": "reddit:/u/n_i_l_s",
-    "author": "/u/n_i_l_s",
-    "handle": "/u/n_i_l_s",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T12:16:24+00:00",
-    "excerpt": "Developing C# projects with Claude Code from your phone",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrir4i/developing_c_projects_with_claude_code_from_your/",
-    "externalUrl": "https://medium.com/@nilslattek/how-i-use-claude-code-to-develop-c-projects-from-my-phone-0fdccf04b513",
-    "topics": [
-      ".NET"
     ]
   },
   {
