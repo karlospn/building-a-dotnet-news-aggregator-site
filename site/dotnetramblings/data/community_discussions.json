@@ -1,5 +1,19 @@
 [
   {
+    "id": "276e957e27354377",
+    "identityId": "reddit:/u/n_i_l_s",
+    "author": "/u/n_i_l_s",
+    "handle": "/u/n_i_l_s",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T12:16:24+00:00",
+    "excerpt": "Developing C# projects with Claude Code from your phone",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrir4i/developing_c_projects_with_claude_code_from_your/",
+    "externalUrl": "https://medium.com/@nilslattek/how-i-use-claude-code-to-develop-c-projects-from-my-phone-0fdccf04b513",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "6ae5a63e4890a124",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
