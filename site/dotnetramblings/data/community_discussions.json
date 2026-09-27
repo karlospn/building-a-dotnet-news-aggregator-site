@@ -1,5 +1,50 @@
 [
   {
+    "id": "2d5de8c44ed37404",
+    "identityId": "reddit:/u/ReallySuperName",
+    "author": "/u/ReallySuperName",
+    "handle": "/u/ReallySuperName",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T16:00:13+00:00",
+    "excerpt": "Reducing .NET AWS Lambda Cold Starts by Adding Memory",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrnvj4/reducing_net_aws_lambda_cold_starts_by_adding/",
+    "externalUrl": "https://www.lloydatkinson.net/posts/2026/reducing-dotnet-aws-lambda-cold-starts-by-increasing-memory",
+    "topics": [
+      ".NET",
+      "AWS"
+    ]
+  },
+  {
+    "id": "d12641a94235cff5",
+    "identityId": "reddit:/u/Abdulwaheb-bhs",
+    "author": "/u/Abdulwaheb-bhs",
+    "handle": "/u/Abdulwaheb-bhs",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T15:07:53+00:00",
+    "excerpt": "HarvestAI — a .NET web scraper/crawler designed for LLM & RAG pipelines",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrmko5/harvestai_a_net_web_scrapercrawler_designed_for/",
+    "externalUrl": "https://www.nuget.org/packages/HarvestAI",
+    "topics": [
+      ".NET",
+      "DevOps",
+      "AI"
+    ]
+  },
+  {
+    "id": "f90cb4b67b9af378",
+    "identityId": "reddit:/u/DonKarolus",
+    "author": "/u/DonKarolus",
+    "handle": "/u/DonKarolus",
+    "platform": "reddit",
+    "publishedAt": "2026-09-27T13:30:09+00:00",
+    "excerpt": "I’ve been building a .NET news aggregator site — would love some feedback",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrkaa4/ive_been_building_a_net_news_aggregator_site/",
+    "externalUrl": "https://www.dotnetramblings.com/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "276e957e27354377",
     "identityId": "reddit:/u/n_i_l_s",
     "author": "/u/n_i_l_s",
