@@ -1,17 +1,53 @@
 [
   {
-    "id": "943693c6f2605492",
+    "id": "1dbf87d026dc81af",
     "identityId": "dotnet",
     "author": ".NET",
     "handle": "dot.net",
     "platform": "bluesky",
-    "publishedAt": "2026-09-28T13:00:06.565000+00:00",
-    "excerpt": "🦾 Start with AsHarnessAgent(). 🚀 End with a production-ready AI agent. The MafClaw live series builds a C# agent harness with tools, memory, approvals, skills, CodeAct, background agents, OpenTelemetry, Purview, and Foundry hosting. 📖 msft.it/63324a5wUi #dotnet #AIAgents #CSharp",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwlemmrgsi2g",
-    "externalUrl": "https://msft.it/63324a5wUi",
+    "publishedAt": "2026-09-28T21:00:01.885000+00:00",
+    "excerpt": "Martin Woodward's pick: the new GitHub Copilot app, which just shipped for everyone. It's a native Windows and Mac experience for agentic coding, issues, and PRs, and it runs work in separate worktrees so nothing collides. 🎥 msft.it/63324a5bGe",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwm7gsbso42w",
+    "externalUrl": "https://msft.it/63324a5bGe",
     "topics": [
       ".NET",
       "AI"
+    ]
+  },
+  {
+    "id": "0281ff9caf8745fe",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-28T17:00:01.545000+00:00",
+    "excerpt": "〰️ HAPPENING TOMORROW at 10AM PT 〰️ Microsoft Reactor series: Modernize faster with the GitHub Copilot modernization agent 〰️ From Tribal Knowledge to Production Code: Custom Skills for GitHub Copilot Modernization. Join us LIVE: msft.it/63327a5waD #AgenticModernization…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwlrzn27mq2e",
+    "externalUrl": "https://msft.it/63327a5waD",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "70cf8f5edfa1b6d1",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-28T16:30:26+00:00",
+    "excerpt": "Stories I like: Bi-directional logical replication in PostgreSQL: a practical guide",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwlqesk5sd2j",
+    "externalUrl": "https://www.red-gate.com/simple-talk/databases/bi-directional-logical-replication-in-postgresql-a-practical-guide",
+    "topics": [
+      ".NET",
+      "Data"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117349615295364517"
+      }
     ]
   },
   {
@@ -207,36 +243,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "07a72fee3586d25a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-21T23:00:01.962000+00:00",
-    "excerpt": "An Aspire-ified app gives your coding agent far more context and control. In this One Dev Question, Maddy Montaquila shows how one command starts every container, process, and debugger, and how the agent can stop and start individual resources in one place. 🎥 msft.it/63327abuRR",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw2suwgnw526",
-    "externalUrl": "https://msft.it/63327abuRR",
-    "topics": [
-      ".NET",
-      "Containers",
-      "AI"
-    ]
-  },
-  {
-    "id": "a63b5bd491e99cc0",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-21T19:00:02.261000+00:00",
-    "excerpt": "🤔 Still running #dotNET Framework? That doesn't mean you're behind. Legacy dependencies, compliance requirements, and massive codebases make modernization a lot more nuanced than a version upgrade. 🏗️ 🎧 msft.it/63320abuEu",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw2fhrxgzv2v",
-    "externalUrl": "https://msft.it/63320abuEu",
-    "topics": [
-      ".NET"
     ]
   }
 ]

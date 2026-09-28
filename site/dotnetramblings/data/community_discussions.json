@@ -1,5 +1,19 @@
 [
   {
+    "id": "a447dd8cd9ece8a6",
+    "identityId": "reddit:/u/souley76",
+    "author": "/u/souley76",
+    "handle": "/u/souley76",
+    "platform": "reddit",
+    "publishedAt": "2026-09-28T22:12:44+00:00",
+    "excerpt": "My local Chase ATM running .NET 😂 CsvHelper.dll spotted !!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wsslr1/my_local_chase_atm_running_net_csvhelperdll/",
+    "externalUrl": "https://i.redd.it/e99kwi5w4csh1.jpeg",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "f19f88a3132c28b1",
     "identityId": "reddit:/u/shmellyorcgames",
     "author": "/u/shmellyorcgames",
