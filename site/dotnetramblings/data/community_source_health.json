@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 30,
-    "published": 10
+    "published": 11
   },
   {
     "identityId": "dotnet",
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
+    "candidates": 10,
     "published": 3
   },
   {

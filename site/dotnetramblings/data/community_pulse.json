@@ -1,5 +1,20 @@
 [
   {
+    "id": "42a1cd1683db1a20",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-29T12:00:02.386000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY〰️ Microsoft Reactor series: Modernize faster with the GitHub Copilot modernization agent 〰️ From Tribal Knowledge to Production Code: Custom Skills for GitHub Copilot Modernization. Join us LIVE: msft.it/63326a918q #AgenticModernization #GitHubCopilot #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwnrq55yxr27",
+    "externalUrl": "https://msft.it/63326a918q",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "1dbf87d026dc81af",
     "identityId": "dotnet",
     "author": ".NET",
@@ -195,14 +210,14 @@
     ]
   },
   {
-    "id": "f973fdc8b16b6586",
+    "id": "ab3bb628e1f0a825",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
     "publishedAt": "2026-09-23T15:31:34+00:00",
-    "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw72qvipv42g",
+    "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework https://www. codemag.com/Article/2610071/Bu ilding-Multi-Agent-Workflows-in-C#-with-Microsoft-Agent-Framework",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117321072256059155",
     "externalUrl": "https://www.codemag.com/Article/2610071/Building-Multi-Agent-Workflows-in-C",
     "topics": [
       ".NET",
@@ -210,8 +225,8 @@
     ],
     "alsoOn": [
       {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117321072256059155"
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw72qvipv42g"
       }
     ]
   },
