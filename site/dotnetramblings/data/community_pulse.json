@@ -1,5 +1,64 @@
 [
   {
+    "id": "a245de44d7a5ef63",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-29T17:29:57+00:00",
+    "excerpt": "Ever debug EF and feel like youre arguing with a toddler? \"WHY did you do that?\" \"BECAUSE.\" Fix that: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwoe6svdni2r",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355511619917302"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117327438034205799"
+      }
+    ]
+  },
+  {
+    "id": "80a8a3eeb61bbd9f",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-29T17:14:16+00:00",
+    "excerpt": "Coming early next near for Europe and North American timezones: #claude #software #code #dev",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwodc2eymk2g",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355450002291347"
+      }
+    ]
+  },
+  {
+    "id": "e05b00e42b31f3ce",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-29T16:00:02.651000+00:00",
+    "excerpt": "💜 Built something awesome with .NET? From AI agents 🤖 to cloud-scale apps ☁️, the .NET team wants to hear your story. Share what you've built, what you learned, and inspire fellow devs. 📣 Tell your story: msft.it/63322a5jwO #dotNET #DevCommunity",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwo75c6ocu27",
+    "externalUrl": "https://msft.it/63322a5jwO",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "42a1cd1683db1a20",
     "identityId": "dotnet",
     "author": ".NET",
@@ -126,30 +185,6 @@
     ]
   },
   {
-    "id": "d3466aa804f3bec5",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-24T18:30:28+00:00",
-    "excerpt": "EF Core: \"I tracked that entity.\" Me: \"I didnt ask you to.\" EF: \"I sensed your vibe.\" Learn how EF thinks: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwbvagje442e",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117327438034205799"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117315875976699077"
-      }
-    ]
-  },
-  {
     "id": "e67854a0371dbcf6",
     "identityId": "brad-wilson",
     "author": "Brad Wilson",
@@ -219,42 +254,6 @@
     "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework https://www. codemag.com/Article/2610071/Bu ilding-Multi-Agent-Workflows-in-C#-with-Microsoft-Agent-Framework",
     "postUrl": "https://fosstodon.org/@shawnwildermuth/117321072256059155",
     "externalUrl": "https://www.codemag.com/Article/2610071/Building-Multi-Agent-Workflows-in-C",
-    "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mw72qvipv42g"
-      }
-    ]
-  },
-  {
-    "id": "465103bebd0afa9f",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-22T22:00:01.673000+00:00",
-    "excerpt": "In this episode, we listen in on a near‑disastrous data loss when local recordings died seven minutes in, forcing them to rely on Zencastr's cloud-recovery button and a hopeful rescue email to underscore lessons about testing restores and trusting backups. Check it out:…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw57ykfcee2e",
-    "externalUrl": "https://msft.it/63321abbtB",
-    "topics": [
-      ".NET",
-      "Testing"
-    ]
-  },
-  {
-    "id": "7732d27e12621133",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-22T18:00:01.730000+00:00",
-    "excerpt": "〰️ SAVE THE DATE: Tuesday, September 29 〰️ Microsoft Reactor series: Modernize faster with the GitHub Copilot modernization agent 〰️ From Tribal Knowledge to Production Code: Custom Skills for #GitHubCopilot Modernization. Join us LIVE: msft.it/63327abbsW #AgenticModernization…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw4slfof232l",
-    "externalUrl": "https://msft.it/63327abbsW",
     "topics": [
       ".NET",
       "AI"
