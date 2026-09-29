@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:398496851",
+    "product": "Anthropic C# SDK",
+    "version": "12.51.0",
+    "tagName": "Anthropic-v12.51.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-28T18:04:44+00:00",
+    "title": "Anthropic C# SDK 12.51.0",
+    "summary": "api: add betweentools thinking type (7cb59af) api: add claude-sonnet-5-5 (26ad891) api: add includeinherited and source to workspace rate limits (bc781fc) api: add typed event type values to the Managed Agents events list filter (51c641e) api: cache diagnostics GA — diagnostics…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.51.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "dotnet/extensions:396752693",
     "product": "Microsoft.Extensions.AI",
     "version": "10.10.1",
@@ -1262,25 +1281,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.1",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:344304468",
-    "product": "Anthropic C# SDK",
-    "version": "12.31.0",
-    "tagName": "Anthropic-v12.31.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-06-24T18:46:35+00:00",
-    "title": "Anthropic C# SDK 12.31.0",
-    "summary": "client: add support for system.message streaming events (9bfe2fc) api: add support for new refusal category (052f687) api: add support for sending User Profile ID in request headers (02d6377) internal: add lock file (#63) (6a75efb)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.31.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
