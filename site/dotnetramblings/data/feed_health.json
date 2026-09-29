@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-09-27T13:00:54.430841+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-29T14:03:41.230946+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-09-28T15:26:30.949052+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-29T14:03:46.758091+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-09-28T15:26:13.663993+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-29T14:03:25.902738+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-09-28T15:26:26.713339+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-09-29T14:03:41.934849+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-09-28T15:26:24.431115+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-29T14:03:39.788374+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-09-28T15:26:21.627585+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-29T14:03:34.085460+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-09-20T12:21:16.771924+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-09-29T14:03:29.266527+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-09-28T15:26:37.490113+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-09-29T14:03:55.820961+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-09-28T15:26:22.436593+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-09-29T14:03:34.832553+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-09-27T13:00:49.325042+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-09-29T14:03:31.649598+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -390,8 +390,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-09-27T13:00:52.815425+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-09-29T14:03:36.042010+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
