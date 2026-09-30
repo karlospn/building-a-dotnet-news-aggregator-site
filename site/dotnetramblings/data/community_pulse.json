@@ -1,5 +1,41 @@
 [
   {
+    "id": "e5f2dbdbd95f7554",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-30T21:00:02.238000+00:00",
+    "excerpt": "〰️ HAPPENING TOMORROW 〰️ Let's Learn GitHub Copilot SDK - .NET Edition Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. See you LIVE here at 9AM PT ➡️…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwraenjohm2h",
+    "externalUrl": "https://msft.it/63326a5C8A",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "3caa040ca44c0af6",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-30T15:31:07+00:00",
+    "excerpt": "Stories I like: Stop alt-tabbing into the wrong Visual Studio - Visual Studio Blog",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwqnyjonbq2i",
+    "externalUrl": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117360706659970656"
+      }
+    ]
+  },
+  {
     "id": "9f2c4a3984827949",
     "identityId": "dotnet",
     "author": ".NET",
@@ -226,51 +262,6 @@
     "externalUrl": "https://msft.it/63323abCLT",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "ebfcbbe9bbeef499",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-23T22:00:02.735000+00:00",
-    "excerpt": "Agent workflows change constantly, so what's actually worth learning? Kent Dodds argues the durable skill is product engineering — knowing what the user needs, dev'ing problem clarity, and owning a feature end to end instead of turning tickets into implementations. 🎥…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw7qhiuc3c2b",
-    "externalUrl": "https://msft.it/63328ab0tj",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "3475221a6509dc0b",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-23T17:00:02.257000+00:00",
-    "excerpt": "🤖🔀 The future of AI isn't one model... it's MANY. James & Frank explore HydraFusion, multi-model orchestration, model routing, and why the biggest model isn't always the best choice for every task. ⚡🧠 🎧 Listen now: msft.it/63320ab09k",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mw77p2ghaj2v",
-    "externalUrl": "https://msft.it/63320ab09k",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "ab3bb628e1f0a825",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-09-23T15:31:34+00:00",
-    "excerpt": "Stories I like: Building Multi-Agent Workflows in C# with Microsoft Agent Framework https://www. codemag.com/Article/2610071/Bu ilding-Multi-Agent-Workflows-in-C#-with-Microsoft-Agent-Framework",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117321072256059155",
-    "externalUrl": "https://www.codemag.com/Article/2610071/Building-Multi-Agent-Workflows-in-C",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
