@@ -1,5 +1,24 @@
 [
   {
+    "id": "awaescher/OllamaSharp:399784104",
+    "product": "OllamaSharp",
+    "version": "5.5.0",
+    "tagName": "5.5.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-30T06:47:58+00:00",
+    "title": "OllamaSharp 5.5.0",
+    "summary": "Add SystemOne by @mili-tan in https://github.com/awaescher/OllamaSharp/pull/396 Full Changelog: https://github.com/awaescher/OllamaSharp/compare/5.4.30...5.5.0",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.5.0",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:398496851",
     "product": "Anthropic C# SDK",
     "version": "12.51.0",
