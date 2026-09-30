@@ -1,5 +1,20 @@
 [
   {
+    "id": "9f2c4a3984827949",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-09-30T13:00:02.763000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY 〰️ .NET AI Community Standup: Interview Coach Evolves: MAF + GitHub Copilot SDK Join Bruno Capuano and Justin Yoo to explore the latest evolution of Interview Coach, a .NET sample built with MAF, now with GitHub Copilot SDK support. 10AM PT ➡️…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwqfke2xus27",
+    "externalUrl": "https://msft.it/63329a57mF",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "449f7a7e1952b8d7",
     "identityId": "dotnet",
     "author": ".NET",
