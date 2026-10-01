@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-09-30T17:16:31.307912+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-01T03:12:02.777471+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-09-30T21:40:56.654106+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-01T03:11:38.305576+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
