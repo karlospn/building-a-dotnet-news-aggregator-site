@@ -1,5 +1,62 @@
 [
   {
+    "id": "microsoft/agent-framework:399041990",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.23.0",
+    "tagName": "dotnet-1.23.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-01T10:54:51+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.23.0",
+    "summary": "be01deccaf3dd7b85e03620145bc1a757c857827 .NET: Add origin pinning to Foundry toolbox MCP client (#8721) 0d6d2bb6b0b58f3aabdf170320ab90fc300d4c99 .NET: fix: declarative workflow http variables (#8797) 2024d4df4c4dd01b904fb9daaf56f5759801654a .NET: Fix workflow topology edge…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.23.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:400496244",
+    "product": "Anthropic C# SDK",
+    "version": "12.53.0",
+    "tagName": "Anthropic-v12.53.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-30T22:58:08+00:00",
+    "title": "Anthropic C# SDK 12.53.0",
+    "summary": "api: add list spend limits endpoint (a56d638) api: mark Claude Sonnet 4.5 as deprecated (end-of-life November 30, 2026) (ad62506)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.53.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:400340328",
+    "product": "Anthropic C# SDK",
+    "version": "12.52.0",
+    "tagName": "Anthropic-v12.52.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-09-30T18:47:19+00:00",
+    "title": "Anthropic C# SDK 12.52.0",
+    "summary": "api: add a refusal stop reason and stopdetails to Managed Agents session idle events (de3c72d) api: add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API (35e80fc) api: add per-user usage and cost reports to the Admin API analytics (69db0bf)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.52.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "awaescher/OllamaSharp:399784104",
     "product": "OllamaSharp",
     "version": "5.5.0",
@@ -1246,44 +1303,6 @@
     "official": true
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:347005476",
-    "product": "Anthropic C# SDK",
-    "version": "12.33.0",
-    "tagName": "Anthropic-v12.33.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-06-30T17:52:35+00:00",
-    "title": "Anthropic C# SDK 12.33.0",
-    "summary": "api: add support for claude-sonnet-5 (8dcc5b0)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.33.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:346334646",
-    "product": "Anthropic C# SDK",
-    "version": "12.32.0",
-    "tagName": "Anthropic-v12.32.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-06-29T14:59:09+00:00",
-    "title": "Anthropic C# SDK 12.32.0",
-    "summary": "api: add support for 20260318 web fetch and support tools (77cb54a) api: accept user profile ID's when counting tokens (4ffbe1e)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.32.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "microsoft/agent-framework:345032313",
     "product": "Microsoft Agent Framework for .NET",
     "version": "1.11.1",
@@ -1827,25 +1846,6 @@
     ],
     "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.5.0",
     "repository": "dotnet/extensions",
-    "official": true
-  },
-  {
-    "id": "microsoft/agent-framework:307654642",
-    "product": "Microsoft Agent Framework for .NET",
-    "version": "1.1.0",
-    "tagName": "dotnet-1.1.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-04-10T17:17:24+00:00",
-    "title": "Microsoft Agent Framework for .NET 1.1.0",
-    "summary": "3e864cdb4c6031cf93096fa6af4d927b31126d8a .NET: Update version to 1.1.0 (#5204) 14d2ab3262580a383472b406d97b36cfd86b2787 Standardize file skills terminology on 'directory' (#5205) e5f7b9c260961916e108ca10780988aeefd51662 .NET: Support reflection for discovery of resources and…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.1.0",
-    "repository": "microsoft/agent-framework",
     "official": true
   },
   {
