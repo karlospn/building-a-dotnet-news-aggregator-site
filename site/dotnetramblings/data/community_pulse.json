@@ -1,5 +1,29 @@
 [
   {
+    "id": "ac5217740b16c066",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-01T18:28:45+00:00",
+    "excerpt": "EF internals arent scary. Theyre just... mischievous. Tame the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwtifslo7o2h",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117367067462921096"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355511619917302"
+      }
+    ]
+  },
+  {
     "id": "b61db2e10df00de2",
     "identityId": "dotnet",
     "author": ".NET",
@@ -127,30 +151,6 @@
     "externalUrl": "https://msft.it/63326a91Er",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "a245de44d7a5ef63",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-29T17:29:57+00:00",
-    "excerpt": "Ever debug EF and feel like youre arguing with a toddler? \"WHY did you do that?\" \"BECAUSE.\" Fix that: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwoe6svdni2r",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355511619917302"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117327438034205799"
-      }
     ]
   },
   {
@@ -282,37 +282,6 @@
     "externalUrl": "https://msft.it/63328ajcYG",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "f6319a8ad8bb7745",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-24T21:00:01.970000+00:00",
-    "excerpt": "Foundry IQ, Fabric IQ, Work IQ, Web IQ. In this One Dev Question, Marco Casalaina explains that each one is a grounding capability, a way to give your agents context. 🎥 msft.it/63323aj6Tt",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwc5l4j7fz2i",
-    "externalUrl": "https://msft.it/63323aj6Tt",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "e67854a0371dbcf6",
-    "identityId": "brad-wilson",
-    "author": "Brad Wilson",
-    "handle": "Brad Wilson",
-    "platform": "mastodon",
-    "publishedAt": "2026-09-24T16:08:59+00:00",
-    "excerpt": "https:// no-sloptober.com/ \"This October we challenge you to abstain from LLM based tools entirely. Think of this as a fast for your mind! This is not a judgement of others, but a personal challenge to you.\"",
-    "postUrl": "https://mastodon.social/@bradwilson/117326881741468513",
-    "externalUrl": "https://no-sloptober.com/",
-    "topics": [
-      ".NET",
-      "AI",
-      "Testing"
     ]
   }
 ]

@@ -1,17 +1,44 @@
 [
   {
-    "id": "72d32930d73d54be",
+    "id": "e6adcf176706031e",
+    "identityId": "reddit:/u/gus-ghielec",
+    "author": "/u/gus-ghielec",
+    "handle": "/u/gus-ghielec",
+    "platform": "reddit",
+    "publishedAt": "2026-10-01T14:37:06+00:00",
+    "excerpt": "C# running inside a gutted 1980s DENON tuner",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv14hk/c_running_inside_a_gutted_1980s_denon_tuner/",
+    "externalUrl": "https://github.com/Implicate-X/ImplicateX.TinyCLR.Drivers.Tuner.Tef668x",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "e24111ab6ea2a1ba",
+    "identityId": "reddit:/u/smartdotnet",
+    "author": "/u/smartdotnet",
+    "handle": "/u/smartdotnet",
+    "platform": "reddit",
+    "publishedAt": "2026-10-01T14:30:35+00:00",
+    "excerpt": "Smart.NET - inspired by TypeSafe Jev",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv0ynu/smartnet_inspired_by_typesafe_jev/",
+    "externalUrl": "https://www.nuget.org/packages/Smart.NET.Core/0.1.0-alpha.1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "edac48dffeddecce",
     "identityId": "reddit:/u/Noof_saeed",
     "author": "/u/Noof_saeed",
     "handle": "/u/Noof_saeed",
     "platform": "reddit",
-    "publishedAt": "2026-10-01T13:29:40+00:00",
-    "excerpt": "I'd appreciate a code review of my .NET 10 + Blazor project — looking for architectural and security feedback",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wuzh6l/id_appreciate_a_code_review_of_my_net_10_blazor/",
+    "publishedAt": "2026-10-01T14:28:19+00:00",
+    "excerpt": "Looking for feedback on my .NET 10 + Blazor project & star",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv0wgx/looking_for_feedback_on_my_net_10_blazor_project/",
     "externalUrl": "https://github.com/NoofSaeed/CompanyProfile",
     "topics": [
-      ".NET",
-      "Security"
+      ".NET"
     ]
   },
   {
@@ -202,34 +229,6 @@
     "topics": [
       ".NET",
       "Architecture"
-    ]
-  },
-  {
-    "id": "f2a8ba9fcb7e9a96",
-    "identityId": "reddit:/u/delfuria",
-    "author": "/u/delfuria",
-    "handle": "/u/delfuria",
-    "platform": "reddit",
-    "publishedAt": "2026-09-24T19:30:54+00:00",
-    "excerpt": "RadioE45 — a .NET MAUI client for AzuraCast with Android Auto, CarPlay, podcasts and song requests",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wpb78r/radioe45_a_net_maui_client_for_azuracast_with/",
-    "externalUrl": "https://github.com/delfuria/RadioE45",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "53de9457a411a4ee",
-    "identityId": "reddit:/u/KallDrexx",
-    "author": "/u/KallDrexx",
-    "handle": "/u/KallDrexx",
-    "platform": "reddit",
-    "publishedAt": "2026-09-24T13:56:02+00:00",
-    "excerpt": "Polly license change means I can't use Microsoft Resilience extensions?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wp2bkh/polly_license_change_means_i_cant_use_microsoft/",
-    "externalUrl": "https://www.nuget.org/packages/Microsoft.Extensions.Http.Resilience",
-    "topics": [
-      ".NET"
     ]
   }
 ]
