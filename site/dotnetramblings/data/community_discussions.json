@@ -1,5 +1,35 @@
 [
   {
+    "id": "72d32930d73d54be",
+    "identityId": "reddit:/u/Noof_saeed",
+    "author": "/u/Noof_saeed",
+    "handle": "/u/Noof_saeed",
+    "platform": "reddit",
+    "publishedAt": "2026-10-01T13:29:40+00:00",
+    "excerpt": "I'd appreciate a code review of my .NET 10 + Blazor project — looking for architectural and security feedback",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wuzh6l/id_appreciate_a_code_review_of_my_net_10_blazor/",
+    "externalUrl": "https://github.com/NoofSaeed/CompanyProfile",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
+    "id": "b95013d1fc480aef",
+    "identityId": "reddit:/u/Snoo-88295",
+    "author": "/u/Snoo-88295",
+    "handle": "/u/Snoo-88295",
+    "platform": "reddit",
+    "publishedAt": "2026-10-01T11:03:06+00:00",
+    "excerpt": "Azure Storage SDK can hand the same pooled buffer to two callers at once. PR to fix it has been sitting there for a month",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wuwho4/azure_storage_sdk_can_hand_the_same_pooled_buffer/",
+    "externalUrl": "https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose",
+    "topics": [
+      ".NET",
+      "Azure"
+    ]
+  },
+  {
     "id": "a447dd8cd9ece8a6",
     "identityId": "reddit:/u/souley76",
     "author": "/u/souley76",

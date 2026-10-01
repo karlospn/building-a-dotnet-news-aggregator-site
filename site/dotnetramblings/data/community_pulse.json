@@ -1,5 +1,34 @@
 [
   {
+    "id": "b61db2e10df00de2",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-01T13:00:01.711000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY AT 11AM PT 〰️ Join the GnollHack! team for the next .NET MAUI Community Standup! Explore how the team uses #dotNETMAUI to bring a deep, traditional roguelike experience to Android, iOS, and Windows. Bring your questions and join us live! msft.it/63324acxYe",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwsvzajorv2h",
+    "externalUrl": "https://msft.it/63324acxYe",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "b8e4f4e2274edc8a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-01T11:00:04.834000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY 〰️ Let's Learn GitHub Copilot SDK - .NET Edition Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. See you LIVE here at 9AM PT ➡️…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwspcr6u6c2p",
+    "externalUrl": "https://msft.it/63321agbPU",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "bcdbf904510d23bd",
     "identityId": "mark-downie",
     "author": "Mark Downie",
@@ -284,20 +313,6 @@
       ".NET",
       "AI",
       "Testing"
-    ]
-  },
-  {
-    "id": "8881121a35d2d791",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-24T13:00:02.088000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY... .NET Data Community Standup: You won't believe what Chris is doing with EF interceptors. 🤯 Join us LIVE as Chris Klug shows us all the things he uses interceptors for! See you at 10AM PT: msft.it/63323abCLT",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwbcqssbut2b",
-    "externalUrl": "https://msft.it/63323abCLT",
-    "topics": [
-      ".NET"
     ]
   }
 ]
