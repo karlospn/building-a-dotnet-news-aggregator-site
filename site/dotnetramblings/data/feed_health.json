@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-09-30T17:16:15.188198+00:00",
-    "itemCount": 9,
+    "checkedAt": "2026-10-01T12:05:31.660938+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-01T03:12:02.777471+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-01T12:05:47.952502+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-09-30T11:36:39.195446+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-01T12:05:34.930624+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-09-29T21:40:32.734879+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-01T12:05:42.707403+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-09-29T17:18:50.021483+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-01T12:05:38.485858+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
