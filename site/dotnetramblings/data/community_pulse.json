@@ -1,5 +1,41 @@
 [
   {
+    "id": "bcdbf904510d23bd",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "poppastring.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-01T03:18:35.127000+00:00",
+    "excerpt": "Deterministic When Possible. Probabilistic When Necessary. Human When Cheaper. codemanship.wordpress.com/2026/09/30/d...",
+    "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwrvjk25a22c",
+    "externalUrl": "https://codemanship.wordpress.com/2026/09/30/deterministic-when-possible-probabilistic-when-necessary-human-when-cheaper",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@poppastring/117363488143470583"
+      }
+    ]
+  },
+  {
+    "id": "f71d058bc885e517",
+    "identityId": "david-fowler",
+    "author": "David Fowler",
+    "handle": "davidfowl.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-01T03:02:08.282000+00:00",
+    "excerpt": "My first son (11) has been on a vibe coding tear for the last couple of months. He's been making games on his web page kaicade.com. Play and give me some feedback for him!",
+    "postUrl": "https://bsky.app/profile/davidfowl.com/post/3mwrum4vygk2b",
+    "externalUrl": "https://kaicade.com/",
+    "topics": [
+      ".NET",
+      "Architecture"
+    ]
+  },
+  {
     "id": "e5f2dbdbd95f7554",
     "identityId": "dotnet",
     "author": ".NET",
