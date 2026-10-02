@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-02T00:21:40.704137+00:00",
-    "itemCount": 10,
+    "checkedAt": "2026-10-02T17:04:22.207183+00:00",
+    "itemCount": 11,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-09-25T02:35:48.429162+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-02T17:04:37.246233+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-01T12:05:42.707403+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-02T17:04:35.122021+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-09-24T18:45:33.354843+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-02T17:04:32.959699+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
