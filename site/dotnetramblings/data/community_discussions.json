@@ -1,5 +1,19 @@
 [
   {
+    "id": "b367458fd08e07a7",
+    "identityId": "reddit:/u/BomberBlur070",
+    "author": "/u/BomberBlur070",
+    "handle": "/u/BomberBlur070",
+    "platform": "reddit",
+    "publishedAt": "2026-10-02T05:35:26+00:00",
+    "excerpt": "RE:Dox, high performance token-based structured data engine for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvlpgt/redox_high_performance_tokenbased_structured_data/",
+    "externalUrl": "https://github.com/CAPCOM-TD-OSS/REDox",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "e6adcf176706031e",
     "identityId": "reddit:/u/gus-ghielec",
     "author": "/u/gus-ghielec",

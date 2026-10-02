@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 5,
+    "candidates": 4,
     "published": 1
   },
   {
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 8,
+    "candidates": 7,
     "published": 4
   },
   {
@@ -94,7 +94,7 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 4,
+    "candidates": 5,
     "published": 1
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 16
+    "published": 17
   }
 ]
