@@ -1,5 +1,72 @@
 [
   {
+    "id": "9f6d445e3c64cad1",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "poppastring.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-02T21:51:15.733000+00:00",
+    "excerpt": "Spending $15 million proving an alternate version of the Navier-Stokes problem, in a document dense enough that reading it may itself require an AI assistant is not the flex you think it is. #math #physica www.poppastring.com/blog/the-unr...",
+    "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwwe63etl22e",
+    "externalUrl": "https://www.poppastring.com/blog/the-unread-proof",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "4009982751c78eb7",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-02T21:08:52.175000+00:00",
+    "excerpt": "🤖 AG-UI now has a SDK! Stream agent lifecycle events, tool calls, state updates & multi-agent workflows using a standard protocol. Less custom event parsing. More interoperable AI apps. ⚡ 📖 Read: msft.it/63321altrS",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwwbsbnn6s26",
+    "externalUrl": "https://msft.it/63321altrS",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "e3e5ab3e133ffc06",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-02T16:29:31+00:00",
+    "excerpt": "Stories I like: Creator of TypeScript &amp; C#: AI Software Engineering Predictions https://www. youtube.com/watch?v=qEDMAPpl_O4",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117372260950500789",
+    "externalUrl": "https://www.youtube.com/watch?v=qEDMAPpl_O4",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwvs6qhr3l2a"
+      }
+    ]
+  },
+  {
+    "id": "93c100eac1d93412",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-02T14:00:02.512000+00:00",
+    "excerpt": "In today's One Dev Question, Amanda Silver shares Microsoft's open source journey, from early #ASPNET support for jQuery to open-sourcing TypeScript, Chakra, .NET, and Visual Studio Code. 🎥 msft.it/63324agdQk",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mwvjti4hx42q",
+    "externalUrl": "https://msft.it/63324agdQk",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ]
+  },
+  {
     "id": "ac5217740b16c066",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -237,51 +304,6 @@
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117349615295364517"
       }
-    ]
-  },
-  {
-    "id": "975cff9a965a656c",
-    "identityId": "brad-wilson",
-    "author": "Brad Wilson",
-    "handle": "Brad Wilson",
-    "platform": "mastodon",
-    "publishedAt": "2026-09-25T21:05:46+00:00",
-    "excerpt": "\"Copilot is the Nickelback of AI\" - @ thurrott 🤣 https:// youtu.be/HVll0jd2g84?t=834",
-    "postUrl": "https://mastodon.social/@bradwilson/117333710999588212",
-    "externalUrl": "https://youtu.be/HVll0jd2g84?t=834",
-    "topics": [
-      ".NET",
-      "AI",
-      "Testing"
-    ]
-  },
-  {
-    "id": "152eb76e4d3e6356",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-25T20:00:02.013000+00:00",
-    "excerpt": "In this MCP Live session replay, we see how Client ID Metadata Documents flip the model giving you one durable identity that works everywhere, with a live demo of the flow end to end. 🎥msft.it/63329ajcF9",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwekoqrozx2w",
-    "externalUrl": "https://msft.it/63329ajcF9",
-    "topics": [
-      ".NET",
-      "Security"
-    ]
-  },
-  {
-    "id": "e4dfed7c6e0a631a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-25T16:00:02.871000+00:00",
-    "excerpt": "⚡ .NET 11 turns the performance dial up to... 11. Fewer allocations ✅ Smarter JIT ✅ More SIMD ✅ Less locking ✅ Faster runtime & libraries ✅ Hundreds of optimizations compound into measurable gains across the stack. 🚀 Read the deep dive: msft.it/63328ajcYG",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwe5bmopt62k",
-    "externalUrl": "https://msft.it/63328ajcYG",
-    "topics": [
-      ".NET"
     ]
   }
 ]

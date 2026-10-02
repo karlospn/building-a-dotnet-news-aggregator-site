@@ -1,5 +1,19 @@
 [
   {
+    "id": "27eb3a4bdc476740",
+    "identityId": "reddit:/u/Userware",
+    "author": "/u/Userware",
+    "handle": "/u/Userware",
+    "platform": "reddit",
+    "publishedAt": "2026-10-02T15:42:09+00:00",
+    "excerpt": "We tried turning a 1982 TI-99/4A game into 3D in the browser with C# and a pixel buffer",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvx4b6/we_tried_turning_a_1982_ti994a_game_into_3d_in/",
+    "externalUrl": "https://xaml.io/s/Samples/PSEC-99?autorun=true",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "b367458fd08e07a7",
     "identityId": "reddit:/u/BomberBlur070",
     "author": "/u/BomberBlur070",
@@ -182,49 +196,6 @@
     "excerpt": "From teacher to AI IDE builder: Yengi (open-source, .NET 8)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wqd6z6/from_teacher_to_ai_ide_builder_yengi_opensource/",
     "externalUrl": "https://i.redd.it/0gmp9xm5jrrh1.gif",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "088bf36e36ca1fb5",
-    "identityId": "reddit:/u/mrpmorris",
-    "author": "/u/mrpmorris",
-    "handle": "/u/mrpmorris",
-    "platform": "reddit",
-    "publishedAt": "2026-09-25T22:14:05+00:00",
-    "excerpt": "Roslynk v2.0 released",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq9jhc/roslynk_v20_released/",
-    "externalUrl": "https://github.com/mrpmorris/Roslynk/releases/tag/2.0.0",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d3aaf34e85a63611",
-    "identityId": "reddit:/u/sashakrsmanovic",
-    "author": "/u/sashakrsmanovic",
-    "handle": "/u/sashakrsmanovic",
-    "platform": "reddit",
-    "publishedAt": "2026-09-25T19:06:34+00:00",
-    "excerpt": "Xplat .NET Apps on TVs, Cars, Watches with AndroidX",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq4xoj/xplat_net_apps_on_tvs_cars_watches_with_androidx/",
-    "externalUrl": "https://platform.uno/blog/uno-platform-6-7",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "a5969e4b36b627ec",
-    "identityId": "reddit:/u/Userware",
-    "author": "/u/Userware",
-    "handle": "/u/Userware",
-    "platform": "reddit",
-    "publishedAt": "2026-09-25T16:20:06+00:00",
-    "excerpt": "XAML.io now has one-click web publish, version history, better WPF migration, optional free Claude Code-like agent, and more",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wq0o6x/xamlio_now_has_oneclick_web_publish_version/",
-    "externalUrl": "https://blog.xaml.io/post/build-dotnet-apps-from-a-prompt",
     "topics": [
       ".NET",
       "AI"
