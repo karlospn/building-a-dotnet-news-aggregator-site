@@ -24,14 +24,14 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-01T19:58:57.941007+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-03T23:26:31.719169+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-02T17:04:22.207183+00:00",
-    "itemCount": 11,
+    "checkedAt": "2026-10-03T23:26:29.230689+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-02T17:04:37.246233+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-03T23:26:40.541628+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-10-01T19:59:00.172559+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-03T23:26:32.992544+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-10-02T17:04:32.959699+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-03T23:26:36.858068+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-02T21:36:26.548761+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-03T23:26:28.616653+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -396,8 +396,8 @@
     "status": "healthy"
   },
   "west-wind-web-log": {
-    "checkedAt": "2026-10-02T21:36:25.000579+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-03T23:26:27.697523+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   }
