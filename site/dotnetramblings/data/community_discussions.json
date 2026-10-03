@@ -1,5 +1,62 @@
 [
   {
+    "id": "41dac89329cab75f",
+    "identityId": "reddit:/u/teo-tsirpanis",
+    "author": "/u/teo-tsirpanis",
+    "handle": "/u/teo-tsirpanis",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T09:02:40+00:00",
+    "excerpt": "Farkle 7.1.0 released — the first IELR(1) parsing library for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwil2b/farkle_710_released_the_first_ielr1_parsing/",
+    "externalUrl": "https://www.sciencedirect.com/science/article/pii/S0167642309001191",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "1bb54d3d0d0a8f28",
+    "identityId": "reddit:/u/cabboose",
+    "author": "/u/cabboose",
+    "handle": "/u/cabboose",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T07:34:50+00:00",
+    "excerpt": "Ranvier: .NET Reactive Computation",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwh7ks/ranvier_net_reactive_computation/",
+    "externalUrl": "https://shayanhabibi.github.io/Ranvier",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "381a5a7248fd131a",
+    "identityId": "reddit:/u/ppossanzini",
+    "author": "/u/ppossanzini",
+    "handle": "/u/ppossanzini",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T07:28:18+00:00",
+    "excerpt": "Jigen v.1.3.2 - An embeddable & standalone vector database written entirely in C# (with on-disk HNSW)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwh3ye/jigen_v132_an_embeddable_standalone_vector/",
+    "externalUrl": "https://github.com/ppossanzini/Jigen/blob/main/docs/index.md",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
+    "id": "73786e58e34a1d59",
+    "identityId": "reddit:/u/SimonCropp1978",
+    "author": "/u/SimonCropp1978",
+    "handle": "/u/SimonCropp1978",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T06:39:30+00:00",
+    "excerpt": "BuildMonitor: a cross-platform system tray CI monitor, installed as a dotnet tool",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwgb56/buildmonitor_a_crossplatform_system_tray_ci/",
+    "externalUrl": "https://github.com/SimonCropp/BuildMonitor",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "1a41b8ab4e5ffd89",
     "identityId": "reddit:/u/zionsati",
     "author": "/u/zionsati",
