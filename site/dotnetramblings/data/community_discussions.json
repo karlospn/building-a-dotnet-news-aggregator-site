@@ -1,5 +1,33 @@
 [
   {
+    "id": "d84389d1f6be5bed",
+    "identityId": "reddit:/u/mariamamhan",
+    "author": "/u/mariamamhan",
+    "handle": "/u/mariamamhan",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T20:46:03+00:00",
+    "excerpt": "I built a Stock Management System with C# and Windows Forms",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwxk1v/i_built_a_stock_management_system_with_c_and/",
+    "externalUrl": "https://github.com/Mariam-amhan/Stock-Management-System",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "46e841ec55f81900",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T20:11:50+00:00",
+    "excerpt": "Running a 176B Qwen3.8 Flash Next model on a 16GB RTX 3080 Laptop — with a .NET/C# inference engine",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwwrdh/running_a_176b_qwen38_flash_next_model_on_a_16gb/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "fdb9c520698ec009",
     "identityId": "reddit:/u/VelixirNET",
     "author": "/u/VelixirNET",
@@ -23,34 +51,6 @@
     "excerpt": "EFDoctor – open-source static analysis for EF Core anti-patterns (found a real sync-over-async bug in Microsoft's eShop)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwohlu/efdoctor_opensource_static_analysis_for_ef_core/",
     "externalUrl": "https://github.com/vuglll/EFDoctor",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "12b63d7632bb8170",
-    "identityId": "reddit:/u/galratner",
-    "author": "/u/galratner",
-    "handle": "/u/galratner",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T14:22:30+00:00",
-    "excerpt": "Some People Forgot That Sun Microsystems Is responsible for C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwohbi/some_people_forgot_that_sun_microsystems_is/",
-    "externalUrl": "https://galratner.substack.com/p/some-people-forgot-that-sun-microsystems",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "41dac89329cab75f",
-    "identityId": "reddit:/u/teo-tsirpanis",
-    "author": "/u/teo-tsirpanis",
-    "handle": "/u/teo-tsirpanis",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T09:02:40+00:00",
-    "excerpt": "Farkle 7.1.0 released — the first IELR(1) parsing library for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwil2b/farkle_710_released_the_first_ielr1_parsing/",
-    "externalUrl": "https://www.sciencedirect.com/science/article/pii/S0167642309001191",
     "topics": [
       ".NET"
     ]
@@ -225,35 +225,6 @@
       ".NET",
       "DevOps",
       "AI"
-    ]
-  },
-  {
-    "id": "6ae5a63e4890a124",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-09-26T20:41:47+00:00",
-    "excerpt": "Running Qwen-Image 2.1 + LoRAs locally in C#/.NET with TensorSharp",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wr11zk/running_qwenimage_21_loras_locally_in_cnet_with/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "7f8940d1fd5c2e49",
-    "identityId": "reddit:/u/nmariusp",
-    "author": "/u/nmariusp",
-    "handle": "/u/nmariusp",
-    "platform": "reddit",
-    "publishedAt": "2026-09-26T16:43:40+00:00",
-    "excerpt": "Visual Studio 2026 C# complete tutorial",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wqv659/visual_studio_2026_c_complete_tutorial/",
-    "externalUrl": "https://www.youtube.com/watch?v=keYkQYAdSBI",
-    "topics": [
-      "Visual Studio",
-      ".NET"
     ]
   }
 ]
