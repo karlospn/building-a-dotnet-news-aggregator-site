@@ -1,5 +1,24 @@
 [
   {
+    "id": "microsoft/onnxruntime:401323329",
+    "product": "ONNX Runtime",
+    "version": "1.28.3",
+    "tagName": "v1.28.3",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-02T20:48:43+00:00",
+    "title": "ONNX Runtime 1.28.3",
+    "summary": "This is a patch release on top of v1.28.2, containing memory-safety and model-validation fixes, a plugin execution fix, and packaging infrastructure updates. - Fixed an out-of-bounds read in EmbedLayerNormalization shape inference when beta is a scalar (#32610). - Fixed a heap…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.3",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
     "id": "microsoft/agent-framework:399041990",
     "product": "Microsoft Agent Framework for .NET",
     "version": "1.23.0",
