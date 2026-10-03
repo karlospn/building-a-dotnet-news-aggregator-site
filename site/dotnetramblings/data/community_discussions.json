@@ -1,5 +1,19 @@
 [
   {
+    "id": "1a41b8ab4e5ffd89",
+    "identityId": "reddit:/u/zionsati",
+    "author": "/u/zionsati",
+    "handle": "/u/zionsati",
+    "platform": "reddit",
+    "publishedAt": "2026-10-02T22:49:43+00:00",
+    "excerpt": "Regex Storm .NET ported to Wasm using NetWasm",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1ww7kzj/regex_storm_net_ported_to_wasm_using_netwasm/",
+    "externalUrl": "https://preview.redd.it/qrx8rx20y4th1.png?width=1990&format=png&auto=webp&s=53459f022941e723379bb09f56cfac3b00892add",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "27eb3a4bdc476740",
     "identityId": "reddit:/u/Userware",
     "author": "/u/Userware",
@@ -184,21 +198,6 @@
     "topics": [
       "Visual Studio",
       ".NET"
-    ]
-  },
-  {
-    "id": "ccbd15eea3df2ac4",
-    "identityId": "reddit:/u/mdaiWorks",
-    "author": "/u/mdaiWorks",
-    "handle": "/u/mdaiWorks",
-    "platform": "reddit",
-    "publishedAt": "2026-09-26T01:01:45+00:00",
-    "excerpt": "From teacher to AI IDE builder: Yengi (open-source, .NET 8)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wqd6z6/from_teacher_to_ai_ide_builder_yengi_opensource/",
-    "externalUrl": "https://i.redd.it/0gmp9xm5jrrh1.gif",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
