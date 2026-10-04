@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-03T23:26:29.230689+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-04T11:32:17.338180+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -84,10 +84,10 @@
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-10-04T03:45:05.285564+00:00",
+    "checkedAt": "2026-10-04T11:32:25.299603+00:00",
     "itemCount": 0,
-    "message": "[Errno 110] Connection timed out",
-    "status": "error"
+    "message": "",
+    "status": "healthy"
   },
   "codeopinion-youtube": {
     "checkedAt": "2026-10-03T12:32:50.339442+00:00",
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-10-02T21:36:32.646167+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-04T11:32:20.514886+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-02T17:04:35.122021+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-04T11:32:26.943674+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-03T23:26:28.616653+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-04T11:32:17.028516+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
