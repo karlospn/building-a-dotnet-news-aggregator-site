@@ -84,10 +84,10 @@
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-09-29T09:18:22.266377+00:00",
+    "checkedAt": "2026-10-04T03:45:05.285564+00:00",
     "itemCount": 0,
-    "message": "",
-    "status": "healthy"
+    "message": "[Errno 110] Connection timed out",
+    "status": "error"
   },
   "codeopinion-youtube": {
     "checkedAt": "2026-10-03T12:32:50.339442+00:00",
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-03T23:26:40.541628+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-04T03:45:09.170391+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
