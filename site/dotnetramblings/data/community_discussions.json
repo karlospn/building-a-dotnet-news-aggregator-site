@@ -1,5 +1,48 @@
 [
   {
+    "id": "181d8bf40f004973",
+    "identityId": "reddit:/u/jeff377",
+    "author": "/u/jeff377",
+    "handle": "/u/jeff377",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T03:41:12+00:00",
+    "excerpt": "Polhem.OAuth2 v1.3: I rewrote my old OAuth2 library with Claude Code, one API for .NET desktop, MAUI and ASP.NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx5sim/polhemoauth2_v13_i_rewrote_my_old_oauth2_library/",
+    "externalUrl": "https://github.com/polhem-dev/polhem-oauth2",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
+    "id": "7fc0d9f797db1e4e",
+    "identityId": "reddit:/u/feech1970",
+    "author": "/u/feech1970",
+    "handle": "/u/feech1970",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T22:56:52+00:00",
+    "excerpt": "Subscrio.Core 0.5: feature access, usage limits, and credits for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx0dq0/subscriocore_05_feature_access_usage_limits_and/",
+    "externalUrl": "https://github.com/subscrio/subscrio-dotnet",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "4c054a4129726ccb",
+    "identityId": "reddit:/u/Sir_Dimitry",
+    "author": "/u/Sir_Dimitry",
+    "handle": "/u/Sir_Dimitry",
+    "platform": "reddit",
+    "publishedAt": "2026-10-03T22:41:28+00:00",
+    "excerpt": "VueDotNet - framework for embedding Vue.js components in an ASP.NET MVC app",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx02qz/vuedotnet_framework_for_embedding_vuejs/",
+    "externalUrl": "https://github.com/DmitriSelin/vue.net",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "d84389d1f6be5bed",
     "identityId": "reddit:/u/mariamamhan",
     "author": "/u/mariamamhan",
@@ -23,34 +66,6 @@
     "excerpt": "Running a 176B Qwen3.8 Flash Next model on a 16GB RTX 3080 Laptop — with a .NET/C# inference engine",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwwrdh/running_a_176b_qwen38_flash_next_model_on_a_16gb/",
     "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "fdb9c520698ec009",
-    "identityId": "reddit:/u/VelixirNET",
-    "author": "/u/VelixirNET",
-    "handle": "/u/VelixirNET",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T14:49:30+00:00",
-    "excerpt": "velixir.net - Free .NET web hosting, no card required, forever.",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwp3io/velixirnet_free_net_web_hosting_no_card_required/",
-    "externalUrl": "http://velixir.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "e9a9ead14e703c4a",
-    "identityId": "reddit:/u/vuglll",
-    "author": "/u/vuglll",
-    "handle": "/u/vuglll",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T14:22:51+00:00",
-    "excerpt": "EFDoctor – open-source static analysis for EF Core anti-patterns (found a real sync-over-async bug in Microsoft's eShop)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwohlu/efdoctor_opensource_static_analysis_for_ef_core/",
-    "externalUrl": "https://github.com/vuglll/EFDoctor",
     "topics": [
       ".NET"
     ]
