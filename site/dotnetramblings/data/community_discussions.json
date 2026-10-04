@@ -1,5 +1,34 @@
 [
   {
+    "id": "316f849f1ea1b9d7",
+    "identityId": "reddit:/u/Shyshiftter",
+    "author": "/u/Shyshiftter",
+    "handle": "/u/Shyshiftter",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T19:28:25+00:00",
+    "excerpt": "I'm a .NET dev who built a free course to move into GenAI — 80 short animated reels, looking for honest feedback",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxo9hy/im_a_net_dev_who_built_a_free_course_to_move_into/",
+    "externalUrl": "https://lkgschool.in/",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "d3d1f8981adc43f8",
+    "identityId": "reddit:/u/shmellyorcgames",
+    "author": "/u/shmellyorcgames",
+    "handle": "/u/shmellyorcgames",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T18:58:01+00:00",
+    "excerpt": "Why my C# game framework chooses the renderer before it creates the window",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxnido/why_my_c_game_framework_chooses_the_renderer/",
+    "externalUrl": "https://dotnet.github.io/Silk.NET",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "8893225f332d43b4",
     "identityId": "reddit:/u/Hephaestite",
     "author": "/u/Hephaestite",
@@ -25,35 +54,6 @@
     "externalUrl": "https://vensas.de/blog/nuget-version-locking",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "3122174ae8d29da8",
-    "identityId": "reddit:/u/000ops",
-    "author": "/u/000ops",
-    "handle": "/u/000ops",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T08:59:55+00:00",
-    "excerpt": "Vorticity : a fully managed .NET lib for the Vortex file format",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxb1be/vorticity_a_fully_managed_net_lib_for_the_vortex/",
-    "externalUrl": "https://github.com/Evariops/Vorticity/blob/main/docs/guide/benchmarks.md",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "181d8bf40f004973",
-    "identityId": "reddit:/u/jeff377",
-    "author": "/u/jeff377",
-    "handle": "/u/jeff377",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T03:41:12+00:00",
-    "excerpt": "Polhem.OAuth2 v1.3: I rewrote my old OAuth2 library with Claude Code, one API for .NET desktop, MAUI and ASP.NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx5sim/polhemoauth2_v13_i_rewrote_my_old_oauth2_library/",
-    "externalUrl": "https://github.com/polhem-dev/polhem-oauth2",
-    "topics": [
-      ".NET",
-      "Security"
     ]
   },
   {
@@ -223,65 +223,6 @@
     "externalUrl": "https://i.redd.it/e99kwi5w4csh1.jpeg",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "f19f88a3132c28b1",
-    "identityId": "reddit:/u/shmellyorcgames",
-    "author": "/u/shmellyorcgames",
-    "handle": "/u/shmellyorcgames",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T21:10:01+00:00",
-    "excerpt": "Stride abstracts graphics APIs. VOID abstracts the renderer itself.",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrvrpm/stride_abstracts_graphics_apis_void_abstracts_the/",
-    "externalUrl": "https://voidengine.net/articles/design-for-vulkan-ship-opengl",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "00c8ae53dd2387b1",
-    "identityId": "reddit:/u/Alert-Neck7679",
-    "author": "/u/Alert-Neck7679",
-    "handle": "/u/Alert-Neck7679",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T19:55:35+00:00",
-    "excerpt": "Got my first contributors for my .NET project 🙂",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrtvot/got_my_first_contributors_for_my_net_project/",
-    "externalUrl": "https://github.com/ArcadeMakerSources/ArcadeMaker",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2d5de8c44ed37404",
-    "identityId": "reddit:/u/ReallySuperName",
-    "author": "/u/ReallySuperName",
-    "handle": "/u/ReallySuperName",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T16:00:13+00:00",
-    "excerpt": "Reducing .NET AWS Lambda Cold Starts by Adding Memory",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrnvj4/reducing_net_aws_lambda_cold_starts_by_adding/",
-    "externalUrl": "https://www.lloydatkinson.net/posts/2026/reducing-dotnet-aws-lambda-cold-starts-by-increasing-memory",
-    "topics": [
-      ".NET",
-      "AWS"
-    ]
-  },
-  {
-    "id": "d12641a94235cff5",
-    "identityId": "reddit:/u/Abdulwaheb-bhs",
-    "author": "/u/Abdulwaheb-bhs",
-    "handle": "/u/Abdulwaheb-bhs",
-    "platform": "reddit",
-    "publishedAt": "2026-09-27T15:07:53+00:00",
-    "excerpt": "HarvestAI — a .NET web scraper/crawler designed for LLM & RAG pipelines",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wrmko5/harvestai_a_net_web_scrapercrawler_designed_for/",
-    "externalUrl": "https://www.nuget.org/packages/HarvestAI",
-    "topics": [
-      ".NET",
-      "DevOps",
-      "AI"
     ]
   }
 ]
