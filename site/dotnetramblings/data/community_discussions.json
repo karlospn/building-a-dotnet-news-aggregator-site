@@ -1,5 +1,47 @@
 [
   {
+    "id": "8893225f332d43b4",
+    "identityId": "reddit:/u/Hephaestite",
+    "author": "/u/Hephaestite",
+    "handle": "/u/Hephaestite",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T09:21:01+00:00",
+    "excerpt": "Hypa - A terminal multiplexer built in C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxbd8k/hypa_a_terminal_multiplexer_built_in_c/",
+    "externalUrl": "https://github.com/Hypabolic/Hypa",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "d1b675c2b2220bc2",
+    "identityId": "reddit:/u/Enough_Secretary_137",
+    "author": "/u/Enough_Secretary_137",
+    "handle": "/u/Enough_Secretary_137",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T09:16:02+00:00",
+    "excerpt": "Why aren’t packages.lock.json files the default in .NET projects?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxbah5/why_arent_packageslockjson_files_the_default_in/",
+    "externalUrl": "https://vensas.de/blog/nuget-version-locking",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "3122174ae8d29da8",
+    "identityId": "reddit:/u/000ops",
+    "author": "/u/000ops",
+    "handle": "/u/000ops",
+    "platform": "reddit",
+    "publishedAt": "2026-10-04T08:59:55+00:00",
+    "excerpt": "Vorticity : a fully managed .NET lib for the Vortex file format",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxb1be/vorticity_a_fully_managed_net_lib_for_the_vortex/",
+    "externalUrl": "https://github.com/Evariops/Vorticity/blob/main/docs/guide/benchmarks.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "181d8bf40f004973",
     "identityId": "reddit:/u/jeff377",
     "author": "/u/jeff377",
