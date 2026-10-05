@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-05T03:07:08.691281+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-05T13:04:28.520098+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-09-21T08:22:56.020150+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T13:04:26.395386+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-04T11:32:17.028516+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T13:04:14.169665+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
