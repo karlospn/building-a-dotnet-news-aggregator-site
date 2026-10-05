@@ -24,14 +24,14 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-03T23:26:31.719169+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T21:44:13.001500+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-04T11:32:17.338180+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T21:44:10.366460+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-05T13:04:28.520098+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T21:44:22.340245+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-10-04T11:32:20.514886+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T21:44:13.160350+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-09-30T03:05:11.723236+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T21:44:23.341962+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-09-30T11:36:35.782197+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T21:44:10.873935+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-05T13:04:14.169665+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T21:44:09.377624+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
