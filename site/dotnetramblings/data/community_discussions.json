@@ -1,5 +1,33 @@
 [
   {
+    "id": "02168d9b7a9c11cb",
+    "identityId": "reddit:/u/VitalyDev77",
+    "author": "/u/VitalyDev77",
+    "handle": "/u/VitalyDev77",
+    "platform": "reddit",
+    "publishedAt": "2026-10-05T04:36:39+00:00",
+    "excerpt": ".NET Stream wrapper around BoringSSL (Chrome-like TLS fingerprint)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxzld8/net_stream_wrapper_around_boringssl_chromelike/",
+    "externalUrl": "https://github.com/optinsoft/BoringSslConsole",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9d0e82b55595b1b7",
+    "identityId": "reddit:/u/Fit_Ad_1874",
+    "author": "/u/Fit_Ad_1874",
+    "handle": "/u/Fit_Ad_1874",
+    "platform": "reddit",
+    "publishedAt": "2026-10-05T01:18:28+00:00",
+    "excerpt": "Can you give me some examples?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxvwl4/can_you_give_me_some_examples/",
+    "externalUrl": "https://university.kurz.fyi/dotnet-concepts/modular-monolith-module-boundaries",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "316f849f1ea1b9d7",
     "identityId": "reddit:/u/Shyshiftter",
     "author": "/u/Shyshiftter",
