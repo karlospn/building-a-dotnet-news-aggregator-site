@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-04T13:12:30.461810+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-05T15:59:31.018556+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-10-04T13:12:33.813758+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T15:59:36.957284+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-10-04T13:12:21.755982+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T15:59:18.494869+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-04T13:12:24.919358+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T15:59:21.907848+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -156,8 +156,8 @@
     "status": "healthy"
   },
   "greg-kamradt": {
-    "checkedAt": "2026-10-04T13:12:35.874912+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T15:59:39.331589+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-09-30T13:41:57.761218+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-05T15:59:31.745299+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-10-03T12:32:52.616113+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T15:59:21.391678+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-04T13:12:38.166034+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-05T15:59:42.227171+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-04T13:12:27.893792+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-05T15:59:28.019971+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
