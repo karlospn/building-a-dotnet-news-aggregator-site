@@ -1,5 +1,19 @@
 [
   {
+    "id": "af39c05f6a01ecb9",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-05T13:00:02.331000+00:00",
+    "excerpt": "🔐 Supply-chain PSA for .NET teams: Microsoft is updating the NuGet author-signing certificate. If you use trusted signer policies or dotnet nuget verify, add the new fingerprint now or risk NU3034 validation failures after the transition. 🚀 msft.it/63325acE5V",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mx4xux4ces2v",
+    "externalUrl": "https://msft.it/63325acE5V",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "d622f98962660641",
     "identityId": "dotnet",
     "author": ".NET",

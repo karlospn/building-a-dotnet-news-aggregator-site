@@ -1,5 +1,34 @@
 [
   {
+    "id": "41ac6f59abf287d3",
+    "identityId": "reddit:/u/DJDoena",
+    "author": "/u/DJDoena",
+    "handle": "/u/DJDoena",
+    "platform": "reddit",
+    "publishedAt": "2026-10-05T08:34:15+00:00",
+    "excerpt": "Weird WindowsService behaviour with .net10 App",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wy3brj/weird_windowsservice_behaviour_with_net10_app/",
+    "externalUrl": "https://preview.redd.it/nzo1o4vf0mth1.png?width=716&format=png&auto=webp&s=29ea47ad63298782868e8a2a2427276862d60cef",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "e133300ca848341b",
+    "identityId": "reddit:/u/erummirza123",
+    "author": "/u/erummirza123",
+    "handle": "/u/erummirza123",
+    "platform": "reddit",
+    "publishedAt": "2026-10-05T04:39:14+00:00",
+    "excerpt": "I built a small RAG application with ASP.NET Core and Ollama — looking for feedback",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxzmym/i_built_a_small_rag_application_with_aspnet_core/",
+    "externalUrl": "https://github.com/erummirza",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "02168d9b7a9c11cb",
     "identityId": "reddit:/u/VitalyDev77",
     "author": "/u/VitalyDev77",
