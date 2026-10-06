@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-05T21:44:10.366460+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-06T03:56:17.669623+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-05T21:44:22.340245+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-06T03:56:29.421134+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
