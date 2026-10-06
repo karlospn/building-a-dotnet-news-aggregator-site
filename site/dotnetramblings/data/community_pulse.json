@@ -1,5 +1,98 @@
 [
   {
+    "id": "885c802f652dffbf",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-06T18:00:01.616000+00:00",
+    "excerpt": "🚨 Production app frozen? Use C# to monitor ThreadPool health, detect saturation, and automatically capture memory dumps for post-mortem debugging. 💾🔎 Stop guessing. Start investigating. 📖 Read: msft.it/63322aWM4i",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mx7z4bzwfv2c",
+    "externalUrl": "https://msft.it/63322aWM4i",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "d03e6cd1ec8f6718",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-06T17:30:32+00:00",
+    "excerpt": "If EF has ever made you question your life choices, dont worry � this course will un-traumatize you. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx7xicmc5c2t",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117395150087903822"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117367067462921096"
+      }
+    ]
+  },
+  {
+    "id": "e474c5486a7215aa",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-06T17:10:08+00:00",
+    "excerpt": "📰 A faster, lighter C# Dev Kit C# Dev Kit has been rebuilt to open solutions in about a second and run on a fraction of the memory, and this post walks through what changed for you. https:// devblogs.microsoft.com/dotnet/ faster-lighter-csharp-dev-kit/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117395069882390383",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/faster-lighter-csharp-dev-kit",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "dad88cdd15f437e3",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "Avalonia UI",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-06T15:40:42+00:00",
+    "excerpt": "Last week, we opened the doors to our new office in Tallinn, Estonia! We've always been a proud Estonian company, and we're thrilled to invest in a local team to support our incredible recent growth. Want to join us? We're hiring: https:// avaloniaui.net/careers # Eesti # Tallinn",
+    "postUrl": "https://dotnet.social/@avaloniaui/117394718199847252",
+    "externalUrl": "https://avaloniaui.net/careers",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mx7rd33n4y24"
+      }
+    ]
+  },
+  {
+    "id": "d008d6023de31937",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-06T15:27:00+00:00",
+    "excerpt": "If you’ve ever seen AI produce confident nonsense, this course helps you prevent it. Learn how to guide Claude toward clarity, boundaries, and real architectural insight:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx7qkp6hzh2v",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117394664339836705"
+      }
+    ]
+  },
+  {
     "id": "46d75efbbf49e09d",
     "identityId": "dotnet",
     "author": ".NET",
@@ -133,30 +226,6 @@
     ]
   },
   {
-    "id": "ac5217740b16c066",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-01T18:28:45+00:00",
-    "excerpt": "EF internals arent scary. Theyre just... mischievous. Tame the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwtifslo7o2h",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117367067462921096"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355511619917302"
-      }
-    ]
-  },
-  {
     "id": "b61db2e10df00de2",
     "identityId": "dotnet",
     "author": ".NET",
@@ -284,41 +353,6 @@
     "externalUrl": "https://msft.it/63326a91Er",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "80a8a3eeb61bbd9f",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-29T17:14:16+00:00",
-    "excerpt": "Coming early next near for Europe and North American timezones: #claude #software #code #dev",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwodc2eymk2g",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117355450002291347"
-      }
-    ]
-  },
-  {
-    "id": "e05b00e42b31f3ce",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-29T16:00:02.651000+00:00",
-    "excerpt": "💜 Built something awesome with .NET? From AI agents 🤖 to cloud-scale apps ☁️, the .NET team wants to hear your story. Share what you've built, what you learned, and inspire fellow devs. 📣 Tell your story: msft.it/63322a5jwO #dotNET #DevCommunity",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwo75c6ocu27",
-    "externalUrl": "https://msft.it/63322a5jwO",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

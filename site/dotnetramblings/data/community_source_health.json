@@ -11,7 +11,7 @@
     "platform": "mastodon",
     "status": "ok",
     "candidates": 20,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "andrew-lock",
@@ -74,14 +74,14 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 22,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "avalonia",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 18,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "khalid-abuhakmeh",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 19
+    "published": 20
   }
 ]
