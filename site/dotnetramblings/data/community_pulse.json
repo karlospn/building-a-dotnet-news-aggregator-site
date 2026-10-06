@@ -1,16 +1,53 @@
 [
   {
-    "id": "af39c05f6a01ecb9",
+    "id": "46d75efbbf49e09d",
     "identityId": "dotnet",
     "author": ".NET",
     "handle": "dot.net",
     "platform": "bluesky",
-    "publishedAt": "2026-10-05T13:00:02.331000+00:00",
-    "excerpt": "🔐 Supply-chain PSA for .NET teams: Microsoft is updating the NuGet author-signing certificate. If you use trusted signer policies or dotnet nuget verify, add the new fingerprint now or risk NU3034 validation failures after the transition. 🚀 msft.it/63325acE5V",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mx4xux4ces2v",
-    "externalUrl": "https://msft.it/63325acE5V",
+    "publishedAt": "2026-10-05T19:00:01.700000+00:00",
+    "excerpt": "🤖 AI wrote the PR. Who owns the code? Live from Codegarden, OSS leaders discuss AI-assisted contributions, trust, reviews, testing, GitHub Copilot, Claude Code, and a simple rule: ✅ If you commit it, it's your responsibility. 🎧 msft.it/63321acEvP",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mx5lynpxdj2q",
+    "externalUrl": "https://msft.it/63321acEvP",
+    "topics": [
+      ".NET",
+      "AI",
+      "Testing"
+    ]
+  },
+  {
+    "id": "c3b69aac2bc79c27",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-05T16:30:29+00:00",
+    "excerpt": "Stories I like: Task in C#",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx5dncckac2a",
+    "externalUrl": "https://dev.to/rhuturaj_takle/task-in-c-2dhn",
     "topics": [
       ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117389251649387539"
+      }
+    ]
+  },
+  {
+    "id": "526f78450aeed508",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-05T16:23:49.105000+00:00",
+    "excerpt": "🤖 AG-UI now has a first class .NET SDK! Stream agent lifecycle events, tool calls, state updates & multi-agent workflows using a standard protocol. Less custom event parsing. More interoperable AI apps. ⚡ 📖 Read: msft.it/6187altTH",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mx5dbdhsjl2h",
+    "externalUrl": "https://msft.it/6187altTH",
+    "topics": [
+      ".NET",
+      "AI"
     ]
   },
   {
@@ -282,57 +319,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "1dbf87d026dc81af",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-28T21:00:01.885000+00:00",
-    "excerpt": "Martin Woodward's pick: the new GitHub Copilot app, which just shipped for everyone. It's a native Windows and Mac experience for agentic coding, issues, and PRs, and it runs work in separate worktrees so nothing collides. 🎥 msft.it/63324a5bGe",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwm7gsbso42w",
-    "externalUrl": "https://msft.it/63324a5bGe",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "0281ff9caf8745fe",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-28T17:00:01.545000+00:00",
-    "excerpt": "〰️ HAPPENING TOMORROW at 10AM PT 〰️ Microsoft Reactor series: Modernize faster with the GitHub Copilot modernization agent 〰️ From Tribal Knowledge to Production Code: Custom Skills for GitHub Copilot Modernization. Join us LIVE: msft.it/63327a5waD #AgenticModernization…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwlrzn27mq2e",
-    "externalUrl": "https://msft.it/63327a5waD",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "70cf8f5edfa1b6d1",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-28T16:30:26+00:00",
-    "excerpt": "Stories I like: Bi-directional logical replication in PostgreSQL: a practical guide",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwlqesk5sd2j",
-    "externalUrl": "https://www.red-gate.com/simple-talk/databases/bi-directional-logical-replication-in-postgresql-a-practical-guide",
-    "topics": [
-      ".NET",
-      "Data"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117349615295364517"
-      }
     ]
   }
 ]

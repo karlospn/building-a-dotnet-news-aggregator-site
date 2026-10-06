@@ -1,5 +1,19 @@
 [
   {
+    "id": "8afaafb482ba3ee2",
+    "identityId": "reddit:/u/sdrapkin",
+    "author": "/u/sdrapkin",
+    "handle": "/u/sdrapkin",
+    "platform": "reddit",
+    "publishedAt": "2026-10-05T19:10:26+00:00",
+    "excerpt": "OneFlight – a small .NET library for coalescing concurrent async calls by key",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wyhc46/oneflight_a_small_net_library_for_coalescing/",
+    "externalUrl": "https://github.com/sdrapkin/SecurityDriven.OneFlight",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "41ac6f59abf287d3",
     "identityId": "reddit:/u/DJDoena",
     "author": "/u/DJDoena",
@@ -38,20 +52,6 @@
     "excerpt": ".NET Stream wrapper around BoringSSL (Chrome-like TLS fingerprint)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxzld8/net_stream_wrapper_around_boringssl_chromelike/",
     "externalUrl": "https://github.com/optinsoft/BoringSslConsole",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "9d0e82b55595b1b7",
-    "identityId": "reddit:/u/Fit_Ad_1874",
-    "author": "/u/Fit_Ad_1874",
-    "handle": "/u/Fit_Ad_1874",
-    "platform": "reddit",
-    "publishedAt": "2026-10-05T01:18:28+00:00",
-    "excerpt": "Can you give me some examples?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxvwl4/can_you_give_me_some_examples/",
-    "externalUrl": "https://university.kurz.fyi/dotnet-concepts/modular-monolith-module-boundaries",
     "topics": [
       ".NET"
     ]
@@ -266,20 +266,6 @@
     "topics": [
       ".NET",
       "Azure"
-    ]
-  },
-  {
-    "id": "a447dd8cd9ece8a6",
-    "identityId": "reddit:/u/souley76",
-    "author": "/u/souley76",
-    "handle": "/u/souley76",
-    "platform": "reddit",
-    "publishedAt": "2026-09-28T22:12:44+00:00",
-    "excerpt": "My local Chase ATM running .NET 😂 CsvHelper.dll spotted !!",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wsslr1/my_local_chase_atm_running_net_csvhelperdll/",
-    "externalUrl": "https://i.redd.it/e99kwi5w4csh1.jpeg",
-    "topics": [
-      ".NET"
     ]
   }
 ]
