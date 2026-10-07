@@ -1,0 +1,26 @@
+---
+title: Rethinking Tooltips with Interest Invokers and Popover API - Martine Dowden - NDC Oslo 2026
+date: '2026-10-07T08:00:11Z'
+link: https://www.youtube.com/watch?v=zLaN_7eyh38
+canonicalUrl: https://www.youtube.com/watch?v=zLaN_7eyh38
+source: NDC Conferences Youtube Channel
+sourceId: ndc
+sourceUrl: https://ndcconferences.com/
+contentType: video
+topics:
+- General
+tags:
+- General
+thumbnail: https://i.ytimg.com/vi/zLaN_7eyh38/hqdefault.jpg
+fallbackThumbnail: images/youtube.png
+duration: '44:51'
+rank: 63
+featured: false
+whyItMatters: Worth a watch for developers following General.
+showShare: false
+showReadTime: false
+---
+This talk was recorded at NDC Oslo in Oslo, Norway. #ndcoslo #ndcconferences #developer #softwaredeveloper Attend the next ...
+
+- Worth a watch for developers following General.
+- Link to video: https://www.youtube.com/watch?v=zLaN_7eyh38
