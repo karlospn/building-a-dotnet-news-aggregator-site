@@ -1,0 +1,34 @@
+---
+title: How Qlik built grounded, enterprise-scale AI with Amazon Bedrock
+date: '2026-10-07T15:48:46+00:00'
+link: https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock
+canonicalUrl: https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock
+source: AWS Machine Learning Blog
+sourceId: aws-ml-blog
+sourceUrl: https://aws.amazon.com/blogs/machine-learning
+author: Sunil Yerkola
+contentType: article
+topics:
+- AWS
+- AI
+- Architecture
+tags:
+- AWS
+- AI
+- Architecture
+aiSubtopics:
+- Agents
+- Security
+thumbnail: https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-21310-featured-image.png
+fallbackThumbnail: images/aws.png
+readingMinutes: 9
+rank: 67
+featured: false
+whyItMatters: Worth a read for developers following AWS and AI.
+showShare: false
+showReadTime: false
+---
+Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.
+
+- Worth a read for developers following AWS and AI.
+- Link to article: https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock
