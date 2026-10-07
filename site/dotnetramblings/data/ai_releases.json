@@ -1,5 +1,43 @@
 [
   {
+    "id": "microsoft/agent-framework:405791685",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.24.0",
+    "tagName": "dotnet-1.24.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-07T13:26:03+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.24.0",
+    "summary": "245d4284a5018b7f446b5eac4d3add1fa5547229 .NET: Restore source-only release solution filter (#9140) [ #8537 ] d0ccaa62761ec36c59c139940797978623fb630a .NET: Preserve explicit null session state across roundtrips (#9012) 279d97f75cb2e7eee885dcdc2c741ef7361ee903 .NET: Honor disabled…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.24.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:404939044",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.81.0",
+    "tagName": "dotnet-1.81.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-06T16:34:47+00:00",
+    "title": "Semantic Kernel for .NET 1.81.0",
+    "summary": "bd3150d9a215684e68a8598abda515d16edc89cb .Net: Bump package version to 1.81.0 (#14553) a205c428ee03094751dd33943a8e23571b4e410a .Net: Update file handling for FileIOPlugin (#14525) 58ad1a3780159300c766477f258a4cdfa768eedf .Net: Improve Milvus filtering (#14498)…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.81.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
     "id": "microsoft/onnxruntime:401323329",
     "product": "ONNX Runtime",
     "version": "1.28.3",
@@ -1808,25 +1846,6 @@
       "SDKs"
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.3.0",
-    "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "microsoft/agent-framework:311948879",
-    "product": "Microsoft Agent Framework for .NET",
-    "version": "1.2.0",
-    "tagName": "dotnet-1.2.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-04-21T21:23:14+00:00",
-    "title": "Microsoft Agent Framework for .NET 1.2.0",
-    "summary": "f2b215a2f6d4767fd37b17dd33195100ea2e498f .NET [WIP] Foundry Hosted Agents Support (#5312) [ #5091, #5287, #5278, #5281, #5316, #5336, #5341, #5367, #5368, #5371, #5374, #5406, #5408 ] 57fa8ea9022ac9ec39fb5ececb020aa042599c8f Python: Fix OpenAIEmbeddingClient to use AsyncOpenAI…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.2.0",
     "repository": "microsoft/agent-framework",
     "official": true
   },
