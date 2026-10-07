@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-05T13:04:26.395386+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-07T00:14:54.474478+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-06T19:54:45.847825+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-07T00:14:42.711648+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
