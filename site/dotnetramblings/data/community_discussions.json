@@ -1,5 +1,19 @@
 [
   {
+    "id": "fcbe576d0f4aabd2",
+    "identityId": "reddit:/u/JamesNK",
+    "author": "/u/JamesNK",
+    "handle": "/u/JamesNK",
+    "platform": "reddit",
+    "publishedAt": "2026-10-07T00:30:29+00:00",
+    "excerpt": "Bringing Native AOT to the Aspire dashboard",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wziu2i/bringing_native_aot_to_the_aspire_dashboard/",
+    "externalUrl": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "594f5b0b9de00eb6",
     "identityId": "reddit:/u/Minimum-Ad7352",
     "author": "/u/Minimum-Ad7352",
