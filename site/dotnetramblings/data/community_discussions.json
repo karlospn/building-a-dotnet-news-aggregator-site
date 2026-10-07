@@ -1,5 +1,19 @@
 [
   {
+    "id": "f82c35f231401e6f",
+    "identityId": "reddit:/u/sanampakuwal1",
+    "author": "/u/sanampakuwal1",
+    "handle": "/u/sanampakuwal1",
+    "platform": "reddit",
+    "publishedAt": "2026-10-07T08:08:25+00:00",
+    "excerpt": "I built TypeSafeSharp: a .NET client for TypeSafe's System One API (netstandard2.0 + net10.0, AOT-clean)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wzqvqx/i_built_typesafesharp_a_net_client_for_typesafes/",
+    "externalUrl": "https://www.nuget.org/packages/TypeSafeSharp.Extensions.DependencyInjection",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "fcbe576d0f4aabd2",
     "identityId": "reddit:/u/JamesNK",
     "author": "/u/JamesNK",
