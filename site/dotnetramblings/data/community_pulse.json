@@ -1,5 +1,57 @@
 [
   {
+    "id": "c9311eac085cbdc2",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-07T20:00:01.734000+00:00",
+    "excerpt": "💥 Prod app hanging? Don't guess... dump. 🧵 Learn how to capture a memory dump, inspect Parallel Stacks in Visual Studio, spot ThreadPool saturation, and use GitHub Copilot to accelerate root-cause analysis. 🤖⚙️ Read: msft.it/63326ac0o8",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxcqbrvwtm2o",
+    "externalUrl": "https://msft.it/63326ac0o8",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "189c57fec2076ef0",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-07T15:30:33+00:00",
+    "excerpt": "Stories I like: 10 Years of Building Business Software: What Production Systems Taught Me That Tutorials Didn’t https:// dev.to/a95yman/10-years-of-bui lding-business-software-what-production-systems-taught-me-that-tutorials-didnt-5hka",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117400340628164018",
+    "externalUrl": "https://dev.to/a95yman/10-years-of-building-business-software-what-production-systems-taught-me-that-tutorials-didnt-5hka",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxcb7t7xfl26"
+      }
+    ]
+  },
+  {
+    "id": "6356bd00acb4c7bb",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-07T14:00:01.695000+00:00",
+    "excerpt": "Performance improvements in .NET 11, automatic zone placement for Azure VM Scale Sets, Microsoft’s multicloud database SDK, critical .NET security updates, and the latest production-ready capabilities in Microsoft Foundry. Episode 6 of The Upload ➡️ msft.it/63328alt5E",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxc462ir2627",
+    "externalUrl": "https://msft.it/63328alt5E",
+    "topics": [
+      ".NET",
+      "Azure",
+      "Data"
+    ]
+  },
+  {
     "id": "885c802f652dffbf",
     "identityId": "dotnet",
     "author": ".NET",
@@ -289,42 +341,6 @@
     "topics": [
       ".NET",
       "Architecture"
-    ]
-  },
-  {
-    "id": "e5f2dbdbd95f7554",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-30T21:00:02.238000+00:00",
-    "excerpt": "〰️ HAPPENING TOMORROW 〰️ Let's Learn GitHub Copilot SDK - .NET Edition Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. See you LIVE here at 9AM PT ➡️…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwraenjohm2h",
-    "externalUrl": "https://msft.it/63326a5C8A",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "3caa040ca44c0af6",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-09-30T15:31:07+00:00",
-    "excerpt": "Stories I like: Stop alt-tabbing into the wrong Visual Studio - Visual Studio Blog",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwqnyjonbq2i",
-    "externalUrl": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio",
-    "topics": [
-      "Visual Studio",
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117360706659970656"
-      }
     ]
   }
 ]
