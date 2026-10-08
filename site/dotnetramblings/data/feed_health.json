@@ -6,8 +6,8 @@
     "status": "healthy"
   },
   "andrewlock": {
-    "checkedAt": "2026-10-06T12:27:21.807134+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-08T00:35:58.943127+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-07T18:09:32.867097+00:00",
-    "itemCount": 10,
+    "checkedAt": "2026-10-08T00:35:48.427165+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
@@ -138,8 +138,8 @@
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-10-06T12:27:23.153744+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-08T00:36:00.045800+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-07T18:09:31.285282+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-08T00:35:46.353850+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
