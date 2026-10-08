@@ -1,5 +1,43 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:406373375",
+    "product": "Anthropic C# SDK",
+    "version": "12.54.1",
+    "tagName": "Anthropic-v12.54.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-08T03:17:30+00:00",
+    "title": "Anthropic C# SDK 12.54.1",
+    "summary": "client: throw before sending a request with an empty path parameter docs: note that listing Claude Console spend limits is in early access",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.54.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:406027871",
+    "product": "Anthropic C# SDK",
+    "version": "12.54.0",
+    "tagName": "Anthropic-v12.54.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-07T18:05:49+00:00",
+    "title": "Anthropic C# SDK 12.54.0",
+    "summary": "api: add claude-haiku-5-5 and typed computer and browser toolset tool calls (bca56de) api: add disabled to thinking types in model capabilities (ced04c8) api: add displayname to RBAC roles and deprecate name (d2f6d96) api: add includedefault parameter to list workspaces (502f752)",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.54.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "microsoft/agent-framework:405791685",
     "product": "Microsoft Agent Framework for .NET",
     "version": "1.24.0",
@@ -1303,25 +1341,6 @@
     "official": true
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:347734839",
-    "product": "Anthropic C# SDK",
-    "version": "12.34.1",
-    "tagName": "Anthropic-v12.34.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-01T21:54:49+00:00",
-    "title": "Anthropic C# SDK 12.34.1",
-    "summary": "api: remove some nonfunctional types from the SDKs (7a70377)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.34.1",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "openai/openai-dotnet:347622895",
     "product": "OpenAI .NET SDK",
     "version": "2.12.0",
@@ -1338,25 +1357,6 @@
     ],
     "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.12.0",
     "repository": "openai/openai-dotnet",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:347065224",
-    "product": "Anthropic C# SDK",
-    "version": "12.34.0",
-    "tagName": "Anthropic-v12.34.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-06-30T19:47:01+00:00",
-    "title": "Anthropic C# SDK 12.34.0",
-    "summary": "api: add support for Managed Agents event delta streaming, agent overrides, reverse pagination, vault credential injection scoping, and agent and deployment webhook events (78ef01b)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.34.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
@@ -2771,25 +2771,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.66.0",
     "repository": "microsoft/semantic-kernel",
-    "official": true
-  },
-  {
-    "id": "microsoft/onnxruntime:252902201",
-    "product": "ONNX Runtime",
-    "version": "1.23.1",
-    "tagName": "v1.23.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-10-08T04:12:55+00:00",
-    "title": "ONNX Runtime 1.23.1",
-    "summary": "- Fix Attention GQA implementation on CPU (#25966) - Address edge GetMemInfo edge cases (#26021) - Implement new Python APIs (#25999) - MemcpyFromHost and MemcpyToHost support for plugin EPs (#26088) - [TRT RTX EP] Fix bug for generating the correct subgraph in GetCapability…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Local Models",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.1",
-    "repository": "microsoft/onnxruntime",
     "official": true
   }
 ]
