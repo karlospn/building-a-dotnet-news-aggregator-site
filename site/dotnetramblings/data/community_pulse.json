@@ -1,5 +1,27 @@
 [
   {
+    "id": "a500e2a2caabea2a",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "Mark Downie",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-08T01:47:56+00:00",
+    "excerpt": "OpenAI apparently put roughly 10,000 agents on the task, 88 hours of reasoning, 130 billion output tokens. Then spent another 17 hours to validate the result in Lean, a proof assistant that mechanically checks every logical step. Estimated compute cost: somewhere between $15…",
+    "postUrl": "https://dotnet.social/@poppastring/117402768260582109",
+    "externalUrl": "https://www.poppastring.com/blog/the-unread-proof",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwwe63etl22e"
+      }
+    ]
+  },
+  {
     "id": "c9311eac085cbdc2",
     "identityId": "dotnet",
     "author": ".NET",
@@ -212,22 +234,6 @@
     ]
   },
   {
-    "id": "9f6d445e3c64cad1",
-    "identityId": "mark-downie",
-    "author": "Mark Downie",
-    "handle": "poppastring.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-02T21:51:15.733000+00:00",
-    "excerpt": "Spending $15 million proving an alternate version of the Navier-Stokes problem, in a document dense enough that reading it may itself require an AI assistant is not the flex you think it is. #math #physica www.poppastring.com/blog/the-unr...",
-    "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwwe63etl22e",
-    "externalUrl": "https://www.poppastring.com/blog/the-unread-proof",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
-    ]
-  },
-  {
     "id": "4009982751c78eb7",
     "identityId": "dotnet",
     "author": ".NET",
@@ -305,42 +311,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "bcdbf904510d23bd",
-    "identityId": "mark-downie",
-    "author": "Mark Downie",
-    "handle": "poppastring.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-01T03:18:35.127000+00:00",
-    "excerpt": "Deterministic When Possible. Probabilistic When Necessary. Human When Cheaper. codemanship.wordpress.com/2026/09/30/d...",
-    "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwrvjk25a22c",
-    "externalUrl": "https://codemanship.wordpress.com/2026/09/30/deterministic-when-possible-probabilistic-when-necessary-human-when-cheaper",
-    "topics": [
-      "Visual Studio",
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://dotnet.social/@poppastring/117363488143470583"
-      }
-    ]
-  },
-  {
-    "id": "f71d058bc885e517",
-    "identityId": "david-fowler",
-    "author": "David Fowler",
-    "handle": "davidfowl.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-01T03:02:08.282000+00:00",
-    "excerpt": "My first son (11) has been on a vibe coding tear for the last couple of months. He's been making games on his web page kaicade.com. Play and give me some feedback for him!",
-    "postUrl": "https://bsky.app/profile/davidfowl.com/post/3mwrum4vygk2b",
-    "externalUrl": "https://kaicade.com/",
-    "topics": [
-      ".NET",
-      "Architecture"
     ]
   }
 ]

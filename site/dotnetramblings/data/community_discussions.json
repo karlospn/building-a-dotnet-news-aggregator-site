@@ -1,5 +1,19 @@
 [
   {
+    "id": "b4af221d3f8e5fc7",
+    "identityId": "reddit:/u/HarshadLambate",
+    "author": "/u/HarshadLambate",
+    "handle": "/u/HarshadLambate",
+    "platform": "reddit",
+    "publishedAt": "2026-10-08T03:36:50+00:00",
+    "excerpt": "I built a .NET test reporter to solve two problems I kept seeing in test automation",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0gpi7/i_built_a_net_test_reporter_to_solve_two_problems/",
+    "externalUrl": "https://i.redd.it/bejhrk594oth1.png",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "f82c35f231401e6f",
     "identityId": "reddit:/u/sanampakuwal1",
     "author": "/u/sanampakuwal1",
