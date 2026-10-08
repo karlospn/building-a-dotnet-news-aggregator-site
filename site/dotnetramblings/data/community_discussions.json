@@ -1,5 +1,19 @@
 [
   {
+    "id": "8b1efedec2ac1cc7",
+    "identityId": "reddit:/u/Some-Pear5134",
+    "author": "/u/Some-Pear5134",
+    "handle": "/u/Some-Pear5134",
+    "platform": "reddit",
+    "publishedAt": "2026-10-08T16:18:59+00:00",
+    "excerpt": "IF em C# como e quando utilizar!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0v9bu/if_em_c_como_e_quando_utilizar/",
+    "externalUrl": "https://v.redd.it/uyxtrm3vq9uh1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "cf4133596a4fffcd",
     "identityId": "reddit:/u/jorgenhoc",
     "author": "/u/jorgenhoc",
@@ -305,48 +319,6 @@
     "excerpt": "RE:Dox, high performance token-based structured data engine for .NET",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvlpgt/redox_high_performance_tokenbased_structured_data/",
     "externalUrl": "https://github.com/CAPCOM-TD-OSS/REDox",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "e6adcf176706031e",
-    "identityId": "reddit:/u/gus-ghielec",
-    "author": "/u/gus-ghielec",
-    "handle": "/u/gus-ghielec",
-    "platform": "reddit",
-    "publishedAt": "2026-10-01T14:37:06+00:00",
-    "excerpt": "C# running inside a gutted 1980s DENON tuner",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv14hk/c_running_inside_a_gutted_1980s_denon_tuner/",
-    "externalUrl": "https://github.com/Implicate-X/ImplicateX.TinyCLR.Drivers.Tuner.Tef668x",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "e24111ab6ea2a1ba",
-    "identityId": "reddit:/u/smartdotnet",
-    "author": "/u/smartdotnet",
-    "handle": "/u/smartdotnet",
-    "platform": "reddit",
-    "publishedAt": "2026-10-01T14:30:35+00:00",
-    "excerpt": "Smart.NET - inspired by TypeSafe Jev",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv0ynu/smartnet_inspired_by_typesafe_jev/",
-    "externalUrl": "https://www.nuget.org/packages/Smart.NET.Core/0.1.0-alpha.1",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "edac48dffeddecce",
-    "identityId": "reddit:/u/Noof_saeed",
-    "author": "/u/Noof_saeed",
-    "handle": "/u/Noof_saeed",
-    "platform": "reddit",
-    "publishedAt": "2026-10-01T14:28:19+00:00",
-    "excerpt": "Looking for feedback on my .NET 10 + Blazor project & star",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wv0wgx/looking_for_feedback_on_my_net_10_blazor_project/",
-    "externalUrl": "https://github.com/NoofSaeed/CompanyProfile",
     "topics": [
       ".NET"
     ]

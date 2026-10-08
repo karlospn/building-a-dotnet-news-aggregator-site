@@ -1,5 +1,44 @@
 [
   {
+    "id": "61fdc2dc5c08e2c1",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-08T18:27:38+00:00",
+    "excerpt": "EF Core: \"I made 47 queries.\" You: \"We talked about this.\" Learn how to stop the madness: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxf3mape2f26",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117406699237648456"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117395150087903822"
+      }
+    ]
+  },
+  {
+    "id": "dc1a2c2c8062caf1",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-08T18:00:02.647000+00:00",
+    "excerpt": "Discover the emerging classifier revolution with Jev—a new take on LLMs that ditches generation for lightning-fast categorization. Dive into the latest model releases, practical strategies for iterative AI dev, and why specialized models are reshaping how we work with AI. 🎧…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxf225wcea2v",
+    "externalUrl": "https://msft.it/63329aYn5c",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "480c90f4eeca0963",
     "identityId": "dotnet",
     "author": ".NET",
@@ -127,30 +166,6 @@
     "externalUrl": "https://msft.it/63322aWM4i",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "d03e6cd1ec8f6718",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-06T17:30:32+00:00",
-    "excerpt": "If EF has ever made you question your life choices, dont worry � this course will un-traumatize you. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx7xicmc5c2t",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117395150087903822"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117367067462921096"
-      }
     ]
   },
   {
