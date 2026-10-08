@@ -1,5 +1,47 @@
 [
   {
+    "id": "480c90f4eeca0963",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-08T12:00:02.466000+00:00",
+    "excerpt": "🤖 Chatbots wait. Agents act. Microsoft Foundry Routines are now GA 🚀 ✅ Scheduled + event-driven triggers ✅ GitHub & Teams integrations ✅ Managed identity ✅ Long-running workflows via reminders Build agents that work while you sleep. 😎 📖 msft.it/63324aYVCY",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxefwgf2he2l",
+    "externalUrl": "https://msft.it/63324aYVCY",
+    "topics": [
+      ".NET",
+      "AI",
+      "Security"
+    ]
+  },
+  {
+    "id": "e10790d7ed49f864",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-08T10:05:00+00:00",
+    "excerpt": "If you want to use AI in architecture without losing rigor, this course shows you exactly how to do it—live, interactive, and instructor-led:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxe7ir35n32z",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Architecture"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117404722814480357"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117394664339836705"
+      }
+    ]
+  },
+  {
     "id": "a500e2a2caabea2a",
     "identityId": "mark-downie",
     "author": "Mark Downie",
@@ -128,27 +170,6 @@
       {
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mx7rd33n4y24"
-      }
-    ]
-  },
-  {
-    "id": "d008d6023de31937",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-06T15:27:00+00:00",
-    "excerpt": "If you’ve ever seen AI produce confident nonsense, this course helps you prevent it. Learn how to guide Claude toward clarity, boundaries, and real architectural insight:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx7qkp6hzh2v",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117394664339836705"
       }
     ]
   },
@@ -282,35 +303,6 @@
     "topics": [
       "Visual Studio",
       ".NET"
-    ]
-  },
-  {
-    "id": "b61db2e10df00de2",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-01T13:00:01.711000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY AT 11AM PT 〰️ Join the GnollHack! team for the next .NET MAUI Community Standup! Explore how the team uses #dotNETMAUI to bring a deep, traditional roguelike experience to Android, iOS, and Windows. Bring your questions and join us live! msft.it/63324acxYe",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwsvzajorv2h",
-    "externalUrl": "https://msft.it/63324acxYe",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "b8e4f4e2274edc8a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-01T11:00:04.834000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY 〰️ Let's Learn GitHub Copilot SDK - .NET Edition Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. See you LIVE here at 9AM PT ➡️…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwspcr6u6c2p",
-    "externalUrl": "https://msft.it/63321agbPU",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
