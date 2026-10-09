@@ -1,5 +1,21 @@
 [
   {
+    "id": "dad1455b6ce54d4f",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-09T20:00:01.137000+00:00",
+    "excerpt": "This week on The Upload: .NET apps capture memory dumps when things go wrong, we break down the challenges of moving time data between PostgreSQL and SQL Server, and AI agents get stronger isolation and durable memory with Microsoft Foundry and Azure Blob Storage. 🎥…",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxhr7mfo2p2q",
+    "externalUrl": "https://msft.it/63325aYdZN",
+    "topics": [
+      ".NET",
+      "Azure",
+      "AI"
+    ]
+  },
+  {
     "id": "6cf91acb5806a0fd",
     "identityId": "dotnet",
     "author": ".NET",
@@ -123,12 +139,6 @@
       "Visual Studio",
       ".NET",
       "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/poppastring.com/post/3mwwe63etl22e"
-      }
     ]
   },
   {
@@ -279,21 +289,6 @@
     "excerpt": "🤖 Blazor goes agentic! 🚀 New Blazor AI components help you build chat UIs, stream responses, manage conversations, and create AI-powered experiences using familiar .NET patterns. 🧠⚡ Build smarter apps with less boilerplate. 📖 Read: msft.it/63324altVK",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mwy2cewujq2o",
     "externalUrl": "https://msft.it/63324altVK",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "4009982751c78eb7",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-02T21:08:52.175000+00:00",
-    "excerpt": "🤖 AG-UI now has a SDK! Stream agent lifecycle events, tool calls, state updates & multi-agent workflows using a standard protocol. Less custom event parsing. More interoperable AI apps. ⚡ 📖 Read: msft.it/63321altrS",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwwbsbnn6s26",
-    "externalUrl": "https://msft.it/63321altrS",
     "topics": [
       ".NET",
       "AI"

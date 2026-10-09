@@ -1,5 +1,33 @@
 [
   {
+    "id": "7c3d0f302d1c1dc6",
+    "identityId": "reddit:/u/jame_581",
+    "author": "/u/jame_581",
+    "handle": "/u/jame_581",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T20:37:48+00:00",
+    "excerpt": "Markd Day Counter - an open-source day counter .NET MAUI app",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1wc05/markd_day_counter_an_opensource_day_counter_net/",
+    "externalUrl": "https://apps.microsoft.com/store/detail/9N05867SQCN8?cid=DevShareMCLPCS",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "80b3fcd37f9b5927",
+    "identityId": "reddit:/u/RagingAtLiife",
+    "author": "/u/RagingAtLiife",
+    "handle": "/u/RagingAtLiife",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T19:39:16+00:00",
+    "excerpt": "Steam Game Idler: a Tauri + Rust desktop app with a C# SteamKit2 sidecar that farms Steam trading cards, idles playtime and manages achievements",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1uujl/steam_game_idler_a_tauri_rust_desktop_app_with_a/",
+    "externalUrl": "https://v.redd.it/jcct9oxgvhuh1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "c617c0bffd91010e",
     "identityId": "reddit:/u/Ollhax",
     "author": "/u/Ollhax",
@@ -23,34 +51,6 @@
     "excerpt": "TemplateMaster – .NET integration for generating PDFs and emails from reusable templates",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1lt0k/templatemaster_net_integration_for_generating/",
     "externalUrl": "https://templatemaster.fr/fr/documentation/dotnet-integration",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "25aca24d46c37ab3",
-    "identityId": "reddit:/u/owen800q",
-    "author": "/u/owen800q",
-    "handle": "/u/owen800q",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T09:23:30+00:00",
-    "excerpt": "I built RetroCap, a QQ-style screenshot and annotation tool with .NET 8 and WPF",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1grj6/i_built_retrocap_a_qqstyle_screenshot_and/",
-    "externalUrl": "https://github.com/owen800q/Retro.NET",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "343fd3ff0b05fafa",
-    "identityId": "reddit:/u/HeerDaHeera",
-    "author": "/u/HeerDaHeera",
-    "handle": "/u/HeerDaHeera",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T04:49:52+00:00",
-    "excerpt": "New to ASP .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1cdg5/new_to_asp_net/",
-    "externalUrl": "https://dotnettutorials.net/lesson/dotnet-framework",
     "topics": [
       ".NET"
     ]
@@ -333,20 +333,6 @@
     "excerpt": "Running a 176B Qwen3.8 Flash Next model on a 16GB RTX 3080 Laptop — with a .NET/C# inference engine",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwwrdh/running_a_176b_qwen38_flash_next_model_on_a_16gb/",
     "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "1a41b8ab4e5ffd89",
-    "identityId": "reddit:/u/zionsati",
-    "author": "/u/zionsati",
-    "handle": "/u/zionsati",
-    "platform": "reddit",
-    "publishedAt": "2026-10-02T22:49:43+00:00",
-    "excerpt": "Regex Storm .NET ported to Wasm using NetWasm",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1ww7kzj/regex_storm_net_ported_to_wasm_using_netwasm/",
-    "externalUrl": "https://preview.redd.it/qrx8rx20y4th1.png?width=1990&format=png&auto=webp&s=53459f022941e723379bb09f56cfac3b00892add",
     "topics": [
       ".NET"
     ]

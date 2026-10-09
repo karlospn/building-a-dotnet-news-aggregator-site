@@ -32,7 +32,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 1,
-    "published": 1
+    "published": 0
   },
   {
     "identityId": "mark-downie",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 25
+    "published": 24
   }
 ]
