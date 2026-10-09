@@ -1,5 +1,24 @@
 [
   {
+    "id": "microsoft/onnxruntime:407504198",
+    "product": "ONNX Runtime",
+    "version": "1.31.0",
+    "tagName": "v1.31.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-09T04:51:32+00:00",
+    "title": "ONNX Runtime 1.31.0",
+    "summary": "ONNX Runtime 1.31.0 stabilizes model-package and EPContext data APIs, improves CPU model loading and quantized MoE inference, expands device-based execution-provider selection, and strengthens model-loading and runtime reliability. These notes cover changes since ONNX Runtime…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.31.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:406373375",
     "product": "Anthropic C# SDK",
     "version": "12.54.1",
@@ -2752,25 +2771,6 @@
     ],
     "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v9.10.0",
     "repository": "dotnet/extensions",
-    "official": true
-  },
-  {
-    "id": "microsoft/semantic-kernel:253124897",
-    "product": "Semantic Kernel for .NET",
-    "version": "1.66.0",
-    "tagName": "dotnet-1.66.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-10-08T18:27:24+00:00",
-    "title": "Semantic Kernel for .NET 1.66.0",
-    "summary": "5948dbc32326ddd2471c13627e62a5c8f1b30ec2 .Net: Fix OllamaPromptExecutionSettings Clone() method to preserve Ollama-specific settings (#13218) [ #13217 ] a105e14284334f006cd9cdb496a624cbde471a94 Bump version numbers of the .Net dependencies (#13230)…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.66.0",
-    "repository": "microsoft/semantic-kernel",
     "official": true
   }
 ]
