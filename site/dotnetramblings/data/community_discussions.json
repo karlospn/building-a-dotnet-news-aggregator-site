@@ -1,5 +1,33 @@
 [
   {
+    "id": "343fd3ff0b05fafa",
+    "identityId": "reddit:/u/HeerDaHeera",
+    "author": "/u/HeerDaHeera",
+    "handle": "/u/HeerDaHeera",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T04:49:52+00:00",
+    "excerpt": "New to ASP .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1cdg5/new_to_asp_net/",
+    "externalUrl": "https://dotnettutorials.net/lesson/dotnet-framework",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "edfdc170bf12855b",
+    "identityId": "reddit:/u/mistertom2u",
+    "author": "/u/mistertom2u",
+    "handle": "/u/mistertom2u",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T04:24:16+00:00",
+    "excerpt": "Runtime team member: Let's send expensive compiler analysis alongside IL to improve runtime JIT optimizations [Performance interest]",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1bxl5/runtime_team_member_lets_send_expensive_compiler/",
+    "externalUrl": "https://github.com/dotnet/runtime/issues/108931",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "8b1efedec2ac1cc7",
     "identityId": "reddit:/u/Some-Pear5134",
     "author": "/u/Some-Pear5134",
@@ -305,20 +333,6 @@
     "excerpt": "We tried turning a 1982 TI-99/4A game into 3D in the browser with C# and a pixel buffer",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvx4b6/we_tried_turning_a_1982_ti994a_game_into_3d_in/",
     "externalUrl": "https://xaml.io/s/Samples/PSEC-99?autorun=true",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "b367458fd08e07a7",
-    "identityId": "reddit:/u/BomberBlur070",
-    "author": "/u/BomberBlur070",
-    "handle": "/u/BomberBlur070",
-    "platform": "reddit",
-    "publishedAt": "2026-10-02T05:35:26+00:00",
-    "excerpt": "RE:Dox, high performance token-based structured data engine for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvlpgt/redox_high_performance_tokenbased_structured_data/",
-    "externalUrl": "https://github.com/CAPCOM-TD-OSS/REDox",
     "topics": [
       ".NET"
     ]
