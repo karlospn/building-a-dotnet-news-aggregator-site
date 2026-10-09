@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-09T09:49:35.095718+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-09T17:44:56.047255+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-09T09:49:34.439734+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-09T17:44:55.087015+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
