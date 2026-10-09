@@ -1,8 +1,8 @@
 ---
-title: '40 TB Restored in Seven Minutes #visualstudio #developertips'
-date: '2026-10-01T14:00:29Z'
-link: https://www.youtube.com/watch?v=6enbPKOvV6o
-canonicalUrl: https://www.youtube.com/watch?v=6enbPKOvV6o
+title: 'Your Browser Just Became a CSRF Bouncer #visualstudio #vslive #programming'
+date: '2026-10-09T14:00:12Z'
+link: https://www.youtube.com/watch?v=BnmNhltBFl4
+canonicalUrl: https://www.youtube.com/watch?v=BnmNhltBFl4
 source: Microsoft Visual Studio Youtube Channel
 sourceId: visualstudio
 sourceUrl: https://www.youtube.com/@visualstudio
@@ -11,9 +11,9 @@ topics:
 - Visual Studio
 tags:
 - Visual Studio
-thumbnail: https://i.ytimg.com/vi/6enbPKOvV6o/hqdefault.jpg
+thumbnail: https://i.ytimg.com/vi/BnmNhltBFl4/hqdefault.jpg
 fallbackThumbnail: images/youtube.png
-duration: 0:41
+duration: '1:12'
 rank: 62
 featured: false
 whyItMatters: Worth a watch for developers following Visual Studio.
@@ -23,4 +23,4 @@ showReadTime: false
 
 
 - Worth a watch for developers following Visual Studio.
-- Link to video: https://www.youtube.com/watch?v=6enbPKOvV6o
+- Link to video: https://www.youtube.com/watch?v=BnmNhltBFl4
