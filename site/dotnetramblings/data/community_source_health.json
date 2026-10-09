@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 30,
-    "published": 11
+    "published": 10
   },
   {
     "identityId": "dotnet",
@@ -45,15 +45,15 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
-    "published": 5
+    "candidates": 14,
+    "published": 4
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 18,
-    "published": 5
+    "published": 4
   },
   {
     "identityId": "tanner-gooding",
@@ -94,8 +94,8 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 4,
-    "published": 0
+    "candidates": 5,
+    "published": 1
   },
   {
     "identityId": "scott-hanselman",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 24
+    "published": 25
   }
 ]

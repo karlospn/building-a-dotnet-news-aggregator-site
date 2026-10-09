@@ -1,5 +1,34 @@
 [
   {
+    "id": "6cf91acb5806a0fd",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-09T17:59:19.231000+00:00",
+    "excerpt": "🚨 Production app frozen? Use C# to monitor ThreadPool health, detect saturation, and automatically capture memory dumps for post-mortem debugging. 💾🔎 Stop guessing. Start investigating. 📖 Read: msft.it/6187aWM29",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxhkhry3bo23",
+    "externalUrl": "https://msft.it/6187aWM29",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "e4936b56dd782a5b",
+    "identityId": "brad-wilson",
+    "author": "Brad Wilson",
+    "handle": "Brad Wilson",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-09T15:51:28+00:00",
+    "excerpt": "Listening to the new The Pineapple Thief album while prepping today's xUnit.net release. https:// insideoutmusic.bandcamp.com/al bum/far-and-wide-24-bit-hd-audio # Music # ProgRock # ThePineappleThief",
+    "postUrl": "https://mastodon.social/@bradwilson/117411747526270102",
+    "externalUrl": "https://insideoutmusic.bandcamp.com/album/far-and-wide-24-bit-hd-audio",
+    "topics": [
+      ".NET",
+      "Testing"
+    ]
+  },
+  {
     "id": "61fdc2dc5c08e2c1",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -155,20 +184,6 @@
     ]
   },
   {
-    "id": "885c802f652dffbf",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-06T18:00:01.616000+00:00",
-    "excerpt": "🚨 Production app frozen? Use C# to monitor ThreadPool health, detect saturation, and automatically capture memory dumps for post-mortem debugging. 💾🔎 Stop guessing. Start investigating. 📖 Read: msft.it/63322aWM4i",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mx7z4bzwfv2c",
-    "externalUrl": "https://msft.it/63322aWM4i",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
     "id": "dad88cdd15f437e3",
     "identityId": "avalonia",
     "author": "Avalonia UI",
@@ -282,42 +297,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "e3e5ab3e133ffc06",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-02T16:29:31+00:00",
-    "excerpt": "Stories I like: Creator of TypeScript &amp; C#: AI Software Engineering Predictions https://www. youtube.com/watch?v=qEDMAPpl_O4",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117372260950500789",
-    "externalUrl": "https://www.youtube.com/watch?v=qEDMAPpl_O4",
-    "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mwvs6qhr3l2a"
-      }
-    ]
-  },
-  {
-    "id": "93c100eac1d93412",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-02T14:00:02.512000+00:00",
-    "excerpt": "In today's One Dev Question, Amanda Silver shares Microsoft's open source journey, from early #ASPNET support for jQuery to open-sourcing TypeScript, Chakra, .NET, and Visual Studio Code. 🎥 msft.it/63324agdQk",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwvjti4hx42q",
-    "externalUrl": "https://msft.it/63324agdQk",
-    "topics": [
-      "Visual Studio",
-      ".NET"
     ]
   }
 ]

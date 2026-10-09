@@ -1,5 +1,47 @@
 [
   {
+    "id": "c617c0bffd91010e",
+    "identityId": "reddit:/u/Ollhax",
+    "author": "/u/Ollhax",
+    "handle": "/u/Ollhax",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T16:10:37+00:00",
+    "excerpt": "Signs of official Satori support?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1pgbn/signs_of_official_satori_support/",
+    "externalUrl": "https://github.com/dotnet/runtime/discussions/115627",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "d9ce4136cfa9a08e",
+    "identityId": "reddit:/u/Moukouk",
+    "author": "/u/Moukouk",
+    "handle": "/u/Moukouk",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T13:46:45+00:00",
+    "excerpt": "TemplateMaster – .NET integration for generating PDFs and emails from reusable templates",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1lt0k/templatemaster_net_integration_for_generating/",
+    "externalUrl": "https://templatemaster.fr/fr/documentation/dotnet-integration",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "25aca24d46c37ab3",
+    "identityId": "reddit:/u/owen800q",
+    "author": "/u/owen800q",
+    "handle": "/u/owen800q",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T09:23:30+00:00",
+    "excerpt": "I built RetroCap, a QQ-style screenshot and annotation tool with .NET 8 and WPF",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1grj6/i_built_retrocap_a_qqstyle_screenshot_and/",
+    "externalUrl": "https://github.com/owen800q/Retro.NET",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "343fd3ff0b05fafa",
     "identityId": "reddit:/u/HeerDaHeera",
     "author": "/u/HeerDaHeera",
@@ -9,20 +51,6 @@
     "excerpt": "New to ASP .NET",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1cdg5/new_to_asp_net/",
     "externalUrl": "https://dotnettutorials.net/lesson/dotnet-framework",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "edfdc170bf12855b",
-    "identityId": "reddit:/u/mistertom2u",
-    "author": "/u/mistertom2u",
-    "handle": "/u/mistertom2u",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T04:24:16+00:00",
-    "excerpt": "Runtime team member: Let's send expensive compiler analysis alongside IL to improve runtime JIT optimizations [Performance interest]",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1bxl5/runtime_team_member_lets_send_expensive_compiler/",
-    "externalUrl": "https://github.com/dotnet/runtime/issues/108931",
     "topics": [
       ".NET"
     ]
@@ -319,20 +347,6 @@
     "excerpt": "Regex Storm .NET ported to Wasm using NetWasm",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1ww7kzj/regex_storm_net_ported_to_wasm_using_netwasm/",
     "externalUrl": "https://preview.redd.it/qrx8rx20y4th1.png?width=1990&format=png&auto=webp&s=53459f022941e723379bb09f56cfac3b00892add",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "27eb3a4bdc476740",
-    "identityId": "reddit:/u/Userware",
-    "author": "/u/Userware",
-    "handle": "/u/Userware",
-    "platform": "reddit",
-    "publishedAt": "2026-10-02T15:42:09+00:00",
-    "excerpt": "We tried turning a 1982 TI-99/4A game into 3D in the browser with C# and a pixel buffer",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wvx4b6/we_tried_turning_a_1982_ti994a_game_into_3d_in/",
-    "externalUrl": "https://xaml.io/s/Samples/PSEC-99?autorun=true",
     "topics": [
       ".NET"
     ]
