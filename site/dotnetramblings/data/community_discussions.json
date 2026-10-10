@@ -1,5 +1,19 @@
 [
   {
+    "id": "744a521dbc86b171",
+    "identityId": "reddit:/u/pWiklacz",
+    "author": "/u/pWiklacz",
+    "handle": "/u/pWiklacz",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T13:00:07+00:00",
+    "excerpt": "Validation rules you can’t express with an if statement, tested like a classifier (open source, .NET 10)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2eq7b/validation_rules_you_cant_express_with_an_if/",
+    "externalUrl": "https://github.com/semanticpolicy/semantic-policy",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "a095aac8a72b7c51",
     "identityId": "reddit:/u/viewizard",
     "author": "/u/viewizard",
