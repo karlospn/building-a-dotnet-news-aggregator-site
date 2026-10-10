@@ -278,20 +278,5 @@
       ".NET",
       "AI"
     ]
-  },
-  {
-    "id": "d622f98962660641",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-03T14:00:01.848000+00:00",
-    "excerpt": "🤖 Blazor goes agentic! 🚀 New Blazor AI components help you build chat UIs, stream responses, manage conversations, and create AI-powered experiences using familiar .NET patterns. 🧠⚡ Build smarter apps with less boilerplate. 📖 Read: msft.it/63324altVK",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mwy2cewujq2o",
-    "externalUrl": "https://msft.it/63324altVK",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
   }
 ]

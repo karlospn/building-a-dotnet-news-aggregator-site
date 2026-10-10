@@ -1,5 +1,48 @@
 [
   {
+    "id": "67422de614b119e4",
+    "identityId": "reddit:/u/f0rwardz",
+    "author": "/u/f0rwardz",
+    "handle": "/u/f0rwardz",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T19:44:55+00:00",
+    "excerpt": "Componyx.UI v1.0: 25+ UI components and data binding for ASP.NET, no build step",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2o6r4/componyxui_v10_25_ui_components_and_data_binding/",
+    "externalUrl": "https://github.com/componyx/componyx.ui",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "94b01bbf40c1af09",
+    "identityId": "reddit:/u/Mob_Pilled",
+    "author": "/u/Mob_Pilled",
+    "handle": "/u/Mob_Pilled",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T17:51:48+00:00",
+    "excerpt": "Issue connecting my blazor app to remote sql server database hosted my Monsterasp.net",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2lhzc/issue_connecting_my_blazor_app_to_remote_sql/",
+    "externalUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/cannot-generate-sspi-context-error",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
+    "id": "f87b0f35ca55a45f",
+    "identityId": "reddit:/u/skynetTwelve",
+    "author": "/u/skynetTwelve",
+    "handle": "/u/skynetTwelve",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T13:17:48+00:00",
+    "excerpt": "dotnet build will upload a lot of info to microsoft?!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2f3p1/dotnet_build_will_upload_a_lot_of_info_to/",
+    "externalUrl": "https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry?tabs=dotnet11",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "744a521dbc86b171",
     "identityId": "reddit:/u/pWiklacz",
     "author": "/u/pWiklacz",
@@ -9,20 +52,6 @@
     "excerpt": "Validation rules you can’t express with an if statement, tested like a classifier (open source, .NET 10)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2eq7b/validation_rules_you_cant_express_with_an_if/",
     "externalUrl": "https://github.com/semanticpolicy/semantic-policy",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "a095aac8a72b7c51",
-    "identityId": "reddit:/u/viewizard",
-    "author": "/u/viewizard",
-    "handle": "/u/viewizard",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T06:12:23+00:00",
-    "excerpt": "DNCDbg v1.3.0 — A managed code debugger with DAP support for .NET apps",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x27tyn/dncdbg_v130_a_managed_code_debugger_with_dap/",
-    "externalUrl": "https://github.com/viewizard/dncdbg",
     "topics": [
       ".NET"
     ]
@@ -333,34 +362,6 @@
     "excerpt": "VueDotNet - framework for embedding Vue.js components in an ASP.NET MVC app",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx02qz/vuedotnet_framework_for_embedding_vuejs/",
     "externalUrl": "https://github.com/DmitriSelin/vue.net",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d84389d1f6be5bed",
-    "identityId": "reddit:/u/mariamamhan",
-    "author": "/u/mariamamhan",
-    "handle": "/u/mariamamhan",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T20:46:03+00:00",
-    "excerpt": "I built a Stock Management System with C# and Windows Forms",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwxk1v/i_built_a_stock_management_system_with_c_and/",
-    "externalUrl": "https://github.com/Mariam-amhan/Stock-Management-System",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "46e841ec55f81900",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T20:11:50+00:00",
-    "excerpt": "Running a 176B Qwen3.8 Flash Next model on a 16GB RTX 3080 Laptop — with a .NET/C# inference engine",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wwwrdh/running_a_176b_qwen38_flash_next_model_on_a_16gb/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
     "topics": [
       ".NET"
     ]
