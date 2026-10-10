@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:408055750",
+    "product": "Anthropic C# SDK",
+    "version": "12.55.0",
+    "tagName": "Anthropic-v12.55.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-09T15:34:21+00:00",
+    "title": "Anthropic C# SDK 12.55.0",
+    "summary": "api: add types for the Chat and Cowork unified analytics metrics api: add workflows, multiagent configuration and thread status filtering to Managed Agents",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.55.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "microsoft/onnxruntime:407504198",
     "product": "ONNX Runtime",
     "version": "1.31.0",
@@ -1318,25 +1337,6 @@
       "SDKs"
     ],
     "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.1",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:348239240",
-    "product": "Anthropic C# SDK",
-    "version": "12.35.0",
-    "tagName": "Anthropic-v12.35.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-02T19:05:33+00:00",
-    "title": "Anthropic C# SDK 12.35.0",
-    "summary": "api: add agent-memory-2026-07-22 beta header (6e712be)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.0",
     "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
