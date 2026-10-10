@@ -1,5 +1,33 @@
 [
   {
+    "id": "a095aac8a72b7c51",
+    "identityId": "reddit:/u/viewizard",
+    "author": "/u/viewizard",
+    "handle": "/u/viewizard",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T06:12:23+00:00",
+    "excerpt": "DNCDbg v1.3.0 — A managed code debugger with DAP support for .NET apps",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x27tyn/dncdbg_v130_a_managed_code_debugger_with_dap/",
+    "externalUrl": "https://github.com/viewizard/dncdbg",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "5f0f5cc1910fbefc",
+    "identityId": "reddit:/u/JamesNK",
+    "author": "/u/JamesNK",
+    "handle": "/u/JamesNK",
+    "platform": "reddit",
+    "publishedAt": "2026-10-09T23:51:25+00:00",
+    "excerpt": "Adding persistence to the Aspire dashboard",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x20p8s/adding_persistence_to_the_aspire_dashboard/",
+    "externalUrl": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "7c3d0f302d1c1dc6",
     "identityId": "reddit:/u/jame_581",
     "author": "/u/jame_581",
@@ -37,20 +65,6 @@
     "excerpt": "Signs of official Satori support?",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1pgbn/signs_of_official_satori_support/",
     "externalUrl": "https://github.com/dotnet/runtime/discussions/115627",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d9ce4136cfa9a08e",
-    "identityId": "reddit:/u/Moukouk",
-    "author": "/u/Moukouk",
-    "handle": "/u/Moukouk",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T13:46:45+00:00",
-    "excerpt": "TemplateMaster – .NET integration for generating PDFs and emails from reusable templates",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1lt0k/templatemaster_net_integration_for_generating/",
-    "externalUrl": "https://templatemaster.fr/fr/documentation/dotnet-integration",
     "topics": [
       ".NET"
     ]
