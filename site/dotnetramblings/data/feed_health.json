@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-09T14:21:33.067905+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-10T13:40:10.667811+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-10-06T14:10:59.391204+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-10T13:40:15.072779+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-09T14:21:26.214730+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-10T13:40:02.518009+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-09T14:21:33.696187+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-10T13:40:11.482929+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -186,8 +186,8 @@
     "status": "healthy"
   },
   "james-montemagno-youtube": {
-    "checkedAt": "2026-09-20T12:21:23.350945+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-10T13:40:03.312319+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-09T14:21:31.709206+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-10T13:40:09.190223+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-10-09T14:21:34.234279+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-10T13:40:12.247977+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-10-09T14:21:25.659366+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-10T13:40:01.724719+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -282,8 +282,8 @@
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-09T14:21:29.901941+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-10T13:40:06.834943+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-08T14:34:10.728971+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-10T13:40:04.013001+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -324,8 +324,8 @@
     "status": "healthy"
   },
   "ned-in-the-cloud": {
-    "checkedAt": "2026-10-08T14:34:20.457624+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-10T13:40:13.573498+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -354,8 +354,8 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-10-08T14:34:27.352000+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-10T13:40:19.475746+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
