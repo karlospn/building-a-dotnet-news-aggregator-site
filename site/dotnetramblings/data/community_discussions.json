@@ -1,5 +1,47 @@
 [
   {
+    "id": "432542e5836718d3",
+    "identityId": "reddit:/u/Ebrahim90117",
+    "author": "/u/Ebrahim90117",
+    "handle": "/u/Ebrahim90117",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T13:20:20+00:00",
+    "excerpt": "Which approach do you typically use to handle incoming HTTP requests?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x38280/which_approach_do_you_typically_use_to_handle/",
+    "externalUrl": "http://asp.net/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "7ec7734d71c20da2",
+    "identityId": "reddit:/u/Unique-Bookkeeper775",
+    "author": "/u/Unique-Bookkeeper775",
+    "handle": "/u/Unique-Bookkeeper775",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T09:11:33+00:00",
+    "excerpt": "I built a Serilog orchestrator for declarative multi-sink routing in JSON + automatic secret masking and resilient HTTP logging (v5.3)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x33kcj/i_built_a_serilog_orchestrator_for_declarative/",
+    "externalUrl": "https://www.nuget.org/packages/CSharpEssentials.LoggerHelper",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "ff7c80780e4c7926",
+    "identityId": "reddit:/u/ElegantAirline5521",
+    "author": "/u/ElegantAirline5521",
+    "handle": "/u/ElegantAirline5521",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T08:40:37+00:00",
+    "excerpt": "Natrix – open-source framework for reactive web UIs in C# on WebAssembly, with SSR, signals and build-time Tailwind (no Blazor, no Razor)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x33254/natrix_opensource_framework_for_reactive_web_uis/",
+    "externalUrl": "https://github.com/miroljub1995/natrix",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "1e993bff17152ee5",
     "identityId": "reddit:/u/starzeroth",
     "author": "/u/starzeroth",
@@ -11,35 +53,6 @@
     "externalUrl": "https://i.redd.it/bejhrk594oth1.png",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "b35464cbf7539e87",
-    "identityId": "reddit:/u/mxreal64",
-    "author": "/u/mxreal64",
-    "handle": "/u/mxreal64",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T05:29:33+00:00",
-    "excerpt": "fast decimal library with C# zero-overhead ffi built in c++20",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2zxgs/fast_decimal_library_with_c_zerooverhead_ffi/",
-    "externalUrl": "https://github.com/mxreal64/FastDecimal",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "c426a4f15edb1446",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T00:15:08+00:00",
-    "excerpt": "TensorSharp now supports Qwen Image 2.1 Turbo and LoRA – AI image generation and editing with C#/.NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2u3jw/tensorsharp_now_supports_qwen_image_21_turbo_and/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   },
   {
@@ -184,20 +197,6 @@
     ]
   },
   {
-    "id": "8b4ec5d62ae4b585",
-    "identityId": "reddit:/u/No-Card-2312",
-    "author": "/u/No-Card-2312",
-    "handle": "/u/No-Card-2312",
-    "platform": "reddit",
-    "publishedAt": "2026-10-08T10:53:00+00:00",
-    "excerpt": "Why did increasing .NET ThreadPool MinThreads fix our IIS downtime? I don't understand why",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0nton/why_did_increasing_net_threadpool_minthreads_fix/",
-    "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
     "id": "f82c35f231401e6f",
     "identityId": "reddit:/u/sanampakuwal1",
     "author": "/u/sanampakuwal1",
@@ -335,34 +334,6 @@
     "excerpt": "Why my C# game framework chooses the renderer before it creates the window",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxnido/why_my_c_game_framework_chooses_the_renderer/",
     "externalUrl": "https://dotnet.github.io/Silk.NET",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "8893225f332d43b4",
-    "identityId": "reddit:/u/Hephaestite",
-    "author": "/u/Hephaestite",
-    "handle": "/u/Hephaestite",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T09:21:01+00:00",
-    "excerpt": "Hypa - A terminal multiplexer built in C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxbd8k/hypa_a_terminal_multiplexer_built_in_c/",
-    "externalUrl": "https://github.com/Hypabolic/Hypa",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d1b675c2b2220bc2",
-    "identityId": "reddit:/u/Enough_Secretary_137",
-    "author": "/u/Enough_Secretary_137",
-    "handle": "/u/Enough_Secretary_137",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T09:16:02+00:00",
-    "excerpt": "Why aren’t packages.lock.json files the default in .NET projects?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxbah5/why_arent_packageslockjson_files_the_default_in/",
-    "externalUrl": "https://vensas.de/blog/nuget-version-locking",
     "topics": [
       ".NET"
     ]
