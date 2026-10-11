@@ -1,5 +1,62 @@
 [
   {
+    "id": "1e993bff17152ee5",
+    "identityId": "reddit:/u/starzeroth",
+    "author": "/u/starzeroth",
+    "handle": "/u/starzeroth",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T06:00:02+00:00",
+    "excerpt": "I built a .NET test reporter to solve two problems I kept seeing in test automation",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x30flf/i_built_a_net_test_reporter_to_solve_two_problems/",
+    "externalUrl": "https://i.redd.it/bejhrk594oth1.png",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "b35464cbf7539e87",
+    "identityId": "reddit:/u/mxreal64",
+    "author": "/u/mxreal64",
+    "handle": "/u/mxreal64",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T05:29:33+00:00",
+    "excerpt": "fast decimal library with C# zero-overhead ffi built in c++20",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2zxgs/fast_decimal_library_with_c_zerooverhead_ffi/",
+    "externalUrl": "https://github.com/mxreal64/FastDecimal",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "c426a4f15edb1446",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T00:15:08+00:00",
+    "excerpt": "TensorSharp now supports Qwen Image 2.1 Turbo and LoRA – AI image generation and editing with C#/.NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2u3jw/tensorsharp_now_supports_qwen_image_21_turbo_and/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "db626b4a81847310",
+    "identityId": "reddit:/u/No_Switch7024",
+    "author": "/u/No_Switch7024",
+    "handle": "/u/No_Switch7024",
+    "platform": "reddit",
+    "publishedAt": "2026-10-10T23:01:14+00:00",
+    "excerpt": "Creative coding for C# devs",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2sl82/creative_coding_for_c_devs/",
+    "externalUrl": "https://preview.redd.it/m9dlzmz20quh1.png?width=1910&format=png&auto=webp&s=31cf0ab5e66ae53fd3b63beaf4bb77bf73758fba",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "67422de614b119e4",
     "identityId": "reddit:/u/f0rwardz",
     "author": "/u/f0rwardz",
@@ -38,20 +95,6 @@
     "excerpt": "dotnet build will upload a lot of info to microsoft?!",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2f3p1/dotnet_build_will_upload_a_lot_of_info_to/",
     "externalUrl": "https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry?tabs=dotnet11",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "744a521dbc86b171",
-    "identityId": "reddit:/u/pWiklacz",
-    "author": "/u/pWiklacz",
-    "handle": "/u/pWiklacz",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T13:00:07+00:00",
-    "excerpt": "Validation rules you can’t express with an if statement, tested like a classifier (open source, .NET 10)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2eq7b/validation_rules_you_cant_express_with_an_if/",
-    "externalUrl": "https://github.com/semanticpolicy/semantic-policy",
     "topics": [
       ".NET"
     ]
@@ -150,20 +193,6 @@
     "excerpt": "Why did increasing .NET ThreadPool MinThreads fix our IIS downtime? I don't understand why",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0nton/why_did_increasing_net_threadpool_minthreads_fix/",
     "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "b4af221d3f8e5fc7",
-    "identityId": "reddit:/u/HarshadLambate",
-    "author": "/u/HarshadLambate",
-    "handle": "/u/HarshadLambate",
-    "platform": "reddit",
-    "publishedAt": "2026-10-08T03:36:50+00:00",
-    "excerpt": "I built a .NET test reporter to solve two problems I kept seeing in test automation",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0gpi7/i_built_a_net_test_reporter_to_solve_two_problems/",
-    "externalUrl": "https://i.redd.it/bejhrk594oth1.png",
     "topics": [
       ".NET"
     ]
@@ -334,34 +363,6 @@
     "excerpt": "Why aren’t packages.lock.json files the default in .NET projects?",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxbah5/why_arent_packageslockjson_files_the_default_in/",
     "externalUrl": "https://vensas.de/blog/nuget-version-locking",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "7fc0d9f797db1e4e",
-    "identityId": "reddit:/u/feech1970",
-    "author": "/u/feech1970",
-    "handle": "/u/feech1970",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T22:56:52+00:00",
-    "excerpt": "Subscrio.Core 0.5: feature access, usage limits, and credits for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx0dq0/subscriocore_05_feature_access_usage_limits_and/",
-    "externalUrl": "https://github.com/subscrio/subscrio-dotnet",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "4c054a4129726ccb",
-    "identityId": "reddit:/u/Sir_Dimitry",
-    "author": "/u/Sir_Dimitry",
-    "handle": "/u/Sir_Dimitry",
-    "platform": "reddit",
-    "publishedAt": "2026-10-03T22:41:28+00:00",
-    "excerpt": "VueDotNet - framework for embedding Vue.js components in an ASP.NET MVC app",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wx02qz/vuedotnet_framework_for_embedding_vuejs/",
-    "externalUrl": "https://github.com/DmitriSelin/vue.net",
     "topics": [
       ".NET"
     ]
