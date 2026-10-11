@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-10T16:37:45.098812+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-11T17:03:29.274088+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -288,8 +288,8 @@
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-10-09T22:01:42.956369+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-11T17:03:16.954139+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
