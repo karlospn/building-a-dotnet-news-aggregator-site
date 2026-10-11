@@ -1,5 +1,47 @@
 [
   {
+    "id": "907a21eec3f9fd6f",
+    "identityId": "reddit:/u/EvenAd4577",
+    "author": "/u/EvenAd4577",
+    "handle": "/u/EvenAd4577",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T19:55:03+00:00",
+    "excerpt": "Wrote a C# BCS (Binary Canonical Serialization) serialization library",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3hrxn/wrote_a_c_bcs_binary_canonical_serialization/",
+    "externalUrl": "https://github.com/unsafePtr/BcsSharp/issues/4",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "6f8f4f54cadc1873",
+    "identityId": "reddit:/u/jeff377",
+    "author": "/u/jeff377",
+    "handle": "/u/jeff377",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T15:55:50+00:00",
+    "excerpt": "Polhem.JsonRpc v1.2 - JSON-RPC 2.0 for ASP.NET Core without registering methods",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3bpsi/polhemjsonrpc_v12_jsonrpc_20_for_aspnet_core/",
+    "externalUrl": "https://github.com/polhem-dev/polhem-jsonrpc",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "6a05004f6a7a5315",
+    "identityId": "reddit:/u/Puzzleheaded-Law-332",
+    "author": "/u/Puzzleheaded-Law-332",
+    "handle": "/u/Puzzleheaded-Law-332",
+    "platform": "reddit",
+    "publishedAt": "2026-10-11T14:31:05+00:00",
+    "excerpt": "Blazor native tooltips for Touchscreen",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x39nzw/blazor_native_tooltips_for_touchscreen/",
+    "externalUrl": "http://www.blazorgraphs.it/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "432542e5836718d3",
     "identityId": "reddit:/u/Ebrahim90117",
     "author": "/u/Ebrahim90117",
@@ -9,48 +51,6 @@
     "excerpt": "Which approach do you typically use to handle incoming HTTP requests?",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x38280/which_approach_do_you_typically_use_to_handle/",
     "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "7ec7734d71c20da2",
-    "identityId": "reddit:/u/Unique-Bookkeeper775",
-    "author": "/u/Unique-Bookkeeper775",
-    "handle": "/u/Unique-Bookkeeper775",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T09:11:33+00:00",
-    "excerpt": "I built a Serilog orchestrator for declarative multi-sink routing in JSON + automatic secret masking and resilient HTTP logging (v5.3)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x33kcj/i_built_a_serilog_orchestrator_for_declarative/",
-    "externalUrl": "https://www.nuget.org/packages/CSharpEssentials.LoggerHelper",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "ff7c80780e4c7926",
-    "identityId": "reddit:/u/ElegantAirline5521",
-    "author": "/u/ElegantAirline5521",
-    "handle": "/u/ElegantAirline5521",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T08:40:37+00:00",
-    "excerpt": "Natrix – open-source framework for reactive web UIs in C# on WebAssembly, with SSR, signals and build-time Tailwind (no Blazor, no Razor)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x33254/natrix_opensource_framework_for_reactive_web_uis/",
-    "externalUrl": "https://github.com/miroljub1995/natrix",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "1e993bff17152ee5",
-    "identityId": "reddit:/u/starzeroth",
-    "author": "/u/starzeroth",
-    "handle": "/u/starzeroth",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T06:00:02+00:00",
-    "excerpt": "I built a .NET test reporter to solve two problems I kept seeing in test automation",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x30flf/i_built_a_net_test_reporter_to_solve_two_problems/",
-    "externalUrl": "https://i.redd.it/bejhrk594oth1.png",
     "topics": [
       ".NET"
     ]
@@ -305,35 +305,6 @@
     "excerpt": ".NET Stream wrapper around BoringSSL (Chrome-like TLS fingerprint)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxzld8/net_stream_wrapper_around_boringssl_chromelike/",
     "externalUrl": "https://github.com/optinsoft/BoringSslConsole",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "316f849f1ea1b9d7",
-    "identityId": "reddit:/u/Shyshiftter",
-    "author": "/u/Shyshiftter",
-    "handle": "/u/Shyshiftter",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T19:28:25+00:00",
-    "excerpt": "I'm a .NET dev who built a free course to move into GenAI — 80 short animated reels, looking for honest feedback",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxo9hy/im_a_net_dev_who_built_a_free_course_to_move_into/",
-    "externalUrl": "https://lkgschool.in/",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "d3d1f8981adc43f8",
-    "identityId": "reddit:/u/shmellyorcgames",
-    "author": "/u/shmellyorcgames",
-    "handle": "/u/shmellyorcgames",
-    "platform": "reddit",
-    "publishedAt": "2026-10-04T18:58:01+00:00",
-    "excerpt": "Why my C# game framework chooses the renderer before it creates the window",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wxnido/why_my_c_game_framework_chooses_the_renderer/",
-    "externalUrl": "https://dotnet.github.io/Silk.NET",
     "topics": [
       ".NET"
     ]
