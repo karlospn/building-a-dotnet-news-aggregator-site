@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-11T14:02:24.108938+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-12T16:43:25.932941+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-10T13:40:02.518009+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-12T16:43:18.704488+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-11T14:02:24.753478+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-12T16:43:26.688918+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -186,8 +186,8 @@
     "status": "healthy"
   },
   "james-montemagno-youtube": {
-    "checkedAt": "2026-10-10T13:40:03.312319+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-12T16:43:19.353989+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-10-09T14:21:29.224557+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-12T16:43:21.913370+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -282,8 +282,8 @@
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-11T14:02:21.003722+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-12T16:43:22.631299+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-11T14:02:18.434423+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-12T16:43:20.074626+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-11T14:02:27.049714+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-12T16:43:30.601484+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -390,8 +390,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-10-11T14:02:22.387654+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-12T16:43:23.959379+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
