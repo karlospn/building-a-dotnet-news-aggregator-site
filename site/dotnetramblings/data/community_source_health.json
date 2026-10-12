@@ -31,21 +31,21 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 1,
+    "candidates": 0,
     "published": 0
   },
   {
     "identityId": "mark-downie",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 19,
+    "candidates": 18,
     "published": 1
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 14,
+    "candidates": 15,
     "published": 4
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 20
+    "published": 22
   }
 ]
