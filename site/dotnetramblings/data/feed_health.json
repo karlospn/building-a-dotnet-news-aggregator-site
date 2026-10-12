@@ -102,8 +102,8 @@
     "status": "healthy"
   },
   "damienbod": {
-    "checkedAt": "2026-09-21T08:22:56.508520+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-12T13:55:50.662847+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-10-03T23:26:36.858068+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-12T13:56:03.895389+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
