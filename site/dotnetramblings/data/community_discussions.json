@@ -1,5 +1,47 @@
 [
   {
+    "id": "5f67dea038e96eee",
+    "identityId": "reddit:/u/Different_Print_4048",
+    "author": "/u/Different_Print_4048",
+    "handle": "/u/Different_Print_4048",
+    "platform": "reddit",
+    "publishedAt": "2026-10-13T17:22:13+00:00",
+    "excerpt": "Notes from migrating 42 Visual FoxPro workflows to .NET: the data traps that cost the most time",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x52sgh/notes_from_migrating_42_visual_foxpro_workflows/",
+    "externalUrl": "https://theadnansaleem.com/articles/visual-foxpro-to-dotnet-migration-guide",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9edfe71aa411a6df",
+    "identityId": "reddit:/u/ghProtip",
+    "author": "/u/ghProtip",
+    "handle": "/u/ghProtip",
+    "platform": "reddit",
+    "publishedAt": "2026-10-13T15:45:47+00:00",
+    "excerpt": "TypeScript Ported to C# via Codex",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5062e/typescript_ported_to_c_via_codex/",
+    "externalUrl": "https://github.com/stepwisehq/typescript-dotnet",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "0ed055922aee8525",
+    "identityId": "reddit:/u/Minimum-Ad7352",
+    "author": "/u/Minimum-Ad7352",
+    "handle": "/u/Minimum-Ad7352",
+    "platform": "reddit",
+    "publishedAt": "2026-10-13T15:17:11+00:00",
+    "excerpt": "How did PHP end up being faster than C# in this benchmark?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4zem4/how_did_php_end_up_being_faster_than_c_in_this/",
+    "externalUrl": "https://www.youtube.com/watch?v=QGWKCaglSBI",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "652c30772dc79864",
     "identityId": "reddit:/u/RemigiuszZalewski",
     "author": "/u/RemigiuszZalewski",
@@ -9,20 +51,6 @@
     "excerpt": "Your EF Core queries are probably scattered across your whole codebase.",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4p61y/your_ef_core_queries_are_probably_scattered/",
     "externalUrl": "https://youtu.be/D-NWdjfG_cg",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "e0ca5c1b8fd26bff",
-    "identityId": "reddit:/u/jeff377",
-    "author": "/u/jeff377",
-    "handle": "/u/jeff377",
-    "platform": "reddit",
-    "publishedAt": "2026-10-13T02:10:02+00:00",
-    "excerpt": "Definition-Driven ERP in .NET: definitions, not code, as the source of truth",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4km7a/definitiondriven_erp_in_net_definitions_not_code/",
-    "externalUrl": "https://medium.com/@jeff377/erp-architects-notes-designing-a-definition-driven-framework-series-index-7753228c4d33",
     "topics": [
       ".NET"
     ]
@@ -290,34 +318,6 @@
     "excerpt": "Bringing Native AOT to the Aspire dashboard",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1wziu2i/bringing_native_aot_to_the_aspire_dashboard/",
     "externalUrl": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "594f5b0b9de00eb6",
-    "identityId": "reddit:/u/Minimum-Ad7352",
-    "author": "/u/Minimum-Ad7352",
-    "handle": "/u/Minimum-Ad7352",
-    "platform": "reddit",
-    "publishedAt": "2026-10-06T22:09:00+00:00",
-    "excerpt": "Looking for feedback on my .NET backend project",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wzft3p/looking_for_feedback_on_my_net_backend_project/",
-    "externalUrl": "https://github.com/Desalutar20/kicks-server-dotnet",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "c8f56fba6eade493",
-    "identityId": "reddit:/u/myeventbingo",
-    "author": "/u/myeventbingo",
-    "handle": "/u/myeventbingo",
-    "platform": "reddit",
-    "publishedAt": "2026-10-06T18:04:54+00:00",
-    "excerpt": "Looking for feedback on my Blazor Hybrid app and SSR/WASM website",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wz9lhe/looking_for_feedback_on_my_blazor_hybrid_app_and/",
-    "externalUrl": "https://myeventbingo.com/",
     "topics": [
       ".NET"
     ]

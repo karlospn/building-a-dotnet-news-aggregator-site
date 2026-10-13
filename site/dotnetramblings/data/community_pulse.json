@@ -1,5 +1,59 @@
 [
   {
+    "id": "032a6ac51902f20e",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-13T20:00:02.122000+00:00",
+    "excerpt": "🧪🚀 Ship Windows apps with confidence! MSTest now helps bring automated UI testing to UWP and WinUI 3 apps, making it easier to validate user journeys, catch regressions, and strengthen your CI/CD pipeline. 📖 msft.it/63328aWLAI #dotNET #WinUI3 #Testing",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxrt3d6k4o2q",
+    "externalUrl": "https://msft.it/63328aWLAI",
+    "topics": [
+      ".NET",
+      "DevOps",
+      "Testing"
+    ]
+  },
+  {
+    "id": "9ae5fe35b806c9ad",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-13T17:29:02+00:00",
+    "excerpt": "Understanding EF internals is like understanding cats. They do weird things, but there is logic... somewhere. Find it here: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxrko2vjlk2t",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434780366813956"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117406699237648456"
+      }
+    ]
+  },
+  {
+    "id": "ac5ad0cb0de9afe1",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-13T15:00:02.467000+00:00",
+    "excerpt": "What happens to your digital assets after you pass away? #dotNETRocks and Mattias Karlsson discuss his experience navigating the challenges of losing a friend and having to reorganize their digital assets. Listen in... msft.it/63326aWLW4",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxrccvetzs27",
+    "externalUrl": "https://msft.it/63326aWLW4",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ab89d76161a73c04",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -21,25 +75,7 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117404722814480357"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117394664339836705"
       }
-    ]
-  },
-  {
-    "id": "02b81db999492b64",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-13T00:56:50.062000+00:00",
-    "excerpt": "I like this Tom's Hardware article about the open source Adobe products (and office products): \"it is a clean-room reimplementation and no Adobe source code was used or copied in the creation of the software.\" www.tomshardware.com/software/vid...",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxpt74j4pk2k",
-    "externalUrl": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
-    "topics": [
-      ".NET"
     ]
   },
   {
@@ -120,30 +156,6 @@
     "topics": [
       ".NET",
       "Testing"
-    ]
-  },
-  {
-    "id": "61fdc2dc5c08e2c1",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-08T18:27:38+00:00",
-    "excerpt": "EF Core: \"I made 47 queries.\" You: \"We talked about this.\" Learn how to stop the madness: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxf3mape2f26",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117406699237648456"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117395150087903822"
-      }
     ]
   },
   {
@@ -243,26 +255,6 @@
       ".NET",
       "Azure",
       "Data"
-    ]
-  },
-  {
-    "id": "dad88cdd15f437e3",
-    "identityId": "avalonia",
-    "author": "Avalonia UI",
-    "handle": "Avalonia UI",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-06T15:40:42+00:00",
-    "excerpt": "Last week, we opened the doors to our new office in Tallinn, Estonia! We've always been a proud Estonian company, and we're thrilled to invest in a local team to support our incredible recent growth. Want to join us? We're hiring: https:// avaloniaui.net/careers # Eesti # Tallinn",
-    "postUrl": "https://dotnet.social/@avaloniaui/117394718199847252",
-    "externalUrl": "https://avaloniaui.net/careers",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mx7rd33n4y24"
-      }
     ]
   }
 ]
