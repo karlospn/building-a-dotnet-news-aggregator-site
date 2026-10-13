@@ -293,19 +293,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "8afaafb482ba3ee2",
-    "identityId": "reddit:/u/sdrapkin",
-    "author": "/u/sdrapkin",
-    "handle": "/u/sdrapkin",
-    "platform": "reddit",
-    "publishedAt": "2026-10-05T19:10:26+00:00",
-    "excerpt": "OneFlight – a small .NET library for coalescing concurrent async calls by key",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wyhc46/oneflight_a_small_net_library_for_coalescing/",
-    "externalUrl": "https://github.com/sdrapkin/SecurityDriven.OneFlight",
-    "topics": [
-      ".NET"
-    ]
   }
 ]

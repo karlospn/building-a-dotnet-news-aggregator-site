@@ -1,5 +1,54 @@
 [
   {
+    "id": "02b81db999492b64",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-13T00:56:50.062000+00:00",
+    "excerpt": "I like this Tom's Hardware article about the open source Adobe products (and office products): \"it is a clean-room reimplementation and no Adobe source code was used or copied in the creation of the software.\" www.tomshardware.com/software/vid...",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxpt74j4pk2k",
+    "externalUrl": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "687d313f70326192",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-12T20:00:10.413000+00:00",
+    "excerpt": "Catch the replay... Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop practical AI builder skills. 🎥 msft.it/63329aS3cl",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxpcmnievg2o",
+    "externalUrl": "https://msft.it/63329aS3cl",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "04f119377cd7780d",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-12T16:30:32+00:00",
+    "excerpt": "Stories I like: CS degrees dropped low-level programming and the...",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxowvvhb2z2z",
+    "externalUrl": "https://daily.dev/posts/cs-degrees-dropped-low-level-programming-and-the-industry-is-noticing-vyrrxpneq",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117428888029110290"
+      }
+    ]
+  },
+  {
     "id": "dad1455b6ce54d4f",
     "identityId": "dotnet",
     "author": ".NET",
@@ -223,57 +272,6 @@
     "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ Blazor Community Standup Learn about the new Blazor AI Components to build agent-centric apps where AI agents actively participate in the user experience, driving workflows, taking actions, and helping users get work done. 🎥 ➡️ msft.it/63327aW3Pv",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mx7eyklz4g2m",
     "externalUrl": "https://msft.it/63327aW3Pv",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "46d75efbbf49e09d",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-05T19:00:01.700000+00:00",
-    "excerpt": "🤖 AI wrote the PR. Who owns the code? Live from Codegarden, OSS leaders discuss AI-assisted contributions, trust, reviews, testing, GitHub Copilot, Claude Code, and a simple rule: ✅ If you commit it, it's your responsibility. 🎧 msft.it/63321acEvP",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mx5lynpxdj2q",
-    "externalUrl": "https://msft.it/63321acEvP",
-    "topics": [
-      ".NET",
-      "AI",
-      "Testing"
-    ]
-  },
-  {
-    "id": "c3b69aac2bc79c27",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-05T16:30:29+00:00",
-    "excerpt": "Stories I like: Task in C#",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mx5dncckac2a",
-    "externalUrl": "https://dev.to/rhuturaj_takle/task-in-c-2dhn",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117389251649387539"
-      }
-    ]
-  },
-  {
-    "id": "526f78450aeed508",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-05T16:23:49.105000+00:00",
-    "excerpt": "🤖 AG-UI now has a first class .NET SDK! Stream agent lifecycle events, tool calls, state updates & multi-agent workflows using a standard protocol. Less custom event parsing. More interoperable AI apps. ⚡ 📖 Read: msft.it/6187altTH",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mx5dbdhsjl2h",
-    "externalUrl": "https://msft.it/6187altTH",
     "topics": [
       ".NET",
       "AI"
