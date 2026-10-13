@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-12T22:19:19.288697+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-13T20:26:51.383053+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
@@ -102,8 +102,8 @@
     "status": "healthy"
   },
   "damienbod": {
-    "checkedAt": "2026-10-12T13:55:50.662847+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-13T20:26:47.590988+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-10-12T13:56:03.895389+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-13T20:26:59.970490+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-12T22:19:19.756554+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-13T20:26:51.708215+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-11T04:44:39.807972+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T20:26:50.125550+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -372,10 +372,10 @@
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-10-09T00:51:13.324493+00:00",
+    "checkedAt": "2026-10-13T20:31:45.918861+00:00",
     "itemCount": 0,
-    "message": "",
-    "status": "healthy"
+    "message": "[Errno 104] Connection reset by peer",
+    "status": "error"
   },
   "techworld-with-nana": {
     "checkedAt": "2026-10-08T14:34:24.272384+00:00",
