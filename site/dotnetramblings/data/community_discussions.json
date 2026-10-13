@@ -1,5 +1,33 @@
 [
   {
+    "id": "652c30772dc79864",
+    "identityId": "reddit:/u/RemigiuszZalewski",
+    "author": "/u/RemigiuszZalewski",
+    "handle": "/u/RemigiuszZalewski",
+    "platform": "reddit",
+    "publishedAt": "2026-10-13T06:18:42+00:00",
+    "excerpt": "Your EF Core queries are probably scattered across your whole codebase.",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4p61y/your_ef_core_queries_are_probably_scattered/",
+    "externalUrl": "https://youtu.be/D-NWdjfG_cg",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "e0ca5c1b8fd26bff",
+    "identityId": "reddit:/u/jeff377",
+    "author": "/u/jeff377",
+    "handle": "/u/jeff377",
+    "platform": "reddit",
+    "publishedAt": "2026-10-13T02:10:02+00:00",
+    "excerpt": "Definition-Driven ERP in .NET: definitions, not code, as the source of truth",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4km7a/definitiondriven_erp_in_net_definitions_not_code/",
+    "externalUrl": "https://medium.com/@jeff377/erp-architects-notes-designing-a-definition-driven-framework-series-index-7753228c4d33",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "3e89330bafba2156",
     "identityId": "reddit:/u/piotrkarczmarz",
     "author": "/u/piotrkarczmarz",
