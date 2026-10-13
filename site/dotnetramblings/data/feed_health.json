@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-12T16:43:25.932941+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-13T15:02:24.343937+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-10-11T14:02:27.613632+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T15:02:28.510433+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-10-08T14:34:05.560140+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T15:02:13.965022+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-12T16:43:26.688918+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-13T15:02:25.070831+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-11T14:02:22.977631+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T15:02:23.123887+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-10-12T16:43:21.913370+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-13T15:02:20.077005+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-11T14:02:32.526304+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T15:02:33.664404+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-12T16:43:22.631299+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T15:02:20.717837+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-12T16:43:30.601484+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-13T15:02:27.794539+00:00",
+    "itemCount": 15,
     "message": "",
     "status": "healthy"
   },
@@ -390,8 +390,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-10-12T16:43:23.959379+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-13T15:02:22.455151+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
