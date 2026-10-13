@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-09T09:49:51.731822+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T13:12:57.475441+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-13T04:38:08.411590+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-13T13:12:49.618131+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -138,8 +138,8 @@
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-10-08T00:36:00.045800+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-13T13:12:48.091969+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
