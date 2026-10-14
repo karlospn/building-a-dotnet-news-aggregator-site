@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-13T13:12:49.618131+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-14T14:12:50.312395+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-10-12T22:19:23.966867+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-14T14:12:42.418494+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-13T20:26:51.708215+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-14T14:12:39.086927+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-13T20:26:50.125550+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-14T14:12:37.749356+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-08T18:11:45.811545+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-14T14:12:44.293970+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
