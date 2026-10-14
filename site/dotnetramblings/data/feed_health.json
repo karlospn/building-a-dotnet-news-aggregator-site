@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-10-11T14:02:25.912197+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-14T12:51:55.769600+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-13T15:02:24.343937+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-14T12:51:53.843612+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-13T15:02:25.070831+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-14T12:51:54.496580+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-13T15:02:23.123887+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-14T12:51:52.444639+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-13T15:02:33.664404+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-14T12:52:03.371474+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-13T15:02:20.717837+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-14T12:51:50.404240+00:00",
+    "itemCount": 8,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-13T15:02:27.794539+00:00",
-    "itemCount": 15,
+    "checkedAt": "2026-10-14T12:51:57.150402+00:00",
+    "itemCount": 17,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-10-11T14:02:23.560706+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-14T12:51:53.111279+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
