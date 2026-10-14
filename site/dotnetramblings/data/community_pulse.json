@@ -1,5 +1,19 @@
 [
   {
+    "id": "2404926ffc5526a2",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-14T19:30:01.750000+00:00",
+    "excerpt": "〰️ TOMORROW at 10AM PT 〰️ .NET Unboxed: .NET 11 Release Candidate 2 Set your reminder to join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! See you LIVE here ➡️ msft.it/63327asqjP #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxubulopkv2v",
+    "externalUrl": "https://msft.it/63327asqjP",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "551b71285117de23",
     "identityId": "dotnet",
     "author": ".NET",
@@ -231,22 +245,6 @@
     "excerpt": "OpenAI apparently put roughly 10,000 agents on the task, 88 hours of reasoning, 130 billion output tokens. Then spent another 17 hours to validate the result in Lean, a proof assistant that mechanically checks every logical step. Estimated compute cost: somewhere between $15…",
     "postUrl": "https://dotnet.social/@poppastring/117402768260582109",
     "externalUrl": "https://www.poppastring.com/blog/the-unread-proof",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "c9311eac085cbdc2",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-07T20:00:01.734000+00:00",
-    "excerpt": "💥 Prod app hanging? Don't guess... dump. 🧵 Learn how to capture a memory dump, inspect Parallel Stacks in Visual Studio, spot ThreadPool saturation, and use GitHub Copilot to accelerate root-cause analysis. 🤖⚙️ Read: msft.it/63326ac0o8",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxcqbrvwtm2o",
-    "externalUrl": "https://msft.it/63326ac0o8",
     "topics": [
       "Visual Studio",
       ".NET",
