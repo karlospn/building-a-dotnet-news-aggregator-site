@@ -1,5 +1,20 @@
 [
   {
+    "id": "551b71285117de23",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-14T14:00:08.397000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY at 10am PT 〰️ .NET AI Community Standup Build agentic experiences with the Blazor AI Components See you LIVE here ➡️ msft.it/63321aSMC3",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxtpgpbkv72z",
+    "externalUrl": "https://msft.it/63321aSMC3",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "530bf5a2070a943b",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -236,42 +251,6 @@
       "Visual Studio",
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "189c57fec2076ef0",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-07T15:30:33+00:00",
-    "excerpt": "Stories I like: 10 Years of Building Business Software: What Production Systems Taught Me That Tutorials Didn’t https:// dev.to/a95yman/10-years-of-bui lding-business-software-what-production-systems-taught-me-that-tutorials-didnt-5hka",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117400340628164018",
-    "externalUrl": "https://dev.to/a95yman/10-years-of-building-business-software-what-production-systems-taught-me-that-tutorials-didnt-5hka",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxcb7t7xfl26"
-      }
-    ]
-  },
-  {
-    "id": "6356bd00acb4c7bb",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-07T14:00:01.695000+00:00",
-    "excerpt": "Performance improvements in .NET 11, automatic zone placement for Azure VM Scale Sets, Microsoft’s multicloud database SDK, critical .NET security updates, and the latest production-ready capabilities in Microsoft Foundry. Episode 6 of The Upload ➡️ msft.it/63328alt5E",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxc462ir2627",
-    "externalUrl": "https://msft.it/63328alt5E",
-    "topics": [
-      ".NET",
-      "Azure",
-      "Data"
     ]
   }
 ]
