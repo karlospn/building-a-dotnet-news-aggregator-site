@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-13T13:12:57.475441+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-14T00:02:36.206690+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -372,10 +372,10 @@
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-10-13T20:31:45.918861+00:00",
+    "checkedAt": "2026-10-14T00:02:35.121022+00:00",
     "itemCount": 0,
-    "message": "[Errno 104] Connection reset by peer",
-    "status": "error"
+    "message": "",
+    "status": "healthy"
   },
   "techworld-with-nana": {
     "checkedAt": "2026-10-08T14:34:24.272384+00:00",
