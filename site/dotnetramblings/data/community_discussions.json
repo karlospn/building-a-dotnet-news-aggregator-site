@@ -1,5 +1,48 @@
 [
   {
+    "id": "d006c75a10d59aa3",
+    "identityId": "reddit:/u/No_Drawer1301",
+    "author": "/u/No_Drawer1301",
+    "handle": "/u/No_Drawer1301",
+    "platform": "reddit",
+    "publishedAt": "2026-10-14T11:01:30+00:00",
+    "excerpt": "Thoughts on open-source product delivery platform (built with .NET10)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5o91p/thoughts_on_opensource_product_delivery_platform/",
+    "externalUrl": "https://i.redd.it/o8ijwpajyevh1.gif",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "43bd022a1ec4a001",
+    "identityId": "reddit:/u/mladenmacanovic",
+    "author": "/u/mladenmacanovic",
+    "handle": "/u/mladenmacanovic",
+    "platform": "reddit",
+    "publishedAt": "2026-10-14T10:12:57+00:00",
+    "excerpt": "Blazorise 2.4 released. Fewer dependencies, faster utilities, and a new Ribbon component",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5nft5/blazorise_24_released_fewer_dependencies_faster/",
+    "externalUrl": "https://i.redd.it/jsqy3ntqqevh1.jpeg",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "cc33904f2cf0fb25",
+    "identityId": "reddit:/u/inaiyarhasnain",
+    "author": "/u/inaiyarhasnain",
+    "handle": "/u/inaiyarhasnain",
+    "platform": "reddit",
+    "publishedAt": "2026-10-14T07:14:43+00:00",
+    "excerpt": "Built a vision-first Windows desktop guide in C# (Avalonia) and FastAPI during an all-night hackathon in Kochi",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5kppq/built_a_visionfirst_windows_desktop_guide_in_c/",
+    "externalUrl": "https://github.com/nive62tech/step-sight/tree/implementation/desktop-guide",
+    "topics": [
+      ".NET",
+      "Python"
+    ]
+  },
+  {
     "id": "5f67dea038e96eee",
     "identityId": "reddit:/u/Different_Print_4048",
     "author": "/u/Different_Print_4048",
@@ -290,20 +333,6 @@
     "excerpt": "EF Core N+1 Query Problem",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0pj0l/ef_core_n1_query_problem/",
     "externalUrl": "https://github.com/jorgenhoc-org/dotnet-samples/tree/main/samples/ef-core-n-plus-one",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "f82c35f231401e6f",
-    "identityId": "reddit:/u/sanampakuwal1",
-    "author": "/u/sanampakuwal1",
-    "handle": "/u/sanampakuwal1",
-    "platform": "reddit",
-    "publishedAt": "2026-10-07T08:08:25+00:00",
-    "excerpt": "I built TypeSafeSharp: a .NET client for TypeSafe's System One API (netstandard2.0 + net10.0, AOT-clean)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1wzqvqx/i_built_typesafesharp_a_net_client_for_typesafes/",
-    "externalUrl": "https://www.nuget.org/packages/TypeSafeSharp.Extensions.DependencyInjection",
     "topics": [
       ".NET"
     ]

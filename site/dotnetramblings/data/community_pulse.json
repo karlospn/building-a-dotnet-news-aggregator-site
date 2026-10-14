@@ -1,5 +1,33 @@
 [
   {
+    "id": "530bf5a2070a943b",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-14T08:05:00+00:00",
+    "excerpt": "Learn how to use Claude as a thinking partner, not a code generator. This live course shows you how to design systems that stay correct as they grow:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxt3lpgpdc2g",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117438224807460102"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434017403252952"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117404722814480357"
+      }
+    ]
+  },
+  {
     "id": "032a6ac51902f20e",
     "identityId": "dotnet",
     "author": ".NET",
@@ -54,28 +82,17 @@
     ]
   },
   {
-    "id": "ab89d76161a73c04",
+    "id": "02b81db999492b64",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
     "handle": "wildermuth.com",
     "platform": "bluesky",
-    "publishedAt": "2026-10-13T14:15:00+00:00",
-    "excerpt": "This course is perfect for teams who’ve felt the pain of AI-generated code outrunning architectural clarity. Learn how to reverse that dynamic:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxr7sfhepk2i",
-    "externalUrl": "https://timeofclaudecourse.com/",
+    "publishedAt": "2026-10-13T00:56:50.062000+00:00",
+    "excerpt": "I like this Tom's Hardware article about the open source Adobe products (and office products): \"it is a clean-room reimplementation and no Adobe source code was used or copied in the creation of the software.\" www.tomshardware.com/software/vid...",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxpt74j4pk2k",
+    "externalUrl": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
     "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434017403252952"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117404722814480357"
-      }
+      ".NET"
     ]
   },
   {
