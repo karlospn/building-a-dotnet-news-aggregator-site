@@ -234,21 +234,5 @@
       "AI",
       "Security"
     ]
-  },
-  {
-    "id": "a500e2a2caabea2a",
-    "identityId": "mark-downie",
-    "author": "Mark Downie",
-    "handle": "Mark Downie",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-08T01:47:56+00:00",
-    "excerpt": "OpenAI apparently put roughly 10,000 agents on the task, 88 hours of reasoning, 130 billion output tokens. Then spent another 17 hours to validate the result in Lean, a proof assistant that mechanically checks every logical step. Estimated compute cost: somewhere between $15…",
-    "postUrl": "https://dotnet.social/@poppastring/117402768260582109",
-    "externalUrl": "https://www.poppastring.com/blog/the-unread-proof",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
-    ]
   }
 ]
