@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-14T23:33:31.044654+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-15T02:26:59.588849+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-14T19:05:22.109326+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-15T02:26:47.173101+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-14T23:33:03.801264+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-15T02:26:31.554991+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
