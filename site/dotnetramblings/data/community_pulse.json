@@ -1,16 +1,40 @@
 [
   {
-    "id": "f67c5ea58e309dcc",
+    "id": "5f2af4f004ff1f3b",
     "identityId": "dotnet",
     "author": ".NET",
-    "handle": ".NET",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-15T17:10:08+00:00",
-    "excerpt": "📰 Introducing dotnetup: A toolchain manager for .NET Learn how the new dotnetup tool helps macOS and Linux developers install, manage, and update user-local .NET SDKs and runtimes. https:// devblogs.microsoft.com/dotnet/ introducing-dotnetup/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117446030712698977",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-15T20:00:02.250000+00:00",
+    "excerpt": "🚀 Faster startup. Lighter footprint. Smoother coding. The new C# Dev Kit improvements help you spend less time waiting and more time building .NET apps. ⚡💻 📖 Read the blog: msft.it/63321aoDAR #dotnet #csharp #vscode #devtools",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxwtz63m6m25",
+    "externalUrl": "https://msft.it/63321aoDAR",
     "topics": [
       ".NET"
+    ]
+  },
+  {
+    "id": "cdbfd36b7eb0c04e",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-15T18:28:49+00:00",
+    "excerpt": "EF Core is not a black box. Its a transparent box full of gremlins. Meet the gremlins: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxwowsmzt52z",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117446340065336963"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434780366813956"
+      }
     ]
   },
   {
@@ -94,30 +118,6 @@
       ".NET",
       "DevOps",
       "Testing"
-    ]
-  },
-  {
-    "id": "9ae5fe35b806c9ad",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-13T17:29:02+00:00",
-    "excerpt": "Understanding EF internals is like understanding cats. They do weird things, but there is logic... somewhere. Find it here: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxrko2vjlk2t",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434780366813956"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117406699237648456"
-      }
     ]
   },
   {
@@ -226,21 +226,6 @@
     "topics": [
       ".NET",
       "Testing"
-    ]
-  },
-  {
-    "id": "dc1a2c2c8062caf1",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-08T18:00:02.647000+00:00",
-    "excerpt": "Discover the emerging classifier revolution with Jev—a new take on LLMs that ditches generation for lightning-fast categorization. Dive into the latest model releases, practical strategies for iterative AI dev, and why specialized models are reshaping how we work with AI. 🎧…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxf225wcea2v",
-    "externalUrl": "https://msft.it/63329aYn5c",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
