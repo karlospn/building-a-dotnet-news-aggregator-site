@@ -1,5 +1,80 @@
 [
   {
+    "id": "dotnet/extensions:413399311",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.11.0",
+    "tagName": "v10.11.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-15T04:07:03+00:00",
+    "title": "Microsoft.Extensions.AI 10.11.0",
+    "summary": "This release adds optional scope capture for buffered logs and updates experimental HTTP latency enrichment APIs. It also includes fixes for AI streaming and function invocation, evaluation reports, HybridCache invalidation, and logging. Optional logging-scope capture for global…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.11.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:413085985",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.25.0",
+    "tagName": "dotnet-1.25.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-14T19:10:54+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.25.0",
+    "summary": "1ab3430a4b6c8add9f08854c77544b0211a3f13c .NET: Dotnet: Add approval reuse considerations (#9389) 563eb3a9965f7c144ad697223320411c02fa349a .NET: terminate chat completions SSE stream with data: [DONE] (#8532) [ #8526 ] 4964bdd1b2d55b8137cbc1bc85840181af05bda0 .NET: Update version…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.25.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:413077304",
+    "product": "Anthropic C# SDK",
+    "version": "12.57.0",
+    "tagName": "Anthropic-v12.57.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-14T19:01:02+00:00",
+    "title": "Anthropic C# SDK 12.57.0",
+    "summary": "api: return a Console organization's usage-tier spend cap as a read-only spend limit",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.57.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:412983489",
+    "product": "Anthropic C# SDK",
+    "version": "12.56.0",
+    "tagName": "Anthropic-v12.56.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-14T17:14:58+00:00",
+    "title": "Anthropic C# SDK 12.56.0",
+    "summary": "api: add executionidentity to Managed Agents agents api: add organizationtypenotsupported error to spend limit lists api: add telemetry destination test endpoint api: add telemetry destinations to the Admin API client: add native support for OpenTelemetry tracing To get the SDK's…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.56.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:408055750",
     "product": "Anthropic C# SDK",
     "version": "12.55.0",
@@ -1171,25 +1246,6 @@
     "official": true
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:355319190",
-    "product": "Anthropic C# SDK",
-    "version": "12.36.0",
-    "tagName": "Anthropic-v12.36.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-16T19:37:50+00:00",
-    "title": "Anthropic C# SDK 12.36.0",
-    "summary": "api: add support for dreaming (1228406) api: add support for MCP Tunnels (adea206) helpers: add session delta accumulator for agent.message previews (#78) (4b1f9d6) docs: updates to descriptions and examples (4696922)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.36.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "awaescher/OllamaSharp:354304583",
     "product": "OllamaSharp",
     "version": "5.4.27",
@@ -1319,25 +1375,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.13.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:348338490",
-    "product": "Anthropic C# SDK",
-    "version": "12.35.1",
-    "tagName": "Anthropic-v12.35.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-02T23:35:46+00:00",
-    "title": "Anthropic C# SDK 12.35.1",
-    "summary": "docs: small updates to field descriptions (8cc7e4b)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.1",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
@@ -1848,25 +1885,6 @@
     "sourceUrl": "https://github.com/SciSharp/LLamaSharp/releases/tag/v0.27.0",
     "repository": "SciSharp/LLamaSharp",
     "official": false
-  },
-  {
-    "id": "microsoft/agent-framework:313127058",
-    "product": "Microsoft Agent Framework for .NET",
-    "version": "1.3.0",
-    "tagName": "dotnet-1.3.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-04-24T09:18:11+00:00",
-    "title": "Microsoft Agent Framework for .NET 1.3.0",
-    "summary": ".NET: Add dynamic tool expansion sample by @westey-m in https://github.com/microsoft/agent-framework/pull/5425 .NET: Update Aspire package to be preview by @westey-m in https://github.com/microsoft/agent-framework/pull/5444 .NET: Fix off-thread RunStatus race where GetStatusAsync…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.3.0",
-    "repository": "microsoft/agent-framework",
-    "official": true
   },
   {
     "id": "microsoft/onnxruntime:306795215",
@@ -2609,11 +2627,11 @@
     "product": "Microsoft.Extensions.AI",
     "version": "10.0.0",
     "tagName": "v10.0.0",
-    "changeType": "major-release",
+    "changeType": "sdk-release",
     "publishedAt": "2025-11-11T23:01:50+00:00",
     "title": "Microsoft.Extensions.AI 10.0.0",
     "summary": "Give FunctionInvokingChatClient span a more OTELy name by @verdie-g in https://github.com/dotnet/extensions/pull/6911 Update repository branding from 9.10 to 10.0 by @Copilot in https://github.com/dotnet/extensions/pull/6907 Clean up local function names in AIFunctionFactory by…",
-    "breaking": true,
+    "breaking": false,
     "technologies": [
       ".NET",
       "SDKs"
@@ -2754,23 +2772,5 @@
     "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.8",
     "repository": "awaescher/OllamaSharp",
     "official": false
-  },
-  {
-    "id": "dotnet/extensions:254521481",
-    "product": "Microsoft.Extensions.AI",
-    "version": "9.10.0",
-    "tagName": "v9.10.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-10-14T22:07:57+00:00",
-    "title": "Microsoft.Extensions.AI 9.10.0",
-    "summary": "Branding updates for 9.10 by @Copilot in https://github.com/dotnet/extensions/pull/6769 Doc improvements by @gewarren in https://github.com/dotnet/extensions/pull/6794 Bump vite from 6.3.5 to 6.3.6 in /src/Libraries/Microsoft.Extensions.AI.Evaluation.Reporting/TypeScript by…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v9.10.0",
-    "repository": "dotnet/extensions",
-    "official": true
   }
 ]
