@@ -1,14 +1,28 @@
 [
   {
-    "id": "97cb69c5190fdb62",
+    "id": "f67c5ea58e309dcc",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-15T17:10:08+00:00",
+    "excerpt": "📰 Introducing dotnetup: A toolchain manager for .NET Learn how the new dotnetup tool helps macOS and Linux developers install, manage, and update user-local .NET SDKs and runtimes. https:// devblogs.microsoft.com/dotnet/ introducing-dotnetup/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117446030712698977",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "ac862798deeae94f",
     "identityId": "dotnet",
     "author": ".NET",
     "handle": "dot.net",
     "platform": "bluesky",
-    "publishedAt": "2026-10-15T12:00:01.317000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY at 9AM PT 〰️ .NET + Foundry, better together Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. See you LIVE for live demos, code, and plenty of curiosity. 🎥…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxvz6tju3m2q",
-    "externalUrl": "https://msft.it/63323asqvS",
+    "publishedAt": "2026-10-15T14:00:01.435000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET Unboxed: .NET 11 Release Candidate 2 Join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! See you LIVE here ➡️ msft.it/63328asqss #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxw7vg3jsm2v",
+    "externalUrl": "https://msft.it/63328asqss",
     "topics": [
       ".NET"
     ]

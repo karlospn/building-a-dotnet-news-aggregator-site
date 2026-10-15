@@ -352,33 +352,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "8b1efedec2ac1cc7",
-    "identityId": "reddit:/u/Some-Pear5134",
-    "author": "/u/Some-Pear5134",
-    "handle": "/u/Some-Pear5134",
-    "platform": "reddit",
-    "publishedAt": "2026-10-08T16:18:59+00:00",
-    "excerpt": "IF em C# como e quando utilizar!",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0v9bu/if_em_c_como_e_quando_utilizar/",
-    "externalUrl": "https://v.redd.it/uyxtrm3vq9uh1",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "cf4133596a4fffcd",
-    "identityId": "reddit:/u/jorgenhoc",
-    "author": "/u/jorgenhoc",
-    "handle": "/u/jorgenhoc",
-    "platform": "reddit",
-    "publishedAt": "2026-10-08T12:23:47+00:00",
-    "excerpt": "EF Core N+1 Query Problem",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x0pj0l/ef_core_n1_query_problem/",
-    "externalUrl": "https://github.com/jorgenhoc-org/dotnet-samples/tree/main/samples/ef-core-n-plus-one",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
