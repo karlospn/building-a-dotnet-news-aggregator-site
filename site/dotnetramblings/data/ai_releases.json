@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:414204736",
+    "product": "Anthropic C# SDK",
+    "version": "12.58.0",
+    "tagName": "Anthropic-v12.58.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-15T19:43:11+00:00",
+    "title": "Anthropic C# SDK 12.58.0",
+    "summary": "api: add betweentools to thinking types in model capabilities api: add the speed parameter and usage.speed to Messages docs: describe headers on Managed Agents and telemetry endpoints api: note that some models need a beta header to use speed",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.58.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "dotnet/extensions:413399311",
     "product": "Microsoft.Extensions.AI",
     "version": "10.11.0",
@@ -1186,25 +1205,6 @@
       "SDKs"
     ],
     "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.37.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:357675751",
-    "product": "Anthropic C# SDK",
-    "version": "12.36.1",
-    "tagName": "Anthropic-v12.36.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-21T22:27:57+00:00",
-    "title": "Anthropic C# SDK 12.36.1",
-    "summary": "api: add support for new refusal category (d9b672c) client: docs updates (19a59f0) docs: small updates (580c2cb) docs: small updates (86985e7)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.36.1",
     "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
