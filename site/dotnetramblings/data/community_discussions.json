@@ -1,5 +1,19 @@
 [
   {
+    "id": "272ea15239746569",
+    "identityId": "reddit:/u/KNIGHT-AIAV",
+    "author": "/u/KNIGHT-AIAV",
+    "handle": "/u/KNIGHT-AIAV",
+    "platform": "reddit",
+    "publishedAt": "2026-10-15T21:52:36+00:00",
+    "excerpt": "Shipping a small WPF utility: .NET 8, a NativeAOT helper and Velopack",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x6yppr/shipping_a_small_wpf_utility_net_8_a_nativeaot/",
+    "externalUrl": "https://github.com/KNIGHT-AI-AV/ringside",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "0f5d41466e6cba72",
     "identityId": "reddit:/u/Potential_Age_3607",
     "author": "/u/Potential_Age_3607",
