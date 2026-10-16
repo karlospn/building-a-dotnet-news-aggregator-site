@@ -1,5 +1,41 @@
 [
   {
+    "id": "e80c27ffaa7d70fa",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-16T16:30:43+00:00",
+    "excerpt": "Stories I like: Azure Well-Architected Framework in Practice",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxyyrtn7ha26",
+    "externalUrl": "https://www.codemag.com/Article/2610061/Azure-Well-Architected-Framework-in-Practice",
+    "topics": [
+      ".NET",
+      "Azure"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117451537995495519"
+      }
+    ]
+  },
+  {
+    "id": "9ac56bb19c05a8b7",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-16T13:00:02.399000+00:00",
+    "excerpt": "Wolverine, JasperFx, and modern .NET architecture. Event-driven systems, messaging, developer productivity, and cloud-native patterns all in one conversation. ⚙️ 🎧 Tune in: msft.it/63325ao559",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxymz3atet2c",
+    "externalUrl": "https://msft.it/63325ao559",
+    "topics": [
+      ".NET",
+      "Architecture"
+    ]
+  },
+  {
     "id": "5f2af4f004ff1f3b",
     "identityId": "dotnet",
     "author": ".NET",
@@ -211,21 +247,6 @@
     "externalUrl": "https://msft.it/6187aWM29",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "e4936b56dd782a5b",
-    "identityId": "brad-wilson",
-    "author": "Brad Wilson",
-    "handle": "Brad Wilson",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-09T15:51:28+00:00",
-    "excerpt": "Listening to the new The Pineapple Thief album while prepping today's xUnit.net release. https:// insideoutmusic.bandcamp.com/al bum/far-and-wide-24-bit-hd-audio # Music # ProgRock # ThePineappleThief",
-    "postUrl": "https://mastodon.social/@bradwilson/117411747526270102",
-    "externalUrl": "https://insideoutmusic.bandcamp.com/album/far-and-wide-24-bit-hd-audio",
-    "topics": [
-      ".NET",
-      "Testing"
     ]
   }
 ]

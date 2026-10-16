@@ -1,5 +1,19 @@
 [
   {
+    "id": "ca5010237fac5049",
+    "identityId": "reddit:/u/Ok_Tour_8029",
+    "author": "/u/Ok_Tour_8029",
+    "handle": "/u/Ok_Tour_8029",
+    "platform": "reddit",
+    "publishedAt": "2026-10-16T11:56:17+00:00",
+    "excerpt": "C# once again the fastest web framework",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7e7lc/c_once_again_the_fastest_web_framework/",
+    "externalUrl": "https://i.redd.it/mdq0w4b1jsvh1.png",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "272ea15239746569",
     "identityId": "reddit:/u/KNIGHT-AIAV",
     "author": "/u/KNIGHT-AIAV",
@@ -349,20 +363,6 @@
     "excerpt": "Steam Game Idler: a Tauri + Rust desktop app with a C# SteamKit2 sidecar that farms Steam trading cards, idles playtime and manages achievements",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1uujl/steam_game_idler_a_tauri_rust_desktop_app_with_a/",
     "externalUrl": "https://v.redd.it/jcct9oxgvhuh1",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "c617c0bffd91010e",
-    "identityId": "reddit:/u/Ollhax",
-    "author": "/u/Ollhax",
-    "handle": "/u/Ollhax",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T16:10:37+00:00",
-    "excerpt": "Signs of official Satori support?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1pgbn/signs_of_official_satori_support/",
-    "externalUrl": "https://github.com/dotnet/runtime/discussions/115627",
     "topics": [
       ".NET"
     ]
