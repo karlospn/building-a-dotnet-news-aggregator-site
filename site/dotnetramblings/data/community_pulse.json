@@ -1,5 +1,20 @@
 [
   {
+    "id": "6b4701a31fb3a9b6",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-16T20:00:02.392000+00:00",
+    "excerpt": "James and Frank dive into AI agents, smart home automation potential, and why Apple's scattered AI integration lags behind competitors like OpenAI and Microsoft. Plus, practical developer updates on Xcode, .NET, and automating your digital life - msft.it/63322aWhkg",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mxzei3tbsd2h",
+    "externalUrl": "https://msft.it/63322aWhkg",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "e80c27ffaa7d70fa",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -217,36 +232,6 @@
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117428888029110290"
       }
-    ]
-  },
-  {
-    "id": "dad1455b6ce54d4f",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-09T20:00:01.137000+00:00",
-    "excerpt": "This week on The Upload: .NET apps capture memory dumps when things go wrong, we break down the challenges of moving time data between PostgreSQL and SQL Server, and AI agents get stronger isolation and durable memory with Microsoft Foundry and Azure Blob Storage. 🎥…",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxhr7mfo2p2q",
-    "externalUrl": "https://msft.it/63325aYdZN",
-    "topics": [
-      ".NET",
-      "Azure",
-      "AI"
-    ]
-  },
-  {
-    "id": "6cf91acb5806a0fd",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-09T17:59:19.231000+00:00",
-    "excerpt": "🚨 Production app frozen? Use C# to monitor ThreadPool health, detect saturation, and automatically capture memory dumps for post-mortem debugging. 💾🔎 Stop guessing. Start investigating. 📖 Read: msft.it/6187aWM29",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxhkhry3bo23",
-    "externalUrl": "https://msft.it/6187aWM29",
-    "topics": [
-      ".NET"
     ]
   }
 ]

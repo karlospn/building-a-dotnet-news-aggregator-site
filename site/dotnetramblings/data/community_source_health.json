@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 29,
-    "published": 10
+    "published": 9
   },
   {
     "identityId": "dotnet",
@@ -94,7 +94,7 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 5,
+    "candidates": 7,
     "published": 0
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 26
+    "published": 25
   }
 ]

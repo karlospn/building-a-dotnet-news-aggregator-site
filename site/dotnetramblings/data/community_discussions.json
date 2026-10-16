@@ -1,5 +1,19 @@
 [
   {
+    "id": "75c354b4b3d22b94",
+    "identityId": "reddit:/u/hez2010",
+    "author": "/u/hez2010",
+    "handle": "/u/hez2010",
+    "platform": "reddit",
+    "publishedAt": "2026-10-16T20:48:49+00:00",
+    "excerpt": "Enable Satori GC in .NET with Just a Single Line",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7rlff/enable_satori_gc_in_net_with_just_a_single_line/",
+    "externalUrl": "https://medium.com/@skyake/enable-satori-gc-in-net-with-just-a-single-line-bdff4a65f5c9",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ca5010237fac5049",
     "identityId": "reddit:/u/Ok_Tour_8029",
     "author": "/u/Ok_Tour_8029",
@@ -335,34 +349,6 @@
     "excerpt": "Adding persistence to the Aspire dashboard",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x20p8s/adding_persistence_to_the_aspire_dashboard/",
     "externalUrl": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "7c3d0f302d1c1dc6",
-    "identityId": "reddit:/u/jame_581",
-    "author": "/u/jame_581",
-    "handle": "/u/jame_581",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T20:37:48+00:00",
-    "excerpt": "Markd Day Counter - an open-source day counter .NET MAUI app",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1wc05/markd_day_counter_an_opensource_day_counter_net/",
-    "externalUrl": "https://apps.microsoft.com/store/detail/9N05867SQCN8?cid=DevShareMCLPCS",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "80b3fcd37f9b5927",
-    "identityId": "reddit:/u/RagingAtLiife",
-    "author": "/u/RagingAtLiife",
-    "handle": "/u/RagingAtLiife",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T19:39:16+00:00",
-    "excerpt": "Steam Game Idler: a Tauri + Rust desktop app with a C# SteamKit2 sidecar that farms Steam trading cards, idles playtime and manages achievements",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x1uujl/steam_game_idler_a_tauri_rust_desktop_app_with_a/",
-    "externalUrl": "https://v.redd.it/jcct9oxgvhuh1",
     "topics": [
       ".NET"
     ]
