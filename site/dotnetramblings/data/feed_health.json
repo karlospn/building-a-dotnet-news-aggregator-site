@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-15T18:46:42.598546+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-16T02:19:58.509857+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-15T18:46:57.634621+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-16T02:20:13.954293+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-15T23:27:03.069148+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-16T02:19:57.680415+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-15T18:46:50.150374+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-16T02:20:08.615836+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
