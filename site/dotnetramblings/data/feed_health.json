@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-16T23:09:19.479417+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T02:12:46.334249+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -150,8 +150,8 @@
     "status": "healthy"
   },
   "goatreview": {
-    "checkedAt": "2026-10-15T13:48:23.847994+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T02:12:34.566395+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-16T02:20:08.615836+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T02:12:36.934058+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
