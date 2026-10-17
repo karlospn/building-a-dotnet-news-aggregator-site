@@ -90,8 +90,8 @@
     "status": "healthy"
   },
   "codeopinion-youtube": {
-    "checkedAt": "2026-10-15T12:38:27.586986+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T11:36:16.838956+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-16T12:23:20.641100+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-17T11:36:19.742180+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -168,8 +168,8 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-10-15T12:38:41.922906+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-17T11:36:30.995420+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-16T12:23:27.149264+00:00",
-    "itemCount": 22,
+    "checkedAt": "2026-10-17T11:36:25.288903+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-10-16T12:23:30.127602+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-17T11:36:27.975981+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-10-16T12:23:24.344605+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-17T11:36:22.790421+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-16T12:23:39.137905+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-17T11:36:35.474533+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-16T12:23:25.139778+00:00",
-    "itemCount": 8,
+    "checkedAt": "2026-10-17T11:36:23.463027+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-15T12:38:31.893657+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-17T11:36:21.045298+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-16T12:23:32.136417+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-17T11:36:29.679154+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -354,8 +354,8 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-10-16T12:23:37.616171+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-17T11:36:34.260538+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
