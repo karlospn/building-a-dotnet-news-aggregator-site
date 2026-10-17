@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-16T23:08:59.922065+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-17T07:20:05.339619+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-16T18:32:19.478044+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-17T07:20:17.104142+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-15T18:46:54.929898+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T07:20:14.893274+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-15T18:46:43.031696+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-17T07:20:05.511126+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
