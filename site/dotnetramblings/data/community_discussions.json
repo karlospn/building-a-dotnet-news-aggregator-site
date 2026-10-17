@@ -353,34 +353,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "67422de614b119e4",
-    "identityId": "reddit:/u/f0rwardz",
-    "author": "/u/f0rwardz",
-    "handle": "/u/f0rwardz",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T19:44:55+00:00",
-    "excerpt": "Componyx.UI v1.0: 25+ UI components and data binding for ASP.NET, no build step",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2o6r4/componyxui_v10_25_ui_components_and_data_binding/",
-    "externalUrl": "https://github.com/componyx/componyx.ui",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "94b01bbf40c1af09",
-    "identityId": "reddit:/u/Mob_Pilled",
-    "author": "/u/Mob_Pilled",
-    "handle": "/u/Mob_Pilled",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T17:51:48+00:00",
-    "excerpt": "Issue connecting my blazor app to remote sql server database hosted my Monsterasp.net",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2lhzc/issue_connecting_my_blazor_app_to_remote_sql/",
-    "externalUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/cannot-generate-sspi-context-error",
-    "topics": [
-      ".NET",
-      "Data"
-    ]
   }
 ]
