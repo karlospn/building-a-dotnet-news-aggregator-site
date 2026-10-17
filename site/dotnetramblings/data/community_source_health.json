@@ -45,14 +45,14 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 17,
+    "candidates": 16,
     "published": 5
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 20,
+    "candidates": 19,
     "published": 4
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 25
+    "published": 26
   }
 ]

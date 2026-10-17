@@ -1,5 +1,34 @@
 [
   {
+    "id": "ccaf25cc7cddffda",
+    "identityId": "reddit:/u/mxreal64",
+    "author": "/u/mxreal64",
+    "handle": "/u/mxreal64",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T00:51:08+00:00",
+    "excerpt": "built an open-source, agent-native VCS using hybrid F# + C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7wzhp/built_an_opensource_agentnative_vcs_using_hybrid/",
+    "externalUrl": "https://github.com/mxreal64/thallium-vcs",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "031aabe3c2397903",
+    "identityId": "reddit:/u/zionsati",
+    "author": "/u/zionsati",
+    "handle": "/u/zionsati",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T00:40:56+00:00",
+    "excerpt": "Rust just lost the classic Hello World Wasm size contest to C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7wsgb/rust_just_lost_the_classic_hello_world_wasm_size/",
+    "externalUrl": "http://github.com/zion-sati/NetWasm",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "75c354b4b3d22b94",
     "identityId": "reddit:/u/hez2010",
     "author": "/u/hez2010",
@@ -335,20 +364,6 @@
     "excerpt": "dotnet build will upload a lot of info to microsoft?!",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2f3p1/dotnet_build_will_upload_a_lot_of_info_to/",
     "externalUrl": "https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry?tabs=dotnet11",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "5f0f5cc1910fbefc",
-    "identityId": "reddit:/u/JamesNK",
-    "author": "/u/JamesNK",
-    "handle": "/u/JamesNK",
-    "platform": "reddit",
-    "publishedAt": "2026-10-09T23:51:25+00:00",
-    "excerpt": "Adding persistence to the Aspire dashboard",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x20p8s/adding_persistence_to_the_aspire_dashboard/",
-    "externalUrl": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence",
     "topics": [
       ".NET"
     ]
