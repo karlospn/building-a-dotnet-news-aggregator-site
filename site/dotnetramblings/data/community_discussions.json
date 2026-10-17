@@ -1,5 +1,49 @@
 [
   {
+    "id": "3f6681a0ff7226be",
+    "identityId": "reddit:/u/phenxdesign",
+    "author": "/u/phenxdesign",
+    "handle": "/u/phenxdesign",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T15:10:22+00:00",
+    "excerpt": "PiwiTests: Playwright dashboard with unified ASP.NET Core e2e+unit tests code coverage",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8clpu/piwitests_playwright_dashboard_with_unified/",
+    "externalUrl": "https://piwitests.dev/features/combined-coverage.html",
+    "topics": [
+      ".NET",
+      "Testing"
+    ]
+  },
+  {
+    "id": "1501553acddb0411",
+    "identityId": "reddit:/u/pournasserian",
+    "author": "/u/pournasserian",
+    "handle": "/u/pournasserian",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T13:20:56+00:00",
+    "excerpt": "mcp-my-site: an ASP.NET Core MCP server + RAG that lets ChatGPT and Claude search and read a website",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8a3yl/mcpmysite_an_aspnet_core_mcp_server_rag_that_lets/",
+    "externalUrl": "https://github.com/pournasserian/mcp-my-site",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "0ec0225e5967a674",
+    "identityId": "reddit:/u/OkIndependence938",
+    "author": "/u/OkIndependence938",
+    "handle": "/u/OkIndependence938",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T11:44:09+00:00",
+    "excerpt": "Alice Language, a new way to use .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8875a/alice_language_a_new_way_to_use_net/",
+    "externalUrl": "https://alice-lang.org/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "033c3903e6fbc360",
     "identityId": "reddit:/u/mtz94",
     "author": "/u/mtz94",
@@ -9,49 +53,6 @@
     "excerpt": "C vs C#: racing VLC's Gaussian blur",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x86p8u/c_vs_c_racing_vlcs_gaussian_blur/",
     "externalUrl": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "87af7b0a11f40180",
-    "identityId": "reddit:/u/GigAHerZ64",
-    "author": "/u/GigAHerZ64",
-    "handle": "/u/GigAHerZ64",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T07:30:22+00:00",
-    "excerpt": "Expanding .NET ULID handling with native ASP.NET Core constraints, AOT-friendly JSON converters, and CLI tooling",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x842t3/expanding_net_ulid_handling_with_native_aspnet/",
-    "externalUrl": "https://byteaether.github.io/2026/byteaetherulid-v142-expands-the-net-ecosystem-with-aspnet-core-and-cli-support",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "ccaf25cc7cddffda",
-    "identityId": "reddit:/u/mxreal64",
-    "author": "/u/mxreal64",
-    "handle": "/u/mxreal64",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T00:51:08+00:00",
-    "excerpt": "built an open-source, agent-native VCS using hybrid F# + C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7wzhp/built_an_opensource_agentnative_vcs_using_hybrid/",
-    "externalUrl": "https://github.com/mxreal64/thallium-vcs",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "031aabe3c2397903",
-    "identityId": "reddit:/u/zionsati",
-    "author": "/u/zionsati",
-    "handle": "/u/zionsati",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T00:40:56+00:00",
-    "excerpt": "Rust just lost the classic Hello World Wasm size contest to C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7wsgb/rust_just_lost_the_classic_hello_world_wasm_size/",
-    "externalUrl": "http://github.com/zion-sati/NetWasm",
     "topics": [
       ".NET"
     ]
@@ -380,20 +381,6 @@
     "topics": [
       ".NET",
       "Data"
-    ]
-  },
-  {
-    "id": "f87b0f35ca55a45f",
-    "identityId": "reddit:/u/skynetTwelve",
-    "author": "/u/skynetTwelve",
-    "handle": "/u/skynetTwelve",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T13:17:48+00:00",
-    "excerpt": "dotnet build will upload a lot of info to microsoft?!",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2f3p1/dotnet_build_will_upload_a_lot_of_info_to/",
-    "externalUrl": "https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry?tabs=dotnet11",
-    "topics": [
-      ".NET"
     ]
   }
 ]
