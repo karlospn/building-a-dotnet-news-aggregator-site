@@ -1,5 +1,33 @@
 [
   {
+    "id": "033c3903e6fbc360",
+    "identityId": "reddit:/u/mtz94",
+    "author": "/u/mtz94",
+    "handle": "/u/mtz94",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T10:15:46+00:00",
+    "excerpt": "C vs C#: racing VLC's Gaussian blur",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x86p8u/c_vs_c_racing_vlcs_gaussian_blur/",
+    "externalUrl": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "87af7b0a11f40180",
+    "identityId": "reddit:/u/GigAHerZ64",
+    "author": "/u/GigAHerZ64",
+    "handle": "/u/GigAHerZ64",
+    "platform": "reddit",
+    "publishedAt": "2026-10-17T07:30:22+00:00",
+    "excerpt": "Expanding .NET ULID handling with native ASP.NET Core constraints, AOT-friendly JSON converters, and CLI tooling",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x842t3/expanding_net_ulid_handling_with_native_aspnet/",
+    "externalUrl": "https://byteaether.github.io/2026/byteaetherulid-v142-expands-the-net-ecosystem-with-aspnet-core-and-cli-support",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ccaf25cc7cddffda",
     "identityId": "reddit:/u/mxreal64",
     "author": "/u/mxreal64",
