@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-17T19:52:50.114211+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-18T02:12:54.077785+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -372,8 +372,8 @@
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-10-16T13:38:20.806825+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-18T02:12:55.729630+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
