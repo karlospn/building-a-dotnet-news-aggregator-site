@@ -1,5 +1,33 @@
 [
   {
+    "id": "329a9152b1253cc2",
+    "identityId": "reddit:/u/SelectPdf-Software",
+    "author": "/u/SelectPdf-Software",
+    "handle": "/u/SelectPdf-Software",
+    "platform": "reddit",
+    "publishedAt": "2026-10-18T19:55:18+00:00",
+    "excerpt": "We open-sourced replacements for DinkToPdf and WkHtmlToPdfDotNet that keep your code and render with Chromium (MIT)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x9co1r/we_opensourced_replacements_for_dinktopdf_and/",
+    "externalUrl": "https://github.com/selectpdf/selectpdf-compat-wkhtmltopdf",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bc2fdb68e688c9f2",
+    "identityId": "reddit:/u/livEApplications",
+    "author": "/u/livEApplications",
+    "handle": "/u/livEApplications",
+    "platform": "reddit",
+    "publishedAt": "2026-10-18T16:36:39+00:00",
+    "excerpt": "C# supervisor so a foreground CLI survives close, crash, and reboot",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x97ooe/c_supervisor_so_a_foreground_cli_survives_close/",
+    "externalUrl": "https://github.com/LeandroCannizzaro/LiveClaude",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "3f6681a0ff7226be",
     "identityId": "reddit:/u/phenxdesign",
     "author": "/u/phenxdesign",
@@ -280,20 +308,6 @@
     "excerpt": "ConfigureAwait(false) Explained",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3zp5m/configureawaitfalse_explained/",
     "externalUrl": "https://github.com/jorgenhoc-org/dotnet-samples/tree/main/samples/configureawait-false-csharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "907a21eec3f9fd6f",
-    "identityId": "reddit:/u/EvenAd4577",
-    "author": "/u/EvenAd4577",
-    "handle": "/u/EvenAd4577",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T19:55:03+00:00",
-    "excerpt": "Wrote a C# BCS (Binary Canonical Serialization) serialization library",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3hrxn/wrote_a_c_bcs_binary_canonical_serialization/",
-    "externalUrl": "https://github.com/unsafePtr/BcsSharp/issues/4",
     "topics": [
       ".NET"
     ]
