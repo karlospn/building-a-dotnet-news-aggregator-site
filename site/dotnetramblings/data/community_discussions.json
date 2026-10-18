@@ -297,47 +297,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "6f8f4f54cadc1873",
-    "identityId": "reddit:/u/jeff377",
-    "author": "/u/jeff377",
-    "handle": "/u/jeff377",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T15:55:50+00:00",
-    "excerpt": "Polhem.JsonRpc v1.2 - JSON-RPC 2.0 for ASP.NET Core without registering methods",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3bpsi/polhemjsonrpc_v12_jsonrpc_20_for_aspnet_core/",
-    "externalUrl": "https://github.com/polhem-dev/polhem-northwind",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "6a05004f6a7a5315",
-    "identityId": "reddit:/u/Puzzleheaded-Law-332",
-    "author": "/u/Puzzleheaded-Law-332",
-    "handle": "/u/Puzzleheaded-Law-332",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T14:31:05+00:00",
-    "excerpt": "Blazor native tooltips for Touchscreen",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x39nzw/blazor_native_tooltips_for_touchscreen/",
-    "externalUrl": "http://www.blazorgraphs.it/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "432542e5836718d3",
-    "identityId": "reddit:/u/Ebrahim90117",
-    "author": "/u/Ebrahim90117",
-    "handle": "/u/Ebrahim90117",
-    "platform": "reddit",
-    "publishedAt": "2026-10-11T13:20:20+00:00",
-    "excerpt": "Which approach do you typically use to handle incoming HTTP requests?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x38280/which_approach_do_you_typically_use_to_handle/",
-    "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
