@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-17T07:20:05.339619+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-18T07:34:21.994572+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -114,8 +114,8 @@
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-10-16T18:32:10.842135+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-18T07:34:26.545608+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-10-12T22:19:22.479926+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-18T07:34:25.131640+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -300,8 +300,8 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-10-16T18:32:05.116385+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-18T07:34:20.600111+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-17T17:38:40.878558+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-18T07:34:21.542107+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
