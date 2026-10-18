@@ -339,19 +339,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "db626b4a81847310",
-    "identityId": "reddit:/u/No_Switch7024",
-    "author": "/u/No_Switch7024",
-    "handle": "/u/No_Switch7024",
-    "platform": "reddit",
-    "publishedAt": "2026-10-10T23:01:14+00:00",
-    "excerpt": "Creative coding for C# devs",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x2sl82/creative_coding_for_c_devs/",
-    "externalUrl": "https://preview.redd.it/m9dlzmz20quh1.png?width=1910&format=png&auto=webp&s=31cf0ab5e66ae53fd3b63beaf4bb77bf73758fba",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
