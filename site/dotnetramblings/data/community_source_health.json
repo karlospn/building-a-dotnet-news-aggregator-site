@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 29,
-    "published": 9
+    "published": 10
   },
   {
     "identityId": "dotnet",
@@ -73,7 +73,7 @@
     "identityId": "avalonia",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 21,
+    "candidates": 20,
     "published": 0
   },
   {
@@ -86,16 +86,18 @@
   {
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
-    "status": "ok",
+    "status": "error",
     "candidates": 0,
-    "published": 0
+    "published": 0,
+    "error": "HTTP 429"
   },
   {
     "identityId": "brad-wilson",
     "platform": "mastodon",
-    "status": "ok",
-    "candidates": 7,
-    "published": 0
+    "status": "error",
+    "candidates": 0,
+    "published": 0,
+    "error": "HTTP 429"
   },
   {
     "identityId": "scott-hanselman",

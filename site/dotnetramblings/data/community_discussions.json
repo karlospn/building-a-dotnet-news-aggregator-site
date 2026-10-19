@@ -1,5 +1,19 @@
 [
   {
+    "id": "ed9db8d1015291b5",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-19T06:04:53+00:00",
+    "excerpt": "I added a local video studio to TensorSharp using C#/.NET 10, ASP.NET Core, and MAUI",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x9p1s7/i_added_a_local_video_studio_to_tensorsharp_using/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/video-studio-design.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "85b1f2bb4f70f6a2",
     "identityId": "reddit:/u/jhaygood86",
     "author": "/u/jhaygood86",
@@ -308,20 +322,6 @@
     "excerpt": "TMS .NET Maps open beta: one map control for WinForms, WPF, .NET MAUI and Blazor",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x42pqr/tms_net_maps_open_beta_one_map_control_for/",
     "externalUrl": "https://www.tmssoftware.com/site/tmsdotnetmaps.asp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "c44bf828cf7213a5",
-    "identityId": "reddit:/u/jorgenhoc",
-    "author": "/u/jorgenhoc",
-    "handle": "/u/jorgenhoc",
-    "platform": "reddit",
-    "publishedAt": "2026-10-12T11:46:19+00:00",
-    "excerpt": "ConfigureAwait(false) Explained",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x3zp5m/configureawaitfalse_explained/",
-    "externalUrl": "https://github.com/jorgenhoc-org/dotnet-samples/tree/main/samples/configureawait-false-csharp",
     "topics": [
       ".NET"
     ]

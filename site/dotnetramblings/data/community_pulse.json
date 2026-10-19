@@ -1,5 +1,48 @@
 [
   {
+    "id": "7584bcd19f4c6e96",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-19T13:00:01.620000+00:00",
+    "excerpt": "🛑 Do you need to step away from the upgrade button. 😅 .NET Framework 4.8 follows the lifecycle of the Windows version it runs on. So modernization math is more nuanced than “old = unsupported.” Cost ➕ benefit ➕ lifecycle ➕ constraints = the real decision. 🎧 msft.it/63320aSTOQ",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mya6fsvajc23",
+    "externalUrl": "https://msft.it/63320aSTOQ",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bb6b9e12d3ad1ecc",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-19T08:26:00+00:00",
+    "excerpt": "This live Zoom course helps engineers and architects use AI to reason about constraints, trade-offs, and non-functional requirements—without losing control of the design:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3my7p3udbzj2p",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117466618935692764"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117438224807460102"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434017403252952"
+      }
+    ]
+  },
+  {
     "id": "6b4701a31fb3a9b6",
     "identityId": "dotnet",
     "author": ".NET",
@@ -129,30 +172,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "530bf5a2070a943b",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-14T08:05:00+00:00",
-    "excerpt": "Learn how to use Claude as a thinking partner, not a code generator. This live course shows you how to design systems that stay correct as they grow:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxt3lpgpdc2g",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117438224807460102"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434017403252952"
-      }
     ]
   },
   {
