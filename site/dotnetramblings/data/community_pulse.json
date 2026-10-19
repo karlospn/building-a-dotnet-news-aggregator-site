@@ -1,5 +1,39 @@
 [
   {
+    "id": "5612d7f2c02168d7",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-19T19:00:01.199000+00:00",
+    "excerpt": "What Modern WinForms Looks Like in the .NET 11 Preview? This #VSLive session replay will show you. 🎥msft.it/63326aSTQj #VisualStudio",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myasjjtskv27",
+    "externalUrl": "https://msft.it/63326aSTQj",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "295ba6c4d3ff86c5",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-19T16:30:32+00:00",
+    "excerpt": "Stories I like: Software Engineer: I&#39;m Tired of Pretending https://www. youtube.com/watch?v=H0HwFqBG9KE",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117468524200347802",
+    "externalUrl": "https://www.youtube.com/watch?v=H0HwFqBG9KE",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myak67hd4d2g"
+      }
+    ]
+  },
+  {
     "id": "7584bcd19f4c6e96",
     "identityId": "dotnet",
     "author": ".NET",
@@ -216,41 +250,6 @@
     "externalUrl": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "687d313f70326192",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-12T20:00:10.413000+00:00",
-    "excerpt": "Catch the replay... Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop practical AI builder skills. 🎥 msft.it/63329aS3cl",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxpcmnievg2o",
-    "externalUrl": "https://msft.it/63329aS3cl",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "04f119377cd7780d",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-12T16:30:32+00:00",
-    "excerpt": "Stories I like: CS degrees dropped low-level programming and the...",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxowvvhb2z2z",
-    "externalUrl": "https://daily.dev/posts/cs-degrees-dropped-low-level-programming-and-the-industry-is-noticing-vyrrxpneq",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117428888029110290"
-      }
     ]
   }
 ]
