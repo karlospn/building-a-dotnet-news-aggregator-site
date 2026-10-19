@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-10-07T09:33:28.363344+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T16:02:11.544557+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -246,8 +246,8 @@
     "status": "healthy"
   },
   "markheath": {
-    "checkedAt": "2026-10-18T17:40:49.274377+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-19T16:02:03.469109+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-17T07:20:05.511126+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T16:01:57.675092+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-17T02:12:36.934058+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T16:02:03.762742+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
