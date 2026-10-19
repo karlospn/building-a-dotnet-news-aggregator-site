@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-10-18T12:02:51.295124+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-19T14:39:36.784053+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-18T12:02:49.165103+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T14:39:34.798630+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-18T12:02:49.889676+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-19T14:39:35.506832+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-18T12:02:47.819094+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-19T14:39:33.371645+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-10-18T12:02:48.513406+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T14:39:34.149115+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -378,8 +378,8 @@
     "status": "healthy"
   },
   "techworld-with-nana": {
-    "checkedAt": "2026-10-08T14:34:24.272384+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-19T14:39:39.904641+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
