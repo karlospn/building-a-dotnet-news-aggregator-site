@@ -45,8 +45,8 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 13,
-    "published": 5
+    "candidates": 12,
+    "published": 4
   },
   {
     "identityId": "shawn-wildermuth",
@@ -101,7 +101,7 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
+    "candidates": 10,
     "published": 0
   },
   {
