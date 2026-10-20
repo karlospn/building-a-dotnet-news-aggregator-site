@@ -1,5 +1,20 @@
 [
   {
+    "id": "ad7383aa526fd750",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-20T20:00:02.433000+00:00",
+    "excerpt": "🧠➡️🎮🤖 AI that doesn’t just talk... it decides. Merge Conflict dives into Microsoft Decision One, fast decision models, robotics, games, local AI hardware + why small fine-tuned models matter. 🎧 Listen in: msft.it/63326aS0A8",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mydgdrpuj22g",
+    "externalUrl": "https://msft.it/63326aS0A8",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "ede2539592ffcb78",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -35,22 +50,6 @@
     "externalUrl": "https://msft.it/63323avOG3",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "9b8f90108f0eba7c",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-20T13:00:01.687000+00:00",
-    "excerpt": "🤖 Give your agents better access to the data layer. DAB 2.1.5 brings native SQL json + vector support to REST & GraphQL, while tightening MCP security and moving the engine to .NET 10. 🔐⚡ Embeddings meet APIs. 🧠 🔗👉 msft.it/63324aSL2g",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mycouqfxwv2g",
-    "externalUrl": "https://msft.it/63324aSL2g",
-    "topics": [
-      ".NET",
-      "AI",
-      "Data"
     ]
   },
   {
@@ -232,22 +231,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "032a6ac51902f20e",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-13T20:00:02.122000+00:00",
-    "excerpt": "🧪🚀 Ship Windows apps with confidence! MSTest now helps bring automated UI testing to UWP and WinUI 3 apps, making it easier to validate user journeys, catch regressions, and strengthen your CI/CD pipeline. 📖 msft.it/63328aWLAI #dotNET #WinUI3 #Testing",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxrt3d6k4o2q",
-    "externalUrl": "https://msft.it/63328aWLAI",
-    "topics": [
-      ".NET",
-      "DevOps",
-      "Testing"
     ]
   }
 ]
