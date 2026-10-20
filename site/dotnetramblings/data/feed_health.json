@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-20T02:42:02.888667+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-20T08:02:52.119081+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -138,8 +138,8 @@
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-10-14T19:05:19.858703+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-20T08:02:50.521056+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
