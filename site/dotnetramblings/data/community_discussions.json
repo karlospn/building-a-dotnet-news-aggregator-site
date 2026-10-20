@@ -1,5 +1,19 @@
 [
   {
+    "id": "d28ff175d75e7779",
+    "identityId": "reddit:/u/North-Asparagus6218",
+    "author": "/u/North-Asparagus6218",
+    "handle": "/u/North-Asparagus6218",
+    "platform": "reddit",
+    "publishedAt": "2026-10-20T13:16:06+00:00",
+    "excerpt": "Built a cross-platform desktop tool with .NET 10: WPF on Windows, Avalonia 12 on Linux/macOS, one shared core",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xarvif/built_a_crossplatform_desktop_tool_with_net_10/",
+    "externalUrl": "https://github.com/hasanzadee/convertino",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ad0f36158bbc84d0",
     "identityId": "reddit:/u/itsnotaboutthecell",
     "author": "/u/itsnotaboutthecell",
@@ -286,48 +300,6 @@
     "topics": [
       ".NET",
       "Python"
-    ]
-  },
-  {
-    "id": "5f67dea038e96eee",
-    "identityId": "reddit:/u/Different_Print_4048",
-    "author": "/u/Different_Print_4048",
-    "handle": "/u/Different_Print_4048",
-    "platform": "reddit",
-    "publishedAt": "2026-10-13T17:22:13+00:00",
-    "excerpt": "Notes from migrating 42 Visual FoxPro workflows to .NET: the data traps that cost the most time",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x52sgh/notes_from_migrating_42_visual_foxpro_workflows/",
-    "externalUrl": "https://theadnansaleem.com/articles/visual-foxpro-to-dotnet-migration-guide",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "9edfe71aa411a6df",
-    "identityId": "reddit:/u/ghProtip",
-    "author": "/u/ghProtip",
-    "handle": "/u/ghProtip",
-    "platform": "reddit",
-    "publishedAt": "2026-10-13T15:45:47+00:00",
-    "excerpt": "TypeScript Ported to C# via Codex",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5062e/typescript_ported_to_c_via_codex/",
-    "externalUrl": "https://github.com/stepwisehq/typescript-dotnet",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "0ed055922aee8525",
-    "identityId": "reddit:/u/Minimum-Ad7352",
-    "author": "/u/Minimum-Ad7352",
-    "handle": "/u/Minimum-Ad7352",
-    "platform": "reddit",
-    "publishedAt": "2026-10-13T15:17:11+00:00",
-    "excerpt": "How did PHP end up being faster than C# in this benchmark?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4zem4/how_did_php_end_up_being_faster_than_c_in_this/",
-    "externalUrl": "https://www.youtube.com/watch?v=QGWKCaglSBI",
-    "topics": [
-      ".NET"
     ]
   }
 ]

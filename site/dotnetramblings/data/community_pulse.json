@@ -1,5 +1,59 @@
 [
   {
+    "id": "ede2539592ffcb78",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-20T17:28:54+00:00",
+    "excerpt": "If EF has ever betrayed you in production, this course is your therapy session. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myd5wbiozx2z",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117474416014237742"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117446340065336963"
+      }
+    ]
+  },
+  {
+    "id": "a5da191bf49261ca",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-20T17:00:01.679000+00:00",
+    "excerpt": "Got opinions on .NET? We’re listening. Take the 2026 State of .NET survey. Use .NET? Help shape what’s next. Take the 2026 State of .NET survey. 🔗 msft.it/63323avOG3 #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myd4bvcuql2m",
+    "externalUrl": "https://msft.it/63323avOG3",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9b8f90108f0eba7c",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-20T13:00:01.687000+00:00",
+    "excerpt": "🤖 Give your agents better access to the data layer. DAB 2.1.5 brings native SQL json + vector support to REST & GraphQL, while tightening MCP security and moving the engine to .NET 10. 🔐⚡ Embeddings meet APIs. 🧠 🔗👉 msft.it/63324aSL2g",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mycouqfxwv2g",
+    "externalUrl": "https://msft.it/63324aSL2g",
+    "topics": [
+      ".NET",
+      "AI",
+      "Data"
+    ]
+  },
+  {
     "id": "5612d7f2c02168d7",
     "identityId": "dotnet",
     "author": ".NET",
@@ -69,10 +123,6 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117438224807460102"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434017403252952"
       }
     ]
   },
@@ -142,30 +192,6 @@
     ]
   },
   {
-    "id": "cdbfd36b7eb0c04e",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-15T18:28:49+00:00",
-    "excerpt": "EF Core is not a black box. Its a transparent box full of gremlins. Meet the gremlins: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxwowsmzt52z",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117446340065336963"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117434780366813956"
-      }
-    ]
-  },
-  {
     "id": "ac862798deeae94f",
     "identityId": "dotnet",
     "author": ".NET",
@@ -222,20 +248,6 @@
       ".NET",
       "DevOps",
       "Testing"
-    ]
-  },
-  {
-    "id": "ac5ad0cb0de9afe1",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-13T15:00:02.467000+00:00",
-    "excerpt": "What happens to your digital assets after you pass away? #dotNETRocks and Mattias Karlsson discuss his experience navigating the challenges of losing a friend and having to reorganize their digital assets. Listen in... msft.it/63326aWLW4",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxrccvetzs27",
-    "externalUrl": "https://msft.it/63326aWLW4",
-    "topics": [
-      ".NET"
     ]
   }
 ]
