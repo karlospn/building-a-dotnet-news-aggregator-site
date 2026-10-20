@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-20T18:50:24.695657+00:00",
-    "itemCount": 18,
+    "checkedAt": "2026-10-20T23:32:52.953876+00:00",
+    "itemCount": 19,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-17T02:12:46.334249+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-20T23:33:01.365653+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -84,8 +84,8 @@
     "status": "healthy"
   },
   "codeopinion": {
-    "checkedAt": "2026-10-09T09:49:43.834475+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-20T23:32:41.934691+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-19T08:17:49.736778+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-20T23:33:01.963553+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-10-19T16:02:11.544557+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-20T23:32:45.655043+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-20T18:50:26.354116+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-20T23:32:55.118811+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
