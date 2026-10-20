@@ -329,19 +329,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "652c30772dc79864",
-    "identityId": "reddit:/u/RemigiuszZalewski",
-    "author": "/u/RemigiuszZalewski",
-    "handle": "/u/RemigiuszZalewski",
-    "platform": "reddit",
-    "publishedAt": "2026-10-13T06:18:42+00:00",
-    "excerpt": "Your EF Core queries are probably scattered across your whole codebase.",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x4p61y/your_ef_core_queries_are_probably_scattered/",
-    "externalUrl": "https://youtu.be/D-NWdjfG_cg",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
