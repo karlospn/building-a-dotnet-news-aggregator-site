@@ -1,5 +1,33 @@
 [
   {
+    "id": "2a945a30cbbee615",
+    "identityId": "reddit:/u/IllustratorLittle769",
+    "author": "/u/IllustratorLittle769",
+    "handle": "/u/IllustratorLittle769",
+    "platform": "reddit",
+    "publishedAt": "2026-10-21T08:48:56+00:00",
+    "excerpt": "C# once again the fastest web framework",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbhvio/c_once_again_the_fastest_web_framework/",
+    "externalUrl": "https://i.redd.it/mdq0w4b1jsvh1.png",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "cf62ca03ecbc8276",
+    "identityId": "reddit:/u/Xaneris47",
+    "author": "/u/Xaneris47",
+    "handle": "/u/Xaneris47",
+    "platform": "reddit",
+    "publishedAt": "2026-10-21T06:33:31+00:00",
+    "excerpt": "What’s new in C# 15: Overview",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbfq6m/whats_new_in_c_15_overview/",
+    "externalUrl": "https://medium.com/pvs-studio/whats-new-in-c-15-overview-cbfa0b92fc12",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "9a50b2219e0a0959",
     "identityId": "reddit:/u/WodanOdin",
     "author": "/u/WodanOdin",
@@ -202,20 +230,6 @@
     ]
   },
   {
-    "id": "ca5010237fac5049",
-    "identityId": "reddit:/u/Ok_Tour_8029",
-    "author": "/u/Ok_Tour_8029",
-    "handle": "/u/Ok_Tour_8029",
-    "platform": "reddit",
-    "publishedAt": "2026-10-16T11:56:17+00:00",
-    "excerpt": "C# once again the fastest web framework",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7e7lc/c_once_again_the_fastest_web_framework/",
-    "externalUrl": "https://i.redd.it/mdq0w4b1jsvh1.png",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
     "id": "272ea15239746569",
     "identityId": "reddit:/u/KNIGHT-AIAV",
     "author": "/u/KNIGHT-AIAV",
@@ -271,49 +285,6 @@
       ".NET",
       "DevOps",
       "Architecture"
-    ]
-  },
-  {
-    "id": "d006c75a10d59aa3",
-    "identityId": "reddit:/u/No_Drawer1301",
-    "author": "/u/No_Drawer1301",
-    "handle": "/u/No_Drawer1301",
-    "platform": "reddit",
-    "publishedAt": "2026-10-14T11:01:30+00:00",
-    "excerpt": "Thoughts on open-source product delivery platform (built with .NET10)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5o91p/thoughts_on_opensource_product_delivery_platform/",
-    "externalUrl": "https://i.redd.it/o8ijwpajyevh1.gif",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "43bd022a1ec4a001",
-    "identityId": "reddit:/u/mladenmacanovic",
-    "author": "/u/mladenmacanovic",
-    "handle": "/u/mladenmacanovic",
-    "platform": "reddit",
-    "publishedAt": "2026-10-14T10:12:57+00:00",
-    "excerpt": "Blazorise 2.4 released. Fewer dependencies, faster utilities, and a new Ribbon component",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5nft5/blazorise_24_released_fewer_dependencies_faster/",
-    "externalUrl": "https://i.redd.it/jsqy3ntqqevh1.jpeg",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "cc33904f2cf0fb25",
-    "identityId": "reddit:/u/inaiyarhasnain",
-    "author": "/u/inaiyarhasnain",
-    "handle": "/u/inaiyarhasnain",
-    "platform": "reddit",
-    "publishedAt": "2026-10-14T07:14:43+00:00",
-    "excerpt": "Built a vision-first Windows desktop guide in C# (Avalonia) and FastAPI during an all-night hackathon in Kochi",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5kppq/built_a_visionfirst_windows_desktop_guide_in_c/",
-    "externalUrl": "https://github.com/nive62tech/step-sight/tree/implementation/desktop-guide",
-    "topics": [
-      ".NET",
-      "Python"
     ]
   }
 ]
