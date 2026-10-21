@@ -1,5 +1,19 @@
 [
   {
+    "id": "1fe76a0edcfe2168",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-21T20:00:01.470000+00:00",
+    "excerpt": "Rule #1 of multi-tenant SaaS: Tenant A should NEVER meet Tenant B’s data. 😅 .NET 10 + EF Core named query filters can enforce tenant-aware reads automatically, while SaveChanges guards block cross-tenant writes. 🛡️ Read 👉 msft.it/63329aS77t",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myfwso4ait2y",
+    "externalUrl": "https://msft.it/63329aS77t",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "6e79242ee0d1680c",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -253,20 +267,6 @@
     "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET Unboxed: .NET 11 Release Candidate 2 Join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! See you LIVE here ➡️ msft.it/63328asqss #dotNET",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mxw7vg3jsm2v",
     "externalUrl": "https://msft.it/63328asqss",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2404926ffc5526a2",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-14T19:30:01.750000+00:00",
-    "excerpt": "〰️ TOMORROW at 10AM PT 〰️ .NET Unboxed: .NET 11 Release Candidate 2 Set your reminder to join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! See you LIVE here ➡️ msft.it/63327asqjP #dotNET",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxubulopkv2v",
-    "externalUrl": "https://msft.it/63327asqjP",
     "topics": [
       ".NET"
     ]
