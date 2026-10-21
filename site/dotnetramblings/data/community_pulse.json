@@ -1,5 +1,62 @@
 [
   {
+    "id": "6e79242ee0d1680c",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-21T15:30:36+00:00",
+    "excerpt": "Stories I like: Introducing G#: A Go-like language for .NET",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myfhqxqeio2p",
+    "externalUrl": "https://www.infoworld.com/article/4210637/introducing-g-sharp-a-go-like-language-for-dot-net.html?via=dailydev",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117479613175070067"
+      }
+    ]
+  },
+  {
+    "id": "f7b5970eb99f2e44",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-21T14:00:01.353000+00:00",
+    "excerpt": "Your coding agent wants out of the IDE. 🤖🏃 📝 Markdown vaults 🎙️ Personal podcasts 📊 Strava + Garmin data 🧠 “Life agents” ⚙️ Personal software Turns out agentic workflows can automate a lot more than code. 👀 🎧 Listen: msft.it/63320aSA2C",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myfcowrgwt2x",
+    "externalUrl": "https://msft.it/63320aSA2C",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "5ef5761636630ea7",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "Mark Downie",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-21T13:15:24+00:00",
+    "excerpt": "Protect and serve ... who exactly? https://www. theverge.com/ai-artificial-int elligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+    "postUrl": "https://dotnet.social/@poppastring/117479081543003464",
+    "externalUrl": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/poppastring.com/post/3myfa73upaq22"
+      }
+    ]
+  },
+  {
     "id": "ad7383aa526fd750",
     "identityId": "dotnet",
     "author": ".NET",
@@ -212,21 +269,6 @@
     "externalUrl": "https://msft.it/63327asqjP",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "551b71285117de23",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-14T14:00:08.397000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY at 10am PT 〰️ .NET AI Community Standup Build agentic experiences with the Blazor AI Components See you LIVE here ➡️ msft.it/63321aSMC3",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxtpgpbkv72z",
-    "externalUrl": "https://msft.it/63321aSMC3",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

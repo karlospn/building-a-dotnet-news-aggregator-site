@@ -270,21 +270,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "b1dc0f7278d6532d",
-    "identityId": "reddit:/u/MinuteFudge3128",
-    "author": "/u/MinuteFudge3128",
-    "handle": "/u/MinuteFudge3128",
-    "platform": "reddit",
-    "publishedAt": "2026-10-14T13:08:43+00:00",
-    "excerpt": "I built a crash-safe \"topic in, video out\" pipeline in .NET 10 with a job queue in plain PostgreSQL (no Hangfire/Redis). Looking for architecture feedback",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x5qsf7/i_built_a_crashsafe_topic_in_video_out_pipeline/",
-    "externalUrl": "https://github.com/ruslanabdullayev01/youtube-automation-dotnet",
-    "topics": [
-      ".NET",
-      "DevOps",
-      "Architecture"
-    ]
   }
 ]
