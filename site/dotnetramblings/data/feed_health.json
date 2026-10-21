@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-20T23:32:52.953876+00:00",
-    "itemCount": 19,
+    "checkedAt": "2026-10-21T14:14:58.624485+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-20T23:33:01.365653+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-21T14:15:16.014260+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-21T02:35:51.948530+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-21T14:15:13.672534+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-20T23:33:01.963553+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-21T14:15:11.140891+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-20T13:59:11.841491+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-21T14:15:10.785625+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-19T21:52:26.007293+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-21T14:14:58.795046+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-20T23:32:55.118811+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-21T14:14:56.426095+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-21T02:35:42.840786+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-21T14:15:05.596665+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
