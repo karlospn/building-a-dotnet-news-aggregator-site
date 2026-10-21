@@ -1,5 +1,62 @@
 [
   {
+    "id": "modelcontextprotocol/csharp-sdk:418986040",
+    "product": "MCP C# SDK",
+    "version": "2.3.0",
+    "tagName": "v2.3.0",
+    "changeType": "breaking-change",
+    "publishedAt": "2026-10-20T23:39:03+00:00",
+    "title": "MCP C# SDK 2.3.0",
+    "summary": "This release improves HTTP discovery, OAuth, protocol interoperability, and shutdown reliability, preserves registration order for server primitives, and exposes a TimeProvider for deterministic client timeout tests. It also corrects optional server-identity handling;…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:418935729",
+    "product": "Anthropic C# SDK",
+    "version": "12.60.0",
+    "tagName": "Anthropic-v12.60.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-20T22:15:42+00:00",
+    "title": "Anthropic C# SDK 12.60.0",
+    "summary": "api: add org webhook endpoints and user profile enforcement events",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.60.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:418700176",
+    "product": "Anthropic C# SDK",
+    "version": "12.59.0",
+    "tagName": "Anthropic-v12.59.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-20T17:55:50+00:00",
+    "title": "Anthropic C# SDK 12.59.0",
+    "summary": "api: add datarefreshedat and hasmore to analytics report pages api: add workspace rate-limit updates to the Admin API api: make User Profiles generally available client: yield server-sent events with unrecognized event names docs: add credential expiry descriptions to the Managed…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.59.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "SciSharp/LLamaSharp:415481621",
     "product": "LLamaSharp",
     "version": "0.30.0",
@@ -1153,25 +1210,6 @@
     "official": false
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:358851610",
-    "product": "Anthropic C# SDK",
-    "version": "12.38.0",
-    "tagName": "Anthropic-v12.38.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-23T17:37:43+00:00",
-    "title": "Anthropic C# SDK 12.38.0",
-    "summary": "api: add new stop reason 'modelcontextwindowexceeded' (c7ee988)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.38.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "dotnet/extensions:358829403",
     "product": "Microsoft.Extensions.AI",
     "version": "10.8.2",
@@ -1206,25 +1244,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.15.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:358174931",
-    "product": "Anthropic C# SDK",
-    "version": "12.37.0",
-    "tagName": "Anthropic-v12.37.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-22T16:49:52+00:00",
-    "title": "Anthropic C# SDK 12.37.0",
-    "summary": "api: add support for Managed Agents model effort, initial session events, and threads delta streaming (fdca188) helpers: restructure client-side refusal-fallback helpers (#106) (5fdc922)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.37.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
