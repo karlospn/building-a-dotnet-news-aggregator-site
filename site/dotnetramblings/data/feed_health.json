@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-21T14:15:16.014260+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-21T19:03:02.152443+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-21T14:15:13.672534+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-21T19:02:56.844145+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-10-18T07:34:26.545608+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-21T19:02:46.103341+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-21T14:14:56.426095+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-21T19:02:38.096244+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
