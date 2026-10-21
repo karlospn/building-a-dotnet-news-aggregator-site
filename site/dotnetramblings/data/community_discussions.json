@@ -1,5 +1,19 @@
 [
   {
+    "id": "9a50b2219e0a0959",
+    "identityId": "reddit:/u/WodanOdin",
+    "author": "/u/WodanOdin",
+    "handle": "/u/WodanOdin",
+    "platform": "reddit",
+    "publishedAt": "2026-10-21T04:17:39+00:00",
+    "excerpt": "Browser Link Hot Reload fails with custom local domain",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbdena/browser_link_hot_reload_fails_with_custom_local/",
+    "externalUrl": "https://startdebugging.net/2026/09/fix-dotnet-watch-blazor-hot-reload-websocket-fails-on-custom-local-domain",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "d28ff175d75e7779",
     "identityId": "reddit:/u/North-Asparagus6218",
     "author": "/u/North-Asparagus6218",
