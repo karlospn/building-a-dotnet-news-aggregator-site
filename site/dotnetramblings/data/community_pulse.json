@@ -1,5 +1,21 @@
 [
   {
+    "id": "7fce9520ecd6e2fc",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-22T15:00:02.250000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET Data Community Standup Teach your AI agent database design with T-SQL static code analysis See you LIVE here ➡️ msft.it/63329as6bv",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myhwj6dkdu2b",
+    "externalUrl": "https://msft.it/63329as6bv",
+    "topics": [
+      ".NET",
+      "AI",
+      "Data"
+    ]
+  },
+  {
     "id": "84a8dbca754ec912",
     "identityId": "dotnet",
     "author": ".NET",
@@ -267,20 +283,6 @@
     "excerpt": "🚀 Faster startup. Lighter footprint. Smoother coding. The new C# Dev Kit improvements help you spend less time waiting and more time building .NET apps. ⚡💻 📖 Read the blog: msft.it/63321aoDAR #dotnet #csharp #vscode #devtools",
     "postUrl": "https://bsky.app/profile/dot.net/post/3mxwtz63m6m25",
     "externalUrl": "https://msft.it/63321aoDAR",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "ac862798deeae94f",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-15T14:00:01.435000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET Unboxed: .NET 11 Release Candidate 2 Join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! See you LIVE here ➡️ msft.it/63328asqss #dotNET",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxw7vg3jsm2v",
-    "externalUrl": "https://msft.it/63328asqss",
     "topics": [
       ".NET"
     ]
