@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-21T12:55:40.929875+00:00",
-    "itemCount": 21,
+    "checkedAt": "2026-10-22T12:57:29.029054+00:00",
+    "itemCount": 24,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-18T12:02:41.529309+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-22T12:57:21.942373+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -168,14 +168,14 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-10-21T12:55:32.117599+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-22T12:57:33.420523+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-21T12:55:39.352672+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-22T12:57:29.634450+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-21T12:55:35.989921+00:00",
-    "itemCount": 12,
+    "checkedAt": "2026-10-22T12:57:27.623741+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-21T12:55:32.858315+00:00",
-    "itemCount": 10,
+    "checkedAt": "2026-10-22T12:57:38.150731+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-21T12:55:21.711133+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-22T12:57:25.829968+00:00",
+    "itemCount": 21,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-17T11:36:21.045298+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-22T12:57:23.160092+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-17T11:36:29.679154+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-22T12:57:32.097658+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -324,8 +324,8 @@
     "status": "healthy"
   },
   "ned-in-the-cloud": {
-    "checkedAt": "2026-10-10T13:40:13.573498+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-22T12:57:31.508255+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -354,14 +354,14 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-10-21T12:55:22.421145+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-22T12:57:36.811800+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-10-21T12:55:31.355334+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-22T12:57:28.143285+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -378,8 +378,8 @@
     "status": "healthy"
   },
   "techworld-with-nana": {
-    "checkedAt": "2026-10-19T14:39:39.904641+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-22T12:57:33.967990+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
