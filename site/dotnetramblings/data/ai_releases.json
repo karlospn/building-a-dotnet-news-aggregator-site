@@ -1,5 +1,43 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:420090273",
+    "product": "Anthropic C# SDK",
+    "version": "13.1.0",
+    "tagName": "Anthropic-v13.1.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-21T21:50:03+00:00",
+    "title": "Anthropic C# SDK 13.1.0",
+    "summary": "api: add enforcement status, actions and filter to user profiles",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.1.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:419753839",
+    "product": "Anthropic C# SDK",
+    "version": "13.0.0",
+    "tagName": "Anthropic-v13.0.0",
+    "changeType": "major-release",
+    "publishedAt": "2026-10-21T15:51:24+00:00",
+    "title": "Anthropic C# SDK 13.0.0",
+    "summary": "api: add support for new API version 2026-10-21 api: add a workspaceid filter and the usagetier scope type to list spend limits api: add support for new API version 2026-10-21 api: remove outdated system role note from messages description",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.0.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "modelcontextprotocol/csharp-sdk:418986040",
     "product": "MCP C# SDK",
     "version": "2.3.0",
@@ -965,25 +1003,6 @@
     "official": true
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:366903149",
-    "product": "Anthropic C# SDK",
-    "version": "12.40.0",
-    "tagName": "Anthropic-v12.40.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-08-07T17:18:48+00:00",
-    "title": "Anthropic C# SDK 12.40.0",
-    "summary": "api: add mid-conversation-tool-changes-2026-07-01 beta (1fcee67) api: add support for session budgets, advisor tool, pinned inference location and skills auto-loading from GitHub (1dc6838) client: preserve cache token counts when messagedelta omits them (#215) (75fbb01) api:…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.40.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "microsoft/semantic-kernel:366117225",
     "product": "Semantic Kernel for .NET",
     "version": "1.79.0",
@@ -1131,25 +1150,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.0",
     "repository": "microsoft/onnxruntime",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:359422920",
-    "product": "Anthropic C# SDK",
-    "version": "12.39.0",
-    "tagName": "Anthropic-v12.39.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-07-24T16:37:08+00:00",
-    "title": "Anthropic C# SDK 12.39.0",
-    "summary": "api: add claude-opus-5 model (bbee155) api: add tool addition/removal blocks and toolchange events (bbee155) api: expand client-side fallback credit token types and add server-side fallbacks default option (bbee155) client: streaming parallel tool-use emit logic (issue #197)…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.39.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
