@@ -1,5 +1,19 @@
 [
   {
+    "id": "84a8dbca754ec912",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-22T01:00:01.492000+00:00",
+    "excerpt": "Got opinions on .NET? Put them to good use. Take the 2026 State of .NET survey and tell us what matters most to you. 🔗 msft.it/63321aakDx #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myghl4g5by2o",
+    "externalUrl": "https://msft.it/63321aakDx",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "1fe76a0edcfe2168",
     "identityId": "dotnet",
     "author": ".NET",
