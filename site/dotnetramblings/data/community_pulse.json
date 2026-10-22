@@ -1,5 +1,43 @@
 [
   {
+    "id": "d0326438e5e63d1d",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-22T20:00:01.635000+00:00",
+    "excerpt": "🚀 .NET 11 RC2 just dropped! Go-live support ✅ Faster MSBuild wildcards ⚡ HTTP/2 tuning 🌐 F# Native AOT improvements 🔥 Plus #ASPNET Core, MAUI, WinForms & NuGet goodies. Time to test the bits! 👇 Read: msft.it/63327aseul",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myihblqhha2a",
+    "externalUrl": "https://msft.it/63327aseul",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "6e9462ebaeec1140",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-22T18:30:05+00:00",
+    "excerpt": "EF internals: because sometimes you need to know why your query suddenly decided to join 12 tables. -> https:// shawnl.ink/ps-efinternals # dotnet # efcore",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117485981205813795",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myicbiybpg2o"
+      },
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myd5wbiozx2z"
+      }
+    ]
+  },
+  {
     "id": "7fce9520ecd6e2fc",
     "identityId": "dotnet",
     "author": ".NET",
@@ -13,20 +51,6 @@
       ".NET",
       "AI",
       "Data"
-    ]
-  },
-  {
-    "id": "84a8dbca754ec912",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-22T01:00:01.492000+00:00",
-    "excerpt": "Got opinions on .NET? Put them to good use. Take the 2026 State of .NET survey and tell us what matters most to you. 🔗 msft.it/63321aakDx #dotNET",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myghl4g5by2o",
-    "externalUrl": "https://msft.it/63321aakDx",
-    "topics": [
-      ".NET"
     ]
   },
   {
@@ -113,30 +137,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "ede2539592ffcb78",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-20T17:28:54+00:00",
-    "excerpt": "If EF has ever betrayed you in production, this course is your therapy session. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myd5wbiozx2z",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117474416014237742"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117446340065336963"
-      }
     ]
   },
   {
@@ -271,20 +271,6 @@
     "topics": [
       ".NET",
       "Architecture"
-    ]
-  },
-  {
-    "id": "5f2af4f004ff1f3b",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-15T20:00:02.250000+00:00",
-    "excerpt": "🚀 Faster startup. Lighter footprint. Smoother coding. The new C# Dev Kit improvements help you spend less time waiting and more time building .NET apps. ⚡💻 📖 Read the blog: msft.it/63321aoDAR #dotnet #csharp #vscode #devtools",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxwtz63m6m25",
-    "externalUrl": "https://msft.it/63321aoDAR",
-    "topics": [
-      ".NET"
     ]
   }
 ]

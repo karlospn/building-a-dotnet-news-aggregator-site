@@ -1,5 +1,20 @@
 [
   {
+    "id": "b336898dc39539fe",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-22T18:13:47+00:00",
+    "excerpt": "I built a .NET LLM inference engine that runs an 816B MoE model across 10 GPUs — here’s what I learned about C# and native performance",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcq885/i_built_a_net_llm_inference_engine_that_runs_an/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/perf/muse-spark-vs-llama-cpp.md",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "49934bae7fb2bb76",
     "identityId": "reddit:/u/alkolholix",
     "author": "/u/alkolholix",
@@ -267,20 +282,6 @@
     "excerpt": "Enable Satori GC in .NET with Just a Single Line",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7rlff/enable_satori_gc_in_net_with_just_a_single_line/",
     "externalUrl": "https://medium.com/@skyake/enable-satori-gc-in-net-with-just-a-single-line-bdff4a65f5c9",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "272ea15239746569",
-    "identityId": "reddit:/u/KNIGHT-AIAV",
-    "author": "/u/KNIGHT-AIAV",
-    "handle": "/u/KNIGHT-AIAV",
-    "platform": "reddit",
-    "publishedAt": "2026-10-15T21:52:36+00:00",
-    "excerpt": "Shipping a small WPF utility: .NET 8, a NativeAOT helper and Velopack",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x6yppr/shipping_a_small_wpf_utility_net_8_a_nativeaot/",
-    "externalUrl": "https://github.com/KNIGHT-AI-AV/ringside",
     "topics": [
       ".NET"
     ]
