@@ -1,5 +1,19 @@
 [
   {
+    "id": "977b43b727091dd7",
+    "identityId": "reddit:/u/luisrudge",
+    "author": "/u/luisrudge",
+    "handle": "/u/luisrudge",
+    "platform": "reddit",
+    "publishedAt": "2026-10-23T00:14:20+00:00",
+    "excerpt": "Build Omarchy apps in C# and dotnet",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcz712/build_omarchy_apps_in_c_and_dotnet/",
+    "externalUrl": "https://github.com/luisrudge/omasharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "b336898dc39539fe",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
