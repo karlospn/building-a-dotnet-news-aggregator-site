@@ -1,5 +1,43 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:421856424",
+    "product": "Anthropic C# SDK",
+    "version": "13.2.0",
+    "tagName": "Anthropic-v13.2.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-23T13:08:58+00:00",
+    "title": "Anthropic C# SDK 13.2.0",
+    "summary": "api: add support for message threads api: add usage and cost reports by dimension, mark older reports legacy tools: restore the released tool runner behavior when the caller changes its state tools: throw again when a stream of the tool runner is not read to its end docs: fix…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.2.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:421142032",
+    "product": "Anthropic C# SDK",
+    "version": "13.1.1",
+    "tagName": "Anthropic-v13.1.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-22T19:57:50+00:00",
+    "title": "Anthropic C# SDK 13.1.1",
+    "summary": "docs: clarify plugin content scan and validation descriptions docs: clarify plugin servedversionpinned and updatedat docs: rate limit model lists vary by organization and workspace",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.1.1",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:420090273",
     "product": "Anthropic C# SDK",
     "version": "13.1.0",
@@ -830,44 +868,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:373374618",
-    "product": "Anthropic C# SDK",
-    "version": "12.42.0",
-    "tagName": "Anthropic-v12.42.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-08-19T22:00:26+00:00",
-    "title": "Anthropic C# SDK 12.42.0",
-    "summary": "api: managed agents web search config and self hosted sandbox memory (c293479)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.42.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:373212978",
-    "product": "Anthropic C# SDK",
-    "version": "12.41.0",
-    "tagName": "Anthropic-v12.41.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-08-19T16:57:38+00:00",
-    "title": "Anthropic C# SDK 12.41.0",
-    "summary": "api: add outputbehavior to dream creation (create a new memory store or update the input store in place) (4b31214) api: additions to files and memory stores (9c9b7a6) api: Files and Skills APIs are now GA; add computer use and browser use toolsets (42206f3) api: updates to skill,…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.41.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
