@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-23T13:57:01.640782+00:00",
-    "itemCount": 8,
+    "checkedAt": "2026-10-23T18:48:33.550459+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-23T08:06:27.165662+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-23T18:48:49.315397+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-10-20T23:32:45.655043+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-23T18:48:51.186999+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
