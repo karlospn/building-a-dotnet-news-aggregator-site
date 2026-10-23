@@ -36,14 +36,14 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-22T12:57:29.029054+00:00",
-    "itemCount": 24,
+    "checkedAt": "2026-10-23T12:36:56.034658+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
   "azure-academy": {
-    "checkedAt": "2026-10-21T12:55:41.572811+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-23T12:36:59.803857+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-22T12:57:21.942373+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-23T12:36:48.746075+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -168,8 +168,8 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-10-22T12:57:33.420523+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-23T12:37:00.452684+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -186,8 +186,8 @@
     "status": "healthy"
   },
   "james-montemagno-youtube": {
-    "checkedAt": "2026-10-18T12:02:42.178261+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-23T12:36:49.387592+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-10-21T12:55:38.097210+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-23T12:36:48.093600+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-22T12:57:38.150731+00:00",
-    "itemCount": 12,
+    "checkedAt": "2026-10-23T12:37:05.228355+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-22T12:57:25.829968+00:00",
-    "itemCount": 21,
+    "checkedAt": "2026-10-23T12:36:52.769987+00:00",
+    "itemCount": 25,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-22T12:57:23.160092+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-23T12:36:49.968386+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -354,14 +354,14 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-10-22T12:57:36.811800+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-23T12:37:03.966243+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-10-22T12:57:28.143285+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-23T12:36:55.279235+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
