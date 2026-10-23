@@ -1,5 +1,34 @@
 [
   {
+    "id": "fc66418b5d6f4c17",
+    "identityId": "reddit:/u/RammerOfProgs",
+    "author": "/u/RammerOfProgs",
+    "handle": "/u/RammerOfProgs",
+    "platform": "reddit",
+    "publishedAt": "2026-10-23T20:09:28+00:00",
+    "excerpt": "I built Magpie, a self-hosted media discovery and automation app in C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdonqh/i_built_magpie_a_selfhosted_media_discovery_and/",
+    "externalUrl": "https://github.com/magpie-media-platform/magpie",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "ca8bb7099e79b909",
+    "identityId": "reddit:/u/RagingCain",
+    "author": "/u/RagingCain",
+    "handle": "/u/RagingCain",
+    "platform": "reddit",
+    "publishedAt": "2026-10-23T17:28:21+00:00",
+    "excerpt": "Benchmarked Temporal’s .NET SDK around LLM calls: 24–28 ms at p95 outside the model",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdkejj/benchmarked_temporals_net_sdk_around_llm_calls/",
+    "externalUrl": "https://threadunsafe.dev/screaming-in-space/continuum/platform/benchmarks/durable-inference",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "187330747f346980",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
@@ -297,20 +326,6 @@
     "excerpt": "C vs C#: racing VLC's Gaussian blur",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x86p8u/c_vs_c_racing_vlcs_gaussian_blur/",
     "externalUrl": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "75c354b4b3d22b94",
-    "identityId": "reddit:/u/hez2010",
-    "author": "/u/hez2010",
-    "handle": "/u/hez2010",
-    "platform": "reddit",
-    "publishedAt": "2026-10-16T20:48:49+00:00",
-    "excerpt": "Enable Satori GC in .NET with Just a Single Line",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x7rlff/enable_satori_gc_in_net_with_just_a_single_line/",
-    "externalUrl": "https://medium.com/@skyake/enable-satori-gc-in-net-with-just-a-single-line-bdff4a65f5c9",
     "topics": [
       ".NET"
     ]

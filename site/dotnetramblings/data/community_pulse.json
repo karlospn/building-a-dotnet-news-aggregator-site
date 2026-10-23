@@ -1,5 +1,19 @@
 [
   {
+    "id": "c02ddbb48b7da04d",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-23T20:00:01.578000+00:00",
+    "excerpt": "Drop in on the .NET FDN session replay as we discuss the current happenings in the .NET MAUI Community Toolkit! msft.it/63321as5VR #dotNETMAUI",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mykxqjbqsg2l",
+    "externalUrl": "https://msft.it/63321as5VR",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "5b59f7ee028f6dec",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -276,21 +290,6 @@
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117466618935692764"
       }
-    ]
-  },
-  {
-    "id": "6b4701a31fb3a9b6",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-16T20:00:02.392000+00:00",
-    "excerpt": "James and Frank dive into AI agents, smart home automation potential, and why Apple's scattered AI integration lags behind competitors like OpenAI and Microsoft. Plus, practical developer updates on Xcode, .NET, and automating your digital life - msft.it/63322aWhkg",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxzei3tbsd2h",
-    "externalUrl": "https://msft.it/63322aWhkg",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
