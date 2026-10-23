@@ -1,5 +1,61 @@
 [
   {
+    "id": "5b59f7ee028f6dec",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-23T16:30:42+00:00",
+    "excerpt": "Stories I like: Today I will... find hidden latency across a distributed .NET application - Visual Studio Blog",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mykm2azyou2s",
+    "externalUrl": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117491174100643067"
+      }
+    ]
+  },
+  {
+    "id": "c202cfb151641f3d",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "avaloniaui.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-23T15:18:24.847122+00:00",
+    "excerpt": "On 22 October an attacker got into our website CMS using an admin token accidentally exposed in the site's JavaScript. It's revoked and the site rebuilt. We've found no access to customer portal data, payments or licence keys. No action needed from you.…",
+    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mykhyx54rj2q",
+    "externalUrl": "https://avaloniaui.net/blog/security-incident-oct26",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@avaloniaui/117490889660894217"
+      }
+    ]
+  },
+  {
+    "id": "6c544e1127801360",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-23T14:00:01.430000+00:00",
+    "excerpt": "🛡️ Runtime hygiene = happy production. October’s .NET servicing drop updates .NET 10/9/8 with security + non-security fixes, plus fresh .NET Framework servicing. ⚙️🔥 Patch up 👇 msft.it/63321ase0W",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mykdmrrkda2u",
+    "externalUrl": "https://msft.it/63321ase0W",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
     "id": "d0326438e5e63d1d",
     "identityId": "dotnet",
     "author": ".NET",
@@ -235,42 +291,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "e80c27ffaa7d70fa",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-16T16:30:43+00:00",
-    "excerpt": "Stories I like: Azure Well-Architected Framework in Practice",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mxyyrtn7ha26",
-    "externalUrl": "https://www.codemag.com/Article/2610061/Azure-Well-Architected-Framework-in-Practice",
-    "topics": [
-      ".NET",
-      "Azure"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117451537995495519"
-      }
-    ]
-  },
-  {
-    "id": "9ac56bb19c05a8b7",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-16T13:00:02.399000+00:00",
-    "excerpt": "Wolverine, JasperFx, and modern .NET architecture. Event-driven systems, messaging, developer productivity, and cloud-native patterns all in one conversation. ⚙️ 🎧 Tune in: msft.it/63325ao559",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mxymz3atet2c",
-    "externalUrl": "https://msft.it/63325ao559",
-    "topics": [
-      ".NET",
-      "Architecture"
     ]
   }
 ]

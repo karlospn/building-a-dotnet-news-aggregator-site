@@ -1,5 +1,20 @@
 [
   {
+    "id": "187330747f346980",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-23T15:52:24+00:00",
+    "excerpt": "Building a local LLM inference engine in C#/.NET: multi-GPU scheduling, native CUDA, and benchmark results",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdhtd2/building_a_local_llm_inference_engine_in_cnet/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/DEVELOPMENT.md",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "977b43b727091dd7",
     "identityId": "reddit:/u/luisrudge",
     "author": "/u/luisrudge",

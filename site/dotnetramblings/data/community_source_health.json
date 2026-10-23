@@ -74,14 +74,14 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 19,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "avalonia",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 18,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "khalid-abuhakmeh",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 21
+    "published": 22
   }
 ]
