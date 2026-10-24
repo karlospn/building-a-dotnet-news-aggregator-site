@@ -1,5 +1,19 @@
 [
   {
+    "id": "b35139043c043f81",
+    "identityId": "reddit:/u/nuclearbananana",
+    "author": "/u/nuclearbananana",
+    "handle": "/u/nuclearbananana",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T06:36:14+00:00",
+    "excerpt": "fd-cs: fd (faster find) rewritten in C# and upto 2x faster",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe1fu1/fdcs_fd_faster_find_rewritten_in_c_and_upto_2x/",
+    "externalUrl": "https://github.com/Tamnac/fd-cs",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "caa9a0bc24e70fe3",
     "identityId": "reddit:/u/code-dispenser",
     "author": "/u/code-dispenser",
@@ -341,20 +355,6 @@
     "excerpt": "Alice Language, a new way to use .NET",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8875a/alice_language_a_new_way_to_use_net/",
     "externalUrl": "https://alice-lang.org/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "033c3903e6fbc360",
-    "identityId": "reddit:/u/mtz94",
-    "author": "/u/mtz94",
-    "handle": "/u/mtz94",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T10:15:46+00:00",
-    "excerpt": "C vs C#: racing VLC's Gaussian blur",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x86p8u/c_vs_c_racing_vlcs_gaussian_blur/",
-    "externalUrl": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp",
     "topics": [
       ".NET"
     ]
