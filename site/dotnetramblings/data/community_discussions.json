@@ -1,5 +1,19 @@
 [
   {
+    "id": "5e3985d5830f775e",
+    "identityId": "reddit:/u/mcnamaragio",
+    "author": "/u/mcnamaragio",
+    "handle": "/u/mcnamaragio",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T18:57:01+00:00",
+    "excerpt": "DuckDB.NET 1.5.6.1: Reading Data Up to 12× Faster",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xegr8s/duckdbnet_1561_reading_data_up_to_12_faster/",
+    "externalUrl": "https://www.giorgi.dev/database/duckdb-net-1-5-6-1-data-reader-performance",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "5c1124739769e45a",
     "identityId": "reddit:/u/tinmanjk",
     "author": "/u/tinmanjk",
@@ -37,20 +51,6 @@
     "excerpt": "Parsley: An extremely capable parser generator for C#",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe9fhp/parsley_an_extremely_capable_parser_generator_for/",
     "externalUrl": "https://github.com/codewitch-honey-crisis/Parsley",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "b35139043c043f81",
-    "identityId": "reddit:/u/nuclearbananana",
-    "author": "/u/nuclearbananana",
-    "handle": "/u/nuclearbananana",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T06:36:14+00:00",
-    "excerpt": "fd-cs: fd (faster find) rewritten in C# and upto 2x faster",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe1fu1/fdcs_fd_faster_find_rewritten_in_c_and_upto_2x/",
-    "externalUrl": "https://github.com/Tamnac/fd-cs",
     "topics": [
       ".NET"
     ]
