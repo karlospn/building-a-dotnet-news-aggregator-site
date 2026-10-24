@@ -1,5 +1,48 @@
 [
   {
+    "id": "caa9a0bc24e70fe3",
+    "identityId": "reddit:/u/code-dispenser",
+    "author": "/u/code-dispenser",
+    "handle": "/u/code-dispenser",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T04:45:10+00:00",
+    "excerpt": "Blazor Ramp - GoTo OMG WTF",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdzild/blazor_ramp_goto_omg_wtf/",
+    "externalUrl": "https://docs.blazorramp.uk/components/data-table/usage/templating",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "6c2cef05ad83cc73",
+    "identityId": "reddit:/u/varun_kumar_a",
+    "author": "/u/varun_kumar_a",
+    "handle": "/u/varun_kumar_a",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T04:43:00+00:00",
+    "excerpt": "I built MediCore — a completely free, open-source alternative to MediatR for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdzha1/i_built_medicore_a_completely_free_opensource/",
+    "externalUrl": "https://www.nuget.org/packages/MediCore",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bfd77dca00bd10c6",
+    "identityId": "reddit:/u/QuirkyPreference5649",
+    "author": "/u/QuirkyPreference5649",
+    "handle": "/u/QuirkyPreference5649",
+    "platform": "reddit",
+    "publishedAt": "2026-10-23T21:59:10+00:00",
+    "excerpt": "[Promotion] Corvus v1.6 – A lightweight server launcher and container dashboard running on .NET 9 Native AOT (<30MB RAM)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdrd7i/promotion_corvus_v16_a_lightweight_server/",
+    "externalUrl": "https://github.com/brhnshn/Corvus",
+    "topics": [
+      ".NET",
+      "Containers"
+    ]
+  },
+  {
     "id": "fc66418b5d6f4c17",
     "identityId": "reddit:/u/RammerOfProgs",
     "author": "/u/RammerOfProgs",
@@ -41,20 +84,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "977b43b727091dd7",
-    "identityId": "reddit:/u/luisrudge",
-    "author": "/u/luisrudge",
-    "handle": "/u/luisrudge",
-    "platform": "reddit",
-    "publishedAt": "2026-10-23T00:14:20+00:00",
-    "excerpt": "Build Omarchy apps in C# and dotnet",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcz712/build_omarchy_apps_in_c_and_dotnet/",
-    "externalUrl": "https://github.com/luisrudge/omasharp",
-    "topics": [
-      ".NET"
     ]
   },
   {
