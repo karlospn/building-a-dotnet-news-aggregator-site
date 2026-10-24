@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-23T18:48:49.315397+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-24T02:35:46.947406+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-23T02:37:23.106869+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-24T02:35:41.365475+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
