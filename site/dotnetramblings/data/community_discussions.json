@@ -1,5 +1,47 @@
 [
   {
+    "id": "5c1124739769e45a",
+    "identityId": "reddit:/u/tinmanjk",
+    "author": "/u/tinmanjk",
+    "handle": "/u/tinmanjk",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T15:33:13+00:00",
+    "excerpt": "Is the community driven MSBuild.SDK.SystemWeb allowing for SDK-style projects for legacy ASP.NET production-ready?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xebo8p/is_the_community_driven_msbuildsdksystemweb/",
+    "externalUrl": "https://engineering-leadership.hinshelwood.com/engineering-notes/convert-legacy-projects-and-asp-net-mvc-apps-to-sdk-style-with-confidence",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "123d978c26652e6a",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T15:15:02+00:00",
+    "excerpt": "Video generation goes native .NET: TensorSharp Video Studio runs LTX-2.5 / MiniMax-H3 on your own GPU",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xeb85z/video_generation_goes_native_net_tensorsharp/",
+    "externalUrl": "http://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "40a7fd44beadabc8",
+    "identityId": "reddit:/u/honeyCrisis",
+    "author": "/u/honeyCrisis",
+    "handle": "/u/honeyCrisis",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T14:00:45+00:00",
+    "excerpt": "Parsley: An extremely capable parser generator for C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe9fhp/parsley_an_extremely_capable_parser_generator_for/",
+    "externalUrl": "https://github.com/codewitch-honey-crisis/Parsley",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "b35139043c043f81",
     "identityId": "reddit:/u/nuclearbananana",
     "author": "/u/nuclearbananana",
@@ -9,34 +51,6 @@
     "excerpt": "fd-cs: fd (faster find) rewritten in C# and upto 2x faster",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe1fu1/fdcs_fd_faster_find_rewritten_in_c_and_upto_2x/",
     "externalUrl": "https://github.com/Tamnac/fd-cs",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "caa9a0bc24e70fe3",
-    "identityId": "reddit:/u/code-dispenser",
-    "author": "/u/code-dispenser",
-    "handle": "/u/code-dispenser",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T04:45:10+00:00",
-    "excerpt": "Blazor Ramp - GoTo OMG WTF",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdzild/blazor_ramp_goto_omg_wtf/",
-    "externalUrl": "https://docs.blazorramp.uk/components/data-table/usage/templating",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "6c2cef05ad83cc73",
-    "identityId": "reddit:/u/varun_kumar_a",
-    "author": "/u/varun_kumar_a",
-    "handle": "/u/varun_kumar_a",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T04:43:00+00:00",
-    "excerpt": "I built MediCore — a completely free, open-source alternative to MediatR for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdzha1/i_built_medicore_a_completely_free_opensource/",
-    "externalUrl": "https://www.nuget.org/packages/MediCore",
     "topics": [
       ".NET"
     ]
@@ -311,50 +325,6 @@
     "excerpt": "C# supervisor so a foreground CLI survives close, crash, and reboot",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x97ooe/c_supervisor_so_a_foreground_cli_survives_close/",
     "externalUrl": "https://github.com/LeandroCannizzaro/LiveClaude",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "3f6681a0ff7226be",
-    "identityId": "reddit:/u/phenxdesign",
-    "author": "/u/phenxdesign",
-    "handle": "/u/phenxdesign",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T15:10:22+00:00",
-    "excerpt": "PiwiTests: Playwright dashboard with unified ASP.NET Core e2e+unit tests code coverage",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8clpu/piwitests_playwright_dashboard_with_unified/",
-    "externalUrl": "https://piwitests.dev/features/combined-coverage.html",
-    "topics": [
-      ".NET",
-      "Testing"
-    ]
-  },
-  {
-    "id": "1501553acddb0411",
-    "identityId": "reddit:/u/pournasserian",
-    "author": "/u/pournasserian",
-    "handle": "/u/pournasserian",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T13:20:56+00:00",
-    "excerpt": "mcp-my-site: an ASP.NET Core MCP server + RAG that lets ChatGPT and Claude search and read a website",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8a3yl/mcpmysite_an_aspnet_core_mcp_server_rag_that_lets/",
-    "externalUrl": "https://github.com/pournasserian/mcp-my-site",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "0ec0225e5967a674",
-    "identityId": "reddit:/u/OkIndependence938",
-    "author": "/u/OkIndependence938",
-    "handle": "/u/OkIndependence938",
-    "platform": "reddit",
-    "publishedAt": "2026-10-17T11:44:09+00:00",
-    "excerpt": "Alice Language, a new way to use .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x8875a/alice_language_a_new_way_to_use_net/",
-    "externalUrl": "https://alice-lang.org/",
     "topics": [
       ".NET"
     ]
