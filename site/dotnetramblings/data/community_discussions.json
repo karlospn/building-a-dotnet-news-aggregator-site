@@ -1,5 +1,19 @@
 [
   {
+    "id": "290c9bb2a31b788a",
+    "identityId": "reddit:/u/moonwalker1307",
+    "author": "/u/moonwalker1307",
+    "handle": "/u/moonwalker1307",
+    "platform": "reddit",
+    "publishedAt": "2026-10-25T15:26:36+00:00",
+    "excerpt": "PdfPecker v1.20: dependency-free HTML to PDF for .NET, no Chrome, MIT",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xf58fv/pdfpecker_v120_dependencyfree_html_to_pdf_for_net/",
+    "externalUrl": "https://www.nuget.org/packages/PdfPecker",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "0bc57561f91666d3",
     "identityId": "reddit:/u/Ant171311",
     "author": "/u/Ant171311",
@@ -311,20 +325,6 @@
     "excerpt": "We open-sourced replacements for DinkToPdf and WkHtmlToPdfDotNet that keep your code and render with Chromium (MIT)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x9co1r/we_opensourced_replacements_for_dinktopdf_and/",
     "externalUrl": "https://github.com/selectpdf/selectpdf-compat-wkhtmltopdf",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "bc2fdb68e688c9f2",
-    "identityId": "reddit:/u/livEApplications",
-    "author": "/u/livEApplications",
-    "handle": "/u/livEApplications",
-    "platform": "reddit",
-    "publishedAt": "2026-10-18T16:36:39+00:00",
-    "excerpt": "C# supervisor so a foreground CLI survives close, crash, and reboot",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x97ooe/c_supervisor_so_a_foreground_cli_survives_close/",
-    "externalUrl": "https://github.com/LeandroCannizzaro/LiveClaude",
     "topics": [
       ".NET"
     ]
