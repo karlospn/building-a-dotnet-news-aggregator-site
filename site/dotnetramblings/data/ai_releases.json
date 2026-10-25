@@ -2772,24 +2772,5 @@
     "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.6.0",
     "repository": "openai/openai-dotnet",
     "official": true
-  },
-  {
-    "id": "microsoft/onnxruntime:257196913",
-    "product": "ONNX Runtime",
-    "version": "1.23.2",
-    "tagName": "v1.23.2",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-10-25T04:15:21+00:00",
-    "title": "ONNX Runtime 1.23.2",
-    "summary": "See the official release notes for details.",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Local Models",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.23.2",
-    "repository": "microsoft/onnxruntime",
-    "official": true
   }
 ]
