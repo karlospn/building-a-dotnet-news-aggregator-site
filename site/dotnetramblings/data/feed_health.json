@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-24T17:43:53.628009+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-25T07:56:12.447336+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-24T19:59:30.537551+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-25T07:56:23.292894+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-10-19T21:52:28.603112+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-25T07:56:15.326511+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-10-23T18:48:51.186999+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-25T07:56:24.208911+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-25T02:23:18.191146+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-25T07:56:12.158389+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
