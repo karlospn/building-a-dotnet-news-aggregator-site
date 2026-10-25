@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 3,
+    "candidates": 4,
     "published": 1
   },
   {
@@ -39,13 +39,13 @@
     "platform": "mastodon",
     "status": "ok",
     "candidates": 19,
-    "published": 1
+    "published": 2
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
+    "candidates": 11,
     "published": 5
   },
   {

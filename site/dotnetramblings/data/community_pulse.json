@@ -1,5 +1,21 @@
 [
   {
+    "id": "57586ed8cbb6660f",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "Mark Downie",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-25T00:50:33+00:00",
+    "excerpt": "I am leaning towards experimenting with small models locally # ai https://www. poppastring.com/blog/small-mod els-specific-purposes",
+    "postUrl": "https://dotnet.social/@poppastring/117498801945830762",
+    "externalUrl": "https://www.poppastring.com/blog/small-models-specific-purposes",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "c02ddbb48b7da04d",
     "identityId": "dotnet",
     "author": ".NET",
@@ -272,14 +288,14 @@
     ]
   },
   {
-    "id": "bb6b9e12d3ad1ecc",
+    "id": "da011c4c482b77d8",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
     "publishedAt": "2026-10-19T08:26:00+00:00",
-    "excerpt": "This live Zoom course helps engineers and architects use AI to reason about constraints, trade-offs, and non-functional requirements—without losing control of the design:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3my7p3udbzj2p",
+    "excerpt": "This live Zoom course helps engineers and architects use AI to reason about constraints, trade-offs, and non-functional requirements—without losing control of the design: https:// timeofclaudecourse.com/",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117466618935692764",
     "externalUrl": "https://timeofclaudecourse.com/",
     "topics": [
       ".NET",
@@ -287,8 +303,8 @@
     ],
     "alsoOn": [
       {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117466618935692764"
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3my7p3udbzj2p"
       }
     ]
   }

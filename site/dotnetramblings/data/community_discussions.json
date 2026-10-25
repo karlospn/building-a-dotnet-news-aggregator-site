@@ -1,5 +1,33 @@
 [
   {
+    "id": "0bc57561f91666d3",
+    "identityId": "reddit:/u/Ant171311",
+    "author": "/u/Ant171311",
+    "handle": "/u/Ant171311",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T21:22:27+00:00",
+    "excerpt": "CsCheck 5.0 - .NET 11 and native AOT ready",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xek9fs/cscheck_50_net_11_and_native_aot_ready/",
+    "externalUrl": "https://www.nuget.org/packages/CsCheck/5.0.0",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "68597f99103abc98",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-24T21:14:44+00:00",
+    "excerpt": "Day 1 MiniMax-M3.1-Flash support in TensorSharp, a .NET 10 inference engine",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xek30u/day_1_minimaxm31flash_support_in_tensorsharp_a/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/perf/minimax-m3-vs-llama-cpp.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "5e3985d5830f775e",
     "identityId": "reddit:/u/mcnamaragio",
     "author": "/u/mcnamaragio",
@@ -23,34 +51,6 @@
     "excerpt": "Is the community driven MSBuild.SDK.SystemWeb allowing for SDK-style projects for legacy ASP.NET production-ready?",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xebo8p/is_the_community_driven_msbuildsdksystemweb/",
     "externalUrl": "https://engineering-leadership.hinshelwood.com/engineering-notes/convert-legacy-projects-and-asp-net-mvc-apps-to-sdk-style-with-confidence",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "123d978c26652e6a",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T15:15:02+00:00",
-    "excerpt": "Video generation goes native .NET: TensorSharp Video Studio runs LTX-2.5 / MiniMax-H3 on your own GPU",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xeb85z/video_generation_goes_native_net_tensorsharp/",
-    "externalUrl": "http://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "40a7fd44beadabc8",
-    "identityId": "reddit:/u/honeyCrisis",
-    "author": "/u/honeyCrisis",
-    "handle": "/u/honeyCrisis",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T14:00:45+00:00",
-    "excerpt": "Parsley: An extremely capable parser generator for C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xe9fhp/parsley_an_extremely_capable_parser_generator_for/",
-    "externalUrl": "https://github.com/codewitch-honey-crisis/Parsley",
     "topics": [
       ".NET"
     ]
