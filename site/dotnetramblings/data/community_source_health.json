@@ -45,8 +45,8 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
-    "published": 4
+    "candidates": 10,
+    "published": 3
   },
   {
     "identityId": "shawn-wildermuth",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 23
+    "published": 25
   }
 ]

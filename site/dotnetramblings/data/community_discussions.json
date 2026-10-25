@@ -1,5 +1,48 @@
 [
   {
+    "id": "da9823acf7e64920",
+    "identityId": "reddit:/u/ShadowGeist91",
+    "author": "/u/ShadowGeist91",
+    "handle": "/u/ShadowGeist91",
+    "platform": "reddit",
+    "publishedAt": "2026-10-25T20:53:16+00:00",
+    "excerpt": "FuzzySharper: A C# library that allows you to create your own Fuzzy Expert System",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xfdiku/fuzzysharper_a_c_library_that_allows_you_to/",
+    "externalUrl": "https://github.com/b-tapia-morales/FuzzySharper",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "457dede5a4b86276",
+    "identityId": "reddit:/u/Nelsar-Axia",
+    "author": "/u/Nelsar-Axia",
+    "handle": "/u/Nelsar-Axia",
+    "platform": "reddit",
+    "publishedAt": "2026-10-25T19:55:53+00:00",
+    "excerpt": "Lessons from an open-source .NET 10 LDAP/AD admin app: MediatR authorization, two EF Core providers, tests against a live Samba DC",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xfc2mo/lessons_from_an_opensource_net_10_ldapad_admin/",
+    "externalUrl": "https://github.com/Nelsar/Axia",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
+    "id": "a2c75ed8643cd631",
+    "identityId": "reddit:/u/Atulin",
+    "author": "/u/Atulin",
+    "handle": "/u/Atulin",
+    "platform": "reddit",
+    "publishedAt": "2026-10-25T18:05:04+00:00",
+    "excerpt": "Wake up, new license rugpull just dropped — TickerQ 5.x",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xf99u0/wake_up_new_license_rugpull_just_dropped_tickerq/",
+    "externalUrl": "https://tickerq.net/docs/5.x/getting-started/licensing",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "290c9bb2a31b788a",
     "identityId": "reddit:/u/moonwalker1307",
     "author": "/u/moonwalker1307",
@@ -311,20 +354,6 @@
     "excerpt": "PeachPDF & Friends Updates",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1x9g3su/peachpdf_friends_updates/",
     "externalUrl": "https://peachpdf.net/demo",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "329a9152b1253cc2",
-    "identityId": "reddit:/u/SelectPdf-Software",
-    "author": "/u/SelectPdf-Software",
-    "handle": "/u/SelectPdf-Software",
-    "platform": "reddit",
-    "publishedAt": "2026-10-18T19:55:18+00:00",
-    "excerpt": "We open-sourced replacements for DinkToPdf and WkHtmlToPdfDotNet that keep your code and render with Chromium (MIT)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1x9co1r/we_opensourced_replacements_for_dinktopdf_and/",
-    "externalUrl": "https://github.com/selectpdf/selectpdf-compat-wkhtmltopdf",
     "topics": [
       ".NET"
     ]
