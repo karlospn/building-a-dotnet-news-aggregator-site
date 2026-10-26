@@ -1,5 +1,26 @@
 [
   {
+    "id": "961b49f42e412235",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-25T21:55:37+00:00",
+    "excerpt": "The link between phreaking and AI: www.tiktok.com/@ieee...",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myq752oo5l2c",
+    "externalUrl": "https://www.tiktok.com/@ieeespectrum/video/7697341193457356046",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117503776379159446"
+      }
+    ]
+  },
+  {
     "id": "57586ed8cbb6660f",
     "identityId": "mark-downie",
     "author": "Mark Downie",
