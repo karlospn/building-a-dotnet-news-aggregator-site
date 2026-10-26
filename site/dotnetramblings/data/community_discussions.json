@@ -1,14 +1,57 @@
 [
   {
-    "id": "aa73ce54fa3ad089",
-    "identityId": "reddit:/u/Prior_Inspection2576",
-    "author": "/u/Prior_Inspection2576",
-    "handle": "/u/Prior_Inspection2576",
+    "id": "ec718075c08ec40e",
+    "identityId": "reddit:/u/Albertiikun",
+    "author": "/u/Albertiikun",
+    "handle": "/u/Albertiikun",
     "platform": "reddit",
-    "publishedAt": "2026-10-26T06:30:10+00:00",
-    "excerpt": "Kenshi Unofficial Port from C++ to .NET - Massive Performance Gain + QOL",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xfp9gu/kenshi_unofficial_port_from_c_to_net_massive/",
-    "externalUrl": "https://www.youtube.com/watch?v=x26n4FDCO_M",
+    "publishedAt": "2026-10-26T21:39:55+00:00",
+    "excerpt": "I'm the creator of TickerQ. Let's talk about the licensing change and what's actually changed.",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xga2v8/im_the_creator_of_tickerq_lets_talk_about_the/",
+    "externalUrl": "https://tickerq.net/docs/5.x/changelog",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "4910bd8d2fa107fa",
+    "identityId": "reddit:/u/TheRpgEngineer",
+    "author": "/u/TheRpgEngineer",
+    "handle": "/u/TheRpgEngineer",
+    "platform": "reddit",
+    "publishedAt": "2026-10-26T20:57:37+00:00",
+    "excerpt": "More cache. Less RAM. No cache server",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xg8zif/more_cache_less_ram_no_cache_server/",
+    "externalUrl": "https://www.nuget.org/packages/Eryri.FileDistributedCache",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2094f0017b613cb8",
+    "identityId": "reddit:/u/Proud_Trick6857",
+    "author": "/u/Proud_Trick6857",
+    "handle": "/u/Proud_Trick6857",
+    "platform": "reddit",
+    "publishedAt": "2026-10-26T19:10:52+00:00",
+    "excerpt": "Anyone debugging a legacy VB.NET app without Visual Studio?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xg65c4/anyone_debugging_a_legacy_vbnet_app_without/",
+    "externalUrl": "http://vb.net/",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ]
+  },
+  {
+    "id": "181bbfb499c1b06f",
+    "identityId": "reddit:/u/Vegetable-Sorbet-194",
+    "author": "/u/Vegetable-Sorbet-194",
+    "handle": "/u/Vegetable-Sorbet-194",
+    "platform": "reddit",
+    "publishedAt": "2026-10-26T17:58:00+00:00",
+    "excerpt": "How I isolated admin rights in a .NET 10 WPF app: an elevated helper limited to a closed list of operations",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xg45si/how_i_isolated_admin_rights_in_a_net_10_wpf_app/",
+    "externalUrl": "https://github.com/ablanchard-dev/drdxt/issues",
     "topics": [
       ".NET"
     ]
@@ -296,52 +339,6 @@
     "externalUrl": "https://github.com/hasanzadee/convertino",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "ad0f36158bbc84d0",
-    "identityId": "reddit:/u/itsnotaboutthecell",
-    "author": "/u/itsnotaboutthecell",
-    "handle": "/u/itsnotaboutthecell",
-    "platform": "reddit",
-    "publishedAt": "2026-10-19T21:35:11+00:00",
-    "excerpt": "Build Locally, Ship to Cloud: Azure SQL Database container (Preview)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xa9ue4/build_locally_ship_to_cloud_azure_sql_database/",
-    "externalUrl": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers",
-    "topics": [
-      ".NET",
-      "Azure",
-      "Containers"
-    ]
-  },
-  {
-    "id": "a90b7050eac100c7",
-    "identityId": "reddit:/u/WorldlinessOne4442",
-    "author": "/u/WorldlinessOne4442",
-    "handle": "/u/WorldlinessOne4442",
-    "platform": "reddit",
-    "publishedAt": "2026-10-19T17:33:07+00:00",
-    "excerpt": "Lesson 11: .NET में AI Toolkit: Summarize, Translate, Classify, Vision (...",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xa3bf3/lesson_11_net_म_ai_toolkit_summarize_translate/",
-    "externalUrl": "https://youtube.com/watch?v=rINyebyyjaQ&si=hByVaO1OAlPYvbwL",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "5db09e107b2c237b",
-    "identityId": "reddit:/u/Big-Zookeepergame557",
-    "author": "/u/Big-Zookeepergame557",
-    "handle": "/u/Big-Zookeepergame557",
-    "platform": "reddit",
-    "publishedAt": "2026-10-19T15:47:05+00:00",
-    "excerpt": "MongoDB Tiny Client: A lightweight, portable MongoDB GUI for Windows built with .NET 8 WPF",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xa0gew/mongodb_tiny_client_a_lightweight_portable/",
-    "externalUrl": "https://github.com/finalbyte1/MongoDBTinyClient/releases/latest",
-    "topics": [
-      ".NET",
-      "Data"
     ]
   }
 ]

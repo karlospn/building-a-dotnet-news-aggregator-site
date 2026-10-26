@@ -1,5 +1,67 @@
 [
   {
+    "id": "121d6d7e0058bce6",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-26T20:00:01.704000+00:00",
+    "excerpt": "Catch the session replay of .NET Unboxed as we join the team showing off their favorite features in .NET 11 in this release party for .NET 11 RC 2!!! 🎥 msft.it/63321avHpV #dotNET",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mysj5brnal22",
+    "externalUrl": "https://msft.it/63321avHpV",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "f497553b2d15fd36",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-26T17:21:53+00:00",
+    "excerpt": "Imagine if the entire # dotnet team took a voluntary buyout. @ ai6yr https:// m.ai6yr.org/@ai6yr/11750806097 5540689",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117508362273899756",
+    "externalUrl": "https://m.ai6yr.org/@ai6yr/117508060975540689",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "87721ee10e11cc52",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-26T16:30:30+00:00",
+    "excerpt": "Stories I like: Small Programming Tricks",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mys5gnexj72i",
+    "externalUrl": "https://will-keleher.com/posts/small-programming-tricks-matter",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117508160237904401"
+      }
+    ]
+  },
+  {
+    "id": "28c13df9faf4205b",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-26T15:00:01.878000+00:00",
+    "excerpt": "🟣 Say hello to dotnetup! .NET’s new toolchain manager brings user-local installs, side-by-side SDKs/runtimes, channel tracking, global.json support + preview/daily builds. ⚙️🔥 Less toolchain wrangling. More building. 🚀 👉 Read: msft.it/63326avH3I",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myryetssuo26",
+    "externalUrl": "https://msft.it/63326avH3I",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "961b49f42e412235",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -256,34 +318,6 @@
     "excerpt": "Got opinions on .NET? We’re listening. Take the 2026 State of .NET survey. Use .NET? Help shape what’s next. Take the 2026 State of .NET survey. 🔗 msft.it/63323avOG3 #dotNET",
     "postUrl": "https://bsky.app/profile/dot.net/post/3myd4bvcuql2m",
     "externalUrl": "https://msft.it/63323avOG3",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "5612d7f2c02168d7",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-19T19:00:01.199000+00:00",
-    "excerpt": "What Modern WinForms Looks Like in the .NET 11 Preview? This #VSLive session replay will show you. 🎥msft.it/63326aSTQj #VisualStudio",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myasjjtskv27",
-    "externalUrl": "https://msft.it/63326aSTQj",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "295ba6c4d3ff86c5",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-19T16:30:32+00:00",
-    "excerpt": "Stories I like: Software Engineer: I&#39;m Tired of Pretending https://www. youtube.com/watch?v=H0HwFqBG9KE",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117468524200347802",
-    "externalUrl": "https://www.youtube.com/watch?v=H0HwFqBG9KE",
     "topics": [
       ".NET"
     ]
