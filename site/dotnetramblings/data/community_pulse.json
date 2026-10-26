@@ -287,34 +287,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "7584bcd19f4c6e96",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-19T13:00:01.620000+00:00",
-    "excerpt": "🛑 Do you need to step away from the upgrade button. 😅 .NET Framework 4.8 follows the lifecycle of the Windows version it runs on. So modernization math is more nuanced than “old = unsupported.” Cost ➕ benefit ➕ lifecycle ➕ constraints = the real decision. 🎧 msft.it/63320aSTOQ",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mya6fsvajc23",
-    "externalUrl": "https://msft.it/63320aSTOQ",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "da011c4c482b77d8",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-19T08:26:00+00:00",
-    "excerpt": "This live Zoom course helps engineers and architects use AI to reason about constraints, trade-offs, and non-functional requirements—without losing control of the design: https:// timeofclaudecourse.com/",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117466618935692764",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
   }
 ]
