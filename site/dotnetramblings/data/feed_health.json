@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-25T07:56:12.158389+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-26T15:38:51.659834+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-24T02:35:41.365475+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-26T15:38:58.501506+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
