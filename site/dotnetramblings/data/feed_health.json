@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-26T02:23:30.242761+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-26T08:18:09.947087+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-22T23:47:27.592030+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-26T08:18:08.712754+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-10-20T18:50:21.306156+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-26T08:18:06.779805+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -300,8 +300,8 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-10-24T19:59:13.674036+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-26T08:17:55.939649+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
