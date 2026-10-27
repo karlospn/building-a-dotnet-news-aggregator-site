@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
+    "candidates": 13,
     "published": 5
   },
   {
@@ -94,7 +94,7 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 5,
+    "candidates": 7,
     "published": 0
   },
   {
