@@ -24,8 +24,8 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-07T09:33:15.786501+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-27T15:02:03.235663+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-25T02:23:31.734952+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-27T15:02:21.541655+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -60,8 +60,8 @@
     "status": "healthy"
   },
   "build5nines": {
-    "checkedAt": "2026-09-21T08:22:56.234254+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-27T15:02:02.760299+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-27T02:58:38.641327+00:00",
-    "itemCount": 7,
+    "checkedAt": "2026-10-27T15:01:58.675459+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
