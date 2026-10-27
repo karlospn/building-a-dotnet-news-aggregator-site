@@ -1,5 +1,24 @@
 [
   {
+    "id": "microsoft/onnxruntime:424667771",
+    "product": "ONNX Runtime",
+    "version": "1.31.1",
+    "tagName": "v1.31.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-26T19:29:51+00:00",
+    "title": "ONNX Runtime 1.31.1",
+    "summary": "ONNX Runtime 1.31.1 is a patch release that fixes an OpenVINO-enabled Python build regression and corrects WASM Debug external-data tests. These notes cover changes since ONNX Runtime 1.31.0. - Fixed a provider-info namespace mismatch that caused compilation failures when…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.31.1",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:422390582",
     "product": "Anthropic C# SDK",
     "version": "13.3.0",
