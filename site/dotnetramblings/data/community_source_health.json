@@ -101,8 +101,8 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 10,
-    "published": 0
+    "candidates": 11,
+    "published": 1
   },
   {
     "identityId": "david-fowler",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 24
+    "published": 25
   }
 ]

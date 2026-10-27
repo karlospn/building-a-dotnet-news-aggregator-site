@@ -1,5 +1,19 @@
 [
   {
+    "id": "23f67169b66939e5",
+    "identityId": "reddit:/u/shanewas726",
+    "author": "/u/shanewas726",
+    "handle": "/u/shanewas726",
+    "platform": "reddit",
+    "publishedAt": "2026-10-27T01:35:47+00:00",
+    "excerpt": "CVE-2026-111497: a Brotli decoder bug forced an out-of-band .NET release (10.0.14) on Oct 25",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xgfkpk/cve2026111497_a_brotli_decoder_bug_forced_an/",
+    "externalUrl": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ec718075c08ec40e",
     "identityId": "reddit:/u/Albertiikun",
     "author": "/u/Albertiikun",

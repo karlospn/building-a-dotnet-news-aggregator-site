@@ -1,5 +1,19 @@
 [
   {
+    "id": "a918a206ff4171fb",
+    "identityId": "scott-hanselman",
+    "author": "Scott Hanselman",
+    "handle": "scott.hanselman.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-27T04:05:29.707000+00:00",
+    "excerpt": "You have a surface laptop with a haptic touchpad? Or a new Surface Haptic mouse? Please test my new \"Haptics Everywhere\" app and file issues. There are codesigned releases github.com/shanselman/h...",
+    "postUrl": "https://bsky.app/profile/scott.hanselman.com/post/3mytebe7uhk2l",
+    "externalUrl": "https://github.com/shanselman/haptic-outside-labs",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "121d6d7e0058bce6",
     "identityId": "dotnet",
     "author": ".NET",
