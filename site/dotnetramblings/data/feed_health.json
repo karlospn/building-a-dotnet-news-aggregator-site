@@ -24,14 +24,14 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-27T15:02:03.235663+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-27T21:37:45.166630+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-26T22:07:05.155555+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-27T21:37:29.517388+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-27T02:58:50.852218+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-27T21:37:48.305019+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-26T08:18:08.712754+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-27T21:37:40.765535+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -192,8 +192,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-27T02:58:49.196682+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-27T21:37:26.461444+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-10-26T08:18:06.779805+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-27T21:37:32.100943+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-26T15:38:58.501506+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-27T21:37:48.658448+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
