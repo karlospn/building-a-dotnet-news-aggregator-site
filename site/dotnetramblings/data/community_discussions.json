@@ -1,5 +1,34 @@
 [
   {
+    "id": "6ebe7ecdde39c8a5",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-27T16:15:40+00:00",
+    "excerpt": "I benchmarked a native .NET LLM inference engine against llama.cpp, vLLM, SGLang, NInfer, and velox on an RTX 5090 — here are the results",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xgww65/i_benchmarked_a_native_net_llm_inference_engine/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "56cfe466021db0d9",
+    "identityId": "reddit:/u/Hefaistos68",
+    "author": "/u/Hefaistos68",
+    "handle": "/u/Hefaistos68",
+    "platform": "reddit",
+    "publishedAt": "2026-10-27T16:15:25+00:00",
+    "excerpt": ".NET/C# native port of libjxl",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xgwvx9/netc_native_port_of_libjxl/",
+    "externalUrl": "https://github.com/Hefaistos68/jxlsharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "23f67169b66939e5",
     "identityId": "reddit:/u/shanewas726",
     "author": "/u/shanewas726",
@@ -337,20 +366,6 @@
     "excerpt": "Browser Link Hot Reload fails with custom local domain",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbdena/browser_link_hot_reload_fails_with_custom_local/",
     "externalUrl": "https://startdebugging.net/2026/09/fix-dotnet-watch-blazor-hot-reload-websocket-fails-on-custom-local-domain",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d28ff175d75e7779",
-    "identityId": "reddit:/u/North-Asparagus6218",
-    "author": "/u/North-Asparagus6218",
-    "handle": "/u/North-Asparagus6218",
-    "platform": "reddit",
-    "publishedAt": "2026-10-20T13:16:06+00:00",
-    "excerpt": "Built a cross-platform desktop tool with .NET 10: WPF on Windows, Avalonia 12 on Linux/macOS, one shared core",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xarvif/built_a_crossplatform_desktop_tool_with_net_10/",
-    "externalUrl": "https://github.com/hasanzadee/convertino",
     "topics": [
       ".NET"
     ]

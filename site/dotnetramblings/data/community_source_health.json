@@ -31,21 +31,21 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 6,
-    "published": 1
+    "candidates": 8,
+    "published": 2
   },
   {
     "identityId": "mark-downie",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 19,
-    "published": 2
+    "published": 3
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 13,
+    "candidates": 14,
     "published": 5
   },
   {
@@ -73,14 +73,14 @@
     "identityId": "avalonia",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 18,
+    "candidates": 17,
     "published": 1
   },
   {
     "identityId": "avalonia",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 18,
+    "candidates": 17,
     "published": 1
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 25
+    "published": 26
   }
 ]

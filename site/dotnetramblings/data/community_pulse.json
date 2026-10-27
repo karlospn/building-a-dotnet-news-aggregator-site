@@ -1,5 +1,79 @@
 [
   {
+    "id": "e2370ff2eaf7bc50",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-27T19:00:02.307000+00:00",
+    "excerpt": "〰️ HAPPENING TOMORROW 〰️ GitHub Universe Day 1 Keynote Set your reminder for 9AM PT 🔗 msft.it/63324aaLfG 🔗",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myuwawnbk22t",
+    "externalUrl": "https://msft.it/63324aaLfG",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "96fc948f1c9c650c",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-27T17:27:48+00:00",
+    "excerpt": "EF Core: \"Im tracking this entity.\" Me: \"Please dont.\" EF: \"Too late.\" Learn to stop the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myur4qr4gy2i",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117514047857281117"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117485981205813795"
+      }
+    ]
+  },
+  {
+    "id": "d8f49a72182f2171",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-27T14:00:02.055000+00:00",
+    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ Blazor Community Standup: Free Blazor components with Ignite UI The Infragistics team joins us to show off the stable release of their free and open-source Ignite UI components for Blazor. 🎥 msft.it/63326avz3s",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myufii7ecp2y",
+    "externalUrl": "https://msft.it/63326avz3s",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2d8ad62a4c841e82",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "poppastring.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-27T13:13:02.710000+00:00",
+    "excerpt": "“we might have framed out a boat or a buoy or gone: ‘Oh, actually … the water conditions are not really good enough for this.’” Instead, this time they’re leaving it all in to show a more authentic, organic version of the oceans. www.theverge.com/ai-artificia...",
+    "postUrl": "https://bsky.app/profile/poppastring.com/post/3myucuiezes2w",
+    "externalUrl": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@poppastring/117513046122723321"
+      }
+    ]
+  },
+  {
     "id": "a918a206ff4171fb",
     "identityId": "scott-hanselman",
     "author": "Scott Hanselman",
@@ -197,30 +271,6 @@
     ]
   },
   {
-    "id": "6e9462ebaeec1140",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-22T18:30:05+00:00",
-    "excerpt": "EF internals: because sometimes you need to know why your query suddenly decided to join 12 tables. -> https:// shawnl.ink/ps-efinternals # dotnet # efcore",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117485981205813795",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myicbiybpg2o"
-      },
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myd5wbiozx2z"
-      }
-    ]
-  },
-  {
     "id": "7fce9520ecd6e2fc",
     "identityId": "dotnet",
     "author": ".NET",
@@ -305,35 +355,6 @@
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/poppastring.com/post/3myfa73upaq22"
       }
-    ]
-  },
-  {
-    "id": "ad7383aa526fd750",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-20T20:00:02.433000+00:00",
-    "excerpt": "🧠➡️🎮🤖 AI that doesn’t just talk... it decides. Merge Conflict dives into Microsoft Decision One, fast decision models, robotics, games, local AI hardware + why small fine-tuned models matter. 🎧 Listen in: msft.it/63326aS0A8",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mydgdrpuj22g",
-    "externalUrl": "https://msft.it/63326aS0A8",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "a5da191bf49261ca",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-20T17:00:01.679000+00:00",
-    "excerpt": "Got opinions on .NET? We’re listening. Take the 2026 State of .NET survey. Use .NET? Help shape what’s next. Take the 2026 State of .NET survey. 🔗 msft.it/63323avOG3 #dotNET",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myd4bvcuql2m",
-    "externalUrl": "https://msft.it/63323avOG3",
-    "topics": [
-      ".NET"
     ]
   }
 ]
