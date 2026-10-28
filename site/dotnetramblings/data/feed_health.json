@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-10-27T13:11:22.012287+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-28T14:00:10.487453+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-27T13:11:20.312099+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-28T14:00:08.387067+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -90,8 +90,8 @@
     "status": "healthy"
   },
   "codeopinion-youtube": {
-    "checkedAt": "2026-10-17T11:36:16.838956+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-28T14:00:28.247304+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-25T12:33:44.413897+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-28T14:00:29.204282+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-10-26T14:14:36.970955+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-28T14:00:02.164769+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-10-27T13:11:19.069080+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-28T14:00:09.130867+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-27T13:11:28.965240+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-28T14:00:23.079218+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-27T13:11:17.367782+00:00",
-    "itemCount": 13,
+    "checkedAt": "2026-10-28T14:00:21.561243+00:00",
+    "itemCount": 25,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-10-25T12:33:45.501360+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-28T14:00:06.411809+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-24T11:59:50.944158+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-28T14:00:33.869650+00:00",
+    "itemCount": 12,
     "message": "",
     "status": "healthy"
   },
