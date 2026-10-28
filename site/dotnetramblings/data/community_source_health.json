@@ -94,8 +94,8 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 7,
-    "published": 0
+    "candidates": 6,
+    "published": 1
   },
   {
     "identityId": "scott-hanselman",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 26
+    "published": 25
   }
 ]
