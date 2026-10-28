@@ -1,31 +1,95 @@
 [
   {
-    "id": "1b77002015c79e1e",
+    "id": "ac2e2ded5bd58ea5",
     "identityId": "dotnet",
     "author": ".NET",
     "handle": "dot.net",
     "platform": "bluesky",
-    "publishedAt": "2026-10-28T13:00:01.867000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET AI Community Standup: Data Ingestion with .NET Explore how data ingestion, embeddings, and vector search support context engineering to build practical AI applications grounded in your own documents. Join us LIVE here ➡️ msft.it/63321aax0B",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mywsm44l5u2v",
-    "externalUrl": "https://msft.it/63321aax0B",
+    "publishedAt": "2026-10-28T21:00:01.368000+00:00",
+    "excerpt": "Building RAG or semantic search in .NET? 🧠🔎 Microsoft.Extensions.VectorData abstracts the vector store so your app can upsert embeddings, run similarity searches, filter with LINQ + switch database providers with mostly the same collection/search code. 🚀 msft.it/63324aaxb2",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myxngflyka2h",
+    "externalUrl": "https://msft.it/63324aaxb2",
     "topics": [
       ".NET",
-      "AI"
+      "AI",
+      "Data"
     ]
   },
   {
-    "id": "7abc0667459e9486",
+    "id": "91988f1e5f4da717",
     "identityId": "dotnet",
     "author": ".NET",
     "handle": "dot.net",
     "platform": "bluesky",
-    "publishedAt": "2026-10-28T12:00:01.945000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY 〰️ GitHub Universe Day 1 Keynote Join us LIVE at 9AM PT 🔗 msft.it/63325aa0yB 🔗",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mywpat4ctz2p",
-    "externalUrl": "https://msft.it/63325aa0yB",
+    "publishedAt": "2026-10-28T17:00:01.604000+00:00",
+    "excerpt": ".NET MAUI app launches on iOS 27… splash screen… then poof? 💨📱 Xcode 27 requires UIKit’s scene lifecycle. You’ll need the scene delegate + manifest, plus careful migration of lifecycle hooks, auth + deep links. 🧩 Fix it 👇 msft.it/63323aaxkd",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myx7zaw4im26",
+    "externalUrl": "https://msft.it/63323aaxkd",
     "topics": [
       ".NET"
+    ]
+  },
+  {
+    "id": "5c60af15ae92b95b",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-28T15:31:12+00:00",
+    "excerpt": "Stories I like: Today I will... review GitHub PRs - Visual Studio Blog",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myx32hghhg2a",
+    "externalUrl": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117519251679930199"
+      }
+    ]
+  },
+  {
+    "id": "4ef5d0c949aa4f97",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "avaloniaui.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-28T14:44:01.615586+00:00",
+    "excerpt": "Avalonia Connect #4 goes live in a few minutes! Paul Dumais from Devolutions joins us to talk about their Avalonia journey: why they picked it, what the move looked like, and what they learned along the way. Drop your questions in the chat www.youtube.com/watch?v=TlW...",
+    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3mywyg2rkxs2v",
+    "externalUrl": "https://www.youtube.com/watch?v=TlWrrz96e84",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@avaloniaui/117519066147555839"
+      }
+    ]
+  },
+  {
+    "id": "295bdf80e42bc639",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-28T13:40:00+00:00",
+    "excerpt": "AI can scaffold services fast—but should those services exist? This course teaches you how to make architecture decisions with rigor, not guesswork:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mywutmtqay23",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Architecture"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117518814424747734"
+      }
     ]
   },
   {
@@ -329,55 +393,6 @@
       ".NET",
       "AI",
       "Data"
-    ]
-  },
-  {
-    "id": "1fe76a0edcfe2168",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-21T20:00:01.470000+00:00",
-    "excerpt": "Rule #1 of multi-tenant SaaS: Tenant A should NEVER meet Tenant B’s data. 😅 .NET 10 + EF Core named query filters can enforce tenant-aware reads automatically, while SaveChanges guards block cross-tenant writes. 🛡️ Read 👉 msft.it/63329aS77t",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myfwso4ait2y",
-    "externalUrl": "https://msft.it/63329aS77t",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "6e79242ee0d1680c",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-21T15:30:36+00:00",
-    "excerpt": "Stories I like: Introducing G#: A Go-like language for .NET",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myfhqxqeio2p",
-    "externalUrl": "https://www.infoworld.com/article/4210637/introducing-g-sharp-a-go-like-language-for-dot-net.html?via=dailydev",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117479613175070067"
-      }
-    ]
-  },
-  {
-    "id": "f7b5970eb99f2e44",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-21T14:00:01.353000+00:00",
-    "excerpt": "Your coding agent wants out of the IDE. 🤖🏃 📝 Markdown vaults 🎙️ Personal podcasts 📊 Strava + Garmin data 🧠 “Life agents” ⚙️ Personal software Turns out agentic workflows can automate a lot more than code. 👀 🎧 Listen: msft.it/63320aSA2C",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myfcowrgwt2x",
-    "externalUrl": "https://msft.it/63320aSA2C",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

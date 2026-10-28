@@ -1,5 +1,34 @@
 [
   {
+    "id": "d8efd4997c84267f",
+    "identityId": "reddit:/u/curiosity-ai",
+    "author": "/u/curiosity-ai",
+    "handle": "/u/curiosity-ai",
+    "platform": "reddit",
+    "publishedAt": "2026-10-28T18:06:24+00:00",
+    "excerpt": "We rewrote LibreOffice’s Writer, Calc and Impress layout in C#. What 947 test documents taught us",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhvnip/we_rewrote_libreoffices_writer_calc_and_impress/",
+    "externalUrl": "https://blog.curiosity.ai/blog/2026-10-xray-3-office?utm%5C_source=reddit&utm%5C_medium=organic-social&utm%5C_campaign=2026-10-28-libreoffice-layout-in-csharp&utm%5C_content=rd-office-v5",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "eb039d3965e51125",
+    "identityId": "reddit:/u/revengourd",
+    "author": "/u/revengourd",
+    "handle": "/u/revengourd",
+    "platform": "reddit",
+    "publishedAt": "2026-10-28T15:20:53+00:00",
+    "excerpt": "Testing my Vulkan renderer in C# using Silk.NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhqzsb/testing_my_vulkan_renderer_in_c_using_silknet/",
+    "externalUrl": "https://v.redd.it/cfd0eraj38yh1",
+    "topics": [
+      ".NET",
+      "Testing"
+    ]
+  },
+  {
     "id": "efb160679db59dae",
     "identityId": "reddit:/u/softinbit",
     "author": "/u/softinbit",
