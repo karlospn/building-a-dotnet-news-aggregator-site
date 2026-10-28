@@ -1,5 +1,19 @@
 [
   {
+    "id": "efb160679db59dae",
+    "identityId": "reddit:/u/softinbit",
+    "author": "/u/softinbit",
+    "handle": "/u/softinbit",
+    "platform": "reddit",
+    "publishedAt": "2026-10-28T07:08:06+00:00",
+    "excerpt": ".NET 8 and 9 go out of support on Nov 10. These are the .NET 10 breaking changes that don't fail the build",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhh81w/net_8_and_9_go_out_of_support_on_nov_10_these_are/",
+    "externalUrl": "https://www.softinbit.com/dotnet-field-guide/upgrading-dotnet-8-to-10",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "6ebe7ecdde39c8a5",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
@@ -324,34 +338,6 @@
     "excerpt": "Passenger IDE",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcabzk/passenger_ide/",
     "externalUrl": "https://passenger-ide.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2a945a30cbbee615",
-    "identityId": "reddit:/u/IllustratorLittle769",
-    "author": "/u/IllustratorLittle769",
-    "handle": "/u/IllustratorLittle769",
-    "platform": "reddit",
-    "publishedAt": "2026-10-21T08:48:56+00:00",
-    "excerpt": "C# once again the fastest web framework",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbhvio/c_once_again_the_fastest_web_framework/",
-    "externalUrl": "https://i.redd.it/mdq0w4b1jsvh1.png",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "cf62ca03ecbc8276",
-    "identityId": "reddit:/u/Xaneris47",
-    "author": "/u/Xaneris47",
-    "handle": "/u/Xaneris47",
-    "platform": "reddit",
-    "publishedAt": "2026-10-21T06:33:31+00:00",
-    "excerpt": "What’s new in C# 15: Overview",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xbfq6m/whats_new_in_c_15_overview/",
-    "externalUrl": "https://medium.com/pvs-studio/whats-new-in-c-15-overview-cbfa0b92fc12",
     "topics": [
       ".NET"
     ]
