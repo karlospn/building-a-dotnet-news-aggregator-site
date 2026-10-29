@@ -1,5 +1,19 @@
 [
   {
+    "id": "8f2ef18c5e41db13",
+    "identityId": "reddit:/u/maxim-masiutin",
+    "author": "/u/maxim-masiutin",
+    "handle": "/u/maxim-masiutin",
+    "platform": "reddit",
+    "publishedAt": "2026-10-29T00:55:12+00:00",
+    "excerpt": "PSA for anyone using SignedXml: a government SAML NuGet package shipped an XML Signature Wrapping bypass (Egov.Integrations.MPass.Saml before 10.0.4)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xi61wm/psa_for_anyone_using_signedxml_a_government_saml/",
+    "externalUrl": "https://www.masiutin.net/mpass-saml-xml-signature-wrapping.html",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "d8efd4997c84267f",
     "identityId": "reddit:/u/curiosity-ai",
     "author": "/u/curiosity-ai",
@@ -353,20 +367,6 @@
     "excerpt": "[Open Source] Created a simple tool to fix broken Windows Update policies and reliably install .NET Framework 3.5 (dev on .NET 4.7.2)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcnof0/open_source_created_a_simple_tool_to_fix_broken/",
     "externalUrl": "https://github.com/BlCorporation/NetFx",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "366071ab4fd1768e",
-    "identityId": "reddit:/u/Zaneris",
-    "author": "/u/Zaneris",
-    "handle": "/u/Zaneris",
-    "platform": "reddit",
-    "publishedAt": "2026-10-22T05:46:23+00:00",
-    "excerpt": "Passenger IDE",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcabzk/passenger_ide/",
-    "externalUrl": "https://passenger-ide.net/",
     "topics": [
       ".NET"
     ]
