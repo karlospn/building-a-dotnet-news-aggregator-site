@@ -12,8 +12,8 @@
     "status": "healthy"
   },
   "ardalis": {
-    "checkedAt": "2026-09-21T08:23:11.630355+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-29T18:07:50.251230+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-29T11:59:08.946596+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-29T18:07:54.192099+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-29T03:34:34.980005+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T18:07:57.342711+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-29T11:59:26.105231+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-29T18:08:09.857293+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-10-28T17:40:38.720260+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T18:07:51.539491+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -192,14 +192,14 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-10-29T11:59:04.783017+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T18:07:50.743540+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-10-25T07:56:24.208911+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-29T18:08:10.407194+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -258,8 +258,8 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-09-30T03:04:54.867514+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-29T18:07:56.124841+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-29T03:34:44.710594+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-29T18:08:07.084601+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-29T03:34:45.473622+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-29T18:08:08.190061+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
