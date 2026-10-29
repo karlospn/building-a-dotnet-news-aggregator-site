@@ -24,8 +24,8 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-27T21:37:45.166630+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-29T03:34:44.159901+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-28T11:52:23.810646+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-29T03:34:34.980005+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -60,8 +60,8 @@
     "status": "healthy"
   },
   "build5nines": {
-    "checkedAt": "2026-10-27T15:02:02.760299+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T03:34:32.427858+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-28T22:01:43.307618+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-29T03:34:46.461193+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-25T20:33:45.409408+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T03:34:44.710594+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-28T03:09:14.679352+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-29T03:34:45.473622+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-10-28T03:09:16.367630+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-29T03:34:46.860684+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
