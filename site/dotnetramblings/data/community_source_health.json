@@ -3,7 +3,7 @@
     "identityId": "dotnet",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 29,
+    "candidates": 30,
     "published": 10
   },
   {
@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 9,
+    "candidates": 7,
     "published": 1
   },
   {
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 16,
+    "candidates": 15,
     "published": 6
   },
   {
@@ -74,21 +74,21 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 18,
-    "published": 2
+    "published": 3
   },
   {
     "identityId": "avalonia",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 17,
-    "published": 2
+    "published": 3
   },
   {
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 3,
-    "published": 1
+    "candidates": 4,
+    "published": 2
   },
   {
     "identityId": "brad-wilson",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 26
+    "published": 23
   }
 ]

@@ -1,5 +1,93 @@
 [
   {
+    "id": "563725c34d6fc2c8",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-29T20:00:02.200000+00:00",
+    "excerpt": "🤖 Copilot runtime. Your model. With the GitHub Copilot SDK + C#, ProviderConfig separates the agent harness from inference, letting you route requests to your own model provider. The sample pairs .NET 10 + Microsoft Foundry + Entra ID. 🔐🧠 Dig in 👇 msft.it/63326avIxG",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mz22k2hcbp2p",
+    "externalUrl": "https://msft.it/63326avIxG",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "fa440957fa33f51b",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-29T19:00:01.775000+00:00",
+    "excerpt": "〰️ DAY 2 HAPPENING TODAY〰️ GitHub Universe Day 2 Keynote Set your reminder for 2PM PT 🔗 msft.it/63326aa0de 🔗",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3myzx6qxtuf2x",
+    "externalUrl": "https://msft.it/63326aa0de",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "c610123d48eb8d48",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-29T18:29:53+00:00",
+    "excerpt": "If EF surprises you more often than your partner, its time to learn its internals. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myzviuwugp2a",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117525616605588537"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117514047857281117"
+      }
+    ]
+  },
+  {
+    "id": "206ee7072c1a3d02",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "Avalonia UI",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-29T14:37:57+00:00",
+    "excerpt": "That bug that took you three weeks to find? That's a 45-minute talk. Avalonia Conf is free and online on 9 December. The call for papers is open until 19 November. Tell us what you built and what you learned. 🎤 https:// avaloniaui.net/conf",
+    "postUrl": "https://dotnet.social/@avaloniaui/117524704617209472",
+    "externalUrl": "https://avaloniaui.net/conf",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3myzik2qg2v2z"
+      }
+    ]
+  },
+  {
+    "id": "acd59409a3c11f58",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-10-29T14:27:21+00:00",
+    "excerpt": "Anyone using Amazon Music on macOS might be interested. It's basically a wrapper around the site, with a bridge to macOS-native controls and elements. It can also hide a bunch of “junk”, like Podcasts and Audible. Get it before the cease-and-desist and DMCA hits. https://…",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117524662952235749",
+    "externalUrl": "https://github.com/khalidabuhakmeh/amazon-music-mac",
+    "topics": [
+      ".NET",
+      "AWS"
+    ]
+  },
+  {
     "id": "ac2e2ded5bd58ea5",
     "identityId": "dotnet",
     "author": ".NET",
@@ -134,30 +222,6 @@
     "externalUrl": "https://msft.it/63324aaLfG",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "96fc948f1c9c650c",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-27T17:27:48+00:00",
-    "excerpt": "EF Core: \"Im tracking this entity.\" Me: \"Please dont.\" EF: \"Too late.\" Learn to stop the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myur4qr4gy2i",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117514047857281117"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117485981205813795"
-      }
     ]
   },
   {
@@ -363,36 +427,6 @@
     "topics": [
       ".NET",
       "Security"
-    ]
-  },
-  {
-    "id": "d0326438e5e63d1d",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-22T20:00:01.635000+00:00",
-    "excerpt": "🚀 .NET 11 RC2 just dropped! Go-live support ✅ Faster MSBuild wildcards ⚡ HTTP/2 tuning 🌐 F# Native AOT improvements 🔥 Plus #ASPNET Core, MAUI, WinForms & NuGet goodies. Time to test the bits! 👇 Read: msft.it/63327aseul",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myihblqhha2a",
-    "externalUrl": "https://msft.it/63327aseul",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "7fce9520ecd6e2fc",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-22T15:00:02.250000+00:00",
-    "excerpt": "〰️ HAPPENING TODAY at 10AM PT 〰️ .NET Data Community Standup Teach your AI agent database design with T-SQL static code analysis See you LIVE here ➡️ msft.it/63329as6bv",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myhwj6dkdu2b",
-    "externalUrl": "https://msft.it/63329as6bv",
-    "topics": [
-      ".NET",
-      "AI",
-      "Data"
     ]
   }
 ]

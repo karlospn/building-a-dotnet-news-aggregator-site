@@ -327,48 +327,5 @@
       ".NET",
       "AI"
     ]
-  },
-  {
-    "id": "b336898dc39539fe",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-22T18:13:47+00:00",
-    "excerpt": "I built a .NET LLM inference engine that runs an 816B MoE model across 10 GPUs — here’s what I learned about C# and native performance",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcq885/i_built_a_net_llm_inference_engine_that_runs_an/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/perf/muse-spark-vs-llama-cpp.md",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "49934bae7fb2bb76",
-    "identityId": "reddit:/u/alkolholix",
-    "author": "/u/alkolholix",
-    "handle": "/u/alkolholix",
-    "platform": "reddit",
-    "publishedAt": "2026-10-22T17:21:13+00:00",
-    "excerpt": ".Net files missing and unsure how to proceed anymore",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcosee/net_files_missing_and_unsure_how_to_proceed/",
-    "externalUrl": "https://docs.lextudio.com/blog/recover-missing-dotnet-msi-on-windows-with-wix-toolset",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "76cc14c56d872d09",
-    "identityId": "reddit:/u/Direct_Cup_164",
-    "author": "/u/Direct_Cup_164",
-    "handle": "/u/Direct_Cup_164",
-    "platform": "reddit",
-    "publishedAt": "2026-10-22T16:40:59+00:00",
-    "excerpt": "[Open Source] Created a simple tool to fix broken Windows Update policies and reliably install .NET Framework 3.5 (dev on .NET 4.7.2)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xcnof0/open_source_created_a_simple_tool_to_fix_broken/",
-    "externalUrl": "https://github.com/BlCorporation/NetFx",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
