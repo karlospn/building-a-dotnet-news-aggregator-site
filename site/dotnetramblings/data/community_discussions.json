@@ -1,5 +1,47 @@
 [
   {
+    "id": "db64b79b8830f31c",
+    "identityId": "reddit:/u/ForwardCod2571",
+    "author": "/u/ForwardCod2571",
+    "handle": "/u/ForwardCod2571",
+    "platform": "reddit",
+    "publishedAt": "2026-10-30T17:17:24+00:00",
+    "excerpt": "I made a `dotnet new` template that sets up Claude Code for ASP.NET Core projects (rules, skills, guardrails)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjle7g/i_made_a_dotnet_new_template_that_sets_up_claude/",
+    "externalUrl": "https://github.com/dmamulashvili/dotnet-agent-kit",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "73bbf0587531d748",
+    "identityId": "reddit:/u/Userware",
+    "author": "/u/Userware",
+    "handle": "/u/Userware",
+    "platform": "reddit",
+    "publishedAt": "2026-10-30T16:47:12+00:00",
+    "excerpt": "We built automatic XAML layout animations that require just one attribute (Live demo, OpenSilver)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjkkeo/we_built_automatic_xaml_layout_animations_that/",
+    "externalUrl": "https://doc.opensilver.net/documentation/how-to-topics/get-latest-preview-version.html",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "58b8476e53f797d3",
+    "identityId": "reddit:/u/NoNoise7492",
+    "author": "/u/NoNoise7492",
+    "handle": "/u/NoNoise7492",
+    "platform": "reddit",
+    "publishedAt": "2026-10-30T14:10:19+00:00",
+    "excerpt": "SEO for a large React SPA?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjges5/seo_for_a_large_react_spa/",
+    "externalUrl": "http://asp.net/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "fa71e28b458598e8",
     "identityId": "reddit:/u/InterestingUmpire651",
     "author": "/u/InterestingUmpire651",
@@ -11,21 +53,6 @@
     "externalUrl": "https://v.redd.it/jb2p91nrolyh1",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "7f8ae7bb8881e85e",
-    "identityId": "reddit:/u/leo-meatbag",
-    "author": "/u/leo-meatbag",
-    "handle": "/u/leo-meatbag",
-    "platform": "reddit",
-    "publishedAt": "2026-10-30T09:02:58+00:00",
-    "excerpt": ".NET MCP server for C#: gives AI agents real code understanding via Roslyn, one server lets them work across multiple projects in parallel",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjabeu/net_mcp_server_for_c_gives_ai_agents_real_code/",
-    "externalUrl": "https://github.com/codewithmukesh/dotnet-claude-kit/tree/main/mcp/CWM.RoslynNavigator",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   },
   {
@@ -296,65 +323,6 @@
     "externalUrl": "https://engineering-leadership.hinshelwood.com/engineering-notes/convert-legacy-projects-and-asp-net-mvc-apps-to-sdk-style-with-confidence",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "bfd77dca00bd10c6",
-    "identityId": "reddit:/u/QuirkyPreference5649",
-    "author": "/u/QuirkyPreference5649",
-    "handle": "/u/QuirkyPreference5649",
-    "platform": "reddit",
-    "publishedAt": "2026-10-23T21:59:10+00:00",
-    "excerpt": "[Promotion] Corvus v1.6 – A lightweight server launcher and container dashboard running on .NET 9 Native AOT (<30MB RAM)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdrd7i/promotion_corvus_v16_a_lightweight_server/",
-    "externalUrl": "https://github.com/brhnshn/Corvus",
-    "topics": [
-      ".NET",
-      "Containers"
-    ]
-  },
-  {
-    "id": "fc66418b5d6f4c17",
-    "identityId": "reddit:/u/RammerOfProgs",
-    "author": "/u/RammerOfProgs",
-    "handle": "/u/RammerOfProgs",
-    "platform": "reddit",
-    "publishedAt": "2026-10-23T20:09:28+00:00",
-    "excerpt": "I built Magpie, a self-hosted media discovery and automation app in C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdonqh/i_built_magpie_a_selfhosted_media_discovery_and/",
-    "externalUrl": "https://github.com/magpie-media-platform/magpie",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "ca8bb7099e79b909",
-    "identityId": "reddit:/u/RagingCain",
-    "author": "/u/RagingCain",
-    "handle": "/u/RagingCain",
-    "platform": "reddit",
-    "publishedAt": "2026-10-23T17:28:21+00:00",
-    "excerpt": "Benchmarked Temporal’s .NET SDK around LLM calls: 24–28 ms at p95 outside the model",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdkejj/benchmarked_temporals_net_sdk_around_llm_calls/",
-    "externalUrl": "https://threadunsafe.dev/screaming-in-space/continuum/platform/benchmarks/durable-inference",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "187330747f346980",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-23T15:52:24+00:00",
-    "excerpt": "Building a local LLM inference engine in C#/.NET: multi-GPU scheduling, native CUDA, and benchmark results",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xdhtd2/building_a_local_llm_inference_engine_in_cnet/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/DEVELOPMENT.md",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
