@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 7,
+    "candidates": 8,
     "published": 1
   },
   {
@@ -114,7 +114,8 @@
   {
     "identityId": "reddit-dotnet",
     "platform": "reddit",
-    "status": "ok",
+    "status": "error",
+    "error": "HTTP 429",
     "published": 23
   }
 ]
