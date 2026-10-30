@@ -1,5 +1,34 @@
 [
   {
+    "id": "fa71e28b458598e8",
+    "identityId": "reddit:/u/InterestingUmpire651",
+    "author": "/u/InterestingUmpire651",
+    "handle": "/u/InterestingUmpire651",
+    "platform": "reddit",
+    "publishedAt": "2026-10-30T12:44:53+00:00",
+    "excerpt": "​I built a landscape OBD2 dashboard for my car's Android head unit in .NET MAUI (auto-ranging gauges, big and small layouts, on-device logs)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjeds2/i_built_a_landscape_obd2_dashboard_for_my_cars/",
+    "externalUrl": "https://v.redd.it/jb2p91nrolyh1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "7f8ae7bb8881e85e",
+    "identityId": "reddit:/u/leo-meatbag",
+    "author": "/u/leo-meatbag",
+    "handle": "/u/leo-meatbag",
+    "platform": "reddit",
+    "publishedAt": "2026-10-30T09:02:58+00:00",
+    "excerpt": ".NET MCP server for C#: gives AI agents real code understanding via Roslyn, one server lets them work across multiple projects in parallel",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjabeu/net_mcp_server_for_c_gives_ai_agents_real_code/",
+    "externalUrl": "https://github.com/codewithmukesh/dotnet-claude-kit/tree/main/mcp/CWM.RoslynNavigator",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "8f2ef18c5e41db13",
     "identityId": "reddit:/u/maxim-masiutin",
     "author": "/u/maxim-masiutin",

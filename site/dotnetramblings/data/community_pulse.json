@@ -1,5 +1,19 @@
 [
   {
+    "id": "30428e206a3e29db",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-10-30T13:00:02.355000+00:00",
+    "excerpt": "👀 ICYMI: Let’s bring this one back around. 📦 DAB just got embeddable! Data API builder 2.1.5 ships Microsoft.DataApiBuilder.Core, letting .NET apps host the engine directly. Add native JSON/vector APIs, .NET 10 + MCP hardening and…🔥 Read the blog 👇 msft.it/63328aarmo",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mz3tjxmptk23",
+    "externalUrl": "https://msft.it/63328aarmo",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "563725c34d6fc2c8",
     "identityId": "dotnet",
     "author": ".NET",

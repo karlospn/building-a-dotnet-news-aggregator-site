@@ -4,7 +4,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 30,
-    "published": 10
+    "published": 11
   },
   {
     "identityId": "dotnet",
@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 8,
+    "candidates": 9,
     "published": 1
   },
   {
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 15,
+    "candidates": 14,
     "published": 6
   },
   {
@@ -114,8 +114,7 @@
   {
     "identityId": "reddit-dotnet",
     "platform": "reddit",
-    "status": "error",
-    "error": "HTTP 429",
-    "published": 23
+    "status": "ok",
+    "published": 25
   }
 ]
