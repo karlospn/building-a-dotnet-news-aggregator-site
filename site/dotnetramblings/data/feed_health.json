@@ -24,14 +24,14 @@
     "status": "healthy"
   },
   "aws-dotnet-blog": {
-    "checkedAt": "2026-10-29T11:59:21.995684+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-30T00:30:53.250278+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-10-29T18:07:54.192099+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-30T00:30:42.595151+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-10-29T18:08:09.857293+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-30T00:30:56.298942+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -138,8 +138,8 @@
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-10-28T11:52:16.413248+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-30T00:30:57.022790+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-10-28T11:52:16.266039+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-30T00:30:49.036960+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-10-29T18:08:08.190061+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-10-30T00:30:55.155036+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -372,8 +372,8 @@
     "status": "healthy"
   },
   "tabs-over-spaces": {
-    "checkedAt": "2026-10-28T17:40:54.073778+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-30T00:30:52.847472+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
