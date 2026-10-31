@@ -1,30 +1,60 @@
 [
   {
-    "id": "25fd35bcafb63972",
-    "identityId": "reddit:/u/mecfc",
-    "author": "/u/mecfc",
-    "handle": "/u/mecfc",
+    "id": "14c8eb7cc552a685",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
     "platform": "reddit",
-    "publishedAt": "2026-10-31T12:07:01+00:00",
-    "excerpt": "Qt Bridge for C#",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xk8iup/qt_bridge_for_c/",
-    "externalUrl": "https://www.qt.io/blog/qt-bridges-technology-preview-rust-csharp",
+    "publishedAt": "2026-10-31T21:06:10+00:00",
+    "excerpt": "Building a knowledge-base workflow in a .NET agent app: retrieval, source files, and calculations",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkle5v/building_a_knowledgebase_workflow_in_a_net_agent/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/knowledge-system.md",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "6d647365e3e857f2",
+    "identityId": "reddit:/u/MasterOfAutomation",
+    "author": "/u/MasterOfAutomation",
+    "handle": "/u/MasterOfAutomation",
+    "platform": "reddit",
+    "publishedAt": "2026-10-31T17:36:13+00:00",
+    "excerpt": "Three free, open-source C# libraries for factory and robot work: EtherNet/IP, ROS 1 and ROS 2",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkgaqs/three_free_opensource_c_libraries_for_factory_and/",
+    "externalUrl": "https://github.com/CristianMori/EthernetIpSharp",
     "topics": [
       ".NET"
     ]
   },
   {
-    "id": "7782d3c4cab720ef",
-    "identityId": "reddit:/u/jeff377",
-    "author": "/u/jeff377",
-    "handle": "/u/jeff377",
+    "id": "37f11b2054723a49",
+    "identityId": "reddit:/u/cyberizzy",
+    "author": "/u/cyberizzy",
+    "handle": "/u/cyberizzy",
     "platform": "reddit",
-    "publishedAt": "2026-10-31T07:30:57+00:00",
-    "excerpt": "Polhem v1.11: same definitions, now on Blazor Server, no Razor page per form (7-min video)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xk3y1d/polhem_v111_same_definitions_now_on_blazor_server/",
-    "externalUrl": "https://medium.com/@jeff377/the-same-definitions-on-blazor-server-what-has-to-change-d262eb732c87",
+    "publishedAt": "2026-10-31T17:35:15+00:00",
+    "excerpt": "📦 NuGet Package Manager for VS Code — manage .NET packages in the editor",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkg9wg/nuget_package_manager_for_vs_code_manage_net/",
+    "externalUrl": "https://github.com/I-Synergy/NugetPackageManager",
     "topics": [
       ".NET"
+    ]
+  },
+  {
+    "id": "8af1c16091a56789",
+    "identityId": "reddit:/u/Fabulous_Answer_618",
+    "author": "/u/Fabulous_Answer_618",
+    "handle": "/u/Fabulous_Answer_618",
+    "platform": "reddit",
+    "publishedAt": "2026-10-31T16:35:05+00:00",
+    "excerpt": "NBomber Studio v0.10.0 released!!! It's load testing platfrom for C#/.NET devs/QA",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkermr/nbomber_studio_v0100_released_its_load_testing/",
+    "externalUrl": "https://nbomber.com/blog/2026/10/29/nbomber-studio-0.10.0",
+    "topics": [
+      ".NET",
+      "Testing"
     ]
   },
   {
@@ -293,62 +323,6 @@
     "excerpt": "PdfPecker v1.20: dependency-free HTML to PDF for .NET, no Chrome, MIT",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xf58fv/pdfpecker_v120_dependencyfree_html_to_pdf_for_net/",
     "externalUrl": "https://www.nuget.org/packages/PdfPecker",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "0bc57561f91666d3",
-    "identityId": "reddit:/u/Ant171311",
-    "author": "/u/Ant171311",
-    "handle": "/u/Ant171311",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T21:22:27+00:00",
-    "excerpt": "CsCheck 5.0 - .NET 11 and native AOT ready",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xek9fs/cscheck_50_net_11_and_native_aot_ready/",
-    "externalUrl": "https://www.nuget.org/packages/CsCheck/5.0.0",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "68597f99103abc98",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T21:14:44+00:00",
-    "excerpt": "Day 1 MiniMax-M3.1-Flash support in TensorSharp, a .NET 10 inference engine",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xek30u/day_1_minimaxm31flash_support_in_tensorsharp_a/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/perf/minimax-m3-vs-llama-cpp.md",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "5e3985d5830f775e",
-    "identityId": "reddit:/u/mcnamaragio",
-    "author": "/u/mcnamaragio",
-    "handle": "/u/mcnamaragio",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T18:57:01+00:00",
-    "excerpt": "DuckDB.NET 1.5.6.1: Reading Data Up to 12× Faster",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xegr8s/duckdbnet_1561_reading_data_up_to_12_faster/",
-    "externalUrl": "https://www.giorgi.dev/database/duckdb-net-1-5-6-1-data-reader-performance",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "5c1124739769e45a",
-    "identityId": "reddit:/u/tinmanjk",
-    "author": "/u/tinmanjk",
-    "handle": "/u/tinmanjk",
-    "platform": "reddit",
-    "publishedAt": "2026-10-24T15:33:13+00:00",
-    "excerpt": "Is the community driven MSBuild.SDK.SystemWeb allowing for SDK-style projects for legacy ASP.NET production-ready?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xebo8p/is_the_community_driven_msbuildsdksystemweb/",
-    "externalUrl": "https://engineering-leadership.hinshelwood.com/engineering-notes/convert-legacy-projects-and-asp-net-mvc-apps-to-sdk-style-with-confidence",
     "topics": [
       ".NET"
     ]
