@@ -1,5 +1,33 @@
 [
   {
+    "id": "25fd35bcafb63972",
+    "identityId": "reddit:/u/mecfc",
+    "author": "/u/mecfc",
+    "handle": "/u/mecfc",
+    "platform": "reddit",
+    "publishedAt": "2026-10-31T12:07:01+00:00",
+    "excerpt": "Qt Bridge for C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xk8iup/qt_bridge_for_c/",
+    "externalUrl": "https://www.qt.io/blog/qt-bridges-technology-preview-rust-csharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "7782d3c4cab720ef",
+    "identityId": "reddit:/u/jeff377",
+    "author": "/u/jeff377",
+    "handle": "/u/jeff377",
+    "platform": "reddit",
+    "publishedAt": "2026-10-31T07:30:57+00:00",
+    "excerpt": "Polhem v1.11: same definitions, now on Blazor Server, no Razor page per form (7-min video)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xk3y1d/polhem_v111_same_definitions_now_on_blazor_server/",
+    "externalUrl": "https://medium.com/@jeff377/the-same-definitions-on-blazor-server-what-has-to-change-d262eb732c87",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "db64b79b8830f31c",
     "identityId": "reddit:/u/ForwardCod2571",
     "author": "/u/ForwardCod2571",
