@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-10-29T14:16:32.646081+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-31T13:38:33.453876+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-10-30T14:06:16.649795+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-10-31T13:38:31.641302+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-10-30T14:06:46.940544+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-31T13:38:45.731046+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-10-30T14:06:32.721104+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-10-31T13:38:36.651326+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-10-27T13:11:13.054599+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-10-31T13:38:46.317973+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-10-30T14:06:38.461649+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-10-31T13:38:41.499135+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-10-30T14:06:36.984445+00:00",
-    "itemCount": 11,
+    "checkedAt": "2026-10-31T13:38:40.099773+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "ndc": {
-    "checkedAt": "2026-10-30T14:06:49.555620+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-10-31T13:38:47.471249+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-10-30T14:06:42.854356+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-10-31T13:38:42.814131+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
