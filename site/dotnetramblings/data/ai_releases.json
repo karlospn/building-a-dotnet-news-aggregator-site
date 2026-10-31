@@ -1,5 +1,24 @@
 [
   {
+    "id": "microsoft/agent-framework:429383862",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.27.0",
+    "tagName": "dotnet-1.27.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-10-30T18:55:48+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.27.0",
+    "summary": "skills: Add a .NET consumer skill for building with Agent Framework (#9651 by @westey-m). .NET, CI: Add a script to bump the .NET release version (#9894 by @baywet). .NET, AgentServer: [BREAKING] Update AgentServer dependencies (#9721 by @rogerbarreto). Migration: In Foundry…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
     "id": "microsoft/onnxruntime:428364774",
     "product": "ONNX Runtime",
     "version": "1.30.1",
@@ -1810,25 +1829,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.26.0",
     "repository": "microsoft/onnxruntime",
-    "official": true
-  },
-  {
-    "id": "microsoft/agent-framework:319292320",
-    "product": "Microsoft Agent Framework for .NET",
-    "version": "1.5.0",
-    "tagName": "dotnet-1.5.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-05-08T02:54:23+00:00",
-    "title": "Microsoft Agent Framework for .NET 1.5.0",
-    "summary": ".NET: feat: Implement message filtering to exclude non-portable content typ… by @tarockey in https://github.com/microsoft/agent-framework/pull/5410 .NET: Add allow listing for WebBrowsingTool by @westey-m in https://github.com/microsoft/agent-framework/pull/5605 .NET: fix: JSON…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.5.0",
-    "repository": "microsoft/agent-framework",
     "official": true
   },
   {
