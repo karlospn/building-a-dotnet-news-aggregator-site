@@ -296,34 +296,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "da9823acf7e64920",
-    "identityId": "reddit:/u/ShadowGeist91",
-    "author": "/u/ShadowGeist91",
-    "handle": "/u/ShadowGeist91",
-    "platform": "reddit",
-    "publishedAt": "2026-10-25T20:53:16+00:00",
-    "excerpt": "FuzzySharper: A C# library that allows you to create your own Fuzzy Expert System",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xfdiku/fuzzysharper_a_c_library_that_allows_you_to/",
-    "externalUrl": "https://github.com/b-tapia-morales/FuzzySharper",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "457dede5a4b86276",
-    "identityId": "reddit:/u/Nelsar-Axia",
-    "author": "/u/Nelsar-Axia",
-    "handle": "/u/Nelsar-Axia",
-    "platform": "reddit",
-    "publishedAt": "2026-10-25T19:55:53+00:00",
-    "excerpt": "Lessons from an open-source .NET 10 LDAP/AD admin app: MediatR authorization, two EF Core providers, tests against a live Samba DC",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xfc2mo/lessons_from_an_opensource_net_10_ldapad_admin/",
-    "externalUrl": "https://github.com/Nelsar/Axia",
-    "topics": [
-      ".NET",
-      "Security"
-    ]
   }
 ]
