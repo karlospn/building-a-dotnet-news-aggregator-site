@@ -39,13 +39,13 @@
     "platform": "mastodon",
     "status": "ok",
     "candidates": 19,
-    "published": 2
+    "published": 1
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
+    "candidates": 11,
     "published": 5
   },
   {
@@ -101,7 +101,7 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
+    "candidates": 12,
     "published": 1
   },
   {

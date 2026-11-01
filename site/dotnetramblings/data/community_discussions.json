@@ -1,5 +1,34 @@
 [
   {
+    "id": "d34395af636a683d",
+    "identityId": "reddit:/u/fuzhongkai",
+    "author": "/u/fuzhongkai",
+    "handle": "/u/fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-11-01T01:49:40+00:00",
+    "excerpt": "Microsoft.Extensions.AI + TensorSharp: local inference through HTTP or directly in your .NET process",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkr77o/microsoftextensionsai_tensorsharp_local_inference/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "1830d247de760604",
+    "identityId": "reddit:/u/ggende",
+    "author": "/u/ggende",
+    "handle": "/u/ggende",
+    "platform": "reddit",
+    "publishedAt": "2026-10-31T23:34:26+00:00",
+    "excerpt": "I've made a fast, zero allocation, AOT compatible, and compile-time safe .NET templating engine",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible/",
+    "externalUrl": "https://old.reddit.com/r/dotnet/comments/1wr1b6e/is_there_a_market_for_a_minimalist_fast_and",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "14c8eb7cc552a685",
     "identityId": "reddit:/u/fuzhongkai",
     "author": "/u/fuzhongkai",
@@ -40,21 +69,6 @@
     "externalUrl": "https://github.com/I-Synergy/NugetPackageManager",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "8af1c16091a56789",
-    "identityId": "reddit:/u/Fabulous_Answer_618",
-    "author": "/u/Fabulous_Answer_618",
-    "handle": "/u/Fabulous_Answer_618",
-    "platform": "reddit",
-    "publishedAt": "2026-10-31T16:35:05+00:00",
-    "excerpt": "NBomber Studio v0.10.0 released!!! It's load testing platfrom for C#/.NET devs/QA",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkermr/nbomber_studio_v0100_released_its_load_testing/",
-    "externalUrl": "https://nbomber.com/blog/2026/10/29/nbomber-studio-0.10.0",
-    "topics": [
-      ".NET",
-      "Testing"
     ]
   },
   {
@@ -168,21 +182,6 @@
     "externalUrl": "https://www.softinbit.com/dotnet-field-guide/upgrading-dotnet-8-to-10",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "6ebe7ecdde39c8a5",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-27T16:15:40+00:00",
-    "excerpt": "I benchmarked a native .NET LLM inference engine against llama.cpp, vLLM, SGLang, NInfer, and velox on an RTX 5090 — here are the results",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xgww65/i_benchmarked_a_native_net_llm_inference_engine/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   },
   {

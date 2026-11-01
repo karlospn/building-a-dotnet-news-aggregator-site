@@ -371,21 +371,5 @@
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117503776379159446"
       }
     ]
-  },
-  {
-    "id": "57586ed8cbb6660f",
-    "identityId": "mark-downie",
-    "author": "Mark Downie",
-    "handle": "Mark Downie",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-25T00:50:33+00:00",
-    "excerpt": "I am leaning towards experimenting with small models locally # ai https://www. poppastring.com/blog/small-mod els-specific-purposes",
-    "postUrl": "https://dotnet.social/@poppastring/117498801945830762",
-    "externalUrl": "https://www.poppastring.com/blog/small-models-specific-purposes",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
-    ]
   }
 ]
