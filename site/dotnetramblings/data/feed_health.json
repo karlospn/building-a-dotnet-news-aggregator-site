@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-11-01T14:15:39.863825+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-02T17:02:50.598434+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -168,14 +168,14 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-11-01T14:15:48.896349+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-02T17:02:59.924499+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-11-01T14:15:36.644302+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-02T17:02:47.218335+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-10-31T13:38:46.317973+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-02T17:03:05.421654+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -276,14 +276,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-11-01T14:15:49.556677+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-02T17:03:00.548891+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-11-01T14:15:48.200101+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-02T17:02:59.364728+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -294,8 +294,8 @@
     "status": "healthy"
   },
   "milanjovanovic-youtube": {
-    "checkedAt": "2026-11-01T14:15:38.673855+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-02T17:02:49.519326+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-11-01T14:15:50.677763+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-02T17:03:01.745967+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
