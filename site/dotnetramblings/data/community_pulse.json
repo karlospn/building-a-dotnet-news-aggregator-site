@@ -1,5 +1,98 @@
 [
   {
+    "id": "adedb87c81de8fb8",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-03T19:10:08+00:00",
+    "excerpt": "📰 Delivering Skills in NuGet packages Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models. https:// devblogs.microsoft.com/dotnet/ delivering-skills-in-nuget-packages/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117554086455356000",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "404c7cd15463ffd5",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-03T17:40:10+00:00",
+    "excerpt": "📰 Get Ready for .NET Conf 2026! .NET Conf is one week away! Join us November 10-13 for the launch of .NET 11, two days of Microsoft sessions, and two days of Community Days. https:// devblogs.microsoft.com/dotnet/ get-ready-for-dotnet-conf-2026/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117553732663611877",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "5a067a298cb3c04a",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-03T17:29:00+00:00",
+    "excerpt": "EF internals knowledge = fewer WTF moments per sprint. Get the antidote: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzgegreffz2d",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117553688755725834"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117525616605588537"
+      }
+    ]
+  },
+  {
+    "id": "dd5c739aa6525286",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-03T17:21:44+00:00",
+    "excerpt": "I used to share # dotnet tips on Twitter for the community, but since that's no longer a thing, I thought I'd move them to my personal blog. You can subscribe to a dedicated RSS feed to get new ones if you're learning # csharp or # dotnet . Pretty nice for beginners. Feel free to…",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117553660215276989",
+    "externalUrl": "https://khalidabuhakmeh.com/tips",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "7cdc4a78f87abcb4",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-03T12:36:00+00:00",
+    "excerpt": "If you’re moving into staff-level or architecture roles, this course gives you a practical framework for using AI to support your decisions, not replace them:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzfu2pe74e2e",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Architecture"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117518814424747734"
+      }
+    ]
+  },
+  {
     "id": "f00fff418848de02",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -76,30 +169,6 @@
     "externalUrl": "https://msft.it/63326aa0de",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "c610123d48eb8d48",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-29T18:29:53+00:00",
-    "excerpt": "If EF surprises you more often than your partner, its time to learn its internals. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3myzviuwugp2a",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117525616605588537"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117514047857281117"
-      }
     ]
   },
   {
@@ -209,28 +278,6 @@
     ]
   },
   {
-    "id": "295bdf80e42bc639",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-28T13:40:00+00:00",
-    "excerpt": "AI can scaffold services fast—but should those services exist? This course teaches you how to make architecture decisions with rigor, not guesswork:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mywutmtqay23",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI",
-      "Architecture"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117518814424747734"
-      }
-    ]
-  },
-  {
     "id": "21d736390498f111",
     "identityId": "brad-wilson",
     "author": "Brad Wilson",
@@ -258,42 +305,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "e2370ff2eaf7bc50",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-27T19:00:02.307000+00:00",
-    "excerpt": "〰️ HAPPENING TOMORROW 〰️ GitHub Universe Day 1 Keynote Set your reminder for 9AM PT 🔗 msft.it/63324aaLfG 🔗",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myuwawnbk22t",
-    "externalUrl": "https://msft.it/63324aaLfG",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2d8ad62a4c841e82",
-    "identityId": "mark-downie",
-    "author": "Mark Downie",
-    "handle": "poppastring.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-27T13:13:02.710000+00:00",
-    "excerpt": "“we might have framed out a boat or a buoy or gone: ‘Oh, actually … the water conditions are not really good enough for this.’” Instead, this time they’re leaving it all in to show a more authentic, organic version of the oceans. www.theverge.com/ai-artificia...",
-    "postUrl": "https://bsky.app/profile/poppastring.com/post/3myucuiezes2w",
-    "externalUrl": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://dotnet.social/@poppastring/117513046122723321"
-      }
     ]
   }
 ]

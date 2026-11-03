@@ -1,5 +1,33 @@
 [
   {
+    "id": "8995bf7fb57488a1",
+    "identityId": "reddit:/u/aiengfoundry",
+    "author": "/u/aiengfoundry",
+    "handle": "/u/aiengfoundry",
+    "platform": "reddit",
+    "publishedAt": "2026-11-03T10:46:48+00:00",
+    "excerpt": "Running Ollama with .NET: What Are the Biggest Integration Challenges?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xmpseo/running_ollama_with_net_what_are_the_biggest/",
+    "externalUrl": "https://aiengfoundry.com/articles/run-ollama-with-dotnet",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9adf4b60312a590d",
+    "identityId": "reddit:/u/Enough-Potato4988",
+    "author": "/u/Enough-Potato4988",
+    "handle": "/u/Enough-Potato4988",
+    "platform": "reddit",
+    "publishedAt": "2026-11-03T08:14:06+00:00",
+    "excerpt": "Moving away from sprawling if-else approval trees using Chain of Responsibility — when is it actually worth the abstraction in C#?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xmnc7r/moving_away_from_sprawling_ifelse_approval_trees/",
+    "externalUrl": "https://medium.com/@gautampraveen351/chain-of-responsibility-design-pattern-lld-in-c-from-problem-to-production-trade-offs-74b5cf07460a",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "3b6374096f72227f",
     "identityId": "reddit:/u/jhaygood86",
     "author": "/u/jhaygood86",
@@ -208,20 +236,6 @@
     "excerpt": ".NET 8 and 9 go out of support on Nov 10. These are the .NET 10 breaking changes that don't fail the build",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhh81w/net_8_and_9_go_out_of_support_on_nov_10_these_are/",
     "externalUrl": "https://www.softinbit.com/dotnet-field-guide/upgrading-dotnet-8-to-10",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "56cfe466021db0d9",
-    "identityId": "reddit:/u/Hefaistos68",
-    "author": "/u/Hefaistos68",
-    "handle": "/u/Hefaistos68",
-    "platform": "reddit",
-    "publishedAt": "2026-10-27T16:15:25+00:00",
-    "excerpt": ".NET/C# native port of libjxl",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xgwvx9/netc_native_port_of_libjxl/",
-    "externalUrl": "https://github.com/Hefaistos68/jxlsharp",
     "topics": [
       ".NET"
     ]
