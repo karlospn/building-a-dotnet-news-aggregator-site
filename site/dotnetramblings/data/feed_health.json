@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-02T21:06:38.998209+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-11-03T20:43:05.409648+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-10-31T16:32:40.809537+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-03T20:43:08.389689+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -102,14 +102,14 @@
     "status": "healthy"
   },
   "damienbod": {
-    "checkedAt": "2026-11-02T10:19:01.011345+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-03T20:43:17.650033+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-03T13:17:15.999871+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-03T20:43:21.243904+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-11-02T10:18:53.675043+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-03T20:43:08.077412+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-10-31T03:22:24.034480+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-03T20:43:18.453128+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-11-03T13:17:14.616323+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-11-03T20:43:19.674963+00:00",
+    "itemCount": 9,
     "message": "",
     "status": "healthy"
   },
