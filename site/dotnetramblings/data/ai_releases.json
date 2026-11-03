@@ -1,5 +1,62 @@
 [
   {
+    "id": "modelcontextprotocol/csharp-sdk:432388309",
+    "product": "MCP C# SDK",
+    "version": "2.3.1",
+    "tagName": "v2.3.1",
+    "changeType": "security",
+    "publishedAt": "2026-11-03T07:33:49+00:00",
+    "title": "MCP C# SDK 2.3.1",
+    "summary": "This patch release includes a security fix for authenticated stateful sessions. Harden authenticated stateful MCP sessions (commit bfbd893) by @halter73 (co-authored by @Copilot @jeffhandley @tarekgh) Align docs publishing with shared orchestration #1981 by @jeffhandley…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.1",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "modelcontextprotocol/csharp-sdk:432388296",
+    "product": "MCP C# SDK",
+    "version": "1.4.2",
+    "tagName": "v1.4.2",
+    "changeType": "security",
+    "publishedAt": "2026-11-03T07:33:13+00:00",
+    "title": "MCP C# SDK 1.4.2",
+    "summary": "This patch release includes security fixes for OAuth authentication and authenticated HTTP sessions. Validate OAuth PKCE support and metadata issuer #1949 by @halter73 (co-authored by @PranavSenthilnathan @Copilot) Deployments using metadata-free 2025-03-26 OAuth discovery may…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v1.4.2",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:431865037",
+    "product": "Anthropic C# SDK",
+    "version": "13.4.0",
+    "tagName": "Anthropic-v13.4.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-02T19:11:48+00:00",
+    "title": "Anthropic C# SDK 13.4.0",
+    "summary": "api: add GA methods for analytics, spend limits and RBAC api: add named beta types for unified metrics and RBAC delete responses api: add shared analytics order and increase request actor types api: add tooluselimitreachederror and compactionlimitreachederror session error types…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.4.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "microsoft/agent-framework:429383862",
     "product": "Microsoft Agent Framework for .NET",
     "version": "1.27.0",
@@ -887,25 +944,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.20.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:378107251",
-    "product": "Anthropic C# SDK",
-    "version": "12.44.0",
-    "tagName": "Anthropic-v12.44.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-08-27T20:31:23+00:00",
-    "title": "Anthropic C# SDK 12.44.0",
-    "summary": "api: beta files/skills namespaces use GA shapes; drop dated beta header pins (6e61d8f) client: page backward via beforeid and stop on hasmore=false (cc8ef57) webhooks: require headers to be passed to unwrap() (ccd76b9) api: clarify pagination on the organization rate-limit list…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.44.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
