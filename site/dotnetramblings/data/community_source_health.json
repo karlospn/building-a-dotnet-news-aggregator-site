@@ -102,7 +102,7 @@
     "platform": "bluesky",
     "status": "ok",
     "candidates": 12,
-    "published": 1
+    "published": 0
   },
   {
     "identityId": "david-fowler",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 17
+    "published": 16
   }
 ]
