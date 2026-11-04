@@ -1,5 +1,19 @@
 [
   {
+    "id": "cead9e085044b3d9",
+    "identityId": "reddit:/u/Prize_Isopod_1614",
+    "author": "/u/Prize_Isopod_1614",
+    "handle": "/u/Prize_Isopod_1614",
+    "platform": "reddit",
+    "publishedAt": "2026-11-04T08:26:47+00:00",
+    "excerpt": "I built a proof-of-concept C# UI framework on NetWasm: signals instead of a virtual DOM, ~150 KB Brotli for a full demo app",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xnizct/i_built_a_proofofconcept_c_ui_framework_on/",
+    "externalUrl": "https://github.com/matengo/NetWasm.UI",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "8995bf7fb57488a1",
     "identityId": "reddit:/u/aiengfoundry",
     "author": "/u/aiengfoundry",
@@ -193,49 +207,6 @@
     "excerpt": "PSA for anyone using SignedXml: a government SAML NuGet package shipped an XML Signature Wrapping bypass (Egov.Integrations.MPass.Saml before 10.0.4)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xi61wm/psa_for_anyone_using_signedxml_a_government_saml/",
     "externalUrl": "https://www.masiutin.net/mpass-saml-xml-signature-wrapping.html",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d8efd4997c84267f",
-    "identityId": "reddit:/u/curiosity-ai",
-    "author": "/u/curiosity-ai",
-    "handle": "/u/curiosity-ai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-28T18:06:24+00:00",
-    "excerpt": "We rewrote LibreOffice’s Writer, Calc and Impress layout in C#. What 947 test documents taught us",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhvnip/we_rewrote_libreoffices_writer_calc_and_impress/",
-    "externalUrl": "https://blog.curiosity.ai/blog/2026-10-xray-3-office?utm%5C_source=reddit&utm%5C_medium=organic-social&utm%5C_campaign=2026-10-28-libreoffice-layout-in-csharp&utm%5C_content=rd-office-v5",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "eb039d3965e51125",
-    "identityId": "reddit:/u/revengourd",
-    "author": "/u/revengourd",
-    "handle": "/u/revengourd",
-    "platform": "reddit",
-    "publishedAt": "2026-10-28T15:20:53+00:00",
-    "excerpt": "Testing my Vulkan renderer in C# using Silk.NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhqzsb/testing_my_vulkan_renderer_in_c_using_silknet/",
-    "externalUrl": "https://v.redd.it/cfd0eraj38yh1",
-    "topics": [
-      ".NET",
-      "Testing"
-    ]
-  },
-  {
-    "id": "efb160679db59dae",
-    "identityId": "reddit:/u/softinbit",
-    "author": "/u/softinbit",
-    "handle": "/u/softinbit",
-    "platform": "reddit",
-    "publishedAt": "2026-10-28T07:08:06+00:00",
-    "excerpt": ".NET 8 and 9 go out of support on Nov 10. These are the .NET 10 breaking changes that don't fail the build",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xhh81w/net_8_and_9_go_out_of_support_on_nov_10_these_are/",
-    "externalUrl": "https://www.softinbit.com/dotnet-field-guide/upgrading-dotnet-8-to-10",
     "topics": [
       ".NET"
     ]
