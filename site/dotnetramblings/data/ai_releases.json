@@ -2810,24 +2810,5 @@
     "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.67.1",
     "repository": "microsoft/semantic-kernel",
     "official": true
-  },
-  {
-    "id": "microsoft/semantic-kernel:259379904",
-    "product": "Semantic Kernel for .NET",
-    "version": "1.67.0",
-    "tagName": "dotnet-1.67.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-11-03T21:16:03+00:00",
-    "title": "Semantic Kernel for .NET 1.67.0",
-    "summary": "2464458c47b4d668e025227fef4f9096646b3678 .Net: Update SK Version for release (#13327) 13e7582856d84a604211f46cdca7613714906012 .Net: Fix #13232: Add empty parameters schema for NonInvocableTool placeholder (#13278) 70b7bdb62bc310162e9243d32216881f17b8fc73 .Net:…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.67.0",
-    "repository": "microsoft/semantic-kernel",
-    "official": true
   }
 ]
