@@ -1,31 +1,18 @@
 [
   {
-    "id": "adedb87c81de8fb8",
+    "id": "5e6199ac258e7eab",
     "identityId": "dotnet",
     "author": ".NET",
-    "handle": ".NET",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-03T19:10:08+00:00",
-    "excerpt": "📰 Delivering Skills in NuGet packages Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models. https:// devblogs.microsoft.com/dotnet/ delivering-skills-in-nuget-packages/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117554086455356000",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-04T00:03:05.639000+00:00",
+    "excerpt": "🔜 .NET Conf 2026 is Nov 10-13! Join this free virtual event for the launch of .NET 11, sessions from Microsoft teams, and community talks. Explore new C#, msft.it/63326a45YG Core, .NET MAUI, AI in .NET, Visual Studio & more. Details: msft.it/63325a45Y1",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mzh2hbsmvf23",
+    "externalUrl": "https://msft.it/63325a45Y1",
     "topics": [
+      "Visual Studio",
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "404c7cd15463ffd5",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": ".NET",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-03T17:40:10+00:00",
-    "excerpt": "📰 Get Ready for .NET Conf 2026! .NET Conf is one week away! Join us November 10-13 for the launch of .NET 11, two days of Microsoft sessions, and two days of Community Days. https:// devblogs.microsoft.com/dotnet/ get-ready-for-dotnet-conf-2026/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117553732663611877",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026",
-    "topics": [
-      ".NET"
     ]
   },
   {
@@ -275,36 +262,6 @@
         "platform": "mastodon",
         "postUrl": "https://dotnet.social/@avaloniaui/117519066147555839"
       }
-    ]
-  },
-  {
-    "id": "21d736390498f111",
-    "identityId": "brad-wilson",
-    "author": "Brad Wilson",
-    "handle": "Brad Wilson",
-    "platform": "mastodon",
-    "publishedAt": "2026-10-28T00:35:14+00:00",
-    "excerpt": "FWIW, this appears to be a problem isolated to Native AOT. Last time this happened: https:// github.com/xunit/xunit/commit/ d90ec1ca2d1683942da6c2010918a111583a4e4d",
-    "postUrl": "https://mastodon.social/@bradwilson/117515728605568668",
-    "externalUrl": "https://github.com/xunit/xunit/commit/d90ec1ca2d1683942da6c2010918a111583a4e4d",
-    "topics": [
-      ".NET",
-      "Testing"
-    ]
-  },
-  {
-    "id": "7155f6edf835c7b0",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-27T23:00:01.528000+00:00",
-    "excerpt": "⛳🤖 AI just walked onto the live broadcast. On .NET Rocks!, Tim Huckaby digs into building Duff Foreman, an AI-powered golf commentator, using M365 Copilot to help architect + implement it and golf stats to fuel the experience. 📊📺 🎧 Listen: msft.it/63324aaLUy",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myvdo2rife2z",
-    "externalUrl": "https://msft.it/63324aaLUy",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

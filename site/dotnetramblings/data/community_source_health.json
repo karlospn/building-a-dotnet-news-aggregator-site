@@ -11,7 +11,7 @@
     "platform": "mastodon",
     "status": "ok",
     "candidates": 20,
-    "published": 2
+    "published": 0
   },
   {
     "identityId": "andrew-lock",
@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 8,
+    "candidates": 5,
     "published": 0
   },
   {
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
+    "candidates": 10,
     "published": 4
   },
   {
@@ -94,14 +94,14 @@
     "identityId": "brad-wilson",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 4,
-    "published": 1
+    "candidates": 5,
+    "published": 0
   },
   {
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 12,
+    "candidates": 11,
     "published": 0
   },
   {
