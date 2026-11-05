@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-05T10:04:20.943012+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-05T19:15:10.211196+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-11-05T10:04:30.875504+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-05T19:15:16.350968+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-05T10:04:42.074472+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-05T19:15:27.651076+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-11-04T19:07:09.170215+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-05T19:15:07.243419+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-11-01T12:21:24.337346+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-05T19:15:28.093979+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -210,8 +210,8 @@
     "status": "healthy"
   },
   "jimmybogard": {
-    "checkedAt": "2026-09-21T08:23:02.181092+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-05T19:15:15.847334+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-11-05T10:04:39.386696+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-05T19:15:25.528642+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-11-04T19:07:33.075260+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-05T19:15:26.297563+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
