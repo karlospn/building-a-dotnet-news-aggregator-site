@@ -196,19 +196,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "8f2ef18c5e41db13",
-    "identityId": "reddit:/u/maxim-masiutin",
-    "author": "/u/maxim-masiutin",
-    "handle": "/u/maxim-masiutin",
-    "platform": "reddit",
-    "publishedAt": "2026-10-29T00:55:12+00:00",
-    "excerpt": "PSA for anyone using SignedXml: a government SAML NuGet package shipped an XML Signature Wrapping bypass (Egov.Integrations.MPass.Saml before 10.0.4)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xi61wm/psa_for_anyone_using_signedxml_a_government_saml/",
-    "externalUrl": "https://www.masiutin.net/mpass-saml-xml-signature-wrapping.html",
-    "topics": [
-      ".NET"
-    ]
   }
 ]

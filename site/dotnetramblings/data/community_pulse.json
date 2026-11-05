@@ -217,21 +217,5 @@
       ".NET",
       "AWS"
     ]
-  },
-  {
-    "id": "ac2e2ded5bd58ea5",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-28T21:00:01.368000+00:00",
-    "excerpt": "Building RAG or semantic search in .NET? 🧠🔎 Microsoft.Extensions.VectorData abstracts the vector store so your app can upsert embeddings, run similarity searches, filter with LINQ + switch database providers with mostly the same collection/search code. 🚀 msft.it/63324aaxb2",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3myxngflyka2h",
-    "externalUrl": "https://msft.it/63324aaxb2",
-    "topics": [
-      ".NET",
-      "AI",
-      "Data"
-    ]
   }
 ]
