@@ -1,5 +1,81 @@
 [
   {
+    "id": "openai/openai-dotnet:434914364",
+    "product": "OpenAI .NET SDK",
+    "version": "2.15.0",
+    "tagName": "OpenAI_2.15.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-05T07:55:21+00:00",
+    "title": "OpenAI .NET SDK 2.15.0",
+    "summary": "See the official release notes for details.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "OpenAI",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.15.0",
+    "repository": "openai/openai-dotnet",
+    "official": true
+  },
+  {
+    "id": "awaescher/OllamaSharp:434852417",
+    "product": "OllamaSharp",
+    "version": "5.5.2",
+    "tagName": "5.5.2",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-05T06:27:54+00:00",
+    "title": "OllamaSharp 5.5.2",
+    "summary": "fix: TextReasoningContent was not send when using IChatClient, leading to KV Cache Rollback by @jetelain in https://github.com/awaescher/OllamaSharp/pull/398 @jetelain made their first contribution in https://github.com/awaescher/OllamaSharp/pull/398 Full Changelog:…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.5.2",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "awaescher/OllamaSharp:434849826",
+    "product": "OllamaSharp",
+    "version": "5.5.1",
+    "tagName": "5.5.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-05T06:23:56+00:00",
+    "title": "OllamaSharp 5.5.1",
+    "summary": "Use trusted nuget publishing by @awaescher in https://github.com/awaescher/OllamaSharp/pull/399 fix(chatclient): keep NumPredict from RawRepresentationFactory when MaxOutputTokens is unset by @pcbeingused333 in https://github.com/awaescher/OllamaSharp/pull/397 @pcbeingused333…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.5.1",
+    "repository": "awaescher/OllamaSharp",
+    "official": false
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:434398493",
+    "product": "Anthropic C# SDK",
+    "version": "13.5.0",
+    "tagName": "Anthropic-v13.5.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-04T20:10:24+00:00",
+    "title": "Anthropic C# SDK 13.5.0",
+    "summary": "api: add error details types and new error type values api: add ids filter to list workspaces client: add exception classes for HTTP statuses and API error codes, and Body, Type, ApiMessage, ErrorCode and Details on AnthropicServiceException client: add RequestID and WorkspaceID…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.5.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "modelcontextprotocol/csharp-sdk:432388309",
     "product": "MCP C# SDK",
     "version": "2.3.1",
@@ -906,25 +982,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.28.2",
     "repository": "microsoft/onnxruntime",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:380721257",
-    "product": "Anthropic C# SDK",
-    "version": "12.45.0",
-    "tagName": "Anthropic-v12.45.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-01T18:09:28+00:00",
-    "title": "Anthropic C# SDK 12.45.0",
-    "summary": "api: add externaluseronboardedat to user profiles (41cc8b1) api: add support for claude-fable-5-1 and claude-mythos-5-1 (80e4311) api: add support for organization compliance settings in the Admin API (7b89777) api: support pagination on organization rate limit list endpoints…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.45.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
