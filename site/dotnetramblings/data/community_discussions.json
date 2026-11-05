@@ -1,5 +1,33 @@
 [
   {
+    "id": "2023eed8ef1578ca",
+    "identityId": "reddit:/u/chusk3",
+    "author": "/u/chusk3",
+    "handle": "/u/chusk3",
+    "platform": "reddit",
+    "publishedAt": "2026-11-05T20:08:07+00:00",
+    "excerpt": "Take the .NET Teams' .NET Developer Survey, 2026 Edition!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xosuhu/take_the_net_teams_net_developer_survey_2026/",
+    "externalUrl": "https://nam.dcv.ms/KdAOrj7lia",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "00b323b9cd60c9c8",
+    "identityId": "reddit:/u/Asleep_Form_9397",
+    "author": "/u/Asleep_Form_9397",
+    "handle": "/u/Asleep_Form_9397",
+    "platform": "reddit",
+    "publishedAt": "2026-11-05T12:54:27+00:00",
+    "excerpt": "Why so much barrier to enter .NET associate level roles!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xohwww/why_so_much_barrier_to_enter_net_associate_level/",
+    "externalUrl": "http://asp.net/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "cead9e085044b3d9",
     "identityId": "reddit:/u/Prize_Isopod_1614",
     "author": "/u/Prize_Isopod_1614",
@@ -165,20 +193,6 @@
     "excerpt": "We built automatic XAML layout animations that require just one attribute (Live demo, OpenSilver)",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjkkeo/we_built_automatic_xaml_layout_animations_that/",
     "externalUrl": "https://doc.opensilver.net/documentation/how-to-topics/get-latest-preview-version.html",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "58b8476e53f797d3",
-    "identityId": "reddit:/u/NoNoise7492",
-    "author": "/u/NoNoise7492",
-    "handle": "/u/NoNoise7492",
-    "platform": "reddit",
-    "publishedAt": "2026-10-30T14:10:19+00:00",
-    "excerpt": "SEO for a large React SPA?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjges5/seo_for_a_large_react_spa/",
-    "externalUrl": "http://asp.net/",
     "topics": [
       ".NET"
     ]

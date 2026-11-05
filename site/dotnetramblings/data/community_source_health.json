@@ -45,15 +45,15 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 6,
-    "published": 3
+    "candidates": 8,
+    "published": 4
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 19,
-    "published": 3
+    "candidates": 20,
+    "published": 4
   },
   {
     "identityId": "tanner-gooding",
@@ -73,22 +73,22 @@
     "identityId": "avalonia",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 17,
-    "published": 1
+    "candidates": 16,
+    "published": 0
   },
   {
     "identityId": "avalonia",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 16,
-    "published": 1
+    "candidates": 15,
+    "published": 0
   },
   {
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 6,
-    "published": 4
+    "published": 3
   },
   {
     "identityId": "brad-wilson",
@@ -101,7 +101,7 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 11,
+    "candidates": 10,
     "published": 0
   },
   {
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 14
+    "published": 15
   }
 ]
