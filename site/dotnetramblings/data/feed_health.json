@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-06T01:17:18.111042+00:00",
-    "itemCount": 7,
+    "checkedAt": "2026-11-06T10:08:48.548213+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-11-06T01:17:38.602234+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-06T10:08:53.216532+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,14 +108,14 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-05T19:15:27.651076+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-11-06T10:09:03.225436+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-11-05T19:15:07.243419+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-06T10:08:46.650302+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-11-04T19:07:37.007643+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-06T10:09:03.303304+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
