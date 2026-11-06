@@ -1,5 +1,54 @@
 [
   {
+    "id": "7b22100ddae1048a",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-06T16:30:21+00:00",
+    "excerpt": "Stories I like: C# 15 Closed Class Hierarchies Demystified https://www. youtube.com/watch?v=Nh0LNmqe7r4",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117570445090934213",
+    "externalUrl": "https://www.youtube.com/watch?v=Nh0LNmqe7r4",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznskhgrv62g"
+      }
+    ]
+  },
+  {
+    "id": "c46cb797ac64a886",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-06T11:11:00+00:00",
+    "excerpt": "You don’t need prior services experience—just curiosity and comfort reading code. The course guides you through architecture fundamentals using Claude:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznaphs2oq2s",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "Architecture"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117564192428278134"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
+      }
+    ]
+  },
+  {
     "id": "aad1a14332451f18",
     "identityId": "dotnet",
     "author": ".NET",
@@ -136,28 +185,6 @@
     ]
   },
   {
-    "id": "7cdc4a78f87abcb4",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-03T12:36:00+00:00",
-    "excerpt": "If you’re moving into staff-level or architecture roles, this course gives you a practical framework for using AI to support your decisions, not replace them:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzfu2pe74e2e",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI",
-      "Architecture"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
-      }
-    ]
-  },
-  {
     "id": "f00fff418848de02",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -176,35 +203,6 @@
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzdqpjja4j2c"
       }
-    ]
-  },
-  {
-    "id": "22281323a94d86f2",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-30T19:00:02.145000+00:00",
-    "excerpt": "👀 ICYMI: Healthy prod starts with healthy runtimes. 🛡️⚙️ October’s .NET servicing updates bring security + non-security fixes for .NET 10/9/8, plus .NET Framework servicing. Time to check those runtimes. 🔧 Patch up 👇 msft.it/63324aarva",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mz4hnonisr2z",
-    "externalUrl": "https://msft.it/63324aarva",
-    "topics": [
-      ".NET",
-      "Security"
-    ]
-  },
-  {
-    "id": "30428e206a3e29db",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-10-30T13:00:02.355000+00:00",
-    "excerpt": "👀 ICYMI: Let’s bring this one back around. 📦 DAB just got embeddable! Data API builder 2.1.5 ships Microsoft.DataApiBuilder.Core, letting .NET apps host the engine directly. Add native JSON/vector APIs, .NET 10 + MCP hardening and…🔥 Read the blog 👇 msft.it/63328aarmo",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mz3tjxmptk23",
-    "externalUrl": "https://msft.it/63328aarmo",
-    "topics": [
-      ".NET"
     ]
   }
 ]

@@ -1,5 +1,50 @@
 [
   {
+    "id": "2d78d108eeed566f",
+    "identityId": "reddit:/u/Dependent_Ideal9870",
+    "author": "/u/Dependent_Ideal9870",
+    "handle": "/u/Dependent_Ideal9870",
+    "platform": "reddit",
+    "publishedAt": "2026-11-06T18:04:48+00:00",
+    "excerpt": "CeruleanToolbox: a local tool to run everyday Azure operations with a service principal (MIT)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpjn37/ceruleantoolbox_a_local_tool_to_run_everyday/",
+    "externalUrl": "https://github.com/siris9476/CeruleanToolbox",
+    "topics": [
+      ".NET",
+      "Azure"
+    ]
+  },
+  {
+    "id": "120d34e0883ac1d0",
+    "identityId": "reddit:/u/Additional-Flan1281",
+    "author": "/u/Additional-Flan1281",
+    "handle": "/u/Additional-Flan1281",
+    "platform": "reddit",
+    "publishedAt": "2026-11-06T15:05:29+00:00",
+    "excerpt": "Can AI coding agents safely access .NET User Secrets?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpf1g4/can_ai_coding_agents_safely_access_net_user/",
+    "externalUrl": "https://mwvdveld.substack.com/p/when-working-as-designed-is-the-problem?r=267shs&showWelcomeOnShare=true",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "3dcdbff778a8537b",
+    "identityId": "reddit:/u/Tjoudeh",
+    "author": "/u/Tjoudeh",
+    "handle": "/u/Tjoudeh",
+    "platform": "reddit",
+    "publishedAt": "2026-11-06T10:43:21+00:00",
+    "excerpt": "I wrote a 10-part tutorial on building MCP servers in .NET, from a first tool to production on Azure",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xp9s76/i_wrote_a_10part_tutorial_on_building_mcp_servers/",
+    "externalUrl": "https://bitoftech.net/2026/10/02/what-is-model-context-protocol-introduction-dotnet-developers",
+    "topics": [
+      ".NET",
+      "Azure"
+    ]
+  },
+  {
     "id": "f141186b81e9576d",
     "identityId": "reddit:/u/ObviousMeal3012",
     "author": "/u/ObviousMeal3012",
@@ -179,48 +224,6 @@
     "excerpt": "📦 NuGet Package Manager for VS Code — manage .NET packages in the editor",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkg9wg/nuget_package_manager_for_vs_code_manage_net/",
     "externalUrl": "https://github.com/I-Synergy/NugetPackageManager",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "db64b79b8830f31c",
-    "identityId": "reddit:/u/ForwardCod2571",
-    "author": "/u/ForwardCod2571",
-    "handle": "/u/ForwardCod2571",
-    "platform": "reddit",
-    "publishedAt": "2026-10-30T17:17:24+00:00",
-    "excerpt": "I made a `dotnet new` template that sets up Claude Code for ASP.NET Core projects (rules, skills, guardrails)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjle7g/i_made_a_dotnet_new_template_that_sets_up_claude/",
-    "externalUrl": "https://github.com/dmamulashvili/dotnet-agent-kit",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "73bbf0587531d748",
-    "identityId": "reddit:/u/Userware",
-    "author": "/u/Userware",
-    "handle": "/u/Userware",
-    "platform": "reddit",
-    "publishedAt": "2026-10-30T16:47:12+00:00",
-    "excerpt": "We built automatic XAML layout animations that require just one attribute (Live demo, OpenSilver)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjkkeo/we_built_automatic_xaml_layout_animations_that/",
-    "externalUrl": "https://doc.opensilver.net/documentation/how-to-topics/get-latest-preview-version.html",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "fa71e28b458598e8",
-    "identityId": "reddit:/u/InterestingUmpire651",
-    "author": "/u/InterestingUmpire651",
-    "handle": "/u/InterestingUmpire651",
-    "platform": "reddit",
-    "publishedAt": "2026-10-30T12:44:53+00:00",
-    "excerpt": "​I built a landscape OBD2 dashboard for my car's Android head unit in .NET MAUI (auto-ranging gauges, big and small layouts, on-device logs)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xjeds2/i_built_a_landscape_obd2_dashboard_for_my_cars/",
-    "externalUrl": "https://v.redd.it/jb2p91nrolyh1",
     "topics": [
       ".NET"
     ]
