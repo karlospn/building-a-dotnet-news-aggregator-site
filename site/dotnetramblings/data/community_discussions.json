@@ -1,5 +1,19 @@
 [
   {
+    "id": "f141186b81e9576d",
+    "identityId": "reddit:/u/ObviousMeal3012",
+    "author": "/u/ObviousMeal3012",
+    "handle": "/u/ObviousMeal3012",
+    "platform": "reddit",
+    "publishedAt": "2026-11-05T23:58:10+00:00",
+    "excerpt": "One light, open-source app to replace every brand's PC software. Looking for contributors (C#/.NET 10)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xoyb3h/one_light_opensource_app_to_replace_every_brands/",
+    "externalUrl": "https://github.com/HarDvolT/control-spawn/blob/main/docs/rfcs/0001-plugin-system.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "2023eed8ef1578ca",
     "identityId": "reddit:/u/chusk3",
     "author": "/u/chusk3",
