@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:435604912",
+    "product": "Anthropic C# SDK",
+    "version": "13.6.0",
+    "tagName": "Anthropic-v13.6.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-05T18:59:08+00:00",
+    "title": "Anthropic C# SDK 13.6.0",
+    "summary": "api: add error code for ramp limit errors api: add error codes for External Key validation failures api: add support for signing organization members out everywhere client: return null when a null enum converts to its raw value docs: describe the type and message of API errors…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.6.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "openai/openai-dotnet:434914364",
     "product": "OpenAI .NET SDK",
     "version": "2.15.0",
@@ -925,25 +944,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.29.1",
     "repository": "microsoft/onnxruntime",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:383043350",
-    "product": "Anthropic C# SDK",
-    "version": "12.46.0",
-    "tagName": "Anthropic-v12.46.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-04T22:20:26+00:00",
-    "title": "Anthropic C# SDK 12.46.0",
-    "summary": "api: add named types for organization compliance settings state (34af6e4) api: add workspaceid request option for multi-workspace credentials (db8a192) api: raise Managed Agents vault refresh token limit to 8192 chars (62290cd) client: percent-encode path parameters and reject…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.46.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
