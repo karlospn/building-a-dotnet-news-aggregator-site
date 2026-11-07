@@ -1,5 +1,33 @@
 [
   {
+    "id": "0206d7c083055cef",
+    "identityId": "reddit:/u/Clear_Actuary8068",
+    "author": "/u/Clear_Actuary8068",
+    "handle": "/u/Clear_Actuary8068",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T09:29:10+00:00",
+    "excerpt": "dotnet-tree.nvim v0.3.0: a Solution Explorer for Neovim",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq2dty/dotnettreenvim_v030_a_solution_explorer_for_neovim/",
+    "externalUrl": "https://github.com/alessandropietrobelli/dotnet-counters.nvim",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "df12ff821912291f",
+    "identityId": "reddit:/u/suiramarius",
+    "author": "/u/suiramarius",
+    "handle": "/u/suiramarius",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T07:49:25+00:00",
+    "excerpt": "Simple3D 0.3.0 adds native GPU rendering to 3D views in .NET MAUI",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq0uef/simple3d_030_adds_native_gpu_rendering_to_3d/",
+    "externalUrl": "https://mariusmuntean.github.io/Simple3D-Maui/getting-started.html",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "584ffd3902b65486",
     "identityId": "reddit:/u/zionsati",
     "author": "/u/zionsati",
