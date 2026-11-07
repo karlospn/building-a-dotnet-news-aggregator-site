@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-06T18:41:56.850058+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-07T00:31:11.618254+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-11-05T19:15:28.093979+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-07T00:31:11.954248+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -288,8 +288,8 @@
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-11-01T12:21:10.929410+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-07T00:30:58.241586+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -342,8 +342,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-11-06T18:41:55.496726+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-07T00:31:10.447845+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
