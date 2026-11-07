@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 3,
+    "candidates": 4,
     "published": 0
   },
   {
@@ -87,8 +87,8 @@
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 6,
-    "published": 3
+    "candidates": 7,
+    "published": 4
   },
   {
     "identityId": "brad-wilson",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 19
+    "published": 18
   }
 ]

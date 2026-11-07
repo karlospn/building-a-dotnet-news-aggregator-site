@@ -1,5 +1,48 @@
 [
   {
+    "id": "ca028605dd5587e7",
+    "identityId": "reddit:/u/Maleficent_Syrup_798",
+    "author": "/u/Maleficent_Syrup_798",
+    "handle": "/u/Maleficent_Syrup_798",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T18:06:38+00:00",
+    "excerpt": "Shiny: OSS .NET libraries for Blazor, desktop and mobile (device APIs, a 20-database document store, and 100 UI controls)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqcrkw/shiny_oss_net_libraries_for_blazor_desktop_and/",
+    "externalUrl": "https://shinylib.net/playground/index.html",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
+    "id": "ba35a34a9c1f00ac",
+    "identityId": "reddit:/u/Prize_Isopod_1614",
+    "author": "/u/Prize_Isopod_1614",
+    "handle": "/u/Prize_Isopod_1614",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T15:26:12+00:00",
+    "excerpt": "NetWasm.UI v0.5: a signal-based C# UI framework for the browser, compiled AOT to WebAssembly (~157 KB Brotli for a full demo app)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq8yno/netwasmui_v05_a_signalbased_c_ui_framework_for/",
+    "externalUrl": "https://github.com/matengo/NetWasm.UI/issues/1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "51810d3030fe0b54",
+    "identityId": "reddit:/u/Additional_Welcome23",
+    "author": "/u/Additional_Welcome23",
+    "handle": "/u/Additional_Welcome23",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T14:11:18+00:00",
+    "excerpt": "Sdcb.SimdCodecs 1.4: MIT, pure C# image codecs for .NET 10, now with HEIC decoding (iPhone photos) faster than libheif",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq7a28/sdcbsimdcodecs_14_mit_pure_c_image_codecs_for_net/",
+    "externalUrl": "https://sdcb.ai/simdcodecs/playground",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "0206d7c083055cef",
     "identityId": "reddit:/u/Clear_Actuary8068",
     "author": "/u/Clear_Actuary8068",
@@ -9,20 +52,6 @@
     "excerpt": "dotnet-tree.nvim v0.3.0: a Solution Explorer for Neovim",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq2dty/dotnettreenvim_v030_a_solution_explorer_for_neovim/",
     "externalUrl": "https://github.com/alessandropietrobelli/dotnet-counters.nvim",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "df12ff821912291f",
-    "identityId": "reddit:/u/suiramarius",
-    "author": "/u/suiramarius",
-    "handle": "/u/suiramarius",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T07:49:25+00:00",
-    "excerpt": "Simple3D 0.3.0 adds native GPU rendering to 3D views in .NET MAUI",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq0uef/simple3d_030_adds_native_gpu_rendering_to_3d/",
-    "externalUrl": "https://mariusmuntean.github.io/Simple3D-Maui/getting-started.html",
     "topics": [
       ".NET"
     ]
@@ -222,49 +251,6 @@
     "excerpt": "I've made a fast, zero allocation, AOT compatible, and compile-time safe .NET templating engine",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible/",
     "externalUrl": "https://old.reddit.com/r/dotnet/comments/1wr1b6e/is_there_a_market_for_a_minimalist_fast_and",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "14c8eb7cc552a685",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-10-31T21:06:10+00:00",
-    "excerpt": "Building a knowledge-base workflow in a .NET agent app: retrieval, source files, and calculations",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkle5v/building_a_knowledgebase_workflow_in_a_net_agent/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp/blob/main/docs/knowledge-system.md",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "6d647365e3e857f2",
-    "identityId": "reddit:/u/MasterOfAutomation",
-    "author": "/u/MasterOfAutomation",
-    "handle": "/u/MasterOfAutomation",
-    "platform": "reddit",
-    "publishedAt": "2026-10-31T17:36:13+00:00",
-    "excerpt": "Three free, open-source C# libraries for factory and robot work: EtherNet/IP, ROS 1 and ROS 2",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkgaqs/three_free_opensource_c_libraries_for_factory_and/",
-    "externalUrl": "https://github.com/CristianMori/EthernetIpSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "37f11b2054723a49",
-    "identityId": "reddit:/u/cyberizzy",
-    "author": "/u/cyberizzy",
-    "handle": "/u/cyberizzy",
-    "platform": "reddit",
-    "publishedAt": "2026-10-31T17:35:15+00:00",
-    "excerpt": "📦 NuGet Package Manager for VS Code — manage .NET packages in the editor",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkg9wg/nuget_package_manager_for_vs_code_manage_net/",
-    "externalUrl": "https://github.com/I-Synergy/NugetPackageManager",
     "topics": [
       ".NET"
     ]

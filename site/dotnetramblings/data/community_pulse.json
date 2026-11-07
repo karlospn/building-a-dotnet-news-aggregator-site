@@ -1,5 +1,19 @@
 [
   {
+    "id": "86a8c3e486aa7fe5",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-07T18:24:16+00:00",
+    "excerpt": "Experimenting with these kinds of social promotional cards. # dotnet # csharp https:// khalidabuhakmeh.com/posts/secr ets-of-a-dotnet-professional/",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117576555320786844",
+    "externalUrl": "https://khalidabuhakmeh.com/posts/secrets-of-a-dotnet-professional",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "77e8ba4eaff766bc",
     "identityId": "dotnet",
     "author": ".NET",
