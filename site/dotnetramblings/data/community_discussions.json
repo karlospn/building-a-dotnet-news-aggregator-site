@@ -1,5 +1,33 @@
 [
   {
+    "id": "584ffd3902b65486",
+    "identityId": "reddit:/u/zionsati",
+    "author": "/u/zionsati",
+    "handle": "/u/zionsati",
+    "platform": "reddit",
+    "publishedAt": "2026-11-06T23:32:51+00:00",
+    "excerpt": "NetWasm: 2.8x faster than Mono AOT on Microsoft's own benchmarks, and DOOM runs 30% faster than its Blazor AOT build",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xprk52/netwasm_28x_faster_than_mono_aot_on_microsofts/",
+    "externalUrl": "https://github.com/zion-sati/NetWasm/blob/main/docs/size-and-methodology.md",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "37b014d92580a5fa",
+    "identityId": "reddit:/u/denizirgin",
+    "author": "/u/denizirgin",
+    "handle": "/u/denizirgin",
+    "platform": "reddit",
+    "publishedAt": "2026-11-06T22:39:50+00:00",
+    "excerpt": "OpenCode .NET SDK 1.0",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpqe1g/opencode_net_sdk_10/",
+    "externalUrl": "https://github.com/opencode-dotnet/opencode-sdk-dotnet",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "2d78d108eeed566f",
     "identityId": "reddit:/u/Dependent_Ideal9870",
     "author": "/u/Dependent_Ideal9870",
@@ -27,21 +55,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "3dcdbff778a8537b",
-    "identityId": "reddit:/u/Tjoudeh",
-    "author": "/u/Tjoudeh",
-    "handle": "/u/Tjoudeh",
-    "platform": "reddit",
-    "publishedAt": "2026-11-06T10:43:21+00:00",
-    "excerpt": "I wrote a 10-part tutorial on building MCP servers in .NET, from a first tool to production on Azure",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xp9s76/i_wrote_a_10part_tutorial_on_building_mcp_servers/",
-    "externalUrl": "https://bitoftech.net/2026/10/02/what-is-model-context-protocol-introduction-dotnet-developers",
-    "topics": [
-      ".NET",
-      "Azure"
     ]
   },
   {
