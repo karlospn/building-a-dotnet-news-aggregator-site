@@ -1,5 +1,62 @@
 [
   {
+    "id": "modelcontextprotocol/csharp-sdk:437324657",
+    "product": "MCP C# SDK",
+    "version": "2.4.0",
+    "tagName": "v2.4.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-07T04:18:06+00:00",
+    "title": "MCP C# SDK 2.4.0",
+    "summary": "Version 2.4.0 adds experimental MCP Skills support through the new ModelContextProtocol.Extensions.Skills package, alongside OAuth hardening and reliability improvements for transport, session, and discovery flows. MCP Apps also now match protocol property names case-sensitively.",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "MCP",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.4.0",
+    "repository": "modelcontextprotocol/csharp-sdk",
+    "official": true
+  },
+  {
+    "id": "microsoft/semantic-kernel:437225259",
+    "product": "Semantic Kernel for .NET",
+    "version": "1.82.0",
+    "tagName": "dotnet-1.82.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-07T01:00:07+00:00",
+    "title": "Semantic Kernel for .NET 1.82.0",
+    "summary": "df1cb33d0d32699c8d6a2e5b3ea7e5f8990d86d5 .Net: Bump package version to 1.82.0 (#14721) d08a482fab9c6980fa50de5eee79895ba702069d Python: Prepare 1.47.0 release and consolidate dependency updates (#14720) [ #14708, #14596, #14597, #14598, #14599, #14600, #14627 ]…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.82.0",
+    "repository": "microsoft/semantic-kernel",
+    "official": true
+  },
+  {
+    "id": "microsoft/agent-framework:437103719",
+    "product": "Microsoft Agent Framework for .NET",
+    "version": "1.28.0",
+    "tagName": "dotnet-1.28.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-06T22:00:01+00:00",
+    "title": "Microsoft Agent Framework for .NET 1.28.0",
+    "summary": "924a6e50ec0336f3c965ee8b1151c54085888b6e .NET: chore: bumps release version for dotnet (#10157) c79d6eef1cbfb83d623da76c37b6f609e4a1295c Fix spelling in WorkflowBuilder XML comment (#10154) 07d07c80715f090b2a99715aa7e281ab6eb12931 Fix initializer spelling in Cosmos test comment…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Agents",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.28.0",
+    "repository": "microsoft/agent-framework",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:435604912",
     "product": "Anthropic C# SDK",
     "version": "13.6.0",
@@ -1849,25 +1906,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.77.0",
     "repository": "microsoft/semantic-kernel",
-    "official": true
-  },
-  {
-    "id": "microsoft/agent-framework:322566102",
-    "product": "Microsoft Agent Framework for .NET",
-    "version": "1.6.1",
-    "tagName": "dotnet-1.6.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-05-14T13:47:44+00:00",
-    "title": "Microsoft Agent Framework for .NET 1.6.1",
-    "summary": ".NET: Add hyperlight to release slnf by @westey-m in https://github.com/microsoft/agent-framework/pull/5695 .NET: Update FoundryAgent to address HostedAgents strict URL routing by @rogerbarreto in https://github.com/microsoft/agent-framework/pull/5677 .NET: Add…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.6.1",
-    "repository": "microsoft/agent-framework",
     "official": true
   },
   {
