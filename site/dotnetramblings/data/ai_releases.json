@@ -2886,24 +2886,5 @@
     "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.4.9",
     "repository": "awaescher/OllamaSharp",
     "official": false
-  },
-  {
-    "id": "microsoft/semantic-kernel:260726911",
-    "product": "Semantic Kernel for .NET",
-    "version": "1.67.1",
-    "tagName": "dotnet-1.67.1",
-    "changeType": "sdk-release",
-    "publishedAt": "2025-11-07T18:23:54+00:00",
-    "title": "Semantic Kernel for .NET 1.67.1",
-    "summary": "1ccdd1e649dd69bea6f797a3ad74e65f5228e7c0 .Net: Updated package version (#13342) eab8c889835be19f8467cc6351c026902b30ad79 .Net: [MEVD] Fix Guid (and other) keys for dynamic collections (#13341) [ #13340 ] a5810db1df32401fcd727d09aa91844c2c3bcdca .Net: Final test cleanup (#13328)…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Agents",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.67.1",
-    "repository": "microsoft/semantic-kernel",
-    "official": true
   }
 ]
