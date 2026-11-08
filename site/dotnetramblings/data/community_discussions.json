@@ -1,5 +1,34 @@
 [
   {
+    "id": "2e8fc353e2d55110",
+    "identityId": "reddit:/u/Aggressive-Fuel-8838",
+    "author": "/u/Aggressive-Fuel-8838",
+    "handle": "/u/Aggressive-Fuel-8838",
+    "platform": "reddit",
+    "publishedAt": "2026-11-08T05:27:24+00:00",
+    "excerpt": "Squirix: An Open Source Distributed Cache for .NET 10",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqqry7/squirix_an_open_source_distributed_cache_for_net/",
+    "externalUrl": "https://github.com/squirix/squirix",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2b1675059026c0b0",
+    "identityId": "reddit:/u/rayo_4431",
+    "author": "/u/rayo_4431",
+    "handle": "/u/rayo_4431",
+    "platform": "reddit",
+    "publishedAt": "2026-11-07T23:14:32+00:00",
+    "excerpt": "I built a self-hosted webhook delivery system using .NET 10 and POSTGRES. Feedbacks and comments are highly welcome",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqjpcw/i_built_a_selfhosted_webhook_delivery_system/",
+    "externalUrl": "https://github.com/aabdrahman/Webhook",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
     "id": "ca028605dd5587e7",
     "identityId": "reddit:/u/Maleficent_Syrup_798",
     "author": "/u/Maleficent_Syrup_798",
@@ -38,20 +67,6 @@
     "excerpt": "Sdcb.SimdCodecs 1.4: MIT, pure C# image codecs for .NET 10, now with HEIC decoding (iPhone photos) faster than libheif",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq7a28/sdcbsimdcodecs_14_mit_pure_c_image_codecs_for_net/",
     "externalUrl": "https://sdcb.ai/simdcodecs/playground",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "0206d7c083055cef",
-    "identityId": "reddit:/u/Clear_Actuary8068",
-    "author": "/u/Clear_Actuary8068",
-    "handle": "/u/Clear_Actuary8068",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T09:29:10+00:00",
-    "excerpt": "dotnet-tree.nvim v0.3.0: a Solution Explorer for Neovim",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq2dty/dotnettreenvim_v030_a_solution_explorer_for_neovim/",
-    "externalUrl": "https://github.com/alessandropietrobelli/dotnet-counters.nvim",
     "topics": [
       ".NET"
     ]
@@ -222,35 +237,6 @@
     "excerpt": ".NET MAUI for Web",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xl7yoa/net_maui_for_web/",
     "externalUrl": "https://shinylib.net/blog/2026/10/maui-web-shiny-controls",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "d34395af636a683d",
-    "identityId": "reddit:/u/fuzhongkai",
-    "author": "/u/fuzhongkai",
-    "handle": "/u/fuzhongkai",
-    "platform": "reddit",
-    "publishedAt": "2026-11-01T01:49:40+00:00",
-    "excerpt": "Microsoft.Extensions.AI + TensorSharp: local inference through HTTP or directly in your .NET process",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkr77o/microsoftextensionsai_tensorsharp_local_inference/",
-    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "1830d247de760604",
-    "identityId": "reddit:/u/ggende",
-    "author": "/u/ggende",
-    "handle": "/u/ggende",
-    "platform": "reddit",
-    "publishedAt": "2026-10-31T23:34:26+00:00",
-    "excerpt": "I've made a fast, zero allocation, AOT compatible, and compile-time safe .NET templating engine",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible/",
-    "externalUrl": "https://old.reddit.com/r/dotnet/comments/1wr1b6e/is_there_a_market_for_a_minimalist_fast_and",
     "topics": [
       ".NET"
     ]
