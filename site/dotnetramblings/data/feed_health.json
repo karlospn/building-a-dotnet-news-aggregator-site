@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-07T21:14:49.776782+00:00",
-    "itemCount": 8,
+    "checkedAt": "2026-11-08T12:28:49.784562+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -48,8 +48,8 @@
     "status": "healthy"
   },
   "azure-blog": {
-    "checkedAt": "2026-11-08T03:29:15.001158+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-08T12:28:52.849513+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-07T00:31:11.618254+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-11-08T12:29:04.003574+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -132,8 +132,8 @@
     "status": "healthy"
   },
   "dotnettips": {
-    "checkedAt": "2026-11-02T21:06:37.084053+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-08T12:28:47.831646+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -288,8 +288,8 @@
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-11-07T00:30:58.241586+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-08T12:28:49.247300+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
