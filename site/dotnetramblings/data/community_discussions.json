@@ -1,5 +1,47 @@
 [
   {
+    "id": "9c27a3373b35c0a3",
+    "identityId": "reddit:/u/mcnamaragio",
+    "author": "/u/mcnamaragio",
+    "handle": "/u/mcnamaragio",
+    "platform": "reddit",
+    "publishedAt": "2026-11-08T17:04:41+00:00",
+    "excerpt": "DuckDB.NET 1.5.6.1: Appending Dates Up to 27× Faster",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xr3a14/duckdbnet_1561_appending_dates_up_to_27_faster/",
+    "externalUrl": "https://www.giorgi.dev/database/duckdb-net-1-5-6-1-appender-performance",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "f06bb62c9ede3818",
+    "identityId": "reddit:/u/Nicos_Ts",
+    "author": "/u/Nicos_Ts",
+    "handle": "/u/Nicos_Ts",
+    "platform": "reddit",
+    "publishedAt": "2026-11-08T14:52:36+00:00",
+    "excerpt": "Another LINQ Tool 1.5: notebooks and query collections for C#/EF Core in VS Code",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xr06wc/another_linq_tool_15_notebooks_and_query/",
+    "externalUrl": "https://github.com/NicoARD/another-linq-tool",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bb33d5b63bd13250",
+    "identityId": "reddit:/u/aomader",
+    "author": "/u/aomader",
+    "handle": "/u/aomader",
+    "platform": "reddit",
+    "publishedAt": "2026-11-08T07:22:14+00:00",
+    "excerpt": "I built an embedded domain specific language library and source generator for super efficient templating of nested text formats",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqsm3b/i_built_an_embedded_domain_specific_language/",
+    "externalUrl": "https://www.nuget.org/packages/TemplateDsl.Html/0.1.0-preview.8",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "2e8fc353e2d55110",
     "identityId": "reddit:/u/Aggressive-Fuel-8838",
     "author": "/u/Aggressive-Fuel-8838",
@@ -209,34 +251,6 @@
     "excerpt": "Moving away from sprawling if-else approval trees using Chain of Responsibility — when is it actually worth the abstraction in C#?",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xmnc7r/moving_away_from_sprawling_ifelse_approval_trees/",
     "externalUrl": "https://medium.com/@gautampraveen351/chain-of-responsibility-design-pattern-lld-in-c-from-problem-to-production-trade-offs-74b5cf07460a",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "3b6374096f72227f",
-    "identityId": "reddit:/u/jhaygood86",
-    "author": "/u/jhaygood86",
-    "handle": "/u/jhaygood86",
-    "platform": "reddit",
-    "publishedAt": "2026-11-01T17:25:54+00:00",
-    "excerpt": "PeachBrackets: a pure .NET managed HTML renderer for everything else",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xl8ve0/peachbrackets_a_pure_net_managed_html_renderer/",
-    "externalUrl": "https://github.com/jhaygood86/PeachPDF",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "09712a30bd926959",
-    "identityId": "reddit:/u/Maleficent_Syrup_798",
-    "author": "/u/Maleficent_Syrup_798",
-    "handle": "/u/Maleficent_Syrup_798",
-    "platform": "reddit",
-    "publishedAt": "2026-11-01T16:51:08+00:00",
-    "excerpt": ".NET MAUI for Web",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xl7yoa/net_maui_for_web/",
-    "externalUrl": "https://shinylib.net/blog/2026/10/maui-web-shiny-controls",
     "topics": [
       ".NET"
     ]
