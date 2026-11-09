@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:439508622",
+    "product": "Anthropic C# SDK",
+    "version": "13.7.0",
+    "tagName": "Anthropic-v13.7.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-09T18:52:52+00:00",
+    "title": "Anthropic C# SDK 13.7.0",
+    "summary": "api: accept userprofile.programstatusupdated on organization webhook endpoints api: add claude-fable-5-2 and claude-mythos-5-2 api: add parent organization filtering and grouping to the usage and cost reports api: add the sandboxegressrestricted error to Admin API write methods…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.7.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "modelcontextprotocol/csharp-sdk:437324657",
     "product": "MCP C# SDK",
     "version": "2.4.0",
@@ -45,7 +64,7 @@
     "changeType": "sdk-release",
     "publishedAt": "2026-11-06T22:00:01+00:00",
     "title": "Microsoft Agent Framework for .NET 1.28.0",
-    "summary": "924a6e50ec0336f3c965ee8b1151c54085888b6e .NET: chore: bumps release version for dotnet (#10157) c79d6eef1cbfb83d623da76c37b6f609e4a1295c Fix spelling in WorkflowBuilder XML comment (#10154) 07d07c80715f090b2a99715aa7e281ab6eb12931 Fix initializer spelling in Cosmos test comment…",
+    "summary": "Foundry: Add the GA computer tool through FoundryAITool.CreateComputerTool() and carry computer calls and results through Foundry hosting, including batched actions. Add an Azure OpenAI computer-use sample; the Foundry project endpoint still requires the existing preview tool.…",
     "breaking": false,
     "technologies": [
       ".NET",
@@ -944,25 +963,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.21.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:386530114",
-    "product": "Anthropic C# SDK",
-    "version": "12.47.0",
-    "tagName": "Anthropic-v12.47.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-10T18:32:40+00:00",
-    "title": "Anthropic C# SDK 12.47.0",
-    "summary": "api: add auto mode tool permissions for Managed Agents (3b432a1) api: add contenttoolarge webfetch tool error code (e6b2b4f) api: add the user-profiles-2026-09-04 beta value and externaluserdetails to user profiles (04d3216) api: support mounting public GitHub repositories…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.47.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
