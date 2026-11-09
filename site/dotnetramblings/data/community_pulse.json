@@ -1,5 +1,58 @@
 [
   {
+    "id": "e3f21f6782297f21",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-09T16:30:27+00:00",
+    "excerpt": "Stories I like: Behind Every Great Application Is a Developer Who Cares https://www. telerik.com/blogs/behind-every -great-application-developer-who-cares",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117587432435015504",
+    "externalUrl": "https://www.telerik.com/blogs/behind-every-great-application-developer-who-cares",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzvdxfssh72v"
+      }
+    ]
+  },
+  {
+    "id": "1c08be10aa51ae39",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-09T10:08:00+00:00",
+    "excerpt": "Want to use AI without creating a distributed monolith? This course shows you how to define clean service boundaries with Claude’s help:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzuollayz72r",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117585928530720387"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117564192428278134"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
+      }
+    ]
+  },
+  {
     "id": "86a8c3e486aa7fe5",
     "identityId": "khalid-abuhakmeh",
     "author": "Khalid Abuhakmeh",
@@ -44,35 +97,6 @@
       {
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznskhgrv62g"
-      }
-    ]
-  },
-  {
-    "id": "c46cb797ac64a886",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-06T11:11:00+00:00",
-    "excerpt": "You don’t need prior services experience—just curiosity and comfort reading code. The course guides you through architecture fundamentals using Claude:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznaphs2oq2s",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "Architecture"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117564192428278134"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
       }
     ]
   },
@@ -210,21 +234,6 @@
     "externalUrl": "https://khalidabuhakmeh.com/tips",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "f00fff418848de02",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-02T16:30:46+00:00",
-    "excerpt": "Stories I like: No, People Don’t Want More AI In Their Life — Smashing Magazine https://www. smashingmagazine.com/2026/07/p eople-dont-want-more-ai/",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117547797458270888",
-    "externalUrl": "https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

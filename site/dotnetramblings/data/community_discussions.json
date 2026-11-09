@@ -1,5 +1,33 @@
 [
   {
+    "id": "68509a03d550907e",
+    "identityId": "reddit:/u/rust-cohle_",
+    "author": "/u/rust-cohle_",
+    "handle": "/u/rust-cohle_",
+    "platform": "reddit",
+    "publishedAt": "2026-11-09T18:00:39+00:00",
+    "excerpt": "I turned C# compiler errors into a game console.",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xryqws/i_turned_c_compiler_errors_into_a_game_console/",
+    "externalUrl": "http://github.com/muneeb-devp/squiggly",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "f61b7b0184157529",
+    "identityId": "reddit:/u/virulenttt",
+    "author": "/u/virulenttt",
+    "handle": "/u/virulenttt",
+    "platform": "reddit",
+    "publishedAt": "2026-11-09T16:10:07+00:00",
+    "excerpt": "LiveKit Aspire Integration",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xrvq2x/livekit_aspire_integration/",
+    "externalUrl": "https://github.com/frederikstonge/Fstonge.Aspire.LiveKit",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "9c27a3373b35c0a3",
     "identityId": "reddit:/u/mcnamaragio",
     "author": "/u/mcnamaragio",
