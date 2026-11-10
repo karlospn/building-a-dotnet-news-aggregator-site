@@ -1,5 +1,59 @@
 [
   {
+    "id": "4e266fed89d8b3b6",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-10T19:33:21.112000+00:00",
+    "excerpt": "🚀 Announcing .NET 11! This release brings C# 15 union types, faster developer tools, hundreds of performance improvements, and new capabilities for web, mobile, desktop, and AI apps. See what’s new and get started: msft.it/63325ahydB",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3mzy6nf4bvz2r",
+    "externalUrl": "https://msft.it/63325ahydB",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "5155cfb71453d35a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": ".NET",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-10T17:40:04+00:00",
+    "excerpt": "📰 Announcing .NET 11 .NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. https:// devblogs.microsoft.com/dotnet/ announcing-dotnet-11/ # dotnet",
+    "postUrl": "https://dotnet.social/@dotnet/117593368477146458",
+    "externalUrl": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "05e6e4ede911f312",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-10T17:30:11+00:00",
+    "excerpt": "EF Core: \"I thought you wanted lazy loading.\" Me: \"I NEVER SAID THAT.\" Understand the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzxxr6jm7s2z",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117593329590378988"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117565244520448584"
+      }
+    ]
+  },
+  {
     "id": "e3f21f6782297f21",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -45,10 +99,6 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117564192428278134"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117552536640968087"
       }
     ]
   },
@@ -113,31 +163,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "149287e94e2a410a",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-05T18:27:47+00:00",
-    "excerpt": "EF Core is like a magician. Cool tricks... until you realize your database is on fire. Learn the secrets: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzlinkzfvi2j",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET",
-      "Data"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117565244520448584"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117553688755725834"
-      }
     ]
   },
   {
@@ -220,20 +245,6 @@
       "Visual Studio",
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "dd5c739aa6525286",
-    "identityId": "khalid-abuhakmeh",
-    "author": "Khalid Abuhakmeh",
-    "handle": "Khalid ⚡",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-03T17:21:44+00:00",
-    "excerpt": "I used to share # dotnet tips on Twitter for the community, but since that's no longer a thing, I thought I'd move them to my personal blog. You can subscribe to a dedicated RSS feed to get new ones if you're learning # csharp or # dotnet . Pretty nice for beginners. Feel free to…",
-    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117553660215276989",
-    "externalUrl": "https://khalidabuhakmeh.com/tips",
-    "topics": [
-      ".NET"
     ]
   }
 ]
