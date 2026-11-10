@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-10T05:18:39.555111+00:00",
-    "itemCount": 7,
+    "checkedAt": "2026-11-10T21:06:33.162237+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-10T13:59:16.533404+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-10T21:06:49.517609+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -198,8 +198,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-11-07T00:31:11.954248+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-10T21:06:50.039943+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -240,8 +240,8 @@
     "status": "healthy"
   },
   "mark-seemann": {
-    "checkedAt": "2026-11-09T10:39:15.792871+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-10T21:06:37.593080+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -270,8 +270,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-11-07T21:15:00.688335+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-10T21:06:47.458978+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -384,8 +384,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-11-06T10:09:03.303304+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-10T21:06:49.735100+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
