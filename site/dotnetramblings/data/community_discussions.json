@@ -1,5 +1,48 @@
 [
   {
+    "id": "38d9b738ff67efb7",
+    "identityId": "reddit:/u/coderot_ai",
+    "author": "/u/coderot_ai",
+    "handle": "/u/coderot_ai",
+    "platform": "reddit",
+    "publishedAt": "2026-11-11T14:08:23+00:00",
+    "excerpt": "22 AI-heavy repos over a year: the .NET runtime and Roslyn held flat on complexity, the fast-growing ones didn't",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xtinq7/22_aiheavy_repos_over_a_year_the_net_runtime_and/",
+    "externalUrl": "https://coderot.ai/blog/ai-code-rot-in-open-source",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "4af69986eae9c043",
+    "identityId": "reddit:/u/Xadartt",
+    "author": "/u/Xadartt",
+    "handle": "/u/Xadartt",
+    "platform": "reddit",
+    "publishedAt": "2026-11-11T13:38:11+00:00",
+    "excerpt": "What's new in .NET 11?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xthyip/whats_new_in_net_11/",
+    "externalUrl": "https://substack.com/home/post/p-224418133",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "17d24324d591e953",
+    "identityId": "reddit:/u/timmywick",
+    "author": "/u/timmywick",
+    "handle": "/u/timmywick",
+    "platform": "reddit",
+    "publishedAt": "2026-11-11T13:24:39+00:00",
+    "excerpt": "Lambda's .NET 8 runtime was deprecated on Monday",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xthnsv/lambdas_net_8_runtime_was_deprecated_on_monday/",
+    "externalUrl": "https://eolwatch.pages.dev/guides/lambda-dotnet-8-deprecation",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "3ecef2bc7e69b62e",
     "identityId": "reddit:/u/RemigiuszZalewski",
     "author": "/u/RemigiuszZalewski",
@@ -251,20 +294,6 @@
     "excerpt": "Why so much barrier to enter .NET associate level roles!",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xohwww/why_so_much_barrier_to_enter_net_associate_level/",
     "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "cead9e085044b3d9",
-    "identityId": "reddit:/u/Prize_Isopod_1614",
-    "author": "/u/Prize_Isopod_1614",
-    "handle": "/u/Prize_Isopod_1614",
-    "platform": "reddit",
-    "publishedAt": "2026-11-04T08:26:47+00:00",
-    "excerpt": "I built a proof-of-concept C# UI framework on NetWasm: signals instead of a virtual DOM, ~150 KB Brotli for a full demo app",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xnizct/i_built_a_proofofconcept_c_ui_framework_on/",
-    "externalUrl": "https://github.com/matengo/NetWasm.UI",
     "topics": [
       ".NET"
     ]

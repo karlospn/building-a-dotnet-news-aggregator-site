@@ -1,5 +1,55 @@
 [
   {
+    "id": "de73b24d7dad7095",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-11T16:00:00.988000+00:00",
+    "excerpt": ".NET 11 is now generally available in Azure Functions with the isolated worker model, featuring a simpler project SDK and updated tooling. 👉🏽 msft.it/63320ahpuO",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n22d6tswz32x",
+    "externalUrl": "https://msft.it/63320ahpuO",
+    "topics": [
+      ".NET",
+      "Azure"
+    ]
+  },
+  {
+    "id": "3b257d9a0d170e4e",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-11T15:43:29.916000+00:00",
+    "excerpt": ".NET Conf 2026 - Day 2 is getting ready to kick off! Join in live, ask questions, and get ready for more .NET 11 and Visual Studio announcements! msft.it/63326ahvra #dotnetconf #dotnet11",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n22cbcfjop23",
+    "externalUrl": "https://msft.it/63326ahvra",
+    "topics": [
+      "Visual Studio",
+      ".NET"
+    ]
+  },
+  {
+    "id": "07f6130dff097ef6",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-11T15:31:14+00:00",
+    "excerpt": "Stories I like: Everyone Thinks I'm Hacking the FBI. I'm Just Debugging CSS.",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n22blfvan32t",
+    "externalUrl": "https://dev.to/ishacodes/everyone-thinks-im-hacking-the-fbi-im-just-debugging-css-1gi3",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117598524163251930"
+      }
+    ]
+  },
+  {
     "id": "4e266fed89d8b3b6",
     "identityId": "dotnet",
     "author": ".NET",
@@ -185,35 +235,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "a2a9ecae2a6c11b5",
-    "identityId": "khalid-abuhakmeh",
-    "author": "Khalid Abuhakmeh",
-    "handle": "Khalid ⚡",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-04T16:54:16+00:00",
-    "excerpt": "You know what's cool? 1 BILLION AUTH TOKENS! In a local test, we found that # linux performance was better than the # windows counterpart on the same https://www. linkedin.com/posts/dotnet-linu x-identityserver-share-7523738460353089536-AEbF/ If you're a LinkedIn user, please…",
-    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117559214478365699",
-    "externalUrl": "https://www.linkedin.com/posts/dotnet-linux-identityserver-share-7523738460353089536-AEbF",
-    "topics": [
-      ".NET",
-      "Security"
-    ]
-  },
-  {
-    "id": "5da9ce36e8ec87e0",
-    "identityId": "khalid-abuhakmeh",
-    "author": "Khalid Abuhakmeh",
-    "handle": "Khalid ⚡",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-04T15:46:59+00:00",
-    "excerpt": "I updated # htmx # dotnet to target htmx 4. Still in prerelease, with breaking changes on the # htmx and # dotnet sides, so read the docs. I also updated my Twelve Days of htmx sample to use the latest versions of both. https:// khalidabuhakmeh.github.io/Htmx .Net/",
-    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117558949930718903",
-    "externalUrl": "https://khalidabuhakmeh.github.io/Htmx.Net",
-    "topics": [
-      ".NET"
     ]
   }
 ]
