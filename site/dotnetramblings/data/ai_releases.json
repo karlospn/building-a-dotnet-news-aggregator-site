@@ -1,5 +1,42 @@
 [
   {
+    "id": "dotnet/extensions:441168915",
+    "product": "Microsoft.Extensions.AI",
+    "version": "11.0.0",
+    "tagName": "v11.0.0",
+    "changeType": "major-release",
+    "publishedAt": "2026-11-11T02:32:54+00:00",
+    "title": "Microsoft.Extensions.AI 11.0.0",
+    "summary": "Version 11.0.0 ships alongside .NET 11 and with net11 targets added to packages. Highlights of this release include new experimental Documents and Document Extraction abstractions, metric instrument descriptions, and a sliding-window retry budget for HTTP resilience. HTTP server…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v11.0.0",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:440662462",
+    "product": "Anthropic C# SDK",
+    "version": "13.8.0",
+    "tagName": "Anthropic-v13.8.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-10T17:11:15+00:00",
+    "title": "Anthropic C# SDK 13.8.0",
+    "summary": "api: add Claude Tag metrics to the analytics summaries and users reports api: add replymode to Claude Tag Slack channel settings docs: clarify displayname for RBAC Roles created by Anthropic docs: clarify plugin delete and skill name conflict descriptions docs: clarify when to…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.8.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:439508622",
     "product": "Anthropic C# SDK",
     "version": "13.7.0",
@@ -907,25 +944,6 @@
     ],
     "sourceUrl": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.14.0",
     "repository": "openai/openai-dotnet",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:389252499",
-    "product": "Anthropic C# SDK",
-    "version": "12.48.0",
-    "tagName": "Anthropic-v12.48.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-15T15:15:38+00:00",
-    "title": "Anthropic C# SDK 12.48.0",
-    "summary": "api: add auto mode tool permissions for Managed Agents (0271c76) api: add compaction parameter and signed compaction blocks (beta) (8de3a4e) api: add enum types for workspace data-residency geo fields (59cd52e) api: add thinkingmismatchallowed entries to inputtransformations…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.48.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
