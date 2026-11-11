@@ -15,21 +15,6 @@
     ]
   },
   {
-    "id": "5155cfb71453d35a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": ".NET",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-10T17:40:04+00:00",
-    "excerpt": "📰 Announcing .NET 11 .NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. https:// devblogs.microsoft.com/dotnet/ announcing-dotnet-11/ # dotnet",
-    "postUrl": "https://dotnet.social/@dotnet/117593368477146458",
-    "externalUrl": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
     "id": "05e6e4ede911f312",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -229,22 +214,6 @@
     "externalUrl": "https://khalidabuhakmeh.github.io/Htmx.Net",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "5e6199ac258e7eab",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-04T00:03:05.639000+00:00",
-    "excerpt": "🔜 .NET Conf 2026 is Nov 10-13! Join this free virtual event for the launch of .NET 11, sessions from Microsoft teams, and community talks. Explore new C#, msft.it/63326a45YG Core, .NET MAUI, AI in .NET, Visual Studio & more. Details: msft.it/63325a45Y1",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mzh2hbsmvf23",
-    "externalUrl": "https://msft.it/63325a45Y1",
-    "topics": [
-      "Visual Studio",
-      ".NET",
-      "AI"
     ]
   }
 ]
