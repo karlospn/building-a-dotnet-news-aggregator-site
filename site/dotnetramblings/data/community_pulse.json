@@ -1,5 +1,35 @@
 [
   {
+    "id": "0c90bfb64ea2f55a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-12T01:59:02.235000+00:00",
+    "excerpt": "Explore how Jon Douglas, a Microsoft Principal Product Manager, advances NuGet and software supply chain security in the AI era. Learn about his work on VEX standards and more. ➡️ Watch here: msft.it/63328x6Bcn #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n23enxry2i2f",
+    "externalUrl": "https://msft.it/63328x6Bcn",
+    "topics": [
+      ".NET",
+      "AI",
+      "Security"
+    ]
+  },
+  {
+    "id": "e8c7868b0b297785",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-11T20:45:01.522000+00:00",
+    "excerpt": "Discover the new System.Text.Json features in .NET 11, including C# unions, closed hierarchies, enhanced source generation, and richer POCO annotations. Simplify your JSON serialization with these updates. ▶️ Watch the session: msft.it/63322ahp82 #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n22t4hw6a62s",
+    "externalUrl": "https://msft.it/63322ahp82",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "de73b24d7dad7095",
     "identityId": "dotnet",
     "author": ".NET",
@@ -12,21 +42,6 @@
     "topics": [
       ".NET",
       "Azure"
-    ]
-  },
-  {
-    "id": "3b257d9a0d170e4e",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-11T15:43:29.916000+00:00",
-    "excerpt": ".NET Conf 2026 - Day 2 is getting ready to kick off! Join in live, ask questions, and get ready for more .NET 11 and Visual Studio announcements! msft.it/63326ahvra #dotnetconf #dotnet11",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n22cbcfjop23",
-    "externalUrl": "https://msft.it/63326ahvra",
-    "topics": [
-      "Visual Studio",
-      ".NET"
     ]
   },
   {

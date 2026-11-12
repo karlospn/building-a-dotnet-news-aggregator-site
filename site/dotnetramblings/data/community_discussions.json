@@ -1,5 +1,34 @@
 [
   {
+    "id": "67909c32ada22b4f",
+    "identityId": "reddit:/u/mudsaleh8888",
+    "author": "/u/mudsaleh8888",
+    "handle": "/u/mudsaleh8888",
+    "platform": "reddit",
+    "publishedAt": "2026-11-12T06:17:27+00:00",
+    "excerpt": "I built a small CLI to reduce the repetitive EF Core entity + migration workflow",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xu5c32/i_built_a_small_cli_to_reduce_the_repetitive_ef/",
+    "externalUrl": "https://github.com/dotnet/efcore/issues/39569",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "f596b65936c63bc2",
+    "identityId": "reddit:/u/1Barista13",
+    "author": "/u/1Barista13",
+    "handle": "/u/1Barista13",
+    "platform": "reddit",
+    "publishedAt": "2026-11-12T06:16:16+00:00",
+    "excerpt": "How can I develop my skills in ASP.NET Core Web API, EF Core, and SQL Server?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xu5bc7/how_can_i_develop_my_skills_in_aspnet_core_web/",
+    "externalUrl": "http://asp.net/",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
     "id": "38d9b738ff67efb7",
     "identityId": "reddit:/u/coderot_ai",
     "author": "/u/coderot_ai",
@@ -280,20 +309,6 @@
     "excerpt": "Take the .NET Teams' .NET Developer Survey, 2026 Edition!",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xosuhu/take_the_net_teams_net_developer_survey_2026/",
     "externalUrl": "https://nam.dcv.ms/KdAOrj7lia",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "00b323b9cd60c9c8",
-    "identityId": "reddit:/u/Asleep_Form_9397",
-    "author": "/u/Asleep_Form_9397",
-    "handle": "/u/Asleep_Form_9397",
-    "platform": "reddit",
-    "publishedAt": "2026-11-05T12:54:27+00:00",
-    "excerpt": "Why so much barrier to enter .NET associate level roles!",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xohwww/why_so_much_barrier_to_enter_net_associate_level/",
-    "externalUrl": "http://asp.net/",
     "topics": [
       ".NET"
     ]
