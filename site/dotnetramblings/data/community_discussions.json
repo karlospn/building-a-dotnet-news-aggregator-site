@@ -298,19 +298,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "2023eed8ef1578ca",
-    "identityId": "reddit:/u/chusk3",
-    "author": "/u/chusk3",
-    "handle": "/u/chusk3",
-    "platform": "reddit",
-    "publishedAt": "2026-11-05T20:08:07+00:00",
-    "excerpt": "Take the .NET Teams' .NET Developer Survey, 2026 Edition!",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xosuhu/take_the_net_teams_net_developer_survey_2026/",
-    "externalUrl": "https://nam.dcv.ms/KdAOrj7lia",
-    "topics": [
-      ".NET"
-    ]
   }
 ]

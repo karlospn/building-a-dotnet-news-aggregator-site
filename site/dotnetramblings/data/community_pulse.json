@@ -1,5 +1,83 @@
 [
   {
+    "id": "57ff94203de19c01",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-12T18:27:16+00:00",
+    "excerpt": "If EF has ever made you say \"I swear I didnt write that SQL,\" this course is your redemption arc. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n253v3ray424",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET",
+      "Data"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604878658828787"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117593329590378988"
+      }
+    ]
+  },
+  {
+    "id": "1c0142546a3be327",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "avaloniaui.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-12T16:15:23.209009+00:00",
+    "excerpt": "We gave out disposable cameras to everyone who joined us in Tallinn last week. The photos just came back today, and the results are lovely. Here are a few of our favorites! Want to join us next year? Check out our open roles: avaloniaui.net/careers#ope...",
+    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3n24ujaelsc2d",
+    "externalUrl": "https://avaloniaui.net/careers",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@avaloniaui/117604359910381702"
+      }
+    ]
+  },
+  {
+    "id": "c27711f96080b322",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-12T15:43:00+00:00",
+    "excerpt": "AI makes it easy to build the wrong thing quickly. This course teaches you how to build the right thing deliberately:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n24spetfxz24",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604232738278242"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117602589116465687"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117585928530720387"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
+      }
+    ]
+  },
+  {
     "id": "0c90bfb64ea2f55a",
     "identityId": "dotnet",
     "author": ".NET",
@@ -80,30 +158,6 @@
     ]
   },
   {
-    "id": "05e6e4ede911f312",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-10T17:30:11+00:00",
-    "excerpt": "EF Core: \"I thought you wanted lazy loading.\" Me: \"I NEVER SAID THAT.\" Understand the chaos: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzxxr6jm7s2z",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117593329590378988"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117565244520448584"
-      }
-    ]
-  },
-  {
     "id": "e3f21f6782297f21",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -120,35 +174,6 @@
       {
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzvdxfssh72v"
-      }
-    ]
-  },
-  {
-    "id": "1c08be10aa51ae39",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-09T10:08:00+00:00",
-    "excerpt": "Want to use AI without creating a distributed monolith? This course shows you how to define clean service boundaries with Claude’s help:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzuollayz72r",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117585928530720387"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117564192428278134"
       }
     ]
   },
@@ -198,58 +223,6 @@
         "platform": "bluesky",
         "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznskhgrv62g"
       }
-    ]
-  },
-  {
-    "id": "aad1a14332451f18",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-05T19:21:55.921000+00:00",
-    "excerpt": "Modernize your .NET apps for Windows Arm64 with GitHub Copilot upgrade agent. It assesses compatibility, creates migration plans, updates code, and helps validate runtime behavior. Start your migration journey today! msft.it/63322afNO8",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mzlloedyrh25",
-    "externalUrl": "https://msft.it/63322afNO8",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "7f1a612c4d21a2b2",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-05T16:46:18+00:00",
-    "excerpt": "Coming next Thursday. I'm at #dotnetconf and talking about \"MiniService\" Architecture in Azure. Sometimes size does matter:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mzlcy6hmdz2x",
-    "externalUrl": "https://shawnl.ink/dotnetconf-2026",
-    "topics": [
-      ".NET",
-      "Azure",
-      "Architecture"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117564845469732041"
-      }
-    ]
-  },
-  {
-    "id": "8ea820fff694e18e",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-05T14:41:01.083000+00:00",
-    "excerpt": "Explore how AI agent skills are now delivered via NuGet packages, enabling just-in-time skill updates alongside binaries. This approach enhances .NET development by making packages self-documenting and efficient. Learn more: msft.it/63326afJhw",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mzl3y2i5ko2m",
-    "externalUrl": "https://msft.it/63326afJhw",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
