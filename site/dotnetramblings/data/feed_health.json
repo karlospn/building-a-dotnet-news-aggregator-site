@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-11-11T15:09:27.815829+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-12T15:58:13.278296+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-11-11T15:09:25.813061+00:00",
-    "itemCount": 12,
+    "checkedAt": "2026-11-12T15:58:10.656877+00:00",
+    "itemCount": 10,
     "message": "",
     "status": "healthy"
   },
@@ -120,8 +120,8 @@
     "status": "healthy"
   },
   "dotnet-youtube": {
-    "checkedAt": "2026-11-11T15:09:39.528329+00:00",
-    "itemCount": 10,
+    "checkedAt": "2026-11-12T15:58:26.729644+00:00",
+    "itemCount": 25,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-11-11T15:09:26.563958+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-12T15:58:11.624605+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-11-10T15:34:59.051821+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-12T15:58:27.356010+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -282,8 +282,8 @@
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-11-11T15:09:34.331765+00:00",
-    "itemCount": 9,
+    "checkedAt": "2026-11-12T15:58:20.240841+00:00",
+    "itemCount": 14,
     "message": "",
     "status": "healthy"
   },
@@ -330,8 +330,8 @@
     "status": "healthy"
   },
   "nick-chapsas": {
-    "checkedAt": "2026-11-10T15:34:51.152487+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-12T15:58:18.845438+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-11-11T15:09:36.661170+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-12T15:58:23.190920+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -390,8 +390,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-11-08T14:16:57.015793+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-12T15:58:15.763141+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
