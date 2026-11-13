@@ -384,6 +384,26 @@ feeds:
   source: RSS feed
   topics:
   - .NET
+- id: microsoft-agent-framework
+  feed: https://devblogs.microsoft.com/agent-framework/feed/
+  title: Microsoft Agent Framework Blog
+  website: https://devblogs.microsoft.com/agent-framework/
+  description: Official Microsoft Agent Framework and Semantic Kernel news for building AI agents with .NET and Python.
+  author: Microsoft
+  source: RSS feed
+  topics:
+  - .NET
+  - AI
+  - Python
+- id: microsoft-aspire
+  feed: https://devblogs.microsoft.com/aspire/feed/
+  title: Microsoft Aspire Blog
+  website: https://devblogs.microsoft.com/aspire/
+  description: Official Aspire releases, distributed .NET applications, deployment, and dashboard news.
+  author: Microsoft
+  source: RSS feed
+  topics:
+  - .NET
 - id: azure-blog
   feed: https://azure.microsoft.com/en-us/blog/feed/
   title: Microsoft Azure Blog
