@@ -1,5 +1,24 @@
 [
   {
+    "id": "microsoft/onnxruntime:443959689",
+    "product": "ONNX Runtime",
+    "version": "1.32.0",
+    "tagName": "v1.32.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-13T09:36:22+00:00",
+    "title": "ONNX Runtime 1.32.0",
+    "summary": "ONNX Runtime 1.32.0 reintegrates ONNX 1.23.2 with opset 28 support, introduces CPU/GPU hybrid MoE offloading and shared-layout CPU QMoE kernels, expands device-memory, weightless-compilation, and Python model-package APIs, dramatically accelerates session initialization on large…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Local Models",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.32.0",
+    "repository": "microsoft/onnxruntime",
+    "official": true
+  },
+  {
     "id": "dotnet/extensions:441168915",
     "product": "Microsoft.Extensions.AI",
     "version": "11.0.0",
