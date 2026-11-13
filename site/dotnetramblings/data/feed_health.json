@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-11-12T15:58:10.656877+00:00",
-    "itemCount": 10,
+    "checkedAt": "2026-11-13T15:23:19.947697+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-11-11T15:09:31.439556+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-13T15:23:20.571974+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -90,8 +90,8 @@
     "status": "healthy"
   },
   "codeopinion-youtube": {
-    "checkedAt": "2026-11-11T15:09:38.874470+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-13T15:23:07.075899+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-11-11T15:09:22.708140+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-13T15:23:21.297672+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-11-12T15:58:11.624605+00:00",
-    "itemCount": 4,
+    "checkedAt": "2026-11-13T15:23:14.240746+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-11-11T15:09:30.696252+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-13T15:23:19.197246+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-11-12T15:58:27.356010+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-13T15:23:25.108633+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -324,8 +324,8 @@
     "status": "healthy"
   },
   "ned-in-the-cloud": {
-    "checkedAt": "2026-11-11T15:09:27.126830+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-13T15:23:10.995901+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-11-12T15:58:23.190920+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-13T15:23:27.122914+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
