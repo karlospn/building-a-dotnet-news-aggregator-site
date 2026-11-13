@@ -1,5 +1,19 @@
 [
   {
+    "id": "424098ca5a54e12b",
+    "identityId": "reddit:/u/ggende",
+    "author": "/u/ggende",
+    "handle": "/u/ggende",
+    "platform": "reddit",
+    "publishedAt": "2026-11-12T22:38:30+00:00",
+    "excerpt": "Request: Help me improve the syntax for my templating engine",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xur05m/request_help_me_improve_the_syntax_for_my/",
+    "externalUrl": "https://old.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "67909c32ada22b4f",
     "identityId": "reddit:/u/mudsaleh8888",
     "author": "/u/mudsaleh8888",
@@ -283,20 +297,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "f141186b81e9576d",
-    "identityId": "reddit:/u/ObviousMeal3012",
-    "author": "/u/ObviousMeal3012",
-    "handle": "/u/ObviousMeal3012",
-    "platform": "reddit",
-    "publishedAt": "2026-11-05T23:58:10+00:00",
-    "excerpt": "One light, open-source app to replace every brand's PC software. Looking for contributors (C#/.NET 10)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xoyb3h/one_light_opensource_app_to_replace_every_brands/",
-    "externalUrl": "https://github.com/HarDvolT/control-spawn/blob/main/docs/rfcs/0001-plugin-system.md",
-    "topics": [
-      ".NET"
     ]
   }
 ]

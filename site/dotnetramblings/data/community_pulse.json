@@ -1,5 +1,20 @@
 [
   {
+    "id": "0339a0a7b60c402a",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-12T21:45:02.245000+00:00",
+    "excerpt": "Explore the power of small AI models running locally with .NET! Join the session for demos on Foundry Local, balancing speed, cost, and capability—all from a C# developer's perspective. 🎥 Watch here: msft.it/63329x6BFf #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n25gwpbpzt2t",
+    "externalUrl": "https://msft.it/63329x6BFf",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "57ff94203de19c01",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
