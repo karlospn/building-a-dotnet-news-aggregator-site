@@ -1,5 +1,47 @@
 [
   {
+    "id": "bf7c1c3e9eafa4c5",
+    "identityId": "reddit:/u/Userware",
+    "author": "/u/Userware",
+    "handle": "/u/Userware",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T18:10:15+00:00",
+    "excerpt": "C# 15 \"unsafe\" code: interactive tutorial + WebAssembly online playground",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvf5j5/c_15_unsafe_code_interactive_tutorial_webassembly/",
+    "externalUrl": "https://xaml.io/s/Samples/UnsafeCodeTutorial?autorun=true&file=StartHere.cs",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "1b06194de41bf097",
+    "identityId": "reddit:/u/SamyonR",
+    "author": "/u/SamyonR",
+    "handle": "/u/SamyonR",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T12:49:29+00:00",
+    "excerpt": "Parquet.NET is now private?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xv70pp/parquetnet_is_now_private/",
+    "externalUrl": "https://www.nuget.org/packages/Parquet.Net/6.1.0",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "b36b050d7f86172d",
+    "identityId": "reddit:/u/mudsaleh8888",
+    "author": "/u/mudsaleh8888",
+    "handle": "/u/mudsaleh8888",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T09:05:32+00:00",
+    "excerpt": "Could EF Core benefit from a higher-level command for creating entities?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xv33dr/could_ef_core_benefit_from_a_higherlevel_command/",
+    "externalUrl": "https://github.com/dotnet/efcore/issues/39569",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "424098ca5a54e12b",
     "identityId": "reddit:/u/ggende",
     "author": "/u/ggende",
@@ -9,20 +51,6 @@
     "excerpt": "Request: Help me improve the syntax for my templating engine",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xur05m/request_help_me_improve_the_syntax_for_my/",
     "externalUrl": "https://old.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "67909c32ada22b4f",
-    "identityId": "reddit:/u/mudsaleh8888",
-    "author": "/u/mudsaleh8888",
-    "handle": "/u/mudsaleh8888",
-    "platform": "reddit",
-    "publishedAt": "2026-11-12T06:17:27+00:00",
-    "excerpt": "I built a small CLI to reduce the repetitive EF Core entity + migration workflow",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xu5c32/i_built_a_small_cli_to_reduce_the_repetitive_ef/",
-    "externalUrl": "https://github.com/dotnet/efcore/issues/39569",
     "topics": [
       ".NET"
     ]
@@ -267,36 +295,6 @@
     "externalUrl": "https://github.com/opencode-dotnet/opencode-sdk-dotnet",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "2d78d108eeed566f",
-    "identityId": "reddit:/u/Dependent_Ideal9870",
-    "author": "/u/Dependent_Ideal9870",
-    "handle": "/u/Dependent_Ideal9870",
-    "platform": "reddit",
-    "publishedAt": "2026-11-06T18:04:48+00:00",
-    "excerpt": "CeruleanToolbox: a local tool to run everyday Azure operations with a service principal (MIT)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpjn37/ceruleantoolbox_a_local_tool_to_run_everyday/",
-    "externalUrl": "https://github.com/siris9476/CeruleanToolbox",
-    "topics": [
-      ".NET",
-      "Azure"
-    ]
-  },
-  {
-    "id": "120d34e0883ac1d0",
-    "identityId": "reddit:/u/Additional-Flan1281",
-    "author": "/u/Additional-Flan1281",
-    "handle": "/u/Additional-Flan1281",
-    "platform": "reddit",
-    "publishedAt": "2026-11-06T15:05:29+00:00",
-    "excerpt": "Can AI coding agents safely access .NET User Secrets?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpf1g4/can_ai_coding_agents_safely_access_net_user/",
-    "externalUrl": "https://mwvdveld.substack.com/p/when-working-as-designed-is-the-problem?r=267shs&showWelcomeOnShare=true",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]

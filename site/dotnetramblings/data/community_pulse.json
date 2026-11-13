@@ -1,5 +1,27 @@
 [
   {
+    "id": "96531509b4da1257",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-13T16:30:26+00:00",
+    "excerpt": "Stories I like: PostgreSQL Row-Level Security With EF Core and Npgsql https:// milanjovanovic.tech/blog/postg res-row-level-security-with-ef-core?via=dailydev",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117610081571116002",
+    "externalUrl": "https://milanjovanovic.tech/blog/postgres-row-level-security-with-ef-core?via=dailydev",
+    "topics": [
+      ".NET",
+      "Data",
+      "Security"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n27ft2drk42g"
+      }
+    ]
+  },
+  {
     "id": "0339a0a7b60c402a",
     "identityId": "dotnet",
     "author": ".NET",
@@ -85,10 +107,6 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117585928530720387"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117569189330739533"
       }
     ]
   },
@@ -218,26 +236,6 @@
     "externalUrl": "https://msft.it/63328affv2",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "7b22100ddae1048a",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-06T16:30:21+00:00",
-    "excerpt": "Stories I like: C# 15 Closed Class Hierarchies Demystified https://www. youtube.com/watch?v=Nh0LNmqe7r4",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117570445090934213",
-    "externalUrl": "https://www.youtube.com/watch?v=Nh0LNmqe7r4",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3mznskhgrv62g"
-      }
     ]
   }
 ]
