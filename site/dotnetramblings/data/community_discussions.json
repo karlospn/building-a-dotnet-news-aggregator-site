@@ -1,31 +1,60 @@
 [
   {
-    "id": "d1b9d2471cad1010",
-    "identityId": "reddit:/u/Mission_Wedding_3031",
-    "author": "/u/Mission_Wedding_3031",
-    "handle": "/u/Mission_Wedding_3031",
+    "id": "5fa3fb8a8e3c3dd6",
+    "identityId": "reddit:/u/deadtime",
+    "author": "/u/deadtime",
+    "handle": "/u/deadtime",
     "platform": "reddit",
-    "publishedAt": "2026-11-14T05:56:00+00:00",
-    "excerpt": "Kumiko: an Elm-inspired UI framework for C# that coding agents can test themselves",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvurxg/kumiko_an_elminspired_ui_framework_for_c_that/",
-    "externalUrl": "https://preview.redd.it/zhd60hs7pi1i1.png?width=2000&format=png&auto=webp&s=1f15c2ff214bc5ba507ae19dbcd8e7233e002f6a",
+    "publishedAt": "2026-11-14T16:48:50+00:00",
+    "excerpt": "GitHub - io7/FreePDF: MIT-licensed continuation of PDFsharp and MigraDoc for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xw720k/github_io7freepdf_mitlicensed_continuation_of/",
+    "externalUrl": "https://github.com/io7/FreePDF",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "eadf5d15aed7a55e",
+    "identityId": "reddit:/u/Southern-Holiday-437",
+    "author": "/u/Southern-Holiday-437",
+    "handle": "/u/Southern-Holiday-437",
+    "platform": "reddit",
+    "publishedAt": "2026-11-14T16:15:27+00:00",
+    "excerpt": "Looking for Contributors: An Alternative .NET Agent Framework",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xw68hx/looking_for_contributors_an_alternative_net_agent/",
+    "externalUrl": "https://github.com/HPD-AI/HPD-AI-Framework",
     "topics": [
       ".NET",
       "AI"
     ]
   },
   {
-    "id": "a1a5967010882f3e",
-    "identityId": "reddit:/u/Inside_Cheesecake_85",
-    "author": "/u/Inside_Cheesecake_85",
-    "handle": "/u/Inside_Cheesecake_85",
+    "id": "7ea5e4241e99dcfa",
+    "identityId": "reddit:/u/sashakrsmanovic",
+    "author": "/u/sashakrsmanovic",
+    "handle": "/u/sashakrsmanovic",
     "platform": "reddit",
-    "publishedAt": "2026-11-14T01:40:10+00:00",
-    "excerpt": "NitroLite v1.2.0 - open-source NitroSense alternative in C#/WPF: reverse-engineering Acer's local services, 1089 tests",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvpyov/nitrolite_v120_opensource_nitrosense_alternative/",
-    "externalUrl": "https://github.com/canerztk8/NitroLite",
+    "publishedAt": "2026-11-14T13:20:20+00:00",
+    "excerpt": "Summary of Uno Platform announcements at .NET Conf",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xw292x/summary_of_uno_platform_announcements_at_net_conf/",
+    "externalUrl": "https://platform.uno/blog/uno-platform-7-0",
     "topics": [
       ".NET"
+    ]
+  },
+  {
+    "id": "b9b6b72e576c59b6",
+    "identityId": "reddit:/u/jeff377",
+    "author": "/u/jeff377",
+    "handle": "/u/jeff377",
+    "platform": "reddit",
+    "publishedAt": "2026-11-14T10:17:54+00:00",
+    "excerpt": "Polhem.OAuth2 v1.5: OAuth2 + OIDC sign-in for desktop, .NET MAUI and web apps",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvz1sw/polhemoauth2_v15_oauth2_oidc_signin_for_desktop/",
+    "externalUrl": "https://medium.com/@jeff377/oauth2-oidc-sign-in-across-platforms-one-net-library-for-every-provider-987035419294",
+    "topics": [
+      ".NET",
+      "Security"
     ]
   },
   {
@@ -267,49 +296,6 @@
     "topics": [
       ".NET",
       "Data"
-    ]
-  },
-  {
-    "id": "ca028605dd5587e7",
-    "identityId": "reddit:/u/Maleficent_Syrup_798",
-    "author": "/u/Maleficent_Syrup_798",
-    "handle": "/u/Maleficent_Syrup_798",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T18:06:38+00:00",
-    "excerpt": "Shiny: OSS .NET libraries for Blazor, desktop and mobile (device APIs, a 20-database document store, and 100 UI controls)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqcrkw/shiny_oss_net_libraries_for_blazor_desktop_and/",
-    "externalUrl": "https://shinylib.net/playground/index.html",
-    "topics": [
-      ".NET",
-      "Data"
-    ]
-  },
-  {
-    "id": "ba35a34a9c1f00ac",
-    "identityId": "reddit:/u/Prize_Isopod_1614",
-    "author": "/u/Prize_Isopod_1614",
-    "handle": "/u/Prize_Isopod_1614",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T15:26:12+00:00",
-    "excerpt": "NetWasm.UI v0.5: a signal-based C# UI framework for the browser, compiled AOT to WebAssembly (~157 KB Brotli for a full demo app)",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq8yno/netwasmui_v05_a_signalbased_c_ui_framework_for/",
-    "externalUrl": "https://github.com/matengo/NetWasm.UI/issues/1",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "51810d3030fe0b54",
-    "identityId": "reddit:/u/Additional_Welcome23",
-    "author": "/u/Additional_Welcome23",
-    "handle": "/u/Additional_Welcome23",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T14:11:18+00:00",
-    "excerpt": "Sdcb.SimdCodecs 1.4: MIT, pure C# image codecs for .NET 10, now with HEIC decoding (iPhone photos) faster than libheif",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq7a28/sdcbsimdcodecs_14_mit_pure_c_image_codecs_for_net/",
-    "externalUrl": "https://sdcb.ai/simdcodecs/playground",
-    "topics": [
-      ".NET"
     ]
   }
 ]

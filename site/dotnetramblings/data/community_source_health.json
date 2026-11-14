@@ -88,7 +88,7 @@
     "platform": "mastodon",
     "status": "ok",
     "candidates": 5,
-    "published": 1
+    "published": 0
   },
   {
     "identityId": "brad-wilson",
@@ -115,6 +115,6 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 22
+    "published": 21
   }
 ]
