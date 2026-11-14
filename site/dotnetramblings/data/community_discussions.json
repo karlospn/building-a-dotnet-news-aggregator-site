@@ -1,5 +1,76 @@
 [
   {
+    "id": "d1b9d2471cad1010",
+    "identityId": "reddit:/u/Mission_Wedding_3031",
+    "author": "/u/Mission_Wedding_3031",
+    "handle": "/u/Mission_Wedding_3031",
+    "platform": "reddit",
+    "publishedAt": "2026-11-14T05:56:00+00:00",
+    "excerpt": "Kumiko: an Elm-inspired UI framework for C# that coding agents can test themselves",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvurxg/kumiko_an_elminspired_ui_framework_for_c_that/",
+    "externalUrl": "https://preview.redd.it/zhd60hs7pi1i1.png?width=2000&format=png&auto=webp&s=1f15c2ff214bc5ba507ae19dbcd8e7233e002f6a",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "a1a5967010882f3e",
+    "identityId": "reddit:/u/Inside_Cheesecake_85",
+    "author": "/u/Inside_Cheesecake_85",
+    "handle": "/u/Inside_Cheesecake_85",
+    "platform": "reddit",
+    "publishedAt": "2026-11-14T01:40:10+00:00",
+    "excerpt": "NitroLite v1.2.0 - open-source NitroSense alternative in C#/WPF: reverse-engineering Acer's local services, 1089 tests",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvpyov/nitrolite_v120_opensource_nitrosense_alternative/",
+    "externalUrl": "https://github.com/canerztk8/NitroLite",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "fa3fe1f96cbfe666",
+    "identityId": "reddit:/u/Boarlock98",
+    "author": "/u/Boarlock98",
+    "handle": "/u/Boarlock98",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T22:33:47+00:00",
+    "excerpt": "Built a lock free, thread-safe, token bucket rate limiter for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvlwmg/built_a_lock_free_threadsafe_token_bucket_rate/",
+    "externalUrl": "https://github.com/Boarlock/TokenRateLimiter",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "6f87299958034722",
+    "identityId": "reddit:/u/JumpLegitimate8762",
+    "author": "/u/JumpLegitimate8762",
+    "handle": "/u/JumpLegitimate8762",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T20:32:05+00:00",
+    "excerpt": "Enframe: .NET 11 AOT sidecar that wraps any OpenAPI spec to an MCP server",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xviv2t/enframe_net_11_aot_sidecar_that_wraps_any_openapi/",
+    "externalUrl": "https://github.com/erwinkramer/enframe",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "8f38c0b59e45de73",
+    "identityId": "reddit:/u/JumpLegitimate8762",
+    "author": "/u/JumpLegitimate8762",
+    "handle": "/u/JumpLegitimate8762",
+    "platform": "reddit",
+    "publishedAt": "2026-11-13T20:16:55+00:00",
+    "excerpt": "Bank API, reference project: .NET 11 update + OpenAPI 3.2 compliant",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvihdt/bank_api_reference_project_net_11_update_openapi/",
+    "externalUrl": "https://github.com/erwinkramer/bank-api",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "bf7c1c3e9eafa4c5",
     "identityId": "reddit:/u/Userware",
     "author": "/u/Userware",
@@ -9,34 +80,6 @@
     "excerpt": "C# 15 \"unsafe\" code: interactive tutorial + WebAssembly online playground",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvf5j5/c_15_unsafe_code_interactive_tutorial_webassembly/",
     "externalUrl": "https://xaml.io/s/Samples/UnsafeCodeTutorial?autorun=true&file=StartHere.cs",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "1b06194de41bf097",
-    "identityId": "reddit:/u/SamyonR",
-    "author": "/u/SamyonR",
-    "handle": "/u/SamyonR",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T12:49:29+00:00",
-    "excerpt": "Parquet.NET is now private?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xv70pp/parquetnet_is_now_private/",
-    "externalUrl": "https://www.nuget.org/packages/Parquet.Net/6.1.0",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "b36b050d7f86172d",
-    "identityId": "reddit:/u/mudsaleh8888",
-    "author": "/u/mudsaleh8888",
-    "handle": "/u/mudsaleh8888",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T09:05:32+00:00",
-    "excerpt": "Could EF Core benefit from a higher-level command for creating entities?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xv33dr/could_ef_core_benefit_from_a_higherlevel_command/",
-    "externalUrl": "https://github.com/dotnet/efcore/issues/39569",
     "topics": [
       ".NET"
     ]
@@ -265,34 +308,6 @@
     "excerpt": "Sdcb.SimdCodecs 1.4: MIT, pure C# image codecs for .NET 10, now with HEIC decoding (iPhone photos) faster than libheif",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xq7a28/sdcbsimdcodecs_14_mit_pure_c_image_codecs_for_net/",
     "externalUrl": "https://sdcb.ai/simdcodecs/playground",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "584ffd3902b65486",
-    "identityId": "reddit:/u/zionsati",
-    "author": "/u/zionsati",
-    "handle": "/u/zionsati",
-    "platform": "reddit",
-    "publishedAt": "2026-11-06T23:32:51+00:00",
-    "excerpt": "NetWasm: 2.8x faster than Mono AOT on Microsoft's own benchmarks, and DOOM runs 30% faster than its Blazor AOT build",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xprk52/netwasm_28x_faster_than_mono_aot_on_microsofts/",
-    "externalUrl": "https://github.com/zion-sati/NetWasm/blob/main/docs/size-and-methodology.md",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "37b014d92580a5fa",
-    "identityId": "reddit:/u/denizirgin",
-    "author": "/u/denizirgin",
-    "handle": "/u/denizirgin",
-    "platform": "reddit",
-    "publishedAt": "2026-11-06T22:39:50+00:00",
-    "excerpt": "OpenCode .NET SDK 1.0",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xpqe1g/opencode_net_sdk_10/",
-    "externalUrl": "https://github.com/opencode-dotnet/opencode-sdk-dotnet",
     "topics": [
       ".NET"
     ]

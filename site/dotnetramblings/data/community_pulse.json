@@ -1,5 +1,48 @@
 [
   {
+    "id": "7f3b5d49fc3c47ce",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-14T02:28:15.720000+00:00",
+    "excerpt": "How much is a code base in based on its commit message www.tiktok.com/t/ZPL3Rn9Ex/",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n2aha2s4m22a",
+    "externalUrl": "https://www.tiktok.com/t/ZPL3Rn9Ex",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "52bf76a82178ab00",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-13T21:26:55.633000+00:00",
+    "excerpt": "Explore how .NET MAUI transitions to CoreCLR on mobile platforms in .NET 11, improving runtime performance and app size. Learn about Mono AOT, ReadyToRun, NativeAOT, and JSON source generation in this detailed session. 🎥 Watch here: msft.it/63324x6DKC #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n27wfaicc62x",
+    "externalUrl": "https://msft.it/63324x6DKC",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "50c26e42c81e9c0f",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-13T21:22:39.210000+00:00",
+    "excerpt": "Discover how to bring your .NET AI agent to life with a face, voice, and environment interaction using M5Stack. This demo covers C++ device control, .NET 11 backend orchestration, and safe work context use with WorkIQ. ▶️ msft.it/63321x6879 #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n27w5m2w562u",
+    "externalUrl": "https://msft.it/63321x6879",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "96531509b4da1257",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -220,20 +263,6 @@
     "excerpt": "Experimenting with these kinds of social promotional cards. # dotnet # csharp https:// khalidabuhakmeh.com/posts/secr ets-of-a-dotnet-professional/",
     "postUrl": "https://mastodon.social/@khalidabuhakmeh/117576555320786844",
     "externalUrl": "https://khalidabuhakmeh.com/posts/secrets-of-a-dotnet-professional",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "77e8ba4eaff766bc",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-06T20:15:36.675000+00:00",
-    "excerpt": "Calling all .NET developers! Share your experience in the 2026 .NET Developer Survey. It takes ~15 mins and helps shape the future of .NET. Eligible U.S. residents can enter to win .NET swag! Take the survey: msft.it/63328affv2",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mzo75bj4cy2m",
-    "externalUrl": "https://msft.it/63328affv2",
     "topics": [
       ".NET"
     ]
