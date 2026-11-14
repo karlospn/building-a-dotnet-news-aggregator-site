@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-14T04:08:37.042990+00:00",
-    "itemCount": 15,
+    "checkedAt": "2026-11-14T19:37:04.623982+00:00",
+    "itemCount": 7,
     "message": "",
     "status": "healthy"
   },
@@ -108,8 +108,8 @@
     "status": "healthy"
   },
   "devleader": {
-    "checkedAt": "2026-11-13T21:06:12.817878+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-14T19:37:03.522047+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-11-13T21:05:54.703416+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-14T19:37:05.011492+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -330,8 +330,8 @@
     "status": "healthy"
   },
   "ndepend-blog": {
-    "checkedAt": "2026-11-14T04:08:20.821774+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-14T19:37:12.262218+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -354,8 +354,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-11-14T04:08:32.954044+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-14T19:37:05.648132+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
