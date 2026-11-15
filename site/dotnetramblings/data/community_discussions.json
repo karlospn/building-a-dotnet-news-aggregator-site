@@ -1,5 +1,61 @@
 [
   {
+    "id": "de510bd20a725fdd",
+    "identityId": "reddit:/u/rust-cohle_",
+    "author": "/u/rust-cohle_",
+    "handle": "/u/rust-cohle_",
+    "platform": "reddit",
+    "publishedAt": "2026-11-15T18:33:57+00:00",
+    "excerpt": "C#'s rules for top-level statements turned out to be a great fit for a reactive notebook, so I built one",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xx2zjb/cs_rules_for_toplevel_statements_turned_out_to_be/",
+    "externalUrl": "https://i.redd.it/9ccpay45lt1i1.gif",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "319f811910ef2f74",
+    "identityId": "reddit:/u/smilaise",
+    "author": "/u/smilaise",
+    "handle": "/u/smilaise",
+    "platform": "reddit",
+    "publishedAt": "2026-11-15T17:00:16+00:00",
+    "excerpt": "KillerPdf.Engine 1.9.3: a from-scratch PDF 2.0 engine for .NET 10 now reads EPUB and DjVu, does ICC color management and printer proofing, and is fully managed",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xx0kae/killerpdfengine_193_a_fromscratch_pdf_20_engine/",
+    "externalUrl": "https://github.com/SteveTheKiller/KillerPDF/tree/main/engine",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "85c4b6b18c7d3796",
+    "identityId": "reddit:/u/manuc66",
+    "author": "/u/manuc66",
+    "handle": "/u/manuc66",
+    "platform": "reddit",
+    "publishedAt": "2026-11-15T15:41:58+00:00",
+    "excerpt": "LexiSharp 1.0.0 - A composable information retrieval toolkit for .NET",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xwylec/lexisharp_100_a_composable_information_retrieval/",
+    "externalUrl": "https://github.com/manuc66/LexiSharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2a10f5473dd57b7f",
+    "identityId": "reddit:/u/Unlikely_Brief5833",
+    "author": "/u/Unlikely_Brief5833",
+    "handle": "/u/Unlikely_Brief5833",
+    "platform": "reddit",
+    "publishedAt": "2026-11-15T14:02:51+00:00",
+    "excerpt": "NetWasm.UI v0.10: NuGet/.NET Standard packages, prerendering, [Reactive] properties and a smaller runtime for C# WebAssembly UI",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xww98w/netwasmui_v010_nugetnet_standard_packages/",
+    "externalUrl": "https://github.com/matengo/NetWasm.UI/issues/1",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "7c58c7d90f9a28cb",
     "identityId": "reddit:/u/Happy-Excitement-944",
     "author": "/u/Happy-Excitement-944",
@@ -222,48 +278,6 @@
     "excerpt": "LiveKit Aspire Integration",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xrvq2x/livekit_aspire_integration/",
     "externalUrl": "https://github.com/frederikstonge/Fstonge.Aspire.LiveKit",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "9c27a3373b35c0a3",
-    "identityId": "reddit:/u/mcnamaragio",
-    "author": "/u/mcnamaragio",
-    "handle": "/u/mcnamaragio",
-    "platform": "reddit",
-    "publishedAt": "2026-11-08T17:04:41+00:00",
-    "excerpt": "DuckDB.NET 1.5.6.1: Appending Dates Up to 27× Faster",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xr3a14/duckdbnet_1561_appending_dates_up_to_27_faster/",
-    "externalUrl": "https://www.giorgi.dev/database/duckdb-net-1-5-6-1-appender-performance",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "f06bb62c9ede3818",
-    "identityId": "reddit:/u/Nicos_Ts",
-    "author": "/u/Nicos_Ts",
-    "handle": "/u/Nicos_Ts",
-    "platform": "reddit",
-    "publishedAt": "2026-11-08T14:52:36+00:00",
-    "excerpt": "Another LINQ Tool 1.5: notebooks and query collections for C#/EF Core in VS Code",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xr06wc/another_linq_tool_15_notebooks_and_query/",
-    "externalUrl": "https://github.com/NicoARD/another-linq-tool",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "bb33d5b63bd13250",
-    "identityId": "reddit:/u/aomader",
-    "author": "/u/aomader",
-    "handle": "/u/aomader",
-    "platform": "reddit",
-    "publishedAt": "2026-11-08T07:22:14+00:00",
-    "excerpt": "I built an embedded domain specific language library and source generator for super efficient templating of nested text formats",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqsm3b/i_built_an_embedded_domain_specific_language/",
-    "externalUrl": "https://www.nuget.org/packages/TemplateDsl.Html/0.1.0-preview.8",
     "topics": [
       ".NET"
     ]
