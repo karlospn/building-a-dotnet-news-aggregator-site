@@ -267,34 +267,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "2e8fc353e2d55110",
-    "identityId": "reddit:/u/Aggressive-Fuel-8838",
-    "author": "/u/Aggressive-Fuel-8838",
-    "handle": "/u/Aggressive-Fuel-8838",
-    "platform": "reddit",
-    "publishedAt": "2026-11-08T05:27:24+00:00",
-    "excerpt": "Squirix: An Open Source Distributed Cache for .NET 10",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqqry7/squirix_an_open_source_distributed_cache_for_net/",
-    "externalUrl": "https://github.com/squirix/squirix",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2b1675059026c0b0",
-    "identityId": "reddit:/u/rayo_4431",
-    "author": "/u/rayo_4431",
-    "handle": "/u/rayo_4431",
-    "platform": "reddit",
-    "publishedAt": "2026-11-07T23:14:32+00:00",
-    "excerpt": "I built a self-hosted webhook delivery system using .NET 10 and POSTGRES. Feedbacks and comments are highly welcome",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xqjpcw/i_built_a_selfhosted_webhook_delivery_system/",
-    "externalUrl": "https://github.com/aabdrahman/Webhook",
-    "topics": [
-      ".NET",
-      "Data"
-    ]
   }
 ]
