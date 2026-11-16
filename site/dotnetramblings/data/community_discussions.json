@@ -1,5 +1,33 @@
 [
   {
+    "id": "03e28c927a26e17f",
+    "identityId": "reddit:/u/ayodahunsi",
+    "author": "/u/ayodahunsi",
+    "handle": "/u/ayodahunsi",
+    "platform": "reddit",
+    "publishedAt": "2026-11-16T04:57:12+00:00",
+    "excerpt": "I hosted the Blazor / QuickGrid Nursing Home app from my recent tutorial—live demo link inside!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xxgnie/i_hosted_the_blazor_quickgrid_nursing_home_app/",
+    "externalUrl": "https://www.youtube.com/watch?v=Ea9VaFvNREk",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "07697910830a5288",
+    "identityId": "reddit:/u/Necessary-Papaya-277",
+    "author": "/u/Necessary-Papaya-277",
+    "handle": "/u/Necessary-Papaya-277",
+    "platform": "reddit",
+    "publishedAt": "2026-11-15T22:32:22+00:00",
+    "excerpt": "Pgmq .NET worker as transport layer",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xx8s6u/pgmq_net_worker_as_transport_layer/",
+    "externalUrl": "https://github.com/filipbekic01/pgmq-dotnet",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "de510bd20a725fdd",
     "identityId": "reddit:/u/rust-cohle_",
     "author": "/u/rust-cohle_",
@@ -37,20 +65,6 @@
     "excerpt": "LexiSharp 1.0.0 - A composable information retrieval toolkit for .NET",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1xwylec/lexisharp_100_a_composable_information_retrieval/",
     "externalUrl": "https://github.com/manuc66/LexiSharp",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "2a10f5473dd57b7f",
-    "identityId": "reddit:/u/Unlikely_Brief5833",
-    "author": "/u/Unlikely_Brief5833",
-    "handle": "/u/Unlikely_Brief5833",
-    "platform": "reddit",
-    "publishedAt": "2026-11-15T14:02:51+00:00",
-    "excerpt": "NetWasm.UI v0.10: NuGet/.NET Standard packages, prerendering, [Reactive] properties and a smaller runtime for C# WebAssembly UI",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xww98w/netwasmui_v010_nugetnet_standard_packages/",
-    "externalUrl": "https://github.com/matengo/NetWasm.UI/issues/1",
     "topics": [
       ".NET"
     ]
