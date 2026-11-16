@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:447322790",
+    "product": "Anthropic C# SDK",
+    "version": "13.9.0",
+    "tagName": "Anthropic-v13.9.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-16T16:51:07+00:00",
+    "title": "Anthropic C# SDK 13.9.0",
+    "summary": "api: add source and error codes to the RBAC Role read endpoints api: add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle credentials: refuse credentials files that group or others can write api: deprecate old beta header values The…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.9.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "microsoft/onnxruntime:443959689",
     "product": "ONNX Runtime",
     "version": "1.32.0",
@@ -925,25 +944,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.22.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:391600384",
-    "product": "Anthropic C# SDK",
-    "version": "12.49.0",
-    "tagName": "Anthropic-v12.49.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-18T15:54:19+00:00",
-    "title": "Anthropic C# SDK 12.49.0",
-    "summary": "api: add group with displayname to rate limits, deprecate grouptype (05fd63c) tools: add CompactBeforeNextTurn() to the tool runner (#239) (61cbe8b) client: don't replay a stream upload on the 401 token-refresh retry (#240) (2617360) client: join multiple anthropic-beta values…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.49.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
