@@ -1,5 +1,20 @@
 [
   {
+    "id": "9e75c514baf2ff5d",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-16T20:15:02.072000+00:00",
+    "excerpt": "Worried about AI coding agents accidentally modifying files while modernizing legacy .NET apps? Learn how to isolate these agents from your PC using GitHub Copilot CLI plugins. ▶️msft.it/63320xBLSK #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n2hdrh4qq72a",
+    "externalUrl": "https://msft.it/63320xBLSK",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "7f3b5d49fc3c47ce",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -146,10 +161,6 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117602589116465687"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117585928530720387"
       }
     ]
   },
@@ -231,20 +242,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "e3f21f6782297f21",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-09T16:30:27+00:00",
-    "excerpt": "Stories I like: Behind Every Great Application Is a Developer Who Cares https://www. telerik.com/blogs/behind-every -great-application-developer-who-cares",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117587432435015504",
-    "externalUrl": "https://www.telerik.com/blogs/behind-every-great-application-developer-who-cares",
-    "topics": [
-      ".NET"
     ]
   }
 ]
