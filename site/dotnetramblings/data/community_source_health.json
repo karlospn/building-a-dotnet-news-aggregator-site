@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 2,
+    "candidates": 1,
     "published": 0
   },
   {
@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 10,
+    "candidates": 9,
     "published": 5
   },
   {
@@ -101,7 +101,7 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 8,
+    "candidates": 7,
     "published": 0
   },
   {
