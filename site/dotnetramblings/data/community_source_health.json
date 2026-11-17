@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 9,
+    "candidates": 10,
     "published": 5
   },
   {
@@ -73,7 +73,7 @@
     "identityId": "avalonia",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 15,
+    "candidates": 14,
     "published": 1
   },
   {
@@ -87,8 +87,8 @@
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 3,
-    "published": 0
+    "candidates": 4,
+    "published": 1
   },
   {
     "identityId": "brad-wilson",
@@ -114,7 +114,8 @@
   {
     "identityId": "reddit-dotnet",
     "platform": "reddit",
-    "status": "ok",
-    "published": 19
+    "status": "error",
+    "error": "HTTP 404",
+    "published": 18
   }
 ]

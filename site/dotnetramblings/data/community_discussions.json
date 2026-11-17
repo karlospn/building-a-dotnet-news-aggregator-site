@@ -253,19 +253,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "3ecef2bc7e69b62e",
-    "identityId": "reddit:/u/RemigiuszZalewski",
-    "author": "/u/RemigiuszZalewski",
-    "handle": "/u/RemigiuszZalewski",
-    "platform": "reddit",
-    "publishedAt": "2026-11-10T16:10:37+00:00",
-    "excerpt": "Stop Using HasData for All Your Data Seeding in .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xsqwe6/stop_using_hasdata_for_all_your_data_seeding_in/",
-    "externalUrl": "https://youtu.be/NkNEjLCETwc",
-    "topics": [
-      ".NET"
-    ]
   }
 ]

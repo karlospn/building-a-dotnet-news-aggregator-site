@@ -1,5 +1,60 @@
 [
   {
+    "id": "2637d7458d83e69f",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-17T20:20:01.398000+00:00",
+    "excerpt": "Explore how to build AI-powered .NET MAUI apps that do more than chat. Learn to connect app features with AI, keep UI in sync, and handle user requests smartly in this demo-driven session. 🎥 Watch now: msft.it/63329xBLL9 #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n2jujbzl7q2x",
+    "externalUrl": "https://msft.it/63329xBLL9",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "a7cfaf9b0d3b3e4d",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-17T17:29:04+00:00",
+    "excerpt": "EF internals: because sometimes you need to know why EF decided to SELECT the entire database. -> shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n2jkxno42q2v",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET",
+      "Data"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117632961358410134"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604878658828787"
+      }
+    ]
+  },
+  {
+    "id": "0689b5d311e6fa9f",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-17T13:27:45+00:00",
+    "excerpt": "While I'm raising funds for World Central Kitchen this holiday season, I thought I'd sweeten the deal for all # dotnet and # developer folks. I designed some merch/shirts. # charity https:// khalidabuhakmeh.com/merch/",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117632012456939466",
+    "externalUrl": "https://khalidabuhakmeh.com/merch",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
     "id": "9e75c514baf2ff5d",
     "identityId": "dotnet",
     "author": ".NET",
@@ -95,31 +150,6 @@
     ]
   },
   {
-    "id": "57ff94203de19c01",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-12T18:27:16+00:00",
-    "excerpt": "If EF has ever made you say \"I swear I didnt write that SQL,\" this course is your redemption arc. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n253v3ray424",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET",
-      "Data"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604878658828787"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117593329590378988"
-      }
-    ]
-  },
-  {
     "id": "1c0142546a3be327",
     "identityId": "avalonia",
     "author": "Avalonia UI",
@@ -210,38 +240,23 @@
     ]
   },
   {
-    "id": "07f6130dff097ef6",
+    "id": "6bc5e1dbd14ad106",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
+    "handle": "Shawn Wildermuth (🇺🇦++)",
+    "platform": "mastodon",
     "publishedAt": "2026-11-11T15:31:14+00:00",
-    "excerpt": "Stories I like: Everyone Thinks I'm Hacking the FBI. I'm Just Debugging CSS.",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n22blfvan32t",
+    "excerpt": "Stories I like: Everyone Thinks I&#39;m Hacking the FBI. I&#39;m Just Debugging CSS. https:// dev.to/ishacodes/everyone-thin ks-im-hacking-the-fbi-im-just-debugging-css-1gi3",
+    "postUrl": "https://fosstodon.org/@shawnwildermuth/117598524163251930",
     "externalUrl": "https://dev.to/ishacodes/everyone-thinks-im-hacking-the-fbi-im-just-debugging-css-1gi3",
     "topics": [
       ".NET"
     ],
     "alsoOn": [
       {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117598524163251930"
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n22blfvan32t"
       }
-    ]
-  },
-  {
-    "id": "4e266fed89d8b3b6",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-10T19:33:21.112000+00:00",
-    "excerpt": "🚀 Announcing .NET 11! This release brings C# 15 union types, faster developer tools, hundreds of performance improvements, and new capabilities for web, mobile, desktop, and AI apps. See what’s new and get started: msft.it/63325ahydB",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3mzy6nf4bvz2r",
-    "externalUrl": "https://msft.it/63325ahydB",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
