@@ -20,6 +20,10 @@ featured: false
 whyItMatters: Worth a watch for developers following AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: other
+aiRelevance: general
 ---
 Business answers are scattered across reports, documents, reviews, email and the web, and a Power BI report alone can't explain ...
 

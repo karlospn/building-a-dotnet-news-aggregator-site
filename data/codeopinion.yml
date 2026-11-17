@@ -1,3 +1,7 @@
 Feed: http://codeopinion.com/feed/
 Title: Code Opinion
 Website: https://codeopinion.com/
+Description: Distributed systems, domain modeling, and software architecture articles.
+Topics:
+- Architecture
+- .NET

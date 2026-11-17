@@ -1,3 +1,7 @@
 Feed: https://blog.elmah.io/rss/
 Title: elmah.io Blog
 Website: https://blog.elmah.io/
+Description: .NET debugging, logging, error monitoring, and development guides.
+Topics:
+- .NET
+- DevOps

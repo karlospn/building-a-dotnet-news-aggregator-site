@@ -1,2 +1,2 @@
-{{- $newsScript := resources.Get "js/news.js" | minify | fingerprint "sha512" }}
+{{- $newsScript := slice (resources.Get "js/discovery.js") (resources.Get "js/news.js") | resources.Concat "js/news-bundle.js" | minify | fingerprint "sha512" }}
 <script src="{{ $newsScript.RelPermalink }}" integrity="{{ $newsScript.Data.Integrity }}" crossorigin="anonymous"></script>

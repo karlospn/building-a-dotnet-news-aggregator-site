@@ -4,7 +4,7 @@
   <div class="post_meta">
     {{- if $showDate }}
       <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
-      <span class="post_date">{{ .Date.Format (default "Jan 2, 2006" site.Params.dateFormat) }}</span>
+      <span class="post_date">{{ if .Params.informational }}Last updated {{ .Lastmod.Format "Jan 2, 2006" }}{{ else }}{{ .Date.Format (default "Jan 2, 2006" site.Params.dateFormat) }}{{ end }}</span>
     {{- end }}
     {{- if $showReadTime }}
       <span class="post_time"> · {{ T "reading_time" . }}</span>

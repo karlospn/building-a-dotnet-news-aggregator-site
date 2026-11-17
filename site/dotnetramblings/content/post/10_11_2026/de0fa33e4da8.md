@@ -20,8 +20,13 @@ featured: false
 whyItMatters: Worth a read for developers following .NET.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: dotnet
 ---
-A recap of the latest servicing updates for .NET and .NET Framework for November 2026. The post .NET and .NET Framework November 2026 servicing updates appeared first on .NET Blog .
+A recap of the latest servicing updates for .NET and .NET Framework for November 2026.
 
 - Worth a read for developers following .NET.
 - Link to article: https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates

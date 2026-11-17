@@ -1,3 +1,7 @@
 Feed: https://www.youtube.com/@CodeOpinion
 Title: CodeOpinion Youtube Channel
 Website: https://codeopinion.com/
+Description: Architecture discussions covering messaging, services, and domain-driven design.
+Topics:
+- Architecture
+- .NET

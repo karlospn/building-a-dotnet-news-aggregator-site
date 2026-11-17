@@ -26,6 +26,10 @@ featured: false
 whyItMatters: Worth a read for developers following AWS and AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
 Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.
 

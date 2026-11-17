@@ -24,6 +24,11 @@ featured: true
 whyItMatters: Worth a watch for developers following AWS and AI.
 showShare: false
 showReadTime: false
+language: und
+languageInferred: false
+durationSeconds: 448
+videoFormat: tutorial
+aiRelevance: general
 ---
 A founder told his AI coding agent, in all caps, more than once: code freeze, don't touch anything. It deleted the production ...
 

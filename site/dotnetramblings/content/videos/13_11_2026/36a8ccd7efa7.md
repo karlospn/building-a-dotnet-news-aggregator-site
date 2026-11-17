@@ -23,6 +23,12 @@ featured: false
 whyItMatters: Worth a watch for developers following .NET and Azure.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 3180
+videoFormat: other
+aiRelevance: dotnet
 ---
 Meet some of Azure's newest cast members for .NET developers. A Container Apps sandbox handles the code you'd rather keep ...
 

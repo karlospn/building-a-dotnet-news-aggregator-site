@@ -1,5 +1,8 @@
 Feed: https://www.tabsoverspaces.com/feed.xml
 Title: Tabs Over Spaces
 Website: https://www.tabsoverspaces.com/
-Description: Technical articles about C#, .NET, databases, and software development.
+Description: C#, .NET, database development, and community event articles.
 Author: Jiří Činčura
+Topics:
+- .NET
+- Data

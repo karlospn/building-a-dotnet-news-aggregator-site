@@ -1,4 +1,7 @@
 Feed: http://andrewlock.net/rss/
 Title: .NET Escapades
 Website: https://andrewlock.net/
-
+Description: Detailed ASP.NET Core, runtime, and application engineering articles.
+Topics:
+- .NET
+- Architecture

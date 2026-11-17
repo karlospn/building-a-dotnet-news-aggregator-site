@@ -1,17 +1,22 @@
 {{ define "main" }}
+  {{- $pages := sort .Pages "Date" "desc" }}
+  {{- $direct := where $pages "Params.aiRelevance" "dotnet" }}
+  {{- $broader := where $pages "Params.aiRelevance" "ne" "dotnet" }}
+  {{- $pages = $direct | append $broader }}
   <div class="news-shell wrap">
     <header class="directory-header">
       <p class="eyebrow">Watch and learn</p>
-      <h1>Latest videos</h1>
-      <p>Fresh talks, tutorials, demos, and explainers from the developer community.</p>
+      <h1>Developer videos</h1>
+      <p>.NET videos first, followed by broader technology coverage; newest first in each group. Choose a language, length, or format to find your next session.</p>
+      <p class="metadata-note">Language estimates use titles and descriptions when an audio language is unavailable. Formats are inferred from descriptions and duration.</p>
     </header>
     {{ partial "discovery-controls" (dict "videoOnly" true "label" "Filter videos" "placeholder" "Search all videos") }}
     <p class="results-summary" aria-live="polite">
       Showing <span id="rendered-count">{{ math.Min 24 (len .Pages) }}</span>
       of <span id="visible-count">{{ len .Pages }}</span> <span id="result-label">videos</span>
     </p>
-    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-content-scope="video">
-      {{ range first 24 (sort .Pages "Date" "desc") }}
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-content-scope="video" data-prioritize-dotnet="true">
+      {{ range first 24 $pages }}
         {{ partial "news-card" (dict "page" .) }}
       {{ end }}
     </div>

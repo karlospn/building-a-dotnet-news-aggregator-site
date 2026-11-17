@@ -1,5 +1,8 @@
 Feed: https://devblogs.microsoft.com/aspire/feed/
 Title: Microsoft Aspire Blog
 Website: https://devblogs.microsoft.com/aspire/
-Description: Official Aspire releases, distributed .NET applications, deployment, and dashboard news.
+Description: Aspire releases, distributed applications, deployment, and dashboard guidance.
 Author: Microsoft
+Topics:
+- .NET
+- DevOps

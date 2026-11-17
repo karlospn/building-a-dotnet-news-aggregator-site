@@ -20,6 +20,11 @@ featured: true
 whyItMatters: Worth a read for developers following Visual Studio.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
 I was talking with a developer recently about a project his team was working on. They’d built an application, connected their data sources, and had everything in working order. Then came another request from management: Could they add a dashboard within the app so users could actually see what was happening with all that data? […] The post Build better applications with Bold BI, a Visual Studio subscriber benefit…
 

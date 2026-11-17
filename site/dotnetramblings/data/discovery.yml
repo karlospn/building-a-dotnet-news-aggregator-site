@@ -1,0 +1,14 @@
+languages:
+  en: English
+  es: Spanish
+  pt: Portuguese
+  fr: French
+  de: German
+  cs: Czech
+  und: Language unknown
+formats:
+  clip: Short clip
+  tutorial: Tutorial / workshop
+  talk: Conference talk
+  podcast: Podcast / interview
+  other: Other / unspecified

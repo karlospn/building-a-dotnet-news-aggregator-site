@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following Data.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 157
+videoFormat: other
+aiRelevance: general
 ---
 One of the many cool things I found when trying out Eon, was the ability to search databases with a query before they are restored.
 

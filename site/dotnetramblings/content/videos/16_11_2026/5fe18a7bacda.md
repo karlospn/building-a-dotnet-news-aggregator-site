@@ -18,6 +18,11 @@ featured: false
 whyItMatters: Worth a watch for developers following Infrastructure as Code.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+videoFormat: other
+aiRelevance: general
 ---
 One Bicep file works well for one team and one environment, but it gets hard to share, review, and keep consistent once several ...
 

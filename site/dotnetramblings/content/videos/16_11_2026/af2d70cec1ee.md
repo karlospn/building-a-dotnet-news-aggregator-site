@@ -21,6 +21,11 @@ featured: false
 whyItMatters: Worth a watch for developers following AI.
 showShare: false
 showReadTime: false
+language: und
+languageInferred: false
+durationSeconds: 31
+videoFormat: clip
+aiRelevance: general
 ---
 A 20-step agentic task where each step succeeds 95% of the time has an overall success rate of 36% because errors compound.
 

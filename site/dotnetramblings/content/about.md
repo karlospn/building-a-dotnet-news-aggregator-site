@@ -1,6 +1,9 @@
 +++
 title = "About"
 date = "2024-02-28"
+lastmod = "2026-11-17"
+informational = true
+showReadTime = false
 aliases = ["about-us", "contact"]
 +++
 
@@ -11,6 +14,10 @@ News feeds are refreshed every 3 hours. The videos section is scheduled to updat
 The [AI for .NET Developers hub](/topics/ai/) brings together practical AI topics, learning paths, and selected .NET AI SDK and framework releases. [Community Pulse](/community/) combines technical links and insights from selected .NET accounts on Bluesky and Mastodon with linked discussions from r/dotnet over the last seven days. You can search all posts or filter by platform. The Reddit pilot adds up to four links per day; its authors are not selected Community Pulse accounts.
 
 You can filter by topic and content type, bookmark stories, hide sources, track read items, and choose a compact layout. These preferences are stored locally in your browser; no account is required.
+
+The AI hub starts with AI applied to .NET; broader AI coverage is available through its Coverage filter. Videos offer language, duration, and format filters. Language labels marked “estimated” come from titles and descriptions; audio metadata is used when available. Formats are inferred from descriptions and duration, so some videos remain unspecified.
+
+Story topics are assigned from their titles and excerpts, independently of a source's specialties. Excerpts use publisher wording with boilerplate removed; reading times use a publisher-provided value when available, otherwise an estimate from supplied article text. Corrections can be submitted through a [GitHub issue](https://github.com/karlospn/building-a-dotnet-news-aggregator-site/issues/new).
 
 To suggest an RSS feed, YouTube channel, or community account, see [Contribute](/contribute/). For issues or questions, reach out on **GitHub** or **LinkedIn**.
 

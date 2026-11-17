@@ -24,6 +24,10 @@ featured: false
 whyItMatters: Worth a read for developers following AWS and AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
 AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee's guide helps you find the breakouts, chalk talks, workshops, and builders' sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.
 

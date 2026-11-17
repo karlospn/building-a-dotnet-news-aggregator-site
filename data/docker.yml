@@ -1,3 +1,7 @@
 Feed: https://www.docker.com/feed/
 Title: Docker
 Website: https://www.docker.com
+Description: Docker tooling, container development, and deployment practices.
+Topics:
+- Containers
+- DevOps

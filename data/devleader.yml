@@ -1,3 +1,7 @@
 Feed: https://www.devleader.ca/feed/
 Title: Dev Leader
 Website: https://www.devleader.ca
+Description: C# programming, refactoring, and software engineering explanations.
+Topics:
+- .NET
+- Architecture

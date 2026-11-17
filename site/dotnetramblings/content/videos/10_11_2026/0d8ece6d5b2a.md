@@ -21,6 +21,12 @@ featured: true
 whyItMatters: Worth a watch for developers following Azure and AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 60
+videoFormat: clip
+aiRelevance: general
 ---
 Take an AI travel planner from a blank folder to production with Code with Cosmos. Get a quick look at local development, vector ...
 

@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following Azure.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: es
+languageInferred: true
+durationSeconds: 3484
+videoFormat: other
+aiRelevance: general
 ---
 En esta sesión se realizará una demostración paso a paso de cómo crear una canalización de integración continua en Azure ...
 

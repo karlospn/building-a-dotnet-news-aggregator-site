@@ -5,6 +5,8 @@
     {{- $description = printf "Browse the latest %s articles and videos from trusted developer sources." .Title }}
   {{- end }}
   {{- $isAI := eq .Title "AI" }}
+  {{- $allCount := len $pages }}
+  {{- if $isAI }}{{ $pages = where $pages "Params.aiRelevance" "dotnet" }}{{ end }}
   <div class="news-shell wrap">
     <header class="directory-header{{ if $isAI }} ai-hub-header{{ end }}">
       <p class="eyebrow">{{ if $isAI }}Practical AI engineering{{ else }}.NET community topic{{ end }}</p>
@@ -23,10 +25,10 @@
       <section class="hub-section hub-section--content" id="ai-articles" aria-labelledby="ai-articles-title">
         <div class="hub-section__heading">
           <h2 id="ai-articles-title">Latest AI articles and videos</h2>
-          <span><span data-hub-item-count>{{ len $pages }}</span> items</span>
+          <span><span data-hub-item-count>{{ $allCount }}</span> items across all AI coverage</span>
         </div>
         <div class="hub-section__body">
-          <p class="hub-section__description">Search and filter the complete 180-day archive of AI articles and videos.</p>
+          <p class="hub-section__description">Start with AI applied to .NET. Switch Coverage to explore broader AI news, or search up to 180 days of articles and videos. Video length and format filters show videos only.</p>
     {{ end }}
     {{ partial "discovery-controls" (dict
       "topicLocked" true
@@ -38,7 +40,7 @@
       Showing <span id="rendered-count">{{ math.Min 24 (len $pages) }}</span>
       of <span id="visible-count">{{ len $pages }}</span> <span id="result-label">stories</span>
     </p>
-    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-topic-scope="{{ .Title | urlize }}">
+    <div class="news-grid" id="news-grid" data-archive-url="/archive.json" data-page-size="24" data-topic-scope="{{ .Title | urlize }}" {{ if $isAI }}data-default-relevance="dotnet"{{ end }}>
       {{ range first 24 $pages }}
         {{ partial "news-card" (dict "page" .) }}
       {{ end }}
@@ -53,41 +55,7 @@
         </div>
       </section>
       {{ partial "ai-release-radar" . }}
-      <section class="hub-section hub-section--learning" id="ai-learning-paths" aria-labelledby="learning-paths-title">
-        <div class="learning-paths">
-          <div class="section-intro">
-            <p class="eyebrow">Official and practical resources</p>
-            <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
-            <p>Start with the platform fundamentals, then choose the area that matches what you want to build.</p>
-          </div>
-          <div class="learning-path-grid">
-            <article>
-              <span>01</span>
-              <h3>Build AI apps with .NET</h3>
-              <p>Learn the .NET AI ecosystem, abstractions, SDKs, and application patterns.</p>
-              <a href="https://learn.microsoft.com/dotnet/ai/" rel="noopener">Microsoft .NET AI documentation →</a>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Build agents with Semantic Kernel</h3>
-              <p>Explore plugins, orchestration, memory, and agent-based application design.</p>
-              <a href="https://learn.microsoft.com/semantic-kernel/overview/" rel="noopener">Semantic Kernel documentation →</a>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Connect tools with MCP</h3>
-              <p>Build Model Context Protocol clients and servers using the official C# SDK.</p>
-              <a href="https://github.com/modelcontextprotocol/csharp-sdk" rel="noopener">MCP C# SDK →</a>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>Run models locally</h3>
-              <p>Connect .NET applications to local models through Ollama without a hosted API.</p>
-              <a href="https://github.com/awaescher/OllamaSharp" rel="noopener">OllamaSharp →</a>
-            </article>
-          </div>
-        </div>
-      </section>
+      {{ partial "learning-paths" . }}
     {{ end }}
   </div>
 {{ end }}

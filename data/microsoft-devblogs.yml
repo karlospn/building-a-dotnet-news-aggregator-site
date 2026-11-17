@@ -1,5 +1,7 @@
 Feed: https://devblogs.microsoft.com/dotnet/feed/
 Title: Microsoft .NET Blog
 Website: https://devblogs.microsoft.com/dotnet/
-Description: Official .NET, C#, ASP.NET Core, runtime, performance, and tooling news.
+Description: Official .NET, C#, ASP.NET Core, runtime, and tooling news.
 Author: Microsoft
+Topics:
+- .NET

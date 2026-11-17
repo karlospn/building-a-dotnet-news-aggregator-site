@@ -1,5 +1,9 @@
 Feed: https://www.mytechramblings.com/index.xml
 Title: My technical ramblings
 Website: https://www.mytechramblings.com
-Description: Technical ramblings from a software engineer
+Description: Hands-on .NET, cloud infrastructure, and deployment engineering articles.
 Author: Carlos Pons
+Topics:
+- .NET
+- Azure
+- AWS

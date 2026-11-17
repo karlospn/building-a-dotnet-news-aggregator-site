@@ -1,0 +1,5 @@
+# Canonical article/video URLs. Supported fields: summary, topics, language, videoFormat.
+# Corrections apply to ingestion and to the offline refresh-content.py backfill.
+https://jeremydmiller.com/2026/11/15/critter-stack-roadmap-update-for-november-2026:
+  topics: [.NET, Architecture]
+  summary: "A November 2026 roadmap update for the Critter Stack."

@@ -19,6 +19,12 @@ featured: true
 whyItMatters: Worth a watch for developers following General.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 1687
+videoFormat: other
+aiRelevance: general
 ---
 Erik Bernhardsson, CEO and Co-Founder of Modal, explains what drove demand for Modal's sandboxes (vibe coding apps, ...
 

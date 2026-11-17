@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following .NET.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+durationSeconds: 1400
+videoFormat: other
+aiRelevance: dotnet
 ---
 Great web apps need to load quickly, remain responsive, preserve user state through interruptions, and scale efficiently as ...
 

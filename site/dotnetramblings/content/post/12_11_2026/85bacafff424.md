@@ -24,6 +24,10 @@ featured: false
 whyItMatters: Worth a read for developers following AI and AWS.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
 AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.
 

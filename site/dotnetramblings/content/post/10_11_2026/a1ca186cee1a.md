@@ -25,8 +25,12 @@ featured: true
 whyItMatters: Worth a read for developers following Visual Studio and AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
-Copilot Chat in Visual Studio just got a new engine. Starting with Visual Studio 2026 version 18.12, it runs on the Microsoft Copilot SDK developed by GitHub, the same technology powering GitHub Copilot CLI, the GitHub Copilot app, and VS Code. It’s on by default, and it’s a major upgrade: same models, more tasks solved, […] The post Copilot in Visual Studio Just Got a Major Upgrade appeared first on Visual Studio…
+Copilot Chat in Visual Studio just got a new engine. Starting with Visual Studio 2026 version 18.12, it runs on the Microsoft Copilot SDK developed by GitHub, the same technology powering GitHub Copilot CLI, the GitHub Copilot app, and VS Code. It’s on by default, and it’s a major upgrade: same models, more tasks solved, […]
 
 - Worth a read for developers following Visual Studio and AI.
 - Link to article: https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade

@@ -141,6 +141,7 @@
         data-ai-subtopics="${escapeHtml(aiSubtopics.map(function (value) {
           return String(value).toLowerCase().replace(/\s+/g, "-");
         }).join(","))}"
+        data-language="${escapeHtml(item.language || "und")}" data-duration-seconds="${escapeHtml(item.durationSeconds || "")}" data-video-format="${escapeHtml(item.videoFormat || "")}" data-ai-relevance="${escapeHtml(item.aiRelevance || "general")}"
         data-content-type="${type}" data-date="${escapeHtml(item.date)}">
         <a class="news-card__image" href="${escapeHtml(link)}" data-outbound>
           <img src="${escapeHtml(thumbnail)}" alt="" width="640" height="360" loading="lazy"
@@ -157,6 +158,7 @@
           <h3><a href="${escapeHtml(link)}" data-outbound>${escapeHtml(item.title)}</a></h3>
           <div class="topic-list">${topicMarkup}</div>
           <p class="news-card__summary">${escapeHtml(summaryText)}</p>
+          ${type === "video" ? `<p class="video-details">${escapeHtml(NewsDiscovery.languageName(item.language))}${item.languageInferred ? " (estimated)" : ""} · ${escapeHtml(NewsDiscovery.formats[item.videoFormat] || NewsDiscovery.formats.other)}</p>` : ""}
           <div class="news-card__footer">
             <a href="${escapeHtml(link)}" class="story-link" data-outbound>
               ${type === "video" ? "Watch video" : "Read article"} →
@@ -253,6 +255,21 @@
     const typeSelect = document.querySelector("[data-type-select]");
     const topicSelect = document.querySelector("[data-topic-select]");
     const aiSubtopicSelect = document.querySelector("[data-ai-subtopic-select]");
+    const discoverySelects = {
+      relevance: document.querySelector("[data-relevance-select]"),
+      language: document.querySelector("[data-language-select]"),
+      duration: document.querySelector("[data-duration-select]"),
+      format: document.querySelector("[data-format-select]")
+    };
+    const discoveryFilters = { relevance: grid.dataset.defaultRelevance || "all", language: "all", duration: "all", format: "all" };
+    const requestedFilters = new URLSearchParams(location.search);
+    Object.keys(discoverySelects).forEach(function (key) {
+      const select = discoverySelects[key];
+      if (!select) return;
+      const requested = requestedFilters.get(key);
+      if (Array.from(select.options).some(function (option) { return option.value === requested; })) discoveryFilters[key] = requested;
+      select.value = discoveryFilters[key];
+    });
     let selectedWeek = null;
     const newFilterButton = document.querySelector("[data-new-filter]");
 
@@ -354,6 +371,7 @@
         item.contentType === activeType ||
         (activeType === "bookmarks" && bookmarks.has(item.link));
       return (
+        NewsDiscovery.matches(item, discoveryFilters) &&
         (!contentScope || item.contentType === contentScope) &&
         (!topicScope || topics.includes(topicScope)) &&
         (!homeRelevance || !topics.includes("ai") || topics.includes(".net")) &&
@@ -393,6 +411,9 @@
 
     const renderArchive = function () {
       const matches = archiveItems.filter(matchesFilters);
+      if (grid.dataset.prioritizeDotnet === "true" && discoveryFilters.relevance === "all") {
+        matches.sort(function (a, b) { return Number(b.aiRelevance === "dotnet") - Number(a.aiRelevance === "dotnet"); });
+      }
       const pageCount = Math.max(1, Math.ceil(matches.length / pageSize));
       currentPage = Math.min(currentPage, pageCount);
       const start = (currentPage - 1) * pageSize;
@@ -434,6 +455,7 @@
       if (!newFilterButton) return;
       const count = items.filter(function (item) {
         return (
+          NewsDiscovery.matches(item, discoveryFilters) &&
           (!contentScope || item.contentType === contentScope) &&
           (!topicScope || (item.topics || []).map(function (topic) {
             return String(topic).toLowerCase().replace(/\s+/g, "-");
@@ -475,6 +497,11 @@
           contentType: card.dataset.contentType,
           topics: card.dataset.topics,
           aiSubtopics: card.dataset.aiSubtopics,
+          language: card.dataset.language,
+          languageInferred: card.dataset.languageInferred === "true",
+          durationSeconds: card.dataset.durationSeconds,
+          videoFormat: card.dataset.videoFormat,
+          aiRelevance: card.dataset.aiRelevance,
           link: card.dataset.url,
           date: card.dataset.date
         };
@@ -546,7 +573,7 @@
         typeButton.classList.toggle("is-active", activeType === typeButton.dataset.typeFilter);
         if (typeSelect && activeType !== "bookmarks") typeSelect.value = activeType;
         if (activeType === "bookmarks") history.replaceState(null, "", "#bookmarks");
-        else if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
+        else if (location.hash === "#bookmarks") history.replaceState(null, "", `${location.pathname}${location.search}`);
         updateCards();
       }
 
@@ -647,6 +674,18 @@
     });
 
     const search = document.querySelector("[data-news-search]");
+    Object.keys(discoverySelects).forEach(function (key) {
+      const select = discoverySelects[key];
+      if (!select) return;
+      select.addEventListener("change", function () {
+        discoveryFilters[key] = select.value;
+        currentPage = 1;
+        const url = new URL(location.href);
+        url.searchParams.set(key, select.value);
+        history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+        updateCards();
+      });
+    });
     if (search) {
       search.addEventListener("input", function () {
         query = search.value.trim().toLowerCase();
@@ -665,7 +704,7 @@
           button.classList.remove("is-active");
           button.setAttribute("aria-pressed", "false");
         });
-        if (location.hash === "#bookmarks") history.replaceState(null, "", location.pathname);
+        if (location.hash === "#bookmarks") history.replaceState(null, "", `${location.pathname}${location.search}`);
         updateCards();
       });
     }
@@ -752,6 +791,18 @@
           archiveItems = items;
           populateWeeks(items);
           populateAISubtopics(items);
+          if (discoverySelects.language) {
+            const languages = Array.from(new Set(items.filter(function (item) {
+              return (!contentScope || item.contentType === contentScope) && (!topicScope || (item.topics || []).some(function (topic) { return topic.toLowerCase() === topicScope; }));
+            }).map(function (item) { return item.language || "und"; }))).sort();
+            discoverySelects.language.innerHTML = '<option value="all">All languages</option>' + languages.map(function (code) {
+              return `<option value="${escapeHtml(code)}">${escapeHtml(NewsDiscovery.languageName(code))}</option>`;
+            }).join("");
+            const requestedLanguage = requestedFilters.get("language");
+            if (languages.includes(requestedLanguage)) discoveryFilters.language = requestedLanguage;
+            if (discoveryFilters.language !== "all" && !languages.includes(discoveryFilters.language)) discoveryFilters.language = "all";
+            discoverySelects.language.value = discoveryFilters.language;
+          }
           currentPage = 1;
           updateCards();
         })

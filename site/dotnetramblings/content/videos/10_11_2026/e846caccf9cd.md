@@ -21,6 +21,12 @@ featured: false
 whyItMatters: Worth a watch for developers following AWS and AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+durationSeconds: 66
+videoFormat: clip
+aiRelevance: general
 ---
 Watch the full podcast episode today at https://www.youtube.com/watch?v=Zjx_F5EJZqI Subscribe to AWS: ...
 

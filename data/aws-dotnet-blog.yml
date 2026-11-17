@@ -1,3 +1,7 @@
 Feed: https://aws.amazon.com/blogs/dotnet/feed/
 Title: .NET on AWS Blog
 Website: https://aws.amazon.com/blogs/dotnet
+Description: Guidance for building, deploying, and running .NET applications on AWS.
+Topics:
+- .NET
+- AWS

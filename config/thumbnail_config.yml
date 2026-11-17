@@ -3,7 +3,7 @@ keywords:
     keywords: ['visual studio']
     image: 'images/vs.png'
   - topic: '.NET'
-    keywords: ['dotnet', '.net', 'c#', 'asp.net', 'blazor', 'nuget']
+    keywords: ['dotnet', '.net', 'c#', 'asp.net', 'blazor', 'nuget', 'critter stack', 'marten', 'wolverine', 'entity framework', 'aspire', 'masstransit', 'mediatr', 'automapper', 'f#', 'semantickernel', 'semantic kernel', 'microsoft.extensions.ai']
     image: 'images/dotnet.png'
   - topic: 'Azure'
     keywords: ['azure', 'cosmos db']
@@ -33,7 +33,7 @@ keywords:
     keywords: ['database', 'sql', 'postgres', 'mongodb', 'redis', 'data engineering']
     image: 'images/topics/data.svg'
   - topic: 'Security'
-    keywords: ['security', 'authentication', 'authorization', 'oauth', 'identity', 'vulnerability']
+    keywords: ['security', 'authentication', 'authorization', 'oauth', 'identity provider', 'identity server', 'asp.net core identity', 'entra', 'vulnerability']
     image: 'images/topics/security.svg'
   - topic: 'Testing'
     keywords: ['testing', 'unit test', 'integration test', 'playwright']

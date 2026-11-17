@@ -23,6 +23,11 @@ featured: false
 whyItMatters: Worth a watch for developers following AI and Data.
 showShare: false
 showReadTime: false
+language: und
+languageInferred: false
+durationSeconds: 1125
+videoFormat: other
+aiRelevance: general
 ---
 Not every search problem requires AI, embeddings, or vector databases. Most business applications simply need to handle ...
 

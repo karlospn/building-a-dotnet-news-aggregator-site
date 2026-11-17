@@ -17,6 +17,11 @@
   data-source="{{ $sourceID }}"
   data-topics="{{ delimit (apply $topics "urlize" ".") "," }}"
   data-ai-subtopics="{{ with $page.Params.aiSubtopics }}{{ delimit (apply . "urlize" ".") "," }}{{ end }}"
+  data-language="{{ $page.Params.language | default "und" }}"
+  data-language-inferred="{{ $page.Params.languageInferred | default false }}"
+  data-duration-seconds="{{ $page.Params.durationSeconds }}"
+  data-video-format="{{ $page.Params.videoFormat }}"
+  data-ai-relevance="{{ $page.Params.aiRelevance }}"
   data-content-type="{{ $type }}"
   data-date="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
   <a class="news-card__image" href="{{ $page.Params.link }}" data-outbound>
@@ -43,6 +48,12 @@
       {{ end }}
     </div>
     <p class="news-card__summary">{{ $summary }}</p>
+    {{ if eq $type "video" }}
+      <p class="video-details">
+        {{ index site.Data.discovery.languages ($page.Params.language | default "und") | default $page.Params.language }}{{ if $page.Params.languageInferred }} (estimated){{ end }}
+        · {{ index site.Data.discovery.formats ($page.Params.videoFormat | default "other") }}
+      </p>
+    {{ end }}
     <div class="news-card__footer">
       <a href="{{ $page.Params.link }}" class="story-link" data-outbound>
         {{ if eq $type "video" }}Watch video{{ else }}Read article{{ end }} →

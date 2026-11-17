@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 50
+videoFormat: clip
+aiRelevance: general
 ---
 Don't let the same LLM write and review your code. → Claude analyzes your last 1000 PRs to build a team style guide, then writes ...
 

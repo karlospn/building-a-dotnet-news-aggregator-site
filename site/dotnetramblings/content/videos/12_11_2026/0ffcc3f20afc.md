@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following General.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+durationSeconds: 76
+videoFormat: clip
+aiRelevance: general
 ---
 Anthropic's new Plaid integration can give Claude read-only access to connected transaction histories. It could identify forgotten ...
 

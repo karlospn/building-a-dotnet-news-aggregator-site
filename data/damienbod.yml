@@ -1,3 +1,7 @@
 Feed: https://damienbod.com/feed/
 Title: Software Engineering (Damien Bowden blog)
 Website: https://damienbod.com
+Description: ASP.NET Core security, identity, and application integration guidance.
+Topics:
+- .NET
+- Security

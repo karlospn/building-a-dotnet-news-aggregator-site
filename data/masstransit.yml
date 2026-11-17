@@ -1,4 +1,7 @@
 Feed: https://www.youtube.com/@PhatBoyG
 Title: Chris Patterson
 Website: https://masstransit.io/
-
+Description: MassTransit messaging, distributed applications, and integration demonstrations.
+Topics:
+- .NET
+- Architecture

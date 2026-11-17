@@ -1,3 +1,8 @@
 Feed: https://blog.ploeh.dk/rss.xml
 Title: Mark Seemann's blog
 Website: https://blog.ploeh.dk/
+Description: Software design, functional programming, and testable application architecture.
+Topics:
+- Architecture
+- Testing
+- .NET

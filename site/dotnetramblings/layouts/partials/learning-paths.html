@@ -1,0 +1,25 @@
+<section class="hub-section hub-section--learning" id="ai-learning-paths" aria-labelledby="learning-paths-title">
+  <div class="learning-paths">
+    <div class="section-intro">
+      <p class="eyebrow">Build something you can run</p>
+      <h2 id="learning-paths-title">AI learning paths for .NET developers</h2>
+      <p>Start with the chat app, then choose tools, MCP, or local models. Time estimates include hands-on practice and vary with your experience.</p>
+    </div>
+    <div class="learning-path-grid">
+      {{ range $index, $path := site.Data.learning_paths }}
+        <article>
+          <span>Path {{ add $index 1 }} · Estimated {{ .effort }}</span>
+          <h3>{{ .title }}</h3>
+          <p><strong>You'll build:</strong> {{ .outcome }}</p>
+          <p><strong>Before you start:</strong> {{ .prerequisites }}</p>
+          <ol>
+            {{ range .steps }}
+              <li>{{ .text }}{{ if .url }} <a href="{{ .url }}" rel="noopener">{{ .label }} →</a>{{ end }}</li>
+            {{ end }}
+          </ol>
+          <p class="path-reviewed">Last reviewed <time datetime="{{ .reviewed }}">{{ time.Format "Jan 2, 2006" .reviewed }}</time></p>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,5 +1,8 @@
 Feed: https://devblogs.microsoft.com/agent-framework/feed/
 Title: Microsoft Agent Framework Blog
 Website: https://devblogs.microsoft.com/agent-framework/
-Description: Official Microsoft Agent Framework and Semantic Kernel news for building AI agents with .NET and Python.
+Description: Microsoft Agent Framework and Semantic Kernel news and development guidance.
 Author: Microsoft
+Topics:
+- .NET
+- AI

@@ -23,7 +23,7 @@ def main():
                 "source": "YouTube channel"
                 if is_youtube_channel(source["feed"])
                 else "RSS feed",
-                "topics": classify_topics(
+                "topics": source["topics"] or classify_topics(
                     f"{source['title']} {source['description']} {source['website']}"
                 ),
             }

@@ -19,6 +19,12 @@ featured: true
 whyItMatters: Worth a watch for developers following .NET.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+durationSeconds: 703
+videoFormat: other
+aiRelevance: dotnet
 ---
 Get any course 40% off: https://dometrain.com/courses/?ref=nick-chapsas&promo=youtube&coupon_code=BLACKFRIDAY26 Get ...
 

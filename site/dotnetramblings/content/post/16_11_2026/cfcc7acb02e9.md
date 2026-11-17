@@ -20,6 +20,10 @@ featured: false
 whyItMatters: Worth a read for developers following AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: general
 ---
 Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.
 

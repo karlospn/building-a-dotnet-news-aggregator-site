@@ -13,7 +13,12 @@
 
   <div class="news-shell wrap">
     <section class="news-feed" aria-labelledby="latest-heading">
-      <h1 class="sr-only" id="latest-heading">.NET news and videos</h1>
+      <header class="directory-header home-intro">
+        <p class="eyebrow">Stay current. Keep building.</p>
+        <h1 id="latest-heading">.NET news for working developers</h1>
+        <p>Discover C#, .NET, architecture, and cloud engineering articles from community sources. News refreshes every three hours; videos update daily. Search up to 180 days of history, or save a story for later.</p>
+        <p><a href="/videos/">Watch and learn →</a> · <a href="/index.xml">Subscribe with RSS</a></p>
+      </header>
 
       {{ partial "discovery-controls" (dict "label" "Filter stories" "placeholder" "Search articles" "defaultType" "article" "homeContext" true) }}
       <aside class="ai-hub-notice">

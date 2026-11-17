@@ -1,3 +1,8 @@
 Feed: https://ardalis.com/rss.xml
 Title: Ardalis
 Website: https://ardalis.com/blog
+Description: Clean Architecture, design patterns, and maintainable .NET applications.
+Topics:
+- .NET
+- Architecture
+- Testing

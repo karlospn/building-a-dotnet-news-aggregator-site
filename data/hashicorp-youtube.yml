@@ -1,3 +1,8 @@
 Feed: https://www.youtube.com/@HashiCorp
 Title: HashiCorp Youtube Channel
 Website: https://www.youtube.com/@HashiCorp
+Description: Infrastructure automation, provisioning, and secrets management demonstrations.
+Topics:
+- Infrastructure as Code
+- DevOps
+- Security

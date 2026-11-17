@@ -47,6 +47,7 @@ def read_content_item(path):
         or fallback_thumbnail(metadata["topics"], metadata["contentType"]),
         "readingMinutes": metadata.get("readingMinutes"),
         "duration": metadata.get("duration", ""),
+        **{key: metadata.get(key) for key in ("language", "languageInferred", "durationSeconds", "videoFormat", "aiRelevance")},
         "rank": metadata.get("rank", 0),
         "whyItMatters": metadata.get("whyItMatters", ""),
         "summary": summary,

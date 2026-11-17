@@ -5,11 +5,13 @@ import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from functools import lru_cache
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
 import yaml
 from bs4 import BeautifulSoup
+from content_quality import discovery_metadata, editorial_overrides, publisher_reading_minutes, select_excerpt
 
 
 SITE_ROOT = Path("site/dotnetramblings")
@@ -100,6 +102,7 @@ def parse_yml_files(file_paths):
                 "website": website_url,
                 "description": data.get("Description", ""),
                 "author": data.get("Author", ""),
+                "topics": data.get("Topics", []),
             }
         )
     return sources
@@ -178,21 +181,22 @@ def extract_entry_image(entry, article_url):
 
 def enrich_item(item):
     title = normalize_title(item["title"])
-    summary = summarize(item.get("summary", ""))
+    override = editorial_overrides().get(canonicalize_url(item["url"]), {})
+    summary = summarize(override.get("summary") or select_excerpt(item.get("summary", ""), item.get("content", "")))
     title_topics = classify_topics(title, include_general=False)
     contextual_topics = classify_topics(
-        " ".join((summary, item.get("source_title", ""), item.get("source_description", ""))),
+        summary,
         include_general=False,
     )
-    topics = list(dict.fromkeys(title_topics + contextual_topics))[:3] or ["General"]
+    topics = override.get("topics") or list(dict.fromkeys(title_topics + contextual_topics))[:3] or ["General"]
     ai_subtopics = classify_ai_subtopics(title, summary) if "AI" in topics else []
     fallback_image = fallback_thumbnail(topics, item.get("content_type", "article"))
     image = item.get("image") or fallback_image
     full_content = sanitize_html(item.get("content", ""))
-    reading_minutes = (
+    reading_minutes = publisher_reading_minutes(item.get("summary", "")) or (
         max(1, round(len(full_content.split()) / 220))
         if len(full_content.split()) >= 150
-        else 0
+        else item.get("reading_minutes", 0)
     )
     rank = 50 + min(len(summary) // 80, 5) + min(len(topics) * 2, 8)
     if image and image != "images/misc.png":
@@ -214,6 +218,7 @@ def enrich_item(item):
             "why_it_matters": _why_it_matters(topics, item.get("content_type", "article")),
         }
     )
+    item.update(discovery_metadata(title, summary, topics, item.get("content_type", "article"), item.get("duration", ""), item.get("language", ""), override))
     return item
 
 
@@ -250,6 +255,7 @@ def convert_rss_data_to_md(item):
         "fallbackThumbnail": item["fallback_thumbnail"],
         "readingMinutes": item.get("reading_minutes") or None,
         "duration": item.get("duration") or None,
+        **{key: item.get(key) for key in ("language", "languageInferred", "durationSeconds", "videoFormat", "aiRelevance")},
         "rank": item["rank"],
         "featured": item.get("featured", False),
         "whyItMatters": item["why_it_matters"],
@@ -271,10 +277,15 @@ def convert_rss_data_to_md(item):
     )
 
 
+@lru_cache(maxsize=1)
+def topic_config():
+    with open("config/thumbnail_config.yml", "r", encoding="utf-8") as file:
+        return yaml.safe_load(file)
+
+
 def classify_topics(text, include_general=True):
     normalized = text.lower()
-    with open("config/thumbnail_config.yml", "r", encoding="utf-8") as file:
-        config = yaml.safe_load(file)
+    config = topic_config()
 
     topics = []
     for item in config["keywords"]:
@@ -473,8 +484,7 @@ def _extract_open_graph_image(url):
 def fallback_thumbnail(topics, content_type="article"):
     if content_type == "video":
         return "images/youtube.png"
-    with open("config/thumbnail_config.yml", "r", encoding="utf-8") as file:
-        config = yaml.safe_load(file)
+    config = topic_config()
     for item in config["keywords"]:
         if item.get("topic") in topics:
             return item["image"]

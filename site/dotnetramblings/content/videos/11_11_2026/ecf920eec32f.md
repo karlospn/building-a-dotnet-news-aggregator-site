@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 2071
+videoFormat: other
+aiRelevance: general
 ---
 Modernizing an application is more than moving it to the cloud—it creates the foundation for what comes next. In this session, we'll ...
 

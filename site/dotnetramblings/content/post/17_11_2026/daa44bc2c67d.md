@@ -24,6 +24,10 @@ featured: true
 whyItMatters: Worth a read for developers following .NET and AI.
 showShare: false
 showReadTime: false
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: dotnet
 ---
 Microsoft.Extensions.AI gives .NET one set of abstractions for talking to AI providers. This post builds a console chatbot with IChatClient, streaming responses and conversation history. It then adds typed, structured output and handles rate limits, so the demo holds up on a free-tier model.
 

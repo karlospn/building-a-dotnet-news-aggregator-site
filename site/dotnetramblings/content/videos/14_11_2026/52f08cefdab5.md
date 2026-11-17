@@ -19,6 +19,12 @@ featured: true
 whyItMatters: Worth a watch for developers following Security.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+durationSeconds: 41
+videoFormat: clip
+aiRelevance: general
 ---
 Everyone's a target. The question isn't if you'll be breached—it's how fast you can contain it. Learn the containment-first security ...
 

@@ -19,6 +19,12 @@ featured: false
 whyItMatters: Worth a watch for developers following Azure.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+durationSeconds: 84
+videoFormat: clip
+aiRelevance: general
 ---
 Quick overview of the secure, isolated by default networking solution for Azure.
 

@@ -1,0 +1,46 @@
+- title: Build your first C# chat app
+  effort: 45–90 minutes
+  reviewed: '2026-11-17'
+  prerequisites: Basic C#, async/await, a .NET SDK supported by the quickstart, and an OpenAI or Azure OpenAI model connection. Hosted API usage may incur charges.
+  outcome: A console chat application that remembers the conversation and streams responses.
+  steps:
+    - text: Create the console project, add the AI packages, and configure your model connection.
+      label: Follow the .NET chat quickstart
+      url: https://learn.microsoft.com/dotnet/ai/quickstarts/build-chat-app
+    - text: Use the chat abstraction to send messages, preserve conversation history, and display streamed responses.
+    - text: Ask a follow-up question that depends on an earlier answer, then check what happens when the model connection is unavailable.
+- title: Give a .NET assistant a tool
+  effort: 1–2 hours
+  reviewed: '2026-11-17'
+  prerequisites: Complete the chat path first; use a model that supports function calling and the SDK requirements in the Semantic Kernel guide.
+  outcome: A C# assistant that can invoke a small local function through a Semantic Kernel plugin.
+  steps:
+    - text: Configure a kernel and run the introductory conversation example.
+      label: Start with Semantic Kernel
+      url: https://learn.microsoft.com/semantic-kernel/get-started/quick-start-guide
+    - text: Add a plugin with one clearly described function, such as looking up a sample product's availability.
+      label: Learn how plugins work
+      url: https://learn.microsoft.com/semantic-kernel/concepts/plugins/
+    - text: Ask questions that should and should not call the function. Inspect the arguments and returned result to understand the behavior.
+- title: Connect a C# tool through MCP
+  effort: 1–2 hours
+  reviewed: '2026-11-17'
+  prerequisites: C#, basic process I/O, and the .NET SDK required by the current MCP C# SDK. A model is optional for testing client/server calls.
+  outcome: A local MCP server exposing one tool, with a client that discovers and invokes it.
+  steps:
+    - text: Follow the SDK's server example and expose a simple read-only tool, such as returning sample weather data.
+      label: Open the official C# SDK examples
+      url: https://github.com/modelcontextprotocol/csharp-sdk
+    - text: Connect a client over standard input/output, list available tools, and invoke your tool with explicit arguments.
+    - text: Try invalid arguments and a stopped server. Confirm the client reports those failures clearly before connecting it to an assistant.
+- title: Run a model locally from C#
+  effort: 45–90 minutes, plus model download
+  reviewed: '2026-11-17'
+  prerequisites: Basic C#, Ollama installed, sufficient memory for your chosen model, and the .NET SDK required by OllamaSharp.
+  outcome: A local C# chat application that talks to an Ollama model without a hosted inference API.
+  steps:
+    - text: Install Ollama, download a model that fits your machine, and confirm it responds locally.
+      label: Follow the OllamaSharp setup guide
+      url: https://github.com/awaescher/OllamaSharp
+    - text: Add OllamaSharp to a console project, select the local model, and stream a response into the terminal.
+    - text: Preserve chat history and compare response time on two prompts. Try a smaller model if memory use or latency is too high.

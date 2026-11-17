@@ -1,3 +1,7 @@
 Feed: https://www.youtube.com/@NedintheCloud
 Title: Ned in the Cloud
 Website: https://nedinthecloud.com/
+Description: Cloud infrastructure, Terraform, and platform engineering tutorials.
+Topics:
+- Azure
+- Infrastructure as Code

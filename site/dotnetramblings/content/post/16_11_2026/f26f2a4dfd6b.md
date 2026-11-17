@@ -18,6 +18,11 @@ featured: false
 whyItMatters: Worth a read for developers following AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: und
+languageInferred: false
+videoFormat: ''
+aiRelevance: general
 ---
 We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.
 

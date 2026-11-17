@@ -88,8 +88,10 @@ def get_youtube_data(source, youtube=None, now=None):
 
     ids = [video["id"]["videoId"] for video in recent]
     durations = {}
+    video_details = {}
     if ids:
-        details = youtube.videos().list(part="contentDetails", id=",".join(ids)).execute()
+        details = youtube.videos().list(part="contentDetails,snippet", id=",".join(ids)).execute()
+        video_details = {item["id"]: item.get("snippet", {}) for item in details.get("items", [])}
         durations = {
             item["id"]: _format_duration(item["contentDetails"].get("duration"))
             for item in details.get("items", [])
@@ -97,8 +99,8 @@ def get_youtube_data(source, youtube=None, now=None):
 
     items = []
     for video in recent:
-        snippet = video["snippet"]
         video_id = video["id"]["videoId"]
+        snippet = {**video["snippet"], **video_details.get(video_id, {})}
         thumbnail = (
             snippet.get("thumbnails", {}).get("high")
             or snippet.get("thumbnails", {}).get("medium")
@@ -117,6 +119,7 @@ def get_youtube_data(source, youtube=None, now=None):
             "content_type": "video",
             "image": thumbnail,
             "duration": durations.get(video_id, ""),
+            "language": snippet.get("defaultAudioLanguage", ""),
         }
         items.append(enrich_item(item))
 

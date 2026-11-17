@@ -27,6 +27,14 @@
     </label>
   {{ end }}
   {{ if $showAISubtopics }}
+    <label class="select-control">
+      <span>Coverage</span>
+      <select data-relevance-select>
+        <option value="dotnet" selected>Building AI with .NET</option>
+        <option value="general">Broader AI news</option>
+        <option value="all">All AI coverage</option>
+      </select>
+    </label>
     <label class="select-control ai-subtopic-control">
       <span>AI focus</span>
       <select data-ai-subtopic-select>
@@ -42,11 +50,29 @@
       <span>Topic</span>
       <select data-topic-select>
         <option value="all">All topics</option>
-        {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" }}
+        {{ range slice ".NET" "Azure" "AWS" "AI" "DevOps" "Containers" "Architecture" "Security" "Data" "Testing" "Infrastructure as Code" "Visual Studio" "Python" "General" }}
           <option value="{{ . | urlize }}">{{ if and $homeContext (eq . "AI") }}.NET + AI{{ else }}{{ . }}{{ end }}</option>
         {{ end }}
       </select>
     </label>
+  {{ end }}
+  {{ if $videoOnly }}
+    <label class="select-control"><span>Coverage</span><select data-relevance-select>
+      <option value="all">All developer videos</option><option value="dotnet">.NET development</option><option value="general">Broader technology</option>
+    </select></label>
+  {{ end }}
+  {{ if or $videoOnly $showAISubtopics }}
+    <label class="select-control"><span>Language</span><select data-language-select>
+      <option value="all">All languages</option>
+      {{ range $code, $label := site.Data.discovery.languages }}<option value="{{ $code }}">{{ $label }}</option>{{ end }}
+    </select></label>
+    <label class="select-control"><span>Video length</span><select data-duration-select>
+      <option value="all">Any length</option><option value="short">Under 2 minutes</option><option value="medium">2–20 minutes</option><option value="long">20+ minutes</option><option value="unknown">Length unknown</option>
+    </select></label>
+    <label class="select-control"><span>Video format</span><select data-format-select>
+      <option value="all">All formats</option>
+      {{ range $id, $label := site.Data.discovery.formats }}<option value="{{ $id }}">{{ $label }}</option>{{ end }}
+    </select></label>
   {{ end }}
   <button type="button" class="new-filter" data-new-filter aria-pressed="false" hidden>
     New <span data-new-count></span>

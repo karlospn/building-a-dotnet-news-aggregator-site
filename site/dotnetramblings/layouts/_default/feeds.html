@@ -3,7 +3,8 @@
   <header class="directory-header">
     <p class="eyebrow">Transparent by design</p>
     <h1>Sources</h1>
-    <p>Explore the publishers and creators behind the briefing. Health reflects the latest automated check.</p>
+    <p>Explore the publishers and creators behind the briefing. Specialties describe each source's usual coverage; individual stories are tagged separately.</p>
+    <p class="metadata-note">Healthy means the last recorded feed or channel fetch succeeded, even if it found no new stories. It does not verify every article or website link. Recent items are pages retained from the past eight days; older stories remain searchable in the archive.</p>
     <div class="directory-filters">
       <input type="search" placeholder="Search sources" aria-label="Search sources" data-feed-search>
       <button type="button" class="filter-chip is-active" data-feed-type="all">All</button>
@@ -29,7 +30,7 @@
         <div class="topic-list">
           {{ range .topics }}<span class="topic-badge">{{ . }}</span>{{ end }}
         </div>
-        <p class="feed-stats">{{ len $items }} recent items{{ with .author }} · By {{ . }}{{ end }}</p>
+        <p class="feed-stats">{{ len $items }} recent {{ if eq (len $items) 1 }}item{{ else }}items{{ end }}{{ with .author }} · By {{ . }}{{ end }}</p>
         <div class="feed-card__actions">
           <a href="{{ .website }}">Visit website →</a>
           {{ if eq .source "RSS feed" }}<a href="{{ .feed }}">Raw feed</a>{{ end }}

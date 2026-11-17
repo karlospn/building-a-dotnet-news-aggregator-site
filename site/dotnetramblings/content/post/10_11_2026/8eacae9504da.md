@@ -22,8 +22,13 @@ featured: true
 whyItMatters: Worth a read for developers following .NET and AI.
 showShare: false
 showReadTime: false
+aiSubtopics: []
+language: en
+languageInferred: true
+videoFormat: ''
+aiRelevance: dotnet
 ---
-.NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. The post Announcing .NET 11 appeared first on .NET Blog .
+.NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps.
 
 - Worth a read for developers following .NET and AI.
 - Link to article: https://devblogs.microsoft.com/dotnet/announcing-dotnet-11

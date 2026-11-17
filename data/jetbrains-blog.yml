@@ -1,5 +1,8 @@
 Feed: https://blog.jetbrains.com/dotnet/feed/
 Title: JetBrains .NET Tools Blog
 Website: https://blog.jetbrains.com/dotnet/
-Description: Rider, ReSharper, dotTrace, C#, and .NET development insights.
+Description: Rider, ReSharper, profiling, and .NET development guidance.
 Author: JetBrains
+Topics:
+- .NET
+- Visual Studio

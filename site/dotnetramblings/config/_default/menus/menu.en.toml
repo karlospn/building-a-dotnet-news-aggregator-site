@@ -24,7 +24,7 @@
   weight = -106
 
 [[main]]
-  name = "Feeds"
+  name = "Sources"
   url = "feeds/"
   weight = -105
 

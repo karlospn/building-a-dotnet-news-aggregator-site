@@ -1,3 +1,7 @@
 Feed: https://devblogs.microsoft.com/visualstudio/feed/
 Title: Visual Studio Blog
 Website: https://devblogs.microsoft.com/visualstudio/
+Description: Visual Studio releases, debugging, productivity, and development workflows.
+Topics:
+- Visual Studio
+- .NET
