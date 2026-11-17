@@ -1423,7 +1423,6 @@ span.topic-badge {
 }
 
 /* Content guidance and expanded discovery controls. */
-.home-intro { max-width: 58rem; margin-bottom: 1.5rem; }
 .metadata-note, .video-details { font-size: 0.8rem; color: var(--news-muted); }
 .video-details { margin: 0 0 0.75rem; }
 .learning-path-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
