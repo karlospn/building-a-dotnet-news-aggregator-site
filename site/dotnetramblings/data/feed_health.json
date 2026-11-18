@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-11-16T16:59:35.649257+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-18T16:26:21.103246+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-11-17T16:52:21.401796+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-18T16:26:11.478323+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -174,8 +174,8 @@
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-11-17T16:52:38.893094+00:00",
-    "itemCount": 6,
+    "checkedAt": "2026-11-18T16:26:28.405197+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-11-16T16:59:26.160316+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-18T16:26:13.191252+00:00",
+    "itemCount": 8,
     "message": "",
     "status": "healthy"
   },
@@ -216,8 +216,8 @@
     "status": "healthy"
   },
   "john-savill": {
-    "checkedAt": "2026-11-16T16:59:28.809823+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-18T16:26:15.818761+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-11-17T16:52:35.592383+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-18T16:26:25.406215+00:00",
+    "itemCount": 16,
     "message": "",
     "status": "healthy"
   },
@@ -276,8 +276,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-11-17T16:52:39.536696+00:00",
-    "itemCount": 9,
+    "checkedAt": "2026-11-18T16:26:28.975301+00:00",
+    "itemCount": 11,
     "message": "",
     "status": "healthy"
   },
@@ -288,14 +288,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-11-17T16:52:36.953745+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-18T16:26:26.650729+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-11-17T16:52:24.643890+00:00",
-    "itemCount": 7,
+    "checkedAt": "2026-11-18T16:26:14.562875+00:00",
+    "itemCount": 20,
     "message": "",
     "status": "healthy"
   },
@@ -390,8 +390,8 @@
     "status": "healthy"
   },
   "techworld-with-nana": {
-    "checkedAt": "2026-11-11T15:09:36.073905+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-18T16:26:29.598354+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
