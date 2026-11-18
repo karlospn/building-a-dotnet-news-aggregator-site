@@ -210,48 +210,5 @@
       ".NET",
       "Data"
     ]
-  },
-  {
-    "id": "38d9b738ff67efb7",
-    "identityId": "reddit:/u/coderot_ai",
-    "author": "/u/coderot_ai",
-    "handle": "/u/coderot_ai",
-    "platform": "reddit",
-    "publishedAt": "2026-11-11T14:08:23+00:00",
-    "excerpt": "22 AI-heavy repos over a year: the .NET runtime and Roslyn held flat on complexity, the fast-growing ones didn't",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xtinq7/22_aiheavy_repos_over_a_year_the_net_runtime_and/",
-    "externalUrl": "https://coderot.ai/blog/ai-code-rot-in-open-source",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "4af69986eae9c043",
-    "identityId": "reddit:/u/Xadartt",
-    "author": "/u/Xadartt",
-    "handle": "/u/Xadartt",
-    "platform": "reddit",
-    "publishedAt": "2026-11-11T13:38:11+00:00",
-    "excerpt": "What's new in .NET 11?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xthyip/whats_new_in_net_11/",
-    "externalUrl": "https://substack.com/home/post/p-224418133",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "17d24324d591e953",
-    "identityId": "reddit:/u/timmywick",
-    "author": "/u/timmywick",
-    "handle": "/u/timmywick",
-    "platform": "reddit",
-    "publishedAt": "2026-11-11T13:24:39+00:00",
-    "excerpt": "Lambda's .NET 8 runtime was deprecated on Monday",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xthnsv/lambdas_net_8_runtime_was_deprecated_on_monday/",
-    "externalUrl": "https://eolwatch.pages.dev/guides/lambda-dotnet-8-deprecation",
-    "topics": [
-      ".NET"
-    ]
   }
 ]

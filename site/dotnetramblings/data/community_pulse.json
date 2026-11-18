@@ -238,48 +238,5 @@
       "AI",
       "Security"
     ]
-  },
-  {
-    "id": "e8c7868b0b297785",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-11T20:45:01.522000+00:00",
-    "excerpt": "Discover the new System.Text.Json features in .NET 11, including C# unions, closed hierarchies, enhanced source generation, and richer POCO annotations. Simplify your JSON serialization with these updates. ▶️ Watch the session: msft.it/63322ahp82 #dotnet #dotnetconf",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n22t4hw6a62s",
-    "externalUrl": "https://msft.it/63322ahp82",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "de73b24d7dad7095",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-11T16:00:00.988000+00:00",
-    "excerpt": ".NET 11 is now generally available in Azure Functions with the isolated worker model, featuring a simpler project SDK and updated tooling. 👉🏽 msft.it/63320ahpuO",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n22d6tswz32x",
-    "externalUrl": "https://msft.it/63320ahpuO",
-    "topics": [
-      ".NET",
-      "Azure"
-    ]
-  },
-  {
-    "id": "6bc5e1dbd14ad106",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-11T15:31:14+00:00",
-    "excerpt": "Stories I like: Everyone Thinks I&#39;m Hacking the FBI. I&#39;m Just Debugging CSS. https:// dev.to/ishacodes/everyone-thin ks-im-hacking-the-fbi-im-just-debugging-css-1gi3",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117598524163251930",
-    "externalUrl": "https://dev.to/ishacodes/everyone-thinks-im-hacking-the-fbi-im-just-debugging-css-1gi3",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
