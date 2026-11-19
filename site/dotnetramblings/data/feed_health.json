@@ -18,8 +18,8 @@
     "status": "healthy"
   },
   "aws-developers-youtube": {
-    "checkedAt": "2026-11-18T16:26:21.103246+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-19T16:32:44.502795+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -36,8 +36,8 @@
     "status": "healthy"
   },
   "aws-youtube": {
-    "checkedAt": "2026-11-18T16:26:11.478323+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-19T16:32:34.571176+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
@@ -54,8 +54,8 @@
     "status": "healthy"
   },
   "azure-cosmos-youtube": {
-    "checkedAt": "2026-11-13T15:23:20.571974+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-19T16:32:51.172684+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -90,8 +90,8 @@
     "status": "healthy"
   },
   "codeopinion-youtube": {
-    "checkedAt": "2026-11-17T16:52:33.158647+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-19T16:32:46.222654+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -168,14 +168,14 @@
     "status": "healthy"
   },
   "ibm-technology": {
-    "checkedAt": "2026-11-16T16:59:35.025751+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-19T16:32:43.878418+00:00",
+    "itemCount": 3,
     "message": "",
     "status": "healthy"
   },
   "infoq": {
-    "checkedAt": "2026-11-18T16:26:28.405197+00:00",
-    "itemCount": 5,
+    "checkedAt": "2026-11-19T16:32:51.811874+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-tv": {
-    "checkedAt": "2026-11-18T16:26:13.191252+00:00",
-    "itemCount": 8,
+    "checkedAt": "2026-11-19T16:32:36.360506+00:00",
+    "itemCount": 11,
     "message": "",
     "status": "healthy"
   },
@@ -234,8 +234,8 @@
     "status": "healthy"
   },
   "langchain": {
-    "checkedAt": "2026-11-18T16:26:25.406215+00:00",
-    "itemCount": 16,
+    "checkedAt": "2026-11-19T16:32:48.845851+00:00",
+    "itemCount": 17,
     "message": "",
     "status": "healthy"
   },
@@ -276,8 +276,8 @@
     "status": "healthy"
   },
   "microsoft-azure": {
-    "checkedAt": "2026-11-18T16:26:28.975301+00:00",
-    "itemCount": 11,
+    "checkedAt": "2026-11-19T16:32:52.396177+00:00",
+    "itemCount": 5,
     "message": "",
     "status": "healthy"
   },
@@ -288,14 +288,14 @@
     "status": "healthy"
   },
   "microsoft-developer": {
-    "checkedAt": "2026-11-18T16:26:26.650729+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-19T16:32:49.970611+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
   "microsoft-reactor": {
-    "checkedAt": "2026-11-18T16:26:14.562875+00:00",
-    "itemCount": 20,
+    "checkedAt": "2026-11-19T16:32:37.682896+00:00",
+    "itemCount": 19,
     "message": "",
     "status": "healthy"
   },
@@ -366,14 +366,14 @@
     "status": "healthy"
   },
   "scott-hanselman": {
-    "checkedAt": "2026-11-09T17:28:00.651070+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-19T16:32:50.602566+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
   "sswtv": {
-    "checkedAt": "2026-11-17T16:52:20.689755+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-19T16:32:33.948256+00:00",
+    "itemCount": 4,
     "message": "",
     "status": "healthy"
   },
@@ -402,8 +402,8 @@
     "status": "healthy"
   },
   "visualstudio": {
-    "checkedAt": "2026-11-14T14:07:55.612768+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-19T16:32:40.194885+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
