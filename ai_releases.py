@@ -1,8 +1,10 @@
 import json
+import logging
 import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 import yaml
@@ -37,16 +39,43 @@ def fetch_releases(repository, token=None):
         return json.load(response)
 
 
-def build_release_data(config, fetcher=fetch_releases, now=None, token=None):
+def build_release_data(
+    config, fetcher=fetch_releases, now=None, token=None, previous_records=()
+):
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=int(config.get("retention_days", 365)))
     max_per_source = int(config.get("max_releases_per_source", 24))
     records = []
+    missing_sources = 0
     for source in config["sources"]:
         pattern = re.compile(source["tag_regex"])
+        repository = source["repository"]
+        try:
+            fetched = fetcher(repository, token)
+        except HTTPError as error:
+            if error.code != 404:
+                raise
+            missing_sources += 1
+            cached = sorted(
+                (
+                    record
+                    for record in previous_records
+                    if record["repository"] == repository
+                    and pattern.search(record["tagName"])
+                    and datetime.fromisoformat(record["publishedAt"]) >= cutoff
+                ),
+                key=lambda record: record["publishedAt"],
+                reverse=True,
+            )[:max_per_source]
+            records.extend(cached)
+            logging.warning(
+                "GitHub returned 404 for %s. Retaining %d cached releases.",
+                repository, len(cached),
+            )
+            continue
         releases = [
             release
-            for release in fetcher(source["repository"], token)
+            for release in fetched
             if not release.get("draft")
             and not release.get("prerelease")
             and pattern.search(release.get("tag_name", ""))
@@ -64,6 +93,8 @@ def build_release_data(config, fetcher=fetch_releases, now=None, token=None):
                     previous_version=previous_version,
                 )
             )
+    if missing_sources and missing_sources == len(config["sources"]):
+        raise RuntimeError("GitHub returned 404 for every configured release source")
     records.sort(key=lambda item: item["publishedAt"], reverse=True)
     return records
 
@@ -169,9 +200,13 @@ def _version_text(tag):
 
 def main():
     config = load_config()
+    previous_records = []
+    if OUTPUT_PATH.exists():
+        previous_records = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
     records = build_release_data(
         config,
         token=os.getenv("GITHUB_TOKEN"),
+        previous_records=previous_records,
     )
     write_release_data(records)
     print(f"Collected {len(records)} .NET AI releases")

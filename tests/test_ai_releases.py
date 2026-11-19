@@ -1,5 +1,7 @@
 import unittest
 from datetime import datetime, timezone
+from unittest.mock import Mock
+from urllib.error import HTTPError
 
 from ai_releases import build_release_data, classify_release, summarize_release
 
@@ -39,6 +41,46 @@ class AIReleaseTests(unittest.TestCase):
 
         self.assertEqual([record["version"] for record in records], ["2.0.0", "1.2.0"])
         self.assertEqual(records[0]["changeType"], "major-release")
+
+    def test_404_retains_eligible_cached_releases_and_refreshes_other_sources(self):
+        sources = [
+            {"repository": repo, "product": repo, "tag_regex": r"^v"}
+            for repo in ("example/missing", "example/new", "example/healthy")
+        ]
+        cached = [
+            {"repository": repo, "tagName": tag, "publishedAt": date + "T00:00:00+00:00"}
+            for repo, tag, date in [
+                ("example/missing", "v1.0.0", "2025-01-01"),
+                ("example/missing", "v1.1.0", "2026-08-10"),
+                ("example/missing", "v1.2.0", "2026-08-15"),
+                ("example/missing", "preview", "2026-09-01"),
+                ("example/healthy", "v1.0.0", "2026-08-01"),
+            ]
+        ]
+        missing = HTTPError("https://api.github.com", 404, "Not Found", {}, None)
+        fetcher = Mock(side_effect=[
+            missing, missing, [self.release(2, "v2.0.0", "2026-09-10T00:00:00Z")],
+        ])
+        with self.assertLogs(level="WARNING") as logs:
+            records = build_release_data(
+                {"sources": sources, "max_releases_per_source": 1},
+                fetcher=fetcher,
+                now=datetime(2026, 9, 20, tzinfo=timezone.utc),
+                previous_records=cached,
+            )
+
+        self.assertEqual([record["tagName"] for record in records], ["v2.0.0", "v1.2.0"])
+        self.assertIn("example/missing", logs.output[0])
+        self.assertIn("example/new", logs.output[1])
+
+    def test_all_sources_unavailable_or_other_http_errors_fail_the_refresh(self):
+        config = {"sources": [{"repository": "example/sdk", "tag_regex": r"^v"}]}
+        for status, expected in [(404, RuntimeError), (403, HTTPError), (503, HTTPError)]:
+            with self.subTest(status=status), self.assertRaises(expected):
+                build_release_data(
+                    config,
+                    fetcher=Mock(side_effect=HTTPError("url", status, "error", {}, None)),
+                )
 
     def test_release_classification_uses_strong_signals(self):
         self.assertEqual(

@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:449033976",
+    "product": "Anthropic C# SDK",
+    "version": "13.10.0",
+    "tagName": "Anthropic-v13.10.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-17T18:28:03+00:00",
+    "title": "Anthropic C# SDK 13.10.0",
+    "summary": "api: add beta support for the billingpolicy request parameter api: add contractspendlimitreached error code to messages api: add error codes for linked billing refusals api: add the userprofilebillingnotauthorized error code api: add webhook events for external key failure and…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.10.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:447322790",
     "product": "Anthropic C# SDK",
     "version": "13.9.0",
@@ -906,25 +925,6 @@
     ],
     "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.10.1",
     "repository": "dotnet/extensions",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:393933756",
-    "product": "Anthropic C# SDK",
-    "version": "12.50.0",
-    "tagName": "Anthropic-v12.50.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-22T16:32:16+00:00",
-    "title": "Anthropic C# SDK 12.50.0",
-    "summary": "api: add support for claude-opus-5-5, inline tool definitions and MCP tool-list pinning (beta) (f9c7c55) api: share one evaluatedpermission enum across Managed Agents events (783d859) tools: AddTools takes effect straight away (#250) (ec16fde) tools: leave reply-only params off…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.50.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
