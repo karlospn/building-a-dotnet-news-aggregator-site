@@ -195,20 +195,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "f596b65936c63bc2",
-    "identityId": "reddit:/u/1Barista13",
-    "author": "/u/1Barista13",
-    "handle": "/u/1Barista13",
-    "platform": "reddit",
-    "publishedAt": "2026-11-12T06:16:16+00:00",
-    "excerpt": "How can I develop my skills in ASP.NET Core Web API, EF Core, and SQL Server?",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xu5bc7/how_can_i_develop_my_skills_in_aspnet_core_web/",
-    "externalUrl": "http://asp.net/",
-    "topics": [
-      ".NET",
-      "Data"
-    ]
   }
 ]
