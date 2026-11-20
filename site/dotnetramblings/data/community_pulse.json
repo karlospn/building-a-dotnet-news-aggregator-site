@@ -1,5 +1,44 @@
 [
   {
+    "id": "ab9002fca2ae2644",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-19T18:27:15+00:00",
+    "excerpt": "EF Core is powerful. Like a toddler with a chainsaw. Learn how to supervise it: shawnl.ink/ps-efinte... #dotnet #efcore",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n2op5iup652h",
+    "externalUrl": "https://shawnl.ink/ps-efinternals",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117644514779144359"
+      },
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117632961358410134"
+      }
+    ]
+  },
+  {
+    "id": "47fca14a70db3b2d",
+    "identityId": "brad-wilson",
+    "author": "Brad Wilson",
+    "handle": "Brad Wilson",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-19T17:37:28+00:00",
+    "excerpt": "Very surprised to discover that `dotnet pack` is broken with .NET 11 SDK for all three package-producing xUnit.net projects. https:// github.com/NuGet/Home/issues/1 5154 # DotNet # NuGet",
+    "postUrl": "https://mastodon.social/@bradwilson/117644319024346994",
+    "externalUrl": "https://github.com/NuGet/Home/issues/15154",
+    "topics": [
+      ".NET",
+      "Testing"
+    ]
+  },
+  {
     "id": "836597c255b6d41e",
     "identityId": "dotnet",
     "author": ".NET",
@@ -41,31 +80,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "a7cfaf9b0d3b3e4d",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-17T17:29:04+00:00",
-    "excerpt": "EF internals: because sometimes you need to know why EF decided to SELECT the entire database. -> shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n2jkxno42q2v",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET",
-      "Data"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117632961358410134"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604878658828787"
-      }
     ]
   },
   {
@@ -155,72 +169,6 @@
       ".NET",
       "Data",
       "Security"
-    ],
-    "alsoOn": [
-      {
-        "platform": "bluesky",
-        "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n27ft2drk42g"
-      }
-    ]
-  },
-  {
-    "id": "0339a0a7b60c402a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-12T21:45:02.245000+00:00",
-    "excerpt": "Explore the power of small AI models running locally with .NET! Join the session for demos on Foundry Local, balancing speed, cost, and capability—all from a C# developer's perspective. 🎥 Watch here: msft.it/63329x6BFf #dotnet #dotnetconf",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n25gwpbpzt2t",
-    "externalUrl": "https://msft.it/63329x6BFf",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "1c0142546a3be327",
-    "identityId": "avalonia",
-    "author": "Avalonia UI",
-    "handle": "avaloniaui.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-12T16:15:23.209009+00:00",
-    "excerpt": "We gave out disposable cameras to everyone who joined us in Tallinn last week. The photos just came back today, and the results are lovely. Here are a few of our favorites! Want to join us next year? Check out our open roles: avaloniaui.net/careers#ope...",
-    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3n24ujaelsc2d",
-    "externalUrl": "https://avaloniaui.net/careers",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://dotnet.social/@avaloniaui/117604359910381702"
-      }
-    ]
-  },
-  {
-    "id": "c27711f96080b322",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-12T15:43:00+00:00",
-    "excerpt": "AI makes it easy to build the wrong thing quickly. This course teaches you how to build the right thing deliberately:",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n24spetfxz24",
-    "externalUrl": "https://timeofclaudecourse.com/",
-    "topics": [
-      ".NET",
-      "AI"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117604232738278242"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117602589116465687"
-      }
     ]
   }
 ]

@@ -181,19 +181,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "424098ca5a54e12b",
-    "identityId": "reddit:/u/ggende",
-    "author": "/u/ggende",
-    "handle": "/u/ggende",
-    "platform": "reddit",
-    "publishedAt": "2026-11-12T22:38:30+00:00",
-    "excerpt": "Request: Help me improve the syntax for my templating engine",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xur05m/request_help_me_improve_the_syntax_for_my/",
-    "externalUrl": "https://old.reddit.com/r/dotnet/comments/1xkojzn/ive_made_a_fast_zero_allocation_aot_compatible",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
