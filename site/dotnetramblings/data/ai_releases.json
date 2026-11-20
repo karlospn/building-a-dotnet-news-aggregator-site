@@ -1,5 +1,61 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:452891897",
+    "product": "Anthropic C# SDK",
+    "version": "13.12.0",
+    "tagName": "Anthropic-v13.12.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-20T15:57:23+00:00",
+    "title": "Anthropic C# SDK 13.12.0",
+    "summary": "api: add the imagedimensionstoolarge error code client: keep enum member numbers stable across versions Enum members keep the numbers they had in 13.11.0. Recompile any library that was built against 13.10.0 or earlier. client: send one user profile ID when the request and the…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.12.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
+    "id": "dotnet/extensions:452172977",
+    "product": "Microsoft.Extensions.AI",
+    "version": "10.11.1",
+    "tagName": "v10.11.1",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-20T02:02:24+00:00",
+    "title": "Microsoft.Extensions.AI 10.11.1",
+    "summary": "This servicing release removes unsupported-TFM package warnings and clarifies framework compatibility notices. It does not change supported frameworks or republish the project templates. The release includes 41 stable packages and nine preview packages. | Package | Version |…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v10.11.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
+    "id": "anthropics/anthropic-sdk-csharp:451814219",
+    "product": "Anthropic C# SDK",
+    "version": "13.11.0",
+    "tagName": "Anthropic-v13.11.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-19T19:16:00+00:00",
+    "title": "Anthropic C# SDK 13.11.0",
+    "summary": "api: add Claude Code managed settings to the Admin API api: add the sandboxegressrestricted error to Admin API plugin methods client: throw if a library was built against another major version After you upgrade, building a client throws AnthropicException if your app has a…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.11.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:449033976",
     "product": "Anthropic C# SDK",
     "version": "13.10.0",
@@ -853,25 +909,6 @@
     "official": true
   },
   {
-    "id": "anthropics/anthropic-sdk-csharp:400340328",
-    "product": "Anthropic C# SDK",
-    "version": "12.52.0",
-    "tagName": "Anthropic-v12.52.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-30T18:47:19+00:00",
-    "title": "Anthropic C# SDK 12.52.0",
-    "summary": "api: add a refusal stop reason and stopdetails to Managed Agents session idle events (de3c72d) api: add Claude Enterprise analytics, spend limits, and RBAC groups and roles to the Admin API (35e80fc) api: add per-user usage and cost reports to the Admin API analytics (69db0bf)…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.52.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
     "id": "awaescher/OllamaSharp:399784104",
     "product": "OllamaSharp",
     "version": "5.5.0",
@@ -889,25 +926,6 @@
     "sourceUrl": "https://github.com/awaescher/OllamaSharp/releases/tag/5.5.0",
     "repository": "awaescher/OllamaSharp",
     "official": false
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:398496851",
-    "product": "Anthropic C# SDK",
-    "version": "12.51.0",
-    "tagName": "Anthropic-v12.51.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-28T18:04:44+00:00",
-    "title": "Anthropic C# SDK 12.51.0",
-    "summary": "api: add betweentools thinking type (7cb59af) api: add claude-sonnet-5-5 (26ad891) api: add includeinherited and source to workspace rate limits (bc781fc) api: add typed event type values to the Managed Agents events list filter (51c641e) api: cache diagnostics GA — diagnostics…",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.51.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
   },
   {
     "id": "dotnet/extensions:396752693",
