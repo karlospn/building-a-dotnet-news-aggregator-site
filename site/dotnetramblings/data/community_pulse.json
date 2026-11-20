@@ -1,5 +1,19 @@
 [
   {
+    "id": "a1f09c88b363c9d5",
+    "identityId": "scott-hanselman",
+    "author": "Scott Hanselman",
+    "handle": "scott.hanselman.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-20T17:52:06.145000+00:00",
+    "excerpt": "Made this for PowerShell users who can’t get DOS out of their hands’ muscle memory. Try it out and file issues. I’m finding it super useful github.com/shanselman/P...",
+    "postUrl": "https://bsky.app/profile/scott.hanselman.com/post/3n2r5nk4yxs2p",
+    "externalUrl": "https://github.com/shanselman/PSforMuscleMemory",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "ab9002fca2ae2644",
     "identityId": "shawn-wildermuth",
     "author": "Shawn Wildermuth",
@@ -153,22 +167,6 @@
     "topics": [
       ".NET",
       "AI"
-    ]
-  },
-  {
-    "id": "96531509b4da1257",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "Shawn Wildermuth (🇺🇦++)",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-13T16:30:26+00:00",
-    "excerpt": "Stories I like: PostgreSQL Row-Level Security With EF Core and Npgsql https:// milanjovanovic.tech/blog/postg res-row-level-security-with-ef-core?via=dailydev",
-    "postUrl": "https://fosstodon.org/@shawnwildermuth/117610081571116002",
-    "externalUrl": "https://milanjovanovic.tech/blog/postgres-row-level-security-with-ef-core?via=dailydev",
-    "topics": [
-      ".NET",
-      "Data",
-      "Security"
     ]
   }
 ]

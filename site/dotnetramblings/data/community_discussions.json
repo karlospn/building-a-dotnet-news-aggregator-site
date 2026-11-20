@@ -139,47 +139,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "6f87299958034722",
-    "identityId": "reddit:/u/JumpLegitimate8762",
-    "author": "/u/JumpLegitimate8762",
-    "handle": "/u/JumpLegitimate8762",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T20:32:05+00:00",
-    "excerpt": "Enframe: .NET 11 AOT sidecar that wraps any OpenAPI spec to an MCP server",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xviv2t/enframe_net_11_aot_sidecar_that_wraps_any_openapi/",
-    "externalUrl": "https://github.com/erwinkramer/enframe",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "8f38c0b59e45de73",
-    "identityId": "reddit:/u/JumpLegitimate8762",
-    "author": "/u/JumpLegitimate8762",
-    "handle": "/u/JumpLegitimate8762",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T20:16:55+00:00",
-    "excerpt": "Bank API, reference project: .NET 11 update + OpenAPI 3.2 compliant",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvihdt/bank_api_reference_project_net_11_update_openapi/",
-    "externalUrl": "https://github.com/erwinkramer/bank-api",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "bf7c1c3e9eafa4c5",
-    "identityId": "reddit:/u/Userware",
-    "author": "/u/Userware",
-    "handle": "/u/Userware",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T18:10:15+00:00",
-    "excerpt": "C# 15 \"unsafe\" code: interactive tutorial + WebAssembly online playground",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvf5j5/c_15_unsafe_code_interactive_tutorial_webassembly/",
-    "externalUrl": "https://xaml.io/s/Samples/UnsafeCodeTutorial?autorun=true&file=StartHere.cs",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
