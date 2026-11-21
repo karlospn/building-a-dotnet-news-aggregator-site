@@ -1,5 +1,23 @@
 [
   {
+    "id": "dotnet/extensions:453366510",
+    "product": "Microsoft.Extensions.AI",
+    "version": "11.0.1",
+    "tagName": "v11.0.1",
+    "changeType": "major-release",
+    "publishedAt": "2026-11-21T04:25:26+00:00",
+    "title": "Microsoft.Extensions.AI 11.0.1",
+    "summary": "This servicing release updates the OpenAI SDK used by Microsoft.Extensions.AI.OpenAI to 2.15.0. It also fixes GenAI telemetry modality reporting, route parameter redaction in Microsoft.AspNetCore.Diagnostics.Middleware, HybridCache invalidation, and AI template dependencies.…",
+    "breaking": true,
+    "technologies": [
+      ".NET",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/dotnet/extensions/releases/tag/v11.0.1",
+    "repository": "dotnet/extensions",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:452891897",
     "product": "Anthropic C# SDK",
     "version": "13.12.0",
