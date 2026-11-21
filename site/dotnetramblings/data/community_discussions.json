@@ -82,48 +82,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "fa01930f19fea187",
-    "identityId": "reddit:/u/jkur1234",
-    "author": "/u/jkur1234",
-    "handle": "/u/jkur1234",
-    "platform": "reddit",
-    "publishedAt": "2026-11-14T19:46:36+00:00",
-    "excerpt": "TenantGuard 1.0: finding tenant isolation mistakes in EF Core",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xwbgjx/tenantguard_10_finding_tenant_isolation_mistakes/",
-    "externalUrl": "https://github.com/jimmykurian/tenantguard",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "5fa3fb8a8e3c3dd6",
-    "identityId": "reddit:/u/deadtime",
-    "author": "/u/deadtime",
-    "handle": "/u/deadtime",
-    "platform": "reddit",
-    "publishedAt": "2026-11-14T16:48:50+00:00",
-    "excerpt": "GitHub - io7/FreePDF: MIT-licensed continuation of PDFsharp and MigraDoc for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xw720k/github_io7freepdf_mitlicensed_continuation_of/",
-    "externalUrl": "https://github.com/io7/FreePDF",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "eadf5d15aed7a55e",
-    "identityId": "reddit:/u/Southern-Holiday-437",
-    "author": "/u/Southern-Holiday-437",
-    "handle": "/u/Southern-Holiday-437",
-    "platform": "reddit",
-    "publishedAt": "2026-11-14T16:15:27+00:00",
-    "excerpt": "Looking for Contributors: An Alternative .NET Agent Framework",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xw68hx/looking_for_contributors_an_alternative_net_agent/",
-    "externalUrl": "https://github.com/HPD-AI/HPD-AI-Framework",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
   }
 ]

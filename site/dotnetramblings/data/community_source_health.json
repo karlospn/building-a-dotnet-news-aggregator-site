@@ -45,7 +45,7 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 6,
+    "candidates": 7,
     "published": 1
   },
   {
@@ -87,7 +87,7 @@
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 4,
+    "candidates": 3,
     "published": 1
   },
   {
@@ -115,7 +115,7 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "error",
-    "error": "HTTP 429",
-    "published": 9
+    "error": "HTTP 404",
+    "published": 6
   }
 ]
