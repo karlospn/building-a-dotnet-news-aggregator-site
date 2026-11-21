@@ -125,19 +125,5 @@
       ".NET",
       "AI"
     ]
-  },
-  {
-    "id": "fa3fe1f96cbfe666",
-    "identityId": "reddit:/u/Boarlock98",
-    "author": "/u/Boarlock98",
-    "handle": "/u/Boarlock98",
-    "platform": "reddit",
-    "publishedAt": "2026-11-13T22:33:47+00:00",
-    "excerpt": "Built a lock free, thread-safe, token bucket rate limiter for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xvlwmg/built_a_lock_free_threadsafe_token_bucket_rate/",
-    "externalUrl": "https://github.com/Boarlock/TokenRateLimiter",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
