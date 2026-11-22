@@ -26,47 +26,5 @@
     "topics": [
       ".NET"
     ]
-  },
-  {
-    "id": "de510bd20a725fdd",
-    "identityId": "reddit:/u/rust-cohle_",
-    "author": "/u/rust-cohle_",
-    "handle": "/u/rust-cohle_",
-    "platform": "reddit",
-    "publishedAt": "2026-11-15T18:33:57+00:00",
-    "excerpt": "C#'s rules for top-level statements turned out to be a great fit for a reactive notebook, so I built one",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xx2zjb/cs_rules_for_toplevel_statements_turned_out_to_be/",
-    "externalUrl": "https://i.redd.it/9ccpay45lt1i1.gif",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "319f811910ef2f74",
-    "identityId": "reddit:/u/smilaise",
-    "author": "/u/smilaise",
-    "handle": "/u/smilaise",
-    "platform": "reddit",
-    "publishedAt": "2026-11-15T17:00:16+00:00",
-    "excerpt": "KillerPdf.Engine 1.9.3: a from-scratch PDF 2.0 engine for .NET 10 now reads EPUB and DjVu, does ICC color management and printer proofing, and is fully managed",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xx0kae/killerpdfengine_193_a_fromscratch_pdf_20_engine/",
-    "externalUrl": "https://github.com/SteveTheKiller/KillerPDF/tree/main/engine",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "85c4b6b18c7d3796",
-    "identityId": "reddit:/u/manuc66",
-    "author": "/u/manuc66",
-    "handle": "/u/manuc66",
-    "platform": "reddit",
-    "publishedAt": "2026-11-15T15:41:58+00:00",
-    "excerpt": "LexiSharp 1.0.0 - A composable information retrieval toolkit for .NET",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1xwylec/lexisharp_100_a_composable_information_retrieval/",
-    "externalUrl": "https://github.com/manuc66/LexiSharp",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
