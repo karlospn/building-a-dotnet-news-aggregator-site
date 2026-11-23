@@ -31,7 +31,7 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 1,
+    "candidates": 0,
     "published": 0
   },
   {
@@ -116,6 +116,6 @@
     "platform": "reddit",
     "status": "error",
     "error": "HTTP 404",
-    "published": 2
+    "published": 0
   }
 ]
