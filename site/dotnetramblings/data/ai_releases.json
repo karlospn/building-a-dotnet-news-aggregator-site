@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:455832577",
+    "product": "Anthropic C# SDK",
+    "version": "13.13.0",
+    "tagName": "Anthropic-v13.13.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-23T18:36:08+00:00",
+    "title": "Anthropic C# SDK 13.13.0",
+    "summary": "api: add an error code to Message Batches creation api: add External Storage to the Admin API beta api: add webhook events for external storage failure and recovery api: use 64-bit integers for Managed Agents usage token counts client: pick the right union variant when it holds…",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.13.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "dotnet/extensions:453366510",
     "product": "Microsoft.Extensions.AI",
     "version": "11.0.1",
@@ -905,25 +924,6 @@
     ],
     "sourceUrl": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.23.0",
     "repository": "microsoft/agent-framework",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:400496244",
-    "product": "Anthropic C# SDK",
-    "version": "12.53.0",
-    "tagName": "Anthropic-v12.53.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-09-30T22:58:08+00:00",
-    "title": "Anthropic C# SDK 12.53.0",
-    "summary": "api: add list spend limits endpoint (a56d638) api: mark Claude Sonnet 4.5 as deprecated (end-of-life November 30, 2026) (ad62506)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.53.0",
-    "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
   {
