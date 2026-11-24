@@ -6,8 +6,8 @@
     "status": "healthy"
   },
   "andrewlock": {
-    "checkedAt": "2026-11-05T01:11:17.173688+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T18:18:35.261638+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -138,8 +138,8 @@
     "status": "healthy"
   },
   "elmahio": {
-    "checkedAt": "2026-11-19T02:08:51.271026+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T18:18:36.915118+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -185,6 +185,12 @@
     "message": "",
     "status": "healthy"
   },
+  "irina-dominte": {
+    "checkedAt": "2026-11-24T18:18:26.960294+00:00",
+    "itemCount": 1,
+    "message": "",
+    "status": "healthy"
+  },
   "james-montemagno-youtube": {
     "checkedAt": "2026-11-23T19:13:57.785991+00:00",
     "itemCount": 1,
@@ -192,8 +198,8 @@
     "status": "healthy"
   },
   "jeremydmiller": {
-    "checkedAt": "2026-11-17T15:12:49.109949+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T18:18:44.932407+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -258,8 +264,8 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-11-24T07:39:59.276825+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-24T18:18:28.075634+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -282,8 +288,8 @@
     "status": "healthy"
   },
   "microsoft-devblogs": {
-    "checkedAt": "2026-11-23T23:05:51.995988+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-24T18:18:44.453479+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
@@ -396,8 +402,8 @@
     "status": "healthy"
   },
   "visual-studio-blog": {
-    "checkedAt": "2026-11-21T18:28:32.584009+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T18:18:43.689106+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
