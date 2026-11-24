@@ -4,7 +4,7 @@ import re
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlencode, urlparse
 from urllib.request import Request, urlopen
 
 import feedparser
@@ -22,7 +22,7 @@ SOURCES_PATH = Path("site/dotnetramblings/data/community_sources.json")
 HEALTH_PATH = Path("site/dotnetramblings/data/community_source_health.json")
 ARCHIVE_PATH = Path("site/dotnetramblings/static/archive.json")
 BLUESKY_API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
-REDDIT_FEED = "https://www.reddit.com/r/dotnet/new/.rss"
+HN_SEARCH = "https://hn.algolia.com/api/v1/search_by_date"
 SOCIAL_HOSTS = {
     "bsky.app",
     "public.api.bsky.app",
@@ -67,7 +67,7 @@ def fetch_mastodon(feed_url):
     return parsed
 
 
-def fetch_reddit(feed_url=REDDIT_FEED):
+def fetch_reddit(feed_url):
     parsed = feedparser.parse(
         feed_url,
         request_headers={"User-Agent": "DotNetRamblings/1.0 (community links; GitHub: karlospn)"},
@@ -85,14 +85,21 @@ def parse_reddit(parsed):
     items = []
     for entry in parsed.entries:
         post_url = entry.get("link", "")
-        if urlparse(post_url).netloc.lower() not in SOCIAL_HOSTS:
+        post = urlparse(post_url)
+        if (post.scheme != "https" or post.hostname not in {"reddit.com", "www.reddit.com"}
+                or not post.path.startswith("/r/dotnet/comments/")):
             continue
         content = entry.get("summary", "")
         soup = BeautifulSoup(content, "html.parser")
+        markers = {"[removed]", "[deleted]"}
+        if (entry.get("author") in markers or entry.get("title") in markers
+                or not markers.isdisjoint(soup.stripped_strings)):
+            continue
         urls = _external_urls(
             [anchor.get("href", "") for anchor in soup.find_all("a")],
             excluded_host=urlparse(post_url).netloc.lower(),
         )
+        urls = [url for url in urls if not _is_reddit_link(url)]
         if not urls:
             continue
         author = entry.get("author", "Reddit member")
@@ -108,6 +115,56 @@ def parse_reddit(parsed):
             )
         )
     return [item for item in items if item]
+
+
+def _is_reddit_link(url):
+    host = urlparse(url).hostname or ""
+    return any(
+        host == domain or host.endswith("." + domain)
+        for domain in ("reddit.com", "redd.it", "redditmedia.com", "redditstatic.com")
+    )
+
+
+def fetch_hacker_news(terms, cutoff):
+    hits = {}
+    for term in terms:
+        page = 0
+        while True:
+            query = urlencode({
+                "query": term, "tags": "story", "restrictSearchableAttributes": "title",
+                "numericFilters": f"created_at_i>={int(cutoff.timestamp())},num_comments>0",
+                "hitsPerPage": 100, "page": page,
+            })
+            request = Request(f"{HN_SEARCH}?{query}", headers={"User-Agent": "DotNetRamblings/1.0"})
+            with urlopen(request, timeout=30) as response:
+                payload = json.load(response)
+            hits.update((hit["objectID"], hit) for hit in payload["hits"])
+            page += 1
+            if page >= payload["nbPages"]:
+                break
+    return hits.values()
+
+
+def parse_hacker_news(hits, terms):
+    title_pattern = re.compile(r"(?<!\w)(?:" + "|".join(map(re.escape, terms)) + r")(?!\w)", re.I)
+    items = []
+    for hit in hits:
+        title = hit.get("title") or ""
+        if not title_pattern.search(title) or (hit.get("num_comments") or 0) < 1:
+            continue
+        urls = _external_urls([hit.get("url")], excluded_host="news.ycombinator.com")
+        if not urls or _is_reddit_link(urls[0]):
+            continue
+        author = hit.get("author") or "Hacker News member"
+        item = _item(
+            {"id": f"hacker-news:{author}", "name": author, "default_topics": [".NET"]},
+            platform="hacker-news", handle=author, published=hit.get("created_at"),
+            text=title, post_url=f"https://news.ycombinator.com/item?id={hit['objectID']}",
+            external_url=urls[0],
+        )
+        if item:
+            items.append(item)
+    return items
 
 
 def parse_bluesky(payload, identity, account):
@@ -262,25 +319,31 @@ def collect(
     return result
 
 
-def collect_discussions(
-    pulse_items, now=None, reddit_fetcher=fetch_reddit,
-    existing_path=DISCUSSIONS_PATH,
-):
-    now = now or datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=7)
-    parsed = reddit_fetcher()
-    candidates = parse_reddit(parsed) + _existing_items(cutoff, existing_path)
-    excluded_urls = _archive_links() | {
-        canonicalize_url(item["externalUrl"]) for item in pulse_items
-    }
-    excluded_text = {_text_key(item["excerpt"]) for item in pulse_items}
+def _discussion_link_key(url):
+    parsed = urlparse(canonicalize_url(url))
+    host = parsed.netloc
+    path = parsed.path
+    # A GitHub Pages project homepage and its repository can host the same announcement.
+    if host.endswith(".github.io") and re.fullmatch(r"/[\w.-]+(?:/index\.html)?", path):
+        owner = host.removesuffix(".github.io")
+        path = f"/{owner}{path.removesuffix('/index.html')}"
+        host = "github.com"
+    if host == "github.com" and re.fullmatch(r"/[\w.-]+/[\w.-]+", path):
+        path = path.lower()
+    return host, path, parsed.query
+
+
+def _refresh_reddit(feed_url, cached):
+    feed = fetch_reddit(feed_url)
+    fetched_posts = {entry.get("link") for entry in feed.entries}
+    return parse_reddit(feed) + [item for item in cached if item["postUrl"] not in fetched_posts]
+
+
+def _select_reddit(candidates):
     retained = [
         item for item in candidates
-        if _published_at(item) >= cutoff
-        and _is_relevant(item, [".net", "dotnet", "c#", "asp.net", "blazor",
+        if _is_relevant(item, [".net", "dotnet", "c#", "asp.net", "blazor",
                                 "azure", "nuget", "roslyn", "ef core", "aspire"])
-        and canonicalize_url(item["externalUrl"]) not in excluded_urls
-        and _text_key(item["excerpt"]) not in excluded_text
     ]
     unique = deduplicate_and_cap(retained, max_per_day=100000)
     daily_counts = defaultdict(int)
@@ -291,8 +354,75 @@ def collect_discussions(
             continue
         daily_counts[day] += 1
         result.append(item)
-    print(f"Reddit: {len(result)} distinct linked discussions from r/dotnet")
     return result
+
+
+def collect_discussions(
+    pulse_items, now=None, *, feed_url=None, hacker_news_terms=(), health=None,
+    existing_path=DISCUSSIONS_PATH,
+):
+    cutoff = (now or datetime.now(timezone.utc)) - timedelta(days=7)
+    cached = defaultdict(list)
+    for item in _existing_items(cutoff, existing_path):
+        secondary_threads = item.pop("alsoOn", [])
+        for record in [item, *secondary_threads]:
+            cached[record["platform"]].append(record)
+
+    sources = [("reddit", "reddit-dotnet", feed_url)]
+    if hacker_news_terms:
+        sources.append(("hacker-news", "hacker-news", hacker_news_terms))
+    excluded_links = {_discussion_link_key(url) for url in _archive_links()}
+    excluded_links.update(_discussion_link_key(item["externalUrl"]) for item in pulse_items)
+    excluded_text = {_text_key(item["excerpt"]) for item in pulse_items}
+    candidates = []
+    statuses = []
+    for platform, source_id, setting in sources:
+        records = cached[platform]
+        source = {"identityId": source_id, "platform": platform, "status": "disabled"}
+        if setting:
+            try:
+                if platform == "reddit":
+                    records = _refresh_reddit(feed_url, records)
+                else:
+                    hits = fetch_hacker_news(hacker_news_terms, cutoff)
+                    records = parse_hacker_news(hits, hacker_news_terms)
+                source["status"] = "ok"
+            except Exception as error:
+                source.update(status="error", error=str(error))
+                print(f"Failed to refresh {platform} discussions: {error}")
+        retained = [
+            item for item in records
+            if _published_at(item) >= cutoff
+            and _discussion_link_key(item["externalUrl"]) not in excluded_links
+            and _text_key(item["excerpt"]) not in excluded_text
+        ]
+        candidates.extend(_select_reddit(retained) if platform == "reddit" else retained)
+        statuses.append(source)
+
+    attempted_statuses = {s["status"] for s in statuses} - {"disabled"}
+    if attempted_statuses == {"error"} and not existing_path.exists():
+        raise RuntimeError("All configured discussion sources failed before the first collection")
+    stories = {}
+    represented = set()
+    counts = defaultdict(int)
+    for item in sorted(candidates, key=_published_at, reverse=True):
+        key = _discussion_link_key(item["externalUrl"])
+        platform = item["platform"]
+        if (key, platform) in represented:
+            continue
+        represented.add((key, platform))
+        if key in stories:
+            # Keep each thread's date and author so a cached copy can expire independently.
+            stories[key].setdefault("alsoOn", []).append(item)
+        else:
+            stories[key] = item
+        counts[platform] += 1
+    for source in statuses:
+        source["published"] = counts[source["platform"]]
+        print(f"{source['platform']} ({source['status']}): {source['published']} linked discussions")
+    if health is not None:
+        health.extend(statuses)
+    return list(stories.values())
 
 
 def deduplicate_and_cap(items, max_per_day=2):
@@ -471,27 +601,10 @@ def main():
         for identity in config["identities"]
     ]
     write_items(sources, SOURCES_PATH)
-    try:
-        discussions = collect_discussions(items)
-    except Exception as error:
-        print(f"Failed to refresh Reddit discussions: {error}")
-        if not DISCUSSIONS_PATH.exists():
-            raise
-        discussions = _existing_items(datetime.now(timezone.utc) - timedelta(days=7), DISCUSSIONS_PATH)
-        health.append({
-            "identityId": "reddit-dotnet",
-            "platform": "reddit",
-            "status": "error",
-            "error": str(error),
-            "published": len(discussions),
-        })
-    else:
-        health.append({
-            "identityId": "reddit-dotnet",
-            "platform": "reddit",
-            "status": "ok",
-            "published": len(discussions),
-        })
+    discussions = collect_discussions(
+        items, feed_url=config.get("reddit_feed_url"),
+        hacker_news_terms=config.get("hacker_news_terms", []), health=health,
+    )
     write_items(health, HEALTH_PATH)
     write_items(discussions, DISCUSSIONS_PATH)
     print(f"Collected {len(items)} Community Pulse posts")

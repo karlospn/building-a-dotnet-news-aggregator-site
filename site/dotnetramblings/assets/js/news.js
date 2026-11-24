@@ -917,7 +917,7 @@
       let visible = 0;
       pulseItems.forEach(function (item) {
         const show =
-          (pulsePlatform === "all" || item.dataset.pulsePlatform === pulsePlatform)
+          (pulsePlatform === "all" || item.dataset.pulsePlatforms.split(" ").includes(pulsePlatform))
           && (!pulseQuery || item.textContent.toLowerCase().includes(pulseQuery));
         item.hidden = !show;
         if (show) visible += 1;

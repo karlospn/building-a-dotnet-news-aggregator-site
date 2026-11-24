@@ -20,7 +20,9 @@ Readers can filter by topic and content type, bookmark stories, hide sources, tr
 
 The AI hub opens with **Building AI with .NET** coverage, with broader AI news available through the Coverage filter. Videos prioritize .NET content and can be filtered by language, duration, and format. Audio language comes from YouTube when supplied; otherwise a conservative text estimate is labeled as estimated, or left unknown. Formats are inferred from descriptions and duration. The AI learning paths include prerequisites, estimated effort, ordered exercises, and review dates.
 
-The dedicated **Community Pulse** page combines technical links and insights from selected .NET accounts on Bluesky and Mastodon with a small pilot of external links shared in r/dotnet over the last seven days. Search and platform filters cover all posts. Reddit contributes up to four links per day, but Reddit authors are not part of the selected Community Pulse accounts; the Sources page lists the pilot separately for transparency.
+The **Community Pulse** page collects technical links from selected .NET accounts on Bluesky and Mastodon, up to four external links per day from r/dotnet, and Hacker News stories with an external link, a .NET term in the title, and at least one comment. It covers the past seven days and excludes discussion links already featured in the news or shared by selected accounts. When Reddit and Hacker News discuss the same link or GitHub project, one card links to both threads and appears under either platform filter.
+
+Reddit discussions come from the [Arctic Shift public archive](https://github.com/ArthurHeitmann/arctic_shift/tree/master/api) and can lag behind Reddit. Hacker News stories come from the [Algolia HN Search API](https://hn.algolia.com/api). The search terms are configured in `config/community_pulse_sources.yml`.
 
 The AI topic is a dedicated **AI for .NET Developers** hub. It includes practical subtopics, curated learning paths, and a release radar built from stable GitHub releases for selected .NET AI SDKs and frameworks. Release data is refreshed daily at 08:30 UTC.
 

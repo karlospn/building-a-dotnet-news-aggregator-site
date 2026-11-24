@@ -1,4 +1,6 @@
 retention_days: 7
+reddit_feed_url: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=dotnet&sort=desc&limit=50&format=rss
+hacker_news_terms: ['.NET', 'dotnet', 'ASP.NET', 'C#', 'F#', 'Blazor', 'NuGet']
 max_posts_per_identity_per_day: 2
 exclude_existing_article_links: true
 include_keywords:

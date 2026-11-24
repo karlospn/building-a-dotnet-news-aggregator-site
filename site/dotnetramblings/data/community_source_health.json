@@ -114,8 +114,13 @@
   {
     "identityId": "reddit-dotnet",
     "platform": "reddit",
-    "status": "error",
-    "error": "HTTP 404",
-    "published": 0
+    "status": "ok",
+    "published": 12
+  },
+  {
+    "identityId": "hacker-news",
+    "platform": "hacker-news",
+    "status": "ok",
+    "published": 4
   }
 ]

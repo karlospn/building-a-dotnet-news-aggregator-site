@@ -13,8 +13,10 @@ from community_pulse import (
     fetch_mastodon,
     fetch_reddit,
     parse_bluesky,
+    parse_hacker_news,
     parse_mastodon,
     parse_reddit,
+    write_items,
 )
 
 
@@ -33,7 +35,7 @@ class CommunityPulseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "HTTP 502"):
             fetch_mastodon("https://social.example/@developer.rss")
         with self.assertRaisesRegex(ValueError, "HTTP 502"):
-            fetch_reddit()
+            fetch_reddit("https://example.com/dotnet.xml")
 
     def test_bluesky_ignores_reposts_and_prefers_real_article_link(self):
         payload = {
@@ -157,15 +159,106 @@ class CommunityPulseTests(unittest.TestCase):
                 "title": f".NET {key} discussion",
                 "summary": f'<a href="https://example.com/{key}">Link</a>',
             })
-        with TemporaryDirectory() as directory:
+        with TemporaryDirectory() as directory, patch(
+            "community_pulse.fetch_reddit", return_value=FeedParserDict({"entries": entries})
+        ) as fetcher:
+            health = []
             result = collect_discussions(
                 [self.item("shared", "bluesky", "2026-09-23T09:00:00Z",
                            "https://example.com/shared", ".NET shared discussion")],
                 now=now,
-                reddit_fetcher=lambda: FeedParserDict({"entries": entries}),
+                feed_url="https://example.com/dotnet.xml",
+                health=health,
                 existing_path=Path(directory) / "discussions.json",
             )
         self.assertEqual([item["externalUrl"] for item in result], ["https://example.com/fresh"])
+        fetcher.assert_called_once_with("https://example.com/dotnet.xml")
+        self.assertEqual(health[0]["status"], "ok")
+
+    @patch("community_pulse._archive_links", return_value=set())
+    @patch("community_pulse.fetch_reddit")
+    def test_archive_removals_supersede_cached_links_and_reddit_media_is_excluded(self, fetch, _archive):
+        post_url = "https://www.reddit.com/r/dotnet/comments/abc/example/"
+        published = "Tue, 24 Nov 2026 10:00:00 GMT"
+        removed = {
+            "link": post_url, "title": ".NET article", "published": published,
+            "summary": '<div class="md"><p>[removed]</p></div><p><a href="https://a.dev/1">article</a></p>',
+        }
+        media = {
+            **removed, "link": post_url.replace("/abc/", "/xyz/"),
+            "summary": '<p><a href="https://i.redd.it/photo.jpg">photo</a></p>',
+        }
+        fetch.return_value = FeedParserDict({"entries": [removed, media]})
+        cached = self.item("abc", "reddit", "2026-11-24T10:00:00Z", "https://a.dev/1", ".NET article")
+        cached["postUrl"] = post_url
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "discussions.json"
+            write_items([cached], path)
+            result = collect_discussions(
+                [], now=datetime(2026, 11, 25, tzinfo=timezone.utc),
+                feed_url="https://example.com/feed", existing_path=path,
+            )
+        self.assertEqual(result, [])
+
+    def test_hacker_news_requires_a_dotnet_title_comments_and_an_external_story(self):
+        hit = {
+            "objectID": "42", "title": "Show HN: A compiler for C#", "author": "builder",
+            "url": "https://example.com/project", "num_comments": 2,
+            "created_at": "2026-11-23T12:00:00Z",
+        }
+        hits = [hit, {**hit, "title": "example.net changes", "url": "https://dotnet.example"},
+                {**hit, "num_comments": 0}, {**hit, "url": None},
+                {**hit, "url": "https://news.ycombinator.com/item?id=4"}]
+        items = parse_hacker_news(hits, ["C#", ".NET"])
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["postUrl"], "https://news.ycombinator.com/item?id=42")
+        self.assertEqual(items[0]["externalUrl"], hit["url"])
+
+    @patch("community_pulse._archive_links", return_value={"https://example.com/archived"})
+    @patch("community_pulse.fetch_hacker_news")
+    def test_shared_project_keeps_both_threads_and_expires_each_cached_thread(self, fetch, _archive):
+        hit = {
+            "objectID": "42", "title": "Show HN: C# compiler", "author": "builder",
+            "url": "https://dev.github.io/compiler/index.html", "num_comments": 2,
+            "created_at": "2026-11-20T12:00:00Z",
+        }
+        fetch.return_value = [hit, {**hit, "objectID": "43", "url": "https://example.com/archived"}]
+        reddit = self.item("post", "reddit", "2026-11-22T12:00:00Z",
+                           "http://github.com/Dev/Compiler", ".NET project")
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "discussions.json"
+            write_items([reddit], path)
+            def refresh(day):
+                return collect_discussions(
+                    [], now=datetime(2026, 11, day, tzinfo=timezone.utc),
+                    hacker_news_terms=["C#"], existing_path=path, health=health,
+                )
+            health = []
+            grouped = refresh(24)
+            self.assertEqual(len(grouped), 1)
+            self.assertEqual(grouped[0]["alsoOn"][0]["platform"], "hacker-news")
+            self.assertEqual([s["published"] for s in health], [1, 1])
+            write_items(grouped, path)
+            fetch.side_effect = OSError("temporarily unavailable")
+            self.assertEqual(refresh(25), grouped)
+            self.assertEqual(health[-1]["status"], "error")
+            self.assertEqual(refresh(28), [reddit])
+
+    @patch("community_pulse._archive_links", return_value=set())
+    @patch("community_pulse.fetch_reddit")
+    def test_disabled_reddit_retains_only_recent_discussions_without_fetching(self, fetch, _archive):
+        now = datetime(2026, 11, 24, tzinfo=timezone.utc)
+        recent = self.item("recent", "reddit", "2026-11-23T10:00:00Z", "https://a.dev/1", ".NET release")
+        expired = self.item("old", "reddit", "2026-11-16T10:00:00Z", "https://a.dev/2", "Old .NET post")
+        health = []
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "discussions.json"
+            write_items([expired, recent], path)
+            result = collect_discussions([], now=now, existing_path=path, health=health)
+        fetch.assert_not_called()
+        self.assertEqual(result, [recent])
+        self.assertEqual(health[0]["status"], "disabled")
+        self.assertEqual(health[0]["published"], 1)
 
     @patch("community_pulse._archive_links", return_value=set())
     @patch("community_pulse._existing_items", return_value=[])

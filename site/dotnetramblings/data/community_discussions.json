@@ -1,1 +1,233 @@
-[]
+[
+  {
+    "id": "87452a2c5dddb396",
+    "identityId": "reddit:mrpro1a1",
+    "author": "mrpro1a1",
+    "handle": "mrpro1a1",
+    "platform": "reddit",
+    "publishedAt": "2026-11-24T10:01:53+00:00",
+    "excerpt": "RingDotNet Package - Using .NET from the Ring programming language",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y49hha/ringdotnet_package_using_net_from_the_ring/",
+    "externalUrl": "https://ring-lang.github.io/doc1.28/syntaxflexibility.html",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "a5c2c168cf82113a",
+    "identityId": "reddit:Consistent_Serve9",
+    "author": "Consistent_Serve9",
+    "handle": "Consistent_Serve9",
+    "platform": "reddit",
+    "publishedAt": "2026-11-23T23:26:30+00:00",
+    "excerpt": "Tracking dotnet sdk and runtime version on a container image",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y3xmre/tracking_dotnet_sdk_and_runtime_version_on_a/",
+    "externalUrl": "http://mcr.microsoft.com/dotnet/aspnet:10.0",
+    "topics": [
+      ".NET",
+      "Containers"
+    ]
+  },
+  {
+    "id": "7a9f066fe02ab67b",
+    "identityId": "reddit:Hudsxn98",
+    "author": "Hudsxn98",
+    "handle": "Hudsxn98",
+    "platform": "reddit",
+    "publishedAt": "2026-11-23T21:43:30+00:00",
+    "excerpt": "JSX in C#",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y3v4zh/jsx_in_c/",
+    "externalUrl": "https://github.com/barely-sentient/donkeh-csharp-jsx",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bd0b0126cf54ce6f",
+    "identityId": "reddit:onurgumusdev",
+    "author": "onurgumusdev",
+    "handle": "onurgumusdev",
+    "platform": "reddit",
+    "publishedAt": "2026-11-23T21:25:40+00:00",
+    "excerpt": "C# 15 on a Commodore 64 🕹️",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y3up9s/c_15_on_a_commodore_64/",
+    "externalUrl": "http://github.com/OnurGumus/zero-csharp",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "id": "66287a7ce58cadf9",
+        "identityId": "hacker-news:reverseblade2",
+        "author": "reverseblade2",
+        "handle": "reverseblade2",
+        "platform": "hacker-news",
+        "publishedAt": "2026-11-21T15:39:09+00:00",
+        "excerpt": "Show HN: Zero C# – C# without a runtime or GC",
+        "postUrl": "https://news.ycombinator.com/item?id=50590279",
+        "externalUrl": "https://onurgumus.github.io/zero-csharp/index.html",
+        "topics": [
+          ".NET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "01514495f10265a8",
+    "identityId": "reddit:arintonakos12",
+    "author": "arintonakos12",
+    "handle": "arintonakos12",
+    "platform": "reddit",
+    "publishedAt": "2026-11-23T15:47:31+00:00",
+    "excerpt": "DataVo v0.4: an open-source embedded SQL, vector, and reactive DB engine in pure C# (beating SQLite and DuckDB on hot-path lookups & IVM)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y3lodp/datavo_v04_an_opensource_embedded_sql_vector_and/",
+    "externalUrl": "https://arintonakos.github.io/DataVo-DBMS/blog/part-1-where-it-wins-and-where-it-loses",
+    "topics": [
+      ".NET",
+      "Data"
+    ]
+  },
+  {
+    "id": "2e6ac08a02e8abd6",
+    "identityId": "hacker-news:customllm",
+    "author": "customllm",
+    "handle": "customllm",
+    "platform": "hacker-news",
+    "publishedAt": "2026-11-22T23:39:10+00:00",
+    "excerpt": "How to Implement AI with .NET",
+    "postUrl": "https://news.ycombinator.com/item?id=50605323",
+    "externalUrl": "https://belitsoft.com/net-development-services/pdf-to-video-ai-converter",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "27ee929afa656aa1",
+    "identityId": "reddit:fuzhongkai",
+    "author": "fuzhongkai",
+    "handle": "fuzhongkai",
+    "platform": "reddit",
+    "publishedAt": "2026-11-22T18:00:35+00:00",
+    "excerpt": "Running LFM3-Omni locally on an iPhone 17 Pro Max with .NET — Agentic Work + Native Speech Generation",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y2vj6b/running_lfm3omni_locally_on_an_iphone_17_pro_max/",
+    "externalUrl": "https://github.com/zhongkaifu/TensorSharp",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "5f8398967b3bf040",
+    "identityId": "hacker-news:andrekaufmann",
+    "author": "andrekaufmann",
+    "handle": "andrekaufmann",
+    "platform": "hacker-news",
+    "publishedAt": "2026-11-22T14:28:40+00:00",
+    "excerpt": "NeverSharp: TypeScript compiler in C#, benchmarked against Go and Rust",
+    "postUrl": "https://news.ycombinator.com/item?id=50600036",
+    "externalUrl": "https://github.com/AndreKfm/NeverSharp",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "0d40b7f4678e498d",
+    "identityId": "reddit:Glittering_Welcome73",
+    "author": "Glittering_Welcome73",
+    "handle": "Glittering_Welcome73",
+    "platform": "reddit",
+    "publishedAt": "2026-11-22T13:31:11+00:00",
+    "excerpt": "Acta: embeddable durable execution for .NET, Apache-2.0 and free forever",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y2pe7a/acta_embeddable_durable_execution_for_net/",
+    "externalUrl": "https://github.com/acta-dotnet/acta",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "74ec50ff99c4eeaa",
+    "identityId": "reddit:mdaiWorks",
+    "author": "mdaiWorks",
+    "handle": "mdaiWorks",
+    "platform": "reddit",
+    "publishedAt": "2026-11-22T12:36:51+00:00",
+    "excerpt": "Yengi v2.0.3 – Open-source Windows AI IDE in .NET 10 & WPF with local 1.5B routing and live Blender/Unity bridges",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y2oded/yengi_v203_opensource_windows_ai_ide_in_net_10/",
+    "externalUrl": "https://github.com/mdaiWorks/yengi/releases/download/v2.0.3/Yengi_Setup_v2.0.3.exe",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "413e97560410bc40",
+    "identityId": "reddit:Tauboom",
+    "author": "Tauboom",
+    "handle": "Tauboom",
+    "platform": "reddit",
+    "publishedAt": "2026-11-22T09:28:13+00:00",
+    "excerpt": "One year later: .NET MAUI camera updated in App Store and Google Play",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y2lca2/one_year_later_net_maui_camera_updated_in_app/",
+    "externalUrl": "https://github.com/taublast/DrawnUi.Camera",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "47a7cd598f8515fc",
+    "identityId": "hacker-news:charm137",
+    "author": "charm137",
+    "handle": "charm137",
+    "platform": "hacker-news",
+    "publishedAt": "2026-11-22T03:17:57+00:00",
+    "excerpt": "Show HN: Hikari.ImGui, a pure C# re-implementation of Dear ImGui",
+    "postUrl": "https://news.ycombinator.com/item?id=50595885",
+    "externalUrl": "https://github.com/LeastActionTech/Hikari.ImGui",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "9aad11f1704669d8",
+    "identityId": "reddit:Grouchy-Buffalo-241",
+    "author": "Grouchy-Buffalo-241",
+    "handle": "Grouchy-Buffalo-241",
+    "platform": "reddit",
+    "publishedAt": "2026-11-21T21:16:34+00:00",
+    "excerpt": "TodoForge 1.2.0: a free VS Code TODO tree for .NET repos, now with relative due dates and bulk actions",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y27rm6/todoforge_120_a_free_vs_code_todo_tree_for_net/",
+    "externalUrl": "https://open-vsx.org/extension/onurkarakus/todoforge",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "adfa4eed983cfee2",
+    "identityId": "reddit:gangning",
+    "author": "gangning",
+    "handle": "gangning",
+    "platform": "reddit",
+    "publishedAt": "2026-11-21T14:10:11+00:00",
+    "excerpt": "nanoql: a stateless quantitative finance library for .NET 10, derived from QuantLib and checked against it",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y1xxqa/nanoql_a_stateless_quantitative_finance_library/",
+    "externalUrl": "https://nanoql.org/docs/getting-started.html",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "0b0ea66a111b96a9",
+    "identityId": "reddit:harrison_314",
+    "author": "harrison_314",
+    "handle": "harrison_314",
+    "platform": "reddit",
+    "publishedAt": "2026-11-21T13:45:38+00:00",
+    "excerpt": "BouncyHsm 2.4.0 now with Aspire",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y1xf9g/bouncyhsm_240_now_with_aspire/",
+    "externalUrl": "https://github.com/harrison314/BouncyHsm",
+    "topics": [
+      ".NET"
+    ]
+  }
+]
