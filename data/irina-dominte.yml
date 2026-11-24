@@ -1,0 +1,12 @@
+Feed: https://irina.codes/feed/feed.xml
+Title: Irina Dominte
+Website: https://irina.codes/
+Author: Irina Dominte
+Description: >-
+  Software architect and Dometrain instructor Irina Dominte writes about everyday
+  architecture decisions in production .NET systems. She covers when to publish
+  events or send commands, how queues absorb traffic spikes, why adding consumers
+  can overload a database, and how to design REST APIs.
+Topics:
+- .NET
+- Architecture

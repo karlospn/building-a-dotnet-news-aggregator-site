@@ -302,6 +302,16 @@ feeds:
   topics:
   - Architecture
   - AI
+- id: irina-dominte
+  feed: https://irina.codes/feed/feed.xml
+  title: Irina Dominte
+  website: https://irina.codes/
+  description: Software architect and Dometrain instructor Irina Dominte writes about everyday architecture decisions in production .NET systems. She covers when to publish events or send commands, how queues absorb traffic spikes, why adding consumers can overload a database, and how to design REST APIs.
+  author: Irina Dominte
+  source: RSS feed
+  topics:
+  - .NET
+  - Architecture
 - id: montemagno
   feed: https://montemagno.com/rss/
   title: James Montemagno - Live, Love, Bike and Code
