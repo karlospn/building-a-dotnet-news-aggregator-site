@@ -1,5 +1,70 @@
 [
   {
+    "id": "39feffe124d122a9",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-23T22:18:01.752000+00:00",
+    "excerpt": "Explore AI-assisted testing for modern .NET in this session! Learn to identify testing gaps, generate tests, and gain insights into code quality using Microsoft.Testing.Platform and MSTest. Watch now: msft.it/63327xDIMl #dotnet #dotnetconf",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n2z5vt6fwh2c",
+    "externalUrl": "https://msft.it/63327xDIMl",
+    "topics": [
+      ".NET",
+      "AI",
+      "Testing"
+    ]
+  },
+  {
+    "id": "140bfb160b43bc37",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-23T19:42:24.392000+00:00",
+    "excerpt": "Run AI models locally in your .NET apps with Llama on Windows! Manage models on your PC, work offline, and call them via OpenAI-compatible API without needing an API key. 🦙 Get started with the free Llama app: msft.it/63328xy5Kr",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n2yv7keuor2b",
+    "externalUrl": "https://msft.it/63328xy5Kr",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
+    "id": "b0219562b684a9e4",
+    "identityId": "khalid-abuhakmeh",
+    "author": "Khalid Abuhakmeh",
+    "handle": "Khalid ⚡",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-23T15:09:10+00:00",
+    "excerpt": "Could someone do me a quick favor? Go to this page ( https:// khalidabuhakmeh.com/posts/swap -system-text-json-for-redox-minimal-api/ ) and leave a comment using your GitHub account at the bottom. I had Giscus comments on pointing to a private repo before, but I guess it doesn't…",
+    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117666385123044051",
+    "externalUrl": "https://khalidabuhakmeh.com/posts/swap-system-text-json-for-redox-minimal-api",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "bd6e1b71c577b28d",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "avaloniaui.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-23T14:26:15.591653+00:00",
+    "excerpt": "Avalonia 12.2 is out. - Up to 25% higher FPS on embedded devices - Up to 45% fewer allocations in compiled bindings - Compiled XAML assemblies almost 25% smaller - 120Hz on ProMotion iOS devices Also: .NET 11 and the new Fluent2 theme. avaloniaui.net/blog/releas...",
+    "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3n2ydkaj2oc2t",
+    "externalUrl": "https://avaloniaui.net/blog/release-12-2",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://dotnet.social/@avaloniaui/117666216192270359"
+      }
+    ]
+  },
+  {
     "id": "f5aedbec53618c13",
     "identityId": "dotnet",
     "author": ".NET",
@@ -124,21 +189,6 @@
     "topics": [
       ".NET",
       "Security"
-    ]
-  },
-  {
-    "id": "9e75c514baf2ff5d",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-16T20:15:02.072000+00:00",
-    "excerpt": "Worried about AI coding agents accidentally modifying files while modernizing legacy .NET apps? Learn how to isolate these agents from your PC using GitHub Copilot CLI plugins. ▶️msft.it/63320xBLSK #dotnet #dotnetconf",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n2hdrh4qq72a",
-    "externalUrl": "https://msft.it/63320xBLSK",
-    "topics": [
-      ".NET",
-      "AI"
     ]
   }
 ]
