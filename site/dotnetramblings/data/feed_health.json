@@ -30,8 +30,8 @@
     "status": "healthy"
   },
   "aws-ml-blog": {
-    "checkedAt": "2026-11-23T23:05:45.823025+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T07:40:06.480699+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -258,8 +258,8 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-11-23T23:05:37.672150+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-24T07:39:59.276825+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -312,8 +312,8 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-11-23T11:31:37.743624+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-24T07:39:59.510350+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
