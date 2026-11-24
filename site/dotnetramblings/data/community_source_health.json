@@ -45,15 +45,15 @@
     "identityId": "shawn-wildermuth",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 6,
-    "published": 1
+    "candidates": 8,
+    "published": 3
   },
   {
     "identityId": "shawn-wildermuth",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 19,
-    "published": 1
+    "published": 3
   },
   {
     "identityId": "tanner-gooding",
@@ -87,8 +87,8 @@
     "identityId": "khalid-abuhakmeh",
     "platform": "mastodon",
     "status": "ok",
-    "candidates": 5,
-    "published": 2
+    "candidates": 4,
+    "published": 1
   },
   {
     "identityId": "brad-wilson",
@@ -115,7 +115,7 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 12
+    "published": 13
   },
   {
     "identityId": "hacker-news",

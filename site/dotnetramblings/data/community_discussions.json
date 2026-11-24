@@ -1,5 +1,19 @@
 [
   {
+    "id": "00a210c6b227a8e1",
+    "identityId": "reddit:kds_007",
+    "author": "kds_007",
+    "handle": "kds_007",
+    "platform": "reddit",
+    "publishedAt": "2026-11-24T21:44:39+00:00",
+    "excerpt": "I built an open-source OFAC sanctions screener in .NET. Here's what I learned matching names",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y4ps55/i_built_an_opensource_ofac_sanctions_screener_in/",
+    "externalUrl": "https://github.com/krunalsolanki/ofac-match",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "87452a2c5dddb396",
     "identityId": "reddit:mrpro1a1",
     "author": "mrpro1a1",

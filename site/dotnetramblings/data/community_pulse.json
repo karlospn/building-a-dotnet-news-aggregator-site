@@ -1,5 +1,63 @@
 [
   {
+    "id": "9ac9fab35307aa53",
+    "identityId": "dotnet",
+    "author": ".NET",
+    "handle": "dot.net",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-24T18:56:03.039000+00:00",
+    "excerpt": "Explore DocumentExtractionClient (preview) in .NET for unified document parsing across PDFs, scans, images, and Office files. 👉🏽 Learn more: msft.it/63320xJM4Q",
+    "postUrl": "https://bsky.app/profile/dot.net/post/3n33d3ldszp2e",
+    "externalUrl": "https://msft.it/63320xJM4Q",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2a1979bfe3bdc335",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-24T17:30:41+00:00",
+    "excerpt": "Early Bird Tickets are now available for my \"Claude for Architects\" course - European Edition. Get your tickets now before the price increases. For more information: #claude #ai #architecture #softwaredevelopment",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n336cxw4pe2p",
+    "externalUrl": "https://timeofclaudecourse.com/",
+    "topics": [
+      ".NET",
+      "AI",
+      "Architecture"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117672603890559420"
+      }
+    ]
+  },
+  {
+    "id": "eb2f7673177fd2d7",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-24T12:02:28+00:00",
+    "excerpt": "My #dotnetconf talk about using Azure Services when Kubernetes is too big is out:",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n32lxzzid72p",
+    "externalUrl": "https://www.youtube.com/watch?v=9UbzM5WbZkk",
+    "topics": [
+      ".NET",
+      "Azure",
+      "Containers"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117671313286109923"
+      }
+    ]
+  },
+  {
     "id": "39feffe124d122a9",
     "identityId": "dotnet",
     "author": ".NET",
@@ -110,10 +168,6 @@
       {
         "platform": "mastodon",
         "postUrl": "https://fosstodon.org/@shawnwildermuth/117644514779144359"
-      },
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117632961358410134"
       }
     ]
   },
@@ -159,36 +213,6 @@
     "externalUrl": "https://msft.it/63321xEqn1",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "2637d7458d83e69f",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-17T20:20:01.398000+00:00",
-    "excerpt": "Explore how to build AI-powered .NET MAUI apps that do more than chat. Learn to connect app features with AI, keep UI in sync, and handle user requests smartly in this demo-driven session. 🎥 Watch now: msft.it/63329xBLL9 #dotnet #dotnetconf",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n2jujbzl7q2x",
-    "externalUrl": "https://msft.it/63329xBLL9",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "0689b5d311e6fa9f",
-    "identityId": "khalid-abuhakmeh",
-    "author": "Khalid Abuhakmeh",
-    "handle": "Khalid ⚡",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-17T13:27:45+00:00",
-    "excerpt": "While I'm raising funds for World Central Kitchen this holiday season, I thought I'd sweeten the deal for all # dotnet and # developer folks. I designed some merch/shirts. # charity https:// khalidabuhakmeh.com/merch/",
-    "postUrl": "https://mastodon.social/@khalidabuhakmeh/117632012456939466",
-    "externalUrl": "https://khalidabuhakmeh.com/merch",
-    "topics": [
-      ".NET",
-      "Security"
     ]
   }
 ]
