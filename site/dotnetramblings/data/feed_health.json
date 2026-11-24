@@ -204,8 +204,8 @@
     "status": "healthy"
   },
   "jetbrains-blog": {
-    "checkedAt": "2026-11-13T04:12:20.602234+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T19:49:04.948220+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -318,8 +318,8 @@
     "status": "healthy"
   },
   "montemagno": {
-    "checkedAt": "2026-11-24T07:39:59.510350+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-24T19:48:54.273176+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -360,8 +360,8 @@
     "status": "healthy"
   },
   "openai": {
-    "checkedAt": "2026-11-23T23:05:54.330740+00:00",
-    "itemCount": 3,
+    "checkedAt": "2026-11-24T19:49:12.178777+00:00",
+    "itemCount": 6,
     "message": "",
     "status": "healthy"
   },
