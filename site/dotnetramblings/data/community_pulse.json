@@ -185,34 +185,5 @@
       ".NET",
       "Testing"
     ]
-  },
-  {
-    "id": "836597c255b6d41e",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-18T02:08:02.011000+00:00",
-    "excerpt": "NuGet now supports staged publishing, letting you prepare and validate packages privately before release. Control when your package goes live, review validation, and coordinate large or security-sensitive releases with confidence. 🔗 msft.it/63321xEqRZ",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n2khxlcsao2y",
-    "externalUrl": "https://msft.it/63321xEqRZ",
-    "topics": [
-      ".NET",
-      "Security"
-    ]
-  },
-  {
-    "id": "ebe807f83d18915a",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-18T00:42:35.607000+00:00",
-    "excerpt": "Discover what's new in the evolving MCP C# SDK and latest protocol updates. Learn about building scalable servers with stateless requests and multi-interaction user input in this practical session. 🎥 Watch now: msft.it/63321xEqn1 #dotnet",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n2kd6sfm6p2g",
-    "externalUrl": "https://msft.it/63321xEqn1",
-    "topics": [
-      ".NET"
-    ]
   }
 ]
