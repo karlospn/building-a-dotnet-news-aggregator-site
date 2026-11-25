@@ -1,5 +1,24 @@
 [
   {
+    "id": "anthropics/anthropic-sdk-csharp:457330815",
+    "product": "Anthropic C# SDK",
+    "version": "13.14.0",
+    "tagName": "Anthropic-v13.14.0",
+    "changeType": "sdk-release",
+    "publishedAt": "2026-11-24T21:02:02+00:00",
+    "title": "Anthropic C# SDK 13.14.0",
+    "summary": "api: add Google-managed data controls for Google Cloud projects api: add Google-managed data controls for user profiles api: add support for compliance review cases, notices, and items docs: name both causes of the tool use limit error",
+    "breaking": false,
+    "technologies": [
+      ".NET",
+      "Anthropic",
+      "SDKs"
+    ],
+    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v13.14.0",
+    "repository": "anthropics/anthropic-sdk-csharp",
+    "official": true
+  },
+  {
     "id": "anthropics/anthropic-sdk-csharp:455832577",
     "product": "Anthropic C# SDK",
     "version": "13.13.0",
@@ -828,25 +847,6 @@
       "SDKs"
     ],
     "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.54.1",
-    "repository": "anthropics/anthropic-sdk-csharp",
-    "official": true
-  },
-  {
-    "id": "anthropics/anthropic-sdk-csharp:406027871",
-    "product": "Anthropic C# SDK",
-    "version": "12.54.0",
-    "tagName": "Anthropic-v12.54.0",
-    "changeType": "sdk-release",
-    "publishedAt": "2026-10-07T18:05:49+00:00",
-    "title": "Anthropic C# SDK 12.54.0",
-    "summary": "api: add claude-haiku-5-5 and typed computer and browser toolset tool calls (bca56de) api: add disabled to thinking types in model capabilities (ced04c8) api: add displayname to RBAC roles and deprecate name (d2f6d96) api: add includedefault parameter to list workspaces (502f752)",
-    "breaking": false,
-    "technologies": [
-      ".NET",
-      "Anthropic",
-      "SDKs"
-    ],
-    "sourceUrl": "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.54.0",
     "repository": "anthropics/anthropic-sdk-csharp",
     "official": true
   },
