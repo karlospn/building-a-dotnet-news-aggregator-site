@@ -1,5 +1,62 @@
 [
   {
+    "id": "b527665ad8f997fb",
+    "identityId": "reddit:Internal_Assistance6",
+    "author": "Internal_Assistance6",
+    "handle": "Internal_Assistance6",
+    "platform": "reddit",
+    "publishedAt": "2026-11-25T21:28:29+00:00",
+    "excerpt": "I've been building a ComputeSharp-style library for Macs: C# compute shaders on Metal, no native dependencies",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y5jbkq/ive_been_building_a_computesharpstyle_library_for/",
+    "externalUrl": "https://shanto462.medium.com/the-gpu-was-where-c-stopped-so-i-built-sharpcompute-for-metal-a4bb6dd98650",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "df1580d5295a801b",
+    "identityId": "reddit:txjohnnypops79",
+    "author": "txjohnnypops79",
+    "handle": "txjohnnypops79",
+    "platform": "reddit",
+    "publishedAt": "2026-11-25T18:33:38+00:00",
+    "excerpt": "I've been building a WinForms-style visual designer for Blazor – here's what I have so far!",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y5ezx8/ive_been_building_a_winformsstyle_visual_designer/",
+    "externalUrl": "https://github.com/txjohnnypops79/BlazorStudio-Releases/releases/download/v1.0.1-preview/BlazorStudio-1.0.1-preview-x64.msi",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "2a2141a676351606",
+    "identityId": "reddit:VladislavPrimakov",
+    "author": "VladislavPrimakov",
+    "handle": "VladislavPrimakov",
+    "platform": "reddit",
+    "publishedAt": "2026-11-25T14:19:48+00:00",
+    "excerpt": "Benchmarking C# 15 [Union] Result, TryOut, and throw/catch (.NET 11 NativeAOT, with & without runtime-async) vs Rust",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y58i78/benchmarking_c_15_union_result_tryout_and/",
+    "externalUrl": "https://github.com/VladislavPrimakov/benchmarks",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "3a4daac4f4e895c3",
+    "identityId": "reddit:kralmoriaty",
+    "author": "kralmoriaty",
+    "handle": "kralmoriaty",
+    "platform": "reddit",
+    "publishedAt": "2026-11-25T11:57:25+00:00",
+    "excerpt": "I built a Roslyn analyzer for .NET that enforces architecture rules and flags allocations the compiler hides",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y55jvc/i_built_a_roslyn_analyzer_for_net_that_enforces/",
+    "externalUrl": "https://github.com/rungerheimdall/rungerheimdall/blob/main/docs/benchmarks.md",
+    "topics": [
+      ".NET",
+      "Architecture"
+    ]
+  },
+  {
     "id": "00a210c6b227a8e1",
     "identityId": "reddit:kds_007",
     "author": "kds_007",
