@@ -31,15 +31,15 @@
     "identityId": "mark-downie",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 0,
-    "published": 0
+    "candidates": 1,
+    "published": 1
   },
   {
     "identityId": "mark-downie",
     "platform": "mastodon",
     "status": "ok",
     "candidates": 18,
-    "published": 0
+    "published": 1
   },
   {
     "identityId": "shawn-wildermuth",

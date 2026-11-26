@@ -1,5 +1,27 @@
 [
   {
+    "id": "a28d9804ec1f06ba",
+    "identityId": "mark-downie",
+    "author": "Mark Downie",
+    "handle": "Mark Downie",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-26T02:12:41+00:00",
+    "excerpt": "Thomas Nagel on AI consciousness \"...the disposition of some philosophers to take seriously the question whether these things are conscious or might soon become conscious is just ridiculous.\" https://www. poppastring.com/blog/thomas-na gel-on-ai-consciousness",
+    "postUrl": "https://dotnet.social/@poppastring/117680318808120746",
+    "externalUrl": "https://www.poppastring.com/blog/thomas-nagel-on-ai-consciousness",
+    "topics": [
+      "Visual Studio",
+      ".NET",
+      "AI"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/poppastring.com/post/3n36lwpqmss24"
+      }
+    ]
+  },
+  {
     "id": "9ac9fab35307aa53",
     "identityId": "dotnet",
     "author": ".NET",
