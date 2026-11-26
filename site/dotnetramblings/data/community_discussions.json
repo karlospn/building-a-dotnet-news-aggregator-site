@@ -1,5 +1,19 @@
 [
   {
+    "id": "098bef67c58db122",
+    "identityId": "reddit:brahimbacani",
+    "author": "brahimbacani",
+    "handle": "brahimbacani",
+    "platform": "reddit",
+    "publishedAt": "2026-11-26T15:57:37+00:00",
+    "excerpt": "Built a 12ms JSON-to-PDF REST API on .NET 10 + QuestPDF (live playground, no signup)",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y64l04/built_a_12ms_jsontopdf_rest_api_on_net_10/",
+    "externalUrl": "https://trydocify.com/playground",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "b527665ad8f997fb",
     "identityId": "reddit:Internal_Assistance6",
     "author": "Internal_Assistance6",

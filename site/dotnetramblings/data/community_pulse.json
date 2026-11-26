@@ -1,5 +1,25 @@
 [
   {
+    "id": "ce49da91bc035b60",
+    "identityId": "avalonia",
+    "author": "Avalonia UI",
+    "handle": "Avalonia UI",
+    "platform": "mastodon",
+    "publishedAt": "2026-11-26T13:36:08+00:00",
+    "excerpt": "Meet our conference speaker Benedikt Stebner, longtime Avalonia contributor and our resident text rendering expert, speaking on \"Text in Your Avalonia App\" at Avalonia Conf 2026. Free and online, Wednesday 9 December. Sign up at https:// avaloniaui.net/conf",
+    "postUrl": "https://dotnet.social/@avaloniaui/117683006244597363",
+    "externalUrl": "https://avaloniaui.net/conf",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "bluesky",
+        "postUrl": "https://bsky.app/profile/avaloniaui.net/post/3n37s5cb2e62b"
+      }
+    ]
+  },
+  {
     "id": "a28d9804ec1f06ba",
     "identityId": "mark-downie",
     "author": "Mark Downie",
@@ -171,41 +191,6 @@
     "externalUrl": "https://github.com/shanselman/PSforMuscleMemory",
     "topics": [
       ".NET"
-    ]
-  },
-  {
-    "id": "ab9002fca2ae2644",
-    "identityId": "shawn-wildermuth",
-    "author": "Shawn Wildermuth",
-    "handle": "wildermuth.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-19T18:27:15+00:00",
-    "excerpt": "EF Core is powerful. Like a toddler with a chainsaw. Learn how to supervise it: shawnl.ink/ps-efinte... #dotnet #efcore",
-    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n2op5iup652h",
-    "externalUrl": "https://shawnl.ink/ps-efinternals",
-    "topics": [
-      ".NET"
-    ],
-    "alsoOn": [
-      {
-        "platform": "mastodon",
-        "postUrl": "https://fosstodon.org/@shawnwildermuth/117644514779144359"
-      }
-    ]
-  },
-  {
-    "id": "47fca14a70db3b2d",
-    "identityId": "brad-wilson",
-    "author": "Brad Wilson",
-    "handle": "Brad Wilson",
-    "platform": "mastodon",
-    "publishedAt": "2026-11-19T17:37:28+00:00",
-    "excerpt": "Very surprised to discover that `dotnet pack` is broken with .NET 11 SDK for all three package-producing xUnit.net projects. https:// github.com/NuGet/Home/issues/1 5154 # DotNet # NuGet",
-    "postUrl": "https://mastodon.social/@bradwilson/117644319024346994",
-    "externalUrl": "https://github.com/NuGet/Home/issues/15154",
-    "topics": [
-      ".NET",
-      "Testing"
     ]
   }
 ]
