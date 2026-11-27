@@ -1,5 +1,25 @@
 [
   {
+    "id": "e626ceb462c00ae3",
+    "identityId": "shawn-wildermuth",
+    "author": "Shawn Wildermuth",
+    "handle": "wildermuth.com",
+    "platform": "bluesky",
+    "publishedAt": "2026-11-27T16:30:12+00:00",
+    "excerpt": "(Posts I like) Things you can do with a browser in 2027 ☕️",
+    "postUrl": "https://bsky.app/profile/wildermuth.com/post/3n3cmdl7ikg22",
+    "externalUrl": "https://github.com/luruke/browser-2027",
+    "topics": [
+      ".NET"
+    ],
+    "alsoOn": [
+      {
+        "platform": "mastodon",
+        "postUrl": "https://fosstodon.org/@shawnwildermuth/117689352985278088"
+      }
+    ]
+  },
+  {
     "id": "ce49da91bc035b60",
     "identityId": "avalonia",
     "author": "Avalonia UI",
@@ -162,35 +182,6 @@
         "platform": "mastodon",
         "postUrl": "https://dotnet.social/@avaloniaui/117666216192270359"
       }
-    ]
-  },
-  {
-    "id": "f5aedbec53618c13",
-    "identityId": "dotnet",
-    "author": ".NET",
-    "handle": "dot.net",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-20T20:46:53.440000+00:00",
-    "excerpt": "AI is reshaping cross-platform app development. An experiment showed AI agents can write platform-specific UIs quickly, but maintaining multiple UIs still demands effort. .NET MAUI remains a solid starting point. 🔗 Blog: msft.it/63323xGveP",
-    "postUrl": "https://bsky.app/profile/dot.net/post/3n2rhg3nfvl26",
-    "externalUrl": "https://msft.it/63323xGveP",
-    "topics": [
-      ".NET",
-      "AI"
-    ]
-  },
-  {
-    "id": "a1f09c88b363c9d5",
-    "identityId": "scott-hanselman",
-    "author": "Scott Hanselman",
-    "handle": "scott.hanselman.com",
-    "platform": "bluesky",
-    "publishedAt": "2026-11-20T17:52:06.145000+00:00",
-    "excerpt": "Made this for PowerShell users who can’t get DOS out of their hands’ muscle memory. Try it out and file issues. I’m finding it super useful github.com/shanselman/P...",
-    "postUrl": "https://bsky.app/profile/scott.hanselman.com/post/3n2r5nk4yxs2p",
-    "externalUrl": "https://github.com/shanselman/PSforMuscleMemory",
-    "topics": [
-      ".NET"
     ]
   }
 ]
