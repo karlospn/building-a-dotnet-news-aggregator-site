@@ -114,8 +114,8 @@
     "status": "healthy"
   },
   "docker": {
-    "checkedAt": "2026-11-26T01:20:42.208273+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-27T15:51:53.716704+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -264,14 +264,14 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-11-27T03:22:55.343341+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-27T15:51:45.782528+00:00",
+    "itemCount": 2,
     "message": "",
     "status": "healthy"
   },
   "microsoft-agent-framework": {
-    "checkedAt": "2026-11-26T01:20:43.246932+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-27T15:51:54.670481+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
