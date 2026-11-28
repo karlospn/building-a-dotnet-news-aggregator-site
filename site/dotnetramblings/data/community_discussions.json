@@ -1,5 +1,33 @@
 [
   {
+    "id": "786db67da2bc7ed6",
+    "identityId": "reddit:Curious_Alex_2030",
+    "author": "Curious_Alex_2030",
+    "handle": "Curious_Alex_2030",
+    "platform": "reddit",
+    "publishedAt": "2026-11-28T07:57:38+00:00",
+    "excerpt": "🔥 If You Had to Build a Windows Forms App That Users Would Actually WANT to Explore, What Domain Would You Choose?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y7gnnd/if_you_had_to_build_a_windows_forms_app_that/",
+    "externalUrl": "http://vb.net/",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
+    "id": "a7b67f87b0e2c86f",
+    "identityId": "reddit:blocksaffinity",
+    "author": "blocksaffinity",
+    "handle": "blocksaffinity",
+    "platform": "reddit",
+    "publishedAt": "2026-11-27T21:57:34+00:00",
+    "excerpt": "I've been building my own modular Discord bot framework in C# -- OpenBot",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y758i4/ive_been_building_my_own_modular_discord_bot/",
+    "externalUrl": "https://github.com/blocksaffinity/OpenBot",
+    "topics": [
+      ".NET"
+    ]
+  },
+  {
     "id": "098bef67c58db122",
     "identityId": "reddit:brahimbacani",
     "author": "brahimbacani",

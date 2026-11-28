@@ -101,7 +101,7 @@
     "identityId": "scott-hanselman",
     "platform": "bluesky",
     "status": "ok",
-    "candidates": 5,
+    "candidates": 4,
     "published": 0
   },
   {
@@ -115,7 +115,7 @@
     "identityId": "reddit-dotnet",
     "platform": "reddit",
     "status": "ok",
-    "published": 18
+    "published": 20
   },
   {
     "identityId": "hacker-news",
