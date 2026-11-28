@@ -180,8 +180,8 @@
     "status": "healthy"
   },
   "infoq-dotnet": {
-    "checkedAt": "2026-11-26T11:42:40.269370+00:00",
-    "itemCount": 1,
+    "checkedAt": "2026-11-28T00:52:23.518434+00:00",
+    "itemCount": 0,
     "message": "",
     "status": "healthy"
   },
@@ -264,8 +264,8 @@
     "status": "healthy"
   },
   "meziantou": {
-    "checkedAt": "2026-11-27T15:51:45.782528+00:00",
-    "itemCount": 2,
+    "checkedAt": "2026-11-28T00:52:06.258489+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
@@ -306,8 +306,8 @@
     "status": "healthy"
   },
   "milanjovanovic": {
-    "checkedAt": "2026-11-22T18:51:23.243308+00:00",
-    "itemCount": 0,
+    "checkedAt": "2026-11-28T00:52:07.725306+00:00",
+    "itemCount": 1,
     "message": "",
     "status": "healthy"
   },
