@@ -1,5 +1,35 @@
 [
   {
+    "id": "c23b0f7dc6ea0606",
+    "identityId": "reddit:Maleficent-Bed-8781",
+    "author": "Maleficent-Bed-8781",
+    "handle": "Maleficent-Bed-8781",
+    "platform": "reddit",
+    "publishedAt": "2026-11-28T18:10:14+00:00",
+    "excerpt": "How do you keep authorization consistent across REST, GraphQL and MCP in .NET?",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y7sgvt/how_do_you_keep_authorization_consistent_across/",
+    "externalUrl": "https://github.com/Foundgine/Foundgine",
+    "topics": [
+      ".NET",
+      "Security"
+    ]
+  },
+  {
+    "id": "e634e257742ed499",
+    "identityId": "reddit:EstateDifficult9613",
+    "author": "EstateDifficult9613",
+    "handle": "EstateDifficult9613",
+    "platform": "reddit",
+    "publishedAt": "2026-11-28T09:38:59+00:00",
+    "excerpt": "Built NGEOS — Next-Generation Open-Source NGO Platform with ASP.NET Core 10 & Gemini AI",
+    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y7i8ph/built_ngeos_nextgeneration_opensource_ngo/",
+    "externalUrl": "https://github.com/syedmuhammadsaim/NGEOS",
+    "topics": [
+      ".NET",
+      "AI"
+    ]
+  },
+  {
     "id": "786db67da2bc7ed6",
     "identityId": "reddit:Curious_Alex_2030",
     "author": "Curious_Alex_2030",
@@ -167,22 +197,6 @@
     "externalUrl": "http://github.com/OnurGumus/zero-csharp",
     "topics": [
       ".NET"
-    ],
-    "alsoOn": [
-      {
-        "id": "66287a7ce58cadf9",
-        "identityId": "hacker-news:reverseblade2",
-        "author": "reverseblade2",
-        "handle": "reverseblade2",
-        "platform": "hacker-news",
-        "publishedAt": "2026-11-21T15:39:09+00:00",
-        "excerpt": "Show HN: Zero C# – C# without a runtime or GC",
-        "postUrl": "https://news.ycombinator.com/item?id=50590279",
-        "externalUrl": "https://onurgumus.github.io/zero-csharp/index.html",
-        "topics": [
-          ".NET"
-        ]
-      }
     ]
   },
   {
@@ -311,34 +325,6 @@
     "excerpt": "TodoForge 1.2.0: a free VS Code TODO tree for .NET repos, now with relative due dates and bulk actions",
     "postUrl": "https://www.reddit.com/r/dotnet/comments/1y27rm6/todoforge_120_a_free_vs_code_todo_tree_for_net/",
     "externalUrl": "https://open-vsx.org/extension/onurkarakus/todoforge",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "adfa4eed983cfee2",
-    "identityId": "reddit:gangning",
-    "author": "gangning",
-    "handle": "gangning",
-    "platform": "reddit",
-    "publishedAt": "2026-11-21T14:10:11+00:00",
-    "excerpt": "nanoql: a stateless quantitative finance library for .NET 10, derived from QuantLib and checked against it",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y1xxqa/nanoql_a_stateless_quantitative_finance_library/",
-    "externalUrl": "https://nanoql.org/docs/getting-started.html",
-    "topics": [
-      ".NET"
-    ]
-  },
-  {
-    "id": "0b0ea66a111b96a9",
-    "identityId": "reddit:harrison_314",
-    "author": "harrison_314",
-    "handle": "harrison_314",
-    "platform": "reddit",
-    "publishedAt": "2026-11-21T13:45:38+00:00",
-    "excerpt": "BouncyHsm 2.4.0 now with Aspire",
-    "postUrl": "https://www.reddit.com/r/dotnet/comments/1y1xf9g/bouncyhsm_240_now_with_aspire/",
-    "externalUrl": "https://github.com/harrison314/BouncyHsm",
     "topics": [
       ".NET"
     ]
